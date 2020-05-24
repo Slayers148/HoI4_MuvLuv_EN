@@ -1,0 +1,136 @@
+bookmarks = {
+	bookmark = {
+		name = "1999_START_NAME"
+		desc = "1999_START_DESC"
+		date = 1999.1.1.1
+		picture = "GFX_select_date_1999"
+		default_country = "JAP"
+	
+		USA = {
+			history = USA_1999_START_DESC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		EUR = {
+			history = EUR_1999_START_DESC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+			
+		}
+		UNI = {
+			history = UNI_1999_START_DESC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+			
+		}
+		JAP = {
+			history = JAP_1999_START_DESC
+			ideology = fascism
+			ideas={
+			}	
+			focuses = {
+			}		
+		}
+		SOV = {
+			history = SOV_1999_START_DESC
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		BET = {
+			history = BET_1999_START_DESC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+			
+		}
+
+		"---"={
+			history = "OTHER_1999_DESC"
+		}
+
+		# minors from DLC ####
+
+		"CAN"={
+			minor = yes
+			history = "CAN_1999_START_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"OSE"={
+			minor = yes
+			history = "OSE_1999_START_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+	
+		"CHI"={
+			minor = yes
+			history = "CHI_1999_START_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GEU"={
+			minor = yes
+			history = "GEU_1999_START_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CEA"={
+			minor = yes
+			history = "CEA_1999_START_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"SOA"={
+			minor = yes
+			history = "SOA_1999_START_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AFR"= {
+			minor = yes
+			history = "AFR_1999_START_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

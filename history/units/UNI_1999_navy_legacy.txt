@@ -1,0 +1,356 @@
+
+units = {
+
+	####### NAVAL UNITS #######
+	##### ATRANTIC FLEET #####
+	fleet = {
+		name = "第一艦隊"
+		naval_base = 3878
+		task_force = {				
+			name = "第一戦隊"
+			location = 3878
+			ship = { name = "USS ケンタッキー" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "IJN 伊勢" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ユタ" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第四戦隊" 
+			location = 3878
+			ship = { name = "USS フロリダ" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
+			ship = { name = "USS ノースダコタ" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
+			ship = { name = "USS デラウェア" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
+			ship = { name = "IJN 日向" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = JAP version_name = "Kongo Class" } } }
+		}
+		task_force = {
+			name = "第七戦隊" 
+			location = 3878
+			ship = { name = "USS サーチャー" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Mogami Class"} } }
+			ship = { name = "USS スコッツマン" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Mogami Class"} } }
+			ship = { name = "IJN 酒匂" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Mogami Class"} } }
+			ship = { name = "USS ロアノーク" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Mogami Class"} } }
+		}
+		task_force = {
+			name = "第八戦隊" 
+			location = 3878
+			ship = { name = "USS ウースター" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Aoba Class" } } }
+			ship = { name = "USS バリー" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Aoba Class" } } }
+		}
+		task_force = {
+			name = "第九戦隊" 
+			location = 3878
+			ship = { name = "USS フォレスト・シャーマン" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
+			ship = { name = "USS プレブル" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Kuma/Nagara Class" } } }
+		}
+		task_force = {
+			name = "第一水雷戦隊"
+			location = 3878
+			#Flagship
+			ship = { name = "USS デューイ" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			#第一駆逐隊
+			ship = { name = "USS ウィリアム・V・プラット" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "USS ダールグレン" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "USS マハン" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			ship = { name = "USS キング" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
+			#第六駆逐隊
+			ship = { name = "USS クーンツ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "USS マクドノー" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "USS ルース" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "USS ファラガット" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			#第十一駆逐隊
+			ship = { name = "USS ウィルキンソン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ウィリス・A・リー" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ジョン・S・マッケーン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "USS ミッチャー" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第四水雷戦隊"
+			location = 3878
+			#Flagship
+			ship = { name = "IJN 矢矧" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma/Nagara Class"} } }
+			#第四駆逐隊
+			ship = { name = "IJN 初雪" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "IJN 白雪" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "IJN 峰雪" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "IJN 浜雪" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			#第九駆逐隊
+			ship = { name = "IJN 磯雪" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Asashio Class"} } }
+			ship = { name = "IJN 沢霧" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Asashio Class"} } }
+			ship = { name = "IJN 朝霧" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Asashio Class"} } }
+			ship = { name = "IJN 浜霧" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Asashio Class"} } }
+			#第十五駆逐隊
+			ship = { name = "IJN 夕霧" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "IJN 海霧" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "IJN 島雪" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "IJN 松雪" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+		}
+	}
+	
+	##### 第二艦隊 #####
+	fleet = {
+		name = "第二艦隊"
+		naval_base = 4180
+		task_force = {
+			name = "第二戦隊"
+			location = 4180
+			ship = { name = "USS ニューハンプシャー" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "USS アイダホ" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "FS パリ" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+		}
+		task_force = {
+			name = "第五戦隊" 
+			base = 4180
+			location = 4180
+			ship = { name = "IJN 加古" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "IJN 古鷹" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "IJN 青葉" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "IJN 衣笠" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+		}
+		task_force = {
+			name = "第二水雷戦隊"
+			location = 4180
+			#Flagship
+			ship = { name = "IJN 阿賀野" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class" } } }
+			#第二駆逐隊
+			ship = { name = "USS クロード・V・リケッツ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ローレンス" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ジョン・キング" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS チャールズ・F・アダムズ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			#第七駆逐隊
+			ship = { name = "USS パーソンズ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }		
+			ship = { name = "USS サマーズ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ディケーター" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ジョン・ポール・ジョーンズ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			#第十二駆逐隊
+			ship = { name = "IJN 朝霜" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }		
+			ship = { name = "IJN 沖波" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "IJN 天津風" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "IJN 漣" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+		}
+		task_force = {
+			name = "第五水雷戦隊"
+			location = 4180
+			#Flagship
+			ship = { name = "FS セーヌ" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Yubari Class" } } }
+			#第十七駆逐隊
+			ship = { name = "IJN 鈴波" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "IJN 旭日" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "USS カニンガム" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "USS ジョセフ・ストラウス" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			#第十駆逐隊
+			ship = { name = "USS バークレイ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }		
+			ship = { name = "USS ブキャナン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS ホーエル" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "INS デリー" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			#第十六駆逐隊
+			ship = { name = "INS ムンバイ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }		
+			ship = { name = "SNG シンガポール" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMAS ダーウィン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HS アテネ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+		}
+	}
+	
+	##### 第三艦隊 #####
+	fleet = {
+		name = "第三艦隊"
+		naval_base = 12299
+		task_force = {
+			name = "第三戦隊"
+			location = 12299
+			ship = { name = "IJN 摂津" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class"} } }
+			ship = { name = "USS アイオワ" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class"} } }
+		}
+		task_force = {
+			name = "第六戦隊" 
+			location = 12299
+			ship = { name = "USS ポートランド" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS インディアナポリス" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "FGS ベルリン" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "FGS ケルン" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第三水雷戦隊"
+			location = 12299
+			#Flagship
+			ship = { name = "BRP ルソン" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP } } }
+			#第三駆逐隊
+			ship = { name = "BRP マニラ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "BRP レイテ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP } } }
+			#第八駆逐隊
+			ship = { name = "FNS ヘルシンキ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }		
+			ship = { name = "BNS ブリュッセル" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "NRP リスボン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "KD クアラルンプール" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			#第十三駆逐隊
+			ship = { name = "ROS ブカレスト" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP } } }		
+			ship = { name = "UMS ラングーン" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP } } }
+			ship = { name = "ARA ブエノスアイレス" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第一潜水戦隊" 
+			location = 12299
+			#第一潜水隊
+			ship = { name = "USS ピン" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ダラドー" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS カンバー" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第三潜水隊
+			ship = { name = "USS パンサー" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ティブロン" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS バラクーダ" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第五潜水隊
+			ship = { name = "USS バス" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ボニタ" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ニードルフィッシュ" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+		}
+		task_force = {
+			name = "第二潜水戦隊"
+			location = 12299
+			#第二潜水隊
+			ship = { name = "USS ユニ" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ウルフフィッシュ" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ホワイティング" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第四潜水隊
+			ship = { name = "USS ピカレル" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS グレナディア" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ウルア" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = JAP } } }
+			#第六潜水隊
+			ship = { name = "USS ウォールラス" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS アンバージャック" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+			ship = { name = "USS ヴォラドア" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP } } }
+		}
+	}
+
+	##### 第四艦隊 #####
+	fleet = {
+		name = "第四艦隊"
+		naval_base = 4076
+		task_force = {
+			name = "第二戦隊"
+			location = 4076
+			ship = { name = "HMS サンダラー" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "HMS コンカラー" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "HMS ヴァンガード" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+　　　　　　　　　　　　ship = { name = "HMS テメレーア" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "VM カール・マルクス" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "VM エンゲルス" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+		
+		}
+		task_force = {
+			name = "第五戦隊" 
+			base = 4076
+			location = 4076
+			ship = { name = "HMS デヴォンシャー" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "HMS インディファティガブル" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "HMS ホーク" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "HMS ネプチューン" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+		}
+		task_force = {
+			name = "第二水雷戦隊"
+			location = 4076
+			#Flagship
+			ship = { name = "HMS マーズ" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class" } } }
+			#第二駆逐隊
+			ship = { name = "USS ファース" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ニューマン・K・ペリー" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS フロイド・B・パークス" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ジョン・R・クレイグ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			#第七駆逐隊
+			ship = { name = "USS オーレック" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }		
+			ship = { name = "USS ブリンクレイ・バス" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ステイッケル" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS オヘーア" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			#第十二駆逐隊
+			ship = { name = "HMS ロンドン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }		
+			ship = { name = "HMS ファイフ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "HMS アントリム" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "HMS グラモーガン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+		}
+		task_force = {
+			name = "第五水雷戦隊"
+			location = 4076
+			#Flagship
+			ship = { name = "HMS エドガー" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Yubari Class" } } }
+			#第十七駆逐隊
+			ship = { name = "HMS シェフィールド" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS バーミンガム" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS カーディフ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS コヴェントリー" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			#第十駆逐隊
+			ship = { name = "HMS ニューカッスル" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }		
+			ship = { name = "HMS グラスゴー" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS エクセター" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS サウサンプトン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			#第十六駆逐隊
+			ship = { name = "HMS ノッティンガム" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }		
+			ship = { name = "HMS ヨーク" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS ブリストル" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS スエズ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+		}
+	}
+	
+	##### 第五艦隊 #####
+	fleet = {
+		name = "第五艦隊"
+		naval_base = 3501
+		task_force = {
+			name = "第二戦隊"
+			location = 3501
+			ship = { name = "USS ワシントン" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "HMS ハウ" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "HMS アンソン" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+	　　　　　　　　ship = { name = "SOV ソビエツキーソユーズ" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "FS リシュリュー" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+			ship = { name = "FS リヨン" definition = battleship equipment = { ship_hull_super_heavy_1 = { amount = 1 owner = JAP version_name = "Yamato Class" } } }
+		
+		}
+		task_force = {
+			name = "第五戦隊" 
+			base = 3501
+			location = 3501
+			ship = { name = "HMS ケンブリッジ" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "HMS スクラントン" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "HMS カレイジャス" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+			ship = { name = "HMS フューリアス" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "Myoko Class" } } }
+		}
+		task_force = {
+			name = "第二水雷戦隊"
+			location = 3501
+			#Flagship
+			ship = { name = "HMS センチュリオン" definition = light_cruiser equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class" } } }
+			#第二駆逐隊
+			ship = { name = "USS フェクテラー" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ダメイト" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS フォレスト・ロイアル" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ホーキンス" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			#第七駆逐隊
+			ship = { name = "USS ダンカン" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }		
+			ship = { name = "USS ヘンリー・W・タッカー" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ロジャース" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS パーキンス" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			#第十二駆逐隊
+			ship = { name = "USS ヴェゾール" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }		
+			ship = { name = "USS リアリー" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ダイス" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+			ship = { name = "USS ボーデロン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Fubuki Class" } } }
+		}
+		task_force = {
+			name = "第五水雷戦隊"
+			location = 3501
+			#Flagship
+			ship = { name = "HMS マイノトー" definition = light_cruiser equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Yubari Class" } } }
+			#第十七駆逐隊
+			ship = { name = "HMS スピアー" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS デインティ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS デアリング" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS デコイ" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			#第十駆逐隊
+			ship = { name = "HMS ディフェンダー" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }		
+			ship = { name = "HMS ライト" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS ダイアモンド" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			ship = { name = "HMS ダイアナ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP } } }
+			#第十六駆逐隊
+			ship = { name = "HMS ダッチェス" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }		
+			ship = { name = "HMS ノンサッチ" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS ハンプシャー" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+			ship = { name = "HMS オベロン" definition = destroyer equipment = { ship_hull_light_2 = {amount = 1 owner = JAP version_name = "Kagero Class"} } }
+		}
+	}

@@ -1,0 +1,35 @@
+state={
+	id=796
+	name="STATE_796"
+
+	history = {
+		1999.1.1 = { 
+			owner = H13
+			add_core_of = H13
+
+			buildings = {
+				infrastructure = 10
+				11995 = {
+					bunker = 10
+				}
+				hive = 1
+                                radar_station = 4
+			}
+
+			victory_points = {
+				11995 100
+			}
+		}
+		owner = GEU
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = UNI
+	}
+
+	provinces={
+		11995
+	}
+	manpower=35000000
+	state_category="wasteland"
+}

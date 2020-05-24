@@ -1,0 +1,32 @@
+state={
+	id=792
+	name="STATE_792"
+	manpower=500000
+	state_category = megalopolis
+
+	resources={
+		rubber=5
+	}
+
+	
+	history = {
+		owner = UNI
+		add_core_of = UNI
+		victory_points = {
+			 13220 10
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 10
+			industrial_complex = 10
+			13218 = {
+				bunker = 5
+				naval_base = 10
+				coastal_bunker = 5
+			}
+		}
+	}
+	provinces = {
+		13218
+ 	}
+}

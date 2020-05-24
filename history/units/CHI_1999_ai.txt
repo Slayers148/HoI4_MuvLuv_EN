@@ -1,0 +1,90 @@
+﻿units = {
+division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "機甲師団"
+		location = 7186
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+}division = {
+		name = "戦術機甲連隊"
+		location = 7186
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG23 = { owner = "CHI" } }
+}division = {
+		name = "戦術機甲連隊"
+		location = 7186
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG23 = { owner = "CHI" } }
+}division = {
+		name = "戦術機甲連隊"
+		location = 7186
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG23 = { owner = "CHI" } }
+}division = {
+		name = "戦術機甲連隊"
+		location = 7186
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG23 = { owner = "CHI" } }
+}division = {
+		name = "戦術機甲連隊"
+		location = 7186
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG23 = { owner = "CHI" } }
+}division = {
+		name = "戦術機甲連隊"
+		location = 7186
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG23 = { owner = "CHI" } }
+}division = {
+		name = "戦術機甲連隊"
+		location = 7186
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG23 = { owner = "CHI" } }
+}
+}

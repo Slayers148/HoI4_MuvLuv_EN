@@ -1,0 +1,24 @@
+state=
+{
+	id=163
+	name="STATE_163"
+	manpower = 18000
+	
+	state_category = enclave
+	
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+		}
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+			3943 = {
+				naval_base = 1
+			}
+		}
+	} 
+	provinces={	
+		3943 
+	}
+}

@@ -1,0 +1,47 @@
+ideas = {
+	country = {
+		#default national spirits
+
+		USA_country = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.5
+				war_support_factor = 0.5
+				consumer_goods_factor = 0.15
+			}
+		}
+
+		USA_refugees = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.45
+				weekly_manpower = 1500
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+		USA_Nuclear_Weapons_Doctrine = {
+			allowed = { always = no }
+			modifier = {
+				air_strategic_bomber_attack_factor = 0.5
+				air_strategic_bomber_defence_factor = 0.5
+				nuclear_production_factor = 0.5
+				add_equipment 100 strat_bomber_equipment_2
+			}
+		}
+		USA_Global_Transport_Arm = {
+			allowed = { always = no }
+			modifier = {
+						land_reinforce_rate = 0.05
+						army_armor_speed_factor = 0.05
+						army_morale_factor = 0.05
+			}
+		}
+			USA_Nuclear_Weapons_Stockpile = {
+			allowed = { always = no }
+			modifier = {
+						nukes = 100
+			}
+		}
+	}
+}

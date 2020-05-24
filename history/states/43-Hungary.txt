@@ -1,0 +1,41 @@
+
+state={
+	id=43
+	name="STATE_43" # Northern Hungary
+	manpower = 35000000
+	#resources={
+		#steel=3 # was: 4
+		#aluminium=100 # was: 194
+	#}
+	
+	state_category = city
+
+	history = { 1999.1.1 = { 
+			owner = H11
+			add_core_of = H11
+			
+			buildings = {
+				hive = 1
+			}
+		}
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+                        radar_station = 4
+			industrial_complex = 4
+			air_base = 4
+                                9660 = {
+                                       bunker = 10
+                                }
+		}
+		victory_points = {
+			9660 100
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		684 716 3713 3731 6716 6751 9660 9690 11520 
+	}
+}

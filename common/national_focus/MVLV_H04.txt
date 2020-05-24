@@ -1,0 +1,11 @@
+focus_tree = {
+	id = velsk_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			TAG = H04
+		}
+	}
+}

@@ -1,0 +1,169 @@
+﻿units = {
+	division = {
+		name = 戦術機甲大隊
+		location = 6103
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 6103
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 6103
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 6103
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 6103
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 7193
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 9940
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 11773
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 3838
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 9793
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 12674
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 4159
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,420 @@
+beta_tank_H17 = {
+
+	available_for = {
+		H17
+	}
+	
+	roles = {
+		beta_tank
+	}
+	
+	match_to_count = 0.5
+
+	beta_tank_default_H17 = {
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+			}
+		}
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			0.00 #-- soft_attack
+			0.00 #-- hard_attack	
+			0.00 #-- recon
+			0.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.00 #-- max_organisation
+			0.00 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.00 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 30
+			
+			regiments = {
+				MVLV_beta_tank = 20
+			}
+		}
+		
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_warrior_H17 = {
+
+	available_for = {
+		H17
+	}
+	
+	roles = {
+		beta_warrior
+	}
+	
+	match_to_count = 0.5
+
+	beta_warrior_default_H17 = {
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+			}
+		}
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			0.00 #-- soft_attack
+			0.00 #-- hard_attack	
+			0.00 #-- recon
+			0.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.00 #-- max_organisation
+			0.00 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.00 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 30
+			
+			regiments = {
+				MVLV_beta_warrior = 10
+			}
+		}
+		
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_soldier_H17 = {
+
+	available_for = {
+		H17
+	}
+	
+	roles = {
+		beta_soldier
+	}
+	
+	match_to_count = 0.5
+
+	beta_soldier_default_H17 = {
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+			}
+		}
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			0.00 #-- soft_attack
+			0.00 #-- hard_attack	
+			0.00 #-- recon
+			0.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.00 #-- max_organisation
+			0.00 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.00 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 30
+			
+			regiments = {
+				MVLV_beta_soldier = 10
+			}
+		}
+		
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+
+beta_grappler_H17 = {
+
+	available_for = {
+		H17
+	}
+	
+	roles = {
+		beta_grappler
+	}
+	
+	match_to_count = 0.5
+
+	beta_grappler_default_H17 = {
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+			}
+		}
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			0.00 #-- soft_attack
+			0.00 #-- hard_attack	
+			0.00 #-- recon
+			0.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.00 #-- max_organisation
+			0.00 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.00 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 30
+			
+			regiments = {
+				MVLV_beta_grappler = 10
+			}
+		}
+		
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_destroyer_H17 = {
+
+	available_for = {
+		H17
+	}
+	
+	roles = {
+		beta_destroyer
+	}
+	
+	match_to_count = 0.5
+
+	beta_destroyer_default_H17 = {
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+			}
+		}
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			0.00 #-- soft_attack
+			0.00 #-- hard_attack	
+			0.00 #-- recon
+			0.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.00 #-- max_organisation
+			0.00 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.00 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 30
+			
+			regiments = {
+				MVLV_beta_destroyer = 10
+			}
+		}
+		
+		allowed_types = {
+			infantry
+		}
+	}
+}
+
+beta_fort_H17 = {
+
+	available_for = {
+		H17
+	}
+	
+	roles = {
+		beta_fort
+	}
+	
+	match_to_count = 0.5
+
+	beta_fort_default_H17 = {
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 10
+			}
+		}
+		
+		target_width = 40.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+		
+		stat_weights = {
+			0.00 #-- default_morale
+			0.00 #-- defense
+			0.00 #-- breakthrough
+			0.00 #-- hardness
+			0.00 #-- soft_attack
+			0.00 #-- hard_attack	
+			0.00 #-- recon
+			0.00 #-- entrenchment
+			0.00 #-- initiative
+			0.00 #-- casualty_trickleback
+			0.00 #-- supply_consumption_factor
+			0.00 #-- supply_consumption
+			0.00 #-- suppression
+			0.00 #-- suppression_factor
+			0.00 #-- experience_loss_factor
+			0.00 #-- equipment_capture_factor
+			#-- Air Values
+			0.00 #-- air_attack
+			#-- Common Values
+			0.00 #-- max_organisation
+			0.00 #-- max_strength
+			0.00 #-- maximum_speed
+			0.00 #-- armor_value
+			0.00 #-- ap_attack
+			0.00 #-- reliability
+			0.00 #-- reliability_factor
+			0.00 #-- weight
+			0.00 #-- build_cost_ic
+		}
+		
+		target_template = {
+			weight = 30
+			
+			regiments = {
+				MVLV_beta_fort = 20
+			}
+		}
+		
+		allowed_types = {
+			infantry
+		}
+	}
+}

@@ -1,0 +1,46 @@
+
+state={
+	id=577 # Surgut
+	manpower = 29299
+	name="STATE_577"
+	resources={
+		oil=13 # was: 14
+	}
+	
+	state_category = wasteland
+
+	history = { 1999.1.1 = { 
+			owner = BET
+			remove_core_of = BET
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 8
+1726 = { bunker = 10 } 
+1768 = { bunker = 10 } 
+1784 = { bunker = 10 } 
+1856 = { bunker = 10 } 
+4730 = { bunker = 10 } 
+4771 = { bunker = 10 } 
+4817 = { bunker = 10 } 
+7685 = { bunker = 10 } 
+7781 = { bunker = 10 } 
+7837 = { bunker = 10 } 
+7882 = { bunker = 10 } 
+10533 = { bunker = 10 } 
+10561 = { bunker = 10 } 
+10663 = { bunker = 10 } 
+10692 = { bunker = 10 } 
+12514 = { bunker = 10 } 
+12542 = { bunker = 10 } 
+12574 = { bunker = 10 } 
+12639 = { bunker = 10 }
+12672 = { bunker = 10 }
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1726 1768 1784 1856 4730 4771 4817 7685 7781 7837 7882 10533 10561 10663 10692 12514 12542 12574 12639 12672 
+	}
+}

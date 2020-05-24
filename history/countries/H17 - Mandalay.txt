@@ -1,0 +1,389 @@
+capital = 640 #首都
+
+1999.1.1 = {
+	oob = "H17_1999" #陸軍テンプレート読み込み
+
+	add_to_war = { targeted_alliance = BET enemy = UNI } #戦争状態を設定
+	
+	set_technology = { #初期研究を定義
+		###陸軍ドクトリン###
+		pocket_defence = 1
+		defence_in_depth = 1
+		peoples_army = 1
+		human_infantry_offensive = 1
+		large_front_offensive = 1
+		beta_combat_tactics = 1
+		MVLV_beta_tec = 1
+		CAS1 = 1
+		fighter3 = 1
+	}
+	add_ideas = { #初期国家精神を定義
+		hive_phase_2
+		limited_exports
+		limited_conscription
+		partial_economic_mobilisation
+	}
+	
+	set_convoys = 0 #初期輸送船数を定義
+}
+set_stability = 1 #初期安定度を定義
+set_war_support = 1 #初期戦争協力度を定義
+
+set_research_slots = 0 #初期研究枠を定義
+
+army_experience = 0 #初期陸軍経験値を定義
+
+add_political_power = 2000 #初期政治力を定義
+
+add_offsite_building = { type = arms_factory level = 100 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 50 } #MAP外民需を定義
+
+set_politics = { #初期政体を定義
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = { #初期支持率を定義
+	fascism = 100
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "頭脳級"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+	
+create_country_leader = {
+	name = "頭脳級"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+}
+create_country_leader = {
+	name = "頭脳級"
+	desc = "POLITICS_Hirohito_DESC"
+	picture = "zunou.dds"
+	expire = "2040.1.1"
+	ideology = centrism
+	traits = {
+		
+	}
+}
+
+###初期将軍及び元帥を定義###
+create_field_marshal = {
+	name = "頭脳級"
+	picture = "zunou.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_field_marshal = {
+	name = "要塞級"
+	picture = "yousai.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+	name = "頭脳級"
+	picture = "zunou.dds"
+	traits = { 
+		offensive_doctrine
+		
+		politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "兵士級"
+	picture = "heisi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2号兵士級"
+	picture = "heisi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3号兵士級"
+	picture = "heisi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "光線級"
+	picture = "kousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2号光線級"
+	picture = "kousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3号光線級"
+	picture = "kousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "戦車級"
+	picture = "sensya.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2号戦車級"
+	picture = "sensya.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3号戦車級"
+	picture = "sensya.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "突撃級"
+	picture = "totugeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2号突撃級"
+	picture = "totugeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+        planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3号突撃級"
+	picture = "totugeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "闘士級"
+	picture = "tousi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2号闘士級"
+	picture = "tousi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3号闘士級"
+	picture = "tousi.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "要撃級"
+	picture = "yougeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2号要撃級"
+	picture = "yougeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3号要撃級"
+	picture = "yougeki.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "重光線級"
+	picture = "zyuukousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "2号重光線級"
+	picture = "zyuukousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+create_corps_commander = {
+	name = "3号重光線級"
+	picture = "zyuukousen.dds"
+	traits = {
+		trickster trait_engineer brilliant_strategist politically_connected
+	}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+###初期提督を定義###

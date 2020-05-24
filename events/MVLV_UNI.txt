@@ -1,0 +1,15 @@
+add_namespace = mvlv_uni
+
+country_event = {
+	id = mvlv_uni.1
+	desc = mvlv_uni.1.d
+	title = mvlv_uni.1.t
+	picture = BETA_event_1.dds
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_uni.1.a
+		add_to_faction = FROM
+	}
+}

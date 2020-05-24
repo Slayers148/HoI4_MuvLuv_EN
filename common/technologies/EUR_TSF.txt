@@ -1,0 +1,754 @@
+technologies = {
+
+###TSF###
+	
+	EUR_basic_concept_research= {
+
+#コスト、開始年#
+		research_cost = 1
+		start_year = 1970
+#完了したらどうなるか#
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_tsf"
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+#どれに繋がるか#
+		path = {
+			leads_to_tech = F5E
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = F4E
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_asa_1st
+			research_cost_coeff = 1
+		}
+#フォルダ、カテゴリ#
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 0 y = 0 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	
+	F5E = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F5E
+		}
+
+		research_cost = 2
+		start_year = 1976
+
+		#F14#
+		path = {
+			leads_to_tech = F5A
+			research_cost_coeff = 1
+		}
+		#F16#
+		path = {
+			leads_to_tech = M2000
+			research_cost_coeff = 1
+		}
+		#F18#
+		path = {
+			leads_to_tech = JA37
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_Assault_gun_improvement
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 3 y = 2 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F4E = {
+
+		enable_equipments = {
+			tsf_equipment_F4E
+		}
+
+		research_cost = 2
+		start_year = 1976
+
+
+		path = {
+			leads_to_tech = F15EU
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_Assault_gun_improvement
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -3 y = 2 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	JA37 = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_JA37
+		}
+
+		research_cost = 2
+		start_year = 1986
+
+		path = {
+			leads_to_tech = JA39
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 6 y = 8 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	M2000 = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_M2000
+		}
+
+		research_cost = 2
+		start_year = 1981
+
+		path = {
+			leads_to_tech = RAF
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 3 y = 6 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}
+	
+	F15EU = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F15EU
+		}
+
+		research_cost = 2
+		start_year = 1983
+
+		
+		
+		path = {
+			leads_to_tech = F15EEU
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -3 y = 6 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F5A = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F5A
+		}
+
+		research_cost = 2
+		start_year = 1982
+
+		
+		path = {
+			leads_to_tech = EF2000
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 0 y = 6 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	MVLV_Assault_gun_improvement = {
+
+		research_cost = 1
+		start_year = 1978
+
+		MVLV_tsf_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		MVLV_asa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		MVLV_tsa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+
+#		path = {
+#			leads_to_tech = MVLV_2nd_tsf_low
+#			research_cost_coeff = 1
+#		}
+#		path = {
+#			leads_to_tech = MVLV_2nd_tsf_high
+#			research_cost_coeff = 1
+#		}
+
+		path = {
+			leads_to_tech = MVLV_Jumping_unit_improvement
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 8 y = 5 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	RAF = {
+
+		enable_equipments = {
+			tsf_equipment_RAF
+		}
+
+		research_cost = 2
+		start_year = 1998
+		
+		path = {
+			leads_to_tech = SW
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 3 y = 12 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	SW = {
+
+		enable_equipments = {
+			tsf_equipment_SW
+		}
+
+		research_cost = 2
+		start_year = 2004
+
+		
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 3 y = 14 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F15EEU = {
+
+		enable_equipments = {
+			tsf_equipment_F15EEU
+		}
+
+		research_cost = 2
+		start_year = 1994
+
+		path = {
+			leads_to_tech = F15SEEU
+			research_cost_coeff = 1
+		}
+		
+		
+		
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -3 y = 10 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	JA39 = {
+
+		enable_equipments = {
+			tsf_equipment_JA39
+		}
+
+		research_cost = 2
+		start_year = 1996
+
+
+#		path = {
+#			leads_to_tech = MVLV_Su37_tsf
+#			research_cost_coeff = 1
+#		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 6 y = 10 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	EF2000 = {
+
+		enable_equipments = {
+			tsf_equipment_EF2000
+		}
+
+		research_cost = 2
+		start_year = 1999
+
+
+#		path = {
+#			leads_to_tech = MVLV_Jumping_unit_improvement
+#			research_cost_coeff = 1
+#		}
+		path = {
+			leads_to_tech = Tempest
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 0 y = 12 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+	}	
+	
+	Tempest = {
+
+		enable_equipments = {
+			tsf_equipment_Tempest
+		}
+
+		research_cost = 2
+		start_year = 2004
+
+#		path = {
+#			leads_to_tech = F35E
+#			research_cost_coeff = 1
+#		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 0 y = 14 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	MVLV_Jumping_unit_improvement = {
+
+		research_cost = 1
+		start_year = 1990
+		
+		MVLV_tsf_battalion = {
+			maximum_speed = 0.05
+		}
+		
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.05
+		}
+
+
+#		path = {
+#			leads_to_tech = MVLV_3rd_tsf_low
+#			research_cost_coeff = 1
+#		}
+#		path = {
+#			leads_to_tech = MVLV_3rd_tsf_high
+#			research_cost_coeff = 1
+#		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = 8 y = 9 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F15SEEU = {
+
+		enable_equipments = {
+			tsf_equipment_F15SEEU
+		}
+
+		research_cost = 2
+		start_year = 2002
+
+		path = {
+			leads_to_tech = F35E
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -3 y = 12 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F35E = {
+
+		enable_equipments = {
+			tsf_equipment_F35E
+		}
+
+		research_cost = 2
+		start_year = 2004
+
+#		path = {
+#			leads_to_tech = F35E
+#			research_cost_coeff = 1
+#		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -3 y = 14 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+
+	
+###ASA###
+	
+	MVLV_asa_1st = {
+
+		enable_equipments = {
+			asa_equipment_0
+		}
+
+		research_cost = 2
+		start_year = 1977
+
+		path = {
+			leads_to_tech = MVLV_Manipulator_improvement
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = MVLV_tsa_1st
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -6 y = 4 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+	MVLV_Manipulator_improvement = {
+
+		research_cost = 1
+		start_year = 1980
+		
+		MVLV_asa_battalion = {
+			maximum_speed = 0.05
+		}
+		
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.05
+		}
+
+		path = {
+			leads_to_tech = MVLV_Carrying_ammunition_increase
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -6 y = 8 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+	MVLV_Carrying_ammunition_increase = {
+
+		research_cost = 1
+		start_year = 1990
+		
+		MVLV_asa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		MVLV_tsa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+
+		path = {
+			leads_to_tech = MVLV_asa_2nd
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -6 y = 10 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+	MVLV_asa_2nd = {
+
+		enable_equipments = {
+			asa_equipment_1
+		}
+
+		research_cost = 2
+		start_year = 1997
+
+		path = {
+			leads_to_tech = MVLV_
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -6 y = 12 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+###TSA###	
+	
+	MVLV_tsa_1st = {
+
+		enable_equipments = {
+			tsa_equipment_0
+		}
+
+		research_cost = 2
+		start_year = 1978
+
+		folder = {
+			name = EUR_tsf_folder
+			position = { x = -8 y = 6 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+}

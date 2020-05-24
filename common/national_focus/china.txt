@@ -1,0 +1,280 @@
+focus_tree = {
+	id = china_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = CHI
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+	reset_on_civilwar = no
+
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
+	
+	focus = {
+		id = CHI_defend_strait
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 2
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.1
+			every_owned_state = {
+				limit = { is_fully_controlled_by = CHI }
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = CHI_mobilize_refugee
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = CHI_defend_strait
+		prerequisite = { focus = CHI_defend_strait }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_manpower = 1000000
+			add_offsite_building = { type = arms_factory level = 30 }
+			training_time_factor = -0.1
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = CHI_preparing_counterattack
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = CHI_mobilize_refugee
+		prerequisite = { focus = CHI_mobilize_refugee }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 30 }
+			training_time_factor = -0.1
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+	
+	focus = {
+		id = CHI_strengthen_taiwang_government
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = -1
+		y = 1
+		relative_position_id = CHI_preparing_counterattack
+		prerequisite = { focus = CHI_preparing_counterattack }
+		mutually_exclusive = { focus = CHI_strengthen_communists }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = CHI_shrink_communists
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = CHI_strengthen_taiwang_government
+		prerequisite = { focus = CHI_strengthen_taiwang_government }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CHI_one_country_two_systems_1
+				add_idea = CHI_one_country_two_systems_2
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	
+	focus = {
+		id = CHI_strengthen_communists
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 2
+		y = 1
+		relative_position_id = CHI_preparing_counterattack
+		prerequisite = { focus = CHI_preparing_counterattack }
+		mutually_exclusive = { focus = CHI_strengthen_taiwang_government }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.2			
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+	
+	focus = {
+		id = CHI_attack_taiwang_government
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = CHI_strengthen_communists
+		prerequisite = { focus = CHI_strengthen_communists }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = { CHI_communist_terror }
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = CHI_propose_compromise
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = -1
+		y = 1
+		relative_position_id = CHI_attack_taiwang_government
+
+		prerequisite = { focus = CHI_attack_taiwang_government }
+		mutually_exclusive = { focus = CHI_take_government }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = CHI_one_country_two_systems_1
+				add_idea = CHI_one_country_two_systems_3
+			}
+			remove_ideas = { CHI_communist_terror }
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = CHI_take_government
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 1
+		y = 1
+		relative_position_id = CHI_attack_taiwang_government
+		prerequisite = { focus = CHI_attack_taiwang_government }
+		mutually_exclusive = { focus = CHI_propose_compromise }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = {
+			set_politics = {
+				ruling_party = communism
+			}
+			remove_ideas = { CHI_communist_terror CHI_one_country_two_systems_1 }
+			add_timed_idea = { idea = CHI_instant_government days = 270 }
+		}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+}
+
+

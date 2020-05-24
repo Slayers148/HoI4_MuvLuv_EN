@@ -1,0 +1,24 @@
+ideas = {
+	country = {
+		OSE_food = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.20
+				war_support_factor = -0.15
+				consumer_goods_factor = -0.03
+			}
+		}
+
+		OSE_refugees = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.30
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.2
+			}
+		}
+	}
+}

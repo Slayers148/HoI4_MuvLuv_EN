@@ -1,0 +1,45 @@
+state={
+	id=675
+	name="STATE_675"
+	manpower = 65000000
+	
+	state_category = city
+#	resources={
+#		steel=50
+#		oil=50
+#		aluminium=50
+#		rubber=5
+#		tungsten=50
+#		chromium=50
+#	}
+	
+	history = { 
+		1999.1.1 = { 
+			owner = H09
+			add_core_of = H09
+			
+			victory_points = {
+				1631 100
+			}
+			
+			buildings = {
+				hive = 1
+                                radar_station = 4
+			}
+		}
+		owner = IRQ
+		buildings = {
+			infrastructure = 1
+1631 = { bunker = 10 }  
+4951 = { bunker = 10 }  
+10744 = { bunker = 10 }  
+12413 = { bunker = 10 }  
+12879 = { bunker = 10 }  
+		}
+		add_core_of = IRQ
+	}
+	
+	provinces={
+		1631 4951 10744 12413 12879 
+	}
+}

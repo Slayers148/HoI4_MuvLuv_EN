@@ -1,0 +1,450 @@
+focus_tree = {
+	id = japan_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 1000
+			tag = JAP
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+	reset_on_civilwar = no
+
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
+	
+	focus = {
+		id = JAP_capital_denfensive_line
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 9
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			every_owned_state = {
+				limit = { any_neighbor_state = { is_controlled_by = any_enemy_country } }
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+
+					}
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_move_capital_to_sendai
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_capital_denfensive_line
+		prerequisite = { focus = JAP_capital_denfensive_line }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			533 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_preparation_for_operation_bright_star
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_move_capital_to_sendai
+		prerequisite = { focus = JAP_move_capital_to_sendai }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			activate_decision = operation_bright_star
+			
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+	
+	focus = {
+		id = JAP_reconquest
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_preparation_for_operation_bright_star
+		prerequisite = { focus = JAP_preparation_for_operation_bright_star }
+		#mutually_exclusive = { }
+		available = { 531 = { is_fully_controlled_by = JAP  } }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_timed_idea = { idea = JAP_reconquest_idea days = 365 }
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	
+	# operations branch
+	
+	focus = {
+		id = JAP_yokohama_base_construction
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = -1
+		y = 1
+		relative_position_id = JAP_reconquest
+		prerequisite = { focus = JAP_reconquest }
+		#mutually_exclusive = { focus =  }
+		available = { 531 = { is_fully_controlled_by = JAP  } }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 35
+		#select_effect = { }
+		completion_reward = {
+			530 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			529 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			528 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			532 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			535 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			531 = {
+				add_extra_state_shared_building_slots = 25
+				set_building_level = {
+					type = bunker
+					level = 10
+					instant_build = yes
+					province = {
+						all_provinces = yes
+					}
+				}
+				set_building_level = {
+					type = rader_station
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = anti_air_building
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = air_base
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = JAP_alternative_iv_project
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_yokohama_base_construction
+		prerequisite = { focus = JAP_yokohama_base_construction }
+		#mutually_exclusive = { focus = }
+		available = { ROOT = { has_country_flag = altervative_iv_leader } }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			set_country_flag = kazuki_yuuko
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_operation_kou_21_preparation
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_alternative_iv_project
+		prerequisite = { focus = JAP_alternative_iv_project }
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			country_event = kou_21.1
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_operation_kou_20_preparation
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_operation_kou_21_preparation
+		prerequisite = { focus = JAP_operation_kou_21_preparation }
+		#mutually_exclusive = { focus = }
+		available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			country_event = kou_20.1
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	
+	focus = {
+		id = JAP_operation_cherry_blossom
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_operation_kou_20_preparation
+		prerequisite = { focus = JAP_operation_kou_20_preparation }
+		#mutually_exclusive = { focus = }
+		available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			country_event = kou_21.1
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	
+	
+	########### reconstruction branch ############
+	
+	focus = {
+		id = JAP_western_japan_reconstruction_project
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 1
+		y = 1
+		relative_position_id = JAP_reconquest
+		prerequisite = { focus = JAP_reconquest }
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_timed_idea = { idea = western_japan_reconstruction days = 730 }
+		} 
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_prepare_for_anothe_BETA_landing
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_western_japan_reconstruction_project
+		prerequisite = { focus = JAP_western_japan_reconstruction_project }
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			528 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}			
+			}
+			529 ={
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+		} 
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_reestablish_far_east_defensive_line
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_prepare_for_anothe_BETA_landing
+		prerequisite = { focus = JAP_prepare_for_anothe_BETA_landing }
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		} 
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_expand_imperial_guard_forces
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_reestablish_far_east_defensive_line
+		prerequisite = { focus = JAP_reestablish_far_east_defensive_line }
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			load_oob = "JAP_imperial_guards"
+		} 
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = JAP_reconstruction_of_imperial_capital
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = JAP_expand_imperial_guard_forces
+		prerequisite = { focus = JAP_expand_imperial_guard_forces }
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 1
+		#select_effect = { }
+		completion_reward = {
+			531 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}			
+			}
+		} 
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+}

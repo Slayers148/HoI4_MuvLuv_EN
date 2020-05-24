@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_beta_event_1"
+		texturefile = "gfx/event_pictures/BETA_event_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mvlv_start_event"
+		texturefile = "gfx/event_pictures/MVLV_Start_event.dds"
+	}
+}

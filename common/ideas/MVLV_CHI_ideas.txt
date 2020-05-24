@@ -1,0 +1,103 @@
+ideas = {
+	country = {
+		#default national spirits
+
+		CHI_pride_of_small_nation = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				war_support_factor = 0.2
+			}
+		}
+		
+		CHI_overseas_chinese_network = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				consumer_goods_factor = -0.3
+				research_speed_factor = -0.15
+			}
+		}
+		
+		CHI_one_country_two_systems_1 = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = -0.05
+			}
+		}
+
+		CHI_one_country_two_systems_2 = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = 0.1
+			}
+		}
+
+		CHI_one_country_two_systems_3 = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.05
+			}
+		}
+
+		CHI_communist_terror = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				war_support_factor = -0.1
+				production_speed_buildings_factor = -0.2
+			}
+		}
+
+		CHI_instant_government = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				political_power_factor = -0.05
+				production_speed_buildings_factor = -0.15
+			}
+		}
+			CHI_Nuclear_Weapons_Doctrine = {
+			allowed = { always = no }
+			modifier = {
+				air_strategic_bomber_attack_factor = 0.5
+				air_strategic_bomber_defence_factor = 0.5
+				nuclear_production_factor = 0.5
+				add_equipment 50 strat_bomber_equipment_2
+			}
+		}
+			CHI_Nuclear_Weapons_Stockpile = {
+			allowed = { always = no }
+			modifier = {
+						nukes = 50
+			}
+		}
+	}
+}

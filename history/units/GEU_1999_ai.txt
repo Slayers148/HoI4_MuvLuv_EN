@@ -1,0 +1,121 @@
+﻿units = {
+	division = {
+		name = 機甲師団
+		location = 4312
+		division_template = "機甲師団"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 機甲師団
+		location = 4312
+		division_template = "機甲師団"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 機甲師団
+		location = 4312
+		division_template = "機甲師団"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 機甲師団
+		location = 4312
+		division_template = "機甲師団"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 機甲師団
+		location = 4312
+		division_template = "機甲師団"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 機甲師団
+		location = 4312
+		division_template = "機甲師団"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 7381
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 7381
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 7381
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 7381
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+	
+	division = {
+		name = 戦術機甲連隊
+		location = 7381
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 7381
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 7381
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+	
+	division = {
+		name = 戦術機甲大隊
+		location = 7381
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
+}

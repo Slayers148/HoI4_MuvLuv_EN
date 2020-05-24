@@ -1,0 +1,166 @@
+ideas = {
+	country = {
+#		BET_ideas_1 = {
+#			allowed = { always = no }
+#			removal_cost = -1
+#			modifier = { attack_bonus_against = 5 }
+#		}
+#
+#		BET_ideas_2 = {
+#			allowed = { always = no }
+#			removal_cost = -1
+#			modifier = { defense_bonus_against = 5 }
+#		}
+
+		hive_thinning_state = {
+			allowed = { always = no }
+			cost = 50
+			removal_cost = 10
+			modifier = {
+				weekly_manpower = -50000
+			}
+		}
+		
+		hive_recently_phaseUp = {
+			allowed = { always = no }
+			modifier = {
+				
+			}
+		}
+		
+		beta_speed_up_production = {
+			allowed = { always = no }
+			cost = 50
+			removal_cost = 10
+			modifier = {
+				training_time_army_factor = -0.15
+			}
+		}
+
+		hive_phase_1 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 30000
+				army_attack_factor = -0.2
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = -0.10
+				land_reinforce_rate = 0.05
+			}
+		}
+		
+		hive_phase_2 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 40000
+				army_attack_factor = -0.2
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.15
+				land_reinforce_rate = 0.10
+			}
+		}
+		
+		hive_phase_3 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 50000
+				army_attack_factor = -0.15
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.25
+				land_reinforce_rate = 0.15
+			}
+		}
+		
+		hive_phase_4 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 70000
+				army_attack_factor = -0.15
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.20
+				land_reinforce_rate = 0.20
+			}
+		}
+		
+		hive_phase_5 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 95000
+				army_attack_factor = -0.10
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.25
+				land_reinforce_rate = 0.20
+			}
+		}
+		
+		hive_phase_6 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 120000
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.3
+				land_reinforce_rate = 0.20
+			}
+		}
+		
+		hive_phase_7 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 170000
+				army_attack_factor = 0.30
+				army_defence_factor = 0.1
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.3
+				land_reinforce_rate = 0.20
+				training_time_army_factor = -0.3
+				minimum_training_level = -0.3
+			}
+		}
+		
+		hive_phase_8 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 220000
+				army_attack_factor = 0.7
+				army_defence_factor = 0.2
+				army_core_attack_factor = 0.35
+				army_core_defence_factor = 0.4
+				land_reinforce_rate = 0.30
+				experience_loss_factor = -1.0
+				training_time_army_factor = -0.4
+				minimum_training_level = -0.4
+			}
+		}
+		
+		hive_phase_9 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 320000
+				army_attack_factor = 0.8
+				army_defence_factor = 0.4
+				army_core_attack_factor = 0.40
+				army_core_defence_factor = 0.5
+				land_reinforce_rate = 0.40
+				experience_loss_factor = -2.0
+				training_time_army_factor = -0.5
+				minimum_training_level = -0.5
+			}
+		}
+
+		mvlv_standby_sado = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				weekly_manpower = -20000
+
+				#ai
+				army_attack_factor = -1.25
+				army_defence_factor = 0.25
+				army_speed_factor = -1.25
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+sub_units = {
+
+	MVLV_xg_battalion = {
+		sprite = "xg"
+		map_icon_category = armored
+		priority = 2500
+		ai_priority = 3000
+		active = yes
+		
+		type = {
+			armor
+		}
+		
+		group = armor
+		
+		categories = {
+			category_MVLV_xg
+			category_front_line
+			category_army
+			category_tanks
+		}		
+		
+		combat_width = 40
+
+		need = {
+			xg_equipment = 1
+		}
+		manpower = 600
+		max_organisation = 4000
+		max_strength = 100
+		default_morale = 0.1
+		training_time = 400
+		weight = 0.0
+		supply_consumption = 0.0
+
+		forest = {
+			attack = 0.9
+			movement = 0.9
+		}
+
+		hills = {
+			attack = 0.9
+			movement = 0.9
+		}
+
+		mountain = {
+			attack = 0.9
+			movement = 0.9
+		}
+
+		jungle = {
+			attack = 0.9
+			movement = 0.9
+		}
+
+		marsh = {
+			attack = 0.9
+			movement = 0.9
+		}
+
+		fort = {
+			attack = 0.9
+			movement = 0.9
+		}
+
+		river = {
+			attack = 0.9
+			movement = 0.9
+		}
+
+		amphibious = {
+			attack = 0.9
+			movement = 0.9
+		}
+	}
+}

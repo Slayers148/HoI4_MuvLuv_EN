@@ -1,0 +1,35 @@
+technologies = {
+	# BETA ONLY!
+	MVLV_beta_tec = {
+
+		research_cost = 1
+
+		# only from country file or event!###
+		allow = {
+			always = no
+		}
+
+#		folder = {
+#			name = MVLV_tsf_folder
+#		}
+
+		enable_equipments = {
+			beta_soldier_0
+			beta_warrior_0
+			beta_tank_0
+			beta_grappler_0
+			beta_destroyer_0
+			beta_fort_0
+                        beta_srf_0
+		}
+
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_bet"
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+	}
+}

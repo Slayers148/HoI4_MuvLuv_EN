@@ -1,0 +1,70 @@
+
+state={
+	id=20
+	name="STATE_20" # Rhone
+	manpower = 35000000
+	#resources={
+		#steel=50
+		#oil=50
+		#aluminium=50
+		#rubber=5
+		#tungsten=50
+		#chromium=50
+	#}
+
+	state_category = city
+
+	history = { 
+		1999.1.1 = { 
+			owner = H12
+			add_core_of = H12
+
+			#ブダペスト陥落用
+			add_claim_by = H11
+			
+			victory_points = {
+				6613 100
+			}
+			
+			buildings = {
+				hive = 1
+			}
+		}
+		
+		owner = FRA
+		victory_points = {
+			6613 10
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+                        641 = {bunker = 10}
+                        3650 = {bunker = 10}
+                        3770 = {bunker = 10} 
+                        6613 = {bunker = 10} 
+                        6639 = {bunker = 10} 
+                        6668 = {bunker = 10} 
+                        6786 = {bunker = 10} 
+                        9590 = {bunker = 10} 
+                        9728 = {bunker = 10} 
+                        9732 = {bunker = 10} 
+                        11593 = {bunker = 10} 
+                        11716 = {bunker = 10} 
+                        11794 = {bunker = 10} 
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+                                radar_station = 4
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		641 3650 3770 6613 6639 6668 6786 9590 9728 9732 11593 11716 11794 
+	}
+}

@@ -1,0 +1,6 @@
+﻿l_english:
+ thinning_operation:1 "Decimation strategy for [From.GetName]"
+ thinning_operation_desc:0 "Since the expansion of [From.GetName] may saturate the population of BETA, humanity will regularly conduct decimation operations on the hive while sacrificing their strength."
+ beta:0 "BETA"
+ beta_speed_up_production:1 "[Root.GetName] sense of crisis"
+ beta_speed_up_production_desc:0 "{Root.GetName} 's strength expansion has been accelerated by the fierce battle of humanity."

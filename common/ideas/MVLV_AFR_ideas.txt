@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		AFR_tsf_license = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {}
+		}
+
+		AFR_eu_support = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		AFR_eua = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				min_export = 0.25
+				stability_factor = -0.30
+				production_factory_start_efficiency_factor = 0.25
+				production_factory_efficiency_gain_factor = -0.25
+			}
+		}
+
+	}
+}

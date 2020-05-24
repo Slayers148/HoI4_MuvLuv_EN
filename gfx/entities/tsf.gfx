@@ -1,0 +1,28 @@
+objectTypes = {
+	pdxmesh = {
+		name = "generic_tsf_mesh"
+		file = "gfx/models/units/tsf/generic_tsf.mesh"
+
+#		animation = { id = "attack"			type = "generic_tsf_attack_animation" }
+#		animation = { id = "idle"			type = "generic_tsf_idle_animation" }
+#		animation = { id = "move"			type = "generic_tsf_moving_animation" }
+	}
+	
+	pdxmesh = {
+		name = "JAP_generic_tsf_mesh"
+		file = "gfx/models/units/tsf/JAP_generic_tsf.mesh"
+
+#		animation = { id = "attack"			type = "JAP_generic_tsf_attack_animation" }
+#		animation = { id = "idle"			type = "JAP_generic_tsf_idle_animation" }
+#		animation = { id = "move"			type = "JAP_generic_tsf_moving_animation" }
+	}
+	
+	pdxmesh = {
+		name = "SOV_generic_tsf_mesh"
+		file = "gfx/models/units/tsf/SOV_generic_tsf.mesh"
+
+#		animation = { id = "attack"			type = "SOV_generic_tsf_attack_animation" }
+#		animation = { id = "idle"			type = "SOV_generic_tsf_idle_animation" }
+#		animation = { id = "move"			type = "SOV_generic_tsf_moving_animation" }
+	}
+}

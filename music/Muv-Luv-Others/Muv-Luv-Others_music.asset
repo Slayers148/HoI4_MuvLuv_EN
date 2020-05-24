@@ -1,0 +1,52 @@
+# Muvluv_Others:
+
+music = {
+	name = "Others_01"
+	file = "Ayami - Apocalypse of Destiny_1.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_02"
+	file = "Doubt the world.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_03"
+	file = "Go-to-the-top.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_04"
+	file = "INSANITY.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_05"
+	file = "Muv-Luv Alternative Total Eclipse - OST.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_06"
+	file = "Relayers　(再誕).ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_07"
+	file = "208 Battle 1.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_08"
+	file = "210 Climax battle.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_09"
+	file = "212 A sudden crisis.ogg"
+	volume = 0.65
+}
+music = {
+	name = "Others_10"
+	file = "214 Power to destroy.ogg"
+	volume = 0.65
+}

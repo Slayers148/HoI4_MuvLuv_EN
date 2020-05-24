@@ -1,0 +1,62 @@
+state={
+	id=588
+	name="STATE_588"
+	
+	state_category = rural
+	
+	resources={
+		chromium=16 # was: 22.000
+	}
+
+	history = {
+		1999.1.1 = { 
+			owner = BET
+			remove_core_of = BET
+		}
+		owner = SOV
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 4
+			1287 = { bunker = 10 }
+			1749 = { bunker = 10 }
+			1818 = { bunker = 10 }
+			1864 = { bunker = 10 }
+			1879 = { bunker = 10 }
+			4661 = { bunker = 10 }
+			4670 = { bunker = 10 }
+			4674 = { bunker = 10 }
+			4685 = { bunker = 10 }
+			4867 = { bunker = 10 }
+			7317 = { bunker = 10 }
+			7350 = { bunker = 10 }
+			7708 = { bunker = 10 }
+			7890 = { bunker = 10 }
+			10161 = { bunker = 10 }
+			10202 = { bunker = 10 }
+			10218 = { bunker = 10 }
+			10235 = { bunker = 10 }
+			10292 = { bunker = 10 }
+			10584 = { bunker = 10 }
+			10610 = { bunker = 10 }
+			10630 = { bunker = 10 }
+			10653 = { bunker = 10 }
+			12427 = { bunker = 10 }
+			12564 = { bunker = 10 }
+			12594 = { bunker = 10 }
+			12616 = { bunker = 10 }
+			12635 = { bunker = 10 }
+			13151 = { bunker = 10 }
+
+		}
+		add_core_of = SOV
+		victory_points = {
+			12594 1
+		}
+	}
+
+	provinces={
+		1287 1749 1818 1864 1879 4661 4670 4674 4685 4867 7317 7350 7708 7890 10161 10202 10218 10235 10292 10584 10610 10630 10653 12427 12564 12594 12616 12635 13151 
+	}
+	manpower=659223
+	buildings_max_level_factor=1.000
+}

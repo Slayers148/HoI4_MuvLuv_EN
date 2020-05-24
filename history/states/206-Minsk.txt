@@ -1,0 +1,61 @@
+
+state={
+	id=206
+	name="STATE_206"
+	manpower = 35000000
+	
+	state_category = city
+	
+#	resources={
+#		steel=50
+#		oil=50
+#		aluminium=50
+#		rubber=5
+#		tungsten=50
+#		chromium=50
+#	}
+
+	history = { 1999.1.1 = { 
+			owner = H05
+			add_core_of = H05
+			
+			buildings = {
+				hive = 1
+			}
+		}
+		owner = SOV
+		victory_points = {
+			11370 100
+		}
+		victory_points = {
+			9289 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 8
+                        216 = { bunker = 10 }  
+                        294 = { bunker = 10 } 
+                        342 = { bunker = 10 } 
+                        3267 = { bunker = 10 } 
+                        3378 = { bunker = 10 } 
+                        6292 = { bunker = 10 }
+                        9289 = { bunker = 10 }
+                        11216 = { bunker = 10 } 
+                        11322 = { bunker = 10 } 
+                        11370 = { bunker = 10 } 
+		}
+		add_core_of = SOV
+		add_core_of = BLR
+		1939.1.1 = {
+			buildings = {
+                                radar_station = 4
+				industrial_complex = 3
+			}
+		}
+	}
+
+	provinces={
+		216 294 342 3267 3378 6292 9289 11216 11322 11370 
+	}
+}

@@ -1,0 +1,56 @@
+ideas = {
+	country = {
+		GEU_jp_support = {
+			allowed = { always = no }
+			modifier = {
+				production_speed_arms_factory_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		GEU_ast_support = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.1
+			}
+		}
+
+		GEU_jacaruta = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				industrial_capacity_factory =-0.10
+				stability_factor = -0.10
+				war_support_factor = -0.25
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.02
+			}
+		}
+		
+		GEU_Borneo_Development = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.02
+			}
+		}
+				GEU_Japanese_Military_Aid = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+					offence = 0.1
+			}
+		}
+	}
+}

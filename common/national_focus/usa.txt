@@ -1,0 +1,129 @@
+focus_tree = {
+	id = USA_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = USA
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+	reset_on_civilwar = no
+
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
+	
+	focus = {
+		id = USA_Arsenal_Of_Humanity
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 2
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 50 }
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = USA_mobilize_refugee
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = USA_Arsenal_Of_Humanity
+		prerequisite = { focus = USA_Arsenal_Of_Humanity }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_manpower = 1500000
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.10
+					}
+				}
+			add_political_power = -100
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = USA_Support_Global_War_Effort
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 2
+		relative_position_id = USA_Arsenal_Of_Humanity
+		prerequisite = { focus = USA_mobilize_refugee }
+		mutually_exclusive = { focus = USA_Prepare_Post_BETA_Conflict }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			UNI = {	add_offsite_building = { type = arms_factory level = 15 }}
+			OSE = {	add_offsite_building = { type = arms_factory level = 15 }}
+			EUR = {	add_offsite_building = { type = arms_factory level = 15 }}
+			GER = {	add_offsite_building = { type = arms_factory level = 15 }}
+			CEA = {	add_offsite_building = { type = arms_factory level = 15 }}
+			SOA = {	add_offsite_building = { type = arms_factory level = 15 }}
+			AFR = {	add_offsite_building = { type = arms_factory level = 15 }}
+			JAP = {	add_offsite_building = { type = arms_factory level = 15 }}
+			CAN = {	add_offsite_building = { type = arms_factory level = 15 }}
+			CHI = {	add_offsite_building = { type = arms_factory level = 15 }}
+			SOV = {	add_offsite_building = { type = arms_factory level = 15 }}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+
+	focus = {
+		id = USA_Prepare_Post_BETA_Conflict
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 1
+		y = 2
+		relative_position_id = USA_Arsenal_Of_Humanity
+		prerequisite = { focus = USA_mobilize_refugee }
+		mutually_exclusive = { focus = USA_Support_Global_War_Effort }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 165 }
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+}

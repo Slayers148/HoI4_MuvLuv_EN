@@ -1,0 +1,271 @@
+capital = 524 #首都
+
+1999.1.1 = {
+	oob = "CHI_1999" #陸軍テンプレート読み込み
+
+	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
+	
+	set_technology = { #初期研究を定義
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		motorised_infantry = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_engineers2 = 1
+		tech_engineers3 = 1
+		tech_engineers4 = 1
+		tech_recon = 1
+		tech_recon2 = 1	
+		tech_recon3 = 1
+		tech_recon4 = 1	
+		tech_field_hospital = 1
+		tech_field_hospital2 = 1
+		tech_field_hospital3 = 1
+		tech_field_hospital4 = 1
+		tech_logistics_company = 1
+		tech_logistics_company2 = 1	
+		tech_logistics_company3 = 1
+		tech_logistics_company4 = 1
+		tech_military_police = 1
+		tech_military_police2 = 1
+		tech_military_police3 = 1
+		tech_military_police4 = 1
+		tech_maintenance_company = 1
+		tech_maintenance_company2 = 1
+		tech_maintenance_company3 = 1
+		tech_maintenance_company4 = 1
+		tech_signal_company = 1
+		tech_signal_company2 = 1
+		tech_signal_company3 = 1
+		tech_signal_company4 = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		rocket_artillery = 1
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_medium_tank = 1
+		advanced_medium_tank = 1
+		improved_medium_tank = 1
+		antiair5 = 1
+					basic_medium_spaa =1
+		early_destroyer = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		mtg_tank_landing_craft  = 1
+		fleet_in_being = 1
+		fighter1 = 1
+		CAS2 = 1
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		assembly_line_production = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		construction5 = 1		
+		fuel_silos = 1
+		fuel_refining = 1
+		streamlined_line = 1
+		interwar_antiair = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+		dispersed_industry5 = 1
+		improved_decryption =1
+		atomic_research = 1
+		nuclear_reactor = 1
+		nukes = 1
+		
+		###陸軍ドクトリン###
+		superior_firepower = 1
+		
+		###TSF
+		MVLV_basic_concept_research = 1
+		MVLV_1st_tsf_low = 1
+		MVLV_1st_tsf_high = 1
+		MVLV_MiG23_tsf = 1
+		MVLV_MiG27_tsf = 1
+		SOV_Assault_gun_improvement = 1
+		MVLV_MiG31_tsf = 1
+		MVLV_MiG29_tsf = 1
+		MVLV_2nd_tsf_low = 1
+		MVLV_2nd_tsf_high = 1
+#		MVLV_Su37_tsf = 1
+		SOV_Jumping_unit_improvement = 1
+		A6S = 1
+		SOV_Manipulator_improvement = 1
+		SOV_Carrying_ammunition_increase = 1
+		
+		###軍需・民需建築許可###
+		MVLV_EnableBuilding_arms_factory = 1
+		MVLV_EnableBuilding_industrial_complex = 1
+	}
+	
+	add_tech_bonus = { #工業バフ
+		name = industry
+		bonus =1000
+		uses = 5 
+		category = concentrated_industry_category
+		category = dispersed_industry_category
+	}	
+	
+	add_tech_bonus = { #ラインバフ
+		name = line
+		bonus =1000
+		uses = 1 
+		technology = flexible_line
+		technology = streamlined_line
+	}
+	
+	add_ideas = { #初期国家精神を定義
+		limited_exports
+		service_by_requirement
+		war_economy
+		CHI_pride_of_small_nation
+		CHI_overseas_chinese_network
+		CHI_one_country_two_systems_1
+		UNI_global_food_crisis
+		mvlv_nuclear_winter
+		mvlv_prominence_problem
+		mvlv_parmanent
+		mvlv_arms_build_up
+		CHI_Nuclear_Weapons_Doctrine
+		CHI_Nuclear_Weapons_Stockpile
+	}
+	
+	set_convoys = 1200 #初期輸送船数を定義
+}
+set_stability = 0.2 #初期安定度を定義
+set_war_support = 0.5 #初期戦争協力度を定義
+
+#set_research_slots = 3 #初期研究枠を定義
+
+army_experience = 500 #初期陸軍経験値を定義
+
+add_political_power = 0 #初期政治力を定義
+
+add_offsite_building = { type = arms_factory level = 40 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 10 } #MAP外民需を定義
+add_offsite_building = { type = dockyard level = 5 } #MAP外海軍工廠を定義
+
+set_politics = { #初期政体を定義
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = { #初期支持率を定義
+	neutrality = 100
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "統一政府"
+	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = despotism
+	traits = {
+		generallissimo
+	}
+}
+
+create_country_leader = {
+	name = "Zhang Guotao"
+	desc = "POLITICS_ZHANG_GUOTAO_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+	expire = "2040.1.1"
+	ideology = leninism
+	traits = {
+		cornered_fox
+	}
+}
+
+create_country_leader = {
+	name = "Wang Jingwei"
+	desc = "POLITICS_WANG_JINGWEI_DESC"
+	picture = "GFX_portrait_chi_wang_jingwei"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Weng Wenhao" 
+	desc = "POLITICS_ZHANG_LAN_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+	expire = "2040.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+###初期将軍及び元帥を定義###
+create_field_marshal = {
+	name = "崔 亦菲"
+	picture = "66.dds"
+	traits = { trickster trait_engineer defensive_doctrine trait_cautious armor_officer harsh_leader }
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "リー・リンメイ"
+	picture = "43.dds"
+	traits = { offensive_doctrine trait_reckless brilliant_strategist war_hero }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "ワン シャオフェン"
+	picture = "78.dds"
+	traits = {  offensive_doctrine trait_reckless career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "ルー ヤフア"
+	picture = "79.dds"
+	traits = { defensive_doctrine trait_cautious infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Sun Li Jen"
+	picture = "29.dds"
+	traits = { brilliant_strategist }
+	skill = 2
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+###初期提督を定義###

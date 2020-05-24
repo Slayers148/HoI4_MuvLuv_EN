@@ -1,0 +1,399 @@
+sub_units = {
+	MVLV_beta_soldier = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 100
+		ai_priority = 100
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 1
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 8000
+		default_morale = 40
+		manpower = 800
+
+		#Misc Abilities
+		training_time = 1
+		suppression = 30
+		weight = 0.0
+		
+		supply_consumption = 0.0
+		
+		river = {
+			attack = 0.3
+		}
+
+		amphibious = {
+			attack = 0.4
+		}
+                
+                fort = {
+			attack = 0.2
+			defence = 0.1
+		}
+
+		need = {
+			beta_soldier = 40
+		}
+	}
+
+	MVLV_beta_warrior = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 610
+		ai_priority = 210
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 1
+		
+		#Size Definitions
+		max_strength = 20
+		max_organisation = 8000
+		default_morale = 40
+		manpower = 50
+
+		#Misc Abilities
+		training_time = 1
+		suppression = 30
+		weight = 0.0
+		
+		supply_consumption = 0.0
+		
+		river = {
+			attack = 0.3
+		}
+
+		amphibious = {
+			attack = 0.4
+		}
+                
+                fort = {
+			attack = 0.2
+			defence = 0.1
+		}
+
+		need = {
+			beta_warrior = 40
+		}
+	}
+
+	MVLV_beta_tank = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 610
+		ai_priority = 210
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 1
+		
+		#Size Definitions
+		max_strength = 48
+		max_organisation = 8000
+		default_morale = 40
+		manpower = 200
+
+		#Misc Abilities
+		training_time = 1
+		suppression = 30
+		weight = 0.0
+		
+		supply_consumption = 0.0
+		
+		river = {
+			attack = 0.3
+		}
+
+		amphibious = {
+			attack = 0.4
+		}
+                
+                fort = {
+			attack = 0.2
+			defence = 0.1
+		}
+
+		need = {
+			beta_tank = 40
+		}
+	}
+	
+	MVLV_beta_grappler = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 610
+		ai_priority = 210
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 40
+		max_organisation = 8000
+		default_morale = 40
+		manpower = 400
+
+		#Misc Abilities
+		training_time = 1
+		suppression = 30
+		weight = 0.0
+		
+		supply_consumption = 0.0
+		
+		river = {
+			attack = 0.3
+		}
+
+		amphibious = {
+			attack = 0.4
+		}
+                
+                fort = {
+			attack = 0.2
+			defence = 0.1
+		}
+
+		need = {
+			beta_grappler = 500
+		}
+	}
+	
+	MVLV_beta_destroyer = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 610
+		ai_priority = 210
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 35
+		max_organisation = 8000
+		default_morale = 40
+		manpower = 400
+
+		#Misc Abilities
+		training_time = 1
+		suppression = 30
+		weight = 0.0
+		
+		supply_consumption = 0.0
+		
+		river = {
+			attack = 0.3
+		}
+
+		amphibious = {
+			attack = 0.4
+		}
+                
+                fort = {
+			attack = 0.2
+			defence = 0.1
+		}
+
+		need = {
+			beta_destroyer = 50
+		}
+	}
+	
+	MVLV_beta_srf = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 710
+		ai_priority = 2000
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 40
+		
+		#Size Definitions
+		max_strength = 523
+		max_organisation = 8000
+		default_morale = 9
+		manpower = 80000
+
+		#Misc Abilities
+		training_time = 2050
+		suppression = 30
+		weight = 0.0
+		
+		supply_consumption = 0.0
+
+		forest = {
+			attack = 0.9
+		}
+
+		hills = {
+                        attack = 0.9
+		}
+
+		mountain = {
+                        attack = 0.9
+		}
+
+		jungle = {
+			attack = 0.9
+		}
+
+		marsh = {
+			attack = 0.9
+		}
+
+		fort = {
+			attack = 0.9
+		}
+
+		river = {
+			attack = 0.9
+		}
+
+		amphibious = {
+			attack = 0.9
+		}
+
+		need = {
+			beta_srf = 1
+		}
+	}
+	
+	MVLV_beta_fort = {
+		sprite = infantry
+		map_icon_category = infantry
+		
+		priority = 610
+		ai_priority = 210
+		active = no
+		
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_light_infantry
+			category_all_infantry
+			category_army
+		}		
+		
+		combat_width = 2
+		
+		#Size Definitions
+		max_strength = 36
+		max_organisation = 8000
+		default_morale = 40
+		manpower = 500
+
+		#Misc Abilities
+		training_time = 1
+		suppression = 30
+		weight = 0.0
+		
+		supply_consumption = 0.0
+		
+		river = {
+			attack = 0.3
+		}
+
+		amphibious = {
+			attack = 0.4
+		}
+                
+                fort = {
+			attack = 0.2
+			defence = 0.1
+		}
+
+		need = {
+			beta_fort = 60
+		}
+	}
+
+}

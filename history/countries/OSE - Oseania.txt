@@ -1,0 +1,293 @@
+﻿capital = 285 #首都
+
+1999.1.1 = {
+	oob = "OSE_1999" #陸軍テンプレート読み込み
+
+	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
+	
+	set_technology = { #初期研究を定義
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		motorised_infantry = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_engineers2 = 1
+		tech_engineers3 = 1
+		tech_engineers4 = 1
+		tech_recon = 1
+		tech_recon2 = 1	
+		tech_recon3 = 1
+		tech_recon4 = 1	
+		tech_field_hospital = 1
+		tech_field_hospital2 = 1
+		tech_field_hospital3 = 1
+		tech_field_hospital4 = 1
+		tech_logistics_company = 1
+		tech_logistics_company2 = 1	
+		tech_logistics_company3 = 1
+		tech_logistics_company4 = 1
+		tech_military_police = 1
+		tech_military_police2 = 1
+		tech_military_police3 = 1
+		tech_military_police4 = 1
+		tech_maintenance_company = 1
+		tech_maintenance_company2 = 1
+		tech_maintenance_company3 = 1
+		tech_maintenance_company4 = 1
+		tech_signal_company = 1
+		tech_signal_company2 = 1
+		tech_signal_company3 = 1
+		tech_signal_company4 = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		rocket_artillery = 1
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_medium_tank = 1
+		advanced_medium_tank = 1
+		improved_medium_tank = 1
+		early_destroyer = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		mtg_tank_landing_craft  = 1
+		fleet_in_being = 1
+		fighter1 = 1
+		CAS2 = 1
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		assembly_line_production = 1
+					basic_medium_spaa =1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		construction5 = 1		
+		fuel_silos = 1
+		fuel_refining = 1
+		streamlined_line = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+		dispersed_industry5 = 1
+		interwar_antiair = 1
+		antiair5 = 1
+		improved_decryption =1
+		
+		###陸軍ドクトリン###
+		
+		###TSF###
+		generic_basic_concept_research = 1
+		generic_1st_tsf_low = 1
+		generic_1st_tsf_high = 1
+		generic_Assault_gun_improvement = 1
+		generic_2nd_tsf_low = 1
+		generic_F14_tsf_high = 1
+		generic_2nd_tsf_F18 = 1
+		generic_2nd_tsf_F18E/F = 1
+		generic_Jumping_unit_improvement = 1
+		generic_asa_1st = 1
+		generic_Manipulator_improvement = 1
+		generic_Carrying_ammunition_increase = 1
+		generic_tsa_1st = 1
+		generic_tsf_equipment_4g = 1
+		
+		###軍需・民需建築許可###
+		MVLV_EnableBuilding_arms_factory = 1
+		MVLV_EnableBuilding_industrial_complex = 1
+	}
+	
+	add_tech_bonus = { #工業バフ
+		name = industry
+		bonus =1000
+		uses = 5 
+		category = concentrated_industry_category
+		category = dispersed_industry_category
+	}	
+	
+	add_tech_bonus = { #ラインバフ
+		name = line
+		bonus =1000
+		uses = 1 
+		technology = flexible_line
+		technology = streamlined_line
+	}
+	
+	add_ideas = { #初期国家精神を定義
+		mvlv_nuclear_winter
+		mvlv_prominence_problem
+		OSE_refugees
+		OSE_food
+		mvlv_parmanent
+		mvlv_arms_build_up
+	}
+	
+	set_convoys = 500 #初期輸送船数を定義
+}
+set_stability = 0.8 #初期安定度を定義
+set_war_support = 0.3 #初期戦争協力度を定義
+
+set_research_slots = 4 #初期研究枠を定義
+
+army_experience = 500 #初期陸軍経験値を定義
+
+add_political_power = 0 #初期政治力を定義
+
+add_offsite_building = { type = arms_factory level = 45 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 80 } #MAP外民需を定義
+#add_offsite_building = { type = dockyard level = 5 } #MAP外海軍工廠を定義
+
+set_politics = { #初期政体を定義
+	ruling_party = democratic
+	last_election = "1934.9.15"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = { #初期支持率を定義
+	democratic = 98
+	communism = 2
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "John Curtin"
+	desc = "POLITICS_JOHN_CURTIN_DESC"
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Eric Campbell"
+	desc = "POLITICS_ERIC_CAMPBELL_DESC"
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Richard Dixon"
+	desc = "POLITICS_RICHARD_DIXON_DESC"
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Earle Page"
+	desc = "POLITICS_EARLE_PAGE_DESC"
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rod Hull"
+	desc = ""
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+###初期将軍及び元帥を定義###
+create_corps_commander = {
+	name = "Leslie Morshead"
+	gfx = "GFX_AST_leslie_morshead"
+	traits = { }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 5
+    logistics_skill = 2
+}
+
+
+
+create_corps_commander = {
+	name = "Thomas Blamey"
+	gfx = "GFX_AST_thomas_blamey"
+	traits = { }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 3
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Henry Wynter"
+	gfx = "GFX_AST_henry_wynter"
+	traits = { }
+	skill = 4
+    attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Alan Vasey"
+	gfx = "GFX_AST_alan_vasey"
+	traits = { hill_fighter }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Horace Robertson"
+	gfx = "GFX_AST_horace_robertson"
+	traits = { desert_fox }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 3
+    logistics_skill = 3
+}
+create_corps_commander = {
+	name = "John Northcott"
+	gfx = "GFX_AST_john_northcott"
+	traits = { armor_officer}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+###初期提督を定義###
+create_navy_leader = {
+	name = "Harold Farncomb"
+	gfx = "GFX_AST_harold_farncomb"
+	traits = { air_controller }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Victor Crutchley"
+	gfx = "GFX_AST_victor_crutchley"
+	traits = { }
+	skill = 3
+}

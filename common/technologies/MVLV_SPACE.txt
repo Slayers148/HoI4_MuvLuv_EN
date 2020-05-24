@@ -1,0 +1,22 @@
+technologies = {
+	# Human ONLY!
+	MVLV_space_tec = {
+
+		research_cost = 1
+
+		# only from country file or event!###
+		allow = {
+			always = no
+		}
+
+#		folder = {
+#			name = MVLV_tsf_folder
+#		}
+
+		enable_equipments = {
+                         antilaser_equipment_0
+                         spacedestroyer_equipment_0
+		}
+
+	}
+}

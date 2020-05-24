@@ -1,0 +1,48 @@
+
+state={
+	id=574
+	name="STATE_574" # Yakutsk
+	manpower = 407866
+	
+	state_category = wasteland
+
+	history = { 1999.1.1 = { 
+			owner = H25
+			remove_core_of = H25
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 8
+			air_base = 1
+1748 = { bunker = 10 } 
+1795 = { bunker = 10 } 
+1852 = { bunker = 10 } 
+1878 = { bunker = 10 } 
+4726 = { bunker = 10 } 
+4752 = { bunker = 10 } 
+4798 = { bunker = 10 } 
+4821 = { bunker = 10 } 
+4855 = { bunker = 10 } 
+7746 = { bunker = 10 } 
+7765 = { bunker = 10 } 
+7817 = { bunker = 10 } 
+7844 = { bunker = 10 } 
+7889 = { bunker = 10 } 
+10589 = { bunker = 10 } 
+10608 = { bunker = 10 } 
+10641 = { bunker = 10 }
+10667 = { bunker = 10 } 
+10701 = { bunker = 10 } 
+10714 = { bunker = 10 } 
+12565 = { bunker = 10 } 
+12611 = { bunker = 10 } 
+12623 = { bunker = 10 } 
+12694 = { bunker = 10 }
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1748 1795 1852 1878 4726 4752 4798 4821 4855 7746 7765 7817 7844 7889 10589 10608 10641 10667 10701 10714 12565 12611 12623 12694 
+	}
+}

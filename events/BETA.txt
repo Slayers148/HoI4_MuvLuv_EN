@@ -1,0 +1,310 @@
+﻿add_namespace = BETA
+
+# 開始時にBETAの土地を荒廃させる
+
+country_event = {
+	id = BETA.1
+	desc = BETA.1.d
+	title = BETA.1.t
+	picture = BETA_event_1
+	fire_only_once = yes
+	is_triggered_only = yes
+	#trigger = {
+	#	OR = {
+	#		tag = BET
+	#		
+	#	}
+	#}
+	#mean_time_to_happen = {
+	#	days = 0
+	#}
+	option ={
+		name = BETA.1.a
+		every_state = {
+			limit = {
+				OR = {
+					is_owned_by = BET
+					is_owned_by = H26
+					is_owned_by = H25
+					is_owned_by = H21
+					is_owned_by = H20
+					is_owned_by = H19
+					is_owned_by = H17
+					is_owned_by = H16
+					is_owned_by = H13
+					is_owned_by = H12
+					is_owned_by = H11
+					is_owned_by = H10
+					is_owned_by = H09
+					is_owned_by = H08
+					is_owned_by = H05
+					is_owned_by = H04
+					is_owned_by = H03
+					is_owned_by = H02
+				}
+				is_capital = no
+			}
+			set_state_category = betaland 
+		}
+	}
+}
+
+#BETAの新たな支配領域を荒廃させる
+
+#定期的にフラグを切り替える
+#主にAI切り替え用で使用
+country_event = {
+	id = BETA.2
+	desc = BETA.2.d
+	title = BETA.2.t
+	picture = BETA_event_1.dds
+	fire_only_once = no
+	
+	trigger = {
+		is_in_faction_with = BET
+		date > 1999.1.15
+		NOT = { 
+			has_country_flag = disabled_aggressive_beta
+			has_idea = mvlv_standby_sado
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 60
+	}
+	
+	option ={
+		if = {
+			limit = {
+				has_idea = mvlv_aggressive_beta
+			}
+			remove_ideas = { mvlv_aggressive_beta }
+			
+			else = {
+				add_ideas = { mvlv_aggressive_beta }
+			}
+		}
+		if = {
+			limit = {
+				has_global_flag = easy_world
+				NOT = { has_idea = mvlv_aggressive_beta }
+			}
+			set_country_flag = disabled_aggressive_beta
+		}
+	}
+}
+
+#定期的にフラグをクリアする
+#ソロプレイを選択した場合にBETAの攻勢間隔を多少優しくする
+country_event = {
+	id = BETA.3
+	desc = BETA.3.d
+	title = BETA.3.t
+	picture = BETA_event_1.dds
+	fire_only_once = no
+	
+	trigger = {
+		is_in_faction_with = BET
+		date > 1999.1.15
+		has_country_flag = disabled_aggressive_beta
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+	
+	option ={
+		clr_country_flag = diabled_aggressive_beta
+	}
+}
+
+#ハイヴ陥落時BETA師団配置
+country_event = {
+	id = BETA.4
+	desc = BETA.4.d
+	title = BETA.4.t
+	picture = BETA_event_1
+	fire_only_once = no
+
+	trigger = {
+		is_in_faction_with = BET
+		has_war = yes
+		capital_scope = {
+			NOT = { is_fully_controlled_by = ROOT }
+		}
+		
+		NOT = { has_country_flag = surrender_country }
+	}
+	
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		set_country_flag = surrender_country
+		log = "[Root.GetName]:surrender"
+		every_neighbor_country = {
+			if = {
+				limit = {
+					is_in_faction_with = BET
+					has_war = yes
+					surrender_progress < 0.2
+				}
+
+				log = "[This.GetName]:neighbor"
+
+				if = {
+					limit = {
+						NOT = { has_idea = mvlv_aggressive_beta }
+					}
+					add_ideas = mvlv_aggressive_beta
+				}
+
+
+				#BETAユニットを中核州に配置
+				every_owned_state = {
+					if = {
+						limit = {
+							is_claimed_by = ROOT
+						}
+						#Tank
+						create_unit = {
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+	
+						#Soldier
+						create_unit = {
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+	
+						#Warrior
+						create_unit = {
+							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+	
+						#Grappler
+						create_unit = {
+							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						
+						#Destroyer
+						create_unit = {
+							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+						create_unit = {
+							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+	
+						#Fort
+						create_unit = {
+							division = "name = \"Fort class division\" division_template = \"Fort class division\" start_experience_factor = 0.1" 
+							owner = PREV
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = srf.1
+	title = srf.1.t
+	desc = srf.1.d
+	is_triggered_only = no
+	picture = BETA_event_1
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = H26
+		has_war = yes
+		date > 2001.12.25
+	}
+	
+	mean_time_to_happen = {
+		days = 10
+	}
+
+	option = {
+
+		if = {
+			limit = {
+				NOT = { has_idea = mvlv_aggressive_beta }
+				}
+				add_ideas = mvlv_aggressive_beta
+				}
+		every_owned_state = {
+				if = {
+					limit = {
+						is_claimed_by = ROOT
+						}
+		create_unit = {
+			division = "name = \"Г標的\" division_template = \"SRF class division\" start_experience_factor = 1" 
+			owner = H26
+			}
+	news_event = { id = mvlv_srf.1 hours = 3 }
+	}
+}

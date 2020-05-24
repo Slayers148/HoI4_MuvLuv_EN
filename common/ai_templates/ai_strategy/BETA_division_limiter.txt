@@ -1,0 +1,247 @@
+###BETAの師団数を制限します。###
+###ハイヴフェイズのアイデアをチェック###
+
+division_limiter = {
+	enable = {
+		set_temp_variable = {
+			upper_limit = 1
+		}
+
+		#____________________________________________________________
+		###プレイヤー国が至近にいる場合
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_war = yes
+				date > 1998.12.31
+				
+				any_neighbor_country = {
+					is_ai = no
+				}
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_PlayerNearby
+			}
+		}
+
+		#____________________________________________________________
+		###プレイヤーの数で分岐
+		if = {
+			#2人
+			limit = {
+				is_in_faction_with = BET
+				has_war = yes
+				date > 1998.12.31
+				check_variable = { global.var_playercount = 2 }
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_PlayerLow
+			}
+		}
+		else_if = {
+			#3～5人
+			limit = {
+				is_in_faction_with = BET
+				has_war = yes
+				date > 1998.12.31
+				check_variable = { global.var_playercount > 2 }
+				check_variable = { global.var_playercount < 6 }
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_PlayerMid
+			}
+		}
+		else_if = {
+			#6人以上
+			limit = {
+				is_in_faction_with = BET
+				has_war = yes
+				date > 1998.12.31
+				check_variable = { global.var_playercount > 5 }
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_PlayerHigh
+			}
+		}
+		
+		#____________________________________________________________
+		###BET国降伏値0.2～
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				NOT = {original_tag = BET}
+				has_war = yes
+				date > 1998.12.31
+				BET = {surrender_progress > 0.2}
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_LosingFlag
+			}
+		}
+		
+		#____________________________________________________________
+		###BET国のみ有効
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				original_tag = BET
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_BET
+			}
+		}
+		
+		#____________________________________________________________
+		###間引き中
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_thinning_state
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_thinning
+			}
+		}
+		
+		#____________________________________________________________
+		###フェイズ毎
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_1
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_1
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_2
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_2
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_3
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_3
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_4
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_4
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_5
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_5
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_6
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_6
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_7
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_7
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_8
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_8
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = BET
+				has_idea = hive_phase_9
+				has_war = yes
+				date > 1998.12.31
+			}
+			multiply_temp_variable = {
+				upper_limit = var_hive_divisions_limit_9
+			}
+		}
+		check_variable = {
+			num_divisions > upper_limit
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = build_army
+		id = beta_tank
+		value = -300
+	}
+	ai_strategy = {
+		type = build_army
+		id = beta_soldier
+		value = -300
+	}
+	ai_strategy = {
+		type = build_army
+		id = beta_warrior
+		value = -300
+	}
+	ai_strategy = {
+		type = build_army
+		id = beta_grappler
+		value = -300
+	}
+	ai_strategy = {
+		type = build_army
+		id = beta_fort
+		value = -300
+	}
+	ai_strategy = {
+		type = build_army
+		id = beta_destroyer
+		value = -300
+	}
+}

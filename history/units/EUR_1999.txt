@@ -1,0 +1,1033 @@
+﻿division_template = {
+	name = "欧州連合対BETA防衛師団"		
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "機械化装甲歩兵師団"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "機甲師団"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "戦術機甲連隊"
+	regiments = {
+		MVLV_tsf_battalion= { x = 0 y = 0 }
+		MVLV_tsf_battalion= { x = 0 y = 1 }
+		MVLV_tsf_battalion= { x = 0 y = 2 }
+		MVLV_tsf_battalion= { x = 1 y = 0 }
+		MVLV_tsf_battalion= { x = 1 y = 1 }
+		MVLV_tsf_battalion= { x = 1 y = 2 }
+		MVLV_tsf_battalion= { x = 2 y = 0 }
+		MVLV_tsf_battalion= { x = 2 y = 1 }
+		MVLV_tsf_battalion= { x = 2 y = 2 }
+		MVLV_tsf_battalion= { x = 2 y = 3 }
+
+	}
+	priority = 2
+}
+division_template = {
+	name = "戦術機甲大隊"
+	regiments = {
+		MVLV_tsf_battalion= { x = 0 y = 0 }
+		MVLV_tsf_battalion= { x = 0 y = 1 }
+		MVLV_tsf_battalion= { x = 0 y = 2 }
+		MVLV_tsf_battalion= { x = 0 y = 3 }
+		MVLV_tsf_battalion= { x = 0 y = 4 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "戦術攻撃機大隊"
+	regiments = {
+		MVLV_tsa_battalion= { x = 0 y = 0 }
+		MVLV_tsa_battalion= { x = 0 y = 1 }
+		MVLV_tsa_battalion= { x = 0 y = 2 }
+		MVLV_tsa_battalion= { x = 1 y = 0 }
+		MVLV_tsa_battalion= { x = 1 y = 1 }
+
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "ロケット砲兵旅団"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		rocket_artillery_brigade = { x = 1 y = 0 }
+		rocket_artillery_brigade = { x = 1 y = 1 }
+		rocket_artillery_brigade = { x = 1 y = 2 }
+		rocket_artillery_brigade = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "砲兵旅団"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "海兵大隊"
+	regiments = {
+		MVLV_asa_battalion= { x = 0 y = 0 }
+		MVLV_asa_battalion= { x = 0 y = 1 }
+		MVLV_asa_battalion= { x = 0 y = 2 }
+		MVLV_asa_battalion= { x = 1 y = 0 }
+		MVLV_asa_battalion= { x = 1 y = 1 }
+
+	}
+	priority = 0
+}
+division_template = {
+	name = "戦術攻撃機連隊"
+	regiments = {
+		MVLV_tsa_battalion= { x = 0 y = 0 }
+		MVLV_tsa_battalion= { x = 0 y = 1 }
+		MVLV_tsa_battalion= { x = 0 y = 2 }
+		MVLV_tsa_battalion= { x = 1 y = 0 }
+		MVLV_tsa_battalion= { x = 1 y = 1 }
+		MVLV_tsa_battalion= { x = 1 y = 2 }
+		MVLV_tsa_battalion= { x = 2 y = 0 }
+		MVLV_tsa_battalion= { x = 2 y = 1 }
+		MVLV_tsa_battalion= { x = 2 y = 2 }
+		MVLV_tsa_battalion= { x = 2 y = 3 }
+
+	}
+	priority = 0
+}
+division_template = {
+	name = "沿岸防衛師団1"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		MVLV_tsf_battalion = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "防衛防衛師団2"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		MVLV_tsf_battalion = { x = 1 y = 0 }
+		MVLV_tsf_battalion = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "沿岸防衛師団1"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		MVLV_tsf_battalion = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "防衛防衛師団2"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		MVLV_tsf_battalion = { x = 1 y = 0 }
+		MVLV_tsf_battalion = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+units = {
+	###TSF
+	#____________________________________________________________
+	division = {
+		name = "戦術機甲連隊"
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+	}
+        division = {
+		name = "要撃師団"
+		location = 6103
+		division_template = "戦術攻撃機大隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "要撃師団"
+		location = 6103
+		division_template = "戦術攻撃機大隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "要撃師団"
+		location = 6103
+		division_template = "戦術攻撃機大隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "要撃師団"
+		location = 6103
+		division_template = "戦術攻撃機大隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "要撃師団"
+		location = 6103
+		division_template = "戦術攻撃機大隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "要撃師団"
+		location = 6103
+		division_template = "戦術攻撃機大隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "要撃師団"
+		location = 6103
+		division_template = "戦術攻撃機連隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "機械化装甲歩兵師団"
+		location = 6103
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "機械化装甲歩兵師団"
+		location = 6103
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "機械化装甲歩兵師団"
+		location = 6103
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "機械化装甲歩兵師団"
+		location = 6103
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "機械化装甲歩兵師団"
+		location = 6103
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "ロケット砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "ロケット砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "ロケット砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "ロケット砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "支援砲撃師団"
+		location = 6103
+		division_template = "砲兵旅団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "海兵大隊"
+		location = 6103
+		division_template = "海兵大隊"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 6103
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+	division = {
+		name = "戦術機甲連隊"
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "戦術機甲連隊"
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_M2000 = { owner = "EUR" } }
+	}
+	division = {
+		name = "戦術機甲連隊"
+		location = 6103
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "戦術機甲連隊"
+		location = 9484
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_M2000 = { owner = "EUR" } }
+	}
+	division = {
+		name = "戦術機甲連隊"
+		location = 9484
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+	}
+	division = {
+		name = "戦術機甲連隊"
+		location = 9484
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_M2000 = { owner = "EUR" } }
+	}
+	division = {
+		name = "戦術機甲連隊"
+		location = 9484
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+	}
+	division = {
+		name = "戦術機甲連隊"
+		location = 9484
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_M2000 = { owner = "EUR" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 9484
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 9484
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+	}
+	division = {
+		name = "ツェルベルス大隊"
+		location = 9484
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 1
+	}
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+        division = {
+		name = "防衛師団"
+		location = 9484
+		division_template = "欧州連合対BETA防衛師団"
+		start_experience_factor = 0.2
+        }
+	division = {
+		name = "戦術機甲大隊"
+		location = 9484
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+	}
+	
+	#____________________________________________________________
+	division = {
+		name = "機甲師団"
+		location = 540
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 540
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 540
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 3501
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 3501
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 3501
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9458
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9458
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9458
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 6103
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = 戦術機甲大隊
+		location = 4159
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = 戦術機甲大隊
+		location = 4159
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {
+		name = 戦術機甲大隊
+		location = 4159
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+	}
+	division = {
+		name = 戦術機甲大隊
+		location = 4159
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+	}
+	division = {
+		name = スレイプニル小隊
+		location = 13244
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_JA39 = { owner = "EUR" } }
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 4159
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9484
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9484
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9484
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9484
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 9484
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "海外派遣軍"
+		location = 4073
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_RAF = { owner = "EUR" } }
+	}
+	division = {
+		name = "海外派遣軍"
+		location = 4073
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "海外派遣軍"
+		location = 4073
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "機甲師団"
+		location = 4073
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	
+}
+
+### Air oob
+air_wings = {
+	
+	125 = { 	
+		fighter_equipment_1 =  {
+			owner = "EUR" 
+			amount = 320
+		}
+		name = "砲撃部隊"
+		transport_plane_equipment_1 = {
+			owner = "EUR" 
+			amount = 5
+		}
+		name = "欧州連合宇宙軍"
+		CAS_equipment_2 =  {
+			owner = "EUR" 
+			amount = 380
+		}
+		name = "砲撃部隊"
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "EUR"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "EUR" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "EUR" 
+		}
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_0
+			creator = "EUR" 
+		}
+		requested_factories = 5
+		progress = 0.2
+		efficiency = 30
+	}
+        
+        add_equipment_production = {
+		equipment = {
+			type = medium_tank_equipment_1
+			creator = "EUR" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+}

@@ -1,0 +1,1197 @@
+technologies = {
+
+###TSF###
+	
+	UNI_basic_concept_research= {
+
+#コスト、開始年#
+		research_cost = 1
+		start_year = 1970
+#完了したらどうなるか#
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_tsf"
+			}
+
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+#どれに繋がるか#
+		path = {
+			leads_to_tech = F5U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = F4U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = T94U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = M23U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = A6U
+			research_cost_coeff = 1
+		}
+#フォルダ、カテゴリ#
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = -1 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	
+	F5U = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F5U
+		}
+
+		research_cost = 2
+		start_year = 1976
+
+		#F14#
+		path = {
+			leads_to_tech = F14U
+			research_cost_coeff = 1
+		}
+		#F16#
+		path = {
+			leads_to_tech = M2000U
+			research_cost_coeff = 1
+		}
+		#F18#
+		path = {
+			leads_to_tech = T94U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = M23U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = UNI_Assault_gun_improvement
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 1 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F4U = {
+
+		enable_equipments = {
+			tsf_equipment_F4U
+		}
+
+		research_cost = 2
+		start_year = 1976
+
+
+		path = {
+			leads_to_tech = F14U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = M2000U
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = UNI_Assault_gun_improvement
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 1 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	JA37U = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_JA37U
+		}
+
+		research_cost = 2
+		start_year = 1986
+
+		path = {
+			leads_to_tech = JA39U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 7 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	M2000U = {
+		enable_equipments = {
+			tsf_equipment_M2000U
+		}
+
+		research_cost = 2
+		start_year = 1981
+
+		path = {
+			leads_to_tech = F5AU
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 3 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}
+	F16U = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F16U
+		}
+
+		research_cost = 2
+		start_year = 1986
+
+		
+		
+		path = {
+			leads_to_tech = F18U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -3 y = 7 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F15U = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F15U
+		}
+
+		research_cost = 2
+		start_year = 1983
+
+		
+		
+		path = {
+			leads_to_tech = F16U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -3 y = 5 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	F14U = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F14U
+		}
+
+		research_cost = 2
+		start_year = 1982
+
+		
+		
+		path = {
+			leads_to_tech = F15U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -3 y = 3 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F18U = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F18U
+		}
+
+		research_cost = 2
+		start_year = 1987
+
+		
+		
+		path = {
+			leads_to_tech = F15EUN
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -3 y = 9 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F5AU = {
+#解放される装備#
+		enable_equipments = {
+			tsf_equipment_F5AU
+		}
+
+		research_cost = 2
+		start_year = 1982
+
+		
+		path = {
+			leads_to_tech = JA37U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 5 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	UNI_Assault_gun_improvement = {
+
+		research_cost = 1
+		start_year = 1978
+
+		MVLV_tsf_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		MVLV_asa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		MVLV_tsa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+
+#		path = {
+#			leads_to_tech = MVLV_2nd_tsf_low
+#			research_cost_coeff = 1
+#		}
+#		path = {
+#			leads_to_tech = MVLV_2nd_tsf_high
+#			research_cost_coeff = 1
+#		}
+
+		path = {
+			leads_to_tech = UNI_Jumping_unit_improvement
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 8 y = 5 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	RAFU = {
+
+		enable_equipments = {
+			tsf_equipment_RAFU
+		}
+
+		research_cost = 2
+		start_year = 1998
+		
+		path = {
+			leads_to_tech = EF2000U
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 11 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F15EUN = {
+
+		enable_equipments = {
+			tsf_equipment_F15EUN
+		}
+
+		research_cost = 2
+		start_year = 1994
+
+		path = {
+			leads_to_tech = F15SEU
+			research_cost_coeff = 1
+		}
+		
+		
+		
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -3 y = 11 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	JA39U = {
+
+		enable_equipments = {
+			tsf_equipment_JA39U
+		}
+
+		research_cost = 2
+		start_year = 1996
+
+
+		path = {
+			leads_to_tech = RAFU
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 9 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	EF2000U = {
+
+		enable_equipments = {
+			tsf_equipment_EF2000U
+		}
+
+		research_cost = 2
+		start_year = 2000
+
+
+#		path = {
+#			leads_to_tech = MVLV_Jumping_unit_improvement
+#			research_cost_coeff = 1
+#		}
+		path = {
+			leads_to_tech = F35U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 13 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	UNI_Jumping_unit_improvement = {
+
+		research_cost = 1
+		start_year = 1990
+		
+		MVLV_tsf_battalion = {
+			maximum_speed = 0.05
+		}
+		
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.05
+		}
+
+
+#		path = {
+#			leads_to_tech = MVLV_3rd_tsf_low
+#			research_cost_coeff = 1
+#		}
+#		path = {
+#			leads_to_tech = MVLV_3rd_tsf_high
+#			research_cost_coeff = 1
+#		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 8 y = 9 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	F15SEU = {
+
+		enable_equipments = {
+			tsf_equipment_F15SEU
+		}
+
+		research_cost = 2
+		start_year = 2004
+
+		path = {
+			leads_to_tech = F35U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -3 y = 13 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}	
+	
+	T94U = {
+		enable_equipments = {
+			tsf_equipment_T94U
+		}
+
+		research_cost = 2
+		start_year = 1994
+
+		path = {
+			leads_to_tech = T97U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 3 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+		
+
+	}
+	
+	T97U = {
+		enable_equipments = {
+			tsf_equipment_T97U
+		}
+
+		research_cost = 2
+		start_year = 1997
+
+		path = {
+			leads_to_tech = T94HU
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 5 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	
+	T94HU = {
+		enable_equipments = {
+			tsf_equipment_T94HU
+		}
+
+		research_cost = 2
+		start_year = 1998
+
+		path = {
+			leads_to_tech = T00U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 7 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	
+	T00U = {
+		enable_equipments = {
+			tsf_equipment_T00CU
+		}
+
+		research_cost = 2
+		start_year = 1998
+
+		path = {
+			leads_to_tech = T942U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 9 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	T942U = {
+		enable_equipments = {
+			tsf_equipment_T942U
+		}
+
+		research_cost = 2
+		start_year = 2001
+
+		path = {
+			leads_to_tech = T94FU
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 11 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	T94FU = {
+		enable_equipments = {
+			tsf_equipment_T94FU
+		}
+
+		research_cost = 2
+		start_year = 2004
+
+		path = {
+			leads_to_tech = F35U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 13 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	
+	M23U = {
+		enable_equipments = {
+			tsf_equipment_MiG23U
+		}
+
+		research_cost = 2
+		start_year = 1980
+
+		path = {
+			leads_to_tech = M27U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 6 y = 3 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	
+	M27U = {
+		enable_equipments = {
+			tsf_equipment_MiG27U
+		}
+
+		research_cost = 2
+		start_year = 1983
+
+		path = {
+			leads_to_tech = M25U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 6 y = 5 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	M25U = {
+		enable_equipments = {
+			tsf_equipment_MiG25U
+		}
+
+		research_cost = 2
+		start_year = 1987
+
+		path = {
+			leads_to_tech = S27U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 6 y = 7 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	S27U = {
+		enable_equipments = {
+			tsf_equipment_Su27U
+		}
+
+		research_cost = 2
+		start_year = 1992
+
+		path = {
+			leads_to_tech = S37U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 6 y = 9 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	S37U = {
+		enable_equipments = {
+			tsf_equipment_Su37U
+		}
+
+		research_cost = 2
+		start_year = 1997
+
+		path = {
+			leads_to_tech = M29OU
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 6 y = 11 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	M29OU = {
+		enable_equipments = {
+			tsf_equipment_MiG29OVTU
+		}
+
+		research_cost = 2
+		start_year = 2000
+
+		path = {
+			leads_to_tech = F35U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 6 y = 13 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	
+	F35U = {
+		enable_equipments = {
+			tsf_equipment_F35U
+		}
+
+		research_cost = 2
+		start_year = 2004
+
+		path = {
+			leads_to_tech = Fenrir
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = Typhon
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 15 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	
+	Fenrir = {
+		enable_equipments = {
+			tsf_equipment_Fenrir
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 0 y = 17 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+	
+	Typhon = {
+		enable_equipments = {
+			tsf_equipment_Typhon
+		}
+
+		research_cost = 2
+		start_year = 2010
+
+		path = {
+			leads_to_tech = 
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = 3 y = 17 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		show_effect_as_desc = no
+		
+		ai_will_do = {
+			factor = 20000
+		}
+	}
+
+	
+###ASA###
+	
+	A6U = {
+
+		enable_equipments = {
+			asa_equipment_0U
+		}
+
+		research_cost = 2
+		start_year = 1977
+
+		path = {
+			leads_to_tech = UNI_Manipulator_improvement
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = A10U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -6 y = 4 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+	UNI_Manipulator_improvement = {
+
+		research_cost = 1
+		start_year = 1980
+		
+		MVLV_asa_battalion = {
+			maximum_speed = 0.05
+		}
+		
+		MVLV_tsa_battalion = {
+			maximum_speed = 0.05
+		}
+
+		path = {
+			leads_to_tech = UNI_Carrying_ammunition_increase
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -6 y = 8 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+	UNI_Carrying_ammunition_increase = {
+
+		research_cost = 1
+		start_year = 1990
+		
+		MVLV_asa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		MVLV_tsa_battalion = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+
+		path = {
+			leads_to_tech = A12U
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -6 y = 10 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+	A12U = {
+
+		enable_equipments = {
+			asa_equipment_1U
+		}
+
+		research_cost = 2
+		start_year = 1997
+
+		path = {
+			leads_to_tech = MVLV_
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -6 y = 12 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+	
+###TSA###	
+	
+	A10U = {
+
+		enable_equipments = {
+			tsa_equipment_0U
+		}
+
+		research_cost = 2
+		start_year = 1978
+
+		folder = {
+			name = UNI_tsf_folder
+			position = { x = -8 y = 6 }
+		}		
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+
+	}	
+}

@@ -1,0 +1,19 @@
+entity = {
+	name = "building_hive"
+	pdxmesh = "building_hive"
+	
+	locator = { name = "damage_locator_01"	position = { 1.6 0.4 -0.1 } }
+	locator = { name = "damage_locator_02"	position = { -0.5 0.2 0.4 } }
+	locator = { name = "damage_locator_03"	position = { -0.7 1.5 1.0 } }
+	
+	default_state = "idle"
+	state = { name = "idle" 
+		event = { time = 0.1 node="factorysmoke" particle = "factory_smoke_particle" }
+		event = { time = 0.1 node="factorysmoke2" particle = "factory_smoke_particle" }
+	}
+	state = { name = "damaged" 
+		event = { time = 0.1 node="damage_locator_01" particle = "building_damaged_particle" }
+		event = { time = 0.1 node="damage_locator_02" particle = "building_damaged_particle" }
+		event = { time = 0.1 node="damage_locator_03" particle = "building_damaged_particle" }
+	}
+}
