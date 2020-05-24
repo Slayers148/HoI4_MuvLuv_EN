@@ -125,5 +125,51 @@ focus_tree = {
 		}
 		#completation_tooltip = { }
 		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = USA_Repeal_Treaty_SOA
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 5
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			SOA = {	remove_ideas = SOA_USA_Treaty}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+	focus = {
+		id = USA_Repeal_Treaty_CEA
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 5
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			CEA = {	remove_ideas = CEA_USA_Treaty}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
 	}	
 }

@@ -37,8 +37,8 @@ equipments = {
 		
 		build_cost_ic = 40
 		resources = {
-			aluminium = 1
-			steel = 1
+			aluminium = 0
+			steel = 0
 		}
 	}
 #F-5#
@@ -70,6 +70,8 @@ equipments = {
 		
 		build_cost_ic = 30
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	}
@@ -111,6 +113,8 @@ equipments = {
 		
 		build_cost_ic = 40
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -144,6 +148,8 @@ equipments = {
 		
 		build_cost_ic = 55
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -178,6 +184,8 @@ equipments = {
 		
 		build_cost_ic = 60
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -254,6 +262,8 @@ equipments = {
 		
 		build_cost_ic = 50
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -505,8 +515,8 @@ equipments = {
 		
 		build_cost_ic = 70
 		resources = {
-			aluminium = 1
-			steel = 1
+			aluminium = 0
+			steel = 0
 		}
 	
 	

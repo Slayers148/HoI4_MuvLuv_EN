@@ -51,7 +51,7 @@
 		improved_medium_tank = 1
 		antiair5 = 1
 		early_destroyer = 1
-					basic_medium_spaa =1
+		basic_medium_spaa =1
 		mtg_transport = 1
 		mtg_landing_craft = 1
 		mtg_tank_landing_craft  = 1
@@ -113,16 +113,17 @@
 		mvlv_nuclear_winter
 		mvlv_saast
 		mvlv_arms_build_up
+		CEA_USA_Treaty
 	}
 	
-	set_convoys = 100 #初期輸送船数を定義
+	set_convoys = 10000 #初期輸送船数を定義
 }
 set_stability = 0.5 #初期安定度を定義
 set_war_support = 0.1 #初期戦争協力度を定義
 
-#set_research_slots = 3 #初期研究枠を定義
+#set_research_slots = 2 #初期研究枠を定義
 
-army_experience = 500 #初期陸軍経験値を定義
+army_experience = 0 #初期陸軍経験値を定義
 
 add_political_power = 0 #初期政治力を定義
 

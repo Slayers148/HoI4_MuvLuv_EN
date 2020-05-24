@@ -1,0 +1,29 @@
+ideas = {
+	country = {
+				SOA_USA_Treaty = {
+			picture = generic_disjointed_gov
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05	
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+				training_time_factor = 1000
+				local_resources_factor = 0.50
+				stability_factor = -0.1
+			}
+		}
+	}
+}

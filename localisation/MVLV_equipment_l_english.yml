@@ -3,7 +3,7 @@
  tsf_equipment_short:0 "TSF"
  tsf_equipment_desc:0 "Tactical Surface Fighters have become a decisive combat weapon in the battle against the BETA, first developed by McDaell of the United States."
  asa_equipment:0 "ASA"
- asa_equipment_short:0 "Assalut Surface Attacker"
+ asa_equipment_short:0 "Assault Surface Attacker"
  asa_equipment_desc:0 "Assault Surface Attacker's are an Amphibious variant of the TSF's that can be transformed from a submerged form to a land form to secure a bridgehead during landing operations."
  tsa_equipment:0 "Tactical Surface Attacker"
  tsa_equipment_short:0 "TSA"
@@ -11,42 +11,536 @@
  xg_equipment:0 "XG"
  xg_equipment_short:0 "XG"
 
-###デフォルト###
+###Generic ###
+ tsf_equipment_0g:0 "F-5 Freedom Fighter"
+ tsf_equipment_0g_short:0 "F-5 Freedom Fighter"
+ tsf_equipment_0g_desc:0 "A 1st Generation TSF, developed by the United States and manufactured by North Rock (USA), alongside the F-4, for export. Unlike the heavily-armoured F-4 it is lightly-armoured and has a lower engine output. But has been found by pilots to be far more capable because of its manoeuvrability as well as its ease of repair, durability, and cost-efficiency"
+
+ tsf_equipment_1g:0 "F-4 Phantom"
+ tsf_equipment_1g_short:0 "F-4 Phantom"
+ tsf_equipment_1g_desc:0 "A 1st Generation TSF. developed from the LMMU (Large Manned Maneuvering Unit) used for space development and the NCAF-X, an early TSF of the U.S Armed Forces, selected by a trial by the U.S. Department of Defense realizing that current weapons were not sufficient, being the first TSF adopted by the U.S. military in 1974. Still playing a large role in many nations as reserve or defensive units."
+
+ tsf_equipment_2g:0 "F-16 Fighting Falcon"
+ tsf_equipment_2g_short:0 "F-16 Fighting Falcon"
+ tsf_equipment_2g_desc:0 "A 2nd generation TSF developed by General Dynamics (USA). Although it is smaller and lighter than the F-15, its modification capability is low, but it houses many of examples of innovative technology in its desgin. And in combat has exhibited high fighting capabilities through its very high mobility and agility."
+
+ tsf_equipment_F18g:0 "F-18 Hornet"
+ tsf_equipment_F18g_short:0 "F-18 Hornet"
+ tsf_equipment_F18g_desc:0 "A 2nd generation TSF, the F-18 Hornet was redesigned from tye YF-17 Cobra of the Lightweight TSF program. The F-18 Hornet replaced the costly F-14 Tomcat, with a performance close to the F-15 Eagle for a lower operational cost per TSF."
+
+ tsf_equipment_F18EFg:0 "F-18E/F Super Hornet"
+ tsf_equipment_F18EFg_short:0 "F-18E/F Super Hornet"
+ tsf_equipment_F18EFg_desc:0 "A redesigned Hornet developed by McDaell Doglam, the Super Hornet achieved 2.5th generation status due to various improvements to its operating time and systems. The head module was expanded to accommodate improved sensors and avionics, its shoulder units are expanded to house large thrusters, and its hip block and lower legs are expanded to extend operating time, defensive ability, and carrying load."
+
+ tsf_equipment_4g:0 "F-18 High Maneuverability Research Vehicle"
+ tsf_equipment_4g_short:0 "F-18HMRV"
+ tsf_equipment_4g_desc:0 "A 2.5th generation R&D TSF developed by Boening and the Australian Army based on the F-18E/F. Data from the HMRV was used to develop the F-18AX as part of the Project PROMINENCE."
+
+ tsf_equipment_4gg:0 "F-18AX Raging Hornet"
+ tsf_equipment_4gg_short:0 "F-18AX Raging Hornet"
+ tsf_equipment_4gg_desc:0 "The F-18AX is an experimental upgrade program of the COSEAN, upgrading the 2.5th generation F-18E/F to a 3rd generation machine. It is relatively inexpensive compared to other 3rd generation machines, but has high mobile warfare capability and close range combat capability. Main points of upgrade are the head module sensors, avionics, shoulder block to incorporate thrusters, and the addition of waist vector nozzles."
+
+ tsf_equipment_3g:0 "F-15 Eagle"
+ tsf_equipment_3g_short:0 "F-15 Eagle"
+ tsf_equipment_3g_desc:0 "A 2nd generation TSF developed by the US military as a successor to the F-4. Developed after the 1978 Eastern European counterattack utilising combat data obtained during the offensive, Its combat performance has earned it among Western officials the title of "the strongest 2nd generation TSF". In addition, the F-15s design took into account the possibility of further improvements, with different variations and combat specifications as required, also allowing easier on-site repairs."
+
+ tsf_equipment_F15Eg:0 "F-15 Strike Eagle"
+ tsf_equipment_F15Eg_short:0 "F-15 Strike Eagle"
+ tsf_equipment_F15Eg_desc:0 "First deployed in 1995, the Strike Eagle is a heavily refurbished F-15 Eagle with increased armament capabilities, improved avionics and composite armor, as well as the exchange of internal components for modernized versions. This variant, highly likely to be the world's first 2.5th generation TSF, has inherited the title of "the strongest 2nd generation machine" from its parent, and has kept the title up till today."
+
+ tsf_equipment_F15ACTVg:0 "F-15ACTV Active Eagle"
+ tsf_equipment_F15ACTVg_short:0 "F-15ACTV"
+ tsf_equipment_F15ACTVg_desc:0 "The F-15ACTV is a proof of concept machine for the “Phoenix Initative” based on the aging F-15 frame using upgraded avionics, internal parts, and external hardware to boost its overall performance intending to mold it into a quasi-third generation model with performance at a low cost. Further enchancments empahising mobility, improved its overall ability allowing it to achieve great success, fully drawing out the F-15's excellence."
+
+ tsf_equipment_5g:0 "F-15SE Silent Eagle"
+ tsf_equipment_5g_short:0 "F-15SE Silent Eagle"
+ tsf_equipment_5g_desc:0 "A quasi-3rd generation Eagle variant designed by Boening's "Phantom Works", the F-15SE is a refurbishment of the F-15 that incorporates technology, ideas, and know-how obtained from the Phoenix Initiative and XFJ Program. Improvements include limited stealth for improved anti-TSF combat performance, up-to-date 3rd generation avionics with Operation By Light capabilities, shoulder thrusters, streamlined Jump Units that boost mobility to the levels of other 3rd generation TSFs, and expanded leg fuel tanks."
+
+ tsf_equipment_F14g:0 "F-14 Tomcat"
+ tsf_equipment_F14g_short:0 "F-14 Tomcat"
+ tsf_equipment_F14g_desc:0 "A 2nd generation TSF for the US Navy developed by Grunnan. As the earlist 2nd generation TSF, and the most ambitious, It operates the AIM-54 Phoenix long-range missile system along with incorporating a variable-wing mechanism, and Operation by Wire."
+
+ tsf_equipment_F14Exg:0 "F-14EX Super Tomcat"
+ tsf_equipment_F14Exg_short:0 "F-14EX Super Tomcat"
+ tsf_equipment_F14Exg_desc:0 "During consideration to retire the F-14, a comparison of pilot experience and overall capability to the F-18 Hornet found that many Navy leaders were in favor of continued operations for the Tomcat, and Northrock Grunnan proposed the "Super Tomcat plan" to upgrade the F-14 to 2.5th generation specifications. The head module was expanded for improved sensors and radar, stretching radar coverage by 20%, and Blade-Edge Armor fins have been mounted on its forearms and legs."
+
+ tsf_equipment_6g:0 "F-35 Lightning II"
+ tsf_equipment_6g_short:0 "F-35 Lightning II"
+ tsf_equipment_6g_desc:0 "A 3rd generation TSF produced by Rockweed Mardin (USA) and jointly developed between the US, European Union and the African Union. To meet the demands of the other nations the it became the first US-made TSF to be equipped with standard fixed armaments (super carbon blades) for close combat, which combined with its high mobility, gave all specifications excellent close combat capabilities. Becoming a State-of-the-art 3rd generation unit."
+
+ asa_equipment_0g:0 "A-6 Intruder"
+ asa_equipment_0g_short:0 "A-6 Intruder"
+ asa_equipment_0g_desc:0 "1st Generation ASA. The A-6 is an Assault Surface Attacker, an off shoot line from TSF's, developed for the US Marine Corps to be launched from a submarine carrier, as the first underwater variable type ASA, while in an underwater cruising form able to change into a bipedal form once the pilot deems it necessary. Intended to act as a landing unit against coastal areas controlled by BETA, to secure bridgeheads for other conventional units."
+ asa_equipment_1g:0 "A-12 Avenger"
+ asa_equipment_1g_short:0 "A-12 Avenger"
+ asa_equipment_1g_desc:0 "A 3rd generation ASA, developed as the successor to the A-6. The A-12 is more heavily armed than its predecessor surpassesing the A-6 suppression capabilities, and the inclusion of detection countermeasures into its unique airframe shape gives the unit an impressive anti-detection rate by radar and various sensors, commonly referred to as "Stealth capabilities"."
+
+ tsa_equipment_0g:0 "A-10 Thunderbolt II"
+ tsa_equipment_0g_short:0 "A-10 Thunderbolt II"
+ tsa_equipment_0g_desc:0 "1st Generation Tactical Surface Attacker variant of the TSF, developed by Fairchild Republic (USA). It has been adopted as the second Attacker model in history, following the A-6, and has gained such great trust in its capabilites being responsible for large numbers of BETA casualties whenever deployed , that it has been given the name of both Cannon Bird (Kanonen Vogel) and Tank Class Destroyer (Tank Killer)."
+
+ generic_basic_concept_research:0 "TSF basic concept research"
+ generic_basic_concept_research_desc:0 "The TSF is a weapon with a completely different concept from previous weapons. Basic concept research is indispensable for any production, deployment, or operation."
+ generic_Assault_gun_improvement:0 "Improved assault gun"
+ generic_Assault_gun_improvement_desc:0 "The WS-16A assault artillery used during the F-4 actual deployment was equipped with a 20mm cannon and 105mm smooth gun. However, because it was pointed out that the A type was insufficient for the BETA group, the engine muzzle diameter was replaced with 36 mm and the smooth muzzle diameter was replaced with 120 mm."
+ generic_Jumping_unit_improvement:0 "Jumping unit improvements"
+ generic_Jumping_unit_improvement_desc:0 "The jumping unit is a hybrid engine that combines a rocket engine and a jet engine as a single unit."
+ generic_Manipulator_improvement:0 "Manipulator improvements"
+ generic_Manipulator_improvement_desc:0 "By improving the manipulator, it will be possible to increase the deployment speed of blunt attack tsf."
+ generic_Carrying_ammunition_increase:0 "Increased ammunition carried"
+ generic_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
+
+#USA#
  tsf_equipment_0:0 "F-5 Freedom Fighter"
- tsf_equipment_0_short:0 "F-5"
+ tsf_equipment_0_short:0 "F-5 Freedom Fighter"
  tsf_equipment_0_desc:0 "A 1st Generation TSF, developed by the United States and manufactured by North Rock (USA), alongside the F-4, for export. Unlike the heavily-armoured F-4 it is lightly-armoured and has a lower engine output. But has been found by pilots to be far more capable because of its manoeuvrability as well as its ease of repair, durability, and cost-efficiency"
  tsf_equipment_1:0 "F-4 Phantom"
- tsf_equipment_1_short:0 "F-4"
+ tsf_equipment_1_short:0 "F-4 Phantom"
  tsf_equipment_1_desc:0 "A 1st Generation TSF. developed from the LMMU (Large Manned Maneuvering Unit) used for space development and the NCAF-X, an early TSF of the U.S Armed Forces, selected by a trial by the U.S. Department of Defense realizing that current weapons were not sufficient, being the first TSF adopted by the U.S. military in 1974. Still playing a large role in many nations as reserve or defensive units."
  tsf_equipment_2:0 "F-16 Fighting Falcon"
- tsf_equipment_2_short:0 "F-16"
+ tsf_equipment_2_short:0 "F-16 Fighting Falcon"
  tsf_equipment_2_desc:0 "A 2nd generation TSF developed by General Dynamics (USA). Although it is smaller and lighter than the F-15, its modification capability is low, but it houses many of examples of innovative technology in its desgin. And in combat has exhibited high fighting capabilities through its very high mobility and agility."
  tsf_equipment_3:0 "F-15 Eagle"
- tsf_equipment_3_short:0 "F-15"
+ tsf_equipment_3_short:0 "F-15 Eagle"
  tsf_equipment_3_desc:0 "A 2nd generation TSF developed by the US military as a successor to the F-4. Developed after the 1978 Eastern European counterattack utilising combat data obtained during the offensive, Its combat performance has earned it among Western officials the title of "the strongest 2nd generation TSF". In addition, the F-15s design took into account the possibility of further improvements, with different variations and combat specifications as required, also allowing easier on-site repairs."
- tsf_equipment_4:0 "F-15ACTV Active Eagle"
- tsf_equipment_4_short:0 "F-15ACTV"
- tsf_equipment_4_desc:0 "The F-15ACTV is a proof of concept machine for the “Phoenix Initative” based on the aging F-15 frame using upgraded avionics, internal parts, and external hardware to boost its overall performance intending to mold it into a quasi-third generation model with performance at a low cost. Further enchancments empahising mobility, improved its overall ability allowing it to achieve great success, fully drawing out the F-15's excellence."
+ tsf_equipment_F14:0 "F-14 Tomcat"
+ tsf_equipment_F14_short:0 "F-14 Tomcat"
+ tsf_equipment_F14_desc:0 "A 2nd generation TSF for the US Navy developed by Grunnan. As the earlist 2nd generation TSF, and the most ambitious, It operates the AIM-54 Phoenix long-range missile system along with incorporating a variable-wing mechanism, and Operation by Wire."
+ tsf_equipment_F14Ex:0 "F-14 Super Tomcat"
+ tsf_equipment_F14Ex_short:0 "F-14 Super Tomcat"
+ tsf_equipment_F14Ex_desc:0 "During consideration to retire the F-14, a comparison of pilot experience and overall capability to the F-18 Hornet found that many Navy leaders were in favor of continued operations for the Tomcat, and Northrock Grunnan proposed the "Super Tomcat plan" to upgrade the F-14 to 2.5th generation specifications. The head module was expanded for improved sensors and radar, stretching radar coverage by 20%, and Blade-Edge Armor fins have been mounted on its forearms and legs. "
+ tsf_equipment_F15ACTV:0 "F-15ACTV Active Eagle"
+ tsf_equipment_F15ACTV_short:0 "F-15ACTV Active Eagle"
+ tsf_equipment_F15ACTV_desc:0 "The F-15ACTV is a proof of concept machine for the “Phoenix Initative” based on the aging F-15 frame using upgraded avionics, internal parts, and external hardware to boost its overall performance intending to mold it into a quasi-third generation model with performance at a low cost. Further enchancments empahising mobility, improved its overall ability allowing it to achieve great success, fully drawing out the F-15's excellence."
+
+ tsf_equipment_F18:0 "F-18 Hornet"
+ tsf_equipment_F18_short:0 "F-18 Hornet"
+ tsf_equipment_F18_desc:0 "A 2nd generation TSF, the F-18 Hornet was redesigned from tye YF-17 Cobra of the Lightweight TSF program. The F-18 Hornet replaced the costly F-14 Tomcat, with a performance close to the F-15 Eagle for a lower operational cost per TSF."
+ tsf_equipment_F18EF:0 "F-18E/F Super Hornet"
+ tsf_equipment_F18EF_short:0 "F-18E/F Super Hornet"
+ tsf_equipment_F18EF_desc:0 "A redesigned Hornet developed by McDaell Doglam, the Super Hornet achieved 2.5th generation status due to various improvements to its operating time and systems. The head module was expanded to accommodate improved sensors and avionics, its shoulder units are expanded to house large thrusters, and its hip block and lower legs are expanded to extend operating time, defensive ability, and carrying load. "
+
+ tsf_equipment_F15E:0 "F-15E Strike Eagle"
+ tsf_equipment_F15E_short:0 "F-15E Strike Eagle"
+ tsf_equipment_F15E_desc:0 "First deployed in 1995, the Strike Eagle is a heavily refurbished F-15 Eagle with increased armament capabilities, improved avionics and composite armor, as well as the exchange of internal components for modernized versions. This variant, highly likely to be the world's first 2.5th generation TSF, has inherited the title of "the strongest 2nd generation machine" from its parent, and has kept the title up till today."
+
+ tsf_equipment_4:0 "YF-23"
+ tsf_equipment_4_short:0 "YF-23"
+ tsf_equipment_4_desc:0 "A prototype 3rd generation TSF built for the ATSF program. Despite losing the ATSF contract, the YF-23 is superior in maneuverability and close quarters combat compared to the YF-22. This prototype TSF is optimized for long-range, high-speed cruising, radar/electronic stealth, and a superior sensor package to guarantee first-strike advantages in combat. "
  tsf_equipment_5:0 "F-22 Raptor"
- tsf_equipment_5_short:0 "F-22"
+ tsf_equipment_5_short:0 "F-22 Raptor"
  tsf_equipment_5_desc:0 "A 3rd generation TSF for the US Army. Notable for its cutting edge stealth and performace far above other 3rd generation TSF's, the F-22A is truly a 3rd generation TSF in every sense of the word. Designed with a view to Anti-TSF Warfare, its frame is optimized to reduce radar signatures from the front via stealth coatings, materials used in construction, and anti-radar shaping."
  tsf_equipment_6:0 "F-35 Lightning II"
- tsf_equipment_6_short:0 "F-35"
- tsf_equipment_6_desc:0 "A 3rd generation TSF produced by Rockweed Mardin (USA) and jointly developed between the US, European Union and the African Union. To meet the demands of the other nations the it became the first US-made TSF to be equipped with standard fixed armaments (super carbon blades) for close combat, which combined with its high mobility, gave all specifications excellent close combat capabilities. Becoming a State-of-the-art 3rd generation unit."
- 
- asa_equipment_0:0 "A-6 Intruder"
- asa_equipment_0_short:0 "A-6"
- asa_equipment_0_desc:0 "1st Generation ASA. The A-6 is an Assault Surface Attacker, an off shoot line from TSF's, developed for the US Marine Corps to be launched from a submarine carrier, as the first underwater variable type ASA, while in an underwater cruising form able to change into a bipedal form once the pilot deems it necessary. Intended to act as a landing unit against coastal areas controlled by BETA, to secure bridgeheads for other conventional units."
- asa_equipment_1:0 "A-12 Avenger"
- asa_equipment_1_short:0 "A-12"
- asa_equipment_1_desc:0 "A 3rd generation ASA, developed as the successor to the A-6. The A-12 is more heavily armed than its predecessor surpassesing the A-6 suppression capabilities, and the inclusion of detection countermeasures into its unique airframe shape gives the unit an impressive anti-detection rate by radar and various sensors, commonly referred to as "Stealth capabilities"."
- 
- tsa_equipment_0:0 "A-10 Thunderbolt II"
- tsa_equipment_0_short:0 "A-10"
- tsa_equipment_0_desc:0 "1st Generation Tactical Surface Attacker variant of the TSF, developed by Fairchild Republic (USA). It has been adopted as the second Attacker model in history, following the A-6, and has gained such great trust in its capabilites being responsible for large numbers of BETA casualties whenever deployed , that it has been given the name of both Cannon Bird (Kanonen Vogel) and Tank Class Destroyer (Tank Killer)."
- 
+ tsf_equipment_6_short:0 "F-35 Lightning II"
+ tsf_equipment_6_desc:0 "A 3rd generation TSF produced by Lockweed Mardin (USA) and jointly developed between the US, European Union and the African Union. To meet the demands of the other nations the it became the first US-made TSF to be equipped with standard fixed armaments (super carbon blades) for close combat, which combined with its high mobility, gave all specifications excellent close combat capabilities. Becoming a State-of-the-art 3rd generation unit."
+
+ asa_equipment_A6:0 "A-6 Intruder"
+ asa_equipment_A6_short:0 "A-6"
+ asa_equipment_A6_desc:0 "1st Generation ASA. The A-6 is an Assault Surface Attacker, an off shoot line from TSF's, developed for the US Marine Corps to be launched from a submarine carrier, as the first underwater variable type ASA, while in an underwater cruising form able to change into a bipedal form once the pilot deems it necessary. Intended to act as a landing unit against coastal areas controlled by BETA, to secure bridgeheads for other conventional units."
+ asa_equipment_A12:0 "A-12 Avenger"
+ asa_equipment_A12_short:0 "A-12"
+ asa_equipment_A12_desc:0 "A 3rd generation ASA, developed as the successor to the A-6. The A-12 is more heavily armed than its predecessor surpassesing the A-6 suppression capabilities, and the inclusion of detection countermeasures into its unique airframe shape gives the unit an impressive anti-detection rate by radar and various sensors, commonly referred to as "Stealth capabilities"."
+
+ tsa_equipment_A10:0 "A-10 Thunderbolt II"
+ tsa_equipment_A10_short:0 "A-10"
+ tsa_equipment_A10_desc:0 "1st Generation Tactical Surface Attacker variant of the TSF, developed by Fairchild Republic (USA). It has been adopted as the second Attacker model in history, following the A-6, and has gained such great trust in its capabilites being responsible for large numbers of BETA casualties whenever deployed , that it has been given the name of both Cannon Bird (Kanonen Vogel) and Tank Class Destroyer (Tank Killer)."
+
+ USA_basic_concept_research:0 "TSF basic concept research"
+ USA_basic_concept_research_desc:0 "The TSF is a weapon with a completely different concept from previous weapons. Basic concept research is indispensable for any production, deployment, or operation."
+ USA_Assault_gun_improvement:0 "Improved assault gun"
+ USA_Assault_gun_improvement_desc:0 "The WS-16A assault artillery used during the F-4 actual deployment was equipped with a 20mm cannon and 105mm smooth gun. However, because it was pointed out that the A type was insufficient for the BETA group, the engine muzzle diameter was replaced with 36 mm and the smooth muzzle diameter was replaced with 120 mm."
+ USA_Jumping_unit_improvement:0 "Jumping unit improvements"
+ USA_Jumping_unit_improvement_desc:0 "The jumping unit is a hybrid engine that combines a rocket engine and a jet engine as a single unit."
+ USA_Manipulator_improvement:0 "Manipulator improvements"
+ USA_Manipulator_improvement_desc:0 "By improving the manipulator, it will be possible to increase the deployment speed of blunt attack tsf."
+ USA_Carrying_ammunition_increase:0 "Increased ammunition carried"
+ USA_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
+
+#United Nations#
+ tsf_equipment_F5U:0 "F5 Freedom Fighter (UN)"
+ tsf_equipment_F5U_short:0 "F5 Freedom Fighter (UN)"
+ tsf_equipment_F5U_desc:0 "The F-5 Freedom Fighter is a 1st generation Tactical Surface Fighter, developed by the United States of America, in conjunction with the F-4 Phantom, as a weapon of war against the BETA. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F4U:0 "F4 Phantom (UN)"
+ tsf_equipment_F4U_short:0 "F4 Phantom (UN)"
+ tsf_equipment_F4U_desc:0 "The first Tactical Surface Fighter produced, the F-4 Phantom is the model from which all modern TSF technology has descended from. Marketed by the US to all nations of the world, the Phantom remains in widespread use even in 2001 by many military forces. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F16U:0 "F16 Fighting Falcon (UN)"
+ tsf_equipment_F16U_short:0 "F16 Fighting Falcon (UN)"
+ tsf_equipment_F16U_desc:0 "The F-16 Fighting Falcon is a 2nd generation development spurred on by a requirement for a lightweight Tactical Surface Fighter with superior mobility, envisioned to operate alongside "heavier" TSFs like the F-14 Tomcat and F-15 Eagle. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F15U:0 "F15 Eagle (UN)"
+ tsf_equipment_F15U_short:0 "F15 Eagle (UN)"
+ tsf_equipment_F15U_desc:0 "The F-15 Eagle is a 2nd generation Tactical Surface Fighter of United States of America , developed as a successor to the F-4 Phantom. Its combat performance has earned it great respect by its users, and Western officials have bestowed upon the Eagle the title of "the strongest 2nd generation TSF". This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F14U:0 "F14 Tomcat (UN)"
+ tsf_equipment_F14U_short:0 "F14 Tomcat (UN)"
+ tsf_equipment_F14U_desc:0 "The F-14 Tomcat is a family of 2nd generation Tactical Surface Fighters developed by Grunnan for the US Navy. As the earliest 2nd generation machine, it represented a major milestone in the war against the BETA, and is mostly phased out of use by the beginning of the 21st century. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F14ExU:0 "F-14Ex Super Tomcat (UN)"
+ tsf_equipment_F14ExU_short:0 "F-14Ex Super Tomcat (UN)"
+ tsf_equipment_F14ExU_desc:0 "During consideration to retire the F-14, a comparison of pilot experience and overall capability to the F-18 Hornet found that many Navy leaders were in favor of continued operations for the Tomcat, and Northrock Grunnan proposed the "Super Tomcat plan" to upgrade the F-14 to 2.5th generation specifications. However, due to costs and the F-18E/F Super Hornet performing better than expected, the project was shelved. For the sake of Northrock Grunnan, the US sold the plan to Iran to strengthen its F-14s. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F18U:0 "F18 Hornet (UN)"
+ tsf_equipment_F18U_short:0 "F18 Hornet (UN)"
+ tsf_equipment_F18U_desc:0 "The F-18 Hornet is a carrier-based 2nd generation Tactical Surface Fighter developed by Northrock and McDaell Doglam as a replacement for the F-14 Tomcat as the US Navy's next-generation TSF. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F18EFU:0 "F-18E/F Super Hornet (UN)"
+ tsf_equipment_F18EFU_short:0 "F-18E/F Super Hornet (UN)"
+ tsf_equipment_F18EFU_desc:0 "A redesigned Hornet developed by McDaell Doglam, the Super Hornet achieved 2.5th generation status due to various improvements to its operating time and systems. The head module was expanded to accommodate improved sensors and avionics, its shoulder units are expanded to house large thrusters, and its hip block and lower legs are expanded to extend operating time, defensive ability, and carrying load. Once again, with efficiency similar to its equivalent, the F-15E Strike Eagle, and at a lower cost, the Super Hornet was established as the flagship machine of the US Marine Corps and US Navy, and is also exported to COSEAN, Australia, and Africa. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F15EUN:0 "F-15E Strike Eagle (UN)"
+ tsf_equipment_F15EUN_short:0 "F-15E Strike Eagle (UN)"
+ tsf_equipment_F15EUN_desc:0 "In 1991, with F-22A Raptor procurement running into difficulties, the United States began the DRTSF (Dual-Role Tactical Surface Fighter) Program to modernize and improve existing TSF until the next mainline fighter could be deployed. The McDaell Doglam-proposed F-15E and the General Dynomics-proposed F16XL were both submitted for the plan. The F-15E was eventually adopted due to several factors; apart from sustainability and mission up-time, its relative lack of external design changes also resulted in lowered research and production costs. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F15ACTVU:0 "F-15 ACTV Active Eagle (UN)"
+ tsf_equipment_F15ACTVU_short:0 "F-15 ACTV Active Eagle (UN)"
+ tsf_equipment_F15ACTVU_desc:0 "Part of Boening's Phoenix Initiative, the F-15 ACTV is a proof-of-concept unit based on the aging F-15 frame, using avionics, internal parts, and external hardware upgrades to boost its overall performance,[11] and even provide (very) limited stealth. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_M2000U:0 "Mirage 2000 (UN)"
+ tsf_equipment_M2000U_short:0 "Mirage 2000 (UN)"
+ tsf_equipment_M2000U_desc:0 "A 1.5th/2nd generation Tactical Surface Fighter manufactured by Dass-Ault for the French Republic, the Mirage 2000 has had a long history with the French armed forces. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F5AU:0 "F5A Freedom Fighter Improved (UN)"
+ tsf_equipment_F5AU_short:0 "F5A Freedom Fighter Improved (UN)"
+ tsf_equipment_F5AU_desc:0 "A modified version of the F5 Freedom Fighter that has been improved."
+
+ tsf_equipment_EF2000U:0 "EF-2000 Typhoon (UN)"
+ tsf_equipment_EF2000U_short:0 "EF-2000 Typhoon (UN)"
+ tsf_equipment_EF2000U_desc:0 "The flagship 3rd generation Tactical Surface Fighter of the European Union, the EF-2000 is a TSF born from the need for a unified force in Europe against the encroaching BETA. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_JA37U:0 "JA-37 Viggen (UN)"
+ tsf_equipment_JA37U_short:0 "JA-37 Viggen (UN)"
+ tsf_equipment_JA37U_desc:0 "The JA-37 Viggen is a 2nd generation Tactical Surface Fighter built to accommodate the combat requirements of the Kingdom of Sweden's armed forces. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_JA39U:0 "JAS-39 Gripen (UN)"
+ tsf_equipment_JA39U_short:0 "JAS-39 Gripen (UN)"
+ tsf_equipment_JA39U_desc:0 "The JAS-39 Gripen is a 3rd generation Tactical Surface Fighter deployed by the Kingdom of Sweden, and was developed as a continuation of the J-35 Draken and JA-37 Viggen. Its name, Gripen, is Swedish for the mythical Griffin, and a representation of the unit's free-fighting capabilities on the ground and in the sky. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_RAFU:0 "Rafale (UN)"
+ tsf_equipment_RAFU_short:0 "Rafale (UN)"
+ tsf_equipment_RAFU_desc:0 "The French counterpart to the EF-2000 Typhoon, the Rafale is a 3rd generation TSF developed by Dass-Ault after France withdrew from the European Combat Tactical Surface Fighter program in 1985, over disagreements about the main engine to be used in the ECTSF prototypes. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F15SEU:0 "F-15SE Silent Eagle (UN)"
+ tsf_equipment_F15SEU_short:0 "F-15SE Silent Eagle (UN)"
+ tsf_equipment_F15SEU_desc:0 "A quasi-3rd generation Eagle variant designed by Boening's "Phantom Works", the F-15SE is a refurbishment of the F-15 that incorporates technology, ideas, and know-how obtained from the Phoenix Initiative and XFJ Program. Improvements include limited stealth for improved anti-TSF combat performance, up-to-date 3rd generation avionics with Operation By Light capabilities, shoulder thrusters, streamlined Jump Units that boost mobility to the levels of other 3rd generation TSFs, and expanded leg fuel tanks. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_T94U:0 "Type-94 Shiranui (UN)"
+ tsf_equipment_T94U_short:0 "Type-94 Shiranui (UN)"
+ tsf_equipment_T94U_desc:0 "The Type-94 Shiranui (94式 不知火) is a Tactical Surface Fighter in use by the Imperial Army/Mainland Defence Force of Japan as their premiere unit. The first domestic-production TSF of the Empire, the Type-94 is a high-performance unit that can fill a wide variety of combat roles. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_T97U:0 "Type-97 Fubuki (UN)"
+ tsf_equipment_T97U_short:0 "Type-97 Fubuki (UN)"
+ tsf_equipment_T97U_desc:0 "The Type-97 Fubuki (97式 吹雪) is a 3rd generation Tactical Surface Fighter in use by the Empire of Japan as a training machine, and is derived from the Type-94 Shiranui. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_T94HU:0 "Type-94-1C Shiranui Type-1C (UN)"
+ tsf_equipment_T94HU_short:0 "Type-94-1C Shiranui Type-1C (UN)"
+ tsf_equipment_T94HU_desc:0 "The Shiranui's limitation was not only evident in combat, but was also demonstrated by the Type-94-1C Shiranui Type-1C, where several were produced in 1998 as an attempt at upgrading Japan's fleet of Shiranui. With a strengthened frame and joint actuators in anticipation of additional capabilities for deploying heavy weapons, its drive system performance was increased by 15%. Its frame also featured an experimental camouflage scheme known as "Ferris" camouflage; the patterns and color selection are designed to play havoc with the BETA's sensory organs when the Shiranui Type-1C is in high-speed maneuvers during combat. However, the addition of the Ferris camouflage has not shown any positive results thus far. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_T00CU:0 "Type-00 Takemikazuchi (UN)"
+ tsf_equipment_T00CU_short:0 "Type-00 Takemikazuchi (UN)"
+ tsf_equipment_T00CU_desc:0 "The Type-00 Takemikazuchi (00式 武御雷) is a high-performance 3rd generation Tactical Surface Fighter of the Empire of Japan, produced for the Imperial Royal Guard. This exported model is a far inferior version with significant capabilities reduction due to Japanese nationalism intentions."
+
+ tsf_equipment_T942U:0 "Type-04 Shiranui Second (UN)"
+ tsf_equipment_T942U_short:0 "Type-04 Shiranui Second (UN)"
+ tsf_equipment_T942U_desc:0 "Following the success of the XFJ-01, the Shiranui Second is considered for adoption as Imperial Japan's next main TSF and given the designation of Test Type-01, for use in combat trials against the Test Type-02/F-15SEJ Gekkou that, at that time, was also being considered for adoption into the IJA/MDF as the next mainline TSF of Imperial Japan. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_T94FU:0 "XFJ-01 Shiranui Kyokkou (UN)"
+ tsf_equipment_T94FU_short:0 "XFJ-01 Shiranui Kyokkou (UN)"
+ tsf_equipment_T94FU_desc:0 "The XFJ-01 Shiranui Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_MiG23U:0 "MiG-23 Cheburashka (UN)"
+ tsf_equipment_MiG23U_short:0 "MiG-23 Cheburashka (UN)"
+ tsf_equipment_MiG23U_desc:0 "A quasi-2nd generation Tactical Surface Fighter, the MiG-23 Cheburashka (МиГ-23 Чебурашка) is the Union of Soviet Socialist Republics's first attempt at a "true" domestic design, unlike the F-4R Phantom-derived MiG-21 Balalaika. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_MiG27U:0 "MiG-27 Alligator (UN)"
+ tsf_equipment_MiG27U_short:0 "MiG-27 Alligator (UN)"
+ tsf_equipment_MiG27U_desc:0 "An evolution of the previous MiG-23 Cheburashka, the MiG-27 Alligator (Аллигатор) is an improved TSF built by further developing the MiG-23. It takes its name from the alligator, the reptilian species. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_MiG25U:0 "MiG-25 Spirt-Voz (UN)"
+ tsf_equipment_MiG25U_short:0 "MiG-25 Spirt-Voz (UN)"
+ tsf_equipment_MiG25U_desc:0 "The MiG-25 Spirt-Voz (Спиртовоз) is a 2nd generation Soviet Tactical Surface Fighter designed by the Mikoyam Guluvich design bureau, built to conduct long-range incursions into BETA territory and/or BETA Hives with minimal support. It is also the predecessor of the MiG-31 Plamya-Lisa. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_Su27U:0 "Su-27 Zhuravlik (UN)"
+ tsf_equipment_Su27U_short:0 "Su-27 Zhuravlik (UN)"
+ tsf_equipment_Su27U_desc:0 "A 2nd generation Soviet Tactical Surface Fighter developed by Sufoni, the Su-27 Zhuravlik (Су-27 Журавлик) is the first in a line of TSFs designed for greater staying power on the field for longer operational times, and to work alongside the lighter but shorter-ranged MiG-series as part of the Soviets' High-Low Mix of TSF types. Named the "Crane" in Russian, the Su-27 is nothing like its graceful and fragile avian namesake, capable of bloody close-quarters decapitation of substantial numbers of BETA in a short period of time. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_Su37U:0 "Su-37 Terminator (UN)"
+ tsf_equipment_Su37U_short:0 "Su-37 Terminator (UN)"
+ tsf_equipment_Su37U_desc:0 "The Su-37 Terminator is a Tactical Surface Fighter created by Sufoni upgrading the 2nd generation Su-27 Zhuravlik to 3rd generation specifications, the Su-37 Terminator (Терминатор) is a high-performance, multi-role, and highly adaptable TSF with powerful close-combat and maneuvering capabilities. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_MiG29OVTU:0 "MiG-29OVT Fulcrum (UN)"
+ tsf_equipment_MiG29OVTU_short:0 "MiG-29OVT Fulcrum (UN)"
+ tsf_equipment_MiG29OVTU_desc:0 "An improvement upon the base MiG-29 born from a formal technology-sharing partnership with the US via Project PROMINENCE, the MiG-29OVT can be considered the rival of the F-15 ACTV in terms of combat roles. Various upgrades have been applied to it, which include enlarged and refurbished Jump Units to provide greater thrust, improved avionics and internal components (including Operation By Light), resulting in a 5% increase in operating time, and changing the design of the shoulder blade vanes. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_F35U:0 "F-35 Lightning II (UN)"
+ tsf_equipment_F35U_short:0 "F-35 Lightning II (UN)"
+ tsf_equipment_F35U_desc:0 "The latest 3rd generation TSF produced by Lockweed Mardin, the F-35 Lightning II was supposedly developed as a joint project between the US, European Union, and African Union as a technological successor of the F-16 Fighting Falcon and F-18 Hornet, and act as the lightweight counterpart to the F-22A Raptor. While the overall capabilities of the F-35 remain unknown, it has been confirmed to posses performance comparable to the EF-2000 Typhoon. This variant has been modified to be better suited United Nations requirements."
+
+ tsf_equipment_Fenrir:0 "Fenrir"
+ tsf_equipment_Fenrir_short:0 "Fenrir"
+ tsf_equipment_Fenrir_desc:0 "A 4th generation tactical aircraft developed by projecting all the data of a certain plan that was obtained through a communication with a certain power. The operation range is assumed to be 0G to 1G."
+
+ tsf_equipment_Typhon:0 "Typhoon"
+ tsf_equipment_Typhon_short:0 "Typhoon"
+ tsf_equipment_Typhon_desc:0 "A full-fledged 4th generation tactical aircraft that reflects the technology obtained from the aircraft that projected the data of a certain plan on the design to a certain base aircraft and assumes a low orbit of 0G to 1G environment."
+
+ asa_equipment_0U:0 "A-6 Intruder (UN)"
+ asa_equipment_0U_short:0 "A-6 Intruder (UN)"
+ asa_equipment_0U_desc:0 "The A-6 Intruder is a Tactical Surface Attacker, the first of what would be an offshot line from Tactical Surface Fighters that have been adapted to carry massive firepower in exchange for other aspects. This variant has been modified to be better suited United Nations requirements."
+
+ asa_equipment_1U:0 "A-12 Avenger (UN)"
+ asa_equipment_1U_short:0 "A-12 Avenger (UN)"
+ asa_equipment_1U_desc:0 "A 3rd generation Tactical Surface Attacker, the A-12 Avenger can be considered the direct successor to the A-6 Intruder, and is currently in service with the US Marine Corps. This variant has been modified to be better suited United Nations requirements."
+
+ tsa_equipment_0U:0 "A-10 Thunderbolt II (UN)"
+ tsa_equipment_0U_short:0 "A-10 Thunderbolt II (UN)"
+ tsa_equipment_0U_desc:0 "The second model of TSAs to be built, the Fairchild Republic TSA-10 Thunderbolt II has lived up well to its name of "Tank Killer" throughout its service life, being responsible for large numbers of BETA casualties whenever deployed. This variant has been modified to be better suited United Nations requirements."
+
+ UNI_basic_concept_research:0 "TSF basic concept research"
+ UNI_basic_concept_research_desc:0 "The TSF is a weapon with a completely different concept from previous weapons. Basic concept research is indispensable for any production, deployment, or operation."
+ UNI_Assault_gun_improvement:0 "Improved assault gun"
+ UNI_Assault_gun_improvement_desc:0 "The WS-16A assault artillery used during the F-4 actual deployment was equipped with a 20mm cannon and 105mm smooth gun. However, because it was pointed out that the A type was insufficient for the BETA group, the engine muzzle diameter was replaced with 36 mm and the smooth muzzle diameter was replaced with 120 mm."
+ UNI_Jumping_unit_improvement:0 "Jumping unit improvements"
+ UNI_Jumping_unit_improvement_desc:0 "The jumping unit is a hybrid engine that combines a rocket engine and a jet engine as a single unit."
+ UNI_Manipulator_improvement:0 "Manipulator improvements"
+ UNI_Manipulator_improvement_desc:0 "By improving the manipulator, it will be possible to increase the deployment speed of blunt attack tsf."
+ UNI_Carrying_ammunition_increase:0 "Increased ammunition carried"
+ UNI_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
+
+#UNI XG#
+ xg_equipment_0:0 "XG-70b"
+ xg_equipment_0_short:0 "XG-70b"
+ xg_equipment_0_desc:0 "The XG-70 series was intended as mobile weapon that could reduce or replace the number of resources and men needed to conduct operations against Hives. As planned in the HI-MAERF Project using G element application techonolgy. the 'b' series is the second prototype in the project notablely lacking normal armaments equpied only with a Charged Paticle Gun and Rutherford Field Capablities. "
+ xg_equipment_1:0 "XG-70d"
+ xg_equipment_1_short:0 "XG-70d"
+ xg_equipment_1_desc:0 "The XG-70d cannot fire its conventional weapons whilst deploying its Rutherford Field, but is able to load many conventional weapons with added abilty of the computing power of 00 units. This machine equipped with an Electromagnetic Projection Gun, Vertical Launching Systems, and Chaingun making it a true XG-70 unit."
+
+
+###日本帝国###
+ tsf_equipment_F5J:0 "Type-78/F-5J Shimakaze"
+ tsf_equipment_F5J_short:0 "Type-78/F-5J Shimakaze"
+ tsf_equipment_F5J_desc:0 "A 1st Generation TSF, Japanese variant of the F-5 its close combat capabilities enhanced through a second-arm attachment for swords, reinforced joints and hand manipulators, follwing the Japanese operational philosophy that emphasizes melee combat."
+ tsf_equipment_F4J:0 "Type-77/F-4J Gekishin"
+ tsf_equipment_F4J_short:0 "Type-77/F-4J Gekishin"
+ tsf_equipment_F4J_desc:0 "A 1st Generation TSF, Japanese variant of the F-4, its close combat capabilities enhanced through a second-arm attachment for swords, reinforced joints and hand manipulators, follwing the Japanese operational philosophy that emphasizes melee combat."
+ tsf_equipment_F4JK:0 "Type-82/F-4J Kai Zuikaku"
+ tsf_equipment_F4JK_short:0 "Type-82/F-4JK Zuikaku"
+ tsf_equipment_F4JK_desc:0 "A 1.5th Generation TSF, modified version of the F-4J Gekishin focusing on improving performance through improved mobility and weight reduction. Intended as a exclusive TSF for the Imperial Royal Guards, whose main mission is to protect the Shogunate."
+ tsf_equipment_F16J:0 "Type-87/F-16J Amatsukaze"
+ tsf_equipment_F16J_short:0 "Type-87/F-16J Amatsukaze"
+ tsf_equipment_F16J_desc:0 "A 2nd Generation, modified version of the F-16. Changes included the usage of a Japanese battle O.S. suited to close combat in keeping with the Japanese empahsis on melee combat, improving the strength and durability of its joints and frame by improving the materials properties, and the enchament of the tensile strength of the its carbonic actuators."
+ tsf_equipment_F15J:0 "Type-89/F-15J Kagerou"
+ tsf_equipment_F15J_short:0 "Type-89/F-15J Kagerou"
+ tsf_equipment_F15J_desc:0 "A 2nd Generation, modified version of the F-15C. Changes included the usage of a Japanese battle O.S. suited to close combat in keeping with the Japanese empahsis on melee combat, improving the strength and durability of its joints and frame by improving the materials properties, and the enchament of the tensile strength of the its carbonic actuators."
+
+ tsf_equipment_F2:0 "Type-92/F-2 Murakumo"
+ tsf_equipment_F2_short:0 "Type92/F-2 Murakumo"
+ tsf_equipment_F2_desc:0 "A 2.5th Generation, modified version of F-16J TSF."
+
+ tsf_equipment_T94:0 "Type-94 Shiranui"
+ tsf_equipment_T94_short:0 "Type-94 Shiranui"
+ tsf_equipment_T94_desc:0 "The world's first production 3rd-generation TSF. Based on the technical information of the Zuikaku, through the joint development of Kawazaki, Hugaku, and Mitsuhishi Heavy Industries. In fulfilling requirements for higher performance, the drawbacks of such a revoultionary desgin for production resulted in future problems with upgrading the Shiranui providing little margin for development."
+
+ tsf_equipment_T97:0 "Type-97 Fubuki"
+ tsf_equipment_T97_short:0 "Type-97 Fubuki"
+ tsf_equipment_T97_desc:0 "A 3rd generation Tactical Surface Fighter in use by the Empire of Japan as a training machine, and is derived from the Type-94 Shiranui."
+
+ tsf_equipment_T94H:0 "Type-94 Shiranui Type-1C"
+ tsf_equipment_T94H_short:0 "Type-94 Shiranui Type-1C"
+ tsf_equipment_T94H_desc:0 "The Shiranui Type-1C is equipped with an enlarged power generator and uses the Type-00F/-00A's FE108-FHI-225 engines in its Jump Units instead of the Shiranui's original FE108-FHI-220 engines, giving it greater thruster power. However, the enlarged generator and the increase in power demand from the engines caused poorer fuel efficiency, limiting its operational time"
+
+ tsf_equipment_T942:0 "Type-04 Shiranui Second"
+ tsf_equipment_T942_short:0 "Type-04 Shiranui Second"
+ tsf_equipment_T942_desc:0 "Developed as part of the XFJ project that aimed to overcome the development ceiling of the Type-94 Shiranui and improve its battlefield performance through the useage of US technology and data. The addition of shoulder and waist thrusters, with additional propellant capicity and deployment speed of combat weapons improved the prior issues of Shiranui and improved performance."
+
+ tsf_equipment_T94F:0 "XFJ-01 Shiranui Kyokkou"
+ tsf_equipment_T94F_short:0 "XFJ-01 Shiranui Kyokkou"
+ tsf_equipment_T94F_desc:0 "The XFJ-01 Shiranui Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes."
+
+ tsf_equipment_T00R:0 "Type-00R Takemikazuchi"
+ tsf_equipment_T00R_short:0 "Type-00 Takemikazuchi"
+ tsf_equipment_T00R_desc:0 "A 3rd generation TSF, produced for the Imperial Royal Guards as a successor to Zuikaku. Its main focus being on improving the close-quarters combat capability by incorporating super-carbon weaponry into its frame, providing an overwhelming attack power in close-quaters combat. The high performance of the Type-00 is matched only by a select few other TSFs but is considered to be the ultimate close combat TSF."
+
+ tsf_equipment_T00F:0 "Type-00F Takemikazuchi"
+ tsf_equipment_T00F_short:0 "Type-00 Takemikazuchi"
+ tsf_equipment_T00F_desc:0 "A red/yellow variant of Takemikazuchi used by distinguished commanders, Fudai nobles and royal bodyguards. The parts used in the Type-00F are less exclusive than the Type-00R for ease of repair and production, resulting in a technically inferior TSF compared to the Type-00R."
+
+ tsf_equipment_T00A:0 "Type-00A Takemikazuchi"
+ tsf_equipment_T00A_short:0 "Type-00 Takemikazuchi"
+ tsf_equipment_T00A_desc:0 "A white variant of Takemikazuchi fielded by officers from a tozama (outer vassal) samurai family, either serving under a higher commander or in charge of a smaller combat unit; their combat performance is another step down from the Type-00F for ease of repair and/or production."
+
+ tsf_equipment_T00C:0 "Type-00C Takemikazuchi"
+ tsf_equipment_T00C_short:0 "Type-00 Takemikazuchi"
+ tsf_equipment_T00C_desc:0 "A grey variant of Takemikazuchi used by those inducted into the Imperial Guard, either through recommendation or on temporary loan from other branches, that are not from the nobility. The last and lowest-performing Type-00 variant; it is designed with a simplified head sensor mast, and its mechanical joints experience a 30% drop in performance compared to the Type-00A, although they still have 20% higher engine output and 60% joint strength/durability increase over the Type-94."
+
+ asa_equipment_A6J:0 "Type-81/A-6J"
+ asa_equipment_A6J_short:0 "A-6J"
+ asa_equipment_A6J_desc:0 "A-6 Imperial military specification machine developed by the US military."
+
+ asa_equipment_A12J:0 "A-12J"
+ asa_equipment_A12J_short:0 "A-12J"
+ asa_equipment_A12J_desc:0 "A-12 Imperial military specification machine developed by the US military."
+
+ tsa_equipment_A10J:0 "A-10J"
+ tsa_equipment_A10J_short:0 "A-10J"
+ tsa_equipment_A10J_desc:0 "A-10 Imperial Army machine. Unlike Europe, where there are many plains, the empire with many mountains makes it difficult to take advantage of heavy armaments, so only a few are produced for technical acquisition and defense of the plains."
+
+ JAP_basic_concept_research:0 "TSF basic concept research"
+ JAP_basic_concept_research_desc:0 "The TSF is a weapon with a completely different concept from previous weapons. Basic concept research is indispensable for any production, deployment, or operation."
+ JAP_Assault_gun_improvement:0 "Improved assault gun"
+ JAP_Assault_gun_improvement_desc:0 "The WS-16A assault artillery used during the F-4 actual deployment was equipped with a 20mm cannon and 105mm smooth gun. However, because it was pointed out that the A type was insufficient for the BETA group, the engine muzzle diameter was replaced with 36 mm and the smooth muzzle diameter was replaced with 120 mm."
+ JAP_Jumping_unit_improvement:0 "Jumping unit improvements"
+ JAP_Jumping_unit_improvement_desc:0 "The jumping unit is a hybrid engine that combines a rocket engine and a jet engine as a single unit."
+ JAP_Manipulator_improvement:0 "Manipulator improvements"
+ JAP_Manipulator_improvement_desc:0 "By improving the manipulator, it will be possible to increase the deployment speed of blunt attack tsf."
+ JAP_Carrying_ammunition_increase:0 "Increased ammunition carried"
+ JAP_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
+
+###ソ連###
+ tsf_equipment_MiG21:0 "Mig-21 Balalaika"
+ tsf_equipment_MiG21_short:0 "Mig-21 Balalaika"
+ tsf_equipment_MiG21_desc:0 "A 1st Generation TSF. The MiG-21 Balalaika was the first Soviet TSF to be developed, utlising the desgin and parts from the F-4. Engineirerd towards higher mobility in comparison, becoming the corner stone of Eastern TSF desgin philosophy."
+
+ tsf_equipment_MiG23:0 "Mig-23 Tiborashka"
+ tsf_equipment_MiG23_short:0 "Mig-23 Tiborashka"
+ tsf_equipment_MiG23_desc:0 "A Quasi-2nd Generation TSF, based on the Mig-21, and developed as the first 'true' domestic design by the Soviet Union. Despite having lower maintainablity and operation time than MiG-21, its combat performance overshadowed many TSFs at the time. And was mainly exported to the Soviet Union's puppet states."
+
+ tsf_equipment_MiG25:0 "MiG-25 Spirt-Voz"
+ tsf_equipment_MiG25_short:0 "MiG-25 Spirt-Voz"
+ tsf_equipment_MiG25_desc:0 "A 2nd generation Soviet Tactical Surface Fighter designed by the Mikoyam Guluvich design bureau, built to conduct long-range incursions into BETA territory and/or BETA Hives with minimal support."
+
+ tsf_equipment_MiG27:0 "Mig-27 Aligatori"
+ tsf_equipment_MiG27_short:0 "Mig-27 Aligatori"
+ tsf_equipment_MiG27_desc:0 "A 2nd Generation TSF, an improved build of MiG-23. It takes its name from the alligator, the reptilian species."
+
+ tsf_equipment_MiG29:0 "Mig-29 Lastochka"
+ tsf_equipment_MiG29_short:0 "Mig-29 Lastochka"
+ tsf_equipment_MiG29_desc:0 "A 2nd Generation TSF, the Mi-29 was developed in tandem with the SU-27 intended to support its conterpart fulling roles it lacked with its higher manuverability and maintainabilty. The Mig-29 has enjoyed wide spread use within the Soviet Union becoming a core unit of its TSF forces."
+
+ tsf_equipment_MiG31:0 "Mig-31 Plamya-Lisa"
+ tsf_equipment_MiG31_short:0 "Mig-31 Plamya-Lisa"
+ tsf_equipment_MiG31_desc:0 "A 2nd generation Tactical Surface Fighter developed by the Soviet Union's Mikoyam Guluvich design bureau. It is the continued development of the MiG-25 Spirt-Voz into a TSF equal to other 2nd generation units in general combat, and more importantly, survivability."
+
+ tsf_equipment_MiG29OVT:0 "MiG-29OVT Fulcrum"
+ tsf_equipment_MiG29OVT_short:0 "MiG-29OVT Fulcrum"
+ tsf_equipment_MiG29OVT_desc:0 "An improvement upon the base MiG-29 born from a formal technology-sharing partnership with the US via Project PROMINENCE, the MiG-29OVT can be considered the rival of the F-15 ACTV in terms of combat roles. Various upgrades have been applied to it, which include enlarged and refurbished Jump Units to provide greater thrust, improved avionics and internal components (including Operation By Light), resulting in a 5% increase in operating time, and changing the design of the shoulder blade vanes."
+
+ tsf_equipment_Su11:0 "Su-11"
+ tsf_equipment_Su11_short:0 "Su-11"
+ tsf_equipment_Su11_desc:0 "Sufoni's first attempt at TSF domestic manufacturing. It is a 1st generation TSF prototype with inferior performance to the MiG-21, and was instead used as a basis for the next generations of TSFs."
+
+ tsf_equipment_Su27:0 "Su-27 Zhuravlik"
+ tsf_equipment_Su27_short:0 "Su-27"
+ tsf_equipment_Su27_desc:0 "A 2nd Generation TSF, developed by Sufoni (SOV), who recieved clandestine techinacal assistance from Northrock Grumman resulting in many similarites to the F-14 and F-18. However, due to high power needs, it was problematic in its initial deployment though this was later addressed. and is considered comparable in performace to the F-15."
+
+ tsf_equipment_Su37:0 "Su-37 Terminator"
+ tsf_equipment_Su37_short:0 "Su-37"
+ tsf_equipment_Su37_desc:0 "A 2.5th Generation TSF, based off the prior SU-27 being steadily improved since its inception, being a high-performance, multi-role, and highly adaptable TSF with powerful close-combat and maneuvering capabilities. While it is considered 3rd Gen by Soviet forces, most other nations considered it a 2.5th Generation."
+
+ tsf_equipment_Su47:0 "Su-47 Berkut"
+ tsf_equipment_Su47_short:0 "Su-47"
+ tsf_equipment_Su47_desc:0 "A 3rd Generation TSF, developed by Sufoni basing the unit off of the Su-27 attempting to develop the ultimate high-mobility TSF upgrading prior systems to the maximum extent possible at the time, Improved jump jets and desgin features provided amazing maneuverability that allows the Su-47 to display amazing three-dimensional maneuvering performance, and its new desgin improved the operating time by 30%."
+
+ tsf_equipment_Su57:0 "Su-57"
+ tsf_equipment_Su57_short:0 "Su-57"
+ tsf_equipment_Su57_desc:0 "A 3rd generation Soviet general-purpose TSF. Designed in response to the F-22 Raptor, it incorporates modern stealth features, high mobility, and improved maneuverability."
+
+ asa_equipment_A6S:0 "A-6S Intruder"
+ asa_equipment_A6S_short:0 "A-6S Intruder"
+ asa_equipment_A6S_desc:0 "A-6 Soviet Union specification machine developed by the US military."
+
+ asa_equipment_A12S:0 "A-12S Avenger"
+ asa_equipment_A12S_short:0 "A-12S Avenger"
+ asa_equipment_A12S_desc:0 "A-12 Soviet Union specification machine developed by the US military."
+
+ tsa_equipment_A10S:0 "A-10S Thunderbolt II"
+ tsa_equipment_A10S_short:0 "A-10S Thunderbolt II"
+ tsa_equipment_A10S_desc:0 "A-10 Soviet Union specification machine developed by the US military."
+
  MVLV_basic_concept_research:0 "TSF basic concept research"
  MVLV_basic_concept_research_desc:0 "The TSF is a weapon with a completely different concept from previous weapons. Basic concept research is indispensable for any production, deployment, or operation."
+ SOV_Assault_gun_improvement:0 "Improved assault gun"
+ SOV_Assault_gun_improvement_desc:0 "The WS-16A assault artillery used during the F-4 actual deployment was equipped with a 20mm cannon and 105mm smooth gun. However, because it was pointed out that the A type was insufficient for the BETA group, the engine muzzle diameter was replaced with 36 mm and the smooth muzzle diameter was replaced with 120 mm."
+ SOV_Jumping_unit_improvement:0 "Jumping unit improvements"
+ SOV_Jumping_unit_improvement_desc:0 "The jumping unit is a hybrid engine that combines a rocket engine and a jet engine as a single unit."
+ SOV_Manipulator_improvement:0 "Manipulator improvements"
+ SOV_Manipulator_improvement_desc:0 "By improving the manipulator, it will be possible to increase the deployment speed of blunt attack tsf."
+ SOV_Carrying_ammunition_increase:0 "Increased ammunition carried"
+ SOV_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
+
+ ###欧州連合###
+
+ tsf_equipment_F5E:0 "F-5 Freedom Fighter"
+ tsf_equipment_F5E_short:0 "F-5"
+ tsf_equipment_F5E_desc:0 "The F-5 Freedom Fighter is a 1st generation Tactical Surface Fighter, developed by the United States of America, in conjunction with the F-4 Phantom, as a weapon of war against the BETA."
+
+ tsf_equipment_F4E:0 "F-4 Phantom"
+ tsf_equipment_F4E_short:0 "F-4 Phantom"
+ tsf_equipment_F4E_desc:0 "The first Tactical Surface Fighter produced, the F-4 Phantom is the model from which all modern TSF technology has descended from. Marketed by the US to all nations of the world, the Phantom remains in widespread use even in 2001 by many military forces."
+
+ tsf_equipment_F15EU:0 "F-15 Eagle"
+ tsf_equipment_F15EU_short:0 "F-15"
+ tsf_equipment_F15EU_desc:0 "The F-15 Eagle is a 2nd generation Tactical Surface Fighter of United States of America , developed as a successor to the F-4 Phantom. Its combat performance has earned it great respect by its users, and Western officials have bestowed upon the Eagle the title of "the strongest 2nd generation TSF"."
+
+ tsf_equipment_F5A:0 "F-5ADV Tornado"
+ tsf_equipment_F5A_short:0 "F-5ADV"
+ tsf_equipment_F5A_desc:0 "The Tornado ADV, with "ADV" standing for "Area Defence Variant", is an improved variant of the F-5E Tornado used by the United Kingdom.  The Tornado ADV's improvements are to its front infrared survelliance equipment systems and armament control, as well as the addition of arm-mounted blades for improved close-combat capabilities. These upgrades allow the ADV Tornado to compete on a similar level to other 1.5th generation TSFs."
+
+ tsf_equipment_Tempest:0 "Tempest"
+ tsf_equipment_Tempest_short:0 "Tempest"
+ tsf_equipment_Tempest_desc:0 "A next generation TSF developed for the use of the Royal Air Force and the Italian Air Force. Will integrate next generation capabilities into its design, such as being optionally unmanned and probably directed energy weapons."
+
+ tsf_equipment_JA37:0 "JA 37"
+ tsf_equipment_JA37_short:0 "JA 37"
+ tsf_equipment_JA37_desc:0 "The JA-37 Viggen is a 2nd generation Tactical Surface Fighter built to accommodate the combat requirements of the Kingdom of Sweden's armed forces."
+
+ tsf_equipment_JA39:0 "JAS 39"
+ tsf_equipment_JA39_short:0 "JAS 39"
+ tsf_equipment_JA39_desc:0 "The JAS-39 Gripen is a 3rd generation Tactical Surface Fighter deployed by the Kingdom of Sweden, and was developed as a continuation of the J-35 Draken and JA-37 Viggen. Its name, Gripen, is Swedish for the mythical Griffin, and a representation of the unit's free-fighting capabilities on the ground and in the sky."
+
+ tsf_equipment_F15EEU:0 "F-15E"
+ tsf_equipment_F15EEU_short:0 "F-15E"
+ tsf_equipment_F15EEU_desc:0 "First deployed in 1995, the Strike Eagle is a heavily refurbished F-15 Eagle with increased armament capabilities, improved avionics and composite armor, as well as the exchange of internal components for modernized versions. This variant, highly likely to be the world's first 2.5th generation TSF, has inherited the title of "the strongest 2nd generation machine" from its parent, and has kept the title up till today. "
+
+ tsf_equipment_SW:0 "Starkerwind"
+ tsf_equipment_SW_short:0 "Starkerwind"
+ tsf_equipment_SW_desc:0 "The product of the joint European Future Combat System (FCS) program, the Starkerwind is one component that will fulfill the FCS, being known as the Next Generation Tactical Fighter. It is designed to be carrier-capable and will utilize next generation design elements."
+
+ tsf_equipment_F15SEEU:0 "F-15SE"
+ tsf_equipment_F15SEEU_short:0 "F-15SE"
+ tsf_equipment_F15SEEU_desc:0 "A quasi-3rd generation Eagle variant designed by Boening's "Phantom Works", the F-15SE is a refurbishment of the F-15 that incorporates technology, ideas, and know-how obtained from the Phoenix Initiative and XFJ Program. Improvements include limited stealth for improved anti-TSF combat performance, up-to-date 3rd generation avionics with Operation By Light capabilities, shoulder thrusters, streamlined Jump Units that boost mobility to the levels of other 3rd generation TSFs, and expanded leg fuel tanks."
+
+ tsf_equipment_F35E:0 "F-35A Lightning II"
+ tsf_equipment_F35E_short:0 "F-35A Lightning II"
+ tsf_equipment_F35E_desc:0 "The latest 3rd generation TSF produced by Lockweed Mardin, the F-35 Lightning II was supposedly developed as a joint project between the US, European Union, and African Union as a technological successor of the F-16 Fighting Falcon and F-18 Hornet, and act as the lightweight counterpart to the F-22A Raptor. While the overall capabilities of the F-35 remain unknown, it has been confirmed to posses performance comparable to the EF-2000 Typhoon."
+
+ tsf_equipment_M2000:0 "Mirage 2000"
+ tsf_equipment_M2000_short:0 "M2000"
+ tsf_equipment_M2000_desc:0 "A 1.5th/2nd generation Tactical Surface Fighter manufactured by Dass-Ault for the French Republic, the Mirage 2000 has had a long history with the French armed forces."
+
+ tsf_equipment_EF2000:0 "EF-2000 Typhoon"
+ tsf_equipment_EF2000_short:0 "Typhoon"
+ tsf_equipment_EF2000_desc:0 "A 3rd Generation TSF, the Typhoon development in the ECTSF project was a long and at times fraught process being jointly worked on by European nations, like Britan, France and West Germany. But it would eventually be completed and bear fruit with a excellent high mobility and close combat TSF."
+
+ tsf_equipment_RAF:0 "Rafale"
+ tsf_equipment_RAF_short:0 "Rafale"
+ tsf_equipment_RAF_desc:0 "A 3rd Generation TSF, developed by France following its exit from the ECTSF project. Following the same desgin data the unit is remarkably similar to the Typhoon in looks and capabilites but has been developed with unique improvements providing it an impressive amount of firepower."
+
+ asa_equipment_0:0 "A-6 Intruder"
+ asa_equipment_0_short:0 "A-6 Intruder"
+ asa_equipment_0_desc:0 "The A-6 Intruder is an amphibious Tactical Surface Attacker, the first of what would be an offshot line from Tactical Surface Fighters that have been adapted to carry massive firepower in exchange for other aspects."
+
+ asa_equipment_1:0 "A-12 Avenger"
+ asa_equipment_1_short:0 "A-12 Avenger"
+ asa_equipment_1_desc:0 "A 3rd generation Tactical Surface Attacker, the A-12 Avenger can be considered the direct successor to the A-6 Intruder, and is currently in service with the US Marine Corps."
+
+ tsa_equipment_0:0 "A-10 Thunderbolt II"
+ tsa_equipment_0_short:0 "A-10 Thunderbolt II"
+ tsa_equipment_0_desc:0 "The second model of TSAs to be built, the Fairchild Republic TSA-10 Thunderbolt II has lived up well to its name of "Tank Killer" throughout its service life, being responsible for large numbers of BETA casualties whenever deployed."
+
+ EUR_basic_concept_research:0 "TSF basic concept research"
+ EUR_basic_concept_research_desc:0 "The TSF is a weapon with a completely different concept from previous weapons. Basic concept research is indispensable for any production, deployment, or operation."
  MVLV_Assault_gun_improvement:0 "Improved assault gun"
  MVLV_Assault_gun_improvement_desc:0 "The WS-16A assault artillery used during the F-4 actual deployment was equipped with a 20mm cannon and 105mm smooth gun. However, because it was pointed out that the A type was insufficient for the BETA group, the engine muzzle diameter was replaced with 36 mm and the smooth muzzle diameter was replaced with 120 mm."
  MVLV_Jumping_unit_improvement:0 "Jumping unit improvements"
@@ -56,81 +550,15 @@
  MVLV_Carrying_ammunition_increase:0 "Increased ammunition carried"
  MVLV_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
 
- xg_equipment_0:0 "XG-70b"
- xg_equipment_0_short:0 "XG-70b"
- xg_equipment_0_desc:0 "The XG-70 series was intended as mobile weapon that could reduce or replace the number of resources and men needed to conduct operations against Hives. As planned in the HI-MAERF Project using G element application techonolgy. the 'b' series is the second prototype in the project notablely lacking normal armaments equpied only with a Charged Paticle Gun and Rutherford Field Capablities. "
- xg_equipment_1:0 "XG-70d"
- xg_equipment_1_short:0 "XG-70d"
- xg_equipment_1_desc:0 "The XG-70d cannot fire its conventional weapons whilst deploying its Rutherford Field, but is able to load many conventional weapons with added abilty of the computing power of 00 units. This machine equipped with an Electromagnetic Projection Gun, Vertical Launching Systems, and Chaingun making it a true XG-70 unit."
- 
-###日本帝国###
- JAP_tsf_equipment_1:0 "Type 77 Gekishin"
- JAP_tsf_equipment_1_short:0 "F-4J"
- JAP_tsf_equipment_1_desc:0 "A 1st Generation TSF, Japanese variant of the F-4, its close combat capabilities enhanced through a second-arm attachment for swords, reinforced joints and hand manipulators, follwing the Japanese operational philosophy that emphasizes melee combat."
- JAP_tsf_equipment_2:0 "Type82 Zuikaku"
- JAP_tsf_equipment_2_short:0 "F-4J Zuikaku"
- JAP_tsf_equipment_2_desc:0 "A 1.5th Generation TSF, modified version of the F-4J Gekishin focusing on improving performance through improved mobility and weight reduction. Intended as a exclusive TSF for the Imperial Royal Guards, whose main mission is to protect the Shogunate."
- JAP_tsf_equipment_3:0 "Type89 Kagerou"
- JAP_tsf_equipment_3_short:0 "F-15J"
- JAP_tsf_equipment_3_desc:0 "A 2nd Generation, modified version of the F-15C. Changes included the usage of a Japanese battle O.S. suited to close combat in keeping with the Japanese empahsis on melee combat, improving the strength and durability of its joints and frame by improving the materials properties, and the enchament of the tensile strength of the its carbonic actuators."
- JAP_tsf_equipment_4:0 "Type94 Shiranui"
- JAP_tsf_equipment_4_short:0 "Type-94"
- JAP_tsf_equipment_4_desc:0 "The world's first production 3rd-generation TSF. Based on the technical information of the Zuikaku, through the joint development of Kawazaki, Hugaku, and Mitsuhishi Heavy Industries. In fulfilling requirements for higher performance, the drawbacks of such a revoultionary desgin for production resulted in future problems with upgrading the Shiranui providing little margin for development."
- JAP_tsf_equipment_5:0 "Type00 Takemikazuchi"
- JAP_tsf_equipment_5_short:0 "Type-00"
- JAP_tsf_equipment_5_desc:0 "A 3rd generation TSF, produced for the Imperial Royal Guards as a successor to Zuikaku. Its main focus being on improving the close-quarters combat capability by incorporating super-carbon weaponry into its frame, providing an overwhelming attack power in close-quaters combat. The high performance of the Type-00 is matched only by a select few other TSFs but is consdiered to be the ultimate close combat TSF."
- JAP_tsf_equipment_6:0 "Type04 Shiranui Second"
- JAP_tsf_equipment_6_short:0 "Type-04"
- JAP_tsf_equipment_6_desc:0 "Developed as part of the XFJ project that aimed to overcome the development ceiling of the Type-94 Shiranui and improve its battlefield performance through the useage of US technology and data. The addition of shoulder and waist thrusters, with additional propellant capicity and deployment speed of combat weapons improved the prior issues of Shiranui and improved performance."
- 
- JAP_asa_equipment_0:0 "Type81"
- JAP_asa_equipment_0_short:0 "A-6J"
- JAP_asa_equipment_0_desc:0 "A-6 Imperial military specification machine developed by the US military."
- 
- JAP_tsa_equipment_0:0 "A-10J"
- JAP_tsa_equipment_0_short:0 "A-10J"
- JAP_tsa_equipment_0_desc:0 "A-10 Imperial Army machine. Unlike Europe, where there are many plains, the empire with many mountains makes it difficult to take advantage of heavy armaments, so only a few are produced for technical acquisition and defense of the plains."
- 
- ###ソ連###
- SOV_tsf_equipment_0:0 "Mig-21 Balalaika"
- SOV_tsf_equipment_0_short:0 "Mig-21"
- SOV_tsf_equipment_0_desc:0 "A 1st Generation TSF. The MiG-21 Balalaika was the first Soviet TSF to be developed, utlising the desgin and parts from the F-4. Engineirerd towards higher mobility in comparison, becoming the corner stone of Eastern TSF desgin philosophy."
- SOV_tsf_equipment_1:0 "Mig-23 Tiborashka"
- SOV_tsf_equipment_1_short:0 "Mig-23"
- SOV_tsf_equipment_1_desc:0 "A Quasi-2nd Generation TSF, based on the Mig-21, and developed as the first 'true' domestic design by the Soviet Union. Despite having lower maintainablity and operation time than MiG-21, its combat performance overshadowed many TSFs at the time. And was mainly exported to the Soviet Union's puppet states."
- SOV_tsf_equipment_2:0 "Mig-29 Lastochka"
- SOV_tsf_equipment_2_short:0 "Mig-29"
- SOV_tsf_equipment_2_desc:0 "A 2nd Generation TSF, the Mi-29 was developed in tandem with the SU-27 intended to support its conterpart fulling roles it lacked with its higher manuverability and maintainabilty. The Mig-29 has enjoyed wide spread use within the Soviet Union becoming a core unit of its TSF forces."
- SOV_tsf_equipment_3:0 "Su-27 Zhuravlik"
- SOV_tsf_equipment_3_short:0 "Su-27"
- SOV_tsf_equipment_3_desc:0 "A 2nd Generation TSF, developed by Sufoni (SOV), who recieved clandestine techinacal assistance from Northrock Grumman resulting in many similarites to the F-14 and F-18. However, due to high power needs, it was problematic in its initial deployment though this was later addressed. and is considered comparable in performace to the F-15."
- SOV_tsf_equipment_4:0 "Su-37 Terminator"
- SOV_tsf_equipment_4_short:0 "Su-37"
- SOV_tsf_equipment_4_desc:0 "A 2.5th Generation TSF, based off the prior SU-27 being steadily improved since its inception, being a high-performance, multi-role, and highly adaptable TSF with powerful close-combat and maneuvering capabilities. While it is considered 3rd Gen by Soviet forces, most other nations considered it a 2.5th Generation."
- SOV_tsf_equipment_5:0 "Su-47 Berkut"
- SOV_tsf_equipment_5_short:0 "Su-47"
- SOV_tsf_equipment_5_desc:0 "A 3rd Generation TSF, developed by Sufoni basing the unit off of the Su-27 attempting to develop the ultimate high-mobility TSF upgrading prior systems to the maximum extent possible at the time, Improved jump jets and desgin features provided amazing maneuverability that allows the Su-47 to display amazing three-dimensional maneuvering performance, and its new desgin improved the operating time by 30%."
- SOV_tsf_equipment_6:0 "Su-57"
- SOV_tsf_equipment_6_short:0 "Su-57"
- SOV_tsf_equipment_6_desc:0 "A 3.5th Generation Soviet general-purpose TSF, it has from previous models and manufacturing experience acquired high combat ability, excelling in anti-BETA fighting with its performance and ability."
-
- ###欧州連合###
- EUR_tsf_equipment_4:0 "EF-2000 Typhoon"
- EUR_tsf_equipment_4_short:0 "Typhoon"
- EUR_tsf_equipment_4_desc:0 "A 3rd Generation TSF, the Typhoon development in the ECTSF project was a long and at times fraught process being jointly worked on by European nations, like Britan, France and West Germany. But it would eventually be completed and bear fruit with a excellent high mobility and close combat TSF."
- EUR_tsf_equipment_5:0 "Rafale"
- EUR_tsf_equipment_5_short:0 "Rafale"
- EUR_tsf_equipment_5_desc:0 "A 3rd Generation TSF, developed by France following its exit from the ECTSF project. Following the same desgin data the unit is remarkably similar to the Typhoon in looks and capabilites but has been developed with unique improvements providing it an impressive amount of firepower."
-
  ###統一中華戦線###
- 
-AFR_tsf_equipment_2:0 "Lavi"
+
+ AFR_tsf_equipment_2:0 "Lavi"
  AFR_tsf_equipment_2_short:0 "Lavi"
  AFR_tsf_equipment_2_desc:0 "A 2nd Generation TSF. Developed by Israel with support from the US, but this was withdraw to the US changing empahsies, leaving the project in doubt till China intrested in its development steped in, leading to the Lavi and J-10s development"
  AFR_tsf_equipment_3:0 "F-14 Ex"
  AFR_tsf_equipment_3_short:0 "F-14Ex"
  AFR_tsf_equipment_3_desc:0 "A 2.5th Generation TSF, modifed version of the F-14 provided for to Iran by the United States. Notable changes eliminating the operation function of the Phoenix missile, adding a thruster, it became an TSF suitable for medium and short range battles"
- 
+
 ###BETA###
  beta_destroyer_0:0 "Destroyer Class"
  beta_destroyer_0_short:0 "Destroyer Class"
