@@ -81,8 +81,6 @@
 		technology = flexible_line
 		technology = streamlined_line
 	}
-
-	add_offsite_building = { type = arms_factory level = 50 }
 	add_offsite_building = { type = industrial_complex level = 50 }
 	add_offsite_building = { type = dockyard level = 10 }
 
