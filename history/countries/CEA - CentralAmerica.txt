@@ -116,7 +116,7 @@
 		CEA_USA_Treaty
 	}
 	
-	set_convoys = 1000 #初期輸送船数を定義
+	set_convoys = 10000 #初期輸送船数を定義
 }
 set_stability = 0.5 #初期安定度を定義
 set_war_support = 0.1 #初期戦争協力度を定義
@@ -127,8 +127,8 @@ army_experience = 0 #初期陸軍経験値を定義
 
 add_political_power = 0 #初期政治力を定義
 
-add_offsite_building = { type = arms_factory level = 100 } #MAP外軍需を定義
-add_offsite_building = { type = industrial_complex level = 100 } #MAP外民需を定義
+add_offsite_building = { type = arms_factory level = 20 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 20 } #MAP外民需を定義
 #add_offsite_building = { type = dockyard level = 20 } #MAP外海軍工廠を定義
 
 set_politics = { #初期政体を定義

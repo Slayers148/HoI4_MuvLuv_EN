@@ -37,8 +37,8 @@ equipments = {
 		
 		build_cost_ic = 38
 		resources = {
-			aluminium = 1
-			steel = 1
+			aluminium = 0
+			steel = 0
 		}
 	}
 #F-5#
@@ -70,6 +70,8 @@ equipments = {
 		
 		build_cost_ic = 36
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	}
@@ -111,6 +113,8 @@ equipments = {
 		
 		build_cost_ic = 40
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -144,6 +148,8 @@ equipments = {
 		
 		build_cost_ic = 55
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -178,6 +184,8 @@ equipments = {
 		
 		build_cost_ic = 60
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -254,6 +262,8 @@ equipments = {
 		
 		build_cost_ic = 50
 		resources = {
+		aluminium = 0
+			steel = 0
 		}
 	
 	
@@ -398,7 +408,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 5
 		
-		build_cost_ic = 180
+		build_cost_ic = 90
 		resources = {
 			aluminium =2
 			steel = 2
@@ -468,7 +478,8 @@ equipments = {
 		
 		build_cost_ic = 65
 		resources = {
-
+		aluminium = 0
+			steel = 0
 		}
 	
 	
