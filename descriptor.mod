@@ -1,11 +1,10 @@
-version="1.9.0"
-replace_path="history/countries"
-replace_path="history/states"
-replace_path="history/units"
+version="1.0"
 tags={
 	"Alternative History"
+	"Events"
+	"Fixes"
+	"Gameplay"
 }
-picture="EN.png"
-name="MuvLuvEN"
-supported_version="1.9.0"
-remote_file_id="1933460705"
+name="MVLVSEA"
+supported_version="1.9.2"
+remote_file_id="2107620743"
