@@ -36,8 +36,7 @@ equipments = {
 		lend_lease_cost = 5
 		
 		build_cost_ic = 38
-		resources = { aluminium = 0
-			steel = 0
+		resources = {
 		}
 	}
 #F-5#
@@ -69,8 +68,6 @@ equipments = {
 		
 		build_cost_ic = 36
 		resources = {
-		aluminium = 0
-			steel = 0
 		}
 	
 	}
@@ -112,8 +109,6 @@ equipments = {
 		
 		build_cost_ic = 50
 		resources = {
-		aluminium = 0
-			steel = 0
 		}
 	
 	
@@ -147,8 +142,6 @@ equipments = {
 		
 		build_cost_ic = 65
 		resources = {
-		aluminium = 0
-			steel = 0
 		}
 	
 	
@@ -183,8 +176,6 @@ equipments = {
 		
 		build_cost_ic = 70
 		resources = {
-		aluminium = 0
-			steel = 0
 		}
 	
 	
@@ -261,8 +252,6 @@ equipments = {
 		
 		build_cost_ic = 60
 		resources = {
-		aluminium = 0
-			steel = 0
 		}
 	
 	
@@ -514,8 +503,6 @@ tsf_equipment_M2000U = {
 		
 		build_cost_ic = 50
 		resources = {
-		aluminium = 0
-			steel = 0
 		}
 	
 	
@@ -552,8 +539,6 @@ tsf_equipment_M2000U = {
 		
 		build_cost_ic = 55
 		resources = {
-		aluminium = 0
-			steel = 0
 		}
 	
 	

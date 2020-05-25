@@ -1,5 +1,5 @@
 l_english:
- LOADING_TIP_0:0 "You want to meet him again, don't you? Then you should say...'See you.' Not 'goodbye.'\n- Mitsurugi Meiya"
+ LOADING_TIP_0:0 "You want to meet him again, don't you? Then you should say...'See you.' Not 'goodbye.\n- Mitsurugi Meiya"
  LOADING_TIP_1:0 "Achieve your mission with all your might. Despair not till your last breath. Make your death count..\n-  Section from the Creed of the Valkyries"
  LOADING_TIP_2:0 "From now on, you and I---will be heading into a hell where you won't be able to even care about death anymore.\n- Kouzuki Yuuko"
  LOADING_TIP_3:0 "They say you can redo your life while you're still young, but the young don't know how...\n- Kouzuki Yuuko"

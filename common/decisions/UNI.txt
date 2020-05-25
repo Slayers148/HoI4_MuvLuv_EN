@@ -15,14 +15,14 @@ political_actions = {
 		fire_only_once = no
 
 		modifier = {
-			stability_weekly = 0.1
-			war_support_weekly = 0.1
+			stability_weekly = 0.5
+			war_support_weekly = 0.5
 		}
 
 		days_remove = 120
 		days_re_enable = 120
 
-		cost = 300
+		cost = 75
 
 		complete_effect = {
 
