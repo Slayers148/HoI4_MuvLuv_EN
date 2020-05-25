@@ -29,7 +29,7 @@ ideas = {
 				add_equipment 100 strat_bomber_equipment_2
 			}
 		}
-		USA_Global_Transport_Arm = {
+		USA_Transport_Arm = {
 			allowed = { always = no }
 			modifier = {
 						land_reinforce_rate = 0.05

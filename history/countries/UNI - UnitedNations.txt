@@ -59,7 +59,7 @@
 		generic_tsa_1st = 1
 
 		basic_medium_tank = 1
-		improved_decryption =1
+		improved_decryption = 1
 		
 		###軍需・民需建築許可
 		MVLV_EnableBuilding_arms_factory = 1
@@ -82,8 +82,8 @@
 		technology = streamlined_line
 	}
 
-	add_offsite_building = { type = arms_factory level = 150 }
-	add_offsite_building = { type = industrial_complex level = 150 }
+	add_offsite_building = { type = arms_factory level = 50 }
+	add_offsite_building = { type = industrial_complex level = 50 }
 	add_offsite_building = { type = dockyard level = 10 }
 
 	# Starting tech
@@ -193,6 +193,7 @@
 		UNI_SHADOW
 		UNI_Global_Transport_Arm
 		UNI_Nuclear_Weapons_Stockpile
+		UNI_Armed_Forces_Constraints
 	}
 
 	if = {
