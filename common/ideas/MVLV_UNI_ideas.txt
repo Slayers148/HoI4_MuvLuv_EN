@@ -157,13 +157,5 @@ ideas = {
 						nukes = 100
 			}
 		}
-		
-					UNI_Armed_Forces_Constraints = {
-			allowed = { always = no }
-			modifier = {
-							training_time_army_factor = 0.5
-			}
-		}
-		
 	}
 }

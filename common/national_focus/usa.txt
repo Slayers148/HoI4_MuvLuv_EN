@@ -153,7 +153,7 @@ focus_tree = {
 		id = USA_Repeal_Treaty_CEA
 		icon = GFX_goal_generic_national_unity
 		#text = 
-		x = 20
+		x = 5
 		y = 0
 		#relative_position_id = 
 		#prerequisite = { focus = }
