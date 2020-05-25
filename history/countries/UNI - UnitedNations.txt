@@ -81,9 +81,13 @@
 		technology = flexible_line
 		technology = streamlined_line
 	}
+<<<<<<< HEAD
 
 	add_offsite_building = { type = arms_factory level = 150 }
 	add_offsite_building = { type = industrial_complex level = 150 }
+=======
+	add_offsite_building = { type = industrial_complex level = 50 }
+>>>>>>> e5057f596bb6168d2e69fd3aacb74e9a7d430482
 	add_offsite_building = { type = dockyard level = 10 }
 
 	# Starting tech
