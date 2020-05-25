@@ -120,11 +120,28 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Laser Fort Class"
+	division_names_group = BET_LASER_FORT_01
+	regiments = {
+		MVLV_beta_srf = { x = 0 y = 0 }
+		MVLV_beta_srf = { x = 0 y = 1 }
+		MVLV_beta_srf = { x = 0 y = 2 }
+		MVLV_beta_srf = { x = 0 y = 3 }
+	}
+}
+
 units = {
 
 #喀什
 #____________________________________________________________
 division = {
+		name = "Prime"
+		location = 8086
+		division_template = "Laser Fort Class"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+}division = {
 		name = "要撃級師団"
 		location = 8086
 		division_template = "Grappler class division"

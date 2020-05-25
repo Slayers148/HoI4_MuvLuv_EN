@@ -31,7 +31,6 @@ equipments = {
 		
 		build_cost_ic = 7
 		resources = {
-			chromium = 1
 		}
 		
 		manpower = 20
@@ -358,7 +357,7 @@ equipments = {
 				
 		build_cost_ic = 20
 		resources = {
-			chromium = 1
+			chromium = 0
 		}
 
 		naval_strike_attack = 4

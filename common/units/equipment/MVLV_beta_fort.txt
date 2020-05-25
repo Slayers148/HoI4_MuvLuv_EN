@@ -27,7 +27,7 @@ equipments = {
 		soft_attack = 250
 		hard_attack = 135
 		ap_attack = 121
-		air_attack = 100
+		air_attack = 1000
 
 		#Space taken in convoy
 		lend_lease_cost = 1
