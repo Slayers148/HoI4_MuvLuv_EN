@@ -10,7 +10,7 @@ state={
 			owner = H09
 			remove_core_of = H09
 		}
-		add_core_of = KUW
+		#add_core_of = KUW
 		owner = ENG
 		victory_points = {
 			8085 1 

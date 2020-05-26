@@ -11,6 +11,7 @@ state=
 		1999.1.1 = {
 			owner = EUR
 			add_core_of = EUR
+			remove_core_of = DEN
 		}
 		owner = DEN
 		buildings = {

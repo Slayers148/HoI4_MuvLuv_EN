@@ -9,6 +9,7 @@ state={
 	1999.1.1 = {
 		add_core_of = EUR
 		owner = EUR
+		remove_core_of = ENG
 	}
 		owner = ENG
 		victory_points = { 3501 20 }

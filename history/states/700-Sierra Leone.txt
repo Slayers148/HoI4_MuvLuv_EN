@@ -12,7 +12,7 @@ state={
 			add_core_of = AFR
 		}
 		owner = ENG
-		add_core_of = SIE
+		#add_core_of = SIE
 		victory_points = {
 			2038 1 
 		}

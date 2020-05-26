@@ -792,6 +792,10 @@
  STATE_791:0 "Yukon"
  STATE_792:0 "Yokohama"
  STATE_793:0 "RedShiftLine"
-
-
-
+ STATE_794:0 "Verkhoyansk Hive"
+ STATE_795:0 "Noginsk Hive"
+ STATE_796:0 "Bhopal Hive"
+ STATE_797:0 "Evensk Hive"
+ STATE_798:0 "Ekibastuz Hive"
+ STATE_799:0 "Surgut Hive"
+ STATE_800:0 "Krasnoyarsk Hive"

@@ -3,8 +3,8 @@ state={
 	name="STATE_405"
 
 	history = { 1999.1.1 = { 
-			owner = H03
-			remove_core_of = H03
+			owner = H02
+			remove_core_of = H02
 		}
 		owner = SOV
 		victory_points = {

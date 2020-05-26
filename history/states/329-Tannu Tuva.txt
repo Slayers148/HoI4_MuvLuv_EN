@@ -10,8 +10,8 @@ state={
 	state_category = rural
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H18
+			remove_core_of = H18
 		}
 		owner = TAN
 		buildings = {
@@ -22,7 +22,7 @@ state={
 		victory_points = {
 			10627 3
 		}
-		add_core_of = TAN
+		#add_core_of = TAN
 		add_core_of = SOV
 	}
 

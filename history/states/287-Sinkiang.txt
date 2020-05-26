@@ -6,7 +6,7 @@ state={
 	buildings_max_level_factor = 10.000
 	
 	provinces={
-		4973 8042 8086 10885 10911 12864 
+		4973 8042 8086 10885 10911 12864 13248 13249 13250 13251 13252 13253 13254 13255 13256 13257 13258 13259 13260 13261
 	}
 #	resources={
 #		steel=250
@@ -20,6 +20,7 @@ state={
 	history={
 		owner = BET
 		add_core_of = BET
+		add_core_of = UNI
 
 		#ボパール陥落用
 		add_claim_by = H13
@@ -28,23 +29,60 @@ state={
 			infrastructure = 10
 			arms_factory = 5
 			industrial_complex = 5
-			4973 = { bunker = 10 }
-			8042 = { bunker = 10 } 
-			8086 = { bunker = 10 } 
-			10885 = { bunker = 10 } 
-			10911 = { bunker = 10 } 
-			12864 = { bunker = 10 }
+			air_base = 1
 		}
 		
 		1999.1.1 = {
 			buildings = {
 				hive = 1
-                                radar_station = 6
+				radar_station = 6
+			         anti_air_building = 1
+				
+				13254 = { bunker = 5 }
 			}
 		}
 		
 		victory_points = {
-			8086 200
+			13254 200
+		}
+		victory_points = {
+			13252 10
+		}
+		victory_points = {
+			13251 5
+		}
+		victory_points = {
+			13256 5
+		}
+		victory_points = {
+			13253 5
+		}
+		victory_points = {
+			13248 5
+		}
+		victory_points = {
+			13255 1
+		}
+		victory_points = {
+			13249 1
+		}
+		victory_points = {
+			13250 1
+		}
+		victory_points = {
+			13257 1
+		}
+		victory_points = {
+			13258 1
+		}
+		victory_points = {
+			13259 1
+		}
+		victory_points = {
+			13260 1
+		}
+		victory_points = {
+			13261 1
 		}
 	}
 }

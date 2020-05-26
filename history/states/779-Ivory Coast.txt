@@ -10,7 +10,7 @@ state={
 			add_core_of = AFR
 		}
 		owner = FRA
-		add_core_of = IVO
+		#add_core_of = IVO
 		victory_points = {
 			10803 1
 		}

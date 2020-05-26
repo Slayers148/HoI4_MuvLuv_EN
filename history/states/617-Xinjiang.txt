@@ -3,11 +3,14 @@ state={
 	name="STATE_617"
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H06
+			remove_core_of = H06
+
+			#BETA本国陥落用
+			add_claim_by = BET
 		}
 		owner = PRC
-		add_core_of = SIK
+		#add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

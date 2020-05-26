@@ -8,6 +8,7 @@ state={
 	history = { 1999.1.1 = { 
 			owner = H08
 			remove_core_of = H08
+			add_core_of = EUR
 		}
 		owner = FIN
 		buildings = {
@@ -16,7 +17,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = FIN
+		#add_core_of = FIN
 	}
 	
 	provinces={

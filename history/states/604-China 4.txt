@@ -3,11 +3,11 @@ state={
 	name="STATE_604"
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H14
+			remove_core_of = H14
 		}
 		owner = PRC
-		add_core_of = XSM
+		#add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {

@@ -123,168 +123,168 @@ division_template = {
 units  = {
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "戦車級師団"
-		location = 9660
+		location = 819
 		division_template = "Tank class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "兵士級師団"
-		location = 9660
+		location = 819
 		division_template = "Soldier class division"
 		start_experience_factor = 0
 		start_equipment_factor = 1

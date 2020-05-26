@@ -19,11 +19,12 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 3
+			anti_air_building = 4
 			3338 = {
 				naval_base = 3
 			}
 			9130 = {
-				bunker = 10
+				bunker = 4
 			}
 			hive = 1
 		}

@@ -8,6 +8,7 @@ state={
 	history = { 1999.1.1 = { 
 			owner = H03
 			remove_core_of = H03
+			remove_core_of = UKR
 		}
 		owner = SOV
 		victory_points = {

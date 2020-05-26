@@ -115,7 +115,7 @@ focus = {
 		cost = 10
 
 		#select_effect = { }
-		completion_reward = { add_political_power = 3000 }
+		completion_reward = { add_political_power = 2000 }
 		#completation_tooltip = { }
 
 		ai_will_do = { factor = 1 }
@@ -300,7 +300,7 @@ focus = {
 
 		#select_effect = { }
 		completion_reward = {
-			add_manpower = 1000000
+			add_manpower = 3000000
 		}
 		#completation_tooltip = { }
 

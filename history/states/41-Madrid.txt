@@ -1,0 +1,62 @@
+
+state={
+	id=41
+	name="STATE_41" # Madrid
+	manpower = 0
+
+	state_category = city
+
+	resources={
+		aluminium=1 # was: 2
+	}
+
+	history = {
+
+		1999.1.1 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_core_of = SPR
+			controller = H12
+      set_state_category = betaland
+      
+			H12 = {
+				set_province_controller = 858
+				set_province_controller = 896
+				set_province_controller = 939
+				set_province_controller = 977
+				set_province_controller = 3794
+				set_province_controller = 3845
+				set_province_controller = 3858
+				set_province_controller = 3938
+				set_province_controller = 3986
+				set_province_controller = 6841
+				set_province_controller = 6914
+				set_province_controller = 6993
+				set_province_controller = 9767
+				set_province_controller = 9785
+				set_province_controller = 9933
+				set_province_controller = 11820
+				set_province_controller = 11870
+			}
+		}
+		owner = SPR
+		victory_points = {
+			3938 30.0
+		}
+		victory_points = {
+			858 1
+		}
+		buildings = {
+			infrastructure = 6
+			#arms_factory = 2
+			#industrial_complex = 3
+			air_base = 6
+		}
+		add_core_of = SPR
+	}
+
+
+	provinces={
+		858 896 939 977 3794 3845 3858 3938 3986 6841 6914 6993 9767 9785 9933 11820 11870
+	}
+}

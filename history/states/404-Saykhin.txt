@@ -6,8 +6,10 @@ state={
 			owner = H03
 			remove_core_of = H03
 
-			#BETA本国陥落用
-			add_claim_by = BET
+			#マシュハド陥落用
+			add_claim_by = H02
+			#エキバストゥズ陥落用
+			add_claim_by = H06
 		}
 		owner = SOV
 		add_core_of = KAZ

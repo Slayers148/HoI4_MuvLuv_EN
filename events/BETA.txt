@@ -12,7 +12,7 @@ country_event = {
 	#trigger = {
 	#	OR = {
 	#		tag = BET
-	#		
+	#
 	#	}
 	#}
 	#mean_time_to_happen = {
@@ -29,14 +29,19 @@ country_event = {
 					is_owned_by = H21
 					is_owned_by = H20
 					is_owned_by = H19
+					is_owned_by = H18
 					is_owned_by = H17
 					is_owned_by = H16
+					is_owned_by = H15
+					is_owned_by = H14
 					is_owned_by = H13
 					is_owned_by = H12
 					is_owned_by = H11
 					is_owned_by = H10
 					is_owned_by = H09
 					is_owned_by = H08
+					is_owned_by = H07
+					is_owned_by = H06
 					is_owned_by = H05
 					is_owned_by = H04
 					is_owned_by = H03
@@ -44,7 +49,7 @@ country_event = {
 				}
 				is_capital = no
 			}
-			set_state_category = betaland 
+			set_state_category = betaland
 		}
 	}
 }
@@ -59,27 +64,27 @@ country_event = {
 	title = BETA.2.t
 	picture = BETA_event_1.dds
 	fire_only_once = no
-	
+
 	trigger = {
 		is_in_faction_with = BET
 		date > 1999.1.15
-		NOT = { 
+		NOT = {
 			has_country_flag = disabled_aggressive_beta
 			has_idea = mvlv_standby_sado
 		}
 	}
-	
+
 	mean_time_to_happen = {
 		days = 60
 	}
-	
+
 	option ={
 		if = {
 			limit = {
 				has_idea = mvlv_aggressive_beta
 			}
 			remove_ideas = { mvlv_aggressive_beta }
-			
+
 			else = {
 				add_ideas = { mvlv_aggressive_beta }
 			}
@@ -102,17 +107,17 @@ country_event = {
 	title = BETA.3.t
 	picture = BETA_event_1.dds
 	fire_only_once = no
-	
+
 	trigger = {
 		is_in_faction_with = BET
 		date > 1999.1.15
 		has_country_flag = disabled_aggressive_beta
 	}
-	
+
 	mean_time_to_happen = {
 		days = 10
 	}
-	
+
 	option ={
 		clr_country_flag = diabled_aggressive_beta
 	}
@@ -132,10 +137,10 @@ country_event = {
 		capital_scope = {
 			NOT = { is_fully_controlled_by = ROOT }
 		}
-		
+
 		NOT = { has_country_flag = surrender_country }
 	}
-	
+
 	mean_time_to_happen = {
 		days = 5
 	}
@@ -169,97 +174,97 @@ country_event = {
 						}
 						#Tank
 						create_unit = {
-							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1" 
+							division = "name = \"Tank class division\" division_template = \"Tank class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
-	
+
 						#Soldier
 						create_unit = {
-							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1" 
+							division = "name = \"Soldier class division\" division_template = \"Soldier class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
-	
+
 						#Warrior
 						create_unit = {
-							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1" 
+							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1" 
+							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1" 
+							division = "name = \"Warrior class division\" division_template = \"Warrior class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
-	
+
 						#Grappler
 						create_unit = {
-							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1" 
+							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1" 
+							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1" 
+							division = "name = \"Grappler class division\" division_template = \"Grappler class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
-						
+
 						#Destroyer
 						create_unit = {
-							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1" 
+							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1" 
+							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 						create_unit = {
-							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1" 
+							division = "name = \"Destroyer class division\" division_template = \"Destroyer class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
-	
+
 						#Fort
 						create_unit = {
-							division = "name = \"Fort class division\" division_template = \"Fort class division\" start_experience_factor = 0.1" 
+							division = "name = \"Fort class division\" division_template = \"Fort class division\" start_experience_factor = 0.1"
 							owner = PREV
 						}
 					}
@@ -283,7 +288,7 @@ country_event = {
 		has_war = yes
 		date > 2001.12.25
 	}
-	
+
 	mean_time_to_happen = {
 		days = 10
 	}
@@ -302,7 +307,7 @@ country_event = {
 						is_claimed_by = ROOT
 						}
 		create_unit = {
-			division = "name = \"Г標的\" division_template = \"SRF class division\" start_experience_factor = 1" 
+			division = "name = \"Г標的\" division_template = \"SRF class division\" start_experience_factor = 1"
 			owner = H26
 			}
 	news_event = { id = mvlv_srf.1 hours = 3 }

@@ -2,18 +2,40 @@
 state={
 	id=173
 	name="STATE_173" # Granada
-	manpower = 1662292
-	
+	manpower = 0
+
 	state_category = city
-	
+
 	resources={
 		steel=8 # was: 12
 	}
 
 	history = {
-		1999.1.1 = { 
-			owner = H12
-			remove_core_of = H12
+		1999.1.1 = {
+		owner = EUR
+		add_core_of = EUR
+		remove_core_of = SPR
+		controller = H12
+		set_state_category = betaland
+
+		H12 = {
+			set_province_controller = 747
+			set_province_controller = 1090
+			set_province_controller = 1176
+			set_province_controller = 1192
+			set_province_controller = 4065
+			set_province_controller = 4095
+			set_province_controller = 7068
+			set_province_controller = 7153
+			set_province_controller = 7196
+			set_province_controller = 7198
+			set_province_controller = 9979
+			set_province_controller = 10009
+			set_province_controller = 10063
+			set_province_controller = 11956
+			set_province_controller = 12038
+			set_province_controller = 12083
+			}
 		}
 		owner = SPR
 		victory_points = {
@@ -27,7 +49,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			#industrial_complex = 2
 			air_base = 4
 			9979 = {
 				naval_base = 2
@@ -40,6 +62,6 @@ state={
 	}
 
 	provinces={
-		747 1090 1176 1192 4065 4095 7068 7153 7196 7198 9979 10009 10063 11956 12038 12083 
+		747 1090 1176 1192 4065 4095 7068 7153 7196 7198 9979 10009 10063 11956 12038 12083
 	}
 }

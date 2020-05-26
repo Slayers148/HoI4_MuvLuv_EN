@@ -3,13 +3,15 @@ state=
 	id=177
 	name="STATE_177"
 	manpower = 365500
-	
+
 	state_category = rural
-	
+
 	history=
 	{
 		1999.1.1 = {
 			owner = EUR
+			add_core_of = EUR
+			remove_core_of = SPR
 		}
 		victory_points = {
 			9793 1

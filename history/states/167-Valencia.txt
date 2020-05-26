@@ -2,14 +2,30 @@
 state={
 	id=167
 	name="STATE_167"
-	manpower = 1979294
-	
+	manpower = 0
+
 	state_category = large_town
 
 	history = {
-		1999.1.1 = { 
-			owner = H12
-			remove_core_of = H12
+		1999.1.1 = {
+		owner = EUR
+		add_core_of = EUR
+		remove_core_of = SPR
+		controller = H12
+		set_state_category = betaland
+
+		H12 = {
+			set_province_controller = 962
+			set_province_controller = 3799
+			set_province_controller = 3873
+			set_province_controller = 4098
+			set_province_controller = 6817
+			set_province_controller = 6856
+			set_province_controller = 6906
+			set_province_controller = 6959
+			set_province_controller = 9889
+			set_province_controller = 9896
+			}
 		}
 		owner = SPR
 		victory_points = {
@@ -20,7 +36,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-			dockyard = 1
+			#dockyard = 1
 			air_base = 3
 			6906 = {
 				naval_base = 3
@@ -33,6 +49,6 @@ state={
 	}
 
 	provinces={
-		962 3799 3873 4098 6817 6856 6906 6959 9889 9896 
+		962 3799 3873 4098 6817 6856 6906 6959 9889 9896
 	}
 }

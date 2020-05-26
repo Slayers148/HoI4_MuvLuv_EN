@@ -9,6 +9,7 @@ state={
 	history = { 1999.1.1 = { 
 			owner = H03
 			remove_core_of = H03
+			remove_core_of = UKR
 
 			#ブダペスト陥落用
 			add_claim_by = H11

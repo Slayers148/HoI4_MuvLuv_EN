@@ -17,8 +17,9 @@ state={
 			
 			buildings = {
 				infrastructure = 10
+			         anti_air_building = 3
 				6999 = {
-					bunker = 10
+					bunker = 4
 				}
 				hive = 1
                                 radar_station = 4

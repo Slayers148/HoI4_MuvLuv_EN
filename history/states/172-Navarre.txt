@@ -2,26 +2,44 @@
 state={
 	id=172
 	name="STATE_172"
-	manpower = 1794880
-	
+	manpower = 0
+
 	state_category = city
-	
+
 	resources={
 		steel=8 # was: 12
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H12
-			remove_core_of = H12
+	history = {
+	1999.1.1 = {
+		owner = EUR
+		add_core_of = EUR
+		remove_core_of = SPR
+		controller = H12
+		set_state_category = betaland
+
+		H12 = {
+			set_province_controller = 738
+			set_province_controller = 740
+			set_province_controller = 932
+			set_province_controller = 3735
+			set_province_controller = 3737
+			set_province_controller = 3931
+			set_province_controller = 3933
+			set_province_controller = 6756
+			set_province_controller = 9703
+			set_province_controller = 9857
+			set_province_controller = 11688
+			}
 		}
 		owner = SPR
 		victory_points = {
-			740 3 
+			740 3
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
+			#arms_factory = 1
+			#industrial_complex = 2
 			air_base = 1
 			740 = {
 				naval_base = 1
@@ -31,6 +49,6 @@ state={
 	}
 
 	provinces={
-		738 740 932 3735 3737 3931 3933 6756 9703 9857 11688 
+		738 740 932 3735 3737 3931 3933 6756 9703 9857 11688
 	}
 }

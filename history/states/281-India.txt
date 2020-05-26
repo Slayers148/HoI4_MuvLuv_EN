@@ -8,8 +8,8 @@ state={
 
 	history={
 	1999.1.1 = {
-		add_core_of = EUR
-		owner = EUR
+		add_core_of = GEU
+		owner = GEU
 	}
 		owner = ENG
 		buildings = {

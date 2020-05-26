@@ -11,7 +11,9 @@ state= {
 	history=
 	{ 1999.1.1 = { 
 			owner = H05
-			remove_core_of = H05
+			remove_core_of = H05			
+			add_core_of = EUR
+			remove_core_of = DEN
 		}
 
 		owner = DEN
@@ -33,4 +35,6 @@ state= {
 	}
 	provinces=
 	{
-316 332 394 399 3206 3277 3341 6235 6364 11251 	}
+		316 332 394 399 3206 3277 3341 6235 6364 11251 	
+	}
+		}

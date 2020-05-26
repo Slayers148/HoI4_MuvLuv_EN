@@ -10,8 +10,8 @@ state={
 	}
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H15
+			remove_core_of = H15
 		}
 		owner = SOV
 		buildings = {

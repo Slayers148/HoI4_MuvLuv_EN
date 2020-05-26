@@ -8,7 +8,7 @@ state={
 			add_core_of = AFR
 		}
 		owner = ENG
-		add_core_of = GAM
+		#add_core_of = GAM
 		victory_points = {
 			4989 1 
 		}

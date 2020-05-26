@@ -169,14 +169,6 @@ units = {
 		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
 	}
 	division = {
-		name = 戦術機甲連隊
-		location = 10158
-		division_template = "戦術機甲連隊"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
-	}
-	division = {
 		name = 戦術機甲大隊
 		location = 1308
 		division_template = "戦術機甲大隊"
@@ -608,138 +600,152 @@ units = {
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
 	}
+
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 4312
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 1308
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 1308
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 1308
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 1308
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 1308
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "大東亜連合対BETA防衛師団"
+		location = 1308
+		division_template = "大東亜連合対BETA防衛師団"
+		start_experience_factor = 0.2
+	}
+
+#スリランカ
+#10201
+#____________________________________________________________
+	division = {
+		name = 戦術機甲連隊
+		location = 10201
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+	}
 	division = {
 		name = "機甲師団"
-		location = 4312
+		location = 10201
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "機甲師団"
-		location = 4312
+		location = 10201
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "機甲師団"
-		location = 4312
+		location = 10201
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "大東亜連合対BETA防衛師団"
-		location = 4312
+		location = 10201
 		division_template = "大東亜連合対BETA防衛師団"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "大東亜連合対BETA防衛師団"
-		location = 4312
+		location = 10201
 		division_template = "大東亜連合対BETA防衛師団"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "大東亜連合対BETA防衛師団"
-		location = 4312
+		location = 10201
 		division_template = "大東亜連合対BETA防衛師団"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "大東亜連合対BETA防衛師団"
-		location = 4312
+		location = 10201
 		division_template = "大東亜連合対BETA防衛師団"
 		start_experience_factor = 0.2
 	}
 	division = {
 		name = "大東亜連合対BETA防衛師団"
-		location = 4312
+		location = 10201
 		division_template = "大東亜連合対BETA防衛師団"
 		start_experience_factor = 0.2
 	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 4312
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 1308
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 1308
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 1308
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 1308
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 1308
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
-	division = {
-		name = "大東亜連合対BETA防衛師団"
-		location = 1308
-		division_template = "大東亜連合対BETA防衛師団"
-		start_experience_factor = 0.2
-	}
+#____________________________________________________________
 }
 
 #########################

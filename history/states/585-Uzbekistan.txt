@@ -7,7 +7,7 @@ state={
 			owner = H03
 			remove_core_of = H03
 		}
-		add_core_of = UZB
+		#add_core_of = UZB
 		owner = SOV
 		buildings = {
 			infrastructure = 3

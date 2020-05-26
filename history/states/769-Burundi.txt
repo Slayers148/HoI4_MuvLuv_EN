@@ -6,9 +6,10 @@ state={
 
 	history = { 1999.1.1 = { 
 			owner = AFR
+			add_core_of = AFR
 		}
 		owner = BEL
-		add_core_of = BRD
+		#add_core_of = BRD
 		victory_points = {
 			2220 1
 		}

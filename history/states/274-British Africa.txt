@@ -6,6 +6,7 @@ state={
 		1999.1.1 = {
 			owner = AFR
 			add_core_of = AFR
+			remove_core_of = GHA
 		}
 		owner = ENG
 		add_core_of = GHA

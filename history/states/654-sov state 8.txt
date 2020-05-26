@@ -7,8 +7,8 @@ state={
 	state_category = wasteland
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H06
+			remove_core_of = H06
 		}
 		owner = SOV
 		buildings = {

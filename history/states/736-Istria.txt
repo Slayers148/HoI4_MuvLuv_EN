@@ -8,14 +8,15 @@ state={
 		1999.1.1 = { 
 			owner = H11
 			remove_core_of = H11
+			add_core_of = EUR
 		}
 		victory_points = {
 			6626 1 
 		}
 		owner = ITA
-		add_core_of = ITA
-		add_core_of = YUG
-		add_core_of = SLV
+		#add_core_of = ITA
+		#add_core_of = YUG
+		#add_core_of = SLV
 		buildings = {
 			infrastructure = 2
 			6626 = {

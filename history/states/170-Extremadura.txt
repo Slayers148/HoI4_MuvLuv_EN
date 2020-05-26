@@ -2,18 +2,45 @@
 state={
 	id=170
 	name="STATE_170"
-	manpower = 1782253
-	
+	manpower = 0
+
 	state_category = large_town
-	
+
 	resources={
 		tungsten=4 # was: 6
 	}
 
 	history = {
-		1999.1.1 = { 
-			owner = H12
-			remove_core_of = H12
+		1999.1.1 = {
+		owner = EUR
+		add_core_of = EUR
+		remove_core_of = SPR
+		controller = H12
+		set_state_category = betaland
+
+		H12 = {
+			set_province_controller = 794
+			set_province_controller = 809
+			set_province_controller = 874
+			set_province_controller = 931
+			set_province_controller = 985
+			set_province_controller = 3874
+			set_province_controller = 3930
+			set_province_controller = 6866
+			set_province_controller = 6867
+			set_province_controller = 6902
+			set_province_controller = 6948
+			set_province_controller = 6954
+			set_province_controller = 9770
+			set_province_controller = 9839
+			set_province_controller = 9877
+			set_province_controller = 9917
+			set_province_controller = 9925
+			set_province_controller = 11756
+			set_province_controller = 11780
+			set_province_controller = 11798
+			set_province_controller = 11851
+			}
 		}
 		owner = SPR
 		victory_points = {
@@ -24,12 +51,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			#industrial_complex = 1
 		}
 		add_core_of = SPR
 	}
 
 	provinces={
-		794 809 874 931 985 3874 3930 6866 6867 6902 6948 6954 9770 9839 9877 9917 9925 11756 11780 11798 11851 
+		794 809 874 931 985 3874 3930 6866 6867 6902 6948 6954 9770 9839 9877 9917 9925 11756 11780 11798 11851
 	}
 }

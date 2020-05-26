@@ -17,7 +17,7 @@ state=
 				naval_base = 1
 			}
 		}
-		add_core_of = ECU
+		#add_core_of = ECU
 	}
 	provinces= { 5023 }
 }
