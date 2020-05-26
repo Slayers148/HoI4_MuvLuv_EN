@@ -28,6 +28,14 @@
  tsf_equipment_F18g_short:0 "F-18 Hornet"
  tsf_equipment_F18g_desc:0 "A 2nd generation TSF, the F-18 Hornet was redesigned from tye YF-17 Cobra of the Lightweight TSF program. The F-18 Hornet replaced the costly F-14 Tomcat, with a performance close to the F-15 Eagle for a lower operational cost per TSF."
 
+ tsf_equipment_FCK1:0 "AIDC F-CK-1 Ching-Kuo"
+ tsf_equipment_FCK1_short:0 "AIDC F-CK-1 Ching-Kuo"
+ tsf_equipment_FCK1_desc:0 "The F-CK-1 Ching-kuo is a 2nd generation TSF developed by Taiwan, based on the requirement of running culling operations across the Taiwan Strait. Taiwan chose the F-18's base design over the F-16's for its superior operating time and versatility."
+
+ tsf_equipment_FCK1CD:0 "AIDC F-CK-1 C/D Hsiang Sheng"
+ tsf_equipment_FCK1CD_short:0 "AIDC F-CK-1 C/D Hsiang Sheng"
+ tsf_equipment_FCK1CD_desc:0 "Pouring over combat data accumulated over culling operations conduct across the Taiwan Straits, the F-CK-1C/D Hsiang Sheng is an upgrade to the Ching-Kuo. Operation time is improved with upgrades  to the fuel and ammunition capacity of the TSF. The incorporation of Operation By Light features along with overhauling control systems and avionics with American made components allow the Hsiang Sheng to approach quasi-3rd gen status."
+
  tsf_equipment_F18EFg:0 "F-18E/F Super Hornet"
  tsf_equipment_F18EFg_short:0 "F-18E/F Super Hornet"
  tsf_equipment_F18EFg_desc:0 "A redesigned Hornet developed by McDaell Doglam, the Super Hornet achieved 2.5th generation status due to various improvements to its operating time and systems. The head module was expanded to accommodate improved sensors and avionics, its shoulder units are expanded to house large thrusters, and its hip block and lower legs are expanded to extend operating time, defensive ability, and carrying load."
@@ -246,9 +254,9 @@
  tsf_equipment_T942U_short:0 "Type-04 Shiranui Second (UN)"
  tsf_equipment_T942U_desc:0 "Following the success of the XFJ-01, the Shiranui Second is considered for adoption as Imperial Japan's next main TSF and given the designation of Test Type-01, for use in combat trials against the Test Type-02/F-15SEJ Gekkou that, at that time, was also being considered for adoption into the IJA/MDF as the next mainline TSF of Imperial Japan. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_T94FU:0 "XFJ-01 Shiranui Kyokkou (UN)"
- tsf_equipment_T94FU_short:0 "XFJ-01 Shiranui Kyokkou (UN)"
- tsf_equipment_T94FU_desc:0 "The XFJ-01 Shiranui Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes. This variant has been modified to be better suited United Nations requirements."
+ tsf_equipment_T94FU:0 "Type-10 Kyokkou (UN)"
+ tsf_equipment_T94FU_short:0 "Type-10 Kyokkou (UN)"
+ tsf_equipment_T94FU_desc:0 "The Type-10 Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes. This variant has been modified to be better suited United Nations requirements."
 
  tsf_equipment_MiG23U:0 "MiG-23 Cheburashka (UN)"
  tsf_equipment_MiG23U_short:0 "MiG-23 Cheburashka (UN)"
