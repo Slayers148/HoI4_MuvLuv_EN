@@ -7,16 +7,22 @@ state=
 	state_category = enclave
 	history = {
 
-			1998.1.1 = {
-				add_core_of = EUR
-				owner = H12
-				remove_claim_by = SPR
+		1998.1.1 = {
+			owner = EUR
+			add_core_of = EUR
+			remove_claim_of = SPR
+			controller = H12
+			set_state_category = betaland
+
+			H12 = {
+				set_province_controller = 4135
+			}
 		}
 
 		owner = ENG
 		add_claim_by = SPR
 
-		victory_points = { 4135 0 }
+		victory_points = { 4135 10 }
 
 		buildings = {
 			infrastructure = 6

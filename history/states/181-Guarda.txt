@@ -12,17 +12,29 @@ state={
 
 	history = {
 		1998.1.1 = {
-			owner = H12
-			remove_core_of = H12
-			add_core_of = EUR
-			remove_core_of = POR
+		owner = EUR
+		add_core_of = EUR
+		remove_core_of = SPR
+		controller = H12
+		set_state_category = betaland
+
+		H12 = {
+			set_province_controller = 845
+			set_province_controller = 889
+			set_province_controller = 938
+			set_province_controller = 3969
+			set_province_controller = 6818
+			set_province_controller = 6996
+			set_province_controller = 9787
+			set_province_controller = 11885
+			}
 		}
 		owner = POR
 		victory_points = {
-			9787 0
+			9787 5
 		}
 		victory_points = {
-			6996 0
+			6996 5
 		}
 		buildings = {
 			infrastructure = 5

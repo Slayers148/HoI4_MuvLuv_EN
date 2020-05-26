@@ -7,6 +7,8 @@ state={
 	history={
 		1999.1.1 = {
 			owner = EUR
+			add_core_of = EUR
+			remove_core_of = BAS
 		}
 		add_core_of = BAS
 		owner = ENG
@@ -20,8 +22,8 @@ state={
 			11350 1
 		}
 	}
-	
+
 	provinces={
-		379 11106 11350 13009 
+		379 11106 11350 13009
 	}
 }

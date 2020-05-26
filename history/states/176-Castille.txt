@@ -2,31 +2,58 @@
 state={
 	id=176
 	name="STATE_176"
-	manpower = 1343760
-	
+	manpower = 0
+
 	state_category = large_town
 
-	history = { 1999.1.1 = { 
-			owner = H12
-			remove_core_of = H12
-			add_core_of = EUR
-			remove_core_of = SPR
+	history = { 1999.1.1 = {
+	owner = EUR
+	add_core_of = EUR
+	remove_core_of = SPR
+	controller = H12
+	set_state_category = betaland
+
+		H12 = {
+			set_province_controller = 857
+			set_province_controller = 884
+			set_province_controller = 885
+			set_province_controller = 903
+			set_province_controller = 3820
+		 	set_province_controller = 3859
+			set_province_controller = 3887
+			set_province_controller = 3902
+			set_province_controller = 6903
+			set_province_controller = 6936
+			set_province_controller = 9700
+			set_province_controller = 9800
+			set_province_controller = 9827
+			set_province_controller = 9846
+			set_province_controller = 9870
+			set_province_controller = 9872
+			set_province_controller = 11684
+			set_province_controller = 11766
+			set_province_controller = 11806
+			set_province_controller = 11809
+			set_province_controller = 11825
+			set_province_controller = 11852
+			set_province_controller = 11854
+			}
 		}
 		owner = SPR
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+			#industrial_complex = 2
 		}
 		victory_points = {
-			885 3 
+			885 3
 		}
 		victory_points = {
-			11825 3 
+			11825 3
 		}
 		add_core_of = SPR
 	}
 
 	provinces={
-		857 884 885 903 3820 3859 3887 3902 6903 6936 9700 9800 9827 9846 9870 9872 11684 11766 11806 11809 11825 11852 11854 
+		857 884 885 903 3820 3859 3887 3902 6903 6936 9700 9800 9827 9846 9870 9872 11684 11766 11806 11809 11825 11852 11854
 	}
 }
