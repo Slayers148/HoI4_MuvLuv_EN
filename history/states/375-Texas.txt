@@ -5,7 +5,7 @@ state={
 	manpower = 5824712
 	
 	
-	state_category = large_city
+	state_category = metropolis
 	
 	resources={
 		oil=320 # was: 580

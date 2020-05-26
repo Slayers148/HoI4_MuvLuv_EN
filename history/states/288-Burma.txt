@@ -11,9 +11,10 @@ state={
 	}
 
 	history={ 1999.1.1 = { 
-			owner = H17			remove_core_of = H17		}
-		owner = GEU
-		add_core_of = GEU
+			owner = H17			
+			remove_core_of = H17		}
+			owner = GEU
+			add_core_of = GEU
 		victory_points = {
 			1330 5 
 		}

@@ -9,8 +9,8 @@ state={
 	state_category = pastoral
 	history = {
 		1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H14
+			remove_core_of = H14
 		}
 		owner = PRC
 		add_core_of = CHI

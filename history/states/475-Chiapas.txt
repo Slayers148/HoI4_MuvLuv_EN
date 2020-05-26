@@ -15,7 +15,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = MEX
+		#add_core_of = MEX
 
 		victory_points = {
 			1900 3

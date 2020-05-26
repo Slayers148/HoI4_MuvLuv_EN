@@ -6,8 +6,11 @@ state={
 	
 	state_category = town
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H07
+			remove_core_of = H07
+
+			#エキバストゥズ陥落用
+			add_claim_by = H06
 		}
 		owner = SOV
 		buildings = {

@@ -140,6 +140,82 @@ categories =  {
 		
 		sickness_chance = 1.0
 	}
+
+	hive_mainhall = {
+		color = { 0 0 0 }
+		movement_cost = 10.0
+		attrition = 0.05
+		combat_width = 10.0
+		ai_terrain_importance_factor = 100.0
+		match_value = 100
+		sound_type = forest
+
+		units = {
+			attack = -0.35
+			movement = -0.95
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.75
+		
+		sickness_chance = -1.0
+	}
+
+	hive_gateclass = {
+		color = { 0 0 0 }
+		movement_cost = 15.0
+		attrition = 0.05
+		combat_width = 8.0
+		ai_terrain_importance_factor = 50.0
+		match_value = 50
+		sound_type = forest
+
+		units = {
+			#attack = -0.3
+			movement = -0.75
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.75
+		
+		sickness_chance = -1.0
+	}
+	
+	hive_drift = {
+		color = { 0 0 0 }
+		movement_cost = 5.0
+		attrition = 0.05
+		combat_width = 5.0
+		ai_terrain_importance_factor = 30.0
+		match_value = 30
+		sound_type = forest
+
+		units = {
+			#attack = -0.3
+			movement = -0.50
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.75
+		
+		sickness_chance = -1.0
+	}
+
+	hive_gate = {
+		color = { 10 10 10 }
+		movement_cost = 2.5
+		attrition = 0.0
+		combat_width = 2.0
+		ai_terrain_importance_factor = 15.0
+		match_value = 15
+		sound_type = forest
+
+		units = {
+			#attack = -0.3
+			movement = -0.25
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.25
+		
+		sickness_chance = -1.0
+	}
 	
 	water_fjords = {
 		naval_terrain = yes
@@ -269,5 +345,8 @@ terrain = {
 	
 	jungle_blend_18				= { type = mountain			color = { 	27	 } texture = 7 }
 	desert_mountain_tops		= { type = mountain			color = { 	31	 } texture = 15 }
-	
+	terrain_20					= { type = hive_mainhall	color = { 	28	 } texture = 16 }
+	terrain_21					= { type = hive_gateclass		color = { 	29	 } texture = 17 }
+	terrain_22					= { type = hive_drift		color = { 	30	 } texture = 18 }
+	terrain_23					= { type = hive_gate		color = { 	32	 } texture = 19 }
 }

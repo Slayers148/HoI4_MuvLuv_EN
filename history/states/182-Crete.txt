@@ -9,6 +9,7 @@ state=
 	{
 		1999.1.1 = {
 			owner = EUR
+			remove_core_of = GRE
 		}
 		owner = GRE
 		victory_points = {

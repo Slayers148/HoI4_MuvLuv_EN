@@ -14,7 +14,7 @@ state={
 			add_core_of = SOA
 			owner = SOA
 		}
-		add_core_of = GYA
+		#add_core_of = GYA
 		owner = ENG
 		victory_points = {
 			4982 1

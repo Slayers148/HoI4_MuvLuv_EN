@@ -5,8 +5,11 @@ state={
 
 	history={
 		1999.1.1 = {
-			add_core_of = EUR
 			owner = EUR
+			add_core_of = EUR
+			remove_core_of = NIR
+			remove_core_of = IRE
+			remove_core_of = ENG 
 		}
 		owner = ENG
 		victory_points = {

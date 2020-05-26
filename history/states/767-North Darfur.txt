@@ -9,8 +9,9 @@ state=
 	
 	history = { 1999.1.1 = { 
 			owner = AFR
+			add_core_of = AFR
 		}
-		add_core_of = SUD
+		#add_core_of = SUD
 		owner = ENG
 		buildings = {
 			infrastructure = 0

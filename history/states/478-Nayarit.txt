@@ -20,7 +20,7 @@ state={
 			infrastructure = 8
 			industrial_complex = 6
 		}
-		add_core_of = MEX
+		#add_core_of = MEX
 		victory_points = {
 			13089 10
 		}

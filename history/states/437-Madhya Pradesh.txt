@@ -8,7 +8,7 @@ state={
 
 	history = { 1999.1.1 = { 
 			owner = H13
-			remove_core_of = H13
+			add_core_of = H13
 		}
 		owner = GEU
 		add_core_of = GEU

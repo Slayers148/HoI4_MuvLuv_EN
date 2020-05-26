@@ -14,6 +14,9 @@ state={
 		1999.1.1 = { 
 			owner = H11
 			remove_core_of = H11
+			add_core_of = EUR
+			remove_core_of = GRE
+			remove_core_of = BUL
 		}
 		victory_points = {
 			11905 1
@@ -22,8 +25,6 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = GRE
-		add_claim_by = BUL
 	}
 
 	provinces={

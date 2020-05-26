@@ -8,6 +8,7 @@ state=
 		1999.1.1 = {
 			add_core_of = EUR
 			owner = EUR
+			remove_core_of = MLT
 		}
 		owner = ENG
 		add_core_of = MLT

@@ -2,15 +2,22 @@ state=
 {
 	id=118
 	name="STATE_118"
-	manpower=21372
-	
+	manpower=0
+
 	state_category = enclave
-	history = {  1999.1.1 = { 
-			owner = H12
-			remove_core_of = H12
+	history = {
+
+			1998.1.1 = {
+				add_core_of = EUR
+				owner = H12
+				remove_claim_by = SPR
 		}
+
 		owner = ENG
-		victory_points = { 4135 10 }
+		add_claim_by = SPR
+
+		victory_points = { 4135 0 }
+
 		buildings = {
 			infrastructure = 6
 			air_base = 2
@@ -19,7 +26,6 @@ state=
 				coastal_bunker = 2
 			}
 		}
-		add_claim_by = SPR
 	}
 	provinces={
 		4135
