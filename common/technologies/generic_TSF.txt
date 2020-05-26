@@ -1,10 +1,10 @@
 technologies = {
 
 ###TSF###
-	
+
 	generic_basic_concept_research= {
-	
-		
+
+
 #コスト、開始年#
 		research_cost = 4
 		start_year = 1970
@@ -33,7 +33,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 0 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -41,11 +41,11 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
-	
+
+	}
+
+
 	generic_1st_tsf_low = {
 #解放される装備#
 		enable_equipments = {
@@ -63,20 +63,20 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 2 y = 2 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_1st_tsf_high = {
 
 		enable_equipments = {
@@ -95,7 +95,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -2 y = 2 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -103,10 +103,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_Assault_gun_improvement = {
 
 		research_cost = 1
@@ -117,13 +117,13 @@ technologies = {
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_asa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_tsa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
@@ -138,7 +138,7 @@ technologies = {
 			leads_to_tech = generic_2nd_tsf_high
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = generic_F14_tsf_high
 			research_cost_coeff = 1
@@ -147,7 +147,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -155,10 +155,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_2nd_tsf_low = {
 
 		enable_equipments = {
@@ -180,20 +180,20 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 4 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_2nd_tsf_F18 = {
 
 		enable_equipments = {
@@ -215,19 +215,84 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 4 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
+
 
 	}
+	generic_2nd_tsf_AIDC_F-CK-1_Ching-kuo = {
+
+        enable_equipments = {
+            tsf_equipment_FCK1
+        }
+
+        research_cost = 2
+        start_year = 1994
+
+        path = {
+            leads_to_tech = generic_3rd_tsf_low
+            research_cost_coeff = 1
+        }
+        path = {
+            leads_to_tech = generic_3rd_tsf_low2
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = generic_3rd_tsf_AIDC_FCK1CD
+            research_cost_coeff = 1
+        }
+
+        folder = {
+            name = generic_tsf_folder
+            position = { x = 4 y = 16 }
+        }
+        categories = {
+            MVLV_tsf_tech
+        }
+
+        show_effect_as_desc = no
+
+        ai_will_do = {
+            factor = 20000
+        }
+
+
+    }
+
+       generic_3rd_tsf_AIDC_FCK1CD = {
+
+        enable_equipments = {
+            tsf_equipment_FCK1CD
+        }
+
+        research_cost = 2
+        start_year = 1999
+
+        folder = {
+            name = generic_tsf_folder
+            position = { x = 4 y = 18 }
+        }
+        categories = {
+            MVLV_tsf_tech
+        }
+
+        show_effect_as_desc = no
+
+        ai_will_do = {
+            factor = 20000
+        }
+
+
+    }
 	generic_2nd_tsf_F18E/F = {
 
 		enable_equipments = {
@@ -236,7 +301,7 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1994
-		
+
 		path = {
 			leads_to_tech = generic_3rd_tsf_low
 			research_cost_coeff = 1
@@ -250,20 +315,20 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 4 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}		
-	
+
+	}
+
 	generic_2nd_tsf_high = {
 
 		enable_equipments = {
@@ -282,7 +347,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -290,10 +355,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_F14_tsf_high = {
 
 		enable_equipments = {
@@ -308,7 +373,7 @@ technologies = {
 			leads_to_tech = generic_Jumping_unit_improvement
 			research_cost_coeff = 1
 		}
-		
+
 		path = {
 			leads_to_tech = generic_F14Ex_tsf_high
 			research_cost_coeff = 0.5
@@ -317,7 +382,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -4 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -325,10 +390,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_F14Ex_tsf_high = {
 
 		enable_equipments = {
@@ -343,7 +408,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -4 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -351,19 +416,19 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_Jumping_unit_improvement = {
 
 		research_cost = 1
 		start_year = 1990
-		
+
 		MVLV_tsf_battalion = {
 			maximum_speed = 0.05
 		}
-		
+
 		MVLV_tsa_battalion = {
 			maximum_speed = 0.05
 		}
@@ -381,7 +446,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -389,10 +454,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_F15E_tsf = {
 
 		enable_equipments = {
@@ -415,13 +480,13 @@ technologies = {
 			leads_to_tech = generic_F15ACVT_tsf
 			research_cost_coeff = 0.5
 		}
-		
-		
+
+
 
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -429,10 +494,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
+
 
 	}
-	
+
 	generic_F15ACVT_tsf = {
 
 		enable_equipments = {
@@ -446,20 +511,20 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -4 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_3rd_tsf_low = {
 
 		enable_equipments = {
@@ -473,7 +538,7 @@ technologies = {
 			leads_to_tech = generic_3rd_tsf2
 			research_cost_coeff = 1
 		}
-		
+
 #		XOR = {
 #			USA_3rd_tsf_high
 #		}
@@ -481,19 +546,19 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 4 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
+
+	}
 	generic_3rd_tsf_low2 = {
 
 		enable_equipments = {
@@ -507,7 +572,7 @@ technologies = {
 			leads_to_tech = generic_3rd_tsf2
 			research_cost_coeff = 1
 		}
-		
+
 #		XOR = {
 #			USA_3rd_tsf_high
 #		}
@@ -515,20 +580,20 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 7 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_3rd_tsf_high = {
 
 		enable_equipments = {
@@ -543,7 +608,7 @@ technologies = {
 			leads_to_tech = generic_3rd_tsf2
 			research_cost_coeff = 1
 		}
-		
+
 #		XOR = {
 #			USA_3rd_tsf_low
 #		}
@@ -551,7 +616,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -559,12 +624,12 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_3rd_tsf2 = {
-		
+
 		enable_equipments = {
 			tsf_equipment_6g
 		}
@@ -575,7 +640,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 16 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -583,12 +648,12 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 ###ASA###
-	
+
 	generic_asa_1st = {
 
 		enable_equipments = {
@@ -610,7 +675,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -7 y = 4 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -618,19 +683,19 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_Manipulator_improvement = {
 
 		research_cost = 1
 		start_year = 1980
-		
+
 		MVLV_asa_battalion = {
 			maximum_speed = 0.05
 		}
-		
+
 		MVLV_tsa_battalion = {
 			maximum_speed = 0.05
 		}
@@ -643,7 +708,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -7 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -651,21 +716,21 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_Carrying_ammunition_increase = {
 
 		research_cost = 1
 		start_year = 1990
-		
+
 		MVLV_asa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_tsa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
@@ -680,7 +745,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -7 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -688,10 +753,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	generic_asa_2nd = {
 
 		enable_equipments = {
@@ -709,7 +774,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -7 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -717,12 +782,12 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
-###TSA###	
-	
+
+	}
+
+###TSA###
+
 	generic_tsa_1st = {
 
 		enable_equipments = {
@@ -735,7 +800,7 @@ technologies = {
 		folder = {
 			name = generic_tsf_folder
 			position = { x = -9 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -743,7 +808,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
+
+	}
 }
