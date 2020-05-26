@@ -41,7 +41,7 @@ ideas = {
 			allowed = { always = no }
 			modifier = {
 				weekly_manpower = 30000
-				army_attack_factor = -0.2
+				army_attack_factor = -0.3
 				army_core_attack_factor = 0.10
 				army_core_defence_factor = -0.10
 				land_reinforce_rate = 0.5
@@ -54,7 +54,7 @@ ideas = {
 			allowed = { always = no }
 			modifier = {
 				weekly_manpower = 40000
-				army_attack_factor = -0.2
+				army_attack_factor = -0.1
 				army_core_attack_factor = 0.10
 				army_core_defence_factor = 0.15
 				land_reinforce_rate = 0.5
@@ -67,7 +67,7 @@ ideas = {
 			allowed = { always = no }
 			modifier = {
 				weekly_manpower = 50000
-				army_attack_factor = -0.15
+				army_attack_factor = -0.05
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.25
 				land_reinforce_rate = 0.5
@@ -80,7 +80,7 @@ ideas = {
 			allowed = { always = no }
 			modifier = {
 				weekly_manpower = 70000
-				army_attack_factor = -0.15
+				army_attack_factor = 0
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.20
 				land_reinforce_rate = 0.5
@@ -93,7 +93,7 @@ ideas = {
 			allowed = { always = no }
 			modifier = {
 				weekly_manpower = 95000
-				army_attack_factor = -0.10
+				army_attack_factor = 0.1
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.25
 				land_reinforce_rate = 0.5
@@ -106,7 +106,7 @@ ideas = {
 			allowed = { always = no }
 			modifier = {
 				weekly_manpower = 120000
-				army_attack_factor = 0.10
+				army_attack_factor = 0.2
 				army_defence_factor = 0.10
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.3
@@ -121,7 +121,7 @@ ideas = {
 			modifier = {
 				weekly_manpower = 170000
 				army_attack_factor = 0.30
-				army_defence_factor = 0.1
+				army_defence_factor = 0.2
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.3
 				land_reinforce_rate = 0.5

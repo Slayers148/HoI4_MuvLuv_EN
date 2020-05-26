@@ -36,6 +36,8 @@ focus_tree = {
 		cost = 10
 		#select_effect = { }
 		completion_reward = {
+			army_core_attack_factor = 0.1
+			army_core_defence_factor = 0.1
 			every_owned_state = {
 				limit = { is_fully_controlled_by = EUR }
 				add_building_construction = {
