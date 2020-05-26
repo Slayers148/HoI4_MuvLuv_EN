@@ -1,5 +1,5 @@
 political_actions = {
-	
+
 		Human_Unity = {
 
 		icon = generic_industry
@@ -36,11 +36,11 @@ political_actions = {
 			}
 		}
 	}
-	
+
 }
 
 economy_decisions = {
-		
+
 }
 
 propaganda_efforts = {
@@ -57,7 +57,7 @@ propaganda_efforts = {
 		}
 
 		visible = {
-			
+
 		}
 
 		fire_only_once = no
@@ -253,9 +253,9 @@ operations = {
 					days = 50
 				}
 			}
-			add_manpower = -75000
+			add_manpower = -125000
 		}
-		
+
 		remove_effect = {
 		}
 
@@ -284,7 +284,7 @@ operations = {
 			}
 		}
 	}
-	
+
 	AFR_MidEast_Jihad = {
 		icon = generic_operation
 		available = {
@@ -292,7 +292,7 @@ operations = {
 			is_neighbor_of = H09
 		}
 		visible = {
-			
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -310,15 +310,15 @@ operations = {
 		}
 	}
 
-	
+
 
 special_projects = {
 
-	
+
 }
 
 war_measures = {
-	
+
 	emergency_factory_conversion_defensive = {
 
 		icon = generic_industry
@@ -329,7 +329,7 @@ war_measures = {
 
 		visible = {
 			has_defensive_war = yes
-			has_offensive_war = no			
+			has_offensive_war = no
 		}
 
 		fire_only_once = no
