@@ -1,4 +1,4 @@
-version="1.0"
+version="1.9.0"
 tags={
 	"Alternative History"
 	"Events"
@@ -6,5 +6,5 @@ tags={
 	"Gameplay"
 }
 name="MVLVSEA"
-supported_version="1.9.2"
+supported_version="1.9.0"
 remote_file_id="2107620743"
