@@ -2,19 +2,21 @@
 state={
 	id=535
 	name="STATE_535" # Koshinetsu
-	manpower = 3871000
+	manpower = 0
 	state_category = large_city
-	
+
 	resources={
 		steel=57 # was: 35
 		tungsten=48 # was: 10
 	}
 
 	history = {
-		1999.1.1 = { 
-			owner = H20
+		1999.1.1 = {
+			owner = JAP
 			add_core_of = JAP
-			
+			controller = H20
+			set_state_category = betaland
+
 			H20 = {
 				set_province_controller = 998
 				set_province_controller = 7102
@@ -24,15 +26,15 @@ state={
 			}
 		}
 		buildings = {
-		
-			arms_factory = 1
-			industrial_complex = 2
+
+			#arms_factory = 1
+			#industrial_complex = 2
 			infrastructure = 3
-			dockyard = 1
-			fuel_silo = 1
+			#dockyard = 1
+			#fuel_silo = 1
 
 		}
-		
+
 		victory_points = {
 			10032 10
 		}
@@ -40,6 +42,6 @@ state={
 	}
 
 	provinces={
-		998 7102 7217 10015 10032 
+		998 7102 7217 10015 10032
 	}
 }
