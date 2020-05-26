@@ -7,7 +7,7 @@ state={
 			add_core_of = GEU
 			owner = GEU
 		}
-		add_core_of = PNG
+		#add_core_of = PNG
 		owner = AST
 		buildings = {
 			infrastructure = 3

@@ -25,7 +25,7 @@ state={
 		victory_points = {
 			8245 1 
 		}
-		add_core_of = MZB
+		#add_core_of = MZB
 	}
 
 	provinces={

@@ -1,11 +1,11 @@
 state={
 	id=644
-	name="STATE_644"
+	name="STATE_644" #NE Siberia
 
 	history = {
 		1999.1.1 = { 
 			owner = H26
-			remove_core_of = H26
+			add_core_of = H26
 			
 			SOV = {
 				set_province_controller = 13204

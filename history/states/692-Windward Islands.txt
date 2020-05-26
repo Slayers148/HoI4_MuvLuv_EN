@@ -1,6 +1,6 @@
 state={
 	id=692
-	name="STATE_692"
+	name="STATE_692" #EURO safe zone
 	manpower=76485
 	state_category = small_island
 

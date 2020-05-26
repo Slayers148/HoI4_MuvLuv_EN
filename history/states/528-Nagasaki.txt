@@ -9,7 +9,8 @@ state={
 	}
 
 	history = { 1999.1.1 = { 
-			owner = H20			remove_core_of = H20
+			owner = H20			
+			remove_core_of = H20
 		}
 		owner = JAP
 		add_core_of = JAP

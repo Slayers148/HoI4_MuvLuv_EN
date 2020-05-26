@@ -11,7 +11,7 @@
  BET_democratic_ADJ:0 "BETA"
  BET_neutrality_ADJ:0 "BETA"
  BET_communism_ADJ:0 "BETA"
- 
+
  OSE_fascism:0 "Australia"
  OSE_fascism_DEF:0 "Australia"
  OSE_democratic:0 "Australia"
@@ -24,7 +24,7 @@
  OSE_democratic_ADJ:0 "Australia"
  OSE_neutrality_ADJ:0 "Australia"
  OSE_communism_ADJ:0 "Australia"
- 
+
  AFR_fascism:0 "African union"
  AFR_fascism_DEF:0 "African union"
  AFR_democratic:0 "African union"
@@ -37,7 +37,7 @@
  AFR_democratic_ADJ:0 "African union"
  AFR_neutrality_ADJ:0 "African union"
  AFR_communism_ADJ:0 "African union"
- 
+
  CEA_fascism:0 "Central American Union"
  CEA_fascism_DEF:0 "Central American Union"
  CEA_democratic:0 "Central American Union"
@@ -50,7 +50,7 @@
  CEA_democratic_ADJ:0 "Central American Union"
  CEA_neutrality_ADJ:0 "Central American Union"
  CEA_communism_ADJ:0 "Central American Union"
- 
+
  CHI_fascism:0 "Unified Front of China"
  CHI_fascism_DEF:0 "Unified Front of China"
  CHI_democratic:0 "Unified Front of China"
@@ -76,7 +76,7 @@
  EUR_democratic_ADJ:0 "European Union"
  EUR_neutrality_ADJ:0 "European Union"
  EUR_communism_ADJ:0 "European Union"
- 
+
  GEU_fascism:0 "Greater East Asia Union"
  GEU_fascism_DEF:0 "Greater East Asia Union"
  GEU_democratic:0 "Greater East Asia Union"
@@ -89,7 +89,7 @@
  GEU_democratic_ADJ:0 "Greater East Asia Union"
  GEU_neutrality_ADJ:0 "Greater East Asia Union"
  GEU_communism_ADJ:0 "Greater East Asia Union"
- 
+
  SOA_fascism:0 "South American Union"
  SOA_fascism_DEF:0 "South American Union"
  SOA_democratic:0 "South American Union"
@@ -102,7 +102,7 @@
  SOA_democratic_ADJ:0 "South American Union"
  SOA_neutrality_ADJ:0 "South American Union"
  SOA_communism_ADJ:0 "South American Union"
- 
+
  UNI_fascism:0 "United Nations Armed Forces"
  UNI_fascism_DEF:0 "United Nations Armed Forces"
  UNI_democratic:0 "United Nations Armed Forces"
@@ -129,6 +129,32 @@
  H02_neutrality_ADJ:0 "マシュハドハイヴ"
  H02_communism_ADJ:0 "マシュハドハイヴ"
 
+ H03_fascism:0 "Ural'sk Hive"
+ H03_fascism_DEF:0 "Ural'sk Hive"
+ H03_democratic:0 "ウラリスクハイヴ"
+ H03_democratic_DEF:0 "ウラリスクハイヴ"
+ H03_neutrality:0 "ウラリスクハイヴ"
+ H03_neutrality_DEF:0 "ウラリスクハイヴ"
+ H03_communism:2 "ウラリスクハイヴ"
+ H03_communism_DEF:1 "ウラリスクハイヴ"
+ H03_fascism_ADJ:0 "ウラリスクハイヴ"
+ H03_democratic_ADJ:0 "ウラリスクハイヴ"
+ H03_neutrality_ADJ:0 "ウラリスクハイヴ"
+ H03_communism_ADJ:0 "ウラリスクハイヴ"
+
+ H04_fascism:0 "Velsk Hive"
+ H04_fascism_DEF:0 "Velsk Hive"
+ H04_democratic:0 "ヴェルスクハイヴ"
+ H04_democratic_DEF:0 "ヴェルスクハイヴ"
+ H04_neutrality:0 "ヴェルスクハイヴ"
+ H04_neutrality_DEF:0 "ヴェルスクハイヴ"
+ H04_communism:2 "ヴェルスクハイヴ"
+ H04_communism_DEF:1 "ヴェルスクハイヴ"
+ H04_fascism_ADJ:0 "ヴェルスクハイヴ"
+ H04_democratic_ADJ:0 "ヴェルスクハイヴ"
+ H04_neutrality_ADJ:0 "ヴェルスクハイヴ"
+ H04_communism_ADJ:0 "ヴェルスクハイヴ"
+
  H05_fascism:0 "Minsk Hive"
  H05_fascism_DEF:0 "Minsk Hive"
  H05_democratic:0 "ミンスクハイヴ"
@@ -141,7 +167,33 @@
  H05_democratic_ADJ:0 "ミンスクハイヴ"
  H05_neutrality_ADJ:0 "ミンスクハイヴ"
  H05_communism_ADJ:0 "ミンスクハイヴ"
- 
+
+ H06_fascism:0 "Ekibastuz Hive"
+ H06_fascism_DEF:0 "Ekibastuz Hive"
+ H06_democratic:0 "エキバストゥスハイヴ"
+ H06_democratic_DEF:0 "エキバストゥスハイヴ"
+ H06_neutrality:0 "エキバストゥスハイヴ"
+ H06_neutrality_DEF:0 "エキバストゥスハイヴ"
+ H06_communism:2 "エキバストゥスハイヴ"
+ H06_communism_DEF:1 "エキバストゥスハイヴ"
+ H06_fascism_ADJ:0 "エキバストゥスハイヴ"
+ H06_democratic_ADJ:0 "エキバストゥスハイヴ"
+ H06_neutrality_ADJ:0 "エキバストゥスハイヴ"
+ H06_communism_ADJ:0 "エキバストゥスハイヴ"
+
+ H07_fascism:0 "Surgut Hive"
+ H07_fascism_DEF:0 "Surgut Hive"
+ H07_democratic:0 "スルグトハイヴ"
+ H07_democratic_DEF:0 "スルグトハイヴ"
+ H07_neutrality:0 "スルグトハイヴ"
+ H07_neutrality_DEF:0 "スルグトハイヴ"
+ H07_communism:2 "スルグトハイヴ"
+ H07_communism_DEF:1 "スルグトハイヴ"
+ H07_fascism_ADJ:0 "スルグトハイヴ"
+ H07_democratic_ADJ:0 "スルグトハイヴ"
+ H07_neutrality_ADJ:0 "スルグトハイヴ"
+ H07_communism_ADJ:0 "スルグトハイヴ"
+
  H08_fascism:0 "Rovaniemi Hive"
  H08_fascism_DEF:0 "Rovaniemi Hive"
  H08_democratic:0 "ロヴァニエミハイヴ"
@@ -154,9 +206,9 @@
  H08_democratic_ADJ:0 "ロヴァニエミハイヴ"
  H08_neutrality_ADJ:0 "ロヴァニエミハイヴ"
  H08_communism_ADJ:0 "ロヴァニエミハイヴ"
- 
- H09_fascism:0 "Amber Hive"
- H09_fascism_DEF:0 "Amber Hive"
+
+ H09_fascism:0 "Al Anbar Hive"
+ H09_fascism_DEF:0 "Al Anbar Hive"
  H09_democratic:0 "アンバールハイヴ"
  H09_democratic_DEF:0 "アンバールハイヴ"
  H09_neutrality:0 "アンバールハイヴ"
@@ -167,7 +219,20 @@
  H09_democratic_ADJ:0 "アンバールハイヴ"
  H09_neutrality_ADJ:0 "アンバールハイヴ"
  H09_communism_ADJ:0 "アンバールハイヴ"
- 
+
+ H10_fascism:0 "Noginsk Hive"
+ H10_fascism_DEF:0 "Noginsk Hive"
+ H10_democratic:0 "ノギンスクハイヴ"
+ H10_democratic_DEF:0 "ノギンスクハイヴ"
+ H10_neutrality:0 "ノギンスクハイヴ"
+ H10_neutrality_DEF:0 "ノギンスクハイヴ"
+ H10_communism:2 "ノギンスクハイヴ"
+ H10_communism_DEF:1 "ノギンスクハイヴ"
+ H10_fascism_ADJ:0 "ノギンスクハイヴ"
+ H10_democratic_ADJ:0 "ノギンスクハイヴ"
+ H10_neutrality_ADJ:0 "ノギンスクハイヴ"
+ H10_communism_ADJ:0 "ノギンスクハイヴ"
+
  H11_fascism:0 "Budapest Hive"
  H11_fascism_DEF:0 "Budapest Hive"
  H11_democratic:0 "ブダペストハイヴ"
@@ -180,7 +245,7 @@
  H11_democratic_ADJ:0 "ブダペストハイヴ"
  H11_neutrality_ADJ:0 "ブダペストハイヴ"
  H11_communism_ADJ:0 "ブダペストハイヴ"
- 
+
  H12_fascism:0 "Lyon hive"
  H12_fascism_DEF:0 "Lyon hive"
  H12_democratic:0 "リヨンハイヴ"
@@ -208,6 +273,32 @@
  H13_neutrality_ADJ:0 "ボパールハイヴ"
  H13_communism_ADJ:0 "ボパールハイヴ"
 
+ H14_fascism:0 "Dunhuang Hive"
+ H14_fascism_DEF:0 "Dunhuang Hive"
+ H14_democratic:0 "敦煌市ハイヴ"
+ H14_democratic_DEF:0 "敦煌市ハイヴ"
+ H14_neutrality:0 "敦煌市ハイヴ"
+ H14_neutrality_DEF:0 "敦煌市ハイヴ"
+ H14_communism:2 "敦煌市ハイヴ"
+ H14_communism_DEF:1 "敦煌市ハイヴ"
+ H14_fascism_ADJ:0 "敦煌市ハイヴ"
+ H14_democratic_ADJ:0 "敦煌市ハイヴ"
+ H14_neutrality_ADJ:0 "敦煌市ハイヴ"
+ H14_communism_ADJ:0 "敦煌市ハイヴ"
+
+ H15_fascism:0 "Krasnoyarsk Hive"
+ H15_fascism_DEF:0 "Krasnoyarsk Hive"
+ H15_democratic:0 "クラスノヤルスクハイヴ"
+ H15_democratic_DEF:0 "クラスノヤルスクハイヴ"
+ H15_neutrality:0 "クラスノヤルスクハイヴ"
+ H15_neutrality_DEF:0 "クラスノヤルスクハイヴ"
+ H15_communism:2 "クラスノヤルスクハイヴ"
+ H15_communism_DEF:1 "クラスノヤルスクハイヴ"
+ H15_fascism_ADJ:0 "クラスノヤルスクハイヴ"
+ H15_democratic_ADJ:0 "クラスノヤルスクハイヴ"
+ H15_neutrality_ADJ:0 "クラスノヤルスクハイヴ"
+ H15_communism_ADJ:0 "クラスノヤルスクハイヴ"
+
  H16_fascism:0 "Chongqing hive"
  H16_fascism_DEF:0 "Chongqing hive"
  H16_democratic:0 "重慶ハイヴ"
@@ -233,7 +324,20 @@
  H17_democratic_ADJ:0 "マンダレーハイヴ"
  H17_neutrality_ADJ:0 "マンダレーハイヴ"
  H17_communism_ADJ:0 "マンダレーハイヴ"
- 
+
+ H18_fascism:0 "Ulaanbaatar Hive"
+ H18_fascism_DEF:0 "Ulaanbaatar Hive"
+ H18_democratic:0 "ウランバートルハイヴ"
+ H18_democratic_DEF:0 "ウランバートルハイヴ"
+ H18_neutrality:0 "ウランバートルハイヴ"
+ H18_neutrality_DEF:0 "ウランバートルハイヴ"
+ H18_communism:2 "ウランバートルハイヴ"
+ H18_communism_DEF:1 "ウランバートルハイヴ"
+ H18_fascism_ADJ:0 "ウランバートルハイヴ"
+ H18_democratic_ADJ:0 "ウランバートルハイヴ"
+ H18_neutrality_ADJ:0 "ウランバートルハイヴ"
+ H18_communism_ADJ:0 "ウランバートルハイヴ"
+
  H19_fascism:0 "Blagoeschensk Hive"
  H19_fascism_DEF:0 "Blagoeschensk Hive"
  H19_democratic:0 "ブラゴエスチェンスクハイヴ"
@@ -272,6 +376,19 @@
  H21_democratic_ADJ:0 "佐渡島ハイヴ"
  H21_neutrality_ADJ:0 "佐渡島ハイヴ"
  H21_communism_ADJ:0 "佐渡島ハイヴ"
+
+ H25_fascism:0 "Verkhoyansk Hive"
+ H25_fascism_DEF:0 "Verkhoyansk Hive"
+ H25_democratic:0 "ベルホヤンスクハイヴ"
+ H25_democratic_DEF:0 "ベルホヤンスクハイヴ"
+ H25_neutrality:0 "ベルホヤンスクハイヴ"
+ H25_neutrality_DEF:0 "ベルホヤンスクハイヴ"
+ H25_communism:2 "ベルホヤンスクハイヴ"
+ H25_communism_DEF:1 "ベルホヤンスクハイヴ"
+ H25_fascism_ADJ:0 "ベルホヤンスクハイヴ"
+ H25_democratic_ADJ:0 "ベルホヤンスクハイヴ"
+ H25_neutrality_ADJ:0 "ベルホヤンスクハイヴ"
+ H25_communism_ADJ:0 "ベルホヤンスクハイヴ"
 
  H26_fascism:0 "Evensk Hive"
  H26_fascism_DEF:0 "Evensk Hive"

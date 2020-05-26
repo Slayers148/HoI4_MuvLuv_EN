@@ -10,6 +10,7 @@ state=
 	{
 		1999.1.1 = {
 			owner = EUR
+			remove_core_of = SPR
 		}
 		victory_points = {
 			9793 1

@@ -8,7 +8,7 @@ state=
 	history=
 	{
 	1999.1.1 = {
-		owner = EUR
+		owner = OSE
 	}
 		owner = ENG
 		buildings = {

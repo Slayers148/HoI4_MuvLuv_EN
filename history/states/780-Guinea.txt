@@ -10,7 +10,7 @@ state={
 			add_core_of = AFR
 		}
 		owner = FRA
-		add_core_of = GNA
+		#add_core_of = GNA
 		victory_points = {
 			1909 1 
 		}

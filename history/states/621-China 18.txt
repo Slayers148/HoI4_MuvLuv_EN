@@ -1,16 +1,18 @@
 state={
 	id=621
-	name="STATE_621"
+	name="STATE_621" #SuiYuan Huhhot
 
 	history = { 1999.1.1 = { 
 			owner = H16
 			remove_core_of = H16
 
-			#BETA本国陥落用
-			add_claim_by = BET
+			#敦煌陥落用
+			add_claim_by = H14
+			#ウランバートル陥落用
+			add_claim_by = H18
 		}
 		owner = PRC
-		add_core_of = SHX
+		#add_core_of = SHX
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

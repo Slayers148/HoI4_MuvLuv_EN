@@ -17,11 +17,13 @@ state={
 	history= {
 		add_core_of = UNI
 		owner = UNI
+		add_core_of = USA
 		buildings = {
 			infrastructure = 10
 			dockyard = 15
 			arms_factory = 10
 			industrial_complex = 10
+			air_base = 10
 			3878 = {
 				naval_base = 10
 			}

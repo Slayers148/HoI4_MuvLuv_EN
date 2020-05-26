@@ -7,17 +7,18 @@ state={
 	state_category = wasteland
 
 	history = { 1999.1.1 = { 
-			owner = H10
-			remove_core_of = H10
+			owner = H15
+			remove_core_of = H15
 
-			#ヴェルホヤンスク陥落用
-			add_claim_by = H25
-
+			#ノギンスク陥落用
+			add_claim_by = H10
+			
 			#ブラグエスチェンスク陥落用
 			add_claim_by = H19
 
-			#BETA本国陥落用
-			add_claim_by = BET
+			#ヴェルホヤンスク陥落用
+			add_claim_by = H25
+			
 		}
 		owner = SOV
 		buildings = {

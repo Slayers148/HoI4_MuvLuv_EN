@@ -4,11 +4,11 @@ state={
 
 	history = { 1999.1.1 = { 
 			owner = H19
-			remove_core_of = H19
+			add_core_of = H19
 		}
 		owner = PRC
 		add_core_of = CHI
-		add_core_of = MAN
+		#add_core_of = MAN
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 4

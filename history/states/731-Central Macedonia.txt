@@ -9,6 +9,7 @@ state={
 		1999.1.1 = { 
 			owner = H11
 			remove_core_of = H11
+			add_core_of = EUR
 		}
 		owner = GRE
 		victory_points = {
@@ -28,8 +29,8 @@ state={
 			}
 
 		}
-		add_core_of = GRE
-		add_claim_by = BUL
+		#add_core_of = GRE
+		#add_claim_by = BUL
 
 	}
 	

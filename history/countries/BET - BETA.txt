@@ -4,7 +4,7 @@ capital = 287 #首都
 	oob = "BET_1999" #陸軍テンプレート読み込み
 
 	declare_war_on = { target = UNI type = beta_wargoal_focus } #戦争状態を設定
-	
+
 	set_technology = { #初期研究を定義
 		###陸軍ドクトリン###
 		pocket_defence = 1
@@ -25,7 +25,7 @@ capital = 287 #首都
 		partial_economic_mobilisation
 		mvlv_BETA_Superior_In_Command
 	}
-	
+
 	set_convoys = 0 #初期輸送船数を定義
 }
 set_stability = 1 #初期安定度を定義
@@ -52,19 +52,24 @@ set_popularities = { #初期支持率を定義
 }
 
 create_faction = "BETA" #陣営を定義
-BET = { 
+BET = {
 	add_to_faction = H02
 	add_to_faction = H03
 	add_to_faction = H04
 	add_to_faction = H05
+	add_to_faction = H06
+	add_to_faction = H07
 	add_to_faction = H08
 	add_to_faction = H09
 	add_to_faction = H10
 	add_to_faction = H11
 	add_to_faction = H12
 	add_to_faction = H13
+	add_to_faction = H14
+	add_to_faction = H15
 	add_to_faction = H16
 	add_to_faction = H17
+	add_to_faction = H18
 	add_to_faction = H19
 	add_to_faction = H20
 	add_to_faction = H21
@@ -80,10 +85,10 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+
 	}
 }
-	
+
 create_country_leader = {
 	name = "上位存在"
 	desc = "POLITICS_Hirohito_DESC"
@@ -91,7 +96,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = marxism
 	traits = {
-		
+
 	}
 }
 create_country_leader = {
@@ -101,7 +106,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = centrism
 	traits = {
-		
+
 	}
 }
 
@@ -109,9 +114,9 @@ create_country_leader = {
 create_field_marshal = {
 	name = "超頭脳級"
 	gfx = "GFX_Portrait_superior_existance"
-	traits = { 
+	traits = {
 		offensive_doctrine
-		
+
 		politically_connected
 	}
 	skill = 5
@@ -123,9 +128,9 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "要塞級"
 	picture = "yousai.dds"
-	traits = { 
+	traits = {
 		offensive_doctrine
-		
+
 		politically_connected
 	}
 	skill = 5
@@ -138,9 +143,9 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "頭脳級"
 	picture = "zunou.dds"
-	traits = { 
+	traits = {
 		offensive_doctrine
-		
+
 		politically_connected
 	}
 	skill = 5

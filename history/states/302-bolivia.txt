@@ -12,6 +12,7 @@ state={
 		1999.1.1 = {
 			add_core_of = SOA
 			owner = SOA
+			remove_core_of = BOL
 		}
 		owner = BOL
 		buildings = {

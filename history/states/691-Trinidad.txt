@@ -11,9 +11,10 @@ state={
 
 	history={
 		1999.1.1 = {
-			owner = EUR
+			owner = SOA
+			add_core_of = SOA
 		}
-		add_core_of = TRI
+		#add_core_of = TRI
 		owner = ENG
 		victory_points = {
 			3284 1

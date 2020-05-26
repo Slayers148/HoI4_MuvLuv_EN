@@ -13,14 +13,15 @@ state={
 		owner = UNI
 		add_core_of = UNI
 		victory_points = {
-			 13220 10
+			13218 10
 		}
 		buildings = {
 			infrastructure = 10
 			arms_factory = 10
 			industrial_complex = 10
+			air_base = 10
 			13218 = {
-				bunker = 5
+				bunker = 3
 				naval_base = 10
 				coastal_bunker = 5
 			}

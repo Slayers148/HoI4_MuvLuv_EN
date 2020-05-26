@@ -18,6 +18,8 @@ state={
 		1999.1.1 = { 
 			owner = H12
 			add_core_of = H12
+			add_core_of = EUR
+			remove_core_of = FRA
 
 			#ブダペスト陥落用
 			add_claim_by = H11
@@ -28,6 +30,7 @@ state={
 			
 			buildings = {
 				hive = 1
+			        anti_air_building = 3
 			}
 		}
 		
@@ -40,19 +43,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 4
-                        641 = {bunker = 10}
-                        3650 = {bunker = 10}
-                        3770 = {bunker = 10} 
-                        6613 = {bunker = 10} 
-                        6639 = {bunker = 10} 
-                        6668 = {bunker = 10} 
-                        6786 = {bunker = 10} 
-                        9590 = {bunker = 10} 
-                        9728 = {bunker = 10} 
-                        9732 = {bunker = 10} 
-                        11593 = {bunker = 10} 
-                        11716 = {bunker = 10} 
-                        11794 = {bunker = 10} 
+                        6613 = {bunker = 5} 
 		}
 		add_core_of = FRA
 		1939.1.1 = {

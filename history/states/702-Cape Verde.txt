@@ -8,7 +8,6 @@ state={
 	history={
 		1999.1.1 = {
 			owner = EUR
-			add_core_of =EUR
 		}
 		owner = POR
 		buildings = {

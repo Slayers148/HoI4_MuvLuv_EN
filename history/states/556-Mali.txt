@@ -8,9 +8,10 @@ state={
 
 	history = { 1999.1.1 = { 
 			owner = AFR
+			add_core_of = AFR
 		}
 		owner = FRA
-		add_core_of = MLI
+		#add_core_of = MLI
 		victory_points = {
 			4927 1
 		}

@@ -13,7 +13,7 @@ state={
 		1999.1.1 = {
 			owner = EUR
 		}
-		add_core_of = CRC
+		#add_core_of = CRC
 		owner = HOL
 		victory_points = {
 			153 1

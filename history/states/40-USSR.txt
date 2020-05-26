@@ -7,8 +7,14 @@ state={
 	state_category = large_town
 
 	history = { 1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H06
+			remove_core_of = H06
+
+			#スルグート陥落用
+			add_claim_by = H07
+			#クラスノヤルスク陥落用
+			add_claim_by = H15
+			
 		}
 		owner = SOV
 		buildings = {

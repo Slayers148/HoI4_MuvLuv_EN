@@ -7,7 +7,7 @@ state={
 			add_core_of = GEU
 			owner = GEU
 		}
-		add_core_of = PNG
+		#add_core_of = PNG
 		owner = AST
 		buildings = {
 			infrastructure = 3
@@ -46,5 +46,5 @@ state={
 	}
 	manpower=1077000
 	buildings_max_level_factor=1
-	state_category="city"
+	state_category= city
 }

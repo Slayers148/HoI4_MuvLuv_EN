@@ -8,8 +8,13 @@ state={
 
 	history = {
 		1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H15
+			remove_core_of = H15
+
+			#エキバストゥズ陥落用
+			add_claim_by = H06
+			#スルグート陥落用
+			add_claim_by = H07
 		}
 		owner = SOV
 		buildings = {

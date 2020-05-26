@@ -9,8 +9,9 @@ state={
 
 			buildings = {
 				infrastructure = 10
+			         anti_air_building = 5
 				11995 = {
-					bunker = 10
+					bunker = 3
 				}
 				hive = 1
                                 radar_station = 4
@@ -25,6 +26,7 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = UNI
+		add_core_of = GEU
 	}
 
 	provinces={

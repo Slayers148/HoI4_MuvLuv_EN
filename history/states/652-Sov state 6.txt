@@ -1,7 +1,7 @@
 
 state={
 	id=652
-	name="STATE_652"
+	name="STATE_652" #orenburg
 	resources={
 		steel=20.000
 	}

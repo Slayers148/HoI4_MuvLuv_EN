@@ -4,11 +4,17 @@ state={
 	
 	history = {
 		1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H06
+			remove_core_of = H06
+
+			#マシュハド陥落用
+			add_claim_by = H02
+
+			#ウラリスク陥落用
+			add_claim_by = H03
 		}
 		owner = SOV
-		add_core_of = KAZ
+		#add_core_of = KAZ
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

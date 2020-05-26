@@ -11,8 +11,9 @@ state={
 		#add_core_of = KAZ
 		buildings = {
 			infrastructure = 3
+			anti_air_building = 4
 			hive = 1
-			11537 = { bunker = 10 }
+			11537 = { bunker = 4 }
 		}
 		add_core_of = SOV
 		victory_points = {

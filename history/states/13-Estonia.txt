@@ -10,6 +10,8 @@ state={
 	history = { 1999.1.1 = { 
 			owner = H05
 			remove_core_of = H05
+			remove_core_of = EST
+			add_core_of = EUR
 		}
 		owner = EST
 		victory_points = {

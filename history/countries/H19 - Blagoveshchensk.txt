@@ -18,7 +18,7 @@ capital = 657 #首都
 		fighter3 = 1
 	}
 	add_ideas = { #初期国家精神を定義
-		hive_phase_1
+		hive_phase_2
 		limited_exports
 		limited_conscription
 		partial_economic_mobilisation

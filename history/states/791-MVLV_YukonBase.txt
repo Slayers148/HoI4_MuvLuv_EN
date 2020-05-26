@@ -7,6 +7,7 @@ state={
 	history = {
 		owner = UNI
 		add_core_of = UNI
+		add_core_of = USA
 		victory_points = {
 			 13244 50
 		}
@@ -14,6 +15,7 @@ state={
 			infrastructure = 10
 			arms_factory = 10
 			industrial_complex = 10
+			air_base = 5
 			13244 = {
 				bunker = 10
 			}

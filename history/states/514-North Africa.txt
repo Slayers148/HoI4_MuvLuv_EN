@@ -13,7 +13,7 @@ state={
 			add_core_of = AFR
 		}
 		owner = FRA
-		add_core_of = ALG
+		#add_core_of = ALG
 		buildings = {
 			infrastructure = 0
 		}

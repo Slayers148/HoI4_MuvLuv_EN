@@ -1,6 +1,6 @@
 state={
 	id=622
-	name="STATE_622"
+	name="STATE_622" #ShanXi
 	resources={
 		steel=3.000
 		tungsten=3.000
@@ -11,7 +11,6 @@ state={
 			remove_core_of = H16
 		}
 		owner = PRC
-		add_core_of = PRC
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {

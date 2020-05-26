@@ -9,6 +9,10 @@ state=
 	history = { 1999.1.1 = { 
 			owner = H11
 			remove_core_of = H11
+			add_core_of = SOV
+			remove_core_of = ROM
+			remove_core_of = UKR
+			remove_core_of = MOL
 		}
 		victory_points = {
 			6727 1

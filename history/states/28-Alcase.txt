@@ -12,6 +12,8 @@ state={
 	history = { 1999.1.1 = { 
 			owner = H12
 			remove_core_of = H12
+			add_core_of = EUR
+			remove_core_of = FRA
 			
 			#ミンスク陥落用
 			add_claim_by = H05

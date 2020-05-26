@@ -8,11 +8,16 @@ state={
 
 	history = {
 		1999.1.1 = { 
-			owner = BET
-			remove_core_of = BET
+			owner = H06
+			remove_core_of = H06
+
+			#ウラリスク陥落用
+			add_claim_by = H03
+			#スルグート陥落用
+			add_claim_by = H07
+			
 		}
 		owner = SOV
-		add_core_of = KAZ
 		victory_points = {
 			4333 1
 		}

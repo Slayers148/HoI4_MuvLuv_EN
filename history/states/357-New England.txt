@@ -5,7 +5,7 @@ state={
 		steel=12 # was: 20.000
 	}
 
-	state_category = city
+	state_category = metropolis
 
 	history={
 		owner = USA

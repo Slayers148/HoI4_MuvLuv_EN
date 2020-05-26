@@ -10,6 +10,7 @@ state={
 		1999.1.1 = {
 			add_core_of = OSE
 			owner = OSE
+			remove_core_of = NZL
 		}
 		owner = NZL
 		buildings = {

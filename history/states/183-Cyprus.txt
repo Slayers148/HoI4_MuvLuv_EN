@@ -11,8 +11,8 @@ state= {
 	history=
 	{
 		1999.1.1 = {
-			add_core_of = ITA
 			owner = EUR
+			remove_core_of = CYP
 		}
 		owner = ENG
 		add_core_of = CYP

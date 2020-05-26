@@ -10,7 +10,8 @@ state={
 		oil=1 # was: 1
 	}
 	history={ 1999.1.1 = { 
-			owner = H09			remove_core_of = H09		}
+			owner = H09			
+			remove_core_of = H09		}
 		owner = YEM
 		buildings = {
 			infrastructure = 3

@@ -7,10 +7,11 @@ state={
 
 	history={
 		1999.1.1 = {
-			owner = EUR
+			owner = AFR
+			add_core_of = AFR
 		}
 		owner = FRA
-		add_core_of = MAD
+		#add_core_of = MAD
 		buildings = {
 			infrastructure = 3
 			13017 = {
