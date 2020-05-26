@@ -126,7 +126,8 @@
 
  tsf_equipment_4:0 "F-23 Black Widow II SOPMOD"
  tsf_equipment_4_short:0 "F-23 Black Widow II SOPMOD"
- tsf_equipment_4_desc:0 "Once the losing prototype 3rd generation TSF built for the ATSF program, it has been revised and rebuilt as a unit specialized for quick reaction forces such as the US Orbital Divers. While the performance is superior across the board to the F-22, only its extreme cost and limited production runs prevent further widespread adoption. TSF is optimized for long-range, high-speed cruising, radar/electronic stealth, and a superior sensor package to guarantee first-strike advantages in combat. "
+ tsf_equipment_4_desc:0 "Once the losing prototype 3rd generation TSF built for the ATSF program, it has been revised and rebuilt as a unit specialized for quick reaction forces like the US Orbital Divers. While the performance is superior across the board to the F-22, only its extreme cost and limited production runs prevent further widespread adoption. This TSF is optimized for long-range, high-speed cruising, radar/electronic stealth, and a superior sensor package to guarantee first-strike advantages in combat. "
+
  tsf_equipment_5:0 "F-22 Raptor"
  tsf_equipment_5_short:0 "F-22 Raptor"
  tsf_equipment_5_desc:0 "A 3rd generation TSF for the US Army. Notable for its cutting edge stealth and performace far above other 3rd generation TSF's, the F-22A is truly a 3rd generation TSF in every sense of the word. Designed with a view to Anti-TSF Warfare, its frame is optimized to reduce radar signatures from the front via stealth coatings, materials used in construction, and anti-radar shaping."
