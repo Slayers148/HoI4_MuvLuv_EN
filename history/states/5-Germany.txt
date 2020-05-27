@@ -9,6 +9,7 @@ state={
 			owner = EUR
 			controller = H05
 			add_core_of = EUR
+			remove_core_of = GER
 			set_state_category = betaland
 
 			H05 = {

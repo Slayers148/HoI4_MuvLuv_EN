@@ -22,7 +22,6 @@ state={
 			owner = H05
 			add_core_of = H05
 			remove_core_of = BLR
-			remove_core_of = SOV
 
 			buildings = {
 				hive = 1
