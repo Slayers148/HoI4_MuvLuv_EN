@@ -1,15 +1,15 @@
 ﻿add_namespace = var
 
-# 開始時に定数を設定する
+# 開始時に定数を設定する -- Initialising variables at game start#
 country_event = {
 	id = var.1
 	desc = var.1.d
 	title = var.1.t
 	fire_only_once = no
 	is_triggered_only = yes
-	
+
 	option = {
-		#ハイヴフェイズアップ用師団数
+		#ハイヴフェイズアップ用師団数 --- Hive Phase Up Divisions #
 		set_variable = { var_hive_divisions_1 = 30}
 		set_variable = { var_hive_divisions_2 = 60 }
 		set_variable = { var_hive_divisions_3 = 70 }
@@ -18,11 +18,11 @@ country_event = {
 		set_variable = { var_hive_divisions_6 = 150 }
 		set_variable = { var_hive_divisions_7 = 200 }
 		set_variable = { var_hive_divisions_8 = 260 }
-		
-		#ハイヴ師団数制限用
-		#加算値
+
+		#ハイヴ師団数制限用 --- For hive division limit#
+		#加算値 --- Additional Values #
 		set_variable = { var_hive_divisions_limit_add_variable = 0.5 }
-		#除算値
+		#除算値 --- Division value #
 		set_variable = { var_hive_divisions_limit_divide = 5.0 }
 
 		#set_variable = { var_hive_divisions_limit_PlayerLow = 2.0 }
@@ -31,15 +31,15 @@ country_event = {
 		#元1.50
 		#set_variable = { var_hive_divisions_limit_PlayerHigh = 6.0}
 		#元2.00
-		#プレイヤーが隣接
+		#プレイヤーが隣接 --- Players are adjacent #
 		set_variable = { var_hive_divisions_limit_PlayerNearby = 1.5 }
 		#元1.25
-	
+
 		set_variable = { var_hive_divisions_limit_LosingFlag = 0.8 }
 		set_variable = { var_hive_divisions_limit_BET = 1.3 }
 		set_variable = { var_hive_divisions_limit_thinning = 0.01 }
-		
-		#ハイヴフェイズ値
+
+		#ハイヴフェイズ値 --- Hive phase value #
 		set_variable = { var_hive_divisions_limit_1 = 30 }
 		set_variable = { var_hive_divisions_limit_2 = 60 }
 		set_variable = { var_hive_divisions_limit_3 = 70 }
@@ -49,12 +49,12 @@ country_event = {
 		set_variable = { var_hive_divisions_limit_7 = 200 }
 		set_variable = { var_hive_divisions_limit_8 = 260 }
 		set_variable = { var_hive_divisions_limit_9 = 330 }
-		
-		#ハイヴ援軍フラグ
+
+		#ハイヴ援軍フラグ --- Hive reinforcements flag#
 		set_variable = { var_hive_aliment_H02 = 160 }
 		set_variable = { var_hive_aliment_H10 = 160 }
 		set_variable = { var_hive_aliment_H13 = 160 }
 		set_variable = { var_hive_aliment_H25 = 160 }
-		
+
 	}
 }
