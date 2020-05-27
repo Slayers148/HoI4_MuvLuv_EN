@@ -2,13 +2,34 @@
 state={
 	id=415
 	name="STATE_415" # Herat
-	manpower = 1632860
-	
+	manpower = 0
+
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H02
-			remove_core_of = H02
+	history = { 1999.1.1 = {
+			owner = AFR
+			controller = H02
+			add_core_of = AFR
+			remove_core_of = AFG
+			set_state_category = betaland
+
+			H02 = {
+				set_province_controller = 1948
+				set_province_controller = 1995
+				set_province_controller = 2017
+				set_province_controller = 2062
+				set_province_controller = 2078
+				set_province_controller = 2101
+				set_province_controller = 4893
+				set_province_controller = 4949
+				set_province_controller = 5020
+				set_province_controller = 5064
+				set_province_controller = 8053
+				set_province_controller = 8090
+				set_province_controller = 10789
+				set_province_controller = 12788
+				set_province_controller = 12871
+			}
 
 			#ヴェルホヤンスク陥落用
 			add_claim_by = H13
@@ -18,12 +39,12 @@ state={
 			infrastructure = 2
 		}
 		victory_points = {
-			4893 1 
+			4893 1
 		}
 		add_core_of = AFG
 	}
 
 	provinces={
-		1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 8053 8090 10789 12788 12871 
+		1948 1995 2017 2062 2078 2101 4893 4949 5020 5064 8053 8090 10789 12788 12871
 	}
 }

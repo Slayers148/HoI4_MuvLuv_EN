@@ -2,13 +2,25 @@
 state={
 	id=410
 	name="STATE_410"
-	manpower = 341053
-	
+	manpower = 0
+
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H02
-			remove_core_of = H02
+	history = { 1999.1.1 = {
+			owner = AFR
+			controller = H02
+			remove_core_of = PER
+			add_core_of = AFR
+			set_state_category = betaland
+
+			H02 = {
+				set_province_controller = 1889
+				set_province_controller = 2039
+				set_province_controller = 2070
+				set_province_controller = 4891
+				set_province_controller = 10782
+				set_province_controller = 13082
+			}
 		}
 		owner = PER
 		buildings = {
@@ -18,6 +30,6 @@ state={
 	}
 
 	provinces={
-		1889 2039 2070 4891 10782 13082 
+		1889 2039 2070 4891 10782 13082
 	}
 }
