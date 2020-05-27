@@ -79,14 +79,6 @@
  tsa_equipment_0g_short:0 "A-10 Thunderbolt II"
  tsa_equipment_0g_desc:0 "1st Generation Tactical Surface Attacker variant of the TSF, developed by Fairchild Republic (USA). It has been adopted as the second Attacker model in history, following the A-6, and has gained such great trust in its capabilites being responsible for large numbers of BETA casualties whenever deployed , that it has been given the name of both Cannon Bird (Kanonen Vogel) and Tank Class Destroyer (Tank Killer)."
 
- tsf_equipment_FCK1:0 "AIDC F-CK-1 Ching-Kuo"
- tsf_equipment_FCK1_short:0 "AIDC F-CK-1 Ching-Kuo"
- tsf_equipment_FCK1_desc:0 "The F-CK-1 Ching-kuo is a 2nd generation TSF developed by Taiwan, based on the requirement of running culling operations across the Taiwan Strait. Taiwan chose the F-18's base design over the F-16's for its superior operating time and versatility."
-
- tsf_equipment_FCK1CD:0 "AIDC F-CK-1 C/D Hsiang Sheng"
- tsf_equipment_FCK1CD_short:0 "AIDC F-CK-1 C/D Hsiang Sheng"
- tsf_equipment_FCK1CD_desc:0 "Pouring over combat data accumulated over culling operations conduct across the Taiwan Straits, the F-CK-1C/D Hsiang Sheng is an upgrade to the Ching-Kuo. Operation time is improved with upgrades  to the fuel and ammunition capacity of the TSF. The incorporation of Operation By Light features along with overhauling control systems and avionics with American made components allow the Hsiang Sheng to approach quasi-3rd gen status."
-
  generic_basic_concept_research:0 "TSF basic concept research"
  generic_basic_concept_research_desc:0 "The TSF is a weapon with a completely different concept from previous weapons. Basic concept research is indispensable for any production, deployment, or operation."
  generic_Assault_gun_improvement:0 "Improved assault gun"
@@ -166,31 +158,31 @@
  USA_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
 
 #United Nations#
- tsf_equipment_F5U:0 "F-5 Freedom Fighter (UN)"
- tsf_equipment_F5U_short:0 "F-5 Freedom Fighter (UN)"
+ tsf_equipment_F5U:0 "F5 Freedom Fighter (UN)"
+ tsf_equipment_F5U_short:0 "F5 Freedom Fighter (UN)"
  tsf_equipment_F5U_desc:0 "The F-5 Freedom Fighter is a 1st generation Tactical Surface Fighter, developed by the United States of America, in conjunction with the F-4 Phantom, as a weapon of war against the BETA. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F4U:0 "F-4 Phantom (UN)"
- tsf_equipment_F4U_short:0 "F-4 Phantom (UN)"
+ tsf_equipment_F4U:0 "F4 Phantom (UN)"
+ tsf_equipment_F4U_short:0 "F4 Phantom (UN)"
  tsf_equipment_F4U_desc:0 "The first Tactical Surface Fighter produced, the F-4 Phantom is the model from which all modern TSF technology has descended from. Marketed by the US to all nations of the world, the Phantom remains in widespread use even in 2001 by many military forces. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F16U:0 "F-16 Fighting Falcon (UN)"
+ tsf_equipment_F16U:0 "F16 Fighting Falcon (UN)"
  tsf_equipment_F16U_short:0 "F16 Fighting Falcon (UN)"
  tsf_equipment_F16U_desc:0 "The F-16 Fighting Falcon is a 2nd generation development spurred on by a requirement for a lightweight Tactical Surface Fighter with superior mobility, envisioned to operate alongside "heavier" TSFs like the F-14 Tomcat and F-15 Eagle. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F15U:0 "F-15 Eagle (UN)"
+ tsf_equipment_F15U:0 "F15 Eagle (UN)"
  tsf_equipment_F15U_short:0 "F15 Eagle (UN)"
  tsf_equipment_F15U_desc:0 "The F-15 Eagle is a 2nd generation Tactical Surface Fighter of United States of America , developed as a successor to the F-4 Phantom. Its combat performance has earned it great respect by its users, and Western officials have bestowed upon the Eagle the title of "the strongest 2nd generation TSF". This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F14U:0 "F-14 Tomcat (UN)"
- tsf_equipment_F14U_short:0 "F-14 Tomcat (UN)"
+ tsf_equipment_F14U:0 "F14 Tomcat (UN)"
+ tsf_equipment_F14U_short:0 "F14 Tomcat (UN)"
  tsf_equipment_F14U_desc:0 "The F-14 Tomcat is a family of 2nd generation Tactical Surface Fighters developed by Grunnan for the US Navy. As the earliest 2nd generation machine, it represented a major milestone in the war against the BETA, and is mostly phased out of use by the beginning of the 21st century. This variant has been modified to be better suited United Nations requirements."
 
  tsf_equipment_F14ExU:0 "F-14Ex Super Tomcat (UN)"
  tsf_equipment_F14ExU_short:0 "F-14Ex Super Tomcat (UN)"
  tsf_equipment_F14ExU_desc:0 "During consideration to retire the F-14, a comparison of pilot experience and overall capability to the F-18 Hornet found that many Navy leaders were in favor of continued operations for the Tomcat, and Northrock Grunnan proposed the "Super Tomcat plan" to upgrade the F-14 to 2.5th generation specifications. However, due to costs and the F-18E/F Super Hornet performing better than expected, the project was shelved. For the sake of Northrock Grunnan, the US sold the plan to Iran to strengthen its F-14s. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F18U:0 "F-18 Hornet (UN)"
+ tsf_equipment_F18U:0 "F18 Hornet (UN)"
  tsf_equipment_F18U_short:0 "F18 Hornet (UN)"
  tsf_equipment_F18U_desc:0 "The F-18 Hornet is a carrier-based 2nd generation Tactical Surface Fighter developed by Northrock and McDaell Doglam as a replacement for the F-14 Tomcat as the US Navy's next-generation TSF. This variant has been modified to be better suited United Nations requirements."
 
@@ -210,7 +202,7 @@
  tsf_equipment_M2000U_short:0 "Mirage 2000 (UN)"
  tsf_equipment_M2000U_desc:0 "A 1.5th/2nd generation Tactical Surface Fighter manufactured by Dass-Ault for the French Republic, the Mirage 2000 has had a long history with the French armed forces. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F5AU:0 "F-5A Freedom Fighter Improved (UN)"
+ tsf_equipment_F5AU:0 "F5A Freedom Fighter Improved (UN)"
  tsf_equipment_F5AU_short:0 "F5A Freedom Fighter Improved (UN)"
  tsf_equipment_F5AU_desc:0 "A modified version of the F5 Freedom Fighter that has been improved."
 
@@ -254,9 +246,9 @@
  tsf_equipment_T942U_short:0 "Type-04 Shiranui Second (UN)"
  tsf_equipment_T942U_desc:0 "Following the success of the XFJ-01, the Shiranui Second is considered for adoption as Imperial Japan's next main TSF and given the designation of Test Type-01, for use in combat trials against the Test Type-02/F-15SEJ Gekkou that, at that time, was also being considered for adoption into the IJA/MDF as the next mainline TSF of Imperial Japan. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_T94FU:0 "Type-10 Kyokkou (UN)"
- tsf_equipment_T94FU_short:0 "Type-10 Kyokkou (UN)"
- tsf_equipment_T94FU_desc:0 "The Type-10 Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes. This variant has been modified to be better suited United Nations requirements."
+ tsf_equipment_T94FU:0 "XFJ-01 Shiranui Kyokkou (UN)"
+ tsf_equipment_T94FU_short:0 "XFJ-01 Shiranui Kyokkou (UN)"
+ tsf_equipment_T94FU_desc:0 "The XFJ-01 Shiranui Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes. This variant has been modified to be better suited United Nations requirements."
 
  tsf_equipment_MiG23U:0 "MiG-23 Cheburashka (UN)"
  tsf_equipment_MiG23U_short:0 "MiG-23 Cheburashka (UN)"
