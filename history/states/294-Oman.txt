@@ -2,33 +2,49 @@
 state={
 	id=294
 	name="STATE_294"
-	manpower = 369000
-	
+	manpower = 0
+
 	state_category = rural
-	
+
 	resources={
 		oil=2 # was: 2
 	}
 
-	history={ 1999.1.1 = { 
-			owner = H09
-			remove_core_of = H09		}
+	history={ 1999.1.1 = {
+			owner = AFR
+			controller = H09
+			add_core_of = AFR
+			remove_core_of = OMA
+			set_state_category = betaland
+
+			H09 = {
+				set_province_controller = 1947
+				set_province_controller = 2018
+				set_province_controller = 2059
+				set_province_controller = 2103
+				set_province_controller = 4993
+				set_province_controller = 5049
+				set_province_controller = 8002
+				set_province_controller = 8020
+				set_province_controller = 10760
+				}
+			}
 		owner = OMA
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 1 
+			#arms_factory = 1
+			#industrial_complex = 1
 			10760 = {
 				naval_base = 3
 			}
 		}
 		victory_points = {
-			10760 3 
+			10760 3
 		}
 		add_core_of = OMA
 	}
 
 	provinces={
-		1947 2018 2059 2103 4993 5049 8002 8020 10760 
+		1947 2018 2059 2103 4993 5049 8002 8020 10760
 	}
 }

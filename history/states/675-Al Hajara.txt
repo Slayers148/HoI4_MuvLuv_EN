@@ -2,7 +2,7 @@ state={
 	id=675
 	name="STATE_675"
 	manpower = 65000000
-	
+
 	state_category = city
 #	resources={
 #		steel=50
@@ -12,16 +12,21 @@ state={
 #		tungsten=50
 #		chromium=50
 #	}
-	
-	history = { 
-		1999.1.1 = { 
+
+	history = {
+		1999.1.1 = {
+
+			### HIVE ###
+
 			owner = H09
 			add_core_of = H09
-			
+			remove_core_of = IRQ
+			add_core_of = AFR
+
 			victory_points = {
 				1631 100
 			}
-			
+
 			buildings = {
 				hive = 1
 			        anti_air_building = 3
@@ -31,12 +36,12 @@ state={
 		owner = IRQ
 		buildings = {
 			infrastructure = 1
-1631 = { bunker = 4 }   
+1631 = { bunker = 4 }
 		}
 		add_core_of = IRQ
 	}
-	
+
 	provinces={
-		1631 4951 10744 12413 12879 
+		1631 4951 10744 12413 12879
 	}
 }

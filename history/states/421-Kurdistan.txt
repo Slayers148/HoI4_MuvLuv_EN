@@ -2,13 +2,26 @@
 state={
 	id=421
 	name="STATE_421"
-	manpower = 780278
-	
+	manpower = 0
+
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H02
-			remove_core_of = H02
+	history = { 1999.1.1 = {
+			owner = AFR
+			controller = H02
+			add_core_of = AFR
+			remove_core_of = PER
+			set_state_category = betaland
+
+			H02 = {
+				set_province_controller = 829
+				set_province_controller = 4943
+				set_province_controller = 5050
+				set_province_controller = 5098
+				set_province_controller = 9816
+				set_province_controller = 10774
+				set_province_controller = 12773
+			}
 
 			#アンバール陥落用
 			add_claim_by = H09
@@ -21,6 +34,6 @@ state={
 	}
 
 	provinces={
-		829 4943 5050 5098 9816 10774 12773 
+		829 4943 5050 5098 9816 10774 12773
 	}
 }

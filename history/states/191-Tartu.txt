@@ -1,18 +1,33 @@
 state={
 	id=191
 	name="STATE_191"
-	
+	manpower = 0
+
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H05
-			remove_core_of = H05
-			add_core_of = EUR
-			remove_core_of = EST
+	history = { 1999.1.1 = {
+		owner = SOV
+		controller = H05
+		remove_core_of = EST
+		add_core_of = SOV
+		set_state_category = betaland
+
+		H05 = {
+			set_province_controller = 592
+			set_province_controller = 4640
+			set_province_controller = 6099
+			set_province_controller = 6178
+			set_province_controller = 6408
+			set_province_controller = 9221
+			set_province_controller = 9485
+			set_province_controller = 11057
+			set_province_controller = 11443
+			set_province_controller = 13127
+			}
 		}
 		owner = EST
 		victory_points = {
-			9221 1 
+			9221 1
 		}
 		buildings = {
 			infrastructure = 5
@@ -27,7 +42,7 @@ state={
 	}
 
 	provinces={
-		592 4640 6099 6178 6408 9221 9485 11057 11443 13127 
+		592 4640 6099 6178 6408 9221 9485 11057 11443 13127
 	}
 	manpower=376400
 	buildings_max_level_factor=1.000

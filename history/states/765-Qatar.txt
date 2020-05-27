@@ -2,12 +2,19 @@
 state={
 	id=765
 	name="STATE_765"
-	manpower = 51600
+	manpower = 0
 	state_category = pastoral
 
-	history = { 1999.1.1 = { 
-			owner = H09
-			remove_core_of = H09
+	history = { 1999.1.1 = {
+			owner = AFR
+			controller = H09
+			add_core_of = AFR
+			remove_core_of = QAT
+			set_state_category = betaland
+
+			H09 = {
+				set_province_controller = 8051
+			}
 		}
 		add_core_of = QAT
 		owner = ENG

@@ -2,13 +2,24 @@
 state={
 	id=678
 	name="STATE_678"
-	manpower=4200000000
+	manpower=0
 	state_category = wasteland
 
-	history = { 1999.1.1 = { 
-			owner = H09			
-			remove_core_of = H09
-		    add_core_of = AFR		
+	history = { 1999.1.1 = {
+			owner = AFR
+			controller = H09
+		  add_core_of = AFR
+			set_state_category = betaland
+
+			H09 = {
+					set_province_controller = 4932
+					set_province_controller = 5081
+					set_province_controller = 8030
+					set_province_controller = 8118
+					set_province_controller = 10870
+					set_province_controller = 12740
+					set_province_controller = 12768
+				}
 	    }
 		owner = SAU
 		buildings = {
@@ -18,6 +29,6 @@ state={
 	}
 
 	provinces={
-		4932 5081 8030 8118 10870 12740 12768 
+		4932 5081 8030 8118 10870 12740 12768
 	}
 }
