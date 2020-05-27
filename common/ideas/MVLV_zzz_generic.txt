@@ -14,23 +14,23 @@ ideas = {
 				supply_consumption_factor = -0.05
 				army_morale_factor = 0.10
 				land_reinforce_rate = 0.01
-				
+
 				# army
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.25
-				
+
 				# production
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_efficiency_gain_factor = 0.05
-				
+
 				# defensivness
 				army_core_defence_factor = 0.15
-				
+
 				#surrender
 				surrender_limit = 1.0
 			}
 		}
-		
+
 		mvlv_difficulty_normal = {
 			allowed = {
 				always = no
@@ -66,7 +66,7 @@ ideas = {
 				# production
 				#production_factory_max_efficiency_factor = -0.15
 				#production_factory_efficiency_gain_factor = -0.25
-				
+
 				#surrender
 				surrender_limit = 1.0
 			}
@@ -94,12 +94,12 @@ ideas = {
 				# production
 				#production_factory_max_efficiency_factor = -0.30
 				#production_factory_efficiency_gain_factor = -0.50
-				
+
 				#surrender
 				surrender_limit = 1.0
 			}
 		}
-		
+
 		mvlv_difficulty_ai = {
 			allowed = {
 				always = no
@@ -119,20 +119,20 @@ ideas = {
 				supply_consumption_factor = -0.55
 				army_morale_factor = 0.55
 				land_reinforce_rate = 0.55
-				
+
 				# production
 				production_factory_max_efficiency_factor = 0.10
 				production_factory_efficiency_gain_factor = 0.10
-				
+
 				# defensivness
 				army_core_defence_factor = 15.55
-				
+
 				# AI
 				ai_focus_aggressive_factor = -0.1
 				ai_call_ally_desire_factor = -30
 				ai_join_ally_desire_factor = -30
 				ai_badass_factor = 0.10
-				
+
 				# naval
 				naval_invasion_capacity = -150
 
@@ -140,7 +140,7 @@ ideas = {
 				surrender_limit = 1.0
 			}
 		}
-		
+
 		mvlv_difficulty_beta = {
 			allowed = {
 				always = no
@@ -150,10 +150,10 @@ ideas = {
 				# weekly
 				stability_weekly = 0.01
 				war_support_weekly = 0.01
-				
+
 				# fightyness
 				supply_consumption_factor = -0.50
-				
+
 				# army
 				army_core_attack_factor = 1.5
 				army_core_defence_factor = 0.8
@@ -165,21 +165,22 @@ ideas = {
 				training_time_army_factor = -0.3
 				minimum_training_level = -0.3
 				out_of_supply_factor = -0.50
-				
+				max_planning = -100
+
 				# air
 				army_bonus_air_superiority_factor = 0.10
-				
+
 				#army_leader
 				army_leader_start_level = 2
 				army_leader_start_attack_level= 5
 				army_leader_start_planning_level= 1
 				army_leader_start_defense_level= 1
 				army_leader_start_logistics_level= 1
-				
+
 				# experience
 				experience_loss_factor = -1.0
 				experience_gain_army_factor = -1.0
-				
+
 				#production
 				production_factory_start_efficiency_factor = 0.50
 				production_factory_efficiency_gain_factor = 0.10
@@ -190,13 +191,13 @@ ideas = {
 				industry_repair_factor = 0.50
 				partisan_effect = -1.00
 				enemy_partisan_effect = -0.25
-				
+
 				#resource
 				local_resources_factor = 20.0
 				mobilization_speed = 1.5
 				conscription_factor = 0.10
 				conscription = 0.05
-				
+
 				#ai
 				ai_focus_aggressive_factor = 0
 				ai_focus_defense_factor = 2
@@ -204,7 +205,7 @@ ideas = {
 				army_speed_factor = 0
 				army_defence_factor = 0.15
 				land_reinforce_rate = 0.10
-				
+
 				#supply
 				no_supply_grace = 340
 				out_of_supply_factor = 10000
@@ -213,7 +214,7 @@ ideas = {
 				surrender_limit = 1.0
 			}
 		}
-		
+
 		mvlv_aggressive_beta = {
 			allowed = {
 				always = no
@@ -237,11 +238,11 @@ ideas = {
 			allowed = {
 				always = no
 			}
-		
+
 			modifier = {
 				supply_consumption_factor = 0.01
 				dig_in_speed_factor = -0.05
-				
+
 				# production
 				production_factory_max_efficiency_factor = -0.02
 				production_factory_efficiency_gain_factor = -0.04
@@ -252,17 +253,17 @@ ideas = {
 			allowed = {
 				always = no
 			}
-		
+
 			research_bonus = {
 				MVLV_tsf_tech = 0.15
 			}
 		}
-		
+
 		mvlv_saast = {
 			allowed = {
 				always = no
 			}
-		
+
 			modifier = {
 				industrial_capacity_factory =0.05
 				training_time_army_factor = 0.55
@@ -276,7 +277,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-		
+
 			modifier = {
 				stability_factor = -0.10
 				consumer_goods_factor = -0.10
@@ -287,7 +288,7 @@ ideas = {
 			allowed = {
 				always = no
 			}
-			
+
 			modifier = {
 				stability_factor = 0.05
 				supply_consumption_factor = -0.03
@@ -299,14 +300,14 @@ ideas = {
 			allowed = {
 				always = no
 			}
-		
+
 			equipment_bonus = {
 				tsf_equipment = {
 					build_cost_ic = -0.01
 					instant = yes
 				}
 			}
-		
+
 			modifier = {
 				license_armor_purchase_cost = -1.0
 			}

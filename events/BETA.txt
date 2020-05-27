@@ -126,7 +126,7 @@ country_event = {
 	}
 
 	option ={
-		clr_country_flag = diabled_aggressive_beta
+		clr_country_flag = disabled_aggressive_beta
 	}
 }
 

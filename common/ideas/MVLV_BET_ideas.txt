@@ -20,14 +20,14 @@ ideas = {
 				weekly_manpower = -50000
 			}
 		}
-		
+
 		hive_recently_phaseUp = {
 			allowed = { always = no }
 			modifier = {
-				
+
 			}
 		}
-		
+
 		beta_speed_up_production = {
 			allowed = { always = no }
 			cost = 50
@@ -40,86 +40,86 @@ ideas = {
 		hive_phase_1 = {
 			allowed = { always = no }
 			modifier = {
-				weekly_manpower = 30000
+				weekly_manpower = 20000
 				army_attack_factor = -0.3
 				army_core_attack_factor = 0.10
 				army_core_defence_factor = -0.10
 				land_reinforce_rate = 0.5
-				no_supply_grace = 336
+				no_supply_grace = 118
 				default_morale = 100
 			}
 		}
-		
+
 		hive_phase_2 = {
 			allowed = { always = no }
 			modifier = {
-				weekly_manpower = 40000
+				weekly_manpower = 30000
 				army_attack_factor = -0.1
 				army_core_attack_factor = 0.10
 				army_core_defence_factor = 0.15
 				land_reinforce_rate = 0.5
-				no_supply_grace = 336
+				no_supply_grace = 118
 				default_morale = 100
 			}
 		}
-		
+
 		hive_phase_3 = {
 			allowed = { always = no }
 			modifier = {
-				weekly_manpower = 50000
+				weekly_manpower = 35000
 				army_attack_factor = -0.05
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.25
 				land_reinforce_rate = 0.5
-				no_supply_grace = 336
+				no_supply_grace = 118
 				default_morale = 100
 			}
 		}
-		
+
 		hive_phase_4 = {
 			allowed = { always = no }
 			modifier = {
-				weekly_manpower = 70000
+				weekly_manpower = 55000
 				army_attack_factor = 0
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.20
 				land_reinforce_rate = 0.5
-				no_supply_grace = 336
+				no_supply_grace = 118
 				default_morale = 100
 			}
 		}
-		
+
 		hive_phase_5 = {
 			allowed = { always = no }
 			modifier = {
-				weekly_manpower = 95000
+				weekly_manpower = 80000
 				army_attack_factor = 0.1
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.25
 				land_reinforce_rate = 0.5
-				no_supply_grace = 336
+				no_supply_grace = 118
 				default_morale = 100
 			}
 		}
-		
+
 		hive_phase_6 = {
 			allowed = { always = no }
 			modifier = {
-				weekly_manpower = 120000
+				weekly_manpower = 110000
 				army_attack_factor = 0.2
 				army_defence_factor = 0.10
 				army_core_attack_factor = 0.25
 				army_core_defence_factor = 0.3
 				land_reinforce_rate = 0.5
-				no_supply_grace = 336
+				no_supply_grace = 118
 				default_morale = 100
 			}
 		}
-		
+
 		hive_phase_7 = {
 			allowed = { always = no }
 			modifier = {
-				weekly_manpower = 170000
+				weekly_manpower = 145000
 				army_attack_factor = 0.30
 				army_defence_factor = 0.2
 				army_core_attack_factor = 0.25
@@ -127,11 +127,11 @@ ideas = {
 				land_reinforce_rate = 0.5
 				training_time_army_factor = -0.3
 				minimum_training_level = -0.3
-				no_supply_grace = 336
+				no_supply_grace = 118
 				default_morale = 100
 			}
 		}
-		
+
 		hive_phase_8 = {
 			allowed = { always = no }
 			modifier = {
@@ -146,7 +146,7 @@ ideas = {
 				minimum_training_level = -0.4
 			}
 		}
-		
+
 		hive_phase_9 = {
 			allowed = { always = no }
 			modifier = {
