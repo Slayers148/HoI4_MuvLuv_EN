@@ -37,6 +37,18 @@ H25_defend_doctrine = {
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
+		id = H06
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H07
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
 		id = H08
 		value = 100
 	}
@@ -70,6 +82,18 @@ H25_defend_doctrine = {
 		id = H13
 		value = 100
 	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H14
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H15
+		value = 100
+	}
 	
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -80,6 +104,12 @@ H25_defend_doctrine = {
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H17
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H18
 		value = 100
 	}
 	
