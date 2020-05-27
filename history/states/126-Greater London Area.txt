@@ -2,7 +2,7 @@ state={
 	id=126
 	name="STATE_126"
 	manpower=9824296
-	
+
 	state_category = megalopolis
 
 	history={
@@ -13,7 +13,7 @@ state={
 	}
 		owner = ENG
 		victory_points = {
-			6103 80 
+			6103 100
 		}
 		buildings = {
 			infrastructure = 9
@@ -44,6 +44,6 @@ state={
 	}
 
 	provinces={
-		6103 9239 11333 11374 
+		6103 9239 11333 11374
 	}
 }

@@ -12,10 +12,13 @@ state=
 	history = { 1999.1.1 = {
 		owner = GEU
 		buildings = {
-			 10201 = {
-			 bunker = 5
-			 coastal_bunker = 5
-			 }
+			infrastructure = 3
+			air_base = 7
+			radar_station = 1
+			10201 = {
+				bunker = 10
+				coastal_bunker = 10
+				}
 			}
 		}
 		owner = GEU
@@ -28,10 +31,10 @@ state=
 			industrial_complex = 1
 			air_base = 3
 			10201 = {
-				naval_base = 5
+				naval_base = 7
 			}
 			7260 = {
-				naval_base = 3
+				naval_base = 5
 				coastal_bunker = 3
 			}
 		}

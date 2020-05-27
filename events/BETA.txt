@@ -49,7 +49,7 @@ country_event = {
 				}
 				is_capital = no
 			}
-			set_state_category = betaland
+			#set_state_category = betaland
 		}
 	}
 }
@@ -58,53 +58,53 @@ country_event = {
 
 #定期的にフラグを切り替える
 #主にAI切り替え用で使用
-country_event = {
-	id = BETA.2
-	desc = BETA.2.d
-	title = BETA.2.t
-	picture = BETA_event_1.dds
-	fire_only_once = no
-
-	trigger = {
-		is_in_faction_with = BET
-		date > 1999.1.15
-
-		num_divisions>100
-		any_neighbor_country = {
-			is_in_faction_with = UNI
-			has_war_with = ROOT
-		}
-
-		NOT = {
-			has_country_flag = disabled_aggressive_beta
-			has_idea = mvlv_standby_sado
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 60
-	}
-
-	option ={
-		if = {
-			limit = {
-				has_idea = mvlv_aggressive_beta
-			}
-			remove_ideas = { mvlv_aggressive_beta }
-
-			else = {
-				add_ideas = { mvlv_aggressive_beta }
-			}
-		}
-		if = {
-			limit = {
-				has_global_flag = easy_world
-				NOT = { has_idea = mvlv_aggressive_beta }
-			}
-			set_country_flag = disabled_aggressive_beta
-		}
-	}
-}
+#country_event = {
+#	id = BETA.2
+#	desc = BETA.2.d
+#	title = BETA.2.t
+#	picture = BETA_event_1.dds
+#	fire_only_once = no
+#
+#	trigger = {
+#		is_in_faction_with = BET
+#		date > 1999.1.15
+#
+#		num_divisions>100
+#		any_neighbor_country = {
+#			is_in_faction_with = UNI
+#			has_war_with = ROOT
+#		}
+#
+#		NOT = {
+#			has_country_flag = disabled_aggressive_beta
+#			has_idea = mvlv_standby_sado
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		days = 60
+#	}
+#
+#	option ={
+#		if = {
+#			limit = {
+#				has_idea = mvlv_aggressive_beta
+#			}
+#			remove_ideas = { mvlv_aggressive_beta }
+#
+#			else = {
+#				add_ideas = { mvlv_aggressive_beta }
+#			}
+#		}
+#		if = {
+#			limit = {
+#				has_global_flag = easy_world
+#				NOT = { has_idea = mvlv_aggressive_beta }
+#			}
+#			set_country_flag = disabled_aggressive_beta
+#		}
+#	}
+#}
 
 #定期的にフラグをクリアする
 #ソロプレイを選択した場合にBETAの攻勢間隔を多少優しくする
