@@ -14,8 +14,11 @@ state={
 
 	state_category = city
 
-	history = { 
-		1999.1.1 = { 
+	history = {
+		1999.1.1 = {
+
+			### HIVE ###
+
 			owner = H12
 			add_core_of = H12
 			add_core_of = EUR
@@ -23,17 +26,17 @@ state={
 
 			#ブダペスト陥落用
 			add_claim_by = H11
-			
+
 			victory_points = {
 				6613 100
 			}
-			
+
 			buildings = {
 				hive = 1
 			        anti_air_building = 3
 			}
 		}
-		
+
 		owner = FRA
 		victory_points = {
 			6613 10
@@ -43,7 +46,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 4
-                        6613 = {bunker = 5} 
+                        6613 = {bunker = 5}
 		}
 		add_core_of = FRA
 		1939.1.1 = {
@@ -56,6 +59,6 @@ state={
 	}
 
 	provinces={
-		641 3650 3770 6613 6639 6668 6786 9590 9728 9732 11593 11716 11794 
+		641 3650 3770 6613 6639 6668 6786 9590 9728 9732 11593 11716 11794
 	}
 }

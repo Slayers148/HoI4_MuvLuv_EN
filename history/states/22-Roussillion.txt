@@ -2,35 +2,49 @@
 state={
 	id=22
 	name="STATE_22" # Languedoc
-	manpower = 1691200
-	
-	
+	manpower = 0
+
 	state_category = town
-	
+
 	resources={
 		steel=70 # was: 136
 		aluminium=50 # was: 96
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H12			
-			remove_core_of = H12
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H12
 			add_core_of = EUR
 			remove_core_of = FRA
+			set_state_category = betaland
+
+			H12 = {
+				set_province_controller = 752
+				set_province_controller = 760
+				set_province_controller = 3751
+				set_province_controller = 6770
+				set_province_controller = 6960
+				set_province_controller = 6962
+				set_province_controller = 9723
+				set_province_controller = 9898
+				set_province_controller = 11709
+				set_province_controller = 11711
+				set_province_controller = 11877 
+			}
 		}
 		owner = FRA
 		victory_points = {
-			9898 1 
+			9898 1
 		}
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 2
+		  #industrial_complex = 2
 			air_base = 2
 		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		752 760 3751 6770 6960 6962 9723 9898 11709 11711 11877 
+		752 760 3751 6770 6960 6962 9723 9898 11709 11711 11877
 	}
 }

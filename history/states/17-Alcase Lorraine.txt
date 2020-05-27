@@ -2,36 +2,50 @@
 state={
 	id=17
 	name="STATE_17" # Lorraine
-	manpower = 1517500
-	
+	manpower = 0
+
 	state_category = city
-	
+
 	resources={
 		steel=28 # was: 48
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H12			
-			remove_core_of = H12
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H12
 			add_core_of = EUR
 			remove_core_of = FRA
+			set_state_category = betaland
+
+			H12 = {
+				set_province_controller = 521
+				set_province_controller = 698
+				set_province_controller = 3646
+				set_province_controller = 3666
+				set_province_controller = 6698
+				set_province_controller = 9642
+				set_province_controller = 9658
+				set_province_controller = 11488
+				set_province_controller = 11516
+				set_province_controller = 11642
+			}
 		}
 		owner = FRA
 		victory_points = {
-			9642 5 
+			9642 5
 		}
 		victory_points = {
-			11516 5 
+			11516 5
 		}
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 1
+			#industrial_complex = 1
 			air_base = 5
 		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		521 698 3646 3666 6698 9642 9658 11488 11516 11642 
+		521 698 3646 3666 6698 9642 9658 11488 11516 11642
 	}
 }
