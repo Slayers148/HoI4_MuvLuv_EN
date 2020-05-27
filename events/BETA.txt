@@ -68,6 +68,13 @@ country_event = {
 	trigger = {
 		is_in_faction_with = BET
 		date > 1999.1.15
+
+		num_divisions>100
+		any_neighbor_country = {
+			is_in_faction_with = UNI
+			has_war_with = ROOT
+		}
+
 		NOT = {
 			has_country_flag = disabled_aggressive_beta
 			has_idea = mvlv_standby_sado
