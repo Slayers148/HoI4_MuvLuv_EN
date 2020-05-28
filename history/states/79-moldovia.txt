@@ -2,30 +2,47 @@ state=
 {
 	id=79
 	name="STATE_79"
-	manpower = 2806400
-	
+	manpower = 0
+
 	state_category = rural
-	
+
 	history=
-	{ 1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+	{ 1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = ROM
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 723
+				set_province_controller = 744
+				set_province_controller = 3728
+				set_province_controller = 3741
+				set_province_controller = 6584
+				set_province_controller = 6706
+				set_province_controller = 6729
+				set_province_controller = 6747
+				set_province_controller = 6761
+				set_province_controller = 9701
+				set_province_controller = 9716
+				set_province_controller = 11534
+				set_province_controller = 11652
+				set_province_controller = 11655
+				set_province_controller = 11672
+				set_province_controller = 11689
+			}
 		}
 		owner = ROM
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
 			air_base = 2
 		}
 		victory_points = {
-			9716 1 
+			9716 1
 		}
 		victory_points = {
-			6706 1 
+			6706 1
 		}
-		add_core_of = ROM
 	}
 	provinces=
 	{

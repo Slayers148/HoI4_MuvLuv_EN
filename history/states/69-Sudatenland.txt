@@ -2,34 +2,47 @@ state=
 {
 	id=69
 	name="STATE_69"
-	manpower = 2830000
-	
+	manpower = 0
+
 	state_category = town
-	
+
 	resources={
 		steel=4 # was: 8
 	}
-	
-	history = { 1999.1.1 = { 
-			owner = H05
-			remove_core_of = H05
+
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H05
 			add_core_of = EUR
-			remove_core_of = CZE
+			set_state_category = betaland
+
+			H05 = {
+				set_province_controller = 424
+				set_province_controller = 469
+				set_province_controller = 543
+				set_province_controller = 557
+				set_province_controller = 3418
+				set_province_controller = 3585
+				set_province_controller = 5283
+				set_province_controller = 6470
+				set_province_controller = 7857
+				set_province_controller = 9555
+				set_province_controller = 11401
+				set_province_controller = 11414
+				set_province_controller = 11432
+				set_province_controller = 11525
+			}
 		}
-		
+
 		victory_points = {
 			3585 3
 		}
-		#victory_points = {
-		#	11432 1
-		#}
 		victory_points = {
 			11401 3
 		}
 		owner = CZE
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 2
 			anti_air_building = 1
 			424 =
 			{
@@ -60,12 +73,6 @@ state=
 				bunker = 1
 			}
 
-		}
-		add_core_of = CZE
-
-		1938.9.30 = {
-			owner = GER
-			controller = GER
 		}
 	}
 	provinces=

@@ -2,27 +2,50 @@
 state={
 	id=436
 	name="STATE_436" # Jabalpur
-	manpower = 14123100
-	
+	manpower = 0
+
 	state_category = rural
-	
+
 	resources={
 		chromium=4 # was: 6
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H13
-			add_core_of = H13
+	history = { 1999.1.1 = {
+			owner = GEU
+			controller = H13
+			set_state_category = betaland
+
+			H13 = {
+				set_province_controller = 1510
+				set_province_controller = 4557
+				set_province_controller = 4883
+				set_province_controller = 4950
+				set_province_controller = 4953
+				set_province_controller = 7430
+				set_province_controller = 7497
+				set_province_controller = 7574
+				set_province_controller = 7619
+				set_province_controller = 8120
+				set_province_controller = 10030
+				set_province_controller = 10401
+				set_province_controller = 10801
+				set_province_controller = 10872
+				set_province_controller = 12375
+				set_province_controller = 12420
+				set_province_controller = 12480
+				set_province_controller = 12781
+				set_province_controller = 12799
+				set_province_controller = 12854 
+			}
 		}
 		owner = GEU
 		add_core_of = GEU
 		buildings = {
 			infrastructure = 4
 		}
-
 	}
 
 	provinces={
-		1510 4557 4883 4950 4953 7430 7497 7574 7619 8120 10030 10401 10801 10872 12375 12420 12480 12781 12799 12854 
+		1510 4557 4883 4950 4953 7430 7497 7574 7619 8120 10030 10401 10801 10872 12375 12420 12480 12781 12799 12854
 	}
 }

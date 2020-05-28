@@ -2,31 +2,31 @@
 state={
 	id=77
 	name="STATE_77"
-	manpower = 378000
-	
+	manpower = 0
+
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = ROM
-			remove_claim_by = BUL
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 9614
+				set_province_controller = 11597 
+			}
 		}
-		
 		victory_points = {
 			11597 1
 		}
 		owner = ROM
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
 		}
-		add_core_of = ROM
-		add_claim_by = BUL
 	}
 
 	provinces={
-		9614 11597 
+		9614 11597
 	}
 }

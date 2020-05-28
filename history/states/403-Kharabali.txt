@@ -2,13 +2,36 @@
 state={
 	id=403
 	name="STATE_403" # Tyumen
-	manpower = 939067
-	
+	manpower = 0
+
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H07
-			remove_core_of = H07
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H07
+			set_state_category = betaland
+
+			H07 = {
+				set_province_controller = 1387
+				set_province_controller = 1880
+				set_province_controller = 3472
+				set_province_controller = 4209
+				set_province_controller = 4659
+				set_province_controller = 4754
+				set_province_controller = 4780
+				set_province_controller = 4824
+				set_province_controller = 6787
+				set_province_controller = 7681
+				set_province_controller = 7774
+				set_province_controller = 7833
+				set_province_controller = 7846
+				set_province_controller = 9512
+				set_province_controller = 10600
+				set_province_controller = 10659
+				set_province_controller = 10670
+				set_province_controller = 12390
+				set_province_controller = 12521
+			}
 		}
 		owner = SOV
 		victory_points = {
@@ -21,6 +44,6 @@ state={
 	}
 
 	provinces={
-		1387 1880 3472 4209 4659 4754 4780 4824 6787 7681 7774 7833 7846 9512 10600 10659 10670 12390 12521 
+		1387 1880 3472 4209 4659 4754 4780 4824 6787 7681 7774 7833 7846 9512 10600 10659 10670 12390 12521
 	}
 }

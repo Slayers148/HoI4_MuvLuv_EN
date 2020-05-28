@@ -2,26 +2,44 @@
 state={
 	id=55
 	name="STATE_55"
-	manpower = 3798235
+	manpower = 0
 
 	state_category = large_city
 
-	history = { 1999.1.1 = { 
-			owner = H05
-			remove_core_of = H05
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H05
 			add_core_of = EUR
 			remove_core_of = GER
+			set_state_category = betaland
+
+			H05 = {
+				set_province_controller = 564
+				set_province_controller = 589
+				set_province_controller = 3397
+				set_province_controller = 3524
+				set_province_controller = 3574
+				set_province_controller = 6444
+				set_province_controller = 6488
+				set_province_controller = 6549
+				set_province_controller = 9486
+				set_province_controller = 9524
+				set_province_controller = 9547
+				set_province_controller = 11445
+				set_province_controller = 11533
+				set_province_controller = 11560
+			}
 		}
 		owner = GER
 		buildings = {
 			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 2
+			#arms_factory = 1
+			#industrial_complex = 2
 		}
 		victory_points = {
-			6488 20.0 
+			6488 20.0
 		}
-		
+
 		victory_points = {
 			564 3
 		}
@@ -30,12 +48,12 @@ state={
 		1939.1.1 = {
 			buildings = {
 				air_base = 3
-				arms_factory = 4
+				#arms_factory = 4
 			}
 		}
 	}
 
 	provinces={
-		564 589 3397 3524 3574 6444 6488 6549 9486 9524 9547 11445 11533 11560 
+		564 589 3397 3524 3574 6444 6488 6549 9486 9524 9547 11445 11533 11560
 	}
 }

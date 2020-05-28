@@ -1,33 +1,52 @@
 state={
 	id=430
 	name="STATE_430"
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
 
-	history = { 1999.1.1 = { 
-			owner = H13
-			remove_core_of = H13
+	history = { 1999.1.1 = {
+			owner = GEU
+			controller = H13
+			set_state_category = betaland
+
+			H13 = {
+				set_province_controller = 2843
+				set_province_controller = 4162
+				set_province_controller = 4616
+				set_province_controller = 7078
+				set_province_controller = 7124
+				set_province_controller = 7179
+				set_province_controller = 7662
+				set_province_controller = 9935
+				set_province_controller = 9991
+				set_province_controller = 9993
+				set_province_controller = 10035
+				set_province_controller = 10389
+				set_province_controller = 10416
+				set_province_controller = 10443
+				set_province_controller = 11911
+				set_province_controller = 11929
+				set_province_controller = 11968
+				set_province_controller = 12010
+				set_province_controller = 12423
+				set_province_controller = 13208
+			}
 		}
 		owner = RAJ
 		victory_points = {
-			11929 1 
+			11929 1
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
 			11968 = {
 				naval_base = 3
-
 			}
-
 		}
 		add_core_of = GEU
-		#add_core_of = RAJ
-
 	}
 
 	provinces={
 		2843 4162 4616 7078 7124 7179 7662 9935 9991 9993 10035 10389 10416 10443 11911 11929 11968 12010 12423 13208
 	}
-	manpower=31973300
-	buildings_max_level_factor=1.000
-	state_category=town
 }

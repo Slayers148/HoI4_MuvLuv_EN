@@ -7,15 +7,18 @@ state={
 		#steel=3 # was: 4
 		#aluminium=100 # was: 194
 	#}
-	
+
 	state_category = city
 
-	history = { 1999.1.1 = { 
+	history = { 1999.1.1 = {
+
+			### HIVE ###
+
 			owner = H11
 			add_core_of = H11
 			add_core_of = EUR
 			remove_core_of = HUN
-			
+
 			buildings = {
 				hive = 1
 			}
@@ -39,6 +42,6 @@ state={
 	}
 
 	provinces={
-		684 716 3713 3731 6716 6751 9660 9690 11520 
+		684 716 3713 3731 6716 6751 9660 9690 11520
 	}
 }

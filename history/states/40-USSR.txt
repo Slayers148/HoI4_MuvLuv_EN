@@ -2,29 +2,45 @@
 state={
 	id=40
 	name="STATE_40" # Barnaul
-	manpower = 2107451
-	
+	manpower = 0
+
 	state_category = large_town
 
-	history = { 1999.1.1 = { 
-			owner = H06
-			remove_core_of = H06
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H06
+			set_state_category = betaland
+
+			H06 = {
+				set_province_controller = 1297
+				set_province_controller = 1779
+				set_province_controller = 1794
+				set_province_controller = 1797
+				set_province_controller = 4803
+				set_province_controller = 7680
+				set_province_controller = 10537
+				set_province_controller = 10546
+				set_province_controller = 11410
+				set_province_controller = 12515
+				set_province_controller = 12528
+				set_province_controller = 12613
+			}
 
 			#スルグート陥落用
 			add_claim_by = H07
 			#クラスノヤルスク陥落用
 			add_claim_by = H15
-			
+
 		}
 		owner = SOV
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			#industrial_complex = 1
 		}
 		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 2
+				#industrial_complex = 2
 			}
 		}
 		victory_points = {
@@ -33,6 +49,6 @@ state={
 	}
 
 	provinces={
-		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613 
+		1297 1779 1794 1797 4803 7680 10537 10546 11410 12515 12528 12613
 	}
 }
