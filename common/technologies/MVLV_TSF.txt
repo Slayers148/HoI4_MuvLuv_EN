@@ -557,7 +557,7 @@ technologies = {
 	MVLV_3rd_tsf2 = {
 
 		enable_equipments = {
-			tsf_equipment_6
+			tsf_equipment_Su57
 		}
 
 		research_cost = 1
