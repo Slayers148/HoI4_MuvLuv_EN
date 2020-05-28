@@ -535,6 +535,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = generic_tsf_KFX
+			research_cost_coeff = 1
+		}
+
 #		XOR = {
 #			generic_3rd_tsf_high
 #		}
@@ -599,9 +604,41 @@ technologies = {
 		research_cost = 1
 		start_year = 2010
 
+		XOR = {
+			generic_tsf_KFX
+		}
+
 		folder = {
 			name = generic_tsf_folder
 			position = { x = 0 y = 16 }
+		}
+		categories = {
+			MVLV_tsf_tech
+		}
+
+		ai_will_do = {
+			factor = 20000
+		}
+
+
+	}
+
+	generic_tsf_KFX = {
+
+		enable_equipments = {
+			tsf_equipment_KFX
+		}
+
+		research_cost = 1
+		start_year = 2006
+
+		XOR = {
+			generic_3rd_tsf2
+		}
+
+		folder = {
+			name = generic_tsf_folder
+			position = { x = 7 y = 16 }
 		}
 		categories = {
 			MVLV_tsf_tech
