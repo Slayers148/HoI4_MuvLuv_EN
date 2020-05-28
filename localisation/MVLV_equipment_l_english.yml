@@ -70,7 +70,7 @@
 
  tsf_equipment_KFX:0 "NF-2004 Garuda"
  tsf_equipment_KFX_short:0 "Garuda"
- tsf_equipment_KFX_desc:0 "With the introduction of the F/A-18AX in 2001, COSEAN decided to embark on their first domestically design and produced 3rd generations TSF for use by the COSEAN military. Jointly developed by the KAI and IAe the KF-X Program would draw on the lessons learnt from the AX program in the 1980s and the subsequent experience COSEAN gain from the production and operation of the F/A-18AX. COSEAN Military Procurement Department laid down several criteria for the KF-X program. The new TSF must have performance on par with other 3rd Generation TSFs currently in use throughout the world, it must be able to operate in a variety of environment and mission profiles to aid in COSEAN retaking of the Asia, and most importantly, the new TSF must be optimised for mass production by the COSEAN military industry. With experience from working with McDaell Doglam on the development of the F/A-18AX, KAI and IAe was able to roll out a prototype by 2004. Further refinement was made to the initial 4 prototypes deployed to the Garuda Test Flight. By 2006, the KF-X enters production as the NF-2004 Garuda with frontline units receiving the first shipment of the new TSF."
+ tsf_equipment_KFX_desc:0 "Jointly developed by the KAI and IAe the KF-X Program would draw on the lessons learnt from the AX program in the 1980s and COSEAN experience from the production and operation of the F/A-18AX. Working with McDaell Doglam on the development of the F/A-18AX, KAI and IAe was able to roll out a prototype by 2004. In the same year the Australian government express interest in the KF-X Project and with support from BAe Australia, further refinement was made to the initial 4 prototypes deployed to the Garuda Test Flight along with evaluation units deployed with Australian TSF divisions. By 2006, the KF-X enters production as the NF-2004 Garuda with frontline units receiving the first shipment of the new TSF."
 
  asa_equipment_0g:0 "A-6 Intruder"
  asa_equipment_0g_short:0 "A-6 Intruder"
@@ -145,7 +145,7 @@
 
  tsf_equipment_F15EX:0 "F-15EX Advanced Eagle"
  tsf_equipment_F15EX_short:0 "F-15EX Advanced Eagle"
- tsf_equipment_F15EX_desc:0 ""Despite Boening's aggressive sales push on the F-15SE, many nations around the world remain wary of purchasing the design for political and economical reasons. The adoption of stealth technology, only useful in TSF on TSF combat, was seen as a provocative act in arms procurement. Furthermore most countries which operates the F-15E maintains massive stockpiles of the venerable design leading to a slump in orders for the brand new F-15SE. As a result Boeing introduced the F-15EX Upgrade Program to convert existing F-15E TSFs. Chief among the upgrades are the introduction of Operation by Light and the various improvements gleamed from Project PROMINENCE. The resulting TSF is considered a quasi-3rd generations design but at a fraction of the cost and leverages on existing support facilities and pilots allowing for rapid adoption into service with minimal disruption"
+ tsf_equipment_F15EX_desc:0 ""Despite Boening's aggressive sales push of the F-15SE, many nations around the world remain wary of purchasing the design for political and economical reasons. The adoption of stealth technology, only useful in TSF on TSF combat, was seen as a provocative act in arms procurement. As a result, the F-15EX Upgrade Program was introduced to convert existing F-15E TSFs. Chief among the upgrades are the introduction of Operation by Light and the addition of 6 extra mount pylons. The resulting TSF is a quasi-3rd generation design, with some considering it a 3rd generation design in anti-BETA performance."
 
  tsf_equipment_4:0 "F-23 Black Widow II"
  tsf_equipment_4_short:0 "F-23 Black Widow II"
@@ -197,31 +197,31 @@
  USA_Streamlined_Production_desc:0 "Tighter process controls, simplified production processes and redesigns to allow the substitution of more common materials and parts significantly improves production efficiency of all our combat vehicles with minimal effect on combat efficiency."
 
 #United Nations#
- tsf_equipment_F5U:0 "F5 Freedom Fighter (UN)"
- tsf_equipment_F5U_short:0 "F5 Freedom Fighter (UN)"
+ tsf_equipment_F5U:0 "F-5 Freedom Fighter (UN)"
+ tsf_equipment_F5U_short:0 "F-5 Freedom Fighter (UN)"
  tsf_equipment_F5U_desc:0 "The F-5 Freedom Fighter is a 1st generation Tactical Surface Fighter, developed by the United States of America, in conjunction with the F-4 Phantom, as a weapon of war against the BETA. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F4U:0 "F4 Phantom (UN)"
- tsf_equipment_F4U_short:0 "F4 Phantom (UN)"
+ tsf_equipment_F4U:0 "F-4 Phantom (UN)"
+ tsf_equipment_F4U_short:0 "F-4 Phantom (UN)"
  tsf_equipment_F4U_desc:0 "The first Tactical Surface Fighter produced, the F-4 Phantom is the model from which all modern TSF technology has descended from. Marketed by the US to all nations of the world, the Phantom remains in widespread use even in 2001 by many military forces. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F16U:0 "F16 Fighting Falcon (UN)"
- tsf_equipment_F16U_short:0 "F16 Fighting Falcon (UN)"
+ tsf_equipment_F16U:0 "F-16 Fighting Falcon (UN)"
+ tsf_equipment_F16U_short:0 "F-16 Fighting Falcon (UN)"
  tsf_equipment_F16U_desc:0 "The F-16 Fighting Falcon is a 2nd generation development spurred on by a requirement for a lightweight Tactical Surface Fighter with superior mobility, envisioned to operate alongside "heavier" TSFs like the F-14 Tomcat and F-15 Eagle. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F15U:0 "F15 Eagle (UN)"
- tsf_equipment_F15U_short:0 "F15 Eagle (UN)"
+ tsf_equipment_F15U:0 "F-15 Eagle (UN)"
+ tsf_equipment_F15U_short:0 "F-15 Eagle (UN)"
  tsf_equipment_F15U_desc:0 "The F-15 Eagle is a 2nd generation Tactical Surface Fighter of United States of America , developed as a successor to the F-4 Phantom. Its combat performance has earned it great respect by its users, and Western officials have bestowed upon the Eagle the title of "the strongest 2nd generation TSF". This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F14U:0 "F14 Tomcat (UN)"
- tsf_equipment_F14U_short:0 "F14 Tomcat (UN)"
+ tsf_equipment_F14U:0 "F-14 Tomcat (UN)"
+ tsf_equipment_F14U_short:0 "F-14 Tomcat (UN)"
  tsf_equipment_F14U_desc:0 "The F-14 Tomcat is a family of 2nd generation Tactical Surface Fighters developed by Grunnan for the US Navy. As the earliest 2nd generation machine, it represented a major milestone in the war against the BETA, and is mostly phased out of use by the beginning of the 21st century. This variant has been modified to be better suited United Nations requirements."
 
  tsf_equipment_F14ExU:0 "F-14Ex Super Tomcat (UN)"
  tsf_equipment_F14ExU_short:0 "F-14Ex Super Tomcat (UN)"
  tsf_equipment_F14ExU_desc:0 "During consideration to retire the F-14, a comparison of pilot experience and overall capability to the F-18 Hornet found that many Navy leaders were in favor of continued operations for the Tomcat, and Northrock Grunnan proposed the "Super Tomcat plan" to upgrade the F-14 to 2.5th generation specifications. However, due to costs and the F-18E/F Super Hornet performing better than expected, the project was shelved. For the sake of Northrock Grunnan, the US sold the plan to Iran to strengthen its F-14s. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_F18U:0 "F18 Hornet (UN)"
+ tsf_equipment_F18U:0 "F-18 Hornet (UN)"
  tsf_equipment_F18U_short:0 "F18 Hornet (UN)"
  tsf_equipment_F18U_desc:0 "The F-18 Hornet is a carrier-based 2nd generation Tactical Surface Fighter developed by Northrock and McDaell Doglam as a replacement for the F-14 Tomcat as the US Navy's next-generation TSF. This variant has been modified to be better suited United Nations requirements."
 
