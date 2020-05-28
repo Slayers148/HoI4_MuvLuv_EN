@@ -7,20 +7,38 @@ state={
 		steel=2 # was: 3
 	}
 	state_category = town
-	history = { 1999.1.1 = { 
-			owner = H05
-			remove_core_of = H05
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H05
 			remove_core_of = EST
-			add_core_of = EUR
+			add_core_of = SOV
+			set_state_category = betaland
+
+			H05 = {
+				set_province_controller = 83
+				set_province_controller = 185
+				set_province_controller = 308
+				set_province_controller = 496
+				set_province_controller = 567
+				set_province_controller = 3074
+				set_province_controller = 3152
+				set_province_controller = 3174
+				set_province_controller = 6201
+				set_province_controller = 6381
+				set_province_controller = 9079
+				set_province_controller = 11127
+				set_province_controller = 11291
+				set_province_controller = 11426
+				}
 		}
 		owner = EST
 		victory_points = {
-			3152 5 
+			3152 5
 		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 3
+			#arms_factory = 1
+			#industrial_complex = 3
 			air_base = 2
 			3152 = {
 				naval_base = 3
@@ -31,6 +49,6 @@ state={
 	}
 
 	provinces={
-		83 185 308 496 567 3074 3152 3174 6201 6381 9079 11127 11291 11426 
+		83 185 308 496 567 3074 3152 3174 6201 6381 9079 11127 11291 11426
 	}
 }

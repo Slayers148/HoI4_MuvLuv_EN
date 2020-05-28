@@ -6,17 +6,17 @@ country_event = {
 	title = mvlv_hive_phase.1.t
 	picture = BETA_event_1
 	fire_only_once = no
-	
+
 	trigger = {
 		is_in_faction_with = BET
 	}
-	
+
 	mean_time_to_happen = {
 		days = 30
 	}
-	
+
 	option ={
-		
+
 		name = mvlv_hive_phase.1.a
 		ai_chance = { factor = 25 }
 		IF = {
@@ -31,13 +31,13 @@ country_event = {
 				remove_idea = hive_phase_1
 				add_idea = hive_phase_2
 			}
-			
+
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
-				days = 90
+				days = 180
 			}
 		}
-		
+
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_2 }
@@ -50,13 +50,13 @@ country_event = {
 				remove_idea = hive_phase_2
 				add_idea = hive_phase_3
 			}
-			
+
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
-				days = 90
+				days = 180
 			}
 		}
-		
+
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_3 }
@@ -69,13 +69,13 @@ country_event = {
 				remove_idea = hive_phase_3
 				add_idea = hive_phase_4
 			}
-			
+
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
-				days = 90
+				days = 180
 			}
 		}
-		
+
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_4 }
@@ -88,13 +88,13 @@ country_event = {
 				remove_idea = hive_phase_4
 				add_idea = hive_phase_5
 			}
-			
+
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
-				days = 90
+				days = 180
 			}
 		}
-		
+
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_5 }
@@ -107,13 +107,13 @@ country_event = {
 				remove_idea = hive_phase_5
 				add_idea = hive_phase_6
 			}
-			
+
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
-				days = 90
+				days = 180
 			}
 		}
-		
+
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_6 }
@@ -126,13 +126,13 @@ country_event = {
 				remove_idea = hive_phase_6
 				add_idea = hive_phase_7
 			}
-			
+
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
-				days = 90
+				days = 180
 			}
 		}
-		
+
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_7 }
@@ -144,14 +144,14 @@ country_event = {
 			swap_ideas = {
 				remove_idea = hive_phase_7
 			}
-			
+
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
-				days = 90
+				days = 180
 			}
 		}
 	}
-	
+
 	option ={
 		name = mvlv_hive_phase.1.b
 		ai_chance = { factor = 75 }

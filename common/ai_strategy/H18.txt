@@ -1,8 +1,8 @@
 
 
-H26_defend_doctrine = {
+H18_defend_doctrine = {
 	enable = {
-		original_tag = H26
+		original_tag = H18
 		date > 1998.12.31
 	}
 	
@@ -20,10 +20,34 @@ H26_defend_doctrine = {
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
+		id = H03
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H04
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
 		id = H05
 		value = 100
 	}
 
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H06
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H07
+		value = 100
+	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H08
@@ -59,19 +83,37 @@ H26_defend_doctrine = {
 		id = H13
 		value = 100
 	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H14
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H15
+		value = 100
+	}
 	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H16
 		value = 100
 	}
-	
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H17
 		value = 100
 	}
 	
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = H18
+#		value = 100
+#	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H19
@@ -90,22 +132,22 @@ H26_defend_doctrine = {
 		value = 100
 	}
 
-#	ai_strategy = {
-#		type = dont_defend_ally_borders
-#		id = H25
-#		value = 100
-#	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H25
+		value = 100
+	}
 	
-#	ai_strategy = {
-#		type = dont_defend_ally_borders
-#		id = H26
-#		value = 100
-#	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H26
+		value = 100
+	}
 }
 
-#H26_template_design = {
+#H18_template_design = {
 #	enable = {
-#		original_tag = H26
+#		original_tag = H18
 #	}
 #	
 #	ai_strategy = {

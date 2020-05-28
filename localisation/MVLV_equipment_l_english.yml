@@ -124,8 +124,12 @@
  tsf_equipment_F15E_short:0 "F-15E Strike Eagle"
  tsf_equipment_F15E_desc:0 "First deployed in 1995, the Strike Eagle is a heavily refurbished F-15 Eagle with increased armament capabilities, improved avionics and composite armor, as well as the exchange of internal components for modernized versions. This variant, highly likely to be the world's first 2.5th generation TSF, has inherited the title of "the strongest 2nd generation machine" from its parent, and has kept the title up till today."
 
- tsf_equipment_4:0 "F-23 Black Widow II SOPMOD"
- tsf_equipment_4_short:0 "F-23 Black Widow II SOPMOD"
+ tsf_equipment_F15EX:0 "F-15EX Advanced Eagle"
+ tsf_equipment_F15EX_short:0 "F-15EX Advanced Eagle"
+ tsf_equipment_F15EX_desc:0 ""Despite Boening's aggressive sales push on the F-15SE, many nations around the world remain wary of purchasing the design for political and economical reasons. The adoption of stealth technology, only useful in TSF on TSF combat, was seen as a provocative act in arms procurement. Furthermore most countries which operates the F-15E maintains massive stockpiles of the venerable design leading to a slump in orders for the brand new F-15SE. As a result Boeing introduced the F-15EX Upgrade Program to convert existing F-15E TSFs. Chief among the upgrades are the introduction of Operation by Light and the various improvements gleamed from Project PROMINENCE. The resulting TSF is considered a quasi-3rd generations design but at a fraction of the cost and leverages on existing support facilities and pilots allowing for rapid adoption into service with minimal disruption"
+
+ tsf_equipment_4:0 "F-23 Black Widow II"
+ tsf_equipment_4_short:0 "F-23 Black Widow II"
  tsf_equipment_4_desc:0 "Once the losing prototype 3rd generation TSF built for the ATSF program, it has been revised and rebuilt as a unit specialized for quick reaction forces like the US Orbital Divers. While the performance is superior across the board to the F-22, only its extreme cost and limited production runs prevent further widespread adoption. This TSF is optimized for long-range, high-speed cruising, radar/electronic stealth, and a superior sensor package to guarantee first-strike advantages in combat. "
 
  tsf_equipment_5:0 "F-22 Raptor"
@@ -133,7 +137,7 @@
  tsf_equipment_5_desc:0 "A 3rd generation TSF for the US Army. Notable for its cutting edge stealth and performace far above other 3rd generation TSF's, the F-22A is truly a 3rd generation TSF in every sense of the word. Designed with a view to Anti-TSF Warfare, its frame is optimized to reduce radar signatures from the front via stealth coatings, materials used in construction, and anti-radar shaping."
  tsf_equipment_6:0 "F-35 Lightning II"
  tsf_equipment_6_short:0 "F-35 Lightning II"
- tsf_equipment_6_desc:0 "A 3rd generation TSF produced by Lockweed Mardin (USA) and jointly developed between the US, European Union and the African Union. To meet the demands of the other nations the it became the first US-made TSF to be equipped with standard fixed armaments (super carbon blades) for close combat, which combined with its high mobility, gave all specifications excellent close combat capabilities. Becoming a State-of-the-art 3rd generation unit."
+ tsf_equipment_6_desc:0 "A 3rd generation TSF produced by Lockweed Mardin (USA) and jointly developed between the US, European Union and the African Union. To meet the demands of the other nations, it became the first US-made TSF to be equipped with standard fixed armaments (super carbon blades) for close combat, which, combined with its high mobility, gave it excellent close combat capabilities.a State-of-the-art 3rd generation unit."
 
  asa_equipment_A6:0 "A-6 Intruder"
  asa_equipment_A6_short:0 "A-6"
@@ -246,9 +250,9 @@
  tsf_equipment_T942U_short:0 "Type-04 Shiranui Second (UN)"
  tsf_equipment_T942U_desc:0 "Following the success of the XFJ-01, the Shiranui Second is considered for adoption as Imperial Japan's next main TSF and given the designation of Test Type-01, for use in combat trials against the Test Type-02/F-15SEJ Gekkou that, at that time, was also being considered for adoption into the IJA/MDF as the next mainline TSF of Imperial Japan. This variant has been modified to be better suited United Nations requirements."
 
- tsf_equipment_T94FU:0 "XFJ-01 Shiranui Kyokkou (UN)"
- tsf_equipment_T94FU_short:0 "XFJ-01 Shiranui Kyokkou (UN)"
- tsf_equipment_T94FU_desc:0 "The XFJ-01 Shiranui Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes. This variant has been modified to be better suited United Nations requirements."
+ tsf_equipment_T94FU:0 "Type-10 Kyokkou (UN)"
+ tsf_equipment_T94FU_short:0 "Type-10 Kyokkou (UN)"
+ tsf_equipment_T94FU_desc:0 "Type-10 Kyokkou is the unique result of the fusion of the YF-23 Black Widow II prototype external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes. This variant has been modified to be better suited United Nations requirements."
 
  tsf_equipment_MiG23U:0 "MiG-23 Cheburashka (UN)"
  tsf_equipment_MiG23U_short:0 "MiG-23 Cheburashka (UN)"
@@ -355,9 +359,9 @@
  tsf_equipment_T942_short:0 "Type-04 Shiranui Second"
  tsf_equipment_T942_desc:0 "Developed as part of the XFJ project that aimed to overcome the development ceiling of the Type-94 Shiranui and improve its battlefield performance through the useage of US technology and data. The addition of shoulder and waist thrusters, with additional propellant capicity and deployment speed of combat weapons improved the prior issues of Shiranui and improved performance."
 
- tsf_equipment_T94F:0 "XFJ-01 Shiranui Kyokkou"
- tsf_equipment_T94F_short:0 "XFJ-01 Shiranui Kyokkou"
- tsf_equipment_T94F_desc:0 "The XFJ-01 Shiranui Kyokkou is the unique result of the fusion of the YF-23 Black Widow II external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes."
+ tsf_equipment_T94F:0 "Type-10 Kyokkou"
+ tsf_equipment_T94F_short:0 "Type-10 Kyokkou"
+ tsf_equipment_T94F_desc:0 "The Type-10 Kyokkou is the unique result of the fusion of the YF-23 Black Widow II prototype external frame with technologies from the Shiranui Second Phase 2, and was headed and completed by Boening executive Frank Heinemann. As a result, the unit heavily resembles the YF-23; it also gains most of its features, including the foot-mounted blades, and its unique arm-mounted blade sheaths with accommodation for multiple weapon sizes."
 
  tsf_equipment_T00R:0 "Type-00R Takemikazuchi"
  tsf_equipment_T00R_short:0 "Type-00 Takemikazuchi"

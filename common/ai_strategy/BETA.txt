@@ -73,6 +73,12 @@ BETA_strategic_plan = {
 		value = 3
 	}
 
+	ai_strategy = { 
+		type = role_ratio
+		id = beta_garrison
+		value = 2
+	}
+
 	ai_strategy = {
 		type = template_prio
 		id = motorized

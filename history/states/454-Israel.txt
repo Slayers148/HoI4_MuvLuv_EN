@@ -2,27 +2,42 @@
 state={
 	id=454
 	name="STATE_454" #Palestine
-	manpower = 933142
-	
+	manpower = 0
+
 	state_category = rural
 
-	history={ 1999.1.1 = { 
-			owner = H09			
-			remove_core_of = H09		}
+	history={ 1999.1.1 = {
+			owner = AFR
+			controller = H09
+			set_state_category = betaland
+
+			H09 = {
+					set_province_controller = 1015
+					set_province_controller = 1065
+					set_province_controller = 1086
+					set_province_controller = 1201
+					set_province_controller = 4088
+					set_province_controller = 4206
+					set_province_controller = 7107
+					set_province_controller = 7176
+					set_province_controller = 11970
+					set_province_controller = 1
+				}
+			}
 		owner = ENG
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			#industrial_complex = 1
 			air_base = 2
 			4206 = {
 				naval_base = 3
 			}
 		}
 		victory_points = {
-			1086 1 
+			1086 1
 		}
 		victory_points = {
-			4206 1 
+			4206 1
 		}
 		add_core_of = AFR
 		#add_core_of = PAL

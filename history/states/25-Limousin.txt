@@ -2,15 +2,31 @@
 state={
 	id=25
 	name="STATE_25"
-	manpower = 1343700
-
+	manpower = 0
 
 	state_category = large_town
-	history = { 1999.1.1 = { 
-			owner = H12			
-			remove_core_of = H12
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H12
 			add_core_of = EUR
 			remove_core_of = FRA
+			set_state_category = betaland
+
+			H12 = {
+				set_province_controller = 620
+				set_province_controller = 625
+				set_province_controller = 755
+				set_province_controller = 3598
+				set_province_controller = 3771
+				set_province_controller = 6618
+				set_province_controller = 6775
+				set_province_controller = 6792
+				set_province_controller = 9717
+				set_province_controller = 9734
+				set_province_controller = 9751
+				set_province_controller = 11718
+				set_province_controller = 11720
+			}
 		}
 		owner = FRA
 		buildings = {
@@ -23,6 +39,6 @@ state={
 	}
 
 	provinces={
-		620 625 755 3598 3771 6618 6775 6792 9717 9734 9751 11718 11720 
+		620 625 755 3598 3771 6618 6775 6792 9717 9734 9751 11718 11720
 	}
 }

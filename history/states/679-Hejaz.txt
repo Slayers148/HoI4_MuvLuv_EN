@@ -1,21 +1,43 @@
 state={
 	id=679
 	name="STATE_679"
-	manpower = 1511000
-	
+	manpower = 0
+
 	state_category = pastoral
 
-	history = { 1999.1.1 = { 
-			owner = H09			
-			remove_core_of = H09
-			add_core_of = AFR	
+	history = { 1999.1.1 = {
+			owner = AFR
+			controller = H09
+			add_core_of = AFR
+			set_state_category = betaland
+
+			H09 = {
+				set_province_controller = 1033
+				set_province_controller = 1923
+				set_province_controller = 2027
+				set_province_controller = 2033
+				set_province_controller = 2090
+				set_province_controller = 2095
+				set_province_controller = 4981
+				set_province_controller = 5006
+				set_province_controller = 5037
+				set_province_controller = 7934
+				set_province_controller = 8073
+				set_province_controller = 8092
+				set_province_controller = 10748
+				set_province_controller = 10786
+				set_province_controller = 10835
+				set_province_controller = 12101
+				set_province_controller = 12758
+				set_province_controller = 12883 
+			}
 		}
 		owner = SAU
 		victory_points = {
-			12758 1 
+			12758 1
 		}
 		victory_points = {
-			12883 1 
+			12883 1
 		}
 		buildings = {
 			infrastructure = 3
@@ -27,6 +49,6 @@ state={
 	}
 
 	provinces={
-		1033 1923 2027 2033 2090 2095 4981 5006 5037 7934 8073 8092 10748 10786 10835 12101 12758 12883 
+		1033 1923 2027 2033 2090 2095 4981 5006 5037 7934 8073 8092 10748 10786 10835 12101 12758 12883
 	}
 }

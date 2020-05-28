@@ -2,29 +2,44 @@
 state={
 	id=26
 	name="STATE_26" # Auveregne
-	manpower = 877800
-	
+	manpower = 0
+
 	state_category = town
 
-	history = { 1999.1.1 = { 
-			owner = H12			
-			remove_core_of = H12
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H12
 			add_core_of = EUR
-			remove_core_of = FRA	
+			remove_core_of = FRA
+			set_state_category = betaland
+
+			H12 = {
+				set_province_controller = 590
+				set_province_controller = 769
+				set_province_controller = 3594
+				set_province_controller = 3754
+				set_province_controller = 6644
+				set_province_controller = 6773
+				set_province_controller = 6789
+				set_province_controller = 9593
+				set_province_controller = 9607
+				set_province_controller = 9748
+				set_province_controller = 11576
+			}
 		}
 		owner = FRA
 		victory_points = {
-			3594 3 
+			3594 3
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
+			#industrial_complex = 1
 
 		}
 		add_core_of = FRA
 	}
 
 	provinces={
-		590 769 3594 3754 6644 6773 6789 9593 9607 9748 11576 
+		590 769 3594 3754 6644 6773 6789 9593 9607 9748 11576
 	}
 }

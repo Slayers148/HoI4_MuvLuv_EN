@@ -9,13 +9,13 @@ equipments = {
 		#is_convertable = yes
 		is_buildable = no
 		type = armor
-		group_by = archetype		
+		group_by = archetype
 		interface_category = interface_category_armor
-		
+
 		reliability = 0.8
-		
+
 		upgrades = { }
-		
+
 		#Misc Abilities
 		maximum_speed = 10
 		reliability = 0.8
@@ -34,7 +34,7 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 40
 		resources = {
 		}
@@ -43,7 +43,7 @@ equipments = {
 	tsf_equipment_Su11 = {
 		year = 1975
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
@@ -65,27 +65,27 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 32
 		resources = {
 		}
-	
+
 	}
-#F-4#	
+#F-4#
 	tsf_equipment_MiG21 = {
 		year = 1973
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 15
 		visual_level = 0
 		is_convertable = yes
 	}
-	
-	#Mig-23#	
+
+	#Mig-23#
 	tsf_equipment_MiG23 = {
 		year = 1985
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		parent = tsf_equipment_MiG21
@@ -108,18 +108,18 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 35
 		resources = {
 		}
-	
-	
+
+
 	}
-#Mig-27#	
+#Mig-27#
 	tsf_equipment_MiG27 = {
 		year = 1985
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		parent = tsf_equipment_MiG23
@@ -142,18 +142,18 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 40
 		resources = {
 		}
-	
-	
+
+
 	}
-#Su-27#	
+#Su-27#
 	tsf_equipment_Su27 = {
 		year = 1983
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		parent = tsf_equipment_Su11
@@ -176,19 +176,19 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 55
 		resources = {
 		}
-	
-	
-	
+
+
+
 	}
-	#F-14#	
+	#F-14#
 	tsf_equipment_F14AN3 = {
 		year = 1982
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		is_convertable = yes
@@ -210,22 +210,22 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 60
 		resources = {
 		}
-	
-	
-	
+
+
+
 	}
 
-	
-	#Mig-25#	
+
+	#Mig-25#
 	tsf_equipment_MiG25 = {
 		year = 1985
 
 		archetype = tsf_equipment
-#		parent = tsf_equipment_2 
+#		parent = tsf_equipment_2
 		priority = 16
 		visual_level = 0
 		is_convertable = yes
@@ -247,23 +247,23 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 50
 		resources = {
 		}
-	
-	
+
+
 	}
-	#MiG31#	
+	#MiG31#
 	tsf_equipment_MiG31 = {
 		year = 1994
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		parent = tsf_equipment_MiG25
 		priority = 16
 		visual_level = 0
-#		can_convert_from = { 
-#			tsf_equipment_F18 
+#		can_convert_from = {
+#			tsf_equipment_F18
 #		}
 		is_convertable = yes
                 #Misc Abilities
@@ -284,20 +284,20 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 55
 		resources = {
 			aluminium = 1
 			steel = 1
 		}
-	
-	
+
+
 	}
-	#Mig-29#	
+	#Mig-29#
 	tsf_equipment_MiG29 = {
 		year = 1985
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		parent = tsf_equipment_MiG27
@@ -320,19 +320,19 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 50
 		resources = {
 		}
-	
-	
+
+
 	}
-	
-	#Su-37#	
+
+	#Su-37#
 	tsf_equipment_Su37 = {
 		year = 1995
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		parent = tsf_equipment_3
 		priority = 17
 		visual_level = 0
@@ -356,24 +356,24 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic =60
 		resources = {
 			aluminium = 1
 			steel = 1
 		}
-	
+
 	}
-#Mig-29OVT/35#	
+#Mig-29OVT/35#
 	tsf_equipment_MiG29OVT = {
 		year = 2001
 
 		archetype = tsf_equipment
-		parent = tsf_equipment_MiG29 
+		parent = tsf_equipment_MiG29
 		priority = 18
 		visual_level = 0
-#		can_convert_from = { 
-#			tsf_equipment_F15E 
+#		can_convert_from = {
+#			tsf_equipment_F15E
 #		}
 		is_convertable = yes
                 #Misc Abilities
@@ -394,20 +394,20 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 70
 		resources = {
 			aluminium = 1
 			steel = 1
 		}
-	
+
 	}
 
-#Su-47#	
+#Su-47#
 	tsf_equipment_Su47 = {
 		year = 2001
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 30
 		visual_level = 0
 		is_convertable = yes
@@ -429,16 +429,49 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 80
 		resources = {
 			aluminium =1
 			steel = 1
 		}
-	
-	}
 
-	
+	}
+	#Su-57#
+		tsf_equipment_Su57 = {
+			year = 2008
+
+			archetype = tsf_equipment
+			priority = 30
+			visual_level = 0
+			is_convertable = yes
+	                #Misc Abilities
+			maximum_speed = 25
+			reliability = 0.8
+
+			#Defensive Abilities
+			defense = 80
+			breakthrough = 160
+			hardness = 0.99
+			armor_value = 90
+
+			#Offensive Abilities
+			soft_attack = 70
+			hard_attack = 80
+			ap_attack = 230
+			air_attack = 220
+
+			#Space taken in convoy
+			lend_lease_cost = 5
+
+			build_cost_ic = 90
+			resources = {
+				aluminium =1
+				steel = 1
+			}
+
+		}
+
 asa_equipment = {
 		year = 1975
 
@@ -447,13 +480,13 @@ asa_equipment = {
 		#is_convertable = yes
 		is_buildable = no
 		type = armor
-		group_by = archetype		
+		group_by = archetype
 		interface_category = interface_category_armor
-		
+
 		reliability = 0.8
-		
+
 		upgrades = { }
-		
+
 		#Misc Abilities
 		maximum_speed = 8
 		reliability = 0.8
@@ -472,7 +505,7 @@ asa_equipment = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 70
 		resources = {
 			tungsten = 1
@@ -483,16 +516,16 @@ asa_equipment = {
 	asa_equipment_A6S = {
 		year = 1977
 
-		archetype = asa_equipment 
+		archetype = asa_equipment
 		priority = 20
 		visual_level = 0
 		is_convertable = yes
 	}
-#A-12	
+#A-12
 	asa_equipment_A12S = {
 		year = 1997
 
-		archetype = asa_equipment 
+		archetype = asa_equipment
 		priority = 30
 		visual_level = 0
 		is_convertable = yes
@@ -514,16 +547,16 @@ asa_equipment = {
 
 		#Space taken in convoy
 		lend_lease_cost = 185
-		
+
 		build_cost_ic = 80
 		resources = {
 			aluminium = 1
 			steel = 1
 		}
-	
-	
+
+
 	}
-	
+
 ###戦術歩行攻撃機###
 	tsa_equipment = {
 		year = 1975
@@ -533,13 +566,13 @@ asa_equipment = {
 		#is_convertable = yes
 		is_buildable = no
 		type = armor
-		group_by = archetype		
+		group_by = archetype
 		interface_category = interface_category_armor
-		
+
 		reliability = 0.8
-		
+
 		upgrades = { }
-		
+
 		#Misc Abilities
 		maximum_speed = 10
 		reliability = 0.8
@@ -558,22 +591,22 @@ asa_equipment = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 80
 		resources = {
 			tungsten = 1
 			steel = 1
 		}
 	}
-#A-10#	
+#A-10#
 	tsa_equipment_A10S = {
 		year = 1978
 
-		archetype = tsa_equipment 
+		archetype = tsa_equipment
 		priority = 25
 		visual_level = 0
 		is_convertable = yes
-	}#	
-	
+	}#
+
 
 }

@@ -1,8 +1,6 @@
-
-
-H17_defend_doctrine = {
+H07_defend_doctrine = {
 	enable = {
-		original_tag = H17
+		original_tag = H07
 		date > 1998.12.31
 	}
 	
@@ -14,7 +12,13 @@ H17_defend_doctrine = {
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = H02
+		id = H03
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H04
 		value = 100
 	}
 
@@ -23,13 +27,25 @@ H17_defend_doctrine = {
 		id = H05
 		value = 100
 	}
-	
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H06
+		value = 100
+	}
+
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = H07
+#		value = 100
+#	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H08
 		value = 100
 	}
-
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H09
@@ -51,12 +67,24 @@ H17_defend_doctrine = {
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H12
-		value = 100
+		value = 1000
 	}
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H13
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H14
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H15
 		value = 100
 	}
 	
@@ -65,13 +93,19 @@ H17_defend_doctrine = {
 		id = H16
 		value = 100
 	}
-	
-#	ai_strategy = {
-#		type = dont_defend_ally_borders
-#		id = H17
-#		value = 100
-#	}
 
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H17
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H18
+		value = 100
+	}
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H19
@@ -103,9 +137,35 @@ H17_defend_doctrine = {
 	}
 }
 
-#H17_template_design = {
+###近隣国家がステートとられたら援軍を出す###
+#H07_frontline_def = {
 #	enable = {
-#		original_tag = H17
+#		is_ai = yes
+#		date > 1998.12.31
+#		original_tag = H07
+#
+#		OR = {
+#			H12 = { surrender_progress > 0.1 }
+#			any_state = {
+#				is_owned_by = H12
+#				NOT = { is_controlled_by = H12}
+#				is_capital = no
+#			}
+#			check_variable = { num_divisions > var_hive_aliment_H07 }
+#		}
+#	}
+#	abort_when_not_enabled = yes
+#
+#	ai_strategy = {
+#		type = force_defend_ally_borders
+#		Id = H12
+#		value = 1
+#	}
+#}
+
+#H07_template_design = {
+#	enable = {
+#		original_tag = H07
 #	}
 #	
 #	ai_strategy = {

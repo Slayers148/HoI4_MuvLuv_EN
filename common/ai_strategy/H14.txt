@@ -1,19 +1,32 @@
 
-H25_defend_doctrine = {
+
+H14_defend_doctrine = {
 	enable = {
-		original_tag = H25
+		original_tag = H14
 		date > 1998.12.31
 	}
 	
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = BET
+#		value = 100
+#	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = BET
+		id = H02
 		value = 100
 	}
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = H02
+		id = H03
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H04
 		value = 100
 	}
 
@@ -25,10 +38,22 @@ H25_defend_doctrine = {
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = H08
+		id = H06
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H07
 		value = 100
 	}
 	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H08
+		value = 100
+	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H09
@@ -61,16 +86,34 @@ H25_defend_doctrine = {
 	
 	ai_strategy = {
 		type = dont_defend_ally_borders
-		id = H16
+		id = H14
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H15
 		value = 100
 	}
 	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H16
+		value = 100
+	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H17
 		value = 100
 	}
 	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H18
+		value = 100
+	}
+
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H19
@@ -83,11 +126,17 @@ H25_defend_doctrine = {
 		value = 100
 	}
 	
-#	ai_strategy = {
-#		type = dont_defend_ally_borders
-#		id = H25
-#		value = 100
-#	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H21
+		value = 100
+	}
+
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H25
+		value = 100
+	}
 	
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -96,36 +145,9 @@ H25_defend_doctrine = {
 	}
 }
 
-###近隣国家がステートとられたら援軍を出す###
-H25_frontline_def = {
-	enable = {
-		is_ai = yes
-		has_war = yes
-		date > 1998.12.31
-		original_tag = H25
-
-		OR = {
-			H26 = { surrender_progress > 0.1 }
-			any_state = {
-				is_owned_by = H26
-				NOT = { is_controlled_by = H26}
-				is_capital = no
-			}
-			check_variable = { num_divisions > var_hive_aliment_H25 }
-		}
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = force_defend_ally_borders
-		Id = H26
-		value = 1
-	}
-}
-
-#H25_template_design = {
+#H14_template_design = {
 #	enable = {
-#		original_tag = H25
+#		original_tag = H14
 #	}
 #	
 #	ai_strategy = {

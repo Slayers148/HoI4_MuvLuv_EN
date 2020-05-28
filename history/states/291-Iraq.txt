@@ -2,18 +2,37 @@
 state={
 	id=291
 	name="STATE_291"
-	manpower = 20441650
-	
+	manpower = 0
+
 	state_category = town
-	
+
 	resources={
 		oil=15 # was: 22
 	}
 
-	history={ 1999.1.1 = { 
-			owner = H09
-			remove_core_of = H09
-			
+	history={ 1999.1.1 = {
+			owner = AFR
+			controller = H09
+			remove_core_of = IRQ
+			add_core_of = AFR
+			set_state_category = betaland
+
+			H09 = {
+				set_province_controller = 78
+				set_province_controller = 2004
+				set_province_controller = 2089
+				set_province_controller = 2097
+				set_province_controller = 3795
+				set_province_controller = 7977
+				set_province_controller = 7994
+				set_province_controller = 8001
+				set_province_controller = 10876
+				set_province_controller = 12046
+				set_province_controller = 12726
+				set_province_controller = 12839
+				set_province_controller = 12855
+			}
+
 			#マシュハド陥落用
 			add_claim_by = H02
 		}
@@ -22,12 +41,12 @@ state={
 			2097 5
 		}
 		victory_points = {
-			2089 1 
+			2089 1
 		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2 
+			#arms_factory = 1
+			#industrial_complex = 2
 			air_base = 4
 			2089 = {
 				naval_base = 1
@@ -37,6 +56,6 @@ state={
 	}
 
 	provinces={
-		78 2004 2089 2097 3795 7977 7994 8001 10876 12046 12726 12839 12855 
+		78 2004 2089 2097 3795 7977 7994 8001 10876 12046 12726 12839 12855
 	}
 }

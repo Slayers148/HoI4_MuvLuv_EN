@@ -2,15 +2,23 @@
 state={
 	id=764
 	name="STATE_764"
-	manpower = 585579
+	manpower = 0
 	state_category = town
 
-	history = { 1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
 			remove_core_of = YUG
 			remove_core_of = SER
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 614
+				set_province_controller = 3614
+				set_province_controller = 6643
+				set_province_controller = 11787
+			}
 		}
 		owner = YUG
 		controller = YUG

@@ -27,7 +27,7 @@ beta = {
 				days = 40
 			}
 		}
-		
+
 		remove_effect = {
 		}
 
@@ -36,6 +36,53 @@ beta = {
 			modifier = {
 				add = 50
 				date > 1999.1.1
+			}
+		}
+	}
+
+
+	beta_offensive = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			ROOT = {
+				num_divisions>100
+				is_in_faction_with = BET
+				any_neighbor_country = {
+					is_in_faction_with = UNI
+					has_war_with = ROOT
+					}
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_country_flag = disabled_aggressive_beta
+					has_idea = mvlv_standby_sado
+			 		}
+			}
+		}
+
+		fire_only_once = no
+
+		modifier = {
+		}
+
+		complete_effect = {
+			root = {
+				add_timed_idea = {
+					idea = mvlv_aggressive_beta
+					days = 50
+				}
+			}
+		}
+
+		remove_effect = {
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 20
+				num_divisions > 200
 			}
 		}
 	}

@@ -2,22 +2,35 @@
 state={
 	id=33
 	name="STATE_33"
-	manpower = 636400
-	
+	manpower = 0
+
 	state_category = town
 
-	history = { 1999.1.1 = { 
-			owner = H12			
-			remove_core_of = H12
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H12
 			add_core_of = EUR
-			remove_core_of = FRA	
+			remove_core_of = FRA
+			set_state_category = betaland
+
+			H12 = {
+				set_province_controller = 651
+				set_province_controller = 669
+				set_province_controller = 3621
+				set_province_controller = 3626
+				set_province_controller = 3655
+				set_province_controller = 6648
+				set_province_controller = 6651
+				set_province_controller = 9629
+				set_province_controller = 11869
+			}
 		}
 
 		victory_points = {
 			651 1
 		}
 		owner = FRA
-		
+
 		buildings = {
 			infrastructure = 6
 		}
@@ -25,6 +38,6 @@ state={
 	}
 
 	provinces={
-		651 669 3621 3626 3655 6648 6651 9629 11869 
+		651 669 3621 3626 3655 6648 6651 9629 11869
 	}
 }

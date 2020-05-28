@@ -51,43 +51,6 @@ division_limiter = {
 				upper_limit = temp1
 			}
 		}
-		# if = {
-		# 	#2人
-		# 	limit = {
-		# 		is_in_faction_with = BET
-		# 		has_war = yes
-		# 		date > 1998.12.31
-		# 		check_variable = { global.var_playercount = 2 }
-		# 	}
-		# 	multiply_temp_variable = {
-		# 		upper_limit = var_hive_divisions_limit_PlayerLow
-		# 	}
-		# }
-		# else_if = {
-		# 	#3～5人
-		# 	limit = {
-		# 		is_in_faction_with = BET
-		# 		has_war = yes
-		# 		date > 1998.12.31
-		# 		check_variable = { global.var_playercount > 2 }
-		# 		check_variable = { global.var_playercount < 6 }
-		# 	}
-		# 	multiply_temp_variable = {
-		# 		upper_limit = var_hive_divisions_limit_PlayerMid
-		# 	}
-		# }
-		# else_if = {
-		# 	#6人以上
-		# 	limit = {
-		# 		is_in_faction_with = BET
-		# 		has_war = yes
-		# 		date > 1998.12.31
-		# 		check_variable = { global.var_playercount > 5 }
-		# 	}
-		# 	multiply_temp_variable = {
-		# 		upper_limit = var_hive_divisions_limit_PlayerHigh
-		# 	}
-		# }
 		
 		#____________________________________________________________
 		###BET国降伏値0.2～
