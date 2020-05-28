@@ -126,10 +126,10 @@
 
  tsf_equipment_F15EX:0 "F-15EX Advanced Eagle"
  tsf_equipment_F15EX_short:0 "F-15EX Advanced Eagle"
- tsf_equipment_F15EX_desc:0 "Envisioned by Boening to be the final penultimate upgrade to the F-15 platform to allow it to survive in the battlefields to come, the Advanced Eagle improves the venerable platform and allows it to supplant the next generation of TSFs. In particular, conformal weapon bays and fuel tanks have been added, along with an enhanced head unit to accomodate more sensors, and shoulder thrust units, making it more akin to the F-15ACTV than the Strike Eagle it was based of."
+ tsf_equipment_F15EX_desc:0 ""Despite Boening's aggressive sales push on the F-15SE, many nations around the world remain wary of purchasing the design for political and economical reasons. The adoption of stealth technology, only useful in TSF on TSF combat, was seen as a provocative act in arms procurement. Furthermore most countries which operates the F-15E maintains massive stockpiles of the venerable design leading to a slump in orders for the brand new F-15SE. As a result Boeing introduced the F-15EX Upgrade Program to convert existing F-15E TSFs. Chief among the upgrades are the introduction of Operation by Light and the various improvements gleamed from Project PROMINENCE. The resulting TSF is considered a quasi-3rd generations design but at a fraction of the cost and leverages on existing support facilities and pilots allowing for rapid adoption into service with minimal disruption"
 
- tsf_equipment_4:0 "F-23 Buzzard"
- tsf_equipment_4_short:0 "F-23 Buzzard"
+ tsf_equipment_4:0 "F-23 Black Widow II"
+ tsf_equipment_4_short:0 "F-23 Black Widow II"
  tsf_equipment_4_desc:0 "Once the losing prototype 3rd generation TSF built for the ATSF program, it has been revised and rebuilt as a unit specialized for quick reaction forces like the US Orbital Divers. While the performance is superior across the board to the F-22, only its extreme cost and limited production runs prevent further widespread adoption. This TSF is optimized for long-range, high-speed cruising, radar/electronic stealth, and a superior sensor package to guarantee first-strike advantages in combat. "
 
  tsf_equipment_5:0 "F-22 Raptor"

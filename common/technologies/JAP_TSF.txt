@@ -1,7 +1,7 @@
 technologies = {
 
 ###TSF###
-	
+
 	JAP_basic_concept_research= {
 
 #コスト、開始年#
@@ -32,7 +32,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 1 y = 0 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -40,11 +40,11 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
-	
+
+	}
+
+
 	F5J = {
 #解放される装備#
 		enable_equipments = {
@@ -66,20 +66,20 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 5 y = 2 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F4J = {
 
 		enable_equipments = {
@@ -106,7 +106,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 1 y = 2 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -114,10 +114,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F4JK = {
 #解放される装備#
 		enable_equipments = {
@@ -135,22 +135,22 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -4 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
 
-	
+	}
+
+
+
 	F15J = {
 #解放される装備#
 		enable_equipments = {
@@ -160,30 +160,30 @@ technologies = {
 		research_cost = 2
 		start_year = 1986
 
-		
+
 		path = {
 			leads_to_tech = T94
 			research_cost_coeff = 1
 		}
-		
+
 
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 1 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F16J = {
 #解放される装備#
 		enable_equipments = {
@@ -209,20 +209,20 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 5 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	JAP_Assault_gun_improvement = {
 
 		research_cost = 1
@@ -233,13 +233,13 @@ technologies = {
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_asa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_tsa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
@@ -258,7 +258,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 3 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -266,10 +266,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	T97 = {
 
 		enable_equipments = {
@@ -283,25 +283,25 @@ technologies = {
 #			leads_to_tech = MVLV_MiG31_tsf
 #			research_cost_coeff = 1
 #		}
-		
-		
+
+
 
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -2 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
+
+	}
 	T00 = {
 
 		enable_equipments = {
@@ -319,30 +319,30 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1999
-		
+
 		sub_technologies = {
 			T00F
 			T00A
 			T00C
 		}
-		
-		
+
+
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -4 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
+
+	}
 	T00F = {
 
 		enable_equipments = {
@@ -356,24 +356,24 @@ technologies = {
 #			leads_to_tech = MVLV_MiG31_tsf
 #			research_cost_coeff = 1
 #		}
-		
-		
+
+
 
 #		folder = {
 #			name = JAP_tsf_folder
 #			position = { x = -2 y = 8 }
-#		}		
+#		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
-	}	
+
+	}
 	T00A = {
 
 		enable_equipments = {
@@ -387,24 +387,24 @@ technologies = {
 #			leads_to_tech = MVLV_MiG31_tsf
 #			research_cost_coeff = 1
 #		}
-		
-		
+
+
 
 #		folder = {
 #			name = JAP_tsf_folder
 #			position = { x = -2 y = 8 }
-#		}		
+#		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
-	}	
+
+	}
 	T00C = {
 
 		enable_equipments = {
@@ -418,25 +418,25 @@ technologies = {
 #			leads_to_tech = MVLV_MiG31_tsf
 #			research_cost_coeff = 1
 #		}
-		
-		
+
+
 
 #		folder = {
 #			name = JAP_tsf_folder
 #			position = { x = -2 y = 8 }
-#		}		
+#		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
-	}	
-	
+
+	}
+
 	T94 = {
 
 		enable_equipments = {
@@ -466,25 +466,25 @@ technologies = {
 			leads_to_tech = T97
 			research_cost_coeff = 0.5
 		}
-		
+
 
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 1 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	T94H = {
 
 		enable_equipments = {
@@ -503,7 +503,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -1 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -511,10 +511,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F2 = {
 
 		enable_equipments = {
@@ -525,7 +525,7 @@ technologies = {
 		start_year = 1997
 
 
-		
+
 #		path = {
 #			leads_to_tech = MVLV_3rd_tsf_high
 #			research_cost_coeff = 1
@@ -534,7 +534,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 5 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -542,19 +542,19 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	JAP_Jumping_unit_improvement = {
 
 		research_cost = 1
 		start_year = 1990
-		
+
 		MVLV_tsf_battalion = {
 			maximum_speed = 0.05
 		}
-		
+
 		MVLV_tsa_battalion = {
 			maximum_speed = 0.05
 		}
@@ -572,7 +572,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 3 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -580,12 +580,12 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
 
-	
+	}
+
+
+
 	T942 = {
 
 		enable_equipments = {
@@ -604,7 +604,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 1 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -612,12 +612,12 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	T94F = {
-		
+
 		enable_equipments = {
 			tsf_equipment_T94F
 		}
@@ -628,7 +628,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 1 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -636,12 +636,12 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 ###ASA###
-	
+
 	A6J = {
 
 		enable_equipments = {
@@ -663,7 +663,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -7 y = 4 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -671,19 +671,19 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	JAP_Manipulator_improvement = {
 
 		research_cost = 1
 		start_year = 1980
-		
+
 		MVLV_asa_battalion = {
 			maximum_speed = 0.05
 		}
-		
+
 		MVLV_tsa_battalion = {
 			maximum_speed = 0.05
 		}
@@ -696,7 +696,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -7 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -704,21 +704,21 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	JAP_Carrying_ammunition_increase = {
 
 		research_cost = 1
 		start_year = 1990
-		
+
 		MVLV_asa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_tsa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
@@ -733,7 +733,7 @@ technologies = {
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -7 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -741,10 +741,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	A12J = {
 
 		enable_equipments = {
@@ -755,14 +755,14 @@ technologies = {
 		start_year = 1997
 
 		path = {
-			leads_to_tech = MVLV_
+			leads_to_tech = JAP_Streamlined_Production
 			research_cost_coeff = 1
 		}
 
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -7 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -770,12 +770,12 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
-###TSA###	
-	
+
+	}
+
+###TSA###
+
 	A10J = {
 
 		enable_equipments = {
@@ -785,10 +785,20 @@ technologies = {
 		research_cost = 2
 		start_year = 1978
 
+		path = {
+			leads_to_tech = JAP_Improved_Propellant
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = JAP_Improved_Actuators
+			research_cost_coeff = 1
+		}
+
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = -9 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -796,7 +806,313 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
+
+	}
+
+		 ###RESEARCH TREE###
+
+			 JAP_Improved_Propellant = {
+
+				 research_cost = 1
+				 start_year = 1999
+
+				 MVLV_asa_battalion = {
+					 soft_attack = 0.05
+					 hard_attack = 0.05
+				 }
+
+				 MVLV_tsa_battalion = {
+					 soft_attack = 0.05
+					 hard_attack = 0.05
+				 }
+
+		 		 MVLV_tsf_battalion = {
+		 				soft_attack = 0.05
+		 				hard_attack = 0.05
+		 		 }
+
+				 path = {
+					 leads_to_tech = JAP_Tandem_Charge
+					 research_cost_coeff = 1
+				 }
+
+				 folder = {
+					 name = JAP_tsf_folder
+					 position = { x = -9 y = 9 }
+				 }
+				 categories = {
+					 MVLV_tsf_tech
+				 }
+
+				 ai_will_do = {
+					 factor = 1
+				 }
+
+
+			}
+				JAP_Tandem_Charge = {
+
+				research_cost = 1
+				start_year = 2000
+
+				MVLV_asa_battalion = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+				}
+
+				MVLV_tsa_battalion = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+				}
+
+				MVLV_tsf_battalion = {
+					soft_attack = 0.05
+					hard_attack = 0.05
+				}
+
+				path = {
+					leads_to_tech = JAP_Induction_Weapons
+					research_cost_coeff = 1
+				}
+
+				folder = {
+					name = JAP_tsf_folder
+					position = { x = -9 y = 12 }
+				}
+				categories = {
+					MVLV_tsf_tech
+				}
+
+				ai_will_do = {
+						factor = 1
+				}
+
+
+			}
+				JAP_Induction_Weapons = {
+
+				research_cost = 1
+				start_year = 2004
+
+				MVLV_asa_battalion = {
+					soft_attack = 0.1
+					hard_attack = 0.1
+				}
+
+				MVLV_tsa_battalion = {
+					soft_attack = 0.1
+					hard_attack = 0.1
+				}
+
+				MVLV_tsf_battalion = {
+					soft_attack = 0.1
+					hard_attack = 0.1
+				}
+
+				path = {
+					leads_to_tech = JAP_Tactical_Lasers
+					research_cost_coeff = 1
+				}
+
+				folder = {
+					name = JAP_tsf_folder
+					position = { x = -9 y = 15 }
+				}
+				categories = {
+					MVLV_tsf_tech
+				}
+
+				ai_will_do = {
+						factor = 1
+				}
+
+
+			}
+				JAP_Tactical_Lasers = {
+
+				research_cost = 1
+				start_year = 2010
+
+				MVLV_asa_battalion = {
+					soft_attack = 0.1
+					hard_attack = 0.1
+				}
+
+				MVLV_tsa_battalion = {
+					soft_attack = 0.1
+					hard_attack = 0.1
+				}
+
+				MVLV_tsf_battalion = {
+					soft_attack = 0.1
+					hard_attack = 0.1
+				}
+
+				folder = {
+					name = JAP_tsf_folder
+					position = { x = -9 y = 18 }
+				}
+				categories = {
+					MVLV_tsf_tech
+				}
+
+				ai_will_do = {
+						factor = 1
+				}
+
+
+			}
+			JAP_Improved_Actuators = {
+
+				research_cost = 1
+				start_year = 1999
+
+				MVLV_asa_battalion = {
+					armor_value = 0.05
+					breakthrough = 0.05
+					reliability = 0.05
+				}
+
+				MVLV_tsa_battalion = {
+					armor_value = 0.05
+					breakthrough = 0.05
+					reliability = 0.05
+				}
+
+				MVLV_tsf_battalion = {
+					armor_value = 0.05
+					breakthrough = 0.05
+					reliability = 0.05
+				}
+
+				path = {
+					leads_to_tech = JAP_High_Torque_Servos
+					research_cost_coeff = 1
+				}
+
+				folder = {
+					name = JAP_tsf_folder
+					position = { x = -11 y = 9 }
+				}
+				categories = {
+					MVLV_tsf_tech
+				}
+
+				ai_will_do = {
+					factor = 1
+				}
+
+
+		 	 }
+			 JAP_High_Torque_Servos = {
+
+			 research_cost = 1
+			 start_year = 2000
+
+			 MVLV_asa_battalion = {
+				 armor_value = 0.05
+				 breakthrough = 0.05
+				 reliability = 0.05
+			 }
+
+			 MVLV_tsa_battalion = {
+				 armor_value = 0.05
+				 breakthrough = 0.05
+				 reliability = 0.05
+			 }
+
+			 MVLV_tsf_battalion = {
+				 armor_value = 0.05
+				 breakthrough = 0.05
+				 reliability = 0.05
+			 }
+
+			 path = {
+				 leads_to_tech = JAP_Regenerative_Shock_Absorbers
+				 research_cost_coeff = 1
+			 }
+
+			 folder = {
+				 name = JAP_tsf_folder
+				 position = { x = -11 y = 12 }
+			 }
+			 categories = {
+				 MVLV_tsf_tech
+			 }
+
+			 ai_will_do = {
+					 factor = 1
+			 }
+
+
+			}
+			 JAP_Streamlined_Production = {
+
+			 research_cost = 1
+			 start_year = 2004
+
+			 MVLV_asa_battalion = {
+				 build_cost_ic=-0.1
+			 }
+
+			 MVLV_tsa_battalion = {
+				 build_cost_ic=-0.1
+			 }
+
+			 MVLV_tsf_battalion = {
+				 build_cost_ic=-0.1
+			 }
+
+
+			 folder = {
+				 name = JAP_tsf_folder
+				 position = { x = -7 y = 15 }
+			 }
+			 categories = {
+				 MVLV_tsf_tech
+			 }
+
+			 ai_will_do = {
+					 factor = 1
+			 }
+
+			 }
+			 JAP_Regenerative_Shock_Absorbers = {
+
+			 research_cost = 1
+			 start_year = 2004
+
+			 MVLV_asa_battalion = {
+				 armor_value = 0.1
+				 breakthrough = 0.1
+				 reliability = 0.1
+			 }
+
+			 MVLV_tsa_battalion = {
+				 armor_value = 0.1
+				 breakthrough = 0.1
+				 reliability = 0.1
+			 }
+
+			 MVLV_tsf_battalion = {
+				 armor_value = 0.1
+				 breakthrough = 0.1
+				 reliability = 0.1
+			 }
+
+
+			 folder = {
+				 name = JAP_tsf_folder
+				 position = { x = -11 y = 15 }
+			 }
+			 categories = {
+				 MVLV_tsf_tech
+			 }
+
+			 ai_will_do = {
+					 factor = 1
+			 }
+		}
+
 }

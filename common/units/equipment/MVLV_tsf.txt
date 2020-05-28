@@ -374,7 +374,7 @@ equipments = {
 	#F-15EX#
 	tsf_equipment_F15EX = {
 		year = 2002
-	
+
 		archetype = tsf_equipment
 		parent = tsf_equipment_F15ACTV
 		priority = 18
