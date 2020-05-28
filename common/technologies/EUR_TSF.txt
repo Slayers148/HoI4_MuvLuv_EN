@@ -1,7 +1,7 @@
 technologies = {
 
 ###TSF###
-	
+
 	EUR_basic_concept_research= {
 
 #コスト、開始年#
@@ -32,7 +32,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 0 y = 0 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -40,11 +40,11 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
-	
+
+	}
+
+
 	F5E = {
 #解放される装備#
 		enable_equipments = {
@@ -77,20 +77,20 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 3 y = 2 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F4E = {
 
 		enable_equipments = {
@@ -113,7 +113,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -3 y = 2 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -121,10 +121,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	JA37 = {
 #解放される装備#
 		enable_equipments = {
@@ -142,20 +142,20 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 6 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	M2000 = {
 #解放される装備#
 		enable_equipments = {
@@ -173,20 +173,20 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 3 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
+
 
 	}
-	
+
 	F15EU = {
 #解放される装備#
 		enable_equipments = {
@@ -196,8 +196,8 @@ technologies = {
 		research_cost = 2
 		start_year = 1983
 
-		
-		
+
+
 		path = {
 			leads_to_tech = F15EEU
 			research_cost_coeff = 1
@@ -206,20 +206,20 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -3 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F5A = {
 #解放される装備#
 		enable_equipments = {
@@ -229,7 +229,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1982
 
-		
+
 		path = {
 			leads_to_tech = EF2000
 			research_cost_coeff = 1
@@ -238,20 +238,20 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 0 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	MVLV_Assault_gun_improvement = {
 
 		research_cost = 1
@@ -262,13 +262,13 @@ technologies = {
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_asa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_tsa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
@@ -292,7 +292,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 8 y = 5 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -300,10 +300,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	RAF = {
 
 		enable_equipments = {
@@ -312,29 +312,29 @@ technologies = {
 
 		research_cost = 2
 		start_year = 1998
-		
+
 		path = {
 			leads_to_tech = SW
 			research_cost_coeff = 1
 		}
-		
+
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 3 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	SW = {
 
 		enable_equipments = {
@@ -344,25 +344,25 @@ technologies = {
 		research_cost = 2
 		start_year = 2004
 
-		
+
 
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 3 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F15EEU = {
 
 		enable_equipments = {
@@ -376,27 +376,27 @@ technologies = {
 			leads_to_tech = F15SEEU
 			research_cost_coeff = 1
 		}
-		
-		
-		
+
+
+
 
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -3 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	JA39 = {
 
 		enable_equipments = {
@@ -415,7 +415,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 6 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -423,10 +423,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	EF2000 = {
 
 		enable_equipments = {
@@ -449,7 +449,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 0 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -457,9 +457,9 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
-	}	
-	
+
+	}
+
 	Tempest = {
 
 		enable_equipments = {
@@ -477,29 +477,29 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 0 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	MVLV_Jumping_unit_improvement = {
 
 		research_cost = 1
 		start_year = 1990
-		
+
 		MVLV_tsf_battalion = {
 			maximum_speed = 0.05
 		}
-		
+
 		MVLV_tsa_battalion = {
 			maximum_speed = 0.05
 		}
@@ -517,7 +517,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = 8 y = 9 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -525,10 +525,10 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F15SEEU = {
 
 		enable_equipments = {
@@ -546,20 +546,20 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -3 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
-	
+
+	}
+
 	F35E = {
 
 		enable_equipments = {
@@ -577,23 +577,23 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -3 y = 14 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
 
 		show_effect_as_desc = no
-		
+
 		ai_will_do = {
 			factor = 20000
 		}
-		
 
-	}	
 
-	
+	}
+
+
 ###ASA###
-	
+
 	MVLV_asa_1st = {
 
 		enable_equipments = {
@@ -615,7 +615,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -6 y = 4 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -623,19 +623,19 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	MVLV_Manipulator_improvement = {
 
 		research_cost = 1
 		start_year = 1980
-		
+
 		MVLV_asa_battalion = {
 			maximum_speed = 0.05
 		}
-		
+
 		MVLV_tsa_battalion = {
 			maximum_speed = 0.05
 		}
@@ -648,7 +648,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -6 y = 8 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -656,21 +656,21 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	MVLV_Carrying_ammunition_increase = {
 
 		research_cost = 1
 		start_year = 1990
-		
+
 		MVLV_asa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
 			ap_attack = 0.1
 		}
-		
+
 		MVLV_tsa_battalion = {
 			soft_attack = 0.05
 			hard_attack = 0.05
@@ -685,7 +685,7 @@ technologies = {
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -6 y = 10 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -693,10 +693,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
+
+	}
+
 	MVLV_asa_2nd = {
 
 		enable_equipments = {
@@ -707,14 +707,14 @@ technologies = {
 		start_year = 1997
 
 		path = {
-			leads_to_tech = MVLV_
+			leads_to_tech = EUR_Streamlined_Production
 			research_cost_coeff = 1
 		}
 
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -6 y = 12 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -722,12 +722,12 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
-	
-###TSA###	
-	
+
+	}
+
+###TSA###
+
 	MVLV_tsa_1st = {
 
 		enable_equipments = {
@@ -737,10 +737,20 @@ technologies = {
 		research_cost = 2
 		start_year = 1978
 
+		path = {
+			leads_to_tech = EUR_Improved_Propellant
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = EUR_Improved_Actuators
+			research_cost_coeff = 1
+		}
+
 		folder = {
 			name = EUR_tsf_folder
 			position = { x = -8 y = 6 }
-		}		
+		}
 		categories = {
 			MVLV_tsf_tech
 		}
@@ -748,7 +758,314 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-		
 
-	}	
+
+	}
+
+	 ###RESEARCH TREE###
+
+		 EUR_Improved_Propellant = {
+
+			 research_cost = 1
+			 start_year = 1999
+
+			 MVLV_asa_battalion = {
+				 soft_attack = 0.05
+				 hard_attack = 0.05
+			 }
+
+			 MVLV_tsa_battalion = {
+				 soft_attack = 0.05
+				 hard_attack = 0.05
+			 }
+
+	 		 MVLV_tsf_battalion = {
+	 				soft_attack = 0.05
+	 				hard_attack = 0.05
+	 		 }
+
+			 path = {
+				 leads_to_tech = EUR_Tandem_Charge
+				 research_cost_coeff = 1
+			 }
+
+			 folder = {
+				 name = EUR_tsf_folder
+				 position = { x = -8 y = 9 }
+			 }
+			 categories = {
+				 MVLV_tsf_tech
+			 }
+
+			 ai_will_do = {
+				 factor = 1
+			 }
+
+
+		}
+			EUR_Tandem_Charge = {
+
+			research_cost = 1
+			start_year = 2000
+
+			MVLV_asa_battalion = {
+				soft_attack = 0.05
+				hard_attack = 0.05
+			}
+
+			MVLV_tsa_battalion = {
+				soft_attack = 0.05
+				hard_attack = 0.05
+			}
+
+			MVLV_tsf_battalion = {
+				soft_attack = 0.05
+				hard_attack = 0.05
+			}
+
+			path = {
+				leads_to_tech = EUR_Induction_Weapons
+				research_cost_coeff = 1
+			}
+
+			folder = {
+				name = EUR_tsf_folder
+				position = { x = -8 y = 12 }
+			}
+			categories = {
+				MVLV_tsf_tech
+			}
+
+			ai_will_do = {
+					factor = 1
+			}
+
+
+		}
+			EUR_Induction_Weapons = {
+
+			research_cost = 1
+			start_year = 2004
+
+			MVLV_asa_battalion = {
+				soft_attack = 0.1
+				hard_attack = 0.1
+			}
+
+			MVLV_tsa_battalion = {
+				soft_attack = 0.1
+				hard_attack = 0.1
+			}
+
+			MVLV_tsf_battalion = {
+				soft_attack = 0.1
+				hard_attack = 0.1
+			}
+
+			path = {
+				leads_to_tech = EUR_Tactical_Lasers
+				research_cost_coeff = 1
+			}
+
+			folder = {
+				name = EUR_tsf_folder
+				position = { x = -8 y = 15 }
+			}
+			categories = {
+				MVLV_tsf_tech
+			}
+
+			ai_will_do = {
+					factor = 1
+			}
+
+
+		}
+			EUR_Tactical_Lasers = {
+
+			research_cost = 1
+			start_year = 2010
+
+			MVLV_asa_battalion = {
+				soft_attack = 0.1
+				hard_attack = 0.1
+			}
+
+			MVLV_tsa_battalion = {
+				soft_attack = 0.1
+				hard_attack = 0.1
+			}
+
+			MVLV_tsf_battalion = {
+				soft_attack = 0.1
+				hard_attack = 0.1
+			}
+
+			folder = {
+				name = EUR_tsf_folder
+				position = { x = -8 y = 18 }
+			}
+			categories = {
+				MVLV_tsf_tech
+			}
+
+			ai_will_do = {
+					factor = 1
+			}
+
+
+		}
+		EUR_Improved_Actuators = {
+
+			research_cost = 1
+			start_year = 1999
+
+			MVLV_asa_battalion = {
+				armor_value = 0.05
+				breakthrough = 0.05
+				reliability = 0.05
+			}
+
+			MVLV_tsa_battalion = {
+				armor_value = 0.05
+				breakthrough = 0.05
+				reliability = 0.05
+			}
+
+			MVLV_tsf_battalion = {
+				armor_value = 0.05
+				breakthrough = 0.05
+				reliability = 0.05
+			}
+
+			path = {
+				leads_to_tech = EUR_High_Torque_Servos
+				research_cost_coeff = 1
+			}
+
+			folder = {
+				name = EUR_tsf_folder
+				position = { x = -10 y = 9 }
+			}
+			categories = {
+				MVLV_tsf_tech
+			}
+
+			ai_will_do = {
+				factor = 1
+			}
+
+
+	 	 }
+		 EUR_High_Torque_Servos = {
+
+		 research_cost = 1
+		 start_year = 2000
+
+		 MVLV_asa_battalion = {
+			 armor_value = 0.05
+			 breakthrough = 0.05
+			 reliability = 0.05
+		 }
+
+		 MVLV_tsa_battalion = {
+			 armor_value = 0.05
+			 breakthrough = 0.05
+			 reliability = 0.05
+		 }
+
+		 MVLV_tsf_battalion = {
+			 armor_value = 0.05
+			 breakthrough = 0.05
+			 reliability = 0.05
+		 }
+
+		 path = {
+			 leads_to_tech = EUR_Regenerative_Shock_Absorbers
+			 research_cost_coeff = 1
+		 }
+
+		 folder = {
+			 name = EUR_tsf_folder
+			 position = { x = -10 y = 12 }
+		 }
+		 categories = {
+			 MVLV_tsf_tech
+		 }
+
+		 ai_will_do = {
+				 factor = 1
+		 }
+
+
+		}
+		 EUR_Streamlined_Production = {
+
+		 research_cost = 1
+		 start_year = 2004
+
+		 MVLV_asa_battalion = {
+			 build_cost_ic=-0.1
+		 }
+
+		 MVLV_tsa_battalion = {
+			 build_cost_ic=-0.1
+		 }
+
+		 MVLV_tsf_battalion = {
+			 build_cost_ic=-0.1
+		 }
+
+
+		 folder = {
+			 name = EUR_tsf_folder
+			 position = { x = -6 y = 15 }
+		 }
+		 categories = {
+			 MVLV_tsf_tech
+		 }
+
+		 ai_will_do = {
+				 factor = 1
+		 }
+
+		 }
+		 EUR_Regenerative_Shock_Absorbers = {
+
+		 research_cost = 1
+		 start_year = 2004
+
+		 MVLV_asa_battalion = {
+			 armor_value = 0.1
+			 breakthrough = 0.1
+			 reliability = 0.1
+		 }
+
+		 MVLV_tsa_battalion = {
+			 armor_value = 0.1
+			 breakthrough = 0.1
+			 reliability = 0.1
+		 }
+
+		 MVLV_tsf_battalion = {
+			 armor_value = 0.1
+			 breakthrough = 0.1
+			 reliability = 0.1
+		 }
+
+
+		 folder = {
+			 name = EUR_tsf_folder
+			 position = { x = -10 y = 15 }
+		 }
+		 categories = {
+			 MVLV_tsf_tech
+		 }
+
+		 ai_will_do = {
+				 factor = 1
+		 }
+
+		}
+
 }
