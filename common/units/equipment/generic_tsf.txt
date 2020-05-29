@@ -307,6 +307,10 @@ equipments = {
 		priority = 17
 		visual_level = 0
 		is_convertable = yes
+		can_convert_from = {
+			tsf_equipment_3g
+			tsf_equipment_3
+		}
                 #Misc Abilities
 		maximum_speed = 16.5
 		reliability = 0.8
@@ -341,10 +345,13 @@ equipments = {
 		parent = tsf_equipment_F15Eg
 		priority = 18
 		visual_level = 0
-		can_convert_from = {
-			tsf_equipment_F15Eg
-		}
 		is_convertable = yes
+		can_convert_from = {
+			tsf_equipment_3g
+			tsf_equipment_3
+			tsf_equipment_F15Eg
+			tsf_equipment_E15E
+		}
                 #Misc Abilities
 		maximum_speed = 15
 		reliability = 0.8
@@ -450,6 +457,12 @@ equipments = {
 		visual_level = 0
 		parent = tsf_equipment_F15Eg
 		is_convertable = yes
+		can_convert_from = {
+			tsf_equipment_3g
+			tsf_equipment_3
+			tsf_equipment_F15Eg
+			tsf_equipment_E15E
+		}
                 #Misc Abilities
 		maximum_speed = 17
 		reliability = 0.8

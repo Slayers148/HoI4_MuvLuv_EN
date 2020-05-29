@@ -1,22 +1,27 @@
 state={
 	id=644
 	name="STATE_644" #NE Siberia
-	manpower=68364
+	manpower=0
 	buildings_max_level_factor=1
 	state_category="wasteland"
 
 	history = {
 		1999.1.1 = {
-			owner = H26
-			add_core_of = H26
+			owner = SOV
+			set_province_controller = H26
 
-			SOV = {
+			H26 = {
+				set_province_controller = 1819
+				set_province_controller = 4006
+				set_province_controller = 4229
+				set_province_controller = 4455
+				set_province_controller = 12592
+				set_province_controller = 13061
+				set_province_controller = 13062
 				set_province_controller = 13204
-				set_province_controller = 13063
-				set_province_controller = 13236
-				set_province_controller = 5264
-				set_province_controller = 13220
-				set_province_controller = 4744
+				set_province_controller = 13222
+				set_province_controller = 13229
+				set_province_controller = 13233
 			}
 		}
 		owner = SOV

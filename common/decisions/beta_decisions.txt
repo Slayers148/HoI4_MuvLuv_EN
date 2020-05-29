@@ -40,14 +40,18 @@ beta = {
 		}
 	}
 
+###																	###
+###			BETA OFFENSIVE DECISION 		###
+###																	###
 
-	beta_offensive = {
+	beta_offensive_phase_1 = {
 
 		icon = generic_prepare_civil_war
 
 		available = {
 			ROOT = {
-				num_divisions>100
+				has_idea = hive_phase_1
+				num_divisions>33
 				is_in_faction_with = BET
 				any_neighbor_country = {
 					is_in_faction_with = UNI
@@ -61,10 +65,10 @@ beta = {
 			}
 		}
 
-		fire_only_once = no
+		days_remove = 60
+		days_re_enable = 120
 
-		modifier = {
-		}
+		fire_only_once = no
 
 		complete_effect = {
 			root = {
@@ -75,7 +79,268 @@ beta = {
 			}
 		}
 
-		remove_effect = {
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 20
+				num_divisions > 200
+			}
+		}
+	}
+
+	beta_offensive_phase_2 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			ROOT = {
+				has_idea = hive_phase_2
+				num_divisions>50
+				is_in_faction_with = BET
+				any_neighbor_country = {
+					is_in_faction_with = UNI
+					has_war_with = ROOT
+					}
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_country_flag = disabled_aggressive_beta
+					has_idea = mvlv_standby_sado
+					}
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 120
+
+		fire_only_once = no
+
+		complete_effect = {
+			root = {
+				add_timed_idea = {
+					idea = mvlv_aggressive_beta
+					days = 50
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 20
+				num_divisions > 200
+			}
+		}
+	}
+
+	beta_offensive_phase_3 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			ROOT = {
+				has_idea = hive_phase_3
+				num_divisions>75
+				is_in_faction_with = BET
+				any_neighbor_country = {
+					is_in_faction_with = UNI
+					has_war_with = ROOT
+					}
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_country_flag = disabled_aggressive_beta
+					has_idea = mvlv_standby_sado
+					}
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 120
+
+		fire_only_once = no
+
+		complete_effect = {
+			root = {
+				add_timed_idea = {
+					idea = mvlv_aggressive_beta
+					days = 50
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 20
+				num_divisions > 200
+			}
+		}
+	}
+
+	beta_offensive_phase_4 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			ROOT = {
+				has_idea = hive_phase_4
+				num_divisions>87
+				is_in_faction_with = BET
+				any_neighbor_country = {
+					is_in_faction_with = UNI
+					has_war_with = ROOT
+					}
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_country_flag = disabled_aggressive_beta
+					has_idea = mvlv_standby_sado
+					}
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 120
+
+		fire_only_once = no
+
+		complete_effect = {
+			root = {
+				add_timed_idea = {
+					idea = mvlv_aggressive_beta
+					days = 50
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 20
+				num_divisions > 200
+			}
+		}
+	}
+
+	beta_offensive_phase_5 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			ROOT = {
+				has_idea = hive_phase_5
+				num_divisions>130
+				is_in_faction_with = BET
+				any_neighbor_country = {
+					is_in_faction_with = UNI
+					has_war_with = ROOT
+					}
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_country_flag = disabled_aggressive_beta
+					has_idea = mvlv_standby_sado
+					}
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 120
+
+		fire_only_once = no
+
+		complete_effect = {
+			root = {
+				add_timed_idea = {
+					idea = mvlv_aggressive_beta
+					days = 50
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 20
+				num_divisions > 200
+			}
+		}
+	}
+
+	beta_offensive_phase_6 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			ROOT = {
+				has_idea = hive_phase_6
+				num_divisions>155
+				is_in_faction_with = BET
+				any_neighbor_country = {
+					is_in_faction_with = UNI
+					has_war_with = ROOT
+					}
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_country_flag = disabled_aggressive_beta
+					has_idea = mvlv_standby_sado
+					}
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 120
+
+		fire_only_once = no
+
+		complete_effect = {
+			root = {
+				add_timed_idea = {
+					idea = mvlv_aggressive_beta
+					days = 50
+				}
+			}
+		}
+
+		ai_will_do = {
+			base = 10
+			modifier = {
+				add = 20
+				num_divisions > 200
+			}
+		}
+	}
+
+	beta_offensive_phase_7 = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+			ROOT = {
+				has_idea = hive_phase_7
+				num_divisions>210
+				is_in_faction_with = BET
+				any_neighbor_country = {
+					is_in_faction_with = UNI
+					has_war_with = ROOT
+					}
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_country_flag = disabled_aggressive_beta
+					has_idea = mvlv_standby_sado
+					}
+			}
+		}
+
+		days_remove = 30
+		days_re_enable = 120
+
+		fire_only_once = no
+
+		complete_effect = {
+			root = {
+				add_timed_idea = {
+					idea = mvlv_aggressive_beta
+					days = 50
+				}
+			}
 		}
 
 		ai_will_do = {

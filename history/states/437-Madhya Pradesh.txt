@@ -2,24 +2,38 @@
 state={
 	id=437
 	name="STATE_437" # Indore
-	manpower = 8402500
+	manpower = 0
 
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H13
-			add_core_of = H13
+	history = { 1999.1.1 = {
+			owner = GEU
+			controller = H13
+			set_state_category = betaland
+
+			H13 = {
+				set_province_controller = 1949
+				set_province_controller = 2036
+				set_province_controller = 2092
+				set_province_controller = 2105
+				set_province_controller = 4106
+				set_province_controller = 7080
+				set_province_controller = 7205
+				set_province_controller = 8076
+				set_province_controller = 10807
+				set_province_controller = 10816
+				set_province_controller = 11993
+				set_province_controller = 12080 
+			}
 		}
 		owner = GEU
 		add_core_of = GEU
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
 		}
-
 	}
 
 	provinces={
-		1949 2036 2092 2105 4106 7080 7205 8076 10807 10816 11993 12080 
+		1949 2036 2092 2105 4106 7080 7205 8076 10807 10816 11993 12080
 	}
 }

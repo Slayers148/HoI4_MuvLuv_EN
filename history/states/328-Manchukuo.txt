@@ -2,36 +2,77 @@
 state={
 	id=328
 	name="STATE_328" # Kirin
-	manpower = 7536266
-	
+	manpower = 0
+
 	state_category = rural
 
 	resources={
 		aluminium=7 # was: 10
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H16
-			remove_core_of = H16
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H16
+			add_core_of = CHI
+			add_core_of = PRC
+			set_state_category = betaland
+
+			H16 = {
+				set_province_controller = 800
+				set_province_controller = 861
+				set_province_controller = 887
+				set_province_controller = 927
+				set_province_controller = 945
+				set_province_controller = 946
+				set_province_controller = 1567
+				set_province_controller = 3888
+				set_province_controller = 3913
+				set_province_controller = 3929
+				set_province_controller = 3932
+				set_province_controller = 3947
+				set_province_controller = 3949
+				set_province_controller = 4503
+				set_province_controller = 4572
+				set_province_controller = 6868
+				set_province_controller = 6905
+				set_province_controller = 6947
+				set_province_controller = 7523
+				set_province_controller = 7591
+				set_province_controller = 7652
+				set_province_controller = 7663
+				set_province_controller = 9759
+				set_province_controller = 9782
+				set_province_controller = 9803
+				set_province_controller = 9841
+				set_province_controller = 9848
+				set_province_controller = 9866
+				set_province_controller = 9883
+				set_province_controller = 9913
+				set_province_controller = 9928
+				set_province_controller = 10433
+				set_province_controller = 11744
+				set_province_controller = 11781
+				set_province_controller = 11823
+				set_province_controller = 11850
+				set_province_controller = 11862
+				set_province_controller = 11864
+				set_province_controller = 12412
+			}
 		}
 		owner = PRC
-		add_core_of = CHI
-		#add_core_of = MAN
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 4
-			#industrial_complex = 1
 		}
 		victory_points = {
 			4572 1
 		}
 		victory_points = {
-			10433 1 
+			10433 1
 		}
 
 	}
 
 	provinces={
-		800 861 887 927 945 946 1567 3888 3913 3929 3932 3947 3949 4503 4572 6868 6905 6947 7523 7591 7652 7663 9759 9782 9803 9841 9848 9866 9883 9913 9928 10433 11744 11781 11823 11850 11862 11864 12412 
+		800 861 887 927 945 946 1567 3888 3913 3929 3932 3947 3949 4503 4572 6868 6905 6947 7523 7591 7652 7663 9759 9782 9803 9841 9848 9866 9883 9913 9928 10433 11744 11781 11823 11850 11862 11864 12412
 	}
 }

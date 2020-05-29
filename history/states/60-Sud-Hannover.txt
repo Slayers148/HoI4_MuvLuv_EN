@@ -2,38 +2,51 @@
 state={
 	id=60
 	name="STATE_60"
-	manpower = 3005214
+	manpower = 0
 	resources={
 		steel=13 # was: 20
 		chromium = 3 # was: 4
 		tungsten = 3 # was: 4
 	}
-	
+
 	state_category = large_city
 
-	history = { 1999.1.1 = { 
-			owner = H05
-			remove_core_of = H05
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H05
 			add_core_of = EUR
 			remove_core_of = GER
+			set_state_category = betaland
+
+			H05 = {
+				set_province_controller = 425
+				set_province_controller = 482
+				set_province_controller = 538
+				set_province_controller = 3500
+				set_province_controller = 3561
+				set_province_controller = 6501
+				set_province_controller = 6524
+				set_province_controller = 6582
+				set_province_controller = 9497
+			}
 		}
 		owner = GER
 		victory_points = { 6524 5 }
 		victory_points = { 425 3 }
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 1
+			#industrial_complex = 1
 		}
 		add_core_of = GER
 		1939.1.1 = {
 			buildings = {
-				synthetic_refinery = 3
-				arms_factory = 2
+				#synthetic_refinery = 3
+				#arms_factory = 2
 			}
 		}
 	}
 
 	provinces={
-		425 482 538 3500 3561 6501 6524 6582 9497 
+		425 482 538 3500 3561 6501 6524 6582 9497
 	}
 }

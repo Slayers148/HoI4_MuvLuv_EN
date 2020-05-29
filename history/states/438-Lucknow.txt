@@ -2,13 +2,38 @@
 state={
 	id=438
 	name="STATE_438"
-	manpower = 33491000
-	
+	manpower = 0
+
 	state_category = rural
 
-	history = { 1999.1.1 = { 
-			owner = H13
-			remove_core_of = H13
+	history = { 1999.1.1 = {
+			owner = GEU
+			controller = H13
+			set_state_category = betaland
+
+			H13 = {
+				set_province_controller = 1377
+				set_province_controller = 1983
+				set_province_controller = 2005
+				set_province_controller = 4045
+				set_province_controller = 4299
+				set_province_controller = 4410
+				set_province_controller = 5040
+				set_province_controller = 5055
+				set_province_controller = 5086
+				set_province_controller = 5096
+				set_province_controller = 7064
+				set_province_controller = 7938
+				set_province_controller = 8082
+				set_province_controller = 8114
+				set_province_controller = 9951
+				set_province_controller = 9973
+				set_province_controller = 10332
+				set_province_controller = 10794
+				set_province_controller = 12137
+				set_province_controller = 12777
+				set_province_controller = 12786 
+			}
 		}
 		owner = RAJ
 		add_core_of = GEU
@@ -17,12 +42,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
 		}
-
 	}
 
 	provinces={
-		1377 1983 2005 4045 4299 4410 5040 5055 5086 5096 7064 7938 8082 8114 9951 9973 10332 10794 12137 12777 12786 
+		1377 1983 2005 4045 4299 4410 5040 5055 5086 5096 7064 7938 8082 8114 9951 9973 10332 10794 12137 12777 12786
 	}
 }

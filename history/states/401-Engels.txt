@@ -2,18 +2,43 @@
 state={
 	id=401
 	name="STATE_401"
-	manpower = 927795
-	
+	manpower = 0
+
 	state_category = rural
-	
+
 	resources={
 		steel=24 # was: 40
 		tungsten=16 # was: 34
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H03
-			remove_core_of = H03
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H03
+			set_state_category = betaland
+
+			H03 = {
+				set_province_controller = 410
+				set_province_controller = 452
+				set_province_controller = 499
+				set_province_controller = 3490
+				set_province_controller = 3551
+				set_province_controller = 6339
+				set_province_controller = 6430
+				set_province_controller = 6473
+				set_province_controller = 6502
+				set_province_controller = 6574
+				set_province_controller = 6601
+				set_province_controller = 9337
+				set_province_controller = 9432
+				set_province_controller = 9447
+				set_province_controller = 9473
+				set_province_controller = 9577
+				set_province_controller = 11321
+				set_province_controller = 11421
+				set_province_controller = 11458
+				set_province_controller = 11460
+				set_province_controller = 11523
+			}
 		}
 		owner = SOV
 		buildings = {
@@ -26,6 +51,6 @@ state={
 	}
 
 	provinces={
-		410 452 499 3490 3551 6339 6430 6473 6502 6574 6601 9337 9432 9447 9473 9577 11321 11421 11458 11460 11523 
+		410 452 499 3490 3551 6339 6430 6473 6502 6574 6601 9337 9432 9447 9473 9577 11321 11421 11458 11460 11523
 	}
 }

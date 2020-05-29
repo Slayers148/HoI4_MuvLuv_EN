@@ -2,16 +2,53 @@
 state={
 	id=408
 	name="STATE_408"
-	manpower = 841465
+	manpower = 0
 	resources={
 		chromium=20 # was: 28
 	}
-	
+
 	state_category = town
 
-	history = { 1999.1.1 = { 
-			owner = H19
-			remove_core_of = H19
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H19
+			set_state_category = betaland
+
+			H19 = {
+				set_province_controller = 664
+				set_province_controller = 681
+				set_province_controller = 837
+				set_province_controller = 957
+				set_province_controller = 3695
+				set_province_controller = 3723
+				set_province_controller = 3739
+				set_province_controller = 3753
+				set_province_controller = 3787
+				set_province_controller = 3811
+				set_province_controller = 3977
+				set_province_controller = 6684
+				set_province_controller = 6686
+				set_province_controller = 6715
+				set_province_controller = 6833
+				set_province_controller = 6838
+				set_province_controller = 6961
+				set_province_controller = 6989
+				set_province_controller = 9639
+				set_province_controller = 9641
+				set_province_controller = 9762
+				set_province_controller = 9895
+				set_province_controller = 9926
+				set_province_controller = 11624
+				set_province_controller = 11626
+				set_province_controller = 11629
+				set_province_controller = 11643
+				set_province_controller = 11745
+				set_province_controller = 11750
+				set_province_controller = 11765
+				set_province_controller = 11777
+				set_province_controller = 11879
+				set_province_controller = 11904
+			}
 
 			#鉄原陥落用
 			add_claim_by = H20
@@ -22,7 +59,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			dockyard = 1
 			air_base = 5
 			957 = {
 				naval_base = 8
@@ -33,6 +69,6 @@ state={
 	}
 
 	provinces={
-		664 681 837 957 3695 3723 3739 3753 3787 3811 3977 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904 
+		664 681 837 957 3695 3723 3739 3753 3787 3811 3977 6684 6686 6715 6833 6838 6961 6989 9639 9641 9762 9895 9926 11624 11626 11629 11643 11745 11750 11765 11777 11879 11904
 	}
 }

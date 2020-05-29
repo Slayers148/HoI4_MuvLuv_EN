@@ -2,24 +2,40 @@
 state={
 	id=424
 	name="STATE_424" # Madras
-	manpower = 15791700
+	manpower = 0
 	state_category = rural
-	
 
-	history = { 1999.1.1 = { 
-			owner = H13
-			remove_core_of = H13
+	history = { 1999.1.1 = {
+			owner = GEU
+			controller = H13
+			set_state_category = betaland
+
+			H13 = {
+				set_province_controller = 1228
+				set_province_controller = 1344
+				set_province_controller = 1430
+				set_province_controller = 4321
+				set_province_controller = 4365
+				set_province_controller = 4414
+				set_province_controller = 7297
+				set_province_controller = 7310
+				set_province_controller = 7340
+				set_province_controller = 10152
+				set_province_controller = 10296
+				set_province_controller = 10756
+				set_province_controller = 10897
+				set_province_controller = 12180
+				set_province_controller = 12779 
+			}
 		}
 		owner = RAJ
 		add_core_of = GEU
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
 		}
-
 	}
 
 	provinces={
-		1228 1344 1430 4321 4365 4414 7297 7310 7340 10152 10296 10756 10897 12180 12779 
+		1228 1344 1430 4321 4365 4414 7297 7310 7340 10152 10296 10756 10897 12180 12779
 	}
 }
