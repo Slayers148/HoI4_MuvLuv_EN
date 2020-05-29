@@ -243,6 +243,8 @@ ideas = {
 				supply_consumption_factor = 0.01
 				dig_in_speed_factor = -0.05
 				land_reinforce_rate = 0.2
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.2
 
 				# production
 				production_factory_max_efficiency_factor = -0.02
