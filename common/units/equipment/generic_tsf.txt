@@ -310,6 +310,7 @@ equipments = {
 		can_convert_from = {
 			tsf_equipment_3g
 			tsf_equipment_3
+			tsf_equipment_F15EU
 		}
                 #Misc Abilities
 		maximum_speed = 16.5
@@ -351,6 +352,8 @@ equipments = {
 			tsf_equipment_3
 			tsf_equipment_F15Eg
 			tsf_equipment_E15E
+			tsf_equipment_E15EU
+			tsf_equipment_E15EEU
 		}
                 #Misc Abilities
 		maximum_speed = 15
@@ -462,6 +465,8 @@ equipments = {
 			tsf_equipment_3
 			tsf_equipment_F15Eg
 			tsf_equipment_E15E
+			tsf_equipment_F15EU
+			tsf_equipment_F15EEU
 		}
                 #Misc Abilities
 		maximum_speed = 17
