@@ -195,7 +195,6 @@ ideas = {
 				industry_repair_factor = 0.50
 				partisan_effect = -1.00
 				enemy_partisan_effect = -0.25
-				lend_lease_tension = 10
 
 				#resource
 				local_resources_factor = 20.0
