@@ -37,6 +37,8 @@ sub_units = {
 		recon = 0.5
 		initiative = 0.1
 
+		entrenchment = 10
+
 		forest = {
 			attack = -0.1
 			movement = -0.2
