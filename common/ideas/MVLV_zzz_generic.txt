@@ -250,7 +250,7 @@ ideas = {
 				production_factory_efficiency_gain_factor = -0.04
 				production_speed_bunker_factor = 0.2
 
-				invasion_preparation = 0.6
+				invasion_preparation = -0.8
 			}
 		}
 
