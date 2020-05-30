@@ -6,7 +6,7 @@ capital = 361 #首都
 	oob = "USA_1999" #陸軍テンプレート読み込み
 
 	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
-	
+
 	set_technology = { #初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -44,7 +44,7 @@ capital = 361 #首都
 		interwar_artillery = 1
 		artillery1 = 1
 		artillery2 = 1
-					basic_medium_spaa =1
+		basic_medium_spaa = 1
 		rocket_artillery = 1
 		gwtank = 1
 		basic_light_tank = 1
@@ -85,10 +85,12 @@ capital = 361 #首都
 		atomic_research = 1
 		nuclear_reactor = 1
 		nukes = 1
+		night_vision = 1
+		night_vision2 = 1
 
 		###陸軍ドクトリン###
 		mobile_warfare = 1
-		
+
 		###TSF###
 		USA_basic_concept_research = 1
 		USA_3rd_tsf_high = 1
@@ -107,25 +109,25 @@ capital = 361 #首都
 		USA_Manipulator_improvement = 1
 		USA_Carrying_ammunition_increase = 1
 		USA_tsa_1st = 1
-		
-		
+
+
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
 	}
-	
+
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5 
+		uses = 5
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}	
-	
+	}
+
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1 
+		uses = 1
 		technology = flexible_line
 		technology = streamlined_line
 	}
@@ -194,7 +196,7 @@ capital = 361 #首都
 		}
 		set_naval_oob = "UNI_1999_navy_legacy"
 	}
-	
+
 	set_convoys = 1200 #初期輸送船数を定義
 }
 	set_stability = 0.75 #初期安定度を定義
@@ -239,7 +241,7 @@ capital = 361 #首都
 		expire = "1965.1.1"
 		ideology = fascism_ideology
 		traits = {
-			
+
 		}
 	}
 
@@ -250,7 +252,7 @@ capital = 361 #首都
 		expire = "1965.1.1"
 		ideology = marxism
 		traits = {
-			
+
 		}
 	}
 
@@ -261,7 +263,7 @@ capital = 361 #首都
 		traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
 		skill = 7
 
-		attack_skill = 8 
+		attack_skill = 8
 		defense_skill = 4
 		planning_skill = 2
 		logistics_skill = 6
@@ -466,7 +468,7 @@ capital = 361 #首都
 		}
 		obsolete = yes
 	}
-	### Battleship Variants	
+	### Battleship Variants
 	create_equipment_variant = {
 		name = "Ise Class"
 		type = battleship_1
@@ -491,7 +493,7 @@ capital = 361 #首都
 		}
 		obsolete = yes
 	}
-	### Heavy Cruiser Variants	
+	### Heavy Cruiser Variants
 	create_equipment_variant = {
 		name = "Myoko Class"
 		type = heavy_cruiser_1
@@ -504,7 +506,7 @@ capital = 361 #首都
 		}
 		obsolete = yes
 	}
-	### Light Cruiser Variants	
+	### Light Cruiser Variants
 	create_equipment_variant = {
 		name = "Kuma Class"
 		type = light_cruiser_1
@@ -540,8 +542,8 @@ capital = 361 #首都
 			ship_ASW_upgrade = 2
 			ship_anti_air_upgrade = 2
 		}
-	}	
-	### Submarine Variants	
+	}
+	### Submarine Variants
 	create_equipment_variant = {
 		name = "Kaidai III Class"
 		type = submarine_1
@@ -653,7 +655,7 @@ if = {
 		}
 		obsolete = yes
 	}
-	### Battleship Variants	
+	### Battleship Variants
 	create_equipment_variant = {
 		name = "Nagato Class"
 		name_group = JAP_BB_HISTORICAL
@@ -712,8 +714,8 @@ if = {
 		}
 		obsolete = yes
 	}
-		
-	### Heavy Cruiser Variants			
+
+	### Heavy Cruiser Variants
 	create_equipment_variant = {
 		name = "Myoko Class"
 		type = ship_hull_cruiser_2
@@ -936,7 +938,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Momi Class" 
+		name = "Momi Class"
 		type = ship_hull_light_1
 		name_group = JAP_DD_HISTORICAL
 		parent_version = 0
@@ -983,8 +985,8 @@ if = {
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_mine_layer_1
 		}
-	}	
-	### Submarine Variants	
+	}
+	### Submarine Variants
 	create_equipment_variant = {
 		name = "Kaidai III Class"
 		type = ship_hull_submarine_1
@@ -995,7 +997,7 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
-	}	
+	}
 	create_equipment_variant = {
 		name = "Ro-26 Class"
 		type = ship_hull_submarine_1
@@ -1037,7 +1039,7 @@ if = {
 				ship_reliability_upgrade = 1
 			}
 		}
-		
+
 		create_equipment_variant = {
 			name = "Kagero Class"
 			type = destroyer_2
@@ -1170,5 +1172,5 @@ if = {
 				rear_1_custom_slot = empty
 			}
 		}
-	}	
+	}
 }

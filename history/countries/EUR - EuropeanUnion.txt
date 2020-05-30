@@ -4,7 +4,7 @@
 	oob = "EUR_1999" #陸軍テンプレート読み込み
 
 	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
-	
+
 	set_technology = { #初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -15,15 +15,15 @@
 		tech_engineers3 = 1
 		tech_engineers4 = 1
 		tech_recon = 1
-		tech_recon2 = 1	
+		tech_recon2 = 1
 		tech_recon3 = 1
-		tech_recon4 = 1	
+		tech_recon4 = 1
 		tech_field_hospital = 1
 		tech_field_hospital2 = 1
 		tech_field_hospital3 = 1
 		tech_field_hospital4 = 1
 		tech_logistics_company = 1
-		tech_logistics_company2 = 1	
+		tech_logistics_company2 = 1
 		tech_logistics_company3 = 1
 		tech_logistics_company4 = 1
 		tech_military_police = 1
@@ -68,7 +68,7 @@
 		construction2 = 1
 		construction3 = 1
 		construction4 = 1
-		construction5 = 1		
+		construction5 = 1
 		fuel_silos = 1
 		fuel_refining = 1
 		streamlined_line = 1
@@ -82,10 +82,12 @@
 		atomic_research = 1
 		nuclear_reactor = 1
 		nukes = 1
-		
+		night_vision = 1
+		night_vision2 = 1
+
 		###陸軍ドクトリン###
 		mobile_warfare = 1
-		
+
 		###TSF
 		EUR_basic_concept_research= 1
 		F4E = 1
@@ -102,28 +104,28 @@
 		MVLV_Jumping_unit_improvement = 1
 		MVLV_Carrying_ammunition_increase = 1
 		MVLV_tsa_1st = 1
-		
+
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
 	}
-	
+
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5 
+		uses = 5
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}	
-	
+	}
+
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1 
+		uses = 1
 		technology = flexible_line
 		technology = streamlined_line
 	}
-	
+
 	add_ideas = { #初期国家精神を定義
 		limited_exports
 		service_by_requirement
@@ -137,7 +139,7 @@
 		mvlv_arms_build_up
 		EUR_Nuclear_Weapons_Stockpile
 	}
-	
+
 	set_convoys = 800 #初期輸送船数を定義
 }
 set_stability = 0.6 #初期安定度を定義
@@ -157,7 +159,7 @@ set_politics = { #初期政体を定義
 	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes 
+	elections_allowed = yes
 }
 
 set_popularities = { #初期支持率を定義
@@ -185,7 +187,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = liberalism
 	traits = {
-		
+
 	}
 }
 
@@ -196,7 +198,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+
 	}
 }
 
@@ -207,7 +209,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = leninism
 	traits = {
-		
+
 	}
 }
 
@@ -227,7 +229,7 @@ create_field_marshal = {
 	name = "ベルナデット・リヴィエール"
 	picture = "71.dds"
 	traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
-	skill = 5 
+	skill = 5
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 3

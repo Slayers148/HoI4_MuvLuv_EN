@@ -16,7 +16,7 @@
 	add_to_faction = SOA
 	add_to_faction = SOV
 	add_to_faction = USA
-	
+
 	set_technology = {
 		###TSF
 		F5U = 1
@@ -60,7 +60,7 @@
 
 		basic_medium_tank = 1
 		improved_decryption = 1
-		
+
 		###軍需・民需建築許可
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
@@ -69,15 +69,15 @@
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5 
+		uses = 5
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}	
-	
+	}
+
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1 
+		uses = 1
 		technology = flexible_line
 		technology = streamlined_line
 	}
@@ -94,16 +94,16 @@
 		tech_engineers3 = 1
 		tech_engineers4 = 1
 		tech_recon = 1
-		tech_recon2 = 1	
+		tech_recon2 = 1
 		tech_recon3 = 1
-		tech_recon4 = 1	
+		tech_recon4 = 1
 		tech_field_hospital = 1
 		tech_field_hospital2 = 1
 		tech_field_hospital3 = 1
 		tech_field_hospital4 = 1
 		tech_logistics_company = 1
 					basic_medium_spaa =1
-		tech_logistics_company2 = 1	
+		tech_logistics_company2 = 1
 		tech_logistics_company3 = 1
 		tech_logistics_company4 = 1
 		tech_military_police = 1
@@ -159,7 +159,7 @@
 		construction2 = 1
 		construction3 = 1
 		construction4 = 1
-		construction5 = 1		
+		construction5 = 1
 		fuel_silos = 1
 		fuel_refining = 1
 		streamlined_line = 1
@@ -167,10 +167,12 @@
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
-		dispersed_industry5 = 1	
+		dispersed_industry5 = 1
 		atomic_research = 1
 		nuclear_reactor = 1
 		nukes = 1
+		night_vision = 1
+		night_vision2 = 1
 	}
 
 	set_convoys = 2500
@@ -291,7 +293,7 @@
 		traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
 		skill = 6
 
-		attack_skill = 7 
+		attack_skill = 7
 		defense_skill = 3
 		planning_skill = 8
 		logistics_skill = 4
@@ -536,7 +538,7 @@
 		}
 		obsolete = yes
 	}
-	### Battleship Variants	
+	### Battleship Variants
 	create_equipment_variant = {
 		name = "Ise Class"
 		type = battleship_1
@@ -561,7 +563,7 @@
 		}
 		obsolete = yes
 	}
-	### Heavy Cruiser Variants	
+	### Heavy Cruiser Variants
 	create_equipment_variant = {
 		name = "Myoko Class"
 		type = heavy_cruiser_1
@@ -574,7 +576,7 @@
 		}
 		obsolete = yes
 	}
-	### Light Cruiser Variants	
+	### Light Cruiser Variants
 	create_equipment_variant = {
 		name = "Kuma Class"
 		type = light_cruiser_1
@@ -610,8 +612,8 @@
 			ship_ASW_upgrade = 2
 			ship_anti_air_upgrade = 2
 		}
-	}	
-	### Submarine Variants	
+	}
+	### Submarine Variants
 	create_equipment_variant = {
 		name = "Kaidai III Class"
 		type = submarine_1
@@ -723,7 +725,7 @@ if = {
 		}
 		obsolete = yes
 	}
-	### Battleship Variants	
+	### Battleship Variants
 	create_equipment_variant = {
 		name = "Nagato Class"
 		name_group = JAP_BB_HISTORICAL
@@ -782,8 +784,8 @@ if = {
 		}
 		obsolete = yes
 	}
-		
-	### Heavy Cruiser Variants			
+
+	### Heavy Cruiser Variants
 	create_equipment_variant = {
 		name = "Myoko Class"
 		type = ship_hull_cruiser_2
@@ -1006,7 +1008,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Momi Class" 
+		name = "Momi Class"
 		type = ship_hull_light_1
 		name_group = JAP_DD_HISTORICAL
 		parent_version = 0
@@ -1053,8 +1055,8 @@ if = {
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_mine_layer_1
 		}
-	}	
-	### Submarine Variants	
+	}
+	### Submarine Variants
 	create_equipment_variant = {
 		name = "Kaidai III Class"
 		type = ship_hull_submarine_1
@@ -1065,7 +1067,7 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
-	}	
+	}
 	create_equipment_variant = {
 		name = "Ro-26 Class"
 		type = ship_hull_submarine_1
@@ -1107,7 +1109,7 @@ if = {
 				ship_reliability_upgrade = 1
 			}
 		}
-		
+
 		create_equipment_variant = {
 			name = "Kagero Class"
 			type = destroyer_2
@@ -1240,5 +1242,5 @@ if = {
 				rear_1_custom_slot = empty
 			}
 		}
-	}	
+	}
 }
