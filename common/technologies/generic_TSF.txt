@@ -240,7 +240,7 @@ technologies = {
 		path = {
 			leads_to_tech = generic_3rd_tsf_low
 			research_cost_coeff = 1
-			
+
 
 		folder = {
 			name = generic_tsf_folder
@@ -502,7 +502,7 @@ technologies = {
 
 		folder = {
 			name = generic_tsf_folder
-			position = { x = 4 y = 12 }
+			position = { x = 7 y = 12 }
 		}
 		categories = {
 			MVLV_tsf_tech
