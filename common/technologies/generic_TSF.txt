@@ -528,7 +528,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 2002
+		start_year = 2000
 
 		path = {
 			leads_to_tech = generic_3rd_tsf2
