@@ -1,5 +1,5 @@
 political_actions = {
-	
+
 		Human_Unity = {
 
 		icon = generic_industry
@@ -36,11 +36,37 @@ political_actions = {
 			}
 		}
 	}
-	
+
 }
 
 economy_decisions = {
-		
+
+	CHI_Hainan_Reconstruction = {
+			icon = generic_operation
+			allowed = { tag = CHI }
+			available = {
+									591 = { is_controlled_by = CHI }
+									}
+			ai_will_do = {
+					factor = 1
+			}
+			fire_only_once = yes
+			days_remove = 5
+			cost = 100
+			complete_effect = {
+			add_offsite_building = { type = arms_factory level = 50 }
+			add_offsite_building = { type = industrial_complex level = 30 }
+			591 = {
+				add_manpower = 2000000
+				set_building_level = {
+										type = coastal_bunker
+										level = 10
+										province = 1070
+										instant_build = yes
+								}
+					}				
+			}
+	}
 }
 
 propaganda_efforts = {
@@ -57,7 +83,7 @@ propaganda_efforts = {
 		}
 
 		visible = {
-			
+
 		}
 
 		fire_only_once = no
@@ -255,7 +281,7 @@ operations = {
 			}
 			add_manpower = -75000
 		}
-		
+
 		remove_effect = {
 		}
 
@@ -284,7 +310,7 @@ operations = {
 			}
 		}
 	}
-	
+
 	AFR_MidEast_Jihad = {
 		icon = generic_operation
 		available = {
@@ -292,7 +318,7 @@ operations = {
 			is_neighbor_of = H09
 		}
 		visible = {
-			
+
 		}
 		ai_will_do = {
 			factor = 1
@@ -310,15 +336,15 @@ operations = {
 		}
 	}
 
-	
+
 
 special_projects = {
 
-	
+
 }
 
 war_measures = {
-	
+
 	emergency_factory_conversion_defensive = {
 
 		icon = generic_industry
@@ -329,7 +355,7 @@ war_measures = {
 
 		visible = {
 			has_defensive_war = yes
-			has_offensive_war = no			
+			has_offensive_war = no
 		}
 
 		fire_only_once = no
@@ -636,7 +662,7 @@ foreign_politics = {
 			#FROM = { has_sent_attache = yes } # Make such trigger to optimize if it becomes a performance problem again.
 			any_enemy_country = {
 				has_attache_from = FROM
-			}			
+			}
 		}
 
         complete_effect = {
@@ -838,17 +864,17 @@ economy_decisions = {
 
 foreign_support = {
 
-###  #  # ###  #   #  ##      ###   ##   ##  ###  
-#  # #  # #  # ## ## #  #     #  # #  # #  # #  # 
-###  #  # ###  # # # ####     ###  #  # #### #  # 
-#  # #  # #  # #   # #  #     #  # #  # #  # #  # 
-###   ##  #  # #   # #  #     #  #  ##  #  # ###  
+###  #  # ###  #   #  ##      ###   ##   ##  ###
+#  # #  # #  # ## ## #  #     #  # #  # #  # #  #
+###  #  # ###  # # # ####     ###  #  # #### #  #
+#  # #  # #  # #   # #  #     #  # #  # #  # #  #
+###   ##  #  # #   # #  #     #  #  ##  #  # ###
 
-	 ##  #    ##   ## ### 
-	#  # #   #  # #   #   
-	#    #   #  #  #  ##  
-	#  # #   #  #   # #   
-	 ##  ###  ##  ##  ### 
+	 ##  #    ##   ## ###
+	#  # #   #  # #   #
+	#    #   #  #  #  ##
+	#  # #   #  #   # #
+	 ##  ###  ##  ##  ###
 
 	CHI_close_burma_road = {
 
@@ -980,7 +1006,7 @@ foreign_support = {
 			random_country = {
 				#Country that had the route
 				limit = { check_variable = { CHI_burma_road_current_level > 0 } }
-				hidden_effect = {					
+				hidden_effect = {
 					set_variable = { tempvar = 0 }
 					subtract_from_variable = { var = tempvar value = CHI_burma_road_current_level }
 
@@ -996,11 +1022,11 @@ foreign_support = {
 		}
 	}
 
-	###  ###  ##  ###  ### #  # 
-	#  # #   #  # #  # #   ## # 
-	###  ##  #  # ###  ##  # ## 
-	#  # #   #  # #    #   #  # 
-	#  # ###  ##  #    ### #  # 
+	###  ###  ##  ###  ### #  #
+	#  # #   #  # #  # #   ## #
+	###  ##  #  # ###  ##  # ##
+	#  # #   #  # #    #   #  #
+	#  # ###  ##  #    ### #  #
 	CHI_reopen_burma_road = {
 
 		allowed = {
@@ -1158,7 +1184,7 @@ foreign_support = {
 				if = {
 					limit = {
 						any_state = {
-							has_state_flag = CHI_burma_road_closed_state							
+							has_state_flag = CHI_burma_road_closed_state
 							NOT = { is_controlled_by = ROOT }
 							CONTROLLER = {
 								NOT = { is_subject_of = ROOT }
@@ -1174,10 +1200,10 @@ foreign_support = {
 						limit = { NOT = { tag = ROOT } }
 						country_event = { id = wtt_burma_road.4 }
 					}
-					hidden_effect = {					
+					hidden_effect = {
 						add_offsite_building = { type = arms_factory level = CHI_burma_road_closed_level }
 						set_variable = { CHI_burma_road_current_level = CHI_burma_road_closed_level }
-						clear_variable = CHI_burma_road_closed_level 
+						clear_variable = CHI_burma_road_closed_level
 					}
 					custom_effect_tooltip = reopen_burma_road_explanation # Prints the contents of the CHI_burma_road_closed_level variable
 				}
@@ -1185,18 +1211,18 @@ foreign_support = {
 		}
 	}
 
-#   ### ###   ##      ###   ##   ##  ###  
-#   #   #  # #  #     #  # #  # #  # #  # 
-#   ##  #  # #  #     ###  #  # #### #  # 
-#   #   #  # #  #     #  # #  # #  # #  # 
-### ### ###   ##      #  #  ##  #  # ###  
-	
+#   ### ###   ##      ###   ##   ##  ###
+#   #   #  # #  #     #  # #  # #  # #  #
+#   ##  #  # #  #     ###  #  # #### #  #
+#   #   #  # #  #     #  # #  # #  # #  #
+### ### ###   ##      #  #  ##  #  # ###
 
-	 ##  #    ##   ## ### 
-	#  # #   #  # #   #   
-	#    #   #  #  #  ##  
-	#  # #   #  #   # #   
-	 ##  ###  ##  ##  ### 
+
+	 ##  #    ##   ## ###
+	#  # #   #  # #   #
+	#    #   #  #  #  ##
+	#  # #   #  #   # #
+	 ##  ###  ##  ##  ###
 
 	CHI_close_ledo_road = {
 
@@ -1233,7 +1259,7 @@ foreign_support = {
 						}
 					}
 				}
-			}			
+			}
 		}
 
 		visible = {
@@ -1328,7 +1354,7 @@ foreign_support = {
 			random_country = {
 				#Country that had the route
 				limit = { check_variable = { CHI_ledo_road_current_level > 0 } }
-				hidden_effect = {					
+				hidden_effect = {
 					set_variable = { tempvar = 0 }
 					subtract_from_variable = { var = tempvar value = CHI_ledo_road_current_level }
 
@@ -1344,11 +1370,11 @@ foreign_support = {
 		}
 	}
 
-	###  ###  ##  ###  ### #  # 
-	#  # #   #  # #  # #   ## # 
-	###  ##  #  # ###  ##  # ## 
-	#  # #   #  # #    #   #  # 
-	#  # ###  ##  #    ### #  # 
+	###  ###  ##  ###  ### #  #
+	#  # #   #  # #  # #   ## #
+	###  ##  #  # ###  ##  # ##
+	#  # #   #  # #    #   #  #
+	#  # ###  ##  #    ### #  #
 	CHI_reopen_ledo_road = {
 
 		allowed = {
@@ -1518,7 +1544,7 @@ foreign_support = {
 				if = {
 					limit = {
 						any_state = {
-							has_state_flag = CHI_ledo_road_closed_state							
+							has_state_flag = CHI_ledo_road_closed_state
 							NOT = { is_controlled_by = ROOT }
 							CONTROLLER = {
 								NOT = { is_subject_of = ROOT }
@@ -1534,7 +1560,7 @@ foreign_support = {
 						limit = { NOT = { tag = ROOT } }
 						country_event = { id = wtt_ledo_road.4 }
 					}
-					hidden_effect = {					
+					hidden_effect = {
 						add_offsite_building = { type = arms_factory level = CHI_ledo_road_closed_level }
 						set_variable = { CHI_ledo_road_current_level = CHI_ledo_road_closed_level }
 						clear_variable = CHI_ledo_road_closed_level
@@ -1545,17 +1571,17 @@ foreign_support = {
 		}
 	}
 
-### #  # ###     #  # #  # #   # ###  
- #  #  # #       #  # #  # ## ## #  # 
- #  #### ##      #### #  # # # # ###  
- #  #  # #       #  # #  # #   # #    
+### #  # ###     #  # #  # #   # ###
+ #  #  # #       #  # #  # ## ## #  #
+ #  #### ##      #### #  # # # # ###
+ #  #  # #       #  # #  # #   # #
  #  #  # ###     #  #  ##  #   # #
 
-	 ##  #    ##   ## ### 
-	#  # #   #  # #   #   
-	#    #   #  #  #  ##  
-	#  # #   #  #   # #   
-	 ##  ###  ##  ##  ### 
+	 ##  #    ##   ## ###
+	#  # #   #  # #   #
+	#    #   #  #  #  ##
+	#  # #   #  #   # #
+	 ##  ###  ##  ##  ###
  	CHI_close_the_hump = {
 
  		allowed = {
@@ -1668,7 +1694,7 @@ foreign_support = {
  			random_country = {
  				#Country that had the route
  				limit = { check_variable = { CHI_the_hump_current_level > 0 } }
- 				hidden_effect = {					
+ 				hidden_effect = {
  					set_variable = { tempvar = 0 }
  					subtract_from_variable = { var = tempvar value = CHI_the_hump_current_level }
 
@@ -1684,11 +1710,11 @@ foreign_support = {
  		}
  	}
 
- 	###  ###  ##  ###  ### #  # 
- 	#  # #   #  # #  # #   ## # 
- 	###  ##  #  # ###  ##  # ## 
- 	#  # #   #  # #    #   #  # 
- 	#  # ###  ##  #    ### #  # 
+ 	###  ###  ##  ###  ### #  #
+ 	#  # #   #  # #  # #   ## #
+ 	###  ##  #  # ###  ##  # ##
+ 	#  # #   #  # #    #   #  #
+ 	#  # ###  ##  #    ### #  #
  	CHI_reopen_the_hump = {
 
  		allowed = {
@@ -1817,7 +1843,7 @@ foreign_support = {
  				if = {
  					limit = {
  						any_state = {
- 							has_state_flag = CHI_the_hump_closed_state							
+ 							has_state_flag = CHI_the_hump_closed_state
  							NOT = { is_controlled_by = ROOT }
  							CONTROLLER = {
  								NOT = { is_subject_of = ROOT }
@@ -1833,7 +1859,7 @@ foreign_support = {
  						limit = { NOT = { tag = ROOT } }
  						country_event = { id = wtt_the_hump.4 }
  					}
- 					hidden_effect = {					
+ 					hidden_effect = {
  						add_offsite_building = { type = arms_factory level = CHI_the_hump_closed_level }
  						set_variable = { CHI_the_hump_current_level = CHI_the_hump_closed_level }
  						clear_variable = CHI_the_hump_closed_level
@@ -1845,17 +1871,17 @@ foreign_support = {
  	}
 
 
-#  #  ##  #  #  ##  ###     ###   ##  #  # ### ### 
-#  # #  # ## # #  #  #      #  # #  # #  #  #  #   
-#### #### # ## #  #  #      ###  #  # #  #  #  ##  
-#  # #  # #  # #  #  #      #  # #  # #  #  #  #   
-#  # #  # #  #  ##  ###     #  #  ##   ##   #  ### 
+#  #  ##  #  #  ##  ###     ###   ##  #  # ### ###
+#  # #  # ## # #  #  #      #  # #  # #  #  #  #
+#### #### # ## #  #  #      ###  #  # #  #  #  ##
+#  # #  # #  # #  #  #      #  # #  # #  #  #  #
+#  # #  # #  #  ##  ###     #  #  ##   ##   #  ###
 
-	 ##  #    ##   ## ### 
-	#  # #   #  # #   #   
-	#    #   #  #  #  ##  
-	#  # #   #  #   # #   
-	 ##  ###  ##  ##  ### 
+	 ##  #    ##   ## ###
+	#  # #   #  # #   #
+	#    #   #  #  #  ##
+	#  # #   #  #   # #
+	 ##  ###  ##  ##  ###
 
 	CHI_close_hanoi_route = {
 
@@ -1969,7 +1995,7 @@ foreign_support = {
 			random_country = {
 				#Country that had the route
 				limit = { check_variable = { CHI_hanoi_route_current_level > 0 } }
-				hidden_effect = {					
+				hidden_effect = {
 					set_variable = { tempvar = 0 }
 					subtract_from_variable = { var = tempvar value = CHI_hanoi_route_current_level }
 

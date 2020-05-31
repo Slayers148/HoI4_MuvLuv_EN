@@ -20,7 +20,7 @@ country_event = {
 	#}
 	option ={
 		name = BETA.1.a
-		every_state = {
+		every_controlled_state = {
 			limit = {
 				OR = {
 					is_owned_by = BET
@@ -47,10 +47,9 @@ country_event = {
 					is_owned_by = H03
 					is_owned_by = H02
 				}
-				is_capital = no
 			}
 			#set_state_category = betaland
-			#remove_building = { type = air_base	}
+			#set_building_level = { type = air_base	level = 0 }
 		}
 	}
 }

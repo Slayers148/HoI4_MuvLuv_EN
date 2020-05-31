@@ -14,6 +14,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = USA
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = USA
 							transfer_troops = yes
@@ -37,6 +43,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = AFR
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = AFR
 							transfer_troops = yes
@@ -61,6 +73,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = OSE
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = OSE
 							transfer_troops = yes
@@ -84,6 +102,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = EUR
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = EUR
 							transfer_troops = yes
@@ -107,6 +131,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = GEU
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = GEU
 							transfer_troops = yes
@@ -130,6 +160,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = CEA
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = CEA
 							transfer_troops = yes
@@ -153,6 +189,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = SOA
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = SOA
 							transfer_troops = yes
@@ -176,6 +218,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = JAP
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = JAP
 							transfer_troops = yes
@@ -199,6 +247,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = CAN
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = CAN
 							transfer_troops = yes
@@ -222,6 +276,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = CHI
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = CHI
 							transfer_troops = yes
@@ -246,6 +306,12 @@ political_actions = {
           fire_only_once = yes
 
           complete_effect = {
+            every_state = {
+                limit = {
+                  is_core_of = SOV
+                  }
+                add_core_of  = UNI
+            }
 						annex_country = {
 							target = SOV
 							transfer_troops = yes
