@@ -1,0 +1,34 @@
+﻿
+units = {
+	
+	##### 第二艦隊 #####
+	fleet = {
+		name = "UFC South Sea Fleet"
+		naval_base = 12068 #taiwan
+		task_force = {
+			name = "UFC South Sea Fleet"
+			location = 12068　#taiwan
+			#Flagship
+			ship = { name = "UFCS Renhai" definition = light_cruiser equipment = { light_cruiser_1 = {amount = 1 owner = CHI　} } }
+			ship = { name = "UFCS Tso Ying" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Su Ao" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Kee Lung" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Ma Kong" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Cheng Kung" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }		
+			ship = { name = "UFCS Cheng Ho" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Chi Kuang" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Yueh Fei " definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Huludao" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = CHI } } }		
+			ship = { name = "UFCS Yichang" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Putian" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = CHI } } }
+			ship = { name = "UFCS Lianyungang" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = CHI } } }
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+	
+}
