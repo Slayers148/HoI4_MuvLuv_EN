@@ -1,40 +1,43 @@
 state={
 	id=601
 	name="STATE_601"
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
 	resources={
 		oil=2.000
 	}
 
 	history = {
-		1999.1.1 = { 
-			owner = H14
-			remove_core_of = H14
+		1999.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			add_core_of = PRC
+			controller = H14
+			set_state_category = betaland
+
+			H14 = {
+				set_province_controller = 4407
+				set_province_controller = 5018
+				set_province_controller = 5080
+				set_province_controller = 5102
+				set_province_controller = 8041
+				set_province_controller = 8059
+				set_province_controller = 10741
+				set_province_controller = 10856
+			}
 		}
 		owner = PRC
-		add_core_of = CHI
-		#add_core_of = TIB
-		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
 			10856 1
 		}
-		1939.1.1 = {
-			buildings = {
-				infrastructure = 2
-
-			}
-
-		}
-
 	}
 
 	provinces={
-		4407 5018 5080 5102 8041 8059 10741 10856 
+		4407 5018 5080 5102 8041 8059 10741 10856
 	}
-	manpower=368200
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

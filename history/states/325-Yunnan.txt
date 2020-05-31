@@ -12,6 +12,7 @@ state={
 			owner = CHI
 			controller = H16
 			add_core_of = CHI
+			add_core_of = PRC
 			set_state_category = betaland
 
 			H16 = {
@@ -29,7 +30,7 @@ state={
 				set_province_controller = 10346
 				set_province_controller = 10776
 				set_province_controller = 12262
-				set_province_controller = 12282 
+				set_province_controller = 12282
 			}
 		}
 		owner = PRC

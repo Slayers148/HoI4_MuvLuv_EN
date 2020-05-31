@@ -1,28 +1,39 @@
 state= {
 	id=99
 	name="STATE_99"
-	manpower = 1672235
+	manpower = 0
 	resources={
 		aluminium=6 # was: 10
 	}
-	
+
 	state_category = town
 
 	history=
-	{ 1999.1.1 = { 
-			owner = H05
-			remove_core_of = H05			
+	{ 1999.1.1 = {
+			owner = EUR
+			controller = H05
 			add_core_of = EUR
-			remove_core_of = DEN
-		}
+			set_state_category = betaland
 
+			H05 = {
+				set_province_controller = 316
+				set_province_controller = 332
+				set_province_controller = 394
+				set_province_controller = 399
+				set_province_controller = 3206
+				set_province_controller = 3277
+				set_province_controller = 3341
+				set_province_controller = 6235
+				set_province_controller = 6364
+				set_province_controller = 11251
+			}
+		}
 		owner = DEN
 		victory_points = {
-			6364 3 
+			6364 3
 		}
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 3
 			air_base = 2
 			394 = {
 				naval_base = 3
@@ -31,10 +42,9 @@ state= {
 				naval_base = 1
 			}
 		}
-		add_core_of = DEN
 	}
 	provinces=
 	{
-		316 332 394 399 3206 3277 3341 6235 6364 11251 	
+		316 332 394 399 3206 3277 3341 6235 6364 11251
 	}
 		}

@@ -2,31 +2,42 @@
 state={
 	id=138
 	name="STATE_138"
-	manpower = 1047701
-	
+	manpower = 0
+
 	state_category = city
 
-	history = { 1999.1.1 = { 
-			owner = H08
-			remove_core_of = H08
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H08
 			add_core_of = EUR
-			remove_core_of = SWE
-			
+			set_state_category = betaland
+
+			H08 = {
+				set_province_controller = 3307
+				set_province_controller = 6120
+				set_province_controller = 6345
+				set_province_controller = 6412
+				set_province_controller = 9279
+				set_province_controller = 9300
+				set_province_controller = 9362
+				set_province_controller = 11160
+				set_province_controller = 11215
+				set_province_controller = 11327
+				set_province_controller = 11376
+			}
 
 			#ミンスク陥落用
 			add_claim_by = H05
 		}
 		owner = SWE
 		victory_points = {
-			9279 5 
+			9279 5
 		}
 		victory_points = {
-			11215 1 
+			11215 1
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			dockyard = 1
 			11215 = {
 				naval_base = 5
 				coastal_bunker = 3
@@ -36,10 +47,9 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = SWE
 	}
 
 	provinces={
-		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376 
+		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376
 	}
 }

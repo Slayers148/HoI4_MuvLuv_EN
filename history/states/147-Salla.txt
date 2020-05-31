@@ -2,15 +2,21 @@ state=
 {
 	id=147
 	name="STATE_147"
-	manpower = 4630
-	
+	manpower = 0
+
 	state_category = enclave
-	
-	history = { 1999.1.1 = { 
-			owner = H08
-			remove_core_of = H08
+
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H08
 			add_core_of = SOV
-			remove_core_of = FIN
+			set_state_category = betaland
+
+			H08 = {
+				set_province_controller = 197
+				set_province_controller = 9158
+				set_province_controller = 11085
+			}
 
 			#ヴェリスク陥落用
 			add_claim_by = H04
@@ -19,14 +25,12 @@ state=
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = FIN
-
 		victory_points = {
 			197 1
 		}
 	}
 
 	provinces={
-		197 9158 11085 	
+		197 9158 11085
 	}
 }

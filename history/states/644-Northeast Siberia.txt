@@ -18,7 +18,6 @@ state={
 				set_province_controller = 12592
 				set_province_controller = 13061
 				set_province_controller = 13062
-				set_province_controller = 13204
 				set_province_controller = 13222
 				set_province_controller = 13229
 				set_province_controller = 13233
@@ -35,6 +34,6 @@ state={
 	}
 
 	provinces={
-		1819 4006 4229 4455 12592 13061 13062 13204 13222 13229 13233
+		1819 4006 4229 4455 12592 13061 13062 13222 13229 13233
 	}
 }

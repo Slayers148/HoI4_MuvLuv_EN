@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "機甲師団"
+	name = "Armored Division"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -19,8 +19,8 @@
 }
 
 division_template = {
-	name = "戦術機師団"
-	
+	name = "TSF Division"
+
 	regiments = {
 		MVLV_tsf_battalion= { x = 0 y = 0 }
 		MVLV_tsf_battalion= { x = 0 y = 1 }
@@ -38,7 +38,7 @@ division_template = {
 }
 
 division_template = {
-	name = "軌道降下兵団"
+	name = "Orbital Drop Corps"
 	regiments = {
 		MVLV_tsf_battalion= { x = 0 y = 0 }
 		MVLV_tsf_battalion= { x = 0 y = 1 }
@@ -51,7 +51,7 @@ division_template = {
 }
 
 division_template = {
-	name = "海兵隊"
+	name = "Marines"
 	regiments = {
 		MVLV_asa_battalion= { x = 0 y = 0 }
 		MVLV_asa_battalion= { x = 0 y = 1 }
@@ -64,7 +64,7 @@ division_template = {
 }
 
 division_template = {
-	name = "沿岸防衛師団1"
+	name = "Coastal Defense Division"
 
 	regiments = {
 		medium_armor = { x = 0 y = 0 }
@@ -80,7 +80,7 @@ division_template = {
 }
 
 division_template = {
-	name = "機械化装甲歩兵師団"
+	name = "Mechanized Armored Infantry Division"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -100,7 +100,7 @@ division_template = {
 }
 
 division_template = {
-	name = "ロケット砲兵旅団"
+	name = "Rocket Artillery Brigade"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -118,7 +118,7 @@ division_template = {
 }
 
 division_template = {
-	name = "砲兵旅団"
+	name = "Artillery Brigade"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -138,675 +138,794 @@ division_template = {
 ##### OOB #####
 units = {
 
-	
-	# 第一線兵団
-	division = { # "第51師団"
+	# Front line soldiers
+	division = { # "1 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 51
+			name_order = 1
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.3
 	}
-	division = { # "第31師団"
+	division = { # "2 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 2
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "3 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 3
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "4 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 4
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "5 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 5
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "6 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 6
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "7 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 7
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "8 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 8
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "9 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 9
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "10 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 10
 		}
 		location = 3878
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "11 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 11
 		}
 		location = 3878
-		division_template = "機械化装甲歩兵師団"
-		start_experience_factor = 0.4
-	}
-
-	division = { # "第31師団"
-		division_name = {
-			is_name_ordered = yes
-			name_order = 31
-		}
-		location = 3878
-		division_template = "機械化装甲歩兵師団"
+		division_template = "Mechanized Armored Infantry Division"
 		start_experience_factor = 0.4
 	}
 
-
-division = { # "第17師団"
-		name = 戦術機師団
+	division = { # "12 Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
 		location = 3878
-		division_template = "戦術機師団"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
+		division_template = "Mechanized Armored Infantry Division"
+		start_experience_factor = 0.4
 	}
 
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "1 Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+
+division = { # "2 Division"
+		division_name = {
+  		is_name_ordered = yes
+  		name_order = 2
+		}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "3 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 3
+}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
+	}
+
+division = { # "4 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 4
+}
+		location = 3878
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "5 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 5
+}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "6 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 6
+}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "7 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 7
+}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "8 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 8
+}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "9 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 9
+}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "10 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 10
+}
 		location = 3878
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 海兵隊
+division = { # "Marines"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
 		location = 3878
-		division_template = "海兵隊"
+		division_template = "Marines"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "11 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 11
+}
 		location = 3501
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
-	} 
+	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "12 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 12
+}
 		location = 3501
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
-	} 
-	division = { # "第31師団"
+	}
+	division = { # "13 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 13
 		}
 		location =  3501
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "14 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 14
+}
 		location = 9458
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "15 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 15
+}
 		location = 9458
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
 	}
-	division = { # "第31師団"
+	division = { # "16 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 16
 		}
 		location =  9458
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "17 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 17
+}
 		location = 540
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "18 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 18
+}
 		location = 540
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
-	division = { # "第31師団"
+	division = { # "19 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 19
 		}
 		location =  540
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
+	division = { # "20 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 20
 		}
 		location =  540
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "21 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 21
+}
 		location = 6103
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "22 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 22
+}
 		location = 6103
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-	division = { # "第31師団"
+	division = { # "23 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 23
 		}
 		location =  6103
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "24 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 24
+}
 		location = 12049
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "24 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 24
+}
 		location = 12049
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "25 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 25
+}
 		location = 12049
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
 	}
-	division = { # "第31師団"
+	division = { # "26 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 26
 		}
 		location =  12049
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "27 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 27
+}
 		location = 9957
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "28 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 28
+}
 		location = 9957
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "29 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 29
+}
 		location = 9955
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "30 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 30
+}
 		location = 9955
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "31 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 31
+}
 		location = 7214
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "32 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 32
+}
 		location = 7214
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F16U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "33 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 33
+}
 		location = 10158
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "34 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 34
+}
 		location = 10158
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
-		location = 1308
-		division_template = "戦術機師団"
+division = { # "35 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 35
+}
+		location = 1281
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
-		location = 1308
-		division_template = "戦術機師団"
+division = { # "36 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 36
+}
+		location = 1281
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "37 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 37
+}
 		location = 4744
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "38 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 38
+}
 		location = 4744
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
-division = { # "第17師団"
-		name = A-01連隊
+division = { # "A-01 Division"
+		name = A-01 Regiment
 		location = 13218
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_T94U = { owner = "UNI" } }
 	}
-	division = { # "第31師団"
+	division = { # "39 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 39
 		}
 		location = 13218
-		division_template = "機械化装甲歩兵師団"
+		division_template = "Mechanized Armored Infantry Division"
 		start_experience_factor = 0.4
 	}
 
-	division = { # "第31師団"
+	division = { # "40 Division"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 40
 		}
 		location = 13218
-		division_template = "機械化装甲歩兵師団"
+		division_template = "Mechanized Armored Infantry Division"
 		start_experience_factor = 0.4
 	}
 
-division = { # "第17師団"
-		name = 戦術機甲連隊
+division = { # "41 Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		}
 		location = 13218
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機甲連隊
+division = { # "42 Division"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
 		location = 13218
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 1
 	}
-	division = { # "第31師団"
-		division_name = 機甲師団
+	division = { # "43 Division"
+		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 43
 		}
 		location =  13218
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
-		division_name = 機甲師団
+	division = { # "44 Division"
+		division_name = {
 			is_name_ordered = yes
-			name_order = 31
+			name_order = 44
 		}
 		location =  13218
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
-		division_name = 機甲師団
-			is_name_ordered = yes
-			name_order = 31
-		}
+	division = { # "45 Division"
+	division_name = {
+		is_name_ordered = yes
+		name_order = 45
+	}
 		location =  13218
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-	division = { # "第31師団"
-		division_name = 機甲師団
-			is_name_ordered = yes
-			name_order = 31
-		}
+	division = { # "46 Division"
+	division_name = {
+		is_name_ordered = yes
+		name_order = 46
+	}
 		location =  13218
-		division_template = "機甲師団"
+		division_template = "Armored Division"
 		start_experience_factor = 0.4
 	}
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "47 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 47
+}
 		location = 4067
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "48 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 48
+}
 		location = 4014
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "49 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 49
+}
 		location = 4014
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
-division = { # "第17師団"
-		name = 戦術機師団
+division = { # "50 Division"
+		division_name = {
+  is_name_ordered = yes
+  name_order = 50
+}
 		location = 4014
-		division_template = "戦術機師団"
+		division_template = "TSF Division"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 
 division = {
-		name = 第1軌道降下兵団
+		name = "1st Orbital Drop Corps"
 		location = 4287
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第2軌道降下兵団
+		name = "2nd Orbital Drop Corps"
 		location = 4287
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第3軌道降下兵団
+		name = "3rd Orbital Drop Corps"
 		location = 4287
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第4軌道降下兵団
+		name = "4th Orbital Drop Corps"
 		location = 12689
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第5軌道降下兵団
+		name = "5th Orbital Drop Corps"
 		location = 12689
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第6軌道降下兵団
+		name = "6th Orbital Drop Corps"
 		location = 12689
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 1
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第7軌道降下兵団
+		name = "7th Orbital Drop Corps"
 		location = 5222
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第8軌道降下兵団
+		name = "8th Orbital Drop Corps"
 		location = 5222
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第9軌道降下兵団
+		name = "9th Orbital Drop Corps"
 		location = 5222
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第10軌道降下兵団
+		name = "10th Orbital Drop Corps"
 		location = 7112
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第11軌道降下兵団
+		name = "11th Orbital Drop Corps"
 		location = 7112
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
 	}
 
 division = {
-		name = 第12軌道降下兵団
+		name = "12th Orbital Drop Corps"
 		location = 7112
-		division_template = "軌道降下兵団"
+		division_template = "Orbital Drop Corps"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1
 		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
@@ -815,71 +934,71 @@ division = {
 
 ### Air oob
 air_wings = {
-	
-	357 = { 	
+
+	357 = {
 		fighter_equipment_1 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 1920
 		}
 		name = "砲撃部隊"
 		transport_plane_equipment_1 = {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 25
 		}
-		name = "国連宇宙総軍第一艦隊"
+		name = "国連宇宙総軍1一艦隊"
 		CAS_equipment_2 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 1980
 		}
 		name = "砲撃部隊"
 	}
-	100 = { 	
+	100 = {
 		fighter_equipment_1 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 320
 		}
 		name = "砲撃部隊"
 		transport_plane_equipment_1 = {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 5
 		}
-		name = "国連宇宙総軍第二艦隊"
+		name = "国連宇宙総軍1二艦隊"
 		CAS_equipment_2 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 380
 		}
 		name = "砲撃部隊"
 	}
-	629 = { 	
+	629 = {
 		fighter_equipment_1 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 320
 		}
 		name = "砲撃部隊"
 		transport_plane_equipment_1 = {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 5
 		}
-		name = "国連宇宙総軍第三艦隊"
+		name = "国連宇宙総軍1三艦隊"
 		CAS_equipment_2 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 380
 		}
 		name = "砲撃部隊"
         }
-	543 = { 	
+	543 = {
 		fighter_equipment_1 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 320
 		}
 		name = "砲撃部隊"
 		transport_plane_equipment_1 = {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 5
 		}
-		name = "国連宇宙総軍第四艦隊"
+		name = "国連宇宙総軍1四艦隊"
 		CAS_equipment_2 =  {
-			owner = "UNI" 
+			owner = "UNI"
 			amount = 380
 		}
 		name = "砲撃部隊"
@@ -903,7 +1022,7 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
-			creator = "UNI" 
+			creator = "UNI"
 		}
 		requested_factories = 1
 		progress = 0.3
@@ -913,27 +1032,27 @@ instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
-			creator = "UNI" 
+			creator = "UNI"
 		}
 		requested_factories = 1
 		progress = 0.4
 		efficiency = 50
 	}
-	
+
 	add_equipment_production = {
 		equipment = {
 			type = tsf_equipment_0
-			creator = "UNI" 
+			creator = "UNI"
 		}
 		requested_factories = 5
 		progress = 0.2
 		efficiency = 30
 	}
-        
+
         add_equipment_production = {
 		equipment = {
 			type = medium_tank_equipment_1
-			creator = "UNI" 
+			creator = "UNI"
 		}
 		requested_factories = 1
 		progress = 0.3

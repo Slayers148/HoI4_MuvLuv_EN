@@ -2,29 +2,39 @@
 state={
 	id=103
 	name="STATE_103" # Dalmatia
-	manpower = 1431700
+	manpower = 0
 
 	state_category = large_town
 
-
-	history = { 1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = YUG
-			remove_core_of = CRO
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 591
+				set_province_controller = 984
+				set_province_controller = 3601
+				set_province_controller = 3868
+				set_province_controller = 3924
+				set_province_controller = 3974
+				set_province_controller = 6611
+				set_province_controller = 6889
+				set_province_controller = 11564
+				set_province_controller = 11816
+				set_province_controller = 11901
+			}
 		}
 		owner = YUG
 		victory_points = {
 			3924 3
 		}
 		victory_points = {
-			11564 1 
+			11564 1
 		}
 		buildings = {
 			infrastructure = 5
-			dockyard = 1
-			industrial_complex = 3
 			3924 = {
 				naval_base = 3
 			}
@@ -32,12 +42,9 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = YUG
-		#add_claim_by = ITA #added by focus
-		add_core_of = CRO
 	}
 
 	provinces={
-		591 984 3601 3868 3924 3974 6611 6889 11564 11816 11901 
+		591 984 3601 3868 3924 3974 6611 6889 11564 11816 11901
 	}
 }

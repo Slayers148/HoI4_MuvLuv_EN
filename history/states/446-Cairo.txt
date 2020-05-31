@@ -3,7 +3,7 @@ state=
 	id=446
 	name="STATE_446"
 	manpower = 6586596
-	
+
 	state_category = town
 
 	history=
@@ -20,13 +20,13 @@ state=
 			air_base = 5
 			12049 = {
 				naval_base = 4
-                                coastal_bunker = 8
-                                bunker = 8
+        coastal_bunker = 9
+        bunker = 9
 			}
-                        4073 = {
-                               coastal_bunker = 8
-                               bunker = 8
-                        }
+    	4073 = {
+         coastal_bunker = 9
+         bunker = 9
+      }
 		}
 
 		victory_points = {
@@ -38,9 +38,6 @@ state=
 		victory_points = {
 			4073 20
 		}
-
-		#add_core_of = EGY
-
 	}
 
 	provinces={

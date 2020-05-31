@@ -2,17 +2,39 @@
 state={
 	id=108
 	name="STATE_108" # Morava
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
 	resources={
 		steel=3.000
 	}
 
 	history = {
-		1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11			
+		1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = YUG
-			remove_core_of = SER
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 630
+				set_province_controller = 3922
+				set_province_controller = 3939
+				set_province_controller = 6940
+				set_province_controller = 6953
+				set_province_controller = 6970
+				set_province_controller = 6998
+				set_province_controller = 9602
+				set_province_controller = 9756
+				set_province_controller = 9849
+				set_province_controller = 9874
+				set_province_controller = 9890
+				set_province_controller = 9906
+				set_province_controller = 11832
+				set_province_controller = 11857
+				set_province_controller = 11868
+				set_province_controller = 11887 
+			}
 		}
 		victory_points = {
 			9602 3
@@ -20,17 +42,10 @@ state={
 		owner = YUG
 		buildings = {
 			infrastructure = 4
-
 		}
-		add_core_of = YUG
-		add_core_of = SER
-
 	}
 
 	provinces={
-		630 3922 3939 6940 6953 6970 6998 9602 9756 9849 9874 9890 9906 11832 11857 11868 11887 
+		630 3922 3939 6940 6953 6970 6998 9602 9756 9849 9874 9890 9906 11832 11857 11868 11887
 	}
-	manpower=1533000
-	buildings_max_level_factor=1.000
-	state_category=town
 }

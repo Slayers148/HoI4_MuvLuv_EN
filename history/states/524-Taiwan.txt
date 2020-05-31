@@ -8,7 +8,7 @@ state=
 	}
 	state_category = megalopolis
 	history={
-		1999.1.1 = { 
+		1999.1.1 = {
 			owner = CHI
 
 			buildings = {
@@ -18,8 +18,8 @@ state=
 			arms_factory = 8
 
 				7214 = {
-				coastal_bunker = 3
-				bunker = 2
+				coastal_bunker = 9
+				bunker = 9
 				}
 				9955 = {
 					coastal_bunker = 3
@@ -34,10 +34,10 @@ state=
 		add_core_of = PRC
 
 		victory_points = {
-			7186 20
+			7186 100
 		}
 		victory_points = {
-			12068 5 
+			12068 5
 		}
 	}
 	provinces={

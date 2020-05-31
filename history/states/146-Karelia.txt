@@ -1,20 +1,39 @@
 state={
 	id=146
 	name="STATE_146"
+	manpower=0
+	buildings_max_level_factor=1.000
 
 	state_category = town
 
-	history = { 1999.1.1 = { 
-			owner = H08
-			remove_core_of = H08
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H08
 			add_core_of = SOV
-			remove_core_of = FIN
+			set_state_category = betaland
+
+			H08 = {
+				set_province_controller = 2332
+				set_province_controller = 3050
+				set_province_controller = 3060
+				set_province_controller = 3133
+				set_province_controller = 3187
+				set_province_controller = 6052
+				set_province_controller = 6150
+				set_province_controller = 6153
+				set_province_controller = 9100
+				set_province_controller = 9105
+				set_province_controller = 9150
+				set_province_controller = 9176
+				set_province_controller = 9206
+				set_province_controller = 11046
+				set_province_controller = 11156
+				set_province_controller = 11162
+			}
 		}
 		owner = FIN
-		add_core_of = FIN
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
 
 			#Mannerheim Line
 			9100 = {
@@ -28,15 +47,11 @@ state={
 			}
 		}
 		victory_points = {
-			9206 3 
+			9206 3
 		}
-		
-
 	}
 
 	provinces={
-		2332 3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 
+		2332 3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162
 	}
-	manpower=418635
-	buildings_max_level_factor=1.000
 }

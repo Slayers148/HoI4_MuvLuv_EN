@@ -1,38 +1,44 @@
 state={
 	id=106
 	name="STATE_106"
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
 	resources={
 		chromium=70.000
 		aluminium=16.000
 	}
 
 	history = {
-		1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+		1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = YUG
-			remove_core_of = MAC
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller  = 833
+				set_province_controller  = 867
+				set_province_controller  = 907
+				set_province_controller  = 974
+				set_province_controller  = 3833
+				set_province_controller  = 3865
+				set_province_controller  = 3882
+				set_province_controller  = 6886
+				set_province_controller  = 11856 
+			}
 		}
 		owner = YUG
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 1
 			air_base = 2
-
 		}
 		victory_points = {
 			3882 5
 		}
-		add_core_of = YUG
-		add_core_of = MAC
-
 	}
 
 	provinces={
-		833 867 907 974 3833 3865 3882 6886 11856 
+		833 867 907 974 3833 3865 3882 6886 11856
 	}
-	manpower=1374200
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

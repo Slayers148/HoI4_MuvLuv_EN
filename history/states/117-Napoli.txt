@@ -2,43 +2,49 @@
 state={
 	id=117
 	name="STATE_117" # Campania
-	manpower = 5333611
-	
+	manpower = 0
+
 	state_category = city
 	resources={
 		aluminium=10 # was: 16
 		steel = 15 # was: 24
 	}
 
-	history = {  1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+	history = {  1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = ITA
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 819
+				set_province_controller = 851
+				set_province_controller = 883
+				set_province_controller = 955
+				set_province_controller = 3958
+				set_province_controller = 3968
+				set_province_controller = 6843
+				set_province_controller = 6939
+				set_province_controller = 6972
+				set_province_controller = 6980
+				set_province_controller = 9826
+				set_province_controller = 11803
+			}
 		}
 		owner = ITA
 		victory_points = {
-			819 20 
+			819 20
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
 			air_base = 3
 			819 = {
 				naval_base = 6
 			}
 		}
-		add_core_of = ITA
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 2
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={
-		819 851 883 955 3958 3968 6843 6939 6972 6980 9826 11803 
+		819 851 883 955 3958 3968 6843 6939 6972 6980 9826 11803
 	}
 }

@@ -50,6 +50,7 @@ country_event = {
 				is_capital = no
 			}
 			#set_state_category = betaland
+			#remove_building = { type = air_base	}
 		}
 	}
 }
