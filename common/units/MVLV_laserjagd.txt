@@ -7,8 +7,12 @@ sub_units = {
         priority = 301
         ai_priority = 10
         active = yes
+        type =  {
+                armor
+                support
+        }
 
-        group = armor
+        group = support
 
         categories = {
         category_tanks
