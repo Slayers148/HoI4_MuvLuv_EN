@@ -22,7 +22,7 @@ NDefines.NMilitary.SLOWEST_SPEED = 0 -- Default:4
 NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 240 -- how many divisions a corps commander is limited to. 0 = inf, < 0 = blocked
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0 -- how many divisions a field marshall is limited to. 0 = inf, < 0 = blocked
 NDefines.NMilitary.FRONT_MIN_PATH_TO_REDEPLOY = 1 -- If a units path is at least this long to reach its front location, it will strategically redeploy.
-NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 30 -- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this
+NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 30 -- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this 
 NDefines.NMilitary.STRATEGIC_REDEPLOY_ORG_RATIO = 0.75 -- Ratio of max org while strategic redeployment
 NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 100000000 -- How many deployment lines minimum can be training
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000 -- Max army experience a country can store
@@ -47,14 +47,18 @@ NDefines.NMilitary.PLAN_PROVINCE_MEDIUM_VP_IMPORTANCE_FRONT = 15 -- Used when ca
 NDefines.NMilitary.PLAN_PROVINCE_MEDIUM_VP_IMPORTANCE_FRONT = 30 -- Used when calculating the calue of fronts in the battle plan system
 NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_CONTROLLER_SCORE = 2 -- Score applied to provinces in the defense area order controlled by enemies
 NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_UNIT_FACTOR = 2 -- Factor applied to province score in area defense order per enemy unit in that province
-NDefines.NMilitary.PLAN_AREA_DEFENSE_FORT_IMPORTANCE = 50 -- Used when calculating the calue of defense area provinces for the battle plan system, works as multipliers on the rest
-NDefines.NMilitary.PLAN_AREA_DEFENSE_COASTAL_FORT_IMPORTANCE = 40 -- Used when calculating the calue of defense area provinces for the battle plan system
+NDefines.NMilitary.PLAN_AREA_DEFENSE_FORT_IMPORTANCE = 30 -- Used when calculating the calue of defense area provinces for the battle plan system, works as multipliers on the rest
+NDefines.NMilitary.PLAN_AREA_DEFENSE_COASTAL_FORT_IMPORTANCE = 20 -- Used when calculating the calue of defense area provinces for the battle plan system
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 20 -- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this
+NDefines.NMilitary.AMPHIBIOUS_INVADE_ATTACK_LOW = 2.5
+NDefines.NMilitary.AMPHIBIOUS_INVADE_ATTACK_HIGH = 2.5
+NDefines.NMilitary.AMPHIBIOUS_INVADE_DEFEND_LOW = 1.5
+NDefines.NMilitary.AMPHIBIOUS_INVADE_DEFEND_HIGH = 1.0
 --____________________________________________________________
 
 --NProduction
 --____________________________________________________________
-NDefines.NProduction.ANNEX_STOCKPILES_RATIO = 0.0 -- How much stockpiled equipment will be transferred on annexation
+NDefines.NProduction.ANNEX_STOCKPILES_RATIO = 0.25 -- How much stockpiled equipment will be transferred on annexation
 NDefines.NProduction.ANNEX_FIELD_EQUIPMENT_RATIO = 0.00 -- How much equipment from deployed divisions will be transferred on annexation
 NDefines.NProduction.ANNEX_FUEL_RATIO = 0.00 -- How much fuel will be transferred on annexation
 NDefines.NProduction.ANNEX_FUEL_RATIO = 0.00 -- How many convoys will be transferred on annexation
@@ -65,15 +69,15 @@ NDefines.NProduction.ANNEX_FUEL_RATIO = 5 -- Base factory speed multiplier (how 
 --____________________________________________________________
 NDefines.NAir.AIR_WING_MAX_SIZE = 8000 -- Max amount of airplanes in wing
 NDefines.NAir.SUPPLY_NEED_FACTOR = 0.00003 -- multiplies supply usage
-NDefines.NAir.AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 0.0 -- Wings in combat gain extra XP
+NDefines.NAir.AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 0.4 -- Wings in combat gain extra XP
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 24 -- multiplier on disruption damage to scale its effects on carrier vs carrier planes
 --____________________________________________________________
 
 --NAI
 --____________________________________________________________
-NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_ARMY_MAX_CONSUMPTION = 365 -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer
-NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_AIR_MAX_CONSUMPTION = 365 -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer
-NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_NAVY_MAX_CONSUMPTION = 365 -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer
+NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_ARMY_MAX_CONSUMPTION = 365 -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer 
+NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_AIR_MAX_CONSUMPTION = 365 -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer 
+NDefines.NAI.WANTED_MAX_FUEL_BUFFER_IN_DAYS_FOR_NAVY_MAX_CONSUMPTION = 365 -- AI will try to buffer at least this amount of days on max consumption, will trade if necesarry and will go into fuel saving mode/aggresive mode using this buffer 
 
 NDefines.NAI.RESEARCH_LAND_DOCTRINE_NEED_GAIN_FACTOR = 0.2 -- Multiplies value based on relative military industry size / country size.
 NDefines.NAI.DEPLOY_MIN_TRAINING_PEACE_FACTOR = 0.8 -- Required percentage of training (1.0 = 100%) for AI to deploy unit in peacetime
@@ -123,5 +127,5 @@ NDefines.NAI.LAND_DEFENSE_AA_IMPORTANCE_FACTOR = 0 -- Factor of AA influence on 
 NDefines.NAI.LAND_COMBAT_FIGHTERS_PER_PLANE = 1.5 -- Amount of air superiority planes requested per enemy plane
 NDefines.NAI.LAND_COMBAT_CAS_PER_ENEMY_ARMY = 30 -- Amount of CAS planes requested per enemy army
 NDefines.NAI.STR_BOMB_MIN_ENEMY_FIGHTERS_IN_AREA = 400 -- If amount of enemy fighters is higher than this mission won't perform
-NDefines.NAI.IMPORTANT_VICTORY_POINT = 40 -- during occupation ai will only care so much to ask for extra garrisons if VP amount is at least this
+NDefines.NAI.IMPORTANT_VICTORY_POINT = 40 -- during occupation ai will only care so much to ask for extra garrisons if VP amount is at least this 
 --____________________________________________________________
