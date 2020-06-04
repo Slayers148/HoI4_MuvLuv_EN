@@ -22,20 +22,30 @@ sub_units = {
         category_MVLV_tsf
         }
 
-        # Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
+        combat_width = 0
+
         need = {
-            tsf_equipment = 2
+            tsf_equipment = 8
         }
 
-        # Modifiers control the stats of the unit. More detail under the Stats section.
-        #偵察、無線機能
-        manpower =
-        max_strength =
-        default_moral =
-        training_time =
-        weight =
-        supply_consumption =
+        manpower = 300
+	      max_organisation = 20
+        max_strength = 15
+        default_moral = 1.5
+        training_time = 60
 
+        weight = 0.0
+        supply_consumption = 0.01
+
+        # Offensive
+        attack = 0.1
+        soft_attack = -0.2
+        hard_attack = -0.2
+        air_attack = 2
+
+        # Defensive
+        defense = -0.2
+        max_strength = 2
         recon = 0.5
         initiative = 0.1
 
