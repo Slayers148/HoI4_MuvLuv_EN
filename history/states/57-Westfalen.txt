@@ -9,7 +9,6 @@ state={
 			owner = EUR
 			controller = H05
 			add_core_of = EUR
-			remove_core_of = GER
 			set_state_category = betaland
 
 			H05 = {
@@ -29,24 +28,8 @@ state={
 		victory_points = {
 			495 5
 		}
-		#victory_points = {
-		#	9509 1
-		#}
 		buildings = {
-			infrastructure = 8
-			#arms_factory = 3
-			#industrial_complex = 1
-			air_base = 3
-
-		}
-		add_core_of = GER
-
-		1939.1.1 ={
-			buildings = {
-				radar_station = 1
-				#arms_factory = 6
-				#industrial_complex = 3
-			}
+			infrastructure = 1
 		}
 	}
 

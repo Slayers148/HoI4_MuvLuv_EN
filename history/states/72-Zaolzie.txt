@@ -9,8 +9,6 @@ state={
 			owner = EUR
 			controller = H05
 			add_core_of = EUR
-			remove_core_of = POL
-			remove_core_of = CZE
 			set_state_category = betaland
 
 			H05 = {
@@ -20,14 +18,7 @@ state={
 		}
 		owner = CZE
 		buildings = {
-			infrastructure = 6
-			#industrial_complex = 1
-		}
-		add_core_of = CZE
-
-		1939.3.14 = {
-			owner = POL
-			controller = POL
+			infrastructure = 1
 		}
 	}
 

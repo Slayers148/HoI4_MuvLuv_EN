@@ -14,7 +14,6 @@ state={
 			owner = EUR
 			controller = H05
 			add_core_of = EUR
-			remove_core_of = GER
 
 			H05 = {
 				set_province_controller = 6282
@@ -41,18 +40,14 @@ state={
 			11372 3
 		}
 		buildings = {
-			infrastructure = 6
-			#industrial_complex = 1
+			infrastructure = 1
 			11372 = {
 				naval_base = 1
 			}
 			6282 = {
 				naval_base = 4
-
 			}
-			air_base = 3
 		}
-		add_core_of = GER
 	}
 
 	provinces={
