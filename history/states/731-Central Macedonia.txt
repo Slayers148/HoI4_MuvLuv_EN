@@ -1,40 +1,41 @@
 state={
 	id=731
 	name="STATE_731"
-	manpower=1155700
-	
+	manpower=0
+
 	state_category = town
 
 	history = {
-		1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+		1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 895
+				set_province_controller = 936
+				set_province_controller = 966
+				set_province_controller = 3526
+				set_province_controller = 3844
+				set_province_controller = 3936
+				set_province_controller = 10163
+				set_province_controller = 11818 
+			}
 		}
 		owner = GRE
 		victory_points = {
-			11818 5 
+			11818 5
 		}
-		#victory_points = {
-		#	3844 1
-		#}
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-			air_base = 2
+			infrastructure = 1
 			11818 = {
 				naval_base = 3
-
 			}
-
 		}
-		#add_core_of = GRE
-		#add_claim_by = BUL
-
 	}
-	
+
 	provinces={
-		895 936 966 3526 3844 3936 10163 11818 
+		895 936 966 3526 3844 3936 10163 11818
 	}
 }

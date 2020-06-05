@@ -50,6 +50,10 @@ NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_UNIT_FACTOR = 2 -- Factor applied to 
 NDefines.NMilitary.PLAN_AREA_DEFENSE_FORT_IMPORTANCE = 30 -- Used when calculating the calue of defense area provinces for the battle plan system, works as multipliers on the rest
 NDefines.NMilitary.PLAN_AREA_DEFENSE_COASTAL_FORT_IMPORTANCE = 20 -- Used when calculating the calue of defense area provinces for the battle plan system
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 20 -- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this
+NDefines.NMilitary.AMPHIBIOUS_INVADE_ATTACK_LOW = 2.5
+NDefines.NMilitary.AMPHIBIOUS_INVADE_ATTACK_HIGH = 2.5
+NDefines.NMilitary.AMPHIBIOUS_INVADE_DEFEND_LOW = 1.5
+NDefines.NMilitary.AMPHIBIOUS_INVADE_DEFEND_HIGH = 1.0
 --____________________________________________________________
 
 --NProduction

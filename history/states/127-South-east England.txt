@@ -24,12 +24,14 @@ state={
 			radar_station = 1
 			air_base = 10
 			3501 = {
-				naval_base = 6
-				coastal_bunker = 5
+				naval_base = 5
+				coastal_bunker = 10
+				bunker = 10
 			}
 			9458 = {
 				naval_base = 10
-				coastal_bunker = 5
+				coastal_bunker = 10
+				bunker = 10
 			}
 		}
 		add_core_of = ENG
@@ -42,6 +44,6 @@ state={
 	}
 
 	provinces={
-		507 3501 6489 9458 11446 13070 
+		507 3501 6489 9458 11446 13070
 	}
 }

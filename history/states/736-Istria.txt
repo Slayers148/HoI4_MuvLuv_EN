@@ -1,36 +1,38 @@
 state={
 	id=736
 	name="STATE_736"
-	
+	manpower=0
+	buildings_max_level_factor=1.000
 	state_category = city
 
 	history = {
-		1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+		1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 599
+				set_province_controller = 6626
+				set_province_controller = 11595
+				set_province_controller = 11735 
+			}
 		}
 		victory_points = {
-			6626 1 
+			6626 1
 		}
 		owner = ITA
-		#add_core_of = ITA
-		#add_core_of = YUG
-		#add_core_of = SLV
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			6626 = {
 				naval_base = 5
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		599 6626 11595 11735 
+		599 6626 11595 11735
 	}
-	manpower=1063159
-	buildings_max_level_factor=1.000
+
 }

@@ -9,13 +9,13 @@ equipments = {
 		#is_convertable = yes
 		is_buildable = no
 		type = armor
-		group_by = archetype		
+		group_by = archetype
 		interface_category = interface_category_armor
-		
+
 		reliability = 0.8
-		
+
 		upgrades = { }
-		
+
 		#Misc Abilities
 		maximum_speed = 10
 		reliability = 0.8
@@ -34,7 +34,7 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 38
 		resources = {
 			aluminium = 1
@@ -45,7 +45,7 @@ equipments = {
 	tsf_equipment_F5J = {
 		year = 1975
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 10
 		visual_level = 0
 		is_convertable = yes
@@ -67,28 +67,28 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 36
 		resources = {
 		}
-	
+
 	}
-#F-4J撃震#	
+#F-4J撃震#
 	tsf_equipment_F4J = {
 		year = 1973
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 15
 		visual_level = 0
 		is_convertable = yes
 	}
-	
 
-#F16J天津風#	
+
+#F16J天津風#
 	tsf_equipment_F16J = {
 		year = 1985
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		parent = tsf_equipment_MiG23
@@ -111,18 +111,18 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 50
 		resources = {
 		}
-	
-	
+
+
 	}
-#F-15J陽炎#	
+#F-15J陽炎#
 	tsf_equipment_F15J = {
 		year = 1983
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		parent = tsf_equipment_Su11
@@ -145,19 +145,19 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 65
 		resources = {
 		}
-	
-	
-	
+
+
+
 	}
-	#F-14#	
+	#F-14#
 	tsf_equipment_F14AN333 = {
 		year = 1982
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 		is_convertable = yes
@@ -179,22 +179,22 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 70
 		resources = {
 		}
-	
-	
-	
+
+
+
 	}
 
-	
-	#F-4JK瑞鶴#	
+
+	#F-4JK瑞鶴#
 	tsf_equipment_F4JK = {
 		year = 1985
 
 		archetype = tsf_equipment
-#		parent = tsf_equipment_2 
+#		parent = tsf_equipment_2
 		priority = 16
 		visual_level = 0
 		is_convertable = yes
@@ -216,23 +216,23 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 60
 		resources = {
 		}
-	
-	
+
+
 	}
-	#F2叢雲#	
+	#F2叢雲#
 	tsf_equipment_F2 = {
 		year = 1994
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		parent = tsf_equipment_F16J
 		priority = 16
 		visual_level = 0
-#		can_convert_from = { 
-#			tsf_equipment_F18 
+#		can_convert_from = {
+#			tsf_equipment_F18
 #		}
 		is_convertable = yes
                 #Misc Abilities
@@ -253,18 +253,18 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 65
 		resources = {
 		}
-	
-	
+
+
 	}
-	#吹雪#	
+	#吹雪#
 	tsf_equipment_T97 = {
 		year = 1985
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 16
 		visual_level = 0
 #		parent = tsf_equipment_MiG27
@@ -287,19 +287,19 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 60
 		resources = {
 		}
-	
-	
+
+
 	}
-	
-	#不知火#	
+
+	#不知火#
 	tsf_equipment_T94 = {
 		year = 1995
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 #		parent = tsf_equipment_3
 		priority = 17
 		visual_level = 0
@@ -323,24 +323,24 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 70
 		resources = {
 			aluminium = 1
 			steel = 1
 		}
-	
+
 	}
-#不知火・壱型丙#	
+#不知火・壱型丙#
 	tsf_equipment_T94H = {
 		year = 2001
 
 		archetype = tsf_equipment
-		parent = tsf_equipment_T94 
+		parent = tsf_equipment_T94
 		priority = 18
 		visual_level = 0
-#		can_convert_from = { 
-#			tsf_equipment_F15E 
+#		can_convert_from = {
+#			tsf_equipment_F15E
 #		}
 		is_convertable = yes
                 #Misc Abilities
@@ -361,20 +361,20 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 50
-		
+
 		build_cost_ic = 75
 		resources = {
 			aluminium = 1
 			steel = 2
 		}
-	
+
 	}
 
-#T942#	
+#T942#
 	tsf_equipment_T942 = {
 		year = 2001
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 30
 		visual_level = 0
 		parent = tsf_equipment_T94H
@@ -397,25 +397,25 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 80
 		resources = {
 			aluminium =1
 			steel = 1
 		}
-	
+
 	}
-	
+
 	#T94F#
 	tsf_equipment_T94F = {
 		year = 2001
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 30
 		visual_level = 0
 		parent = tsf_equipment_T942
-		can_convert_from = { 
-			tsf_equipment_T942 
+		can_convert_from = {
+			tsf_equipment_T942
 		}
 		is_convertable = yes
                 #Misc Abilities
@@ -436,20 +436,20 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 90
 		resources = {
 			aluminium =1
 			steel = 1
 		}
-	
+
 	}
-	
+
 	#武御雷#
 	tsf_equipment_T00R = {
 		year = 2000
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 30
 		visual_level = 0
 		parent = tsf_equipment_F4JK
@@ -472,18 +472,18 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 60
-		
+
 		build_cost_ic = 300
 		resources = {
 			aluminium =1
 			steel = 1
 		}
-	
+
 	}
 	tsf_equipment_T00F = {
 		year = 1999
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 30
 		visual_level = 0
 		is_convertable = yes
@@ -505,18 +505,18 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 210
 		resources = {
 			aluminium =1
 			steel = 1
 		}
-	
+
 	}
 	tsf_equipment_T00A = {
 		year = 1999
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 30
 		visual_level = 0
 		is_convertable = yes
@@ -538,18 +538,18 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 180
 		resources = {
 			aluminium =1
 			steel = 1
 		}
-	
+
 	}
 	tsf_equipment_T00C = {
 		year = 1999
 
-		archetype = tsf_equipment 
+		archetype = tsf_equipment
 		priority = 30
 		visual_level = 0
 		is_convertable = yes
@@ -571,16 +571,16 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 150
 		resources = {
 			aluminium =1
 			steel = 1
 		}
-	
+
 	}
 
-	
+
 asa_equipment = {
 		year = 1975
 
@@ -589,33 +589,33 @@ asa_equipment = {
 		#is_convertable = yes
 		is_buildable = no
 		type = armor
-		group_by = archetype		
+		group_by = archetype
 		interface_category = interface_category_armor
-		
+
 		reliability = 0.8
-		
+
 		upgrades = { }
-		
+
 		#Misc Abilities
-		maximum_speed = 8
+		maximum_speed = 6
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 10
+		defense = 55
 		breakthrough = 120
 		hardness = 0.99
-		armor_value = 120
+		armor_value = 130
 
 		#Offensive Abilities
-		soft_attack = 90
-		hard_attack = 30
+		soft_attack = 50
+		hard_attack = 90
 		ap_attack = 130
 		air_attack = 100
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
-		build_cost_ic = 65
+
+		build_cost_ic = 60
 		resources = {
 			tungsten = 1
 			steel = 1
@@ -625,16 +625,16 @@ asa_equipment = {
 	asa_equipment_A6J = {
 		year = 1977
 
-		archetype = asa_equipment 
+		archetype = asa_equipment
 		priority = 20
 		visual_level = 0
 		is_convertable = yes
 	}
-#A-12	
+#A-12
 	asa_equipment_A12J = {
 		year = 1997
 
-		archetype = asa_equipment 
+		archetype = asa_equipment
 		priority = 30
 		visual_level = 0
 		is_convertable = yes
@@ -643,29 +643,29 @@ asa_equipment = {
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 20
+		defense = 60
 		breakthrough = 130
 		hardness = 0.99
 		armor_value = 150
 
 		#Offensive Abilities
-		soft_attack = 100
-		hard_attack = 90
+		soft_attack = 80
+		hard_attack = 120
 		ap_attack = 180
 		air_attack = 100
 
 		#Space taken in convoy
 		lend_lease_cost = 185
-		
-		build_cost_ic = 80
+
+		build_cost_ic = 75
 		resources = {
 			aluminium = 1
 			steel = 1
 		}
-	
-	
+
+
 	}
-	
+
 ###戦術歩行攻撃機###
 	tsa_equipment = {
 		year = 1975
@@ -675,47 +675,47 @@ asa_equipment = {
 		#is_convertable = yes
 		is_buildable = no
 		type = armor
-		group_by = archetype		
+		group_by = archetype
 		interface_category = interface_category_armor
-		
+
 		reliability = 0.8
-		
+
 		upgrades = { }
-		
+
 		#Misc Abilities
-		maximum_speed = 10
+		maximum_speed = 7
 		reliability = 0.8
 
 		#Defensive Abilities
-		defense = 10
+		defense = 55
 		breakthrough = 150
 		hardness = 0.99
-		armor_value = 130
+		armor_value = 120
 
 		#Offensive Abilities
-		soft_attack = 150
-		hard_attack = 25
+		soft_attack = 110
+		hard_attack = 65
 		ap_attack = 60
 		air_attack = 100
 
 		#Space taken in convoy
 		lend_lease_cost = 5
-		
+
 		build_cost_ic = 55
 		resources = {
 			tungsten = 1
 			steel = 1
 		}
 	}
-#A-10#	
+#A-10#
 	tsa_equipment_A10J = {
 		year = 1978
 
-		archetype = tsa_equipment 
+		archetype = tsa_equipment
 		priority = 25
 		visual_level = 0
 		is_convertable = yes
-	}	
-	
+	}
+
 
 }

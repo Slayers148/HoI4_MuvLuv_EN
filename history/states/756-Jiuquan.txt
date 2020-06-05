@@ -1,40 +1,37 @@
 state={
 	id=756
 	name="STATE_756"
-	provinces={
-		1778 2028 4783 5076 7727 7803 7971 8102 10770 10899 12596 12820 
-	}
-	manpower=1000000
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category = wasteland
-	history = { 1999.1.1 = { 
-			owner = H14
-			remove_core_of = H14
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H14
+			set_state_category = betaland
+
+			H14 = {
+				set_province_controller = 1778
+				set_province_controller = 2028
+				set_province_controller = 4783
+				set_province_controller = 5076
+				set_province_controller = 7727
+				set_province_controller = 7803
+				set_province_controller = 7971
+				set_province_controller = 8102
+				set_province_controller = 10770
+				set_province_controller = 10899
+				set_province_controller = 12596
+				set_province_controller = 12820 
+			}
 		}
 		owner = PRC
-		#add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
-
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
-
+	}
+	provinces={
+		1778 2028 4783 5076 7727 7803 7971 8102 10770 10899 12596 12820
 	}
 }

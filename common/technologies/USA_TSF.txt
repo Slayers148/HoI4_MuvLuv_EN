@@ -753,16 +753,19 @@ technologies = {
 			 MVLV_asa_battalion = {
 				 soft_attack = 0.05
 				 hard_attack = 0.05
+				 ap_attack = 0.05
 			 }
 
 			 MVLV_tsa_battalion = {
 				 soft_attack = 0.05
 				 hard_attack = 0.05
+				 ap_attack = 0.05
 			 }
 
 	 		 MVLV_tsf_battalion = {
 	 				soft_attack = 0.05
 	 				hard_attack = 0.05
+					ap_attack = 0.05
 	 		 }
 
 			 path = {
@@ -792,16 +795,19 @@ technologies = {
 			MVLV_asa_battalion = {
 				soft_attack = 0.05
 				hard_attack = 0.05
+				ap_attack = 0.05
 			}
 
 			MVLV_tsa_battalion = {
 				soft_attack = 0.05
 				hard_attack = 0.05
+				ap_attack = 0.05
 			}
 
 			MVLV_tsf_battalion = {
 				soft_attack = 0.05
 				hard_attack = 0.05
+				ap_attack = 0.05
 			}
 
 			path = {
@@ -831,16 +837,19 @@ technologies = {
 			MVLV_asa_battalion = {
 				soft_attack = 0.1
 				hard_attack = 0.1
+				ap_attack = 0.1
 			}
 
 			MVLV_tsa_battalion = {
 				soft_attack = 0.1
 				hard_attack = 0.1
+				ap_attack = 0.1
 			}
 
 			MVLV_tsf_battalion = {
 				soft_attack = 0.1
 				hard_attack = 0.1
+				ap_attack = 0.1
 			}
 
 			path = {
@@ -870,16 +879,19 @@ technologies = {
 			MVLV_asa_battalion = {
 				soft_attack = 0.1
 				hard_attack = 0.1
+				ap_attack = 0.1
 			}
 
 			MVLV_tsa_battalion = {
 				soft_attack = 0.1
 				hard_attack = 0.1
+				ap_attack = 0.1
 			}
 
 			MVLV_tsf_battalion = {
 				soft_attack = 0.1
 				hard_attack = 0.1
+				ap_attack = 0.1
 			}
 
 			folder = {
@@ -983,18 +995,18 @@ technologies = {
 		 USA_Streamlined_Production = {
 
 		 research_cost = 1
-		 start_year = 2004
+		 start_year = 2000
 
 		 MVLV_asa_battalion = {
-			 build_cost_ic=-0.1
+			 build_cost_ic=-0.15
 		 }
 
 		 MVLV_tsa_battalion = {
-			 build_cost_ic=-0.1
+			 build_cost_ic=-0.15
 		 }
 
 		 MVLV_tsf_battalion = {
-			 build_cost_ic=-0.1
+			 build_cost_ic=-0.15
 		 }
 
 

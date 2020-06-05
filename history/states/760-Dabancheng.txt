@@ -1,23 +1,33 @@
 state={
 	id=760
 	name="STATE_760"
-	provinces={
-		1838 4704 4843 7732 10839 12524 12598 12671 
-	}
-	manpower=700000
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category = rural
-	history = { 1999.1.1 = { 
-			owner = H14
-			remove_core_of = H14
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H14
+			set_state_category = betaland
+
+			H14 = {
+				set_province_controller = 1838
+				set_province_controller = 4704
+				set_province_controller = 4843
+				set_province_controller = 7732
+				set_province_controller = 10839
+				set_province_controller = 12524
+				set_province_controller = 12598
+				set_province_controller = 12671
+			}
 		}
 		owner = PRC
-		#add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3
-			arms_factory = 1
+			infrastructure = 1
 		}
+	}
+	provinces={
+		1838 4704 4843 7732 10839 12524 12598 12671
 	}
 }

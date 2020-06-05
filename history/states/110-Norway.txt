@@ -2,40 +2,80 @@
 state={
 	id=110
 	name="STATE_110"
-	manpower = 1410219
-	
+	manpower = 0
+
 	state_category = city
-	
+
 	resources={
 		aluminium=5 # was: 8
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H08
-			remove_core_of = H08			
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H08
 			add_core_of = EUR
-			remove_core_of = NOR
+			set_state_category = betaland
+
+			H08 = {
+				set_province_controller = 10
+				set_province_controller = 14
+				set_province_controller = 27
+				set_province_controller = 100
+				set_province_controller = 111
+				set_province_controller = 133
+				set_province_controller = 144
+				set_province_controller = 179
+				set_province_controller = 3007
+				set_province_controller = 3021
+				set_province_controller = 3059
+				set_province_controller = 3094
+				set_province_controller = 3105
+				set_province_controller = 3136
+				set_province_controller = 3171
+				set_province_controller = 6042
+				set_province_controller = 6072
+				set_province_controller = 6080
+				set_province_controller = 6114
+				set_province_controller = 6115
+				set_province_controller = 6136
+				set_province_controller = 6151
+				set_province_controller = 6160
+				set_province_controller = 6184
+				set_province_controller = 9032
+				set_province_controller = 9036
+				set_province_controller = 9103
+				set_province_controller = 9135
+				set_province_controller = 9157
+				set_province_controller = 9174
+				set_province_controller = 9204
+				set_province_controller = 9227
+				set_province_controller = 11028
+				set_province_controller = 11029
+				set_province_controller = 11037
+				set_province_controller = 11078
+				set_province_controller = 11113
+				set_province_controller = 11135
+				set_province_controller = 11151
+				set_province_controller = 11184
+				set_province_controller = 11206 
+			}
 		}
 		victory_points = {
-			6115 15 
+			6115 15
 		}
-		
+
 		owner = NOR
 		buildings = {
 			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
 			air_base = 4
 			6115 = {
 				naval_base = 6
 				coastal_bunker = 3
 			}
 		}
-		add_core_of = NOR
 	}
 
 	provinces={
-		10 14 27 100 111 133 144 179 3007 3021 3059 3094 3105 3136 3171 6042 6072 6080 6114 6115 6136 6151 6160 6184 9032 9036 9103 9135 9157 9174 9204 9227 11028 11029 11037 11078 11113 11135 11151 11184 11206 
+		10 14 27 100 111 133 144 179 3007 3021 3059 3094 3105 3136 3171 6042 6072 6080 6114 6115 6136 6151 6160 6184 9032 9036 9103 9135 9157 9174 9204 9227 11028 11029 11037 11078 11113 11135 11151 11184 11206
 	}
 }

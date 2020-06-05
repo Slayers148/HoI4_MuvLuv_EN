@@ -2,25 +2,54 @@
 state={
 	id=610
 	name="STATE_610" # Jehol
-	manpower = 1975377
-	
+	manpower = 0
+
 	state_category = pastoral
 
-	history = { 1999.1.1 = { 
-			owner = H16
-			remove_core_of = H16
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H16
+			set_state_category = betaland
+
+			H16 = {
+				set_province_controller = 814
+				set_province_controller = 881
+				set_province_controller = 934
+				set_province_controller = 972
+				set_province_controller = 3814
+				set_province_controller = 3828
+				set_province_controller = 3881
+				set_province_controller = 3934
+				set_province_controller = 3955
+				set_province_controller = 4514
+				set_province_controller = 6837
+				set_province_controller = 6852
+				set_province_controller = 6898
+				set_province_controller = 6937
+				set_province_controller = 6988
+				set_province_controller = 7575
+				set_province_controller = 7633
+				set_province_controller = 9768
+				set_province_controller = 9873
+				set_province_controller = 9905
+				set_province_controller = 9927
+				set_province_controller = 10331
+				set_province_controller = 10426
+				set_province_controller = 10499
+				set_province_controller = 11801
+				set_province_controller = 11855
+				set_province_controller = 11886 
+			}
 		}
 		owner = PRC
 		add_core_of = CHI
-		#add_core_of = MAN
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 		}
-
 	}
 
 	provinces={
-		814 881 934 972 3814 3828 3881 3934 3955 4514 6837 6852 6898 6937 6988 7575 7633 9768 9873 9905 9927 10331 10426 10499 11801 11855 11886 
+		814 881 934 972 3814 3828 3881 3934 3955 4514 6837 6852 6898 6937 6988 7575 7633 9768 9873 9905 9927 10331 10426 10499 11801 11855 11886
 	}
 }

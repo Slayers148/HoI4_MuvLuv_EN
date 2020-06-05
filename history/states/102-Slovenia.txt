@@ -2,25 +2,35 @@ state=
 {
 	id=102
 	name="STATE_102"
-	manpower = 1144300
-	
+	manpower = 0
+
 	state_category = large_town
-	
+
 	history =
-	{ 1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+	{ 1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = SLV
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 596
+				set_province_controller = 665
+				set_province_controller = 3631
+				set_province_controller = 3654
+				set_province_controller = 6650
+				set_province_controller = 6672
+				set_province_controller = 9596
+				set_province_controller = 9627
+			}
 		}
 		owner = YUG
 		buildings = {
 			infrastructure = 6
 		}
 		victory_points = {
-			9627 3 
+			9627 3
 		}
-		add_core_of = SLV
 	}
 	provinces={
 		596 665 3631 3654 6650 6672 9596 9627 }

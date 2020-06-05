@@ -6,27 +6,27 @@ sub_units = {
 		priority = 2500
 		ai_priority = 3000
 		active = yes
-		
+
 		type = {
 			armor
 		}
-		
+
 		group = armor
-		
+
 		categories = {
 			category_MVLV_tsa
 			category_front_line
 			category_army
 			category_tanks
-		}		
-		
+		}
+
 		combat_width = 2
 
 		need = {
 			tsa_equipment = 12
 		}
 		manpower = 240
-		max_organisation = 60
+		max_organisation = 85
 		max_strength = 20
 		default_morale = 0.5
 		training_time = 66
@@ -35,7 +35,9 @@ sub_units = {
 
 		#偵察、無線機能
 		recon = 0.5
-		initiative = 0.1 
+		initiative = 0.1
+
+		entrenchment = 10
 
 		forest = {
 			attack = -0.1
@@ -45,7 +47,7 @@ sub_units = {
 		hills = {
 			attack = 0.2
 			defence = 0.3
-			
+
 		}
 
 		mountain = {
@@ -59,9 +61,9 @@ sub_units = {
 		}
 
 		marsh = {
-		
+
 		}
-		
+
 		urban = {
 			movement = -0.1
 			defence = -0.1

@@ -1,25 +1,38 @@
 state={
 	id=587
 	name="STATE_587"
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
 
-	history = { 1999.1.1 = { 
-			owner = H03
-			remove_core_of = H03
+	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H03
+			set_state_category = betaland
+
+			H03 = {
+				set_province_controller = 475
+				set_province_controller = 642
+				set_province_controller = 1517
+				set_province_controller = 3593
+				set_province_controller = 4523
+				set_province_controller = 4620
+				set_province_controller = 7641
+				set_province_controller = 10262
+				set_province_controller = 11701
+				set_province_controller = 12163
+				set_province_controller = 12383
+				set_province_controller = 13008 
+			}
 		}
 		owner = SOV
-		#add_core_of = KAZ
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = SOV
-
 	}
 
 	provinces={
-		475 642 1517 3593 4523 4620 7641 10262 11701 12163 12383 13008 
+		475 642 1517 3593 4523 4620 7641 10262 11701 12163 12383 13008
 	}
-	manpower=245133
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

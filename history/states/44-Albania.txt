@@ -14,8 +14,6 @@ state={
 			owner = EUR
 			controller = H11
 			add_core_of = EUR
-			remove_core_of = ALB
-			remove_claim_by = ITA
 			set_state_category = betaland
 
 			H11 = {
@@ -39,21 +37,10 @@ state={
 			11767 1
 		}
 		buildings = {
-			infrastructure = 3
-			#arms_factory = 1
-			#industrial_complex = 2
-			air_base = 3
+			infrastructure = 1
 			11767 = {
 				naval_base = 4
 			}
-		}
-		add_core_of = ALB
-		add_claim_by = ITA
-
-		1939.4.12 = {
-			owner = ITA
-			controller = ITA
-			remove_claim_by = ITA
 		}
 	}
 

@@ -2,9 +2,9 @@
 state={
 	id=105
 	name="STATE_105" # Montenegro
-	manpower = 895500
-	
-	state_category = rural
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
 	
 	resources={
 		chromium=20.000
@@ -12,36 +12,33 @@ state={
 	}
 
 	history = {
-		1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11
+		1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = YUG
-			remove_core_of = MNT
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 937
+				set_province_controller = 6913
+				set_province_controller = 9809
+				set_province_controller = 9821
+				set_province_controller = 11858
+			}
 		}
 		victory_points = {
 			9809 3
 		}
 		owner = YUG
-		add_core_of = MNT
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 			9809 = {
 				naval_base = 1
-
 			}
-
 		}
-
-		add_core_of = YUG
-
 	}
 
 	provinces={
-		937 6913 9809 9821 11858 
+		937 6913 9809 9821 11858
 	}
-	manpower=895500
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

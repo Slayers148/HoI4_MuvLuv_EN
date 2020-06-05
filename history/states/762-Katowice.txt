@@ -1,29 +1,34 @@
 state={
 	id=762
 	name="STATE_762"
-	provinces={
-		506 6464
-	}
-	manpower=1000000
+	manpower=0
+
 	resources={
 		steel=19 # was: 60
 		aluminium=7 # was: 20
 	}
 	state_category = city
-	history = { 1999.1.1 = { 
-			owner = H05
-			remove_core_of = H05
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H05
 			add_core_of = EUR
-			remove_core_of = POL
+			set_state_category = betaland
+
+			H05 = {
+				set_province_controller = 506
+				set_province_controller = 6464
+			}
 		}
 		victory_points = {
 			6464 5
 		}
 		owner = POL
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 1
 		}
-		add_core_of = POL
+	}
+
+	provinces={
+		506 6464
 	}
 }

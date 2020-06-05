@@ -2,31 +2,71 @@
 state={
 	id=111
 	name="STATE_111" # Uusimaa
-	manpower = 1670190
-	
+	manpower = 0
+
 	state_category = city
-	
-	history = { 1999.1.1 = { 
-			owner = H08
-			remove_core_of = H08
+
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H08
 			add_core_of = EUR
-			remove_core_of = FIN
+			set_state_category = betaland
+
+			H08 = {
+				set_province_controller = 32
+				set_province_controller = 52
+				set_province_controller = 67
+				set_province_controller = 169
+				set_province_controller = 204
+				set_province_controller = 3009
+				set_province_controller = 3025
+				set_province_controller = 3061
+				set_province_controller = 3083
+				set_province_controller = 3117
+				set_province_controller = 3137
+				set_province_controller = 3161
+				set_province_controller = 6009
+				set_province_controller = 6047
+				set_province_controller = 6066
+				set_province_controller = 6082
+				set_province_controller = 6108
+				set_province_controller = 6144
+				set_province_controller = 6163
+				set_province_controller = 6186
+				set_province_controller = 9073
+				set_province_controller = 9094
+				set_province_controller = 9129
+				set_province_controller = 9160
+				set_province_controller = 9167
+				set_province_controller = 9183
+				set_province_controller = 9194
+				set_province_controller = 11056
+				set_province_controller = 11066
+				set_province_controller = 11105
+				set_province_controller = 11138
+				set_province_controller = 11172
+				set_province_controller = 11211
+				set_province_controller = 13100
+				set_province_controller = 13101
+				set_province_controller = 13102
+				set_province_controller = 13103
+				set_province_controller = 13105
+				set_province_controller = 13106
+				set_province_controller = 13107 
+			}
 		}
 		owner = FIN
 		victory_points = {
-			11105 15 
+			11105 15
 		}
 		victory_points = {
-			3083 1 
+			3083 1
 		}
 		victory_points = {
-			3137 1 
+			3137 1
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 2
-			dockyard = 1
 			air_base = 5
 			11105 = {
 				naval_base = 5
@@ -37,10 +77,9 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = FIN
 	}
 
 	provinces={
-		32 52 67 169 204 3009 3025 3061 3083 3117 3137 3161 6009 6047 6066 6082 6108 6144 6163 6186 9073 9094 9129 9160 9167 9183 9194 11056 11066 11105 11138 11172 11211 13100 13101 13102 13103 13105 13106 13107 
+		32 52 67 169 204 3009 3025 3061 3083 3117 3137 3161 6009 6047 6066 6082 6108 6144 6163 6186 9073 9094 9129 9160 9167 9183 9194 11056 11066 11105 11138 11172 11211 13100 13101 13102 13103 13105 13106 13107
 	}
 }

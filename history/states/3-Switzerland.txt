@@ -13,7 +13,6 @@ state={
 			owner = EUR
 			controller = H11
 		  add_core_of = EUR
-			remove_core_of = SWI
 			set_state_category = betaland
 
 			H11 = {
@@ -34,12 +33,8 @@ state={
 		owner = SWI
 		victory_points = { 9620 15 }
 		buildings = {
-			infrastructure = 6
-			#arms_factory = 4
-			#industrial_complex = 4
-			air_base = 4
+			infrastructure = 1
 		}
-		add_core_of = SWI
 	}
 
 	provinces={

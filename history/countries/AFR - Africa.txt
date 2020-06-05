@@ -3,9 +3,9 @@
 1999.1.1 = {
 	oob = "AFR_1999" #陸軍テンプレート読み込み
 	set_naval_oob = "AFR_1999_navy"
-	
+
 	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
-	
+
 	set_technology = { #初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -16,15 +16,15 @@
 		tech_engineers3 = 1
 		tech_engineers4 = 1
 		tech_recon = 1
-		tech_recon2 = 1	
+		tech_recon2 = 1
 		tech_recon3 = 1
-		tech_recon4 = 1	
+		tech_recon4 = 1
 		tech_field_hospital = 1
 		tech_field_hospital2 = 1
 		tech_field_hospital3 = 1
 		tech_field_hospital4 = 1
 		tech_logistics_company = 1
-		tech_logistics_company2 = 1	
+		tech_logistics_company2 = 1
 		tech_logistics_company3 = 1
 		tech_logistics_company4 = 1
 		tech_military_police = 1
@@ -71,7 +71,7 @@
 		construction2 = 1
 		construction3 = 1
 		construction4 = 1
-		construction5 = 1		
+		construction5 = 1
 		fuel_silos = 1
 		fuel_refining = 1
 		streamlined_line = 1
@@ -82,10 +82,12 @@
 		dispersed_industry5 = 1
 		interwar_antiair = 1
 		improved_decryption = 1
-		
+		night_vision = 1
+		night_vision2 = 1
+
 		###陸軍ドクトリン###
 		mobile_warfare = 1
-		
+
 		###TSF###
 		generic_basic_concept_research = 1
 		generic_1st_tsf_low = 1
@@ -103,28 +105,28 @@
 		generic_F14Ex_tsf_high = 1
 
 
-		
+
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
 	}
-	
+
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5 
+		uses = 5
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}	
-	
+	}
+
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1 
+		uses = 1
 		technology = flexible_line
 		technology = streamlined_line
 	}
-	
+
 	add_ideas = { #初期国家精神を定義
 		limited_exports
 		limited_conscription
@@ -137,7 +139,7 @@
 		mvlv_license
 		mvlv_arms_build_up
 	}
-	
+
 	set_convoys = 1025 #初期輸送船数を定義
 }
 set_stability = 0.8 #初期安定度を定義

@@ -2,9 +2,9 @@
 state={
 	id=637
 	name="STATE_637"
-	manpower=48831
+	manpower=4883100
 	buildings_max_level_factor=1
-	state_category="city"
+	state_category="megalopolis"
 
 	history={
 		owner = SOV
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		1823 1839 1863 4728 4744 5264 7878 12207 12522 13063 13220 13236
+		1823 1839 1863 4728 4744 5264 7878 12207 12522 13204 13063 13220 13236
 	}
 
 }

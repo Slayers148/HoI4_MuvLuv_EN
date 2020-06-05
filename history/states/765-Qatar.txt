@@ -9,20 +9,18 @@ state={
 			owner = AFR
 			controller = H09
 			add_core_of = AFR
-			remove_core_of = QAT
 			set_state_category = betaland
 
 			H09 = {
 				set_province_controller = 8051
 			}
 		}
-		add_core_of = QAT
 		owner = ENG
 		victory_points = {
 			8051 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			8051 = {
 				naval_base = 2
 			}

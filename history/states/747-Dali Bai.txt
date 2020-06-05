@@ -1,45 +1,43 @@
 state={
 	id=747
 	name="STATE_747"
-	provinces={
-		4559 4937 5009 7965 7976 8126 10413 10863 12789 12898 
-	}
-	manpower=1000000
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category = pastoral
-	history = { 1999.1.1 = { 
-			owner = H16
-			remove_core_of = H16
+
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H16
+			set_state_category = betaland
+
+			H16 = {
+				set_province_controller = 4559
+				set_province_controller = 4937
+				set_province_controller = 5009
+				set_province_controller = 7965
+				set_province_controller = 7976
+				set_province_controller = 8126
+				set_province_controller = 10413
+				set_province_controller = 10863
+				set_province_controller = 12789
+				set_province_controller = 12898
+			}
 
 			#マンダレー陥落用
 			add_claim_by = H17
 		}
 		owner = PRC
-		#add_core_of = YUN
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			7965 3 
+			7965 3
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
+	}
 
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
-
+	provinces={
+		4559 4937 5009 7965 7976 8126 10413 10863 12789 12898
 	}
 }

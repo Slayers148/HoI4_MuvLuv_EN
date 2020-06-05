@@ -12,8 +12,6 @@ state={
 	history = { 1999.1.1 = {
 			owner = EUR
 			controller = H05
-			remove_core_of = AUS
-			remove_core_of = GER
 			add_core_of = EUR
 			set_state_category = betaland
 
@@ -41,22 +39,7 @@ state={
 			9648 5
 		}
 		buildings = {
-			infrastructure = 7
-		  #arms_factory = 3
-			#industrial_complex = 5
-			air_base = 6
-		}
-		add_core_of = AUS
-
-		1938.3.12 = {
-			owner = GER
-			controller = GER
-			add_core_of = GER
-		}
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
+			infrastructure = 1
 		}
 	}
 

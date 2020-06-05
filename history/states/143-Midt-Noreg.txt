@@ -2,22 +2,40 @@
 state={
 	id=143
 	name="STATE_143"
-	manpower = 280271
-	
+	manpower = 0
+
 	state_category = rural
 
 	history = {
-		1999.1.1 = { 
-			owner = H08
-			remove_core_of = H08
+		1999.1.1 = {
+			owner = EUR
+			controller = H08
 			add_core_of = EUR
-			remove_core_of = NOR
+			set_state_category = betaland
+
+			H08 = {
+				set_province_controller = 21
+				set_province_controller = 107
+				set_province_controller = 115
+				set_province_controller = 3018
+				set_province_controller = 3022
+				set_province_controller = 3098
+				set_province_controller = 3183
+				set_province_controller = 6038
+				set_province_controller = 6041
+				set_province_controller = 6116
+				set_province_controller = 6118
+				set_province_controller = 6173
+				set_province_controller = 9069
+				set_province_controller = 9132
+				set_province_controller = 9139
+				set_province_controller = 11118
+				set_province_controller = 11173
+			}
 		}
 		owner = NOR
 		buildings = {
 			infrastructure = 4
-			arms_factory = 0
-			industrial_complex = 1
 			3022 = {
 				naval_base = 3
 				coastal_bunker = 2
@@ -26,10 +44,9 @@ state={
 		victory_points = {
 			3022 3
 		}
-		add_core_of = NOR
 	}
 
 	provinces={
-		21 107 115 3018 3022 3098 3183 6038 6041 6116 6118 6173 9069 9132 9139 11118 11173 
+		21 107 115 3018 3022 3098 3183 6038 6041 6116 6118 6173 9069 9132 9139 11118 11173
 	}
 }

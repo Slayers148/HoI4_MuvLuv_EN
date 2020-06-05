@@ -14,7 +14,6 @@ state={
 			owner = EUR
 			controller = H12
 			add_core_of = EUR
-			remove_core_of = FRA
 			set_state_category = betaland
 
 			H12 = {
@@ -35,13 +34,11 @@ state={
 			6657 5
 		}
 		buildings = {
-			infrastructure = 6
-			#industrial_complex = 1
+			infrastructure = 1
 			6657 = {
 				naval_base = 3
 			}
 		}
-		add_core_of = FRA
 	}
 
 	provinces={

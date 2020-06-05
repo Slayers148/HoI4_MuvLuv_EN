@@ -1,27 +1,62 @@
 state={
 	id=717
 	name="STATE_717"
-	
+	manpower=0
+	buildings_max_level_factor=1.000
+
 	state_category = pastoral
 
-	history = { 1999.1.1 = { 
-			owner = H19
-			remove_core_of = H19
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H19
+			set_state_category = betaland
+
+			H19 = {
+				set_province_controller = 783
+				set_province_controller = 810
+				set_province_controller = 944
+				set_province_controller = 973
+				set_province_controller = 1571
+				set_province_controller = 3791
+				set_province_controller = 3815
+				set_province_controller = 3843
+				set_province_controller = 3944
+				set_province_controller = 4551
+				set_province_controller = 5427
+				set_province_controller = 6806
+				set_province_controller = 6811
+				set_province_controller = 6863
+				set_province_controller = 6964
+				set_province_controller = 7569
+				set_province_controller = 7670
+				set_province_controller = 9623
+				set_province_controller = 9766
+				set_province_controller = 9798
+				set_province_controller = 9897
+				set_province_controller = 10215
+				set_province_controller = 10376
+				set_province_controller = 10463
+				set_province_controller = 10503
+				set_province_controller = 10519
+				set_province_controller = 10521
+				set_province_controller = 11893
+				set_province_controller = 11906
+				set_province_controller = 12342
+				set_province_controller = 12355
+				set_province_controller = 12443
+				set_province_controller = 12482
+				set_province_controller = 12500 
+			}
 		}
 		owner = PRC
 		add_core_of = CHI
-		#add_core_of = MAN
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 1
 		}
-
 	}
 
 	provinces={
-		783 810 944 973 1571 3791 3815 3843 3944 4551 5427 6806 6811 6863 6964 7569 7670 9623 9766 9798 9897 10215 10376 10463 10503 10519 10521 11893 11906 12342 12355 12443 12482 12500 
+		783 810 944 973 1571 3791 3815 3843 3944 4551 5427 6806 6811 6863 6964 7569 7670 9623 9766 9798 9897 10215 10376 10463 10503 10519 10521 11893 11906 12342 12355 12443 12482 12500
 	}
-	manpower=5224174
-	buildings_max_level_factor=1.000
 }

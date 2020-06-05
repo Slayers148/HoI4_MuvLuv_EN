@@ -1,26 +1,55 @@
 state={
 	id=714
 	name="STATE_714"
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 
-	history = { 1999.1.1 = { 
-			owner = H19
-			add_core_of = H19
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H19
+			set_state_category = betaland
+
+			H19 = {
+				set_province_controller = 1502
+				set_province_controller = 1545
+				set_province_controller = 1588
+				set_province_controller = 1645
+				set_province_controller = 1693
+				set_province_controller = 1732
+				set_province_controller = 1847
+				set_province_controller = 4506
+				set_province_controller = 4592
+				set_province_controller = 4649
+				set_province_controller = 4809
+				set_province_controller = 4876
+				set_province_controller = 7526
+				set_province_controller = 7582
+				set_province_controller = 7613
+				set_province_controller = 7767
+				set_province_controller = 7832
+				set_province_controller = 7848
+				set_province_controller = 7873
+				set_province_controller = 7894
+				set_province_controller = 7897
+				set_province_controller = 10368
+				set_province_controller = 10379
+				set_province_controller = 10675
+				set_province_controller = 10698
+				set_province_controller = 12485
+				set_province_controller = 12548
+				set_province_controller = 12618 
+			}
 		}
 		owner = PRC
 		add_core_of = CHI
-		#add_core_of = MAN
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 1
 		}
-
 	}
 
 	provinces={
-		1502 1545 1588 1645 1693 1732 1847 4506 4592 4649 4809 4876 7526 7582 7613 7767 7832 7848 7873 7894 7897 10368 10379 10675 10698 12485 12548 12618 
+		1502 1545 1588 1645 1693 1732 1847 4506 4592 4649 4809 4876 7526 7582 7613 7767 7832 7848 7873 7894 7897 10368 10379 10675 10698 12485 12548 12618
 	}
-	manpower=3694191
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

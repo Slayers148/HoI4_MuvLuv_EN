@@ -1,42 +1,39 @@
 state={
 	id=616
 	name="STATE_616"
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 
-	history = { 1999.1.1 = { 
-			owner = H14
-			remove_core_of = H14
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H14
+			set_state_category = betaland
+
+			H14 = {
+				set_province_controller = 3742
+				set_province_controller = 5031
+				set_province_controller = 5057
+				set_province_controller = 5100
+				set_province_controller = 7511
+				set_province_controller = 8055
+				set_province_controller = 8081
+				set_province_controller = 8127
+				set_province_controller = 10724
+				set_province_controller = 12327
+				set_province_controller = 12750
+				set_province_controller = 12776
+			}
 		}
 		owner = PRC
-		#add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 2
-
+			infrastructure = 1
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = "Waking the Tiger" 
-					}
-
-				}
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-
-		}
-
 	}
 
 	provinces={
-		3742 5031 5057 5100 7511 8055 8081 8127 10724 12327 12750 12776 
+		3742 5031 5057 5100 7511 8055 8081 8127 10724 12327 12750 12776
 	}
-	manpower=2077600
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

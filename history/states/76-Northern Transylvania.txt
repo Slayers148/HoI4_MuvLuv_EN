@@ -10,7 +10,6 @@ state={
 			owner = EUR
 			controller = H11
 			add_core_of = EUR
-			remove_core_of = ROM
 
 			H11 = {
 				set_province_controller = 711
@@ -34,13 +33,11 @@ state={
 		}
 		owner = ROM
 		buildings = {
-			infrastructure = 4
-			#industrial_complex = 1
+			infrastructure = 1
 		}
 		victory_points = {
 			6711 5
 		}
-		add_core_of = ROM
 	}
 
 	provinces={

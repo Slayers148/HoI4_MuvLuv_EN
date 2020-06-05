@@ -13,7 +13,6 @@ state={
 			owner = EUR
 			controller = H11
 			add_core_of = EUR
-			remove_core_of = ROM
 			set_state_category = betaland
 
 			H11 = {
@@ -42,19 +41,14 @@ state={
 		victory_points = { 3663 5 }
 		victory_points = { 657 3 }
 		buildings = {
-			infrastructure = 6
-			#arms_factory = 4
-			#industrial_complex = 1
-			air_base = 3
+			infrastructure = 1
 			657 = {
 				naval_base = 8
 			}
 			687 = {
 				naval_base = 1
 			}
-			#dockyard = 1
 		}
-		add_core_of = ROM
 	}
 
 	provinces={
