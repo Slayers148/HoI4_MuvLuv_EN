@@ -2,36 +2,45 @@
 state={
 	id=161
 	name="STATE_161"
-	manpower = 3202401
-	
+	manpower = 0
+
 	state_category = large_city
-	
+
 	resources={
 		aluminium=9 # was: 16
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H11
-			remove_core_of = H11			
+	history = { 1999.1.1 = {
+			owner = EUR
+			controller = H11
 			add_core_of = EUR
-			remove_core_of = ITA
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 782
+				set_province_controller = 3773
+				set_province_controller = 3976
+				set_province_controller = 6606
+				set_province_controller = 6790
+				set_province_controller = 6793
+				set_province_controller = 6985
+				set_province_controller = 9752
+				set_province_controller = 9924 
+			}
 		}
 		owner = ITA
 		victory_points = {
-			6606 3 
+			6606 3
 		}
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 1
 			782 = {
 				naval_base = 2
 			}
 		}
-		add_core_of = ITA
 	}
 
 	provinces={
-		782 3773 3976 6606 6790 6793 6985 9752 9924 
+		782 3773 3976 6606 6790 6793 6985 9752 9924
 	}
 }

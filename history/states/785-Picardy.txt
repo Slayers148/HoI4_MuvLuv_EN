@@ -12,6 +12,7 @@ state={
 	history = { 1999.1.1 = {
 			owner = EUR
 			controller = H12
+			add_core_of = EUR
 			set_state_category = betaland
 
 			H12 = {
@@ -29,7 +30,7 @@ state={
 		}
 		owner = FRA
 		buildings = {
-			infrastructure = 8
+			infrastructure = 1
 		}
 	}
 
