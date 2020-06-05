@@ -2,7 +2,6 @@ capital = 524 #首都
 
 1999.1.1 = {
 	oob = "CHI_1999" #陸軍テンプレート読み込み
-	set_naval_oob = "CHI_1999_navy"
 
 	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
 	
