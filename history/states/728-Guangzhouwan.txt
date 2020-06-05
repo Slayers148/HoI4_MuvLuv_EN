@@ -1,26 +1,31 @@
 state={
 	id=728
 	name="STATE_728"
-	manpower = 200000
-	
+	manpower = 0
+
 	state_category = enclave
-	
-	history = { 1999.1.1 = { 
-			owner = H16
-			remove_core_of = H16
+
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H16
+			set_state_category = betaland
+
+			H16 = {
+				set_province_controller = 11981
+			}
 		}
 		owner = PRC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 			11981 = {
 				naval_base = 1
 			}
 		}
 	}
-	
+
 	provinces={
-		11981 
+		11981
 	}
 }

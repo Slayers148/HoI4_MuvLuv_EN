@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history = { 1999.1.1 = {
-			owner = H05
+			owner = EUR
 			controller = H05
 			add_core_of = EUR
 			set_state_category = betaland

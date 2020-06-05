@@ -2,21 +2,32 @@
 state={
 	id=608
 	name="STATE_608"
-	manpower = 9648400
-	
+	manpower = 0
+
 	state_category = large_city
 
-	history = { 1999.1.1 = { 
-			owner = H16
-			remove_core_of = H16
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H16
+			set_state_category = betaland
+
+			H16 = {
+				set_province_controller = 1134
+				set_province_controller = 4137
+				set_province_controller = 4140
+				set_province_controller = 6828
+				set_province_controller = 9843
+				set_province_controller = 9969
+				set_province_controller = 10068
+				set_province_controller = 11761
+				set_province_controller = 12026 
+			}
 		}
 		owner = PRC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
-			air_base = 3
+			infrastructure = 1
 			10068 = {
 				naval_base = 2
 			}
@@ -25,15 +36,11 @@ state={
 			9843 20
 		}
 		victory_points = {
-			10068 1 
-		}
-
-		1938.10.25 = {
-			controller = JAP
+			10068 1
 		}
 	}
 
 	provinces={
-		1134 4137 4140 6828 9843 9969 10068 11761 12026 
+		1134 4137 4140 6828 9843 9969 10068 11761 12026
 	}
 }

@@ -1,30 +1,35 @@
 state={
 	id=729
 	name="STATE_729"
-	manpower = 157805
-	
+	manpower = 0
+
 	state_category = enclave
-	
+
 	history={
 		1999.1.1 = {
-			owner = H16
-			remove_core_of = H16
+			owner = CHI
+			controller = H16
+			set_state_category = betaland
+
+			H16 = {
+				set_province_controller = 4189
+			}
 		}
 		owner = PRC
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
-			4189 1 
+			4189 1
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			4189 = {
 				naval_base = 1
 			}
 		}
 	}
-	
+
 	provinces={
-		4189 
+		4189
 	}
 }

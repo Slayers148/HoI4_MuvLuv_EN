@@ -2,30 +2,42 @@
 state={
 	id=619
 	name="STATE_619" # Yarkand
-	manpower = 1430700
-	
+	manpower = 0
+
 	state_category = pastoral
-	
+
 	resources={
 		aluminium=2 # was: 2
 		chromium=2 # was: 3
 	}
 
-	history = { 1999.1.1 = { 
-			owner = H02
-			remove_core_of = H02
+	history = { 1999.1.1 = {
+			owner = CHI
+			controller = H02
+			set_state_category = betaland
+
+			H02 = {
+				set_province_controller = 1766
+				set_province_controller = 1970
+				set_province_controller = 2015
+				set_province_controller = 4828
+				set_province_controller = 5016
+				set_province_controller = 5087
+				set_province_controller = 7790
+				set_province_controller = 7949
+				set_province_controller = 8112
+				set_province_controller = 12119 
+			}
 		}
 		owner = PRC
-		#add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 1
 		}
 	}
 
 	provinces={
-		1766 1970 2015 4828 5016 5087 7790 7949 8112 12119 
+		1766 1970 2015 4828 5016 5087 7790 7949 8112 12119
 	}
 }

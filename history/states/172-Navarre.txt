@@ -14,7 +14,6 @@ state={
 	1999.1.1 = {
 		owner = EUR
 		add_core_of = EUR
-		remove_core_of = SPR
 		controller = H12
 		set_state_category = betaland
 
@@ -37,17 +36,21 @@ state={
 			740 3
 		}
 		buildings = {
-			infrastructure = 6
-			#arms_factory = 1
-			#industrial_complex = 2
-			air_base = 1
+			infrastructure = 1
 			740 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = SPR
 	}
 
+	if = {
+	limit= { has_dlc = "La Resistance" }
+			remove_core_of = SPR
+	else = {
+			remove_core_of = SPR
+		}
+	}
+	
 	provinces={
 		738 740 932 3735 3737 3931 3933 6756 9703 9857 11688
 	}

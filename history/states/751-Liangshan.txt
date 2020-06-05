@@ -1,23 +1,31 @@
 state={
 	id=751
 	name="STATE_751"
-	provinces={
-		1999 2067 7294 10726 10841 12141 12819 
-	}
-	manpower=300000
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=pastoral
+
 	history = {
-		1999.1.1 = { 
-			owner = H16
-			remove_core_of = H16
+		1999.1.1 = {
+			owner = CHI
+			controller = H16
+			set_state_category = betaland
+
+			H16 = {
+				set_province_controller = 1999
+				set_province_controller = 2067
+				set_province_controller = 7294
+				set_province_controller = 10726
+				set_province_controller = 10841
+				set_province_controller = 12141
+				set_province_controller = 12819 
+			}
 		}
 		owner = PRC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
 			12141 3
@@ -25,14 +33,8 @@ state={
 		victory_points = {
 			7294 1
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-				infrastructure = 2
-
-			}
-
-		}
-
+	}
+	provinces={
+		1999 2067 7294 10726 10841 12141 12819
 	}
 }

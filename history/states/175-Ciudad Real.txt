@@ -1,0 +1,60 @@
+
+state={
+	id=175
+	name="STATE_175"
+	manpower = 0
+
+	state_category = town
+
+	history = {
+		1999.1.1 = {
+		owner = EUR
+		add_core_of = EUR
+		controller = H12
+		set_state_category = betaland
+
+		H12 = {
+			set_province_controller = 888
+			set_province_controller = 942
+			set_province_controller = 3891
+			set_province_controller = 3945
+			set_province_controller = 3953
+			set_province_controller = 6800
+			set_province_controller = 6832
+			set_province_controller = 6879
+			set_province_controller = 6896
+			set_province_controller = 9757
+			set_province_controller = 9778
+			set_province_controller = 9828
+			set_province_controller = 9852
+			set_province_controller = 9881
+			set_province_controller = 11742
+			set_province_controller = 11812
+			set_province_controller = 11863
+			set_province_controller = 12081
+			}
+		}
+		owner = SPR
+		victory_points = {
+			6832 1
+		}
+		victory_points = {
+			3945 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	if = {
+	limit= { has_dlc = "La Resistance" }
+			remove_core_of = SPR
+	else = {
+			remove_core_of = SPR
+		}
+	}
+
+	provinces={
+		888 942 3891 3945 3953 6800 6832 6879 6896 9757 9778 9828 9852 9881 11742 11812 11863 12081
+	}
+}
