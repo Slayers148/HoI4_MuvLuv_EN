@@ -543,6 +543,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_JAP_T94MAX_medium"
+		texturefile = "gfx/interface/technologies/Type-04.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_JAP_T00_medium"
 		texturefile = "gfx/interface/technologies/Type-00r.dds"
 	}
