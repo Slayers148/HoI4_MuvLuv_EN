@@ -119,18 +119,8 @@ technology_folders = {
 	#MOD_tech_folder
 	MVLV_tsf_folder = {
 		available = {
-			NOT = { tag = BET }
-			NOT = { tag = USA }
-			NOT = { tag = JAP }
-			NOT = { tag = AFR }
-			NOT = { tag = CAN }
-			NOT = { tag = CHI }
-			NOT = { tag = EUR }
-			NOT = { tag = CEA }
-			NOT = { tag = GEU }
-			NOT = { tag = OSE }
-			NOT = { tag = SOA }
-			NOT = { tag = UNI }
+			tag = SOV
+				NOT = { tag = BET}
 		}
 	}
 	USA_tsf_folder = {

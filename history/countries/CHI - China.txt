@@ -90,21 +90,21 @@ capital = 524 #首都
 		superior_firepower = 1
 		
 		###TSF
-		MVLV_basic_concept_research = 1
-		MVLV_1st_tsf_low = 1
-		MVLV_1st_tsf_high = 1
-		MVLV_MiG23_tsf = 1
-		MVLV_MiG27_tsf = 1
-		SOV_Assault_gun_improvement = 1
-		MVLV_MiG31_tsf = 1
-		MVLV_MiG29_tsf = 1
-		MVLV_2nd_tsf_low = 1
-		MVLV_2nd_tsf_high = 1
+		CHI_basic_concept_research = 1
+		CHI_MVLV_1st_tsf_low = 1
+		CHI_MVLV_1st_tsf_high = 1
+		CHI_MVLV_MiG23_tsf = 1
+		CHI_MVLV_MiG27_tsf = 1
+		CHI_Assault_gun_improvement = 1
+		CHI_MVLV_MiG31_tsf = 1
+		CHI_MVLV_MiG29_tsf = 1
+		CHI_MVLV_2nd_tsf_low = 1
+		CHI_MVLV_2nd_tsf_high = 1
 #		MVLV_Su37_tsf = 1
-		SOV_Jumping_unit_improvement = 1
+		CHI_Jumping_unit_improvement = 1
 		A6S = 1
-		SOV_Manipulator_improvement = 1
-		SOV_Carrying_ammunition_increase = 1
+		CHI_Manipulator_improvement = 1
+		CHI_Carrying_ammunition_increase = 1
 		
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
