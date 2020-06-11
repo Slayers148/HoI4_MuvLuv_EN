@@ -85,7 +85,7 @@ technology_categories = {
 	asw_tech
 	naval_minesweeping
 	naval_minelaying
-
+	
 	#MOD_tech
 	MVLV_tsf_tech
 	#USA_tsf_tech
@@ -119,42 +119,50 @@ technology_folders = {
 	#MOD_tech_folder
 	MVLV_tsf_folder = {
 		available = {
+<<<<<<< HEAD
 			tag = SOV
 				NOT = { tag = BET}
 		}
+=======
+		
+			NOT = { tag = BET }
+			NOT = { tag = USA }
+			NOT = { tag = JAP }
+			NOT = { tag = AFR }
+			NOT = { tag = CAN }
+			NOT = { tag = EUR }
+			NOT = { tag = CEA }
+			NOT = { tag = GEU }
+			NOT = { tag = OSE }
+			NOT = { tag = SOA }
+			NOT = { tag = UNI }
+		}	
+>>>>>>> parent of f433e26... Chinese TSF tree and Shiranui MAX added
 	}
 	USA_tsf_folder = {
 		available = {
 		tag = USA
 			NOT = { tag = BET }
-		}
+		}	
 	}
 	JAP_tsf_folder = {
 		available = {
 		tag = JAP
 			NOT = { tag = BET }
-		}
+		}	
 	}
 	EUR_tsf_folder = {
 		available = {
 		tag = EUR
 			NOT = { tag = BET }
-		}
+		}	
 	}
 	UNI_tsf_folder = {
 		available = {
 		tag = UNI
 			NOT = { tag = BET }
-		}
+		}	
 	}
-
-	CHI_tsf_folder = {
-		available = {
-			tag = CHI
-				NOT = { tag = BET }
-		}
-	}
-
 	generic_tsf_folder = {
 		available = {
 			NOT = { tag = BET }
@@ -164,12 +172,14 @@ technology_folders = {
 			NOT = { tag = CHI }
 			NOT = { tag = EUR }
 			NOT = { tag = UNI }
-		}
+		}	
 	}
         MVLV_xg_folder = {
 		available = {
 		tag = UNI
 			NOT = { tag = BET }
-		}
+		}	
 	}
 }
+
+ 

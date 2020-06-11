@@ -466,7 +466,10 @@ technologies = {
 			leads_to_tech = T97
 			research_cost_coeff = 0.5
 		}
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of f433e26... Chinese TSF tree and Shiranui MAX added
 
 
 		folder = {
@@ -486,6 +489,7 @@ technologies = {
 
 	}
 
+<<<<<<< HEAD
 	T94_MAX = {
 
 			enable_eqipments = {
@@ -508,6 +512,8 @@ technologies = {
 				}
 	}
 
+=======
+>>>>>>> parent of f433e26... Chinese TSF tree and Shiranui MAX added
 	T94H = {
 
 		enable_equipments = {
