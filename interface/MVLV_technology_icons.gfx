@@ -533,6 +533,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+	  name = "GFX_JAP_T94_MAX_medium"
+		texturefile = "gfx/interface/technologies/TYPE-94.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_JAP_T97_medium"
 		texturefile = "gfx/interface/technologies/Type-97.dds"
 	}
@@ -815,22 +820,22 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CHI_MVLV_MiG27_tsf_medium"
-		texturefile = "gfx/interface/technologies/J-10.dds"
+		texturefile = "gfx/interface/technologies/Mig-27.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_CHI_MVLV_MiG29_tsf_medium"
-		texturefile = "gfx/interface/technologies/F-18E.dds"
+		texturefile = "gfx/interface/technologies/J-10.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_CHI_MVLV_2nd_tsf_low_medium"
-		texturefile = "gfx/interface/technologies/Mig-25.dds"
+		texturefile = "gfx/interface/technologies/F-18.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_CHI_MVLV_MiG31_tsf_medium"
-		texturefile = "gfx/interface/technologies/Mig-31.dds"
+		texturefile = "gfx/interface/technologies/F-18E.dds"
 	}
 
 	SpriteType = {
@@ -845,12 +850,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_CHI_MVLV_3rd_tsf_low_medium"
-		texturefile = "gfx/interface/technologies/Mig-35.dds"
+		texturefile = "gfx/interface/technologies/J-10X.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_CHI_MVLV_3rd_tsf_high_medium"
-		texturefile = "gfx/interface/technologies/J-10X.dds"
+		texturefile = "gfx/interface/technologies/Su-47.dds"
 	}
 
 	SpriteType = {
