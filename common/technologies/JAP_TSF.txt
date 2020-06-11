@@ -466,19 +466,7 @@ technologies = {
 			leads_to_tech = T97
 			research_cost_coeff = 0.5
 		}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of f433e26... Chinese TSF tree and Shiranui MAX added
-=======
-		path = {
-			leads_to_tech_ = T94_MAX
-			research_cost_coeff = 0.5
-		}
->>>>>>> parent of b015c03... Fix part 3
-
-
+		
 		folder = {
 			name = JAP_tsf_folder
 			position = { x = 1 y = 8 }
@@ -496,31 +484,6 @@ technologies = {
 
 	}
 
-<<<<<<< HEAD
-	T94_MAX = {
-
-			enable_eqipments = {
-				tsf_equipment_T94_MAX
-				}
-
-				research_cost = 1
-				start_year = 2003
-
-				folder = {
-					name = JAP_tsf_folder
-					position = { x = 5 y = 12 }
-				}
-				categories = {
-					MVLV_tsf_tech
-				}
-
-				ai_will_do = {
-					factor = 20000
-				}
-	}
-
-=======
->>>>>>> parent of f433e26... Chinese TSF tree and Shiranui MAX added
 	T94H = {
 
 		enable_equipments = {
