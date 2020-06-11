@@ -376,7 +376,7 @@ equipments = {
 		archetype = tsf_equipment
 		priority = 17
 		visual_level = 0
-		parent = tsf_equipment_T94
+		parent = tsf_equipment_T942
 		is_convertable = yes
 								#Misc Abilities
 		maximum_speed = 15

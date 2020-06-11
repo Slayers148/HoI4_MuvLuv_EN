@@ -581,8 +581,7 @@ technologies = {
 		MVLV_tsa_battalion = {
 			maximum_speed = 0.05
 		}
-
-
+		
 #		path = {
 #			leads_to_tech = MVLV_3rd_tsf_low
 #			research_cost_coeff = 1
@@ -603,8 +602,6 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-
-
 	}
 
 
@@ -640,12 +637,9 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-
-
 	}
 
 	T94F = {
-
 		enable_equipments = {
 			tsf_equipment_T94F
 		}
@@ -664,8 +658,6 @@ technologies = {
 		ai_will_do = {
 			factor = 20000
 		}
-
-
 	}
 
 ###ASA###
