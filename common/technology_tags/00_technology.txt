@@ -120,8 +120,23 @@ technology_folders = {
 	MVLV_tsf_folder = {
 		available = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			tag = SOV
 				NOT = { tag = BET}
+=======
+			NOT = { tag = BET }
+			NOT = { tag = USA }
+			NOT = { tag = JAP }
+			NOT = { tag = AFR }
+			NOT = { tag = CAN }
+			NOT = { tag = CHI }
+			NOT = { tag = EUR }
+			NOT = { tag = CEA }
+			NOT = { tag = GEU }
+			NOT = { tag = OSE }
+			NOT = { tag = SOA }
+			NOT = { tag = UNI }
+>>>>>>> parent of 23f5843... Fix?
 		}
 =======
 		
