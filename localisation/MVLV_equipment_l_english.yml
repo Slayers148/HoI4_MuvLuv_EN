@@ -405,6 +405,7 @@
  tsf_equipment_T94_MAX_short:0 "Type-02 Shiranui MAX"
  tst_equipment_T94_MAX_desc:0 "A private joint project by Boening and Mitsuhishi, the Shiranui MAX is designed to minimize costs, while providing the greater flexibility, reliability, and efficiency beyond current mainline TSFs. Features more cost efficient sensor equipment, simplified structures, and new more efficient Jump Units while maintaining full handling commonality with standard Type-94s."
 
+
  tsf_equipment_T94H:0 "Type-94 Shiranui Type-1C"
  tsf_equipment_T94H_short:0 "Type-94 Shiranui Type-1C"
  tsf_equipment_T94H_desc:0 "The Shiranui Type-1C is equipped with an enlarged power generator and uses the Type-00F/-00A's FE108-FHI-225 engines in its Jump Units instead of the Shiranui's original FE108-FHI-220 engines, giving it greater thruster power. However, the enlarged generator and the increase in power demand from the engines caused poorer fuel efficiency, limiting its operational time"
