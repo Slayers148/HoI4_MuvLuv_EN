@@ -466,10 +466,7 @@ technologies = {
 			leads_to_tech = T97
 			research_cost_coeff = 0.5
 		}
-		path = {
-			leads_to_tech_ = T94_MAX
-			research_cost_coeff = 0.5
-		}
+
 
 
 		folder = {
@@ -500,7 +497,7 @@ technologies = {
 
 				folder = {
 					name = JAP_tsf_folder
-					position = { x = 5 y = 12 }
+					position = { x = 5 y = 14 }
 				}
 				categories = {
 					MVLV_tsf_tech
@@ -625,6 +622,11 @@ technologies = {
 		path = {
 			leads_to_tech = T94F
 			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech_ = T94_MAX
+			research_cost_coeff = 0.5
 		}
 
 		folder = {
