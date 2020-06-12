@@ -68,10 +68,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		XOR = {
-			MVLV_1st_tsf_J8
-		}
-
 		folder = {
 			name = MVLV_tsf_folder
 			position = { x = 2 y = 2 }
@@ -106,10 +102,6 @@ technologies = {
 		path = {
 			leads_to_tech = SOV_Assault_gun_improvement
 			research_cost_coeff = 1
-		}
-
-		XOR = {
-			MVLV_1st_tsf_J8
 		}
 
 		folder = {
@@ -782,13 +774,6 @@ technologies = {
 				research_cost_coeff = 1
 				}
 
-				XOR = {
-					MVLV_1st_tsf_high
-				}
-
-				XOR = {
-					MVLV_1st_tsf_low
-				}
 
 				folder = {
 				name = MVLV_tsf_folder

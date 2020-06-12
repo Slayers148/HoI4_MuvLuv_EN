@@ -816,12 +816,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_MVLV_2nd_tsf_FCK1_low_medium"
-		texturefile = "gfx/interface/technologies/F-18.dds"
+		texturefile = "gfx/interface/technologies/F-18E.dds"
 	}
 
 	SpriteType = {
 		name = "GFX_MVLV_2nd_tsf_FCK1CD_medium"
-		texturefile = "gfx/interface/technologies/F-18E.dds"
+		texturefile = "gfx/interface/technologies/F-18S.dds"
 	}
 
 	SpriteType = {

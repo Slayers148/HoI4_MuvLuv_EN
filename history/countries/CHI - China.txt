@@ -99,6 +99,8 @@ capital = 524 #首都
 		MVLV_2nd_tsf_J11 = 1
 		SOV_Jumping_unit_improvement = 1
 		A6S = 1
+		A10S = 1
+
 		SOV_Manipulator_improvement = 1
 		SOV_Carrying_ammunition_increase = 1
 
