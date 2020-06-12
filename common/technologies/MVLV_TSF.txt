@@ -17,11 +17,11 @@ technologies = {
 		}
 #どれに繋がるか#
 		path = {
-			leads_to_tech = MVLV_1st_tsf_low
+			leads_to_tech = MVLV_1st_tsf_su11
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = MVLV_1st_tsf_high
+			leads_to_tech = MVLV_1st_tsf_mig21
 			research_cost_coeff = 1
 		}
 		path = {
@@ -50,7 +50,7 @@ technologies = {
 	}
 
 
-	MVLV_1st_tsf_low = {
+	MVLV_1st_tsf_su11 = {
 #解放される装備#
 		enable_equipments = {
 			tsf_equipment_Su11
@@ -60,7 +60,7 @@ technologies = {
 		start_year = 1976
 
 		path = {
-			leads_to_tech = MVLV_2nd_tsf_high
+			leads_to_tech = MVLV_2nd_tsf_su27
 			research_cost_coeff = 1
 		}
 		path = {
@@ -85,7 +85,7 @@ technologies = {
 
 	}
 
-	MVLV_1st_tsf_high = {
+	MVLV_1st_tsf_mig21 = {
 
 		enable_equipments = {
 			tsf_equipment_MiG21
@@ -192,7 +192,7 @@ technologies = {
 
 
 		path = {
-			leads_to_tech = MVLV_2nd_tsf_low
+			leads_to_tech = MVLV_2nd_tsf_mig25
 			research_cost_coeff = 1
 		}
 		path = {
@@ -231,7 +231,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = MVLV_2nd_tsf_high
+			leads_to_tech = MVLV_2nd_tsf_su27
 			research_cost_coeff = 1
 		}
 
@@ -275,14 +275,6 @@ technologies = {
 			ap_attack = 0.1
 		}
 
-#		path = {
-#			leads_to_tech = MVLV_2nd_tsf_low
-#			research_cost_coeff = 1
-#		}
-#		path = {
-#			leads_to_tech = MVLV_2nd_tsf_high
-#			research_cost_coeff = 1
-#		}
 
 		folder = {
 			name = MVLV_tsf_folder
@@ -299,7 +291,7 @@ technologies = {
 
 	}
 
-	MVLV_2nd_tsf_low = {
+	MVLV_2nd_tsf_mig25 = {
 
 		enable_equipments = {
 			tsf_equipment_MiG25
@@ -372,11 +364,9 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = MVLV_3rd_tsf_low
+			leads_to_tech = MVLV_3rd_tsf_mig29ovt
 			research_cost_coeff = 1
 		}
-
-
 
 		folder = {
 			name = MVLV_tsf_folder
@@ -395,7 +385,7 @@ technologies = {
 
 	}
 
-	MVLV_2nd_tsf_high = {
+	MVLV_2nd_tsf_su27 = {
 
 		enable_equipments = {
 			tsf_equipment_Su27
@@ -441,7 +431,7 @@ technologies = {
 
 
 		path = {
-			leads_to_tech = MVLV_3rd_tsf_high
+			leads_to_tech = MVLV_2nd_tsf_su47
 			research_cost_coeff = 1
 		}
 
@@ -474,15 +464,6 @@ technologies = {
 		}
 
 
-#		path = {
-#			leads_to_tech = MVLV_3rd_tsf_low
-#			research_cost_coeff = 1
-#		}
-#		path = {
-#			leads_to_tech = MVLV_3rd_tsf_high
-#			research_cost_coeff = 1
-#		}
-
 		folder = {
 			name = MVLV_tsf_folder
 			position = { x = 0 y = 10 }
@@ -498,7 +479,7 @@ technologies = {
 
 	}
 
-	MVLV_3rd_tsf_low = {
+	MVLV_3rd_tsf_mig29ovt = {
 
 		enable_equipments = {
 			tsf_equipment_MiG29OVT
@@ -529,7 +510,7 @@ technologies = {
 
 	}
 
-	MVLV_3rd_tsf_high = {
+	MVLV_2nd_tsf_su47 = {
 
 		enable_equipments = {
 			tsf_equipment_Su47
@@ -540,7 +521,7 @@ technologies = {
 
 
 		path = {
-			leads_to_tech = MVLV_3rd_tsf2
+			leads_to_tech = MVLV_3rd_tsf_su57
 			research_cost_coeff = 1
 		}
 
@@ -559,7 +540,7 @@ technologies = {
 
 	}
 
-	MVLV_3rd_tsf2 = {
+	MVLV_3rd_tsf_su57 = {
 
 		enable_equipments = {
 			tsf_equipment_Su57

@@ -612,53 +612,53 @@ spriteTypes = {
 #####ソビエト######
 
 	SpriteType = {
-		name = "GFX_SOV_MVLV_1st_tsf_low_medium"
+		name = "GFX_MVLV_1st_tsf_su11_medium"
 		texturefile = "gfx/interface/technologies/Su-11.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_1st_tsf_high_medium"
+		name = "GFX_MVLV_1st_tsf_mig21_medium"
 		texturefile = "gfx/interface/technologies/Mig-21.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_MiG23_tsf_medium"
+		name = "GFX_MVLV_MiG23_tsf_medium"
 		texturefile = "gfx/interface/technologies/Mig-27.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_MiG27_tsf_medium"
+		name = "GFX_MVLV_MiG27_tsf_medium"
 		texturefile = "gfx/interface/technologies/Mig-23.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_2nd_tsf_low_medium"
+		name = "GFX_MVLV_2nd_tsf_mig25medium"
 		texturefile = "gfx/interface/technologies/Mig-25.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_MiG31_tsf_medium"
+		name = "GFX_MVLV_MiG31_tsf_medium"
 		texturefile = "gfx/interface/technologies/Mig-31.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_2nd_tsf_high_medium"
+		name = "GFX_MVLV_2nd_tsf_su27_medium"
 		texturefile = "gfx/interface/technologies/Su-27.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_Su37_tsf_medium"
+		name = "GFX_MVLV_Su37_tsf_medium"
 		texturefile = "gfx/interface/technologies/Su-37UB.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_MiG29_tsf_medium"
+		name = "GFX_MVLV_MiG29_tsf_medium"
 		texturefile = "gfx/interface/technologies/Mig-29.dds"
 	}
 	SpriteType = {
-		name = "GFX_SOV_MVLV_3rd_tsf_low_medium"
+		name = "GFX_MVLV_3rd_tsf_mig29ovt_medium"
 		texturefile = "gfx/interface/technologies/Mig-35.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_MVLV_3rd_tsf_high_medium"
+		name = "GFX_MVLV_2nd_tsf_su47_medium"
 		texturefile = "gfx/interface/technologies/Su-47.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_MVLV_3rd_tsf2_medium"
+		name = "GFX_MVLV_3rd_tsf_su57_medium"
 		texturefile = "gfx/interface/technologies/Su-57.dds"
 	}
 
@@ -831,7 +831,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_MVLV_2nd_tsf_J16_medium"
-		texturefile = "gfx/interface/technologies/J-11.dds"
+		texturefile = "gfx/interface/technologies/Su-37UB.dds"
 	}
 
 	SpriteType = {
@@ -840,7 +840,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_CHI_MVLV_3rd_tsf2_medium"
+		name = "GFX_MVLV_3rd_tsf_J20_medium"
 		texturefile = "gfx/interface/technologies/J-20.dds"
 	}
 
