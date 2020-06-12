@@ -815,7 +815,7 @@ spriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_MVLV_2nd_tsf_FCK1_low_medium"
+		name = "GFX_MVLV_2nd_tsf_FCK1_medium"
 		texturefile = "gfx/interface/technologies/F-18E.dds"
 	}
 
@@ -831,7 +831,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_MVLV_2nd_tsf_J16_medium"
-		texturefile = "gfx/interface/technologies/Su-37UB.dds"
+		texturefile = "gfx/interface/technologies/J-11.dds"
 	}
 
 	SpriteType = {
