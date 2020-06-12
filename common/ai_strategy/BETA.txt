@@ -277,6 +277,12 @@ BETA_naval_region = {
 
 	ai_strategy = {
 		type = naval_avoid_region
+		id = 16
+		value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
 		id = 18 #english channel
 		value = 600 # avoid doing missions as well
 	}
@@ -296,6 +302,12 @@ BETA_naval_region = {
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 42
+		value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 43
 		value = 600 # avoid doing missions as well
 	}
 
@@ -331,6 +343,18 @@ BETA_naval_region = {
 
 	ai_strategy = {
 		type = naval_avoid_region
+		id = 71
+		value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 72
+		value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
 		id = 73
 		value = 600 # avoid doing missions as well
 	}
@@ -355,13 +379,19 @@ BETA_naval_region = {
 
 	ai_strategy = {
 		type = naval_avoid_region
-		id = 79
+		id = 78
 		value = 600 # avoid doing missions as well
 	}
 
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 79
+		value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 80
 		value = 600 # avoid doing missions as well
 	}
 
@@ -369,19 +399,49 @@ BETA_naval_region = {
 		type = naval_avoid_region
 		id = 87
 		value = 600 # avoid doing missions as well
-		}
+	}
 
-		ai_strategy = {
+	ai_strategy = {
+			type = naval_avoid_region
+			id = 88
+			value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+			type = naval_avoid_region
+			id = 90
+			value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+		type = naval_avoid_region
+		id = 93
+		value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+			type = naval_avoid_region
+			id = 96
+			value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
+			type = naval_avoid_region
+			id = 99
+			value = 600 # avoid doing missions as well
+	}
+
+	ai_strategy = {
 		type = naval_avoid_region
 		id = 100
 		value = 600 # avoid doing missions as well
-		}
+	}
 
 	ai_strategy = {
 		type = naval_avoid_region
 		id = 101
 		value = 600 # avoid doing missions as well
-		}
+	}
 
 	ai_strategy = {
 		type = naval_avoid_region

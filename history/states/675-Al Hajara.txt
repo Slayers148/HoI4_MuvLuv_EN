@@ -1,47 +1,28 @@
 state={
 	id=675
 	name="STATE_675"
-	manpower = 35000000
-
+	manpower = 0
 	state_category = city
-#	resources={
-#		steel=50
-#		oil=50
-#		aluminium=50
-#		rubber=5
-#		tungsten=50
-#		chromium=50
-#	}
 
 	history = {
 		1999.1.1 = {
-
-			### HIVE ###
-
-			owner = H09
-			add_core_of = H09
-			remove_core_of = IRQ
+			owner = AFR
+			controller = H09
 			add_core_of = AFR
-
-			victory_points = {
-				1631 100
+			set_state_category = betaland
+				H09 = {
+					set_province_controller = 4951
+					set_province_controller = 10744
+					set_province_controller = 12413
+					set_province_controller = 12879
+				}
 			}
-
 			buildings = {
-				hive = 1
-			        anti_air_building = 3
-                                radar_station = 4
+				infrastructure = 1
 			}
 		}
-		owner = IRQ
-		buildings = {
-			infrastructure = 1
-1631 = { bunker = 4 }
-		}
-		add_core_of = IRQ
-	}
 
 	provinces={
-		1631 4951 10744 12413 12879
+		4951 10744 12413 12879
 	}
 }
