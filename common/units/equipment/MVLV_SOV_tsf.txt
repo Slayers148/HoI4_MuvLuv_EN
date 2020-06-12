@@ -551,6 +551,40 @@ equipments = {
             aluminium = 1
             steel = 1
         }
+		#FC-31#
+		tsf_equipment_FC31 {
+		year = 2010
+		archetype = tsf_equipment
+		priority = 17
+		visual_level = 0
+		parent = tsf_equipment_J10X
+		tsf_equipment_FCK1CD
+		is_convertable = yes
+
+           #Misc Abilities
+		maximum_speed = 16.5 -> 15
+		reliability = 0.8 -> 1
+		
+		#Defensive Abilities
+		defense = 100
+		breakthrough = 100
+		hardness = 0.99
+		armor_value = 85
+		
+		#Offensive Abilities
+		soft_attack = 90
+		hard_attack = 70
+		ap_attack = 150
+		air_attack = 200
+		
+		#Space taken in convoy
+		lend_lease_cost = 5
+		
+		build_cost_ic = 65
+		resources = {
+			aluminium = 0
+			steel = 1 }
+		}
 
 
     }
@@ -569,7 +603,7 @@ equipments = {
 			reliability = 1.1	
 
 			#Defensive Abilities
-			defense = 80
+			defense = 70
 			breakthrough = 70
 			hardness = 0.99
 			armor_value = 70
@@ -674,29 +708,61 @@ equipments = {
 					parent = tsf_equipment_Su11
 					is_convertable = yes
 			                #Misc Abilities
-					maximum_speed = 15
-					reliability = 0.8
+					maximum_speed = 13
+					reliability = 1
 
 					#Defensive Abilities
-					defense = 75
-					breakthrough = 60
+					defense = 80
+					breakthrough = 80
 					hardness = 0.99
-					armor_value = 75
+					armor_value = 70
 
 					#Offensive Abilities
 					soft_attack = 75
-					hard_attack = 60
-					ap_attack = 105
-					air_attack = 140
+					hard_attack = 52.5
+					ap_attack = 110
+					air_attack = 135
 
 					#Space taken in convoy
 					lend_lease_cost = 5
 
-					build_cost_ic = 55
+					build_cost_ic = 60
 					resources = {
 					}
 				}
-
+				#J-16#
+					tsf_equipment_J16= {
+					year = 2001
+					archetype = tsf_equipment
+					priority = 17
+					visual_level = 0
+					parent = tsf_equipment_J11
+					is_convertable = yes
+					
+					#Misc Abilities
+					
+					maximum_speed = 15
+					reliability = 1
+					
+					#Defensive Abilities
+					defense = 90
+					breakthrough = 90
+					hardness = 0.99
+					armor_value = 82
+					#Offensive Abilities
+					soft_attack = 80 
+					hard_attack = 60
+					ap_attack = 160
+					air_attack = 190
+					
+					#Space taken in convoy
+					lend_lease_cost = 5
+					
+					build_cost_ic = 70
+					resources = {
+						aluminium = 1
+						steel = 1 }
+			}
 				#J-20#
 					tsf_equipment_J20 = {
 						year = 2008
