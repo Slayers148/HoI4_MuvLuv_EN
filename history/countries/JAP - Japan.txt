@@ -16,15 +16,15 @@ capital = 282 #首都
 		tech_engineers3 = 1
 		tech_engineers4 = 1
 		tech_recon = 1
-		tech_recon2 = 1	
+		tech_recon2 = 1
 		tech_recon3 = 1
-		tech_recon4 = 1	
+		tech_recon4 = 1
 		tech_field_hospital = 1
 		tech_field_hospital2 = 1
 		tech_field_hospital3 = 1
 		tech_field_hospital4 = 1
 		tech_logistics_company = 1
-		tech_logistics_company2 = 1	
+		tech_logistics_company2 = 1
 		tech_logistics_company3 = 1
 		tech_logistics_company4 = 1
 		tech_military_police = 1
@@ -61,6 +61,11 @@ capital = 282 #首都
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
+		decimetric_radar = 1
+		mechanical_computing = 1
+		computing_machine = 1
+		basic_encryption = 1
+		basic_decryption = 1
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
@@ -69,7 +74,7 @@ capital = 282 #首都
 		construction2 = 1
 		construction3 = 1
 		construction4 = 1
-		construction5 = 1	
+		construction5 = 1
 		fuel_silos = 1
 		fuel_refining = 1
 		dispersed_industry = 1
@@ -78,11 +83,13 @@ capital = 282 #首都
 		dispersed_industry4 = 1
 		dispersed_industry5 = 1
 		interwar_antiair = 1
-		improved_decryption =1
-		
+		improved_decryption = 1
+		night_vision = 1
+		night_vision2 = 1
+
 		###陸軍ドクトリン###
 		superior_firepower = 1
-		
+
 		###TSF###
 		JAP_basic_concept_research = 1
 		F4J = 1
@@ -100,28 +107,28 @@ capital = 282 #首都
 		A6J = 1
 		JAP_Manipulator_improvement = 1
 		JAP_Carrying_ammunition_increase = 1
-		
+
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
 	}
-	
+
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5 
+		uses = 5
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}	
-	
+	}
+
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1 
+		uses = 1
 		technology = flexible_line
 		technology = streamlined_line
 	}
-	
+
 	add_ideas = { #初期国家精神を定義
 		limited_exports
 		JAP_puppet_shogun
@@ -133,7 +140,7 @@ capital = 282 #首都
 		mvlv_altanative_4
 		mvlv_arms_build_up
 	}
-	
+
 	set_convoys = 1200 #初期輸送船数を定義
 }
 set_stability = 0.2 #初期安定度を定義
@@ -149,7 +156,7 @@ add_offsite_building = { type = arms_factory level = 50 } #MAP外軍需を定義
 add_offsite_building = { type = industrial_complex level = 40 } #MAP外民需を定義
 #add_offsite_building = { type = dockyard level = 5 } #MAP外海軍工廠を定義
 
-set_politics = { 
+set_politics = {
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
@@ -215,7 +222,7 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "斑鳩崇継"
 	picture = "84.dds"
-	traits = { 
+	traits = {
 		offensive_doctrine
 		JAP_samurai_lineage   # hakushaku
 		politically_connected
@@ -266,7 +273,7 @@ create_corps_commander = {
 	name = "神代 巽"
 		picture = "46.dds"
 	traits = { JAP_samurai_lineage }
-	skill = 3 
+	skill = 3
 	attack_skill = 6
 	defense_skill = 1
 	planning_skill = 5
@@ -321,7 +328,7 @@ create_corps_commander = {
 	name = "龍浪 響"
 	picture = "54.dds"
 	traits = { commando }
-	skill = 3 
+	skill = 3
 	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 2
@@ -354,7 +361,7 @@ create_corps_commander = {
 	name = "伊隅 あきら"
 		picture = "82.dds"
 	traits = { career_officer }
-	skill = 2 
+	skill = 2
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 2
@@ -440,7 +447,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "楠本 さやか"
 		picture = "19.dds"
-	traits = { fortress_buster career_officer politically_connected } 
+	traits = { fortress_buster career_officer politically_connected }
 	skill = 3
 	attack_skill = 1
 	defense_skill = 3
@@ -563,7 +570,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Battleship Variants	
+		### Battleship Variants
 		create_equipment_variant = {
 			name = "Ise Class"
 			type = battleship_1
@@ -588,7 +595,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Heavy Cruiser Variants	
+		### Heavy Cruiser Variants
 		create_equipment_variant = {
 			name = "Myoko Class"
 			type = heavy_cruiser_1
@@ -601,7 +608,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Light Cruiser Variants	
+		### Light Cruiser Variants
 		create_equipment_variant = {
 			name = "Kuma Class"
 			type = light_cruiser_1
@@ -637,8 +644,8 @@ if = {
 				ship_ASW_upgrade = 2
 				ship_anti_air_upgrade = 2
 			}
-		}	
-		### Submarine Variants	
+		}
+		### Submarine Variants
 		create_equipment_variant = {
 			name = "Kaidai III Class"
 			type = submarine_1
@@ -650,7 +657,7 @@ if = {
 				sub_torpedo_upgrade = 2
 			}
 			obsolete = yes
-		}	
+		}
 }
 if = {
 	limit = { has_dlc = "Man the Guns"}
@@ -749,7 +756,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Battleship Variants	
+		### Battleship Variants
 		create_equipment_variant = {
 			name = "Nagato Class"
 			name_group = JAP_BB_HISTORICAL
@@ -808,8 +815,8 @@ if = {
 			}
 			obsolete = yes
 		}
-			
-		### Heavy Cruiser Variants			
+
+		### Heavy Cruiser Variants
 		create_equipment_variant = {
 			name = "Myoko Class"
 			type = ship_hull_cruiser_2
@@ -1032,7 +1039,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "Momi Class" 
+			name = "Momi Class"
 			type = ship_hull_light_1
 			name_group = JAP_DD_HISTORICAL
 			parent_version = 0
@@ -1079,8 +1086,8 @@ if = {
 				mid_1_custom_slot = ship_mine_layer_1
 				rear_1_custom_slot = ship_mine_layer_1
 			}
-		}	
-		### Submarine Variants	
+		}
+		### Submarine Variants
 		create_equipment_variant = {
 			name = "Kaidai III Class"
 			type = ship_hull_submarine_1
@@ -1091,7 +1098,7 @@ if = {
 				fixed_ship_engine_slot = sub_ship_engine_1
 				rear_1_custom_slot = ship_torpedo_sub_1
 			}
-		}	
+		}
 		create_equipment_variant = {
 			name = "Ro-26 Class"
 			type = ship_hull_submarine_1
@@ -1114,7 +1121,7 @@ if = {
 			}
 		}
 }
-	# 1939 Start #			
+	# 1939 Start #
 	1939.1.1 = {
 		if = {
 			limit = {
@@ -1132,7 +1139,7 @@ if = {
 					ship_reliability_upgrade = 1
 				}
 			}
-			
+
 			create_equipment_variant = {
 				name = "Kagero Class"
 				type = destroyer_2
@@ -1265,5 +1272,5 @@ if = {
 					rear_1_custom_slot = empty
 				}
 			}
-		}	
+		}
 	}

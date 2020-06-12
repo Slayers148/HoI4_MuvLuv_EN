@@ -1,10 +1,10 @@
-capital = 640 #首都
+capital = 807 #首都
 
 1999.1.1 = {
 	oob = "H17_1999" #陸軍テンプレート読み込み
 
 	add_to_war = { targeted_alliance = BET enemy = UNI } #戦争状態を設定
-	
+
 	set_technology = { #初期研究を定義
 		###陸軍ドクトリン###
 		pocket_defence = 1
@@ -23,7 +23,7 @@ capital = 640 #首都
 		limited_conscription
 		partial_economic_mobilisation
 	}
-	
+
 	set_convoys = 0 #初期輸送船数を定義
 }
 set_stability = 1 #初期安定度を定義
@@ -57,10 +57,10 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = fascism_ideology
 	traits = {
-		
+
 	}
 }
-	
+
 create_country_leader = {
 	name = "頭脳級"
 	desc = "POLITICS_Hirohito_DESC"
@@ -68,7 +68,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = marxism
 	traits = {
-		
+
 	}
 }
 create_country_leader = {
@@ -78,7 +78,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = centrism
 	traits = {
-		
+
 	}
 }
 
@@ -86,9 +86,9 @@ create_country_leader = {
 create_field_marshal = {
 	name = "頭脳級"
 	picture = "zunou.dds"
-	traits = { 
+	traits = {
 		offensive_doctrine
-		
+
 		politically_connected
 	}
 	skill = 5
@@ -100,9 +100,9 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "要塞級"
 	picture = "yousai.dds"
-	traits = { 
+	traits = {
 		offensive_doctrine
-		
+
 		politically_connected
 	}
 	skill = 5
@@ -115,9 +115,9 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "頭脳級"
 	picture = "zunou.dds"
-	traits = { 
+	traits = {
 		offensive_doctrine
-		
+
 		politically_connected
 	}
 	skill = 5

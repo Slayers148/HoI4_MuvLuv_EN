@@ -1,0 +1,31 @@
+state={
+	id=
+	name="STATE_"
+	manpower=35000000
+	state_category="hive"
+
+	history = {
+		1999.1.1 = {
+			owner =
+			add_core_of =
+
+			buildings = {
+				infrastructure = 10
+			  anti_air_building = 5
+				air_base = 5
+				 = {bunker = 3}
+				hive = 1
+        radar_station = 4
+			}
+			victory_points = {
+				 100
+			}
+		}
+		owner =
+		add_core_of = UNI
+		add_core_of =
+	}
+	provinces={
+
+	}
+}

@@ -2,42 +2,33 @@
 state={
 	id=416
 	name="STATE_416"
-	manpower = 35000000
+	manpower = 0
 	state_category = rural
 
 	history = {
 		1999.1.1 = {
-
-			### HIVE ###
-
-			owner = H02
-			add_core_of = H02
-			remove_core_of = PER
+			owner = AFR
+			controller = H02
 			add_core_of = AFR
+			set_state_category = betaland
 
-			buildings = {
-				infrastructure = 10
-			         anti_air_building = 4
-				5029 = {
-					bunker = 4
-				}
-				hive = 1
-                                radar_station = 4
-
+			H02 = {
+				set_province_controller =	1521
+				set_province_controller = 1888
+				set_province_controller = 1957
+				set_province_controller = 2000
+				set_province_controller = 5073
+				set_province_controller = 7573
+				set_province_controller = 10351
+				set_province_controller = 10806 
 			}
 		}
-		owner = PER
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 2
+			infrastructure = 1
 		}
-		victory_points = {
-			5029 100
-		}
-		add_core_of = PER
 	}
 
 	provinces={
-		1521 1888 1957 2000 5029 5073 7573 10351 10806
+		1521 1888 1957 2000 5073 7573 10351 10806
 	}
 }
