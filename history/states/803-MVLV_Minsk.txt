@@ -1,0 +1,31 @@
+state={
+	id=803
+	name="STATE_803"
+	manpower=35000000
+	state_category="hive"
+
+	history = {
+		1999.1.1 = {
+			owner = H05
+			add_core_of = H05
+
+			buildings = {
+				infrastructure = 10
+			  anti_air_building = 5
+				air_base = 5
+				11370 = {bunker = 3}
+				hive = 1
+        radar_station = 4
+			}
+			victory_points = {
+				11370 100
+			}
+		}
+		owner = EUR
+		add_core_of = UNI
+		add_core_of = EUR
+	}
+	provinces={
+		11370
+	}
+}

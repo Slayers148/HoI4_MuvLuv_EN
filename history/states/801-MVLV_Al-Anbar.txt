@@ -1,0 +1,33 @@
+state={
+	id=801
+	name="STATE_801"
+	manpower=35000000
+	state_category="hive"
+
+	history = {
+		1999.1.1 = {
+			owner = H09
+			add_core_of = H09
+
+			buildings = {
+				infrastructure = 10
+			  anti_air_building = 5
+				1631 = {
+					bunker = 3
+				}
+				hive = 1
+        radar_station = 4
+			}
+			victory_points = {
+				1631 100
+			}
+		}
+		owner = AFR
+		add_core_of = UNI
+		add_core_of = AFR
+	}
+
+	provinces={
+		1631
+	}
+}

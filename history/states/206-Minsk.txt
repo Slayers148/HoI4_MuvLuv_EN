@@ -2,56 +2,37 @@
 state={
 	id=206
 	name="STATE_206"
-	manpower = 35000000
-
+	manpower = 0
 	state_category = city
 
-#	resources={
-#		steel=50
-#		oil=50
-#		aluminium=50
-#		rubber=5
-#		tungsten=50
-#		chromium=50
-#	}
-
 	history = { 1999.1.1 = {
+			owner = SOV
+			controller = H05
+			set_state_category = betaland
 
-			### HIVE ###
-
-			owner = H05
-			add_core_of = H05
-			remove_core_of = BLR
-
-			buildings = {
-				hive = 1
+			H05 = {
+				set_province_controller = 216
+				set_province_controller = 294
+				set_province_controller = 342
+				set_province_controller = 3267
+				set_province_controller = 3378
+				set_province_controller = 6292
+				set_province_controller = 9289
+				set_province_controller = 11216
+				set_province_controller = 11322
 			}
 		}
 		owner = SOV
 		victory_points = {
-			11370 100
-		}
-		victory_points = {
 			9289 5
 		}
 		buildings = {
-			infrastructure = 5
-			anti_air_building = 4
-			industrial_complex = 2
-			air_base = 8
-                        11370 = { bunker = 6 }
+			infrastructure = 1
 		}
 		add_core_of = SOV
-		add_core_of = BLR
-		1939.1.1 = {
-			buildings = {
-                                radar_station = 4
-				industrial_complex = 3
-			}
-		}
 	}
 
 	provinces={
-		216 294 342 3267 3378 6292 9289 11216 11322 11370
+		216 294 342 3267 3378 6292 9289 11216 11322
 	}
 }

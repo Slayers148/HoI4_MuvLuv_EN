@@ -1,0 +1,32 @@
+state={
+	id=808
+	name="STATE_808"
+	manpower=35000000
+	state_category="hive"
+
+	history = {
+		1999.1.1 = {
+			owner = H16
+			add_core_of = H16
+
+			buildings = {
+				infrastructure = 10
+			  anti_air_building = 5
+				air_base = 5
+				6999 = {bunker = 3}
+				hive = 1
+        radar_station = 4
+			}
+			victory_points = {
+				6999 100
+			}
+		}
+		owner = CHI
+		add_core_of = UNI
+		add_core_of = CHI
+		add_core_of = PRC
+	}
+	provinces={
+		6999
+	}
+}
