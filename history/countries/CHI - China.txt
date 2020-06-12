@@ -91,6 +91,14 @@ capital = 524 #首都
 
 		###TSF
 		MVLV_basic_concept_research = 1
+		MVLV_1st_tsf_low = 1
+		MVLV_1st_tsf_high = 1
+		MVLV_MiG23_tsf = 1
+		MVLV_MiG27_tsf = 1
+		MVLV_MiG31_tsf = 1
+		MVLV_MiG29_tsf = 1
+		MVLV_2nd_tsf_low = 1
+		MVLV_2nd_tsf_high = 1
 		MVLV_1st_tsf_J8 = 1
 		MVLV_2nd_tsf_J10 = 1
 		MVLV_2nd_tsf_FCK1 = 1
