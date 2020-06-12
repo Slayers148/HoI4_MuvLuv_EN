@@ -657,11 +657,11 @@
  EUR_Streamlined_Production_desc:0 "Tighter process controls, simplified production processes and redesigns to allow the substitution of more common materials and parts significantly improves production efficiency of all our combat vehicles with minimal effect on combat efficiency."
 
 ###CHINA TECH TREE##
-tsf_equipment_FCK1:0 "AIDC F-CK-1 Ching-Kuo"
+tsf_equipment_FCK1:0 "TAIDC F-CK-1 Ching-Kuo"
 tsf_equipment_FCK1_short:0 "F-CK-1"
 tsf_equipment_FCK1_desc:0 "The F-CK-1 Ching-kuo is a 2nd generation TSF developed by Taiwan, based on the requirement of running culling operations across the Taiwan Strait. Taiwan chose the F-18's base design over the F-16's for its superior operating time and versatility."
 
-tsf_equipment_FCK1CD:0 "AIDC F-CK-1 C/D Hsiang Sheng"
+tsf_equipment_FCK1CD:0 "TAIDC F-CK-1 C/D Hsiang Sheng"
 tsf_equipment_FCK1CD_short:0 "F-CK-1 C/D"
 tsf_equipment_FCK1CD_desc:0 "Pouring over combat data accumulated over culling operations conduct across the Taiwan Straits, the F-CK-1C/D Hsiang Sheng is an upgrade to the Ching-Kuo. Operation time is improved with upgrades  to the fuel and ammunition capacity of the TSF. The incorporation of Operation By Light features along with overhauling control systems and avionics with American made components allow the Hsiang Sheng to approach quasi-3rd gen status."
 
@@ -681,35 +681,17 @@ tsf_equipment_J11:0 "J-11 Flanker-L"
 tsf_equipment_J11_short:0 "J-11"
 tsf_equipment_J11_desc:0 "The UFC-licensed production model of the Su-27SK, the J-11's heavier weight and longer range, together with the lightweight J-10, form the UFC's High-Low Mix."
 
+tsf_equipment_J16:0 "J-16 Hóngyīng"
+tsf_equipment_J16_short:0 "J-16"
+tsf_equipment_J16_desc:0 "Developed after the Yukon Base Incident as a stopgap until the J-20 was operational, the J-16 is a modification of the Su-37UB to give it a quasi-3rd generation capabilities. It features RAM coating along with stronger ECM and ECCM systems, paired with stronger domestically made Jump Units and active sensors."
+
 tsf_equipment_J20:0 "J-20 Wēilóng"
 tsf_equipment_J20_short:0 "J-20"
 tsf_equipment_J20_desc:0 "Developed in response to the F-22's performance in 12/5 Incident and Yukon Base Incident, the J-20 was developed with the help of data from the Mikoyam-Guluvich 1.44 and technical expertise of Northrock Grunnan, the J-20 is capable of supercruising with enhanced sensors and stealth capabilities."
 
-CHI_Assault_gun_improvement:0 "Improved assault gun"
-CHI_Assault_gun_improvement_desc:0 "The WS-16A assault artillery used during the F-4 actual deployment was equipped with a 20mm cannon and 105mm smooth gun. However, because it was pointed out that the A type was insufficient for the BETA group, the engine muzzle diameter was replaced with 36 mm and the smooth muzzle diameter was replaced with 120 mm."
-CHI_Jumping_unit_improvement:0 "Jumping unit improvements"
-CHI_Jumping_unit_improvement_desc:0 "The jumping unit is a hybrid engine that combines a rocket engine and a jet engine as a single unit."
-CHI_Manipulator_improvement:0 "Manipulator improvements"
-CHI_Manipulator_improvement_desc:0 "By improving the manipulator, it will be possible to increase the deployment speed of blunt attack tsf."
-CHI_Carrying_ammunition_increase:0 "Increased ammunition carried"
-CHI_Carrying_ammunition_increase_desc:0 "In order to hunt the BETA who fill the battlefield, more ammunition and more ammunition is needed."
-CHI_MVLV_Improved_Propellant:0 "Improved Propellant"
-CHI_MVLV_Improved_Propellant_desc:0 "Advances in propellant technology have allowed us to manufacture ammunition that hits harder, improving the damage potential of our combat vehicles."
-CHI_MVLV_Tandem_Charge:0 "Tandem Shaped Charged Munitions"
-CHI_MVLV_Tandem_Charge_desc:0 "Miniaturized Tandem Shaped Charge warheads significantly improve penetration and after-armor effect against all BETA targets."
-CHI_MVLV_Induction_Weapons:0 "Magnetic Weapons"
-CHI_MVLV_Induction_Weapons_desc:0 "Upgrades all combat vehicles to use weapons derived from the technology used in the EML-99X, capable of easily blowing holes in the front plates of Destroyer-class BETA."
-CHI_MVLV_Tactical_Lasers:0 "Tactical Lasers"
-CHI_MVLV_Tactical_Lasers_desc:0 "Advances in energy storage and discharge mechanisms have allowed our vehicles to finally field laser weapons in combat. These high-powered pulse lasers explosively boil their targets, rendering most forms of protection meaningless."
-CHI_MVLV_Improved_Actuators:0 "Improved Actuators"
-CHI_MVLV_Improved_Actuators_desc:0 "Better-designed actuators improve a TSF’s resistance to wear and tear as well as allow them to perform combat maneuvers that used to be impossible."
-CHI_MVLV_High_Torque_Servos:0 "High-Torque Servos"
-CHI_MVLV_High_Torque_Servos_desc:0 "High-torque servos allow TSFs to power through terrain that they would formerly be unable to and perform maneuvers more effectively."
-CHI_MVLV_Regenerative_Shock_Absorbers:0 "Regenerative Shock Absorbers"
-CHI_MVLV_Regenerative_Shock_Absorbers_desc:0 "Stores the energy that would be otherwise dissipated when a TSF brakes or conducts high-acceleration maneuvers and releases it on demand, allowing our TSFs to perform even more high-energy maneuvers in the heat of combat and reducing the strain on the TSF’s frame."
-CHI_MVLV_Streamlined_Production:0 "Streamlined Production"
-CHI_MVLV_Streamlined_Production_desc:0 "Tighter process controls, simplified production processes and redesigns to allow the substitution of more common materials and parts significantly improves production efficiency of all our combat vehicles with minimal effect on combat efficiency."
-
+tsf_equipment_FC31:0 "FC-31 Gǔyīng"
+tsf_equipment_FC31_short:0 "FC-31"
+tsf_equipment_FC31_desc:0 "Privately developed by Shenyang with the technical assistance of Lockweed Mardin, the FC-31 is similiar to the F-35 in its intended role, designed to serve the Low role in the UFC High-Low mix in conjunction with the J-20. It retains classic Chinese TSF sensibilites, with a frame optimized for close combat, while retaining stealth."
  ###統一中華戦線###
 
  AFR_tsf_equipment_2:0 "Lavi"
