@@ -628,7 +628,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Mig-23.dds"
 	}
 	SpriteType = {
-		name = "GFX_MVLV_2nd_tsf_mig25medium"
+		name = "GFX_MVLV_2nd_tsf_mig25_medium"
 		texturefile = "gfx/interface/technologies/Mig-25.dds"
 	}
 	SpriteType = {
