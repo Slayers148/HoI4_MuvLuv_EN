@@ -28,6 +28,11 @@ technologies = {
 			leads_to_tech = A6S
 			research_cost_coeff = 1
 		}
+		path = {
+		 leads_to_tech = MVLV_1st_tsf_J8
+		 research_cost_coeff = 1
+		}
+
 #フォルダ、カテゴリ#
 		folder = {
 			name = MVLV_tsf_folder
@@ -61,6 +66,10 @@ technologies = {
 		path = {
 			leads_to_tech = SOV_Assault_gun_improvement
 			research_cost_coeff = 1
+		}
+
+		XOR = {
+			MVLV_1st_tsf_J8
 		}
 
 		folder = {
@@ -97,6 +106,10 @@ technologies = {
 		path = {
 			leads_to_tech = SOV_Assault_gun_improvement
 			research_cost_coeff = 1
+		}
+
+		XOR = {
+			MVLV_1st_tsf_J8
 		}
 
 		folder = {
@@ -747,7 +760,255 @@ technologies = {
 
 
 	}
+		### CHINA BRANCH ###
+		MVLV_1st_tsf_J8 = {
+			enable_equipments = {
+				tsf_equipment_J8
+				}
 
+				research_cost = 2
+				start_year = 1985
+
+				path = {
+				leads_to_tech = MVLV_2nd_tsf_J10
+				research_cost_coeff = 1
+				}
+				path = {
+				leads_to_tech = MVLV_2nd_tsf_FCK1
+				research_cost_coeff = 1
+				}
+				path = {
+				leads_to_tech = MVLV_2nd_tsf_J11
+				research_cost_coeff = 1
+				}
+
+				XOR = {
+					MVLV_1st_tsf_high
+				}
+
+				XOR = {
+					MVLV_1st_tsf_low
+				}
+
+				folder = {
+				name = MVLV_tsf_folder
+				position = { x = 6 y = 2 }
+				}
+				categories = {
+					MVLV_tsf_tech
+				}
+
+				show_effect_as_desc = no
+
+				ai_will_do = {
+					factor = 20000
+				}
+			}
+			MVLV_2nd_tsf_J10 = {
+				enable_equipments = {
+					tsf_equipment_J10
+					}
+
+					research_cost = 2
+					start_year = 1985
+
+					path = {
+					leads_to_tech = MVLV_2nd_tsf_J10X
+					research_cost_coeff = 1
+					}
+					folder = {
+					name = MVLV_tsf_folder
+					position = { x = 6 y = 8 }
+					}
+					categories = {
+						MVLV_tsf_tech
+					}
+
+					show_effect_as_desc = no
+
+					ai_will_do = {
+						factor = 20000
+					}
+				}
+				MVLV_2nd_tsf_J10X = {
+					enable_equipments = {
+						tsf_equipment_J10X
+						}
+
+						research_cost = 2
+						start_year = 2001
+
+						path = {
+						leads_to_tech = MVLV_3rd_tsf_FC31
+						research_cost_coeff = 1
+						}
+
+						folder = {
+						name = MVLV_tsf_folder
+						position = { x = 6 y = 10 }
+						}
+						categories = {
+							MVLV_tsf_tech
+						}
+
+						show_effect_as_desc = no
+
+						ai_will_do = {
+							factor = 20000
+						}
+					}
+					MVLV_2nd_tsf_FCK1 = {
+						enable_equipments = {
+							tsf_equipment_FCK1
+							}
+
+							research_cost = 2
+							start_year = 1997
+
+							path = {
+							leads_to_tech = MVLV_2nd_tsf_FCK1CD
+							research_cost_coeff = 1
+							}
+							folder = {
+							name = MVLV_tsf_folder
+							position = { x = 10 y = 10 }
+							}
+							categories = {
+								MVLV_tsf_tech
+							}
+
+							show_effect_as_desc = no
+
+							ai_will_do = {
+								factor = 20000
+							}
+						}
+					MVLV_2nd_tsf_FCK1CD = {
+						enable_equipments = {
+							tsf_equipment_FCK1CD
+							}
+
+							research_cost = 2
+							start_year = 1997
+
+							path = {
+							leads_to_tech = MVLV_3rd_tsf_FC31
+							research_cost_coeff = 1
+							}
+							folder = {
+							name = MVLV_tsf_folder
+							position = { x = 10 y = 12 }
+							}
+							categories = {
+								MVLV_tsf_tech
+								}
+
+							show_effect_as_desc = no
+
+							ai_will_do = {
+								factor = 20000
+							}
+						}
+
+						MVLV_3rd_tsf_FC31 = {
+							enable_equipments = {
+								tsf_equipment_FC31
+								}
+
+								research_cost = 2
+								start_year = 2010
+
+								folder = {
+								name = MVLV_tsf_folder
+								position = { x = 8 y = 14 }
+								}
+								categories = {
+									MVLV_tsf_tech
+								}
+
+								show_effect_as_desc = no
+
+								ai_will_do = {
+									factor = 20000
+								}
+							}
+
+						MVLV_2nd_tsf_J11 = {
+						enable_equipments = {
+							tsf_equipment_J11
+							}
+
+							research_cost = 2
+							start_year = 1983
+
+							path = {
+							leads_to_tech = MVLV_2nd_tsf_J16
+							research_cost_coeff = 1
+							}
+
+							folder = {
+							name = MVLV_tsf_folder
+							position = { x = 16 y = 8 }
+							}
+							categories = {
+								MVLV_tsf_tech
+							}
+
+							show_effect_as_desc = no
+
+							ai_will_do = {
+								factor = 20000
+							}
+						}
+						MVLV_2nd_tsf_J16 = {
+						enable_equipments = {
+							tsf_equipment_J16
+							}
+
+							research_cost = 2
+							start_year = 2001
+
+							path = {
+								leads_to_tech = MVLV_3rd_tsf_J20
+								research_cost_coeff = 1
+							}
+
+							folder = {
+							name = MVLV_tsf_folder
+							position = { x = 16 y = 12 }
+							}
+							categories = {
+								MVLV_tsf_tech
+							}
+
+							show_effect_as_desc = no
+
+							ai_will_do = {
+								factor = 20000
+							}
+						}
+						MVLV_3rd_tsf_J20 = {
+						enable_equipments = {
+							tsf_equipment_J20
+							}
+
+							research_cost = 2
+							start_year = 2008
+
+							folder = {
+							name = MVLV_tsf_folder
+							position = { x = 16 y = 14 }
+							}
+							categories = {
+								MVLV_tsf_tech
+							}
+
+							show_effect_as_desc = no
+
+							ai_will_do = {
+								factor = 20000
+							}
+						}
 		 ###RESEARCH TREE###
 
 			 MVLV_Improved_Propellant = {
