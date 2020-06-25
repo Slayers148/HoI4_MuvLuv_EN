@@ -233,7 +233,23 @@ ideas = {
 				no_supply_grace = -100
 			}
 		}
+		
+		mvlv_aggressive_beta_2 = {
+			allowed = {
+				always = no
+			}
 
+			modifier = {
+				#ai
+				ai_focus_aggressive_factor = 8
+				ai_focus_defense_factor = 0
+				army_attack_factor = 0.70
+				land_reinforce_rate = 0.20
+				training_time_army_factor = 0
+				minimum_training_level = 0
+				no_supply_grace = -100
+			}
+		}
 		#____________________________________________________________
 		mvlv_nuclear_winter = {
 			allowed = {
