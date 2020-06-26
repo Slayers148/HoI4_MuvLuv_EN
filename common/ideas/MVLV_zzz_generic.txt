@@ -233,7 +233,6 @@ ideas = {
 				no_supply_grace = -100
 			}
 		}
-		
 		mvlv_aggressive_beta_2 = {
 			allowed = {
 				always = no
@@ -250,6 +249,7 @@ ideas = {
 				no_supply_grace = -100
 			}
 		}
+
 		#____________________________________________________________
 		mvlv_nuclear_winter = {
 			allowed = {
@@ -282,20 +282,7 @@ ideas = {
 			}
 		}
 
-		mvlv_saast = {
-			allowed = {
-				always = no
-			}
-
-			modifier = {
-				industrial_capacity_factory =0.05
-				training_time_army_factor = 0.55
-				production_speed_industrial_complex_factor = 0.15
-				production_speed_infrastructure_factor = 0.25
-				consumer_goods_factor = 0.03
-			}
-		}
-
+		
 		mvlv_leased_land = {
 			allowed = {
 				always = no

@@ -14,15 +14,337 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.05	
+				production_factory_max_efficiency_factor = 0.1	
 				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
 				production_factory_efficiency_gain_factor = 0.1
-				training_time_factor = 1000
 				local_resources_factor = 0.50
 				stability_factor = -0.1
+			}
+		}
+		
+		mvlv_saast = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = -0.5
+				consumer_goods_factor = 0.1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				
+			}
+		}
+		mvlv_saast_reinforced = {
+			allowed = {
+				always = no
+			}
+			modifier = {
+				industrial_capacity_factory = 0.05
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = -1
+				consumer_goods_factor = 0.05
+				conversion_cost_civ_to_mil_factor = 1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				
+			}
+		}
+		mvlv_saast2 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.1
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.30
+				production_speed_arms_factory_factor = -1
+				conversion_cost_civ_to_mil_factor = 1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		mvlv_saast3 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.4
+				production_factory_efficiency_gain_factor = 0.60
+				production_speed_arms_factory_factor = -1
+				conversion_cost_civ_to_mil_factor = 1
+				production_factory_max_efficiency_factor = 0.1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+			}
+		}
+		Civilian_Build_Up_1 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.175
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.5
+				production_factory_efficiency_gain_factor = 0.7
+				production_speed_arms_factory_factor = -1
+				conversion_cost_civ_to_mil_factor = 1
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+			}
+		}
+		Civilian_Build_Up_2 = {
+			allowed = {
+				always = no
+			}	
+			
+			modifier = {
+				industrial_capacity_factory = 0.2
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.6
+				production_factory_efficiency_gain_factor = 0.8
+				production_speed_arms_factory_factor = -1
+				conversion_cost_civ_to_mil_factor = 1
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+			}
+		}
+		Civilian_Build_Up_3 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.225
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.7
+				production_factory_efficiency_gain_factor = 0.9
+				production_speed_arms_factory_factor = -1
+				conversion_cost_civ_to_mil_factor = 1
+				consumer_goods_factor = 0.05
+				production_factory_max_efficiency_factor = 0.15
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+			}
+		}
+		Civilian_Build_Up_Final = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.8
+				production_factory_efficiency_gain_factor = 1
+				production_speed_arms_factory_factor = -1
+				conversion_cost_civ_to_mil_factor = 1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				production_factory_max_efficiency_factor = 0.25
+				consumer_goods_factor = 0.05
+			}
+		}
+		Year_2_Phase_1 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.275
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.8
+				production_factory_efficiency_gain_factor = 1
+				production_speed_arms_factory_factor = -0.66
+				conversion_cost_civ_to_mil_factor = 0.66
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				production_factory_max_efficiency_factor = 0.30
+				consumer_goods_factor = 0.025
+			}
+		}
+		Year_2_Phase_2 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.30
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.8
+				production_factory_efficiency_gain_factor = 1
+				production_speed_arms_factory_factor = -0.33
+				conversion_cost_civ_to_mil_factor = 0.33
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				consumer_goods_factor = 0
+				production_factory_max_efficiency_factor = 0.35
+			}
+		}
+		Year_2_Phase_3 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.325
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.8
+				production_factory_efficiency_gain_factor = 1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				production_factory_max_efficiency_factor = 0.40
+				consumer_goods_factor = -0.025
+			}
+		}
+		SAAST_Finalized = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.35
+				training_time_army_factor = 0.50
+				production_speed_industrial_complex_factor = 0.8
+				production_factory_efficiency_gain_factor = 1
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				production_speed_arms_factory_factor = 0.2
+				conversion_cost_civ_to_mil_factor = -0.5
+				production_factory_max_efficiency_factor = 0.50
+				consumer_goods_factor = -0.075
+			}
+		}
+		Militarized_SAAST = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.20
+				training_time_army_factor = 0.45
+				production_speed_industrial_complex_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.50
+				production_speed_arms_factory_factor = 0.4
+				conversion_cost_civ_to_mil_factor = -0.5
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				stability_factor = -0.1
+				consumer_goods_factor = -0.04
+			}
+		}
+		Militarized_SAAST_2 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.25
+				training_time_army_factor = 0.4
+				production_factory_efficiency_gain_factor = 0.50
+				production_speed_arms_factory_factor = 0.50
+				conversion_cost_civ_to_mil_factor = -0.6
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				stability_factor = -0.15
+				consumer_goods_factor = -0.06
+			}
+		}
+		Militarized_SAAST_3 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.3
+				training_time_army_factor = 0.35
+				production_speed_industrial_complex_factor = -0.1
+				production_factory_efficiency_gain_factor = 0.50
+				production_speed_arms_factory_factor = 0.60
+				conversion_cost_civ_to_mil_factor = -0.6
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				stability_factor = -0.15
+				consumer_goods_factor = -0.08
+			}
+		}
+		Militarized_SAAST_4 = {
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				industrial_capacity_factory = 0.325
+				training_time_army_factor = 0.3
+				production_speed_industrial_complex_factor = -0.2
+				production_factory_efficiency_gain_factor = 0.55
+				production_speed_arms_factory_factor = 0.70
+				conversion_cost_civ_to_mil_factor = -0.8
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				stability_factor = -0.15
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = 0.125
+			}
+		}
+		Special_Forces_Focus = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				special_forces_min = 100
+				special_forces_attack_factor = 0.80
+				special_forces_defence_factor = 0.80
+			}
+		}
+		Special_Forces_Focus_Expanded = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				special_forces_min = 200
+				special_forces_attack_factor = 0.80
+				special_forces_defence_factor = 0.80
+			}
+		}
+		SAAST_Research_Restrictions = { 
+			allowed = {
+				always = no
+			}
+			research_bonus = {
+				MVLV_tsf_tech = -1
+			}
+			}
+		Lifting_Restrictions = { 
+			allowed = {
+				always = no
+			}
+			research_bonus = {
+				MVLV_tsf_tech = -0.50
+			}
+			}
+		Restrictions_Lifted = {
+			allowed = {
+				always = no
+			}
+			research_bonus = {
+				MVLV_tsf_tech = 0.1
 			}
 		}
 	}
