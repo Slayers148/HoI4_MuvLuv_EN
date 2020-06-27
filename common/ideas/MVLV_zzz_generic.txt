@@ -231,6 +231,7 @@ ideas = {
 				training_time_army_factor = 0
 				minimum_training_level = 0
 				no_supply_grace = -100
+				ai_focus_defense_factor = -21
 			}
 		}
 		mvlv_aggressive_beta_2 = {
@@ -247,6 +248,7 @@ ideas = {
 				training_time_army_factor = 0
 				minimum_training_level = 0
 				no_supply_grace = -100
+				ai_focus_defense_factor = -21
 			}
 		}
 
