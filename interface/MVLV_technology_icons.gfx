@@ -94,6 +94,11 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/HTT14.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_archetype_medium_tank_equipment_medium"
 		texturefile = "gfx/interface/technologies/tank.dds"
 	}
