@@ -31,7 +31,6 @@ ideas = {
 				training_time_army_factor = 0.50
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = -0.5
-				consumer_goods_factor = 0.1
 				army_attack_factor = -0.50
 				army_defence_factor = -0.50
 				
@@ -46,7 +45,6 @@ ideas = {
 				training_time_army_factor = 0.50
 				production_speed_industrial_complex_factor = 0.15
 				production_speed_arms_factory_factor = -1
-				consumer_goods_factor = 0.05
 				conversion_cost_civ_to_mil_factor = 1
 				army_attack_factor = -0.50
 				army_defence_factor = -0.50
@@ -239,12 +237,12 @@ ideas = {
 				training_time_army_factor = 0.45
 				production_speed_industrial_complex_factor = 0.10
 				production_factory_efficiency_gain_factor = 0.50
-				production_speed_arms_factory_factor = 0.4
+				production_speed_arms_factory_factor = 0.2
 				conversion_cost_civ_to_mil_factor = -0.5
 				army_attack_factor = -0.50
 				army_defence_factor = -0.50
 				stability_factor = -0.1
-				consumer_goods_factor = -0.04
+				consumer_goods_factor = -0.025
 			}
 		}
 		Militarized_SAAST_2 = {
@@ -256,12 +254,12 @@ ideas = {
 				industrial_capacity_factory = 0.25
 				training_time_army_factor = 0.4
 				production_factory_efficiency_gain_factor = 0.50
-				production_speed_arms_factory_factor = 0.50
+				production_speed_arms_factory_factor = 0.3
 				conversion_cost_civ_to_mil_factor = -0.6
 				army_attack_factor = -0.50
 				army_defence_factor = -0.50
 				stability_factor = -0.15
-				consumer_goods_factor = -0.06
+				consumer_goods_factor = -0.05
 			}
 		}
 		Militarized_SAAST_3 = {
@@ -274,12 +272,12 @@ ideas = {
 				training_time_army_factor = 0.35
 				production_speed_industrial_complex_factor = -0.1
 				production_factory_efficiency_gain_factor = 0.50
-				production_speed_arms_factory_factor = 0.60
+				production_speed_arms_factory_factor = 0.4
 				conversion_cost_civ_to_mil_factor = -0.6
 				army_attack_factor = -0.50
 				army_defence_factor = -0.50
 				stability_factor = -0.15
-				consumer_goods_factor = -0.08
+				consumer_goods_factor = -0.075
 			}
 		}
 		Militarized_SAAST_4 = {
@@ -292,7 +290,7 @@ ideas = {
 				training_time_army_factor = 0.3
 				production_speed_industrial_complex_factor = -0.2
 				production_factory_efficiency_gain_factor = 0.55
-				production_speed_arms_factory_factor = 0.70
+				production_speed_arms_factory_factor = 0.5
 				conversion_cost_civ_to_mil_factor = -0.8
 				army_attack_factor = -0.50
 				army_defence_factor = -0.50
