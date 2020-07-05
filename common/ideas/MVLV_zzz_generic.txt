@@ -224,13 +224,13 @@ ideas = {
 			modifier = {
 				#ai
 				ai_focus_aggressive_factor = 5
+				ai_focus_defense_factor = 0
 				army_attack_factor = 0.5
 				army_defence_factor = -0.25
 				land_reinforce_rate = 0.20
 				training_time_army_factor = 0
 				minimum_training_level = 0
 				no_supply_grace = -100
-				ai_focus_defense_factor = -21
 			}
 		}
 		mvlv_aggressive_beta_2 = {
@@ -241,12 +241,12 @@ ideas = {
 			modifier = {
 				#ai
 				ai_focus_aggressive_factor = 8
+				ai_focus_defense_factor = 0
 				army_attack_factor = 0.70
 				land_reinforce_rate = 0.20
 				training_time_army_factor = 0
 				minimum_training_level = 0
 				no_supply_grace = -100
-				ai_focus_defense_factor = -21
 			}
 		}
 
