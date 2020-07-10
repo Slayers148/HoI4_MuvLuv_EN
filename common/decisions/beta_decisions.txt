@@ -58,6 +58,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -102,6 +103,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -146,6 +148,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -190,6 +193,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -234,6 +238,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -278,6 +283,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -322,6 +328,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -385,4 +392,3 @@ beta = {
 		}
 	}
 }
-
