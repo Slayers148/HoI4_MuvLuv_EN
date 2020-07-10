@@ -2,34 +2,38 @@
 state={
 	id=197
 	name="STATE_197"
-	manpower = 896311
-	
+	manpower = 0
+
 	state_category = rural
 
 	history = {
-		1999.1.1 = { 
+		1999.1.1 = {
 			owner = H11
-			remove_core_of = H11
-			remove_core_of = UKR
+			controller = H11
+			set_state_category = betaland
+
+			H11 = {
+				set_province_controller = 409
+				set_province_controller = 574
+				set_province_controller = 3403
+				set_province_controller = 3755
+				set_province_controller = 6597
+				set_province_controller = 9573
+				set_province_controller = 11546
+				set_province_controller = 11683 
+			}
 		}
 		victory_points = {
 			11683 3
 		}
 		owner = SOV
 		buildings = {
-			infrastructure = 5
-			dockyard = 1
+			infrastructure = 1
 		}
 		add_core_of = SOV
-		add_core_of = UKR
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-			}
-		}
 	}
 
 	provinces={
-		409 574 3403 3755 6597 9573 11546 11683 
+		409 574 3403 3755 6597 9573 11546 11683
 	}
 }
