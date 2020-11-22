@@ -372,7 +372,7 @@ ideas = {
 
 
 			allowed = {
-				is_in_faction_with = UNI
+				original_tag = USA
 			}
 
 
@@ -416,7 +416,7 @@ ideas = {
 
 
 			allowed = {
-				is_in_faction_with = UNI
+				original_tag = USA
 			}
 
 

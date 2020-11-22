@@ -1,6 +1,6 @@
 political_actions = {
 
-		Human_Unity = {
+		Human_Unity_Test = {
 
 		icon = generic_industry
 
@@ -19,13 +19,12 @@ political_actions = {
 			war_support_weekly = 0.1
 		}
 
-		days_remove = 120
+		days_remove = 7
 		days_re_enable = 120
 
-		cost = 300
+		cost = 150
 
 		complete_effect = {
-
 		}
 
 		ai_will_do = {

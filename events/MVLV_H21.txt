@@ -15,6 +15,10 @@ country_event = {
 		OR = { 
 			date > 2001.10.25
 			JAP = { is_ai = no }
+		OR = { 
+		tag = UNI
+		has_completed_focus = Prepare_For_Ouka
+		}
 		}
 	}
 	

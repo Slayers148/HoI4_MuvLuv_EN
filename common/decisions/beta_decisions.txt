@@ -58,6 +58,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -102,6 +103,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -146,6 +148,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -190,6 +193,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -234,6 +238,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -278,6 +283,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -322,6 +328,7 @@ beta = {
 					has_war_with = ROOT
 					}
 				NOT = {
+					has_idea = mvlv_aggressive_beta_2
 					has_idea = mvlv_aggressive_beta
 					has_country_flag = disabled_aggressive_beta
 					has_idea = mvlv_standby_sado
@@ -348,6 +355,39 @@ beta = {
 			modifier = {
 				add = 20
 				num_divisions > 200
+			}
+		}
+	}
+	Failed_Ouka = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+		OR {
+			ROOT = {
+				H21 = { has_capitulated = yes}
+				is_in_faction_with = BET
+				NOT = {
+					has_idea = mvlv_aggressive_beta
+					has_idea = mvlv_standby_sado
+			 		}
+			}
+			UNI = { has_completed_focus = Allocating_Resources_For_Ouka }
+			}
+		}
+		days_remove = 240
+		fire_only_once = no
+
+		remove_effect = {
+					add_ideas = mvlv_aggressive_beta_2
+	
+		}
+
+		ai_will_do = {
+			base = 20
+			modifier = {
+				add = 20
+				num_divisions > 10
 			}
 		}
 	}
