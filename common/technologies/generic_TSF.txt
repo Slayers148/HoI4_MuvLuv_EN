@@ -44,23 +44,7 @@ technologies = {
 
 
 	}
-SOA_Test = {
-        enable_subunits = {
-           MVLV_SOA_Expeditionary_Forces
-        }
 
-        research_cost = 1
-        start_year = 1936
-
-        # not researchable #####
-        allow = {
-           always = no
-        }
-
-        ai_will_do = {
-            factor = 0
-        }
-    }
 
 	generic_1st_tsf_low = {
 #解放される装備#

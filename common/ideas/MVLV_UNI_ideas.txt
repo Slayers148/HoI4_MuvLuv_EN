@@ -18,13 +18,7 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		UNI_XG_Preparations = {
-			allowed = { always = no }
-			modifier = {
-				industrial_capacity_factory = -0.75
-				production_factory_efficiency_gain_factor = -0.75
-			}
-		}
+
 		UNI_refugees_army = {
 			allowed = { always = no }
 			modifier = {

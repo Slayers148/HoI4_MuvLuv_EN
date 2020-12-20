@@ -87,21 +87,15 @@ set_country_flag = monroe_doctrine #国旗を設定
 		dispersed_industry5 = 1
 		interwar_antiair = 1
 		improved_decryption =1
-		SOA_Test = 1
+
 		###陸軍ドクトリン###
 
 		###TSF###
 		generic_basic_concept_research = 1
 		generic_1st_tsf_low = 1
 		generic_1st_tsf_high = 1
-		generic_2nd_tsf_high
-		generic_Assault_gun_improvement = 1
-		generic_Manipulator_improvement = 1
-		generic_Carrying_ammunition_increase = 1
-		generic_asa_1st = 1
-		generic_Jumping_unit_improvement = 1
-		
-		
+
+
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
