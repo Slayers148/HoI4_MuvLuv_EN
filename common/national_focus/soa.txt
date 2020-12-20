@@ -1,4 +1,5 @@
 focus_tree = {
+    
 	id = soa_focus
 	
 	country = {
@@ -26,15 +27,15 @@ focus_tree = {
 	
 
 	focus = {
-		id = SOA_start
+		id = Go_Alone
 		icon = GFX_goal_generic_demand_territory
 		x = 3
 		y = 0
-		mutually_exclusive = { focus = SOA_request }
+		mutually_exclusive = { focus = Become_Americas_Bitch }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		cost = 10
+		cost = 2
 		available = {
 			NOT = {
 				has_idea = betawar_situation_4
@@ -48,419 +49,1613 @@ focus_tree = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	focus = {
-		id = SOA_man
-		icon = GFX_focus_generic_steel
-		x = 0
-		y = 1
-		relative_position_id = SOA_start
-		prerequisite = { focus = SOA_start }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-		#select_effect = { }
-		completion_reward = {
-			replace_civ_with_arms_factories = yes
-			add_war_support = 0.05
-		}
-		#completation_tooltip = { }
-		ai_will_do = { factor = 1 }
-	}	
-	focus = {
-		id = SOA_mans
-		icon = GFX_focus_generic_tank_production
-		x = 0
-		y = 1
-		relative_position_id = SOA_man
-		prerequisite = { focus = SOA_man }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 15
-		#select_effect = { }
-		completion_reward = {
-			remove_ideas = SOA_happy
-			replace_civ_with_arms_factories = yes
-			add_equipment_to_stockpile = { type = tsf_equipment amount = 500 producer = ROOT }
-			add_war_support = 0.05
-		}
-		ai_will_do = { factor = 1 }
-	}	
-	
-	focus = {
-		id = SOA_nous
-		icon = GFX_focus_generic_strike_at_democracy3
-		x = 0
-		y = 1
-		relative_position_id = SOA_mans
-		prerequisite = { focus = SOA_mans }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-
-		available = {
-			NOT = {
-				has_idea = betawar_situation_4
-			}
-			NOT = {
-				has_idea = betawar_situation_3
-			}
-		}
-		completion_reward = {
-			add_tech_bonus = {
-				bonus = 4.5
-				uses = 1
-				name = mech_army_bonus
-				technology = generic_1st_tsf_high
-			}	
-			remove_ideas = mvlv_saast
-			add_timed_idea =  { 
-				idea = SOA_usa
-				days = 365
-			}
-			SOA = { country_event = mvlv_soa.1 }
-			USA = { country_event = mvlv_soa.2 }
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SOA_nouni
-		icon = GFX_focus_AST_war_japan
-		x = -1
-		y = 1
-		relative_position_id = SOA_nous
-		prerequisite = { focus = SOA_nous }
-		mutually_exclusive = { focus = SOA_yesus }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-		completion_reward = {
-		add_research_slot = 1
-		add_tech_bonus = {
-			bonus = 2.5
-			uses = 3
-			category = land_doctrine
-		}
-		add_tech_bonus = {
-			bonus = 2.5
-			uses = 3
-			category = MVLV_tsf_tech
-		}
-		}
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SOA_noatom
-		icon = GFX_focus_generic_support_the_left_right
-		x = 0
-		y = 1
-		relative_position_id = SOA_nouni
-		prerequisite = { focus = SOA_nouni }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-		completion_reward = {
-			add_ideas = SOA_nosaast
-		}
-		ai_will_do = { factor = 1 }
-	}
-	
-	focus = {
-		id = SOA_yesus
-		icon = GFX_goal_molotov_ribbentrop_pact
-		x = 2
-		y = 1
-		relative_position_id = SOA_nous
-		prerequisite = { focus = SOA_nous }
-		mutually_exclusive = { focus = SOA_nouni }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-		completion_reward = {
-			add_ideas = mvlv_license
-		}
-		ai_will_do = { factor = 1 }
-	}	
-	
-	focus = {
-		id = SOA_tsf
-		icon = GFX_goal_generic_national_unity
-		x = 0
-		y = 1
-		relative_position_id = SOA_yesus
-		prerequisite = { focus = SOA_yesus }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-
-		completion_reward = {
-			add_political_power = -300
-			add_equipment_to_stockpile = { type = tsf_equipment amount = 850 producer = ROOT }
-		}
-
-		ai_will_do = { factor = 2 }
-	}
-
-	focus = {
-		id = SOA_yeswar
-		icon = GFX_focus_generic_strike_at_democracy1
-		x = -1
-		y = 1
-		relative_position_id = SOA_tsf
-
-		prerequisite = { focus = SOA_tsf }
-		mutually_exclusive = { focus = SOA_nowar }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-
-		completion_reward = {
-		add_tech_bonus = {
-			bonus = 1.5
-			uses = 3
-			category = land_doctrine
-		}
-			add_war_support = 0.10
-		}
-
-		ai_will_do = { factor = 1 }
-	}
-
-	focus = {
-		id = SOA_nowar
-		icon = GFX_focus_generic_the_giant_wakes
-		x = 1
-		y = 1
-		relative_position_id = SOA_tsf
-		prerequisite = { focus = SOA_tsf }
-		mutually_exclusive = { focus = SOA_yeswar }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-
-		completion_reward = {
-			add_stability = 0.20
-			add_political_power = 200
-		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 15
-			add_building_construction = {
-				type = arms_factory
-				level = 15
-				instant_build = yes
-			}
-		}
-		}
-
-		ai_will_do = { factor = 2 }
-	}
-
 focus = {
-	id = SOA_request
+	id = Become_Americas_Bitch
 	icon = GFX_focus_chi_mission_to_the_us
 	x = 10
 	y = 0
-	mutually_exclusive = { focus = SOA_start }
+	mutually_exclusive = { focus = Go_And_Suck_My_Own_Dick }
 
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
-	cost = 10
+	cost = 2
 
 	completion_reward = {
+	add_ideas = SAAST_Research_Restrictions
+	swap_ideas = { remove_idea = mvlv_saast add_idea = mvlv_saast_reinforced }
 			add_political_power = 300
+			USA = {375 = {add_building_construction = {type = industrial_complex level = 5 instant_build = yes } } }
+			USA = {381 = {add_building_construction = {type = industrial_complex level = 5 instant_build = yes } } }
+			USA = {378 = {add_building_construction = {type = industrial_complex level = 5 instant_build = yes } } }
 	}
 
 	ai_will_do = { factor = 5 }
 }
 focus = {
-	id = SOA_mediation
-	icon = GFX_goal_generic_territory_or_war
-	x = -1
-	y = 1
-	relative_position_id = SOA_request
-	prerequisite = { focus = SOA_request }
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-	cost = 10
-
-		available = {
-			has_idea = betawar_situation_1
-		}
-		completion_reward = {
-			remove_ideas = mvlv_saast
-			remove_ideas = SOA_happy
-		}
-		ai_will_do = { factor = 5 }
-}
-
-focus = {
-	id = SOA_refugee
-	icon = GFX_goal_generic_national_unity
-	x = 1
-	y = 1
-	relative_position_id = SOA_request
-	prerequisite = { focus = SOA_request }
-	cancel_if_invalid = yes
-	continue_if_invalid = no
-	available_if_capitulated = no
-	cost = 10
-		available = {
-                               has_idea = mvlv_saast
-               }
-	completion_reward = {
-			add_war_support = 0.30
-	}
-	ai_will_do = { factor = 1 }
-}
-focus = {
-	id = SOA_conscription
-	icon = GFX_goal_generic_production
+	id = Invest_In_The_West
+	icon = GFX_goal_generic_construct_civ_factory
+	relative_position_id = Become_Americas_Bitch
 	x = 0
 	y = 1
-	relative_position_id = SOA_refugee
-	prerequisite = { focus = SOA_refugee }
+	mutually_exclusive = { }
+	
+	prerequisite = { focus = Become_Americas_Bitch }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
-	cost = 10
-		available = {
-                               has_idea = mvlv_saast
-               }
-	completion_reward = {
-			add_war_support = 0.20
-		random_owned_controlled_state = {
-			add_extra_state_shared_building_slots = 10
-			add_building_construction = {
-				type = arms_factory
-				level = 10
-				instant_build = yes
-			}
-		}
-	}
-	ai_will_do = { factor = 1 }
-}
+	cost = 5
 
+	completion_reward = {
+				random_state = {
+				limit = { 
+					OR = {
+						state = 305
+						state = 279
+					}
+					OWNER = { is_owned_or_subject_trigger = yes }	
+					NOT = {
+						has_state_flag = FRA_colonial_industry_target
+					}
+				
+				}
+				set_state_flag = FRA_colonial_industry_target
+				
+				}
+				493 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				306 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				305 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+					
+				}
+				}
+				303 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				492 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				506 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				279 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				507 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				490 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				649 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+	}
+	ai_will_do = { factor = 5 }
+	}
 focus = {
-	id = SOA_UNI_forces
-	icon = GFX_focus_AST_never_gallipoli
+	id = Invest_In_The_North_East
+	icon = GFX_goal_generic_construct_civ_factory
+	relative_position_id = Become_Americas_Bitch
 	x = 0
-	y = 1
-	relative_position_id = SOA_conscription
-	prerequisite = { focus = SOA_conscription }
+	y = 2
+	mutually_exclusive = { }
+	
+	prerequisite = { focus = Invest_In_The_West }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
-	cost = 10
-	available = {
-                    has_idea = mvlv_saast
-        }
-	completion_reward = {
-		add_tech_bonus = {
-			bonus = 3.5
-			uses = 3
-			category = MVLV_tsf_tech
-		}
-			add_war_support = 0.40
-	}
-	ai_will_do = { factor = 1 }
-}
+	cost = 5
 
+	completion_reward = {
+				random_state = {
+				limit = { 
+					OR = {
+						state = 495
+						state = 489
+						state = 498
+					}
+					OWNER = { is_owned_or_subject_trigger = yes }	
+					NOT = {
+						has_state_flag = FRA_colonial_industry_target
+					}
+				
+				}
+				set_state_flag = FRA_colonial_industry_target
+				
+				}
+				489 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				307 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				488 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				687 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				309 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				310 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				497 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				498 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+					
+				}
+				}
+				499 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+	}
+	}
+	ai_will_do = { factor = 5 }
+}
 focus = {
-	id = SOA_XM3
-	icon = GFX_goal_tripartite_pact
+	id = Invest_In_The_South_East
+	icon = GFX_goal_generic_construct_civ_factory
+	relative_position_id = Invest_In_The_West
 	x = 2
 	y = 1
-	relative_position_id = SOA_UNI_forces
-	prerequisite = {focus = SOA_UNI_forces }
+	mutually_exclusive = { }
+	
+	prerequisite = { focus = Invest_In_The_West }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
-	cost = 15
-		available = {
-                               has_idea = mvlv_saast
-               }
+	cost = 5
+
 	completion_reward = {
-		IF = {
-			limit = {
-				NOT = { has_template = "戦術機甲連隊" }
-			}
-			division_template = {
-				name = "戦術機甲連隊"
-				regiments = {
-					MVLV_tsf_battalion= { x = 0 y = 0 }
-					MVLV_tsf_battalion= { x = 0 y = 1 }
-					MVLV_tsf_battalion= { x = 0 y = 2 }
-					MVLV_tsf_battalion= { x = 1 y = 0 }
-					MVLV_tsf_battalion= { x = 1 y = 1 }
-					MVLV_tsf_battalion= { x = 1 y = 2 }
-					MVLV_tsf_battalion= { x = 2 y = 0 }
-					MVLV_tsf_battalion= { x = 2 y = 1 }
-					MVLV_tsf_battalion= { x = 2 y = 2 }
+				random_state = {
+				limit = { 
+					OR = {
+						state = 500
+						state = 501
+					}
+					OWNER = { is_owned_or_subject_trigger = yes }	
+					NOT = {
+						has_state_flag = FRA_colonial_industry_target
+					}
+				
+				}
+				set_state_flag = FRA_colonial_industry_target
+				
+				}
+				random_state = {
+				limit = { 
+					OR = {
+						state = 496
+						state = 503
+						state = 502
+						state = 300
+					}
+					OWNER = { is_owned_or_subject_trigger = yes }	
+					NOT = {
+						has_state_flag = FRA_colonial_industry_target
+					}
+				
+				}
+				set_state_flag = FRA_colonial_industry_target
+				
+				}
+				496 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				500 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
 
 				}
-				priority = 2
-			}
-		}
-
-		capital_scope = {
-			create_unit = {
-				division = "name = \"戦術機甲連隊\" division_template = \"戦術機甲連隊\" start_experience_factor = 0.1" 
-				owner = ROOT
-			}
-			create_unit = {
-				division = "name = \"戦術機甲連隊\" division_template = \"戦術機甲連隊\" start_experience_factor = 0.1" 
-				owner = ROOT
-			}
-			create_unit = {
-				division = "name = \"戦術機甲連隊\" division_template = \"戦術機甲連隊\" start_experience_factor = 0.1" 
-				owner = ROOT
-			}
-			create_unit = {
-				division = "name = \"戦術機甲連隊\" division_template = \"戦術機甲連隊\" start_experience_factor = 0.1" 
-				owner = ROOT
-			}
-		}
+				}
+				501 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				503 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				502 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				300 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				510 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				278 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				512 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				511 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
 	}
-	ai_will_do = { factor = 1 }
+	}
+	ai_will_do = { factor = 5 }
 }
 focus = {
-	id = SOA_unification
-	icon = GFX_goal_tfv_generic_tech_sharing
+	id = Invest_In_The_Interior
+	icon = GFX_goal_generic_construct_civ_factory
+	relative_position_id = Invest_In_The_South_East
+	x = 2
+	y = 0
+	mutually_exclusive = { }
+	
+	prerequisite = { focus = Invest_In_The_West }
+	#available = { }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+
+	completion_reward = {
+				random_state = {
+				limit = { 
+					OR = {
+						state = 491
+						state = 505
+					}
+					OWNER = { is_owned_or_subject_trigger = yes }	
+					NOT = {
+						has_state_flag = FRA_colonial_industry_target
+					}
+				}
+				set_state_flag = FRA_colonial_industry_target
+				
+			}
+				random_state = {
+				limit = { 
+					OR = {
+						state = 487
+						state = 509
+					}
+					OWNER = { is_owned_or_subject_trigger = yes }	
+					NOT = {
+						has_state_flag = FRA_colonial_industry_target
+					}
+				}
+				set_state_flag = FRA_colonial_industry_target
+				
+			}
+				509 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				688 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				487 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				280 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				505 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				495 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				302 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				508 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				480 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+					
+				}
+				}
+				491 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				301 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				504 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+				486 = {
+					add_extra_state_shared_building_slots = 10
+					set_building_level = {
+					type = infrastructure
+					level = 10
+					instant_build = yes
+				}
+				}
+	}
+	}
+	ai_will_do = { factor = 5 }
+}
+
+focus = {
+	id = Industrial_Expansion_Rushed
+	icon = GFX_focus_generic_industry_3
+	#text = 
 	x = 0
 	y = 1
-	relative_position_id = SOA_UNI_forces
-	prerequisite = {
-		focus = SOA_production
-		focus = SOA_UNI_forces
+	relative_position_id = Invest_In_The_North_East
+	prerequisite = { focus = Invest_In_The_North_East }
+	mutually_exclusive = { focus = Industrial_Expansion_Expanded focus = Invest_In_The_South_East}
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 1
+	select_effect = { }
+	completion_reward = {
+			custom_effect_tooltip = Investment_a
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					has_state_flag = FRA_colonial_industry_target
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			add_research_slot = 1
 	}
-	mutually_exclusive = { focus = SOA_determination }
-	available = { is_subject = no }
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Industrial_Expansion_Expanded
+	icon = GFX_focus_generic_industry_3
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Invest_In_The_Interior
+	prerequisite = { focus = Invest_In_The_Interior }
+	#mutually_exclusive = {  }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 1
+	select_effect = { }
+	completion_reward = {
+			custom_effect_tooltip = Investment_a
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					has_state_flag = FRA_colonial_industry_target
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 10
+					instant_build = yes
+				}
+			}
+			add_research_slot = 1
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Factory_Focus
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 2
+	y = 1
+	relative_position_id = Industrial_Expansion_Rushed
+	prerequisite = { focus = Industrial_Expansion_Rushed focus = Industrial_Expansion_Expanded}
+	#mutually_exclusive = {  }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = mvlv_saast_reinforced add_idea = mvlv_saast2 }
+			
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Factory_Focus_Expanded
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Factory_Focus
+	prerequisite = { focus = Factory_Focus }
+	#mutually_exclusive = {  }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = no
 	cost = 10
-		available = {
-                               has_idea = mvlv_saast
-               }
+	select_effect = { }
 	completion_reward = {
-		add_tech_bonus = {
-			bonus = 3.5
-			uses = 4
-			category = land_doctrine
-		}
+		swap_ideas = { remove_idea = mvlv_saast2 add_idea = mvlv_saast3 }
+			
 	}
+	#completation_tooltip = { }
 	ai_will_do = { factor = 1 }
-}
+	}
+focus = {
+	id = 2_Year_Plan
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = -2
+	y = 1
+	relative_position_id = Factory_Focus_Expanded
+	prerequisite = { focus = Factory_Focus_Expanded }
+	mutually_exclusive = { focus = Crash_Military_Build_Up }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = mvlv_saast3 add_idea = Civilian_Build_Up_1 }
+		USA = { add_offsite_building = { type = industrial_complex level = 10 } }
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
 
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Year_1_Phase_2
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = 2_Year_Plan
+	prerequisite = { focus = 2_Year_Plan }
+	mutually_exclusive = { }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Civilian_Build_Up_1 add_idea = Civilian_Build_Up_2 }
+		USA = { add_offsite_building = { type = industrial_complex level = 10 } }
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Year_1_Phase_3
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Year_1_Phase_2
+	prerequisite = { focus = Year_1_Phase_2 }
+	mutually_exclusive = { }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Civilian_Build_Up_2 add_idea = Civilian_Build_Up_3 }
+		USA = { add_offsite_building = { type = industrial_complex level = 10 } }
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+		random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 15
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 5
+				set_state_flag = FRA_industrial_expansion_target
+				}	
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Year_1_Phase_Final
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Year_1_Phase_3
+	prerequisite = { focus = Year_1_Phase_3 }
+	mutually_exclusive = { }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Civilian_Build_Up_3 add_idea = Civilian_Build_Up_Final }
+		USA = { add_offsite_building = { type = industrial_complex level = 20 } }
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 10
+				set_state_flag = FRA_industrial_expansion_target
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 10
+				set_state_flag = FRA_industrial_expansion_target
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 10
+				set_state_flag = FRA_industrial_expansion_target
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					
+				}
+				add_extra_state_shared_building_slots = 10
+				set_state_flag = FRA_industrial_expansion_target
+				}
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Expansion
+	icon = GFX_focus_generic_industry_3
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Year_1_Phase_Final
+	prerequisite = { focus = Year_1_Phase_Final }
+	mutually_exclusive = { }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	complete_tooltip = {
+			every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					has_state_flag = FRA_industrial_expansion_target
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+				}
+				add_extra_state_shared_building_slots = 10
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+				}
+				add_extra_state_shared_building_slots = 10
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+				}
+				add_extra_state_shared_building_slots = 10
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+					set_state_flag = FRA_industrial_expansion_target
+				}
+				add_extra_state_shared_building_slots = 10
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size > 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+				}
+				add_extra_state_shared_building_slots = 10
+				}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					free_building_slots = {
+						building = industrial_complex
+						size < 10
+						include_locked = yes
+						NOT = {
+						has_state_flag = FRA_industrial_expansion_target
+					}	
+					}
+				}
+				add_extra_state_shared_building_slots = 10
+				}
+				every_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					has_state_flag = FRA_industrial_expansion_target
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		
+			
+			
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Year_2_Phase_1
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Expansion
+	prerequisite = { focus = Expansion }
+	mutually_exclusive = {  }
+	available = { date > 2001.1.1 }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Civilian_Build_Up_Final add_idea = Year_2_Phase_1   }
+		USA = { add_offsite_building = { type = industrial_complex level = 5 } }
+	
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Year_2_Phase_2
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Year_2_Phase_1
+	prerequisite = { focus = Year_2_Phase_1 }
+	mutually_exclusive = {  }
+	available = { date > 2001.1.1 }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Year_2_Phase_1 add_idea = Year_2_Phase_2 }
+		USA = { add_offsite_building = { type = industrial_complex level = 5 } }
+	
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Year_2_Phase_3
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Year_2_Phase_2
+	prerequisite = { focus = Year_2_Phase_2 }
+	mutually_exclusive = {  }
+	available = { date > 2001.1.1 }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Year_2_Phase_2 add_idea = Year_2_Phase_3 }
+		USA = { add_offsite_building = { type = industrial_complex level = 5 } }
+	
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = SAAST_Finalized
+	icon = GFX_goal_generic_construct_civ_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Year_2_Phase_3
+	prerequisite = { focus = Year_2_Phase_3 }
+	mutually_exclusive = {  }
+	available = { date > 2001.1.1 }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Year_2_Phase_3 add_idea = SAAST_Finalized }
+		USA = { add_offsite_building = { type = industrial_complex level = 15 } }
+	
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Crash_Military_Build_Up
+	icon = GFX_goal_generic_construct_mil_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Factory_Focus_Expanded
+	prerequisite = { focus = Factory_Focus_Expanded }
+	mutually_exclusive = { focus = 2_Year_Plan focus = Renegotiate_Research_Limitations}
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 10
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = mvlv_saast3 add_idea = Militarized_SAAST }
+		add_offsite_building = { type = arms_factory level = 30 }
+		USA = {375 = {remove_building = {type = industrial_complex level = 5 instant_build = yes } } }
+		USA = {381 = {remove_building = {type = industrial_complex level = 5 instant_build = yes } } }
+		USA = {378 = {remove_building = {type = industrial_complex level = 5 instant_build = yes } } }
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Military_Build_Up_1
+	icon = GFX_goal_generic_construct_mil_factory
+	#text = 
+	x = 0
+	y = 1
+	relative_position_id = Crash_Military_Build_Up
+	prerequisite = { focus = Crash_Military_Build_Up }
+	mutually_exclusive = { focus = 2_Year_Plan}
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Militarized_SAAST add_idea = Militarized_SAAST_2 }
+		add_offsite_building = { type = arms_factory level = 10 }
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Military_Build_Up_2
+	icon = GFX_goal_generic_construct_mil_factory
+	#text = 
+	x = 0
+	y = 2
+	relative_position_id = Crash_Military_Build_Up
+	prerequisite = { focus = Military_Build_Up_1}
+	mutually_exclusive = { focus = 2_Year_Plan}
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Militarized_SAAST_2 add_idea = Militarized_SAAST_3 }
+		add_offsite_building = { type = arms_factory level = 10 }
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Military_Build_Up_Final
+	icon = GFX_goal_generic_construct_mil_factory
+	#text = 
+	x = 0
+	y = 3
+	relative_position_id = Crash_Military_Build_Up
+	prerequisite = { focus = Military_Build_Up_2}
+	mutually_exclusive = { focus = 2_Year_Plan}
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 5
+	select_effect = { }
+	completion_reward = {
+		swap_ideas = { remove_idea = Militarized_SAAST_3 add_idea = Militarized_SAAST_4 }
+		add_offsite_building = { type = arms_factory level = 10 }
+	}
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+ focus = {
+        id = Create_The_Special_Forces
+        icon = GFX_goal_generic_allies_build_infantry
+        #text = 
+        x = 4
+        y = 1
+        relative_position_id = Factory_Focus_Expanded
+        prerequisite = { focus = Factory_Focus_Expanded }
+        mutually_exclusive = {  }
+        #available = { }
+        #bypass = { }
+        #cancel = { }
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        cost = 5
+        #select_effect = { }
+        completion_reward = {
+		
+            add_ideas = { Special_Forces_Focus }
+			country_lock_all_division_template = no
+			division_template = {
+						name = "SOA Expeditionary Forces"
+						priority = 2
+				regiments = {
+					MVLV_SOA_Expeditionary_Forces = { x = 0 y = 0 }
+					MVLV_SOA_Expeditionary_Forces = { x = 0 y = 1 }
+					MVLV_SOA_Expeditionary_Forces = { x = 0 y = 2 }
+					MVLV_SOA_Expeditionary_Forces = { x = 1 y = 0 }
+					MVLV_SOA_Expeditionary_Forces = { x = 1 y = 1 }
+					MVLV_SOA_Expeditionary_Forces = { x = 1 y = 2 }
+					MVLV_SOA_Expeditionary_Forces = { x = 2 y = 0 }
+					MVLV_SOA_Expeditionary_Forces = { x = 2 y = 1 }
+					MVLV_SOA_Expeditionary_Forces = { x = 2 y = 2 }
+					MVLV_SOA_Expeditionary_Forces = { x = 2 y = 3 }
+				}
+				support = {
+					engineer = { x = 0 y = 0 }
+			  field_hospital = { x = 0 y = 1 }
+			  MVLV_laserjagd = { x = 0 y = 2 }
+					}
+					} 
+			custom_effect_tooltip = Spec_forces_a
+		random_owned_state = {
+				limit = {
+						has_state_flag = FRA_colonial_industry_target
+				}
+				remove_building = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			} 
+			set_state_flag = used
+				}
+		random_owned_state = {
+				limit = {
+						has_state_flag = FRA_colonial_industry_target
+						NOT = { has_state_flag = used }
+				}
+				remove_building = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			}
+			set_state_flag = used
+				}	
+		random_owned_state = {
+				limit = {
+						has_state_flag = FRA_colonial_industry_target
+						NOT = { has_state_flag = used }
+				}
+				remove_building = {
+				type = industrial_complex
+				level = 5
+				instant_build = yes
+			} 
+			set_state_flag = used
+				}
+            capital_scope = {
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			
+				
+			
+			USA = {add_offsite_building = { type = industrial_complex level = 15 }}
+        }
+        #completation_tooltip = { }
+        ai_will_do = { factor = 1 }
+    }
+	}
+	focus = {
+        id = Expand_The_Special_Forces
+        icon = GFX_goal_generic_allies_build_infantry
+        #text = 
+        x = 0
+        y = 1
+        relative_position_id = Create_The_Special_Forces
+        prerequisite = { focus = Create_The_Special_Forces }
+        mutually_exclusive = {  }
+        #available = { }
+        #bypass = { }
+        #cancel = { }
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        cost = 5
+        #select_effect = { }
+         completion_reward = {
+		swap_ideas = { remove_idea = Special_Forces_Focus add_idea = Special_Forces_Focus_Expanded }
+		capital_scope = {
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"SOA Expeditionary Forces\" division_template = \"SOA Expeditionary Forces\" start_experience_factor = 0.10 start_equipment_factor = 0.1" 
+				owner = ROOT
+        }
+        }
+		}
+        #completation_tooltip = { }
+        ai_will_do = { factor = 1 }
+    }
+	focus = {
+        id = Renegotiate_Research_Limitations
+        icon = GFX_focus_research
+        #text = 
+        x = 2
+        y = 1
+        relative_position_id = Factory_Focus_Expanded
+        prerequisite = { focus = Factory_Focus_Expanded}
+        mutually_exclusive = { focus = Crash_Military_Build_Up }
+        available = { has_political_power > 150 }
+        #bypass = { }
+        cancel = { has_political_power < 150 }
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        cost = 5
+        select_effect = { }
+        completion_reward = {
+				 swap_ideas {remove_idea = SAAST_Research_Restrictions add_idea = Lifting_Restrictions }
+				 add_political_power = -200
+        }
+        #completation_tooltip = { }
+        ai_will_do = { factor = 1 }
+    }
+	focus = {
+        id = Lift_All_Research_Limitations
+        icon = GFX_focus_research
+        #text = 
+        x = 0
+        y = 1
+        relative_position_id = Renegotiate_Research_Limitations
+        prerequisite = { focus = Renegotiate_Research_Limitations }
+        mutually_exclusive = { focus = Crash_Military_Build_Up }
+        available = { has_political_power > 150 
+					num_of_factories > 600	}
+        #bypass = { }
+        cancel = { has_political_power < 150 }
+        cancel_if_invalid = yes
+        continue_if_invalid = no
+        available_if_capitulated = no
+        cost = 5
+        #select_effect = { }
+        completion_reward = {
+				 swap_ideas = { remove_idea = Lifting_Restrictions add_idea = Restrictions_Lifted }
+				 add_research_slot = 1
+				 add_political_power = -200
+        }
+        #completation_tooltip = { }
+        ai_will_do = { factor = 1 }
+    }
+				
+			add_research_slot = 1
 }

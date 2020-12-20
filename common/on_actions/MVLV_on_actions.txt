@@ -19,6 +19,6 @@ on_actions = {
 				}
 				country_event = mvlv_generic.1
 			}
-		}
+		SOA = { country_lock_all_division_template = yes}
 	}
 }

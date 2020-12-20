@@ -1,0 +1,98 @@
+sub_units = {
+    MVLV_SOA_Expeditionary_Forces = {
+        sprite = "tsf" # Refers to <name>_entity in a gfx/entities/.*.asset file - Controls the unit used on the map
+        
+        # Controls the map icon category used for the unit
+        map_icon_category = armored
+
+        priority = 3500    # Controls which icon is used if multiple subunits of the same type exist
+        ai_priority = 4000
+
+        active = no       # Whether the unit is usable without explicit unlocking in technology
+        cavalry = no           # Used to define subunit as cavalry 
+        special_forces = yes    # Used to define subunit as specifcdal forces
+        marines = no           # Used to define subunit as marine
+        mountaineers = no      # Used to define subunit as mountaineers
+        can_be_parachuted = yes # Used to define subunit as paratroopers.
+        
+        
+        # How the unit is grouped division-wise, i.e. appearing in the Support tab. Not used for air or naval units
+        group = armor
+        
+       
+        
+        # Categories the unit belongs to.
+        categories = {
+            category_tanks
+			category_front_line
+			category_all_armor
+			category_army
+			category_MVLV_tsf
+			category_special_forces
+        }
+        
+        # Equipment needed to produce this unit. Unit won't be available until the nation has this equipment
+        need = {
+            tsf_equipment = 12
+        }
+        
+        # Modifiers control the stats of the unit. More detail under the Stats section.
+        manpower = 500
+		max_organisation = 65
+		max_strength = 30
+		default_morale = 2.5
+		training_time = 60
+		weight = 0.0
+		supply_consumption = 0.05
+        recon = 1
+		initiative = 0.2
+		experience_loss_factor = -0.04
+		combat_width = 2
+        # Modifiers that occur only in specific terrain
+        forest = {
+			attack = 0.2
+			movement = 0.2
+			defence = 0.1
+		}
+
+		hills = {
+			attack = 0.1
+			movement = 0.1
+			defence = 0.1
+		}
+
+		mountain = {
+			attack = 0.1
+			movement = 0.2
+			defence = 0.1
+		}
+
+		jungle = {
+			attack = 0.2
+			movement = 0.2
+			defence = 0.2
+		}
+
+		marsh = {
+			attack = 0.2
+			movement = 0.1
+			defence = 0.2 
+		}
+
+		fort = {
+			attack = 0.05
+			
+		}
+
+		river = {
+			attack = 0.3
+			movement = 0.3
+			defence = 0.3
+		}
+
+		amphibious = {
+			attack = 0.2
+			defence = 0.2
+		}
+    }
+}

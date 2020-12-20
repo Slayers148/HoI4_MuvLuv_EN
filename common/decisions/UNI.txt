@@ -347,43 +347,7 @@ political_actions = {
 #			}
 #		}
 
-		Human_Unity = {
-
-		icon = generic_industry
-
-		available = {
-		has_war_with = BET
-		}
-
-		visible = {
-			always = yes
-		}
-
-		fire_only_once = no
-
-		modifier = {
-			stability_weekly = 0.1
-			war_support_weekly = 0.1
-		}
-
-		days_remove = 120
-		days_re_enable = 120
-
-		cost = 300
-
-		complete_effect = {
-
-		}
-
-		ai_will_do = {
-			base = 0
-			modifier = {
-				add = 1
-				has_stability < 0.6
-			}
-		}
-	}
-
+		
 }
 
 economy_decisions = {
