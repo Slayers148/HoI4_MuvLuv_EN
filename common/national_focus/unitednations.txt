@@ -17,8 +17,8 @@ focus_tree = {
 	id = UNI_develope_XM3YEZ
 	icon = GFX_goal_generic_national_unity
 	#text = 
-	x = -10
-	y = -10
+	x = -5
+	y = 0
 	relative_position_id = UNI_support_japanese_defence
 	#prerequisite = { }
 	#mutually_exclusive = {  }
@@ -41,9 +41,9 @@ focus = {
 	id = UNI_Share_XM3
 	icon = GFX_goal_generic_national_unity
 	#text = 
-	x = -20
-	y = -20
-	relative_position_id = UNI_support_japanese_defence
+	x = 0
+	y = 1
+	relative_position_id = UNI_develope_XM3YEZ
 	prerequisite = { focus = UNI_develope_XM3YEZ }
 	#mutually_exclusive = {  }
 	#available = {  }
@@ -70,7 +70,190 @@ focus = {
 	#completation_tooltip = { }
 	ai_will_do = { factor = 1 }
 	}
+focus = {
+	id = Allocating_Resources_For_Ouka_Plan_1
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = -1
+	y = 1
+	relative_position_id = UNI_Share_XM3
+	prerequisite = { focus = UNI_Share_XM3 }
+	mutually_exclusive = { focus = Allocating_Resources_For_Ouka_Plan_2 }
+	#available = {  }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 3
+	select_effect = {  }
+	completion_reward = {
+			add_ideas = { UNI_XG_Preparations }
+		}
+		
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+	id = Allocating_Resources_For_Ouka_Plan_2
+	icon = GFX_goal_generic_national_unity
+	#text = 
+	x = 1
+	y = 1
+	relative_position_id = UNI_Share_XM3
+	prerequisite = { focus = UNI_Share_XM3 }
+	#mutually_exclusive = { focus = Allocating_Resources_For_Ouka_Plan_1 }
+	available = { H21 = {has_idea = mvlv_aggressive_beta} }
+	#bypass = { }
+	#cancel = { }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+	cost = 1
+	select_effect = {  }
+	completion_reward = {
+			add_ideas = { UNI_XG_Preparations }
+		}
+		
+	#completation_tooltip = { }
+	ai_will_do = { factor = 1 }
+	}
+focus = {
+		id = Prepare_For_Ouka
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = Allocating_Resources_For_Ouka_Plan_1
 
+		prerequisite = { focus = Allocating_Resources_For_Ouka_Plan_1 }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 18
+
+		#select_effect = { }
+		completion_reward = {
+		remove_ideas = { UNI_XG_Preparations }
+		division_template = {
+						name = "Beta Go Boom Boom"
+						priority = 2
+				regiments = {
+					MVLV_xg_battalion = { x = 0 y = 0 }
+					MVLV_tsf_battalion= { x = 0 y = 1 }
+					MVLV_tsf_battalion= { x = 0 y = 2 }
+					MVLV_tsf_battalion= { x = 1 y = 0 }
+					MVLV_tsf_battalion= { x = 1 y = 1 }
+				}
+					} 
+			capital_scope = {
+			create_unit = {
+				division = "name = \"Beta Go Boom Boom\" division_template = \"Beta Go Boom Boom\" start_experience_factor = 0.25" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"Beta Go Boom Boom\" division_template = \"Beta Go Boom Boom\" start_experience_factor = 0.25" 
+				owner = ROOT
+			}
+		}
+		hidden_effect = {
+		H21 = {	remove_ideas = mvlv_standby_sado
+				add_ideas = mvlv_aggressive_beta }
+				
+		hidden_effect = {
+		 SOA = { country_event = { days = 1 id = test.1 }}
+		 UNI = { country_event = { days = 1 id = test.1 }}
+		 CEA = { country_event = { days = 1 id = test.1 }}
+		 CAN = { country_event = { days = 1 id = test.1 }}
+		 CHI = { country_event = { days = 1 id = test.1 }}
+		 USA = { country_event = { days = 1 id = test.1 }}
+		 JAP = { country_event = { days = 1 id = test.1 }}
+		 AFR = { country_event = { days = 1 id = test.1 }}
+		 EU = { country_event = { days = 1 id = test.1 }}
+		 OSE = { country_event = { days = 1 id = test.1 }}
+		 GEU = { country_event = { days = 1 id = test.1 }}
+		 SOV = { country_event = { days = 1 id = test.1 }}
+		}
+		
+		}
+		#Shitty implementation. Is likely to crash the fucking mod
+					}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
+focus = {
+		id = Prepare_For_Ouka_Version_2
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = Allocating_Resources_For_Ouka_Plan_2
+
+		prerequisite = { focus = Allocating_Resources_For_Ouka_Plan_2 }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 8
+
+		#select_effect = { }
+		completion_reward = {
+		remove_ideas = { UNI_XG_Preparations }
+		division_template = {
+						name = "Beta Go Boom Boom"
+						priority = 2
+				regiments = {
+					MVLV_xg_battalion = { x = 0 y = 0 }
+					MVLV_tsf_battalion= { x = 0 y = 1 }
+					MVLV_tsf_battalion= { x = 0 y = 2 }
+					MVLV_tsf_battalion= { x = 1 y = 0 }
+					MVLV_tsf_battalion= { x = 1 y = 1 }
+				}
+					} 
+			capital_scope = {
+			create_unit = {
+				division = "name = \"Beta Go Boom Boom\" division_template = \"Beta Go Boom Boom\" start_experience_factor = 0.25" 
+				owner = ROOT
+			}
+			create_unit = {
+				division = "name = \"Beta Go Boom Boom\" division_template = \"Beta Go Boom Boom\" start_experience_factor = 0.25" 
+				owner = ROOT
+			}
+		}
+		hidden_effect = {
+		H21 = {	remove_ideas = mvlv_standby_sado
+				add_ideas = mvlv_aggressive_beta }
+				
+		hidden_effect = {
+		 SOA = { country_event = { days = 1 id = test.1 }}
+		 UNI = { country_event = { days = 1 id = test.1 }}
+		 CEA = { country_event = { days = 1 id = test.1 }}
+		 CAN = { country_event = { days = 1 id = test.1 }}
+		 CHI = { country_event = { days = 1 id = test.1 }}
+		 USA = { country_event = { days = 1 id = test.1 }}
+		 JAP = { country_event = { days = 1 id = test.1 }}
+		 AFR = { country_event = { days = 1 id = test.1 }}
+		 EU = { country_event = { days = 1 id = test.1 }}
+		 OSE = { country_event = { days = 1 id = test.1 }}
+		 GEU = { country_event = { days = 1 id = test.1 }}
+		 SOV = { country_event = { days = 1 id = test.1 }}
+		}
+		
+		}
+		#Shitty implementation. Is likely to crash the fucking mod
+					}
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 1 }
+	}
 	focus = {
 		id = UNI_support_japanese_defence
 		icon = GFX_goal_generic_national_unity
