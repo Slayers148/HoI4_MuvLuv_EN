@@ -1,7 +1,7 @@
 ﻿l_english:
- USA_tsf_folder:0 "アメリカ合衆国戦術機"
- USA_tsf_folder_desc:0 "アメリカ合衆国戦術機"
- USA_basic_concept_research:0 "戦術機基礎研究"
+ USA_tsf_folder:0 "United States Tactical Surface Fighters"
+ USA_tsf_folder_desc:0 "United States Tactical Surface Fighters"
+ USA_basic_concept_research:0 "US Tactical Surface Fighter Research"
  USA_basic_concept_research_desc:0 "none"
  tsf_equipment_F14:0 "F-14"
  tsf_equipment_F14_desc:0 "none"
