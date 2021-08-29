@@ -226,76 +226,6 @@ focus_tree = {
 		#completation_tooltip = { }
 		ai_will_do = { factor = 1 }
 	}
-	focus = {
-		id = JAP_operation_kou_21_preparation
-		icon = GFX_goal_generic_national_unity
-		#text = 
-		x = 0
-		y = 1
-		relative_position_id = JAP_alternative_iv_project
-		prerequisite = { focus = JAP_alternative_iv_project }
-		#mutually_exclusive = { focus = }
-		#available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 10
-		#select_effect = { }
-		completion_reward = {
-			country_event = kou_21.1
-		}
-		#completation_tooltip = { }
-		ai_will_do = { factor = 1 }
-	}
-	focus = {
-		id = JAP_operation_kou_20_preparation
-		icon = GFX_goal_generic_national_unity
-		#text = 
-		x = 0
-		y = 1
-		relative_position_id = JAP_operation_kou_21_preparation
-		prerequisite = { focus = JAP_operation_kou_21_preparation }
-		#mutually_exclusive = { focus = }
-		available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 1
-		#select_effect = { }
-		completion_reward = {
-			country_event = kou_20.1
-		}
-		#completation_tooltip = { }
-		ai_will_do = { factor = 1 }
-	}
-	
-	focus = {
-		id = JAP_operation_cherry_blossom
-		icon = GFX_goal_generic_national_unity
-		#text = 
-		x = 0
-		y = 1
-		relative_position_id = JAP_operation_kou_20_preparation
-		prerequisite = { focus = JAP_operation_kou_20_preparation }
-		#mutually_exclusive = { focus = }
-		available = { }
-		#bypass = { }
-		#cancel = { }
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		cost = 1
-		#select_effect = { }
-		completion_reward = {
-			country_event = kou_21.1
-		}
-		#completation_tooltip = { }
-		ai_will_do = { factor = 1 }
-	}
 	
 	
 	########### reconstruction branch ############
@@ -446,5 +376,54 @@ focus_tree = {
 		} 
 		#completation_tooltip = { }
 		ai_will_do = { factor = 1 }
-	}	
+	}
+
+	
+	########### xfj ############
+
+	focus = {
+		id = JAP_xfj_project
+		icon = GFX_focus_attack_australia
+		x = 13
+		y = 0
+		#relative_position_id = 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			282 = {
+				is_controlled_by = JAP
+                        }
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		select_effect = {
+			country_event = { id = mvlv_jap.2 days = 3 }
+		}
+		completion_reward = {
+			USA = { country_event = mvlv_jap.1 }
+			JAP = { country_event = mvlv_jap.1 }
+			add_ideas = mvlv_prominence_problem
+			add_tech_bonus = {
+				bonus = 2.5
+				uses = 1
+				name = mech_army_bonus
+				technology = JAP_T942
+			}	
+                }
+	}
+
+	
 }

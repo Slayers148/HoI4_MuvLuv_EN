@@ -2,41 +2,26 @@
 state={
 	id=618
 	name="STATE_618" # Dzungaria
-	manpower = 0
+	manpower = 670800
 
 	state_category = pastoral
 
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H06
-			set_state_category = betaland
-
-			H06 = {
-				set_province_controller = 1708
-				set_province_controller = 1783
-				set_province_controller = 1844
-				set_province_controller = 4714
-				set_province_controller = 4788
-				set_province_controller = 4823
-				set_province_controller = 4849
-				set_province_controller = 7693
-				set_province_controller = 7737
-				set_province_controller = 7866
-				set_province_controller = 10674
-				set_province_controller = 10691
-				set_province_controller = 12590
-				set_province_controller = 12737 
-			}
+	history = { 1999.1.1 = { 
+			owner = H06
+			remove_core_of = H06
 		}
 		owner = PRC
+		#add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 1
 		}
+
 	}
 
 	provinces={
-		1708 1783 1844 4714 4788 4823 4849 7693 7737 7866 10674 10691 12590 12737
+		1708 1783 1844 4714 4788 4823 4849 7693 7737 7866 10674 10691 12590 12737 
 	}
 }

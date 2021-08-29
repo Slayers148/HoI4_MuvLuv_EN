@@ -5,33 +5,14 @@
 add_namespace = news
 
 news_event = {
-         id = mvlv_srf.1
-         title = mvlv_srf.1.t
-         desc = mvlv_srf.1.d
-         picture =
-         
-         major = yes
-         is_triggered_only = yes
+	id = news.1
+	desc = news.1.d
+	title = news.1.t
+	#picture = 
 
-         option = {
-                  name = mvlv_srf.1.a
-         }
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = news.1.a
+	}
 }
-
-news_event = {
-         id = test.1
-         title = test.1.t
-         desc = test.1.d
-         picture = GFX_news_event_chinese_soldiers_march
-         fire_only_once = yes
-         major = yes
-         is_triggered_only = no
-		 
-		mean_time_to_happen = {days 1}
-		
-
-		
-		option = {name = test.1.a}
-		
-		
-			}

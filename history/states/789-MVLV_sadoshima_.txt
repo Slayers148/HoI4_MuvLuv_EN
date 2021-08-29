@@ -33,9 +33,8 @@ state={
 			anti_air_building = 3
 			air_base = 5
 			9952 = {
-				naval_base = 10
-				coastal_bunker = 3
 				bunker = 3
+                                naval_base = 1
 			}
 			radar_station = 3
 		}

@@ -2,40 +2,18 @@
 state={
 	id=267
 	name="STATE_267" # Kabul
-	manpower = 0
-
+	manpower = 4637140
+	
 	state_category = town
-
+	
 	resources={
 		tungsten=3 # was: 3
 	}
-		history = { 1999.1.1 = {
-		owner = AFR
-		controller = H02
-		remove_core_of = AFG
-		add_core_of = AFR
-		set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 5082
-				set_province_controller = 7448
-				set_province_controller = 7519
-				set_province_controller = 7584
-				set_province_controller = 7916
-				set_province_controller = 7984
-				set_province_controller = 10476
-				set_province_controller = 10737
-				set_province_controller = 10781
-				set_province_controller = 10826
-				set_province_controller = 10852
-				set_province_controller = 10896
-				set_province_controller = 12248
-				set_province_controller = 12314
-				set_province_controller = 12653
-				set_province_controller = 12769
-				set_province_controller = 12831
-				set_province_controller = 12877
-			}
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
+			remove_core_of = AFG
+			add_core_of = AFR
 
 			#BETA本国陥落用
 			add_claim_by = BET
@@ -43,16 +21,16 @@ state={
 		owner = AFG
 		buildings = {
 			infrastructure = 2
-			#arms_factory = 1
-			#industrial_complex = 2
+			arms_factory = 1
+			industrial_complex = 2  
 		}
 		victory_points = {
-			10737 5
+			10737 5 
 		}
 		add_core_of = AFG
 	}
 
 	provinces={
-		5082 7448 7519 7584 7916 7984 10476 10737 10781 10826 10852 10896 12248 12314 12653 12769 12831 12877
+		5082 7448 7519 7584 7916 7984 10476 10737 10781 10826 10852 10896 12248 12314 12653 12769 12831 12877 
 	}
 }

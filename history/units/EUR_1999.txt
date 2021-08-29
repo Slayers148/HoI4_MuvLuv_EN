@@ -158,68 +158,45 @@ division_template = {
 	}
 	priority = 0
 }
+
 division_template = {
-	name = "沿岸防衛師団1"
+	name = "攻撃ヘリ旅団"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+		light_armor = { x = 2 y = 3 }
+
+	}
+	priority = 0
+}
+division_template = {
+	name = "高射連隊"
 
 	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }
-		medium_armor = { x = 0 y = 2 }
-		medium_armor = { x = 0 y = 3 }
-		MVLV_tsf_battalion = { x = 1 y = 0 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		modern_sp_anti_air_brigade = { x = 1 y = 0 }
+		modern_sp_anti_air_brigade = { x = 1 y = 1 }
+		modern_sp_anti_air_brigade = { x = 1 y = 2 }
+		modern_sp_anti_air_brigade = { x = 2 y = 0 }
+		modern_sp_anti_air_brigade = { x = 2 y = 1 }
+		modern_sp_anti_air_brigade = { x = 2 y = 2 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
 	}
+	priority = 0
 }
 
-division_template = {
-	name = "防衛防衛師団2"
-
-	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }
-		medium_armor = { x = 0 y = 2 }
-		MVLV_tsf_battalion = { x = 1 y = 0 }
-		MVLV_tsf_battalion = { x = 1 y = 1 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
-}
-division_template = {
-	name = "沿岸防衛師団1"
-
-	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }
-		medium_armor = { x = 0 y = 2 }
-		medium_armor = { x = 0 y = 3 }
-		MVLV_tsf_battalion = { x = 1 y = 0 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
-}
-
-division_template = {
-	name = "防衛防衛師団2"
-
-	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }
-		medium_armor = { x = 0 y = 2 }
-		MVLV_tsf_battalion = { x = 1 y = 0 }
-		MVLV_tsf_battalion = { x = 1 y = 1 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
-	}
-}
 units = {
 	###TSF
 	#____________________________________________________________
@@ -463,23 +440,12 @@ units = {
 		division_template = "欧州連合対BETA防衛師団"
 		start_experience_factor = 0.2
         }
-        division = {
-		name = "防衛師団"
-		location = 6103
-		division_template = "欧州連合対BETA防衛師団"
-		start_experience_factor = 0.2
-        }
-        division = {
-		name = "防衛師団"
-		location = 6103
-		division_template = "欧州連合対BETA防衛師団"
-		start_experience_factor = 0.2
-        }
 	division = {
 		name = "戦術機甲連隊"
 		location = 6103
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "EUR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -493,6 +459,7 @@ units = {
 		location = 6103
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "EUR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -506,21 +473,14 @@ units = {
 		location = 9484
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
-		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_F-5EADV = { owner = "EUR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 9484
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
-		force_equipment_variants = { tsf_equipment_M2000 = { owner = "EUR" } }
-	}
-	division = {
-		name = "戦術機甲連隊"
-		location = 9484
-		division_template = "戦術機甲連隊"
-		start_experience_factor = 0.3
-		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_F-5EADV = { owner = "EUR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -534,20 +494,21 @@ units = {
 		location = 9484
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
-		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_JA-37 = { owner = "EUR" } }
 	}
 	division = {
-		name = "戦術機甲大隊"
+		name = "第131戦術機大隊"
 		location = 9484
 		division_template = "戦術機甲大隊"
-		start_experience_factor = 0.3
-		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+		start_experience_factor = 1
+		force_equipment_variants = { tsf_equipment_Rafale = { owner = "EUR" } }
 	}
 	division = {
 		name = "ツェルベルス大隊"
 		location = 9484
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 1
+		force_equipment_variants = { tsf_equipment_F-5GIDS = { owner = "EUR" } }
 	}
         division = {
 		name = "防衛師団"
@@ -614,7 +575,7 @@ units = {
 		location = 9484
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
-		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_F-5GIDS = { owner = "EUR" } }
 	}
 	
 	#____________________________________________________________
@@ -813,28 +774,36 @@ units = {
 		start_equipment_factor = 1
 	}
 	division = {
-		name = 戦術機甲大隊
+		name = 第521戦術機甲大隊
 		location = 4159
 		division_template = "戦術機甲大隊"
-		start_experience_factor = 0.3
+		start_experience_factor = 1
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "EUR" } }
 	}
 	division = {
-		name = 戦術機甲大隊
+		name = レインダンス中隊
 		location = 4159
 		division_template = "戦術機甲大隊"
-		start_experience_factor = 0.3
+		start_experience_factor = 1
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_F5E = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_F-5GIDS = { owner = "EUR" } }
 	}
 	division = {
-		name = スレイプニル小隊
+		name = スレイヴニル小隊
 		location = 13244
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 1
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_JA39 = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_JA-39 = { owner = "EUR" } }
+	}
+	division = {
+		name = ガルム小隊
+		location = 13244
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		force_equipment_variants = { tsf_equipment_F-5EADV = { owner = "EUR" } }
 	}
 	division = {
 		name = "機甲師団"
@@ -925,25 +894,34 @@ units = {
 		location = 9484
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第13戦術竜騎兵連隊"
+		location = 9484
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 1
+		force_equipment_variants = { tsf_equipment_Rafale = { owner = "EUR" } }
 	}
 	division = {
 		name = "海外派遣軍"
 		location = 4073
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
-		force_equipment_variants = { tsf_equipment_RAF = { owner = "EUR" } }
+		force_equipment_variants = { tsf_equipment_Rafale = { owner = "EUR" } }
 	}
 	division = {
 		name = "海外派遣軍"
 		location = 4073
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "EUR" } }
 	}
 	division = {
 		name = "海外派遣軍"
 		location = 4073
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "EUR" } }
 	}
 	division = {
 		name = "機甲師団"

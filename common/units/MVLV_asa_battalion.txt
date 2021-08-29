@@ -34,39 +34,46 @@ sub_units = {
 		supply_consumption = 0.2
 
 		forest = {
-			attack = -0.2
-			movement = -0.3
-		}
-
-		hills = {
-			
-		}
-
-		mountain = {
-			movement = -0.4
-		}
-
-		jungle = {
-			attack = -0.3
-			movement = -0.4
-		}
-
-		marsh = {
-			attack = 0.2
-			movement = 0.1
-			defence = 0.1
-		}
-		
-		urban = {
 			attack = -0.1
 			movement = -0.1
 			defence = -0.1
 		}
 
+		hills = {
+			attack = -0.1
+			movement = -0.1
+			defence = -0.1
+			
+		}
+
+		mountain = {
+			attack = -0.15
+			movement = -0.10
+			defence = -0.15
+		}
+
+		jungle = {
+			attack = -0.10
+			movement = -0.05
+			defence = -0.10
+		}
+
+		marsh = {
+			attack = 0.05
+			movement = 0.05
+			defence = 0.05
+		}
+		
+		urban = {
+			attack = -0.10
+			movement = -0.10
+			defence = -0.10
+		}
+
 		fort = {
-			attack = 0.4
-			movement = 0.3
-			defence = 0.4
+			attack = -0.10
+			movement = -0.10
+			defence = -0.10
 		}
 
 		river = {
@@ -76,9 +83,10 @@ sub_units = {
 		}
 
 		amphibious = {
-			attack = 2.5
+			attack = 1.25
 			movement = 0.5
 			defence = 0.3
 		}
 	}
+
 }

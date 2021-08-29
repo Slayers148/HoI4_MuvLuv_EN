@@ -1,51 +1,14 @@
 state={
 	id=670
 	name="STATE_670"
-	manpower = 0
-
+	manpower = 11840000
+	
 	state_category = pastoral
 
 	history = {
-		1999.1.1 = {
+		1999.1.1 = { 
 			owner = GEU
-			controller = H17
-			set_state_category = betaland
-
-			H17 = {
-				set_province_controller = 1362
-				set_province_controller = 1374
-				set_province_controller = 1390
-				set_province_controller = 1464
-				set_province_controller = 1507
-				set_province_controller = 1520
-				set_province_controller = 1563
-				set_province_controller = 1577
-				set_province_controller = 1592
-				set_province_controller = 4260
-				set_province_controller = 4339
-				set_province_controller = 4539
-				set_province_controller = 4554
-				set_province_controller = 4568
-				set_province_controller = 4613
-				set_province_controller = 7075
-				set_province_controller = 7103
-				set_province_controller = 7218
-				set_province_controller = 7356
-				set_province_controller = 7426
-				set_province_controller = 9961
-				set_province_controller = 10195
-				set_province_controller = 10238
-				set_province_controller = 10326
-				set_province_controller = 10330
-				set_province_controller = 10356
-				set_province_controller = 10453
-				set_province_controller = 10456
-				set_province_controller = 10496
-				set_province_controller = 12210
-				set_province_controller = 12332
-				set_province_controller = 12392
-				set_province_controller = 12433
-			}
+			remove_core_of = H17
 		}
 		owner = GEU
 		add_core_of = GEU
@@ -59,6 +22,6 @@ state={
 	}
 
 	provinces={
-		1362 1374 1390 1464 1507 1520 1563 1577 1592 4260 4339 4539 4554 4568 4613 7075 7103 7218 7356 7426 9961 10195 10238 10326 10330 10356 10453 10456 10496 12210 12332 12392 12433
+		1362 1374 1390 1464 1507 1520 1563 1577 1592 4260 4339 4539 4554 4568 4613 7075 7103 7218 7356 7426 9961 10195 10238 10326 10330 10356 10453 10456 10496 12210 12332 12392 12433 
 	}
 }

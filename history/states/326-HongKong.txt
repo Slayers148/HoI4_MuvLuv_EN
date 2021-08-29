@@ -2,27 +2,23 @@ state=
 {
 	id=326
 	name="STATE_326"
-	manpower = 0
+	manpower = 1143516
 	state_category = large_town
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H16
-			add_core_of = CHI
-			add_core_of = PRC
-			set_state_category = betaland
-
-			H16 = {
-				set_province_controller = 10062
-			}
+	history = { 1999.1.1 = { 
+			owner = H16
+			remove_core_of = H16
 		}
 		owner = PRC
+		add_core_of = CHI
+		#add_core_of = PRC
 		victory_points = {
-			10062 3
+			10062 3 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			air_base = 1
 			10062 = {
-				naval_base = 6
+				coastal_bunker = 1
 			}
 		}
 	}

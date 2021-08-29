@@ -2,23 +2,13 @@
 state={
 	id=442
 	name="STATE_442"
-	manpower = 0
-
+	manpower = 4684400
+	
 	state_category = rural
 
-	history = {
-			1999.1.1 = {
-				owner = GEU
-				controller = H02
-				set_state_category = betaland
-
-				H02 = {
-					set_province_controller = 1978
-					set_province_controller = 4558
-					set_province_controller = 4998
-					set_province_controller = 12717
-					set_province_controller = 12763 
-				}
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 			}
 		victory_points = {
 			12763 3
@@ -32,6 +22,6 @@ state={
 	}
 
 	provinces={
-		1978 4558 4998 12717 12763
+		1978 4558 4998 12717 12763 
 	}
 }

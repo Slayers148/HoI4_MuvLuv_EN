@@ -2,60 +2,34 @@
 state={
 	id=398
 	name="STATE_398"
-	manpower = 0
+	manpower = 2135879
 	state_category = rural
 	resources={
 		aluminium=6 # was: 10
 	}
 
-	history = { 1999.1.1 = {
-			owner = SOV
-			controller = H04
-			set_state_category = betaland
-
-			H04 = {
-				set_province_controller = 123
-				set_province_controller = 189
-				set_province_controller = 206
-				set_province_controller = 390
-				set_province_controller = 1336
-				set_province_controller = 1365
-				set_province_controller = 1380
-				set_province_controller = 1754
-				set_province_controller = 3127
-				set_province_controller = 4314
-				set_province_controller = 4326
-				set_province_controller = 4372
-				set_province_controller = 4802
-				set_province_controller = 6025
-				set_province_controller = 7346
-				set_province_controller = 7375
-				set_province_controller = 9283
-				set_province_controller = 10286
-				set_province_controller = 10314
-				set_province_controller = 11111
-				set_province_controller = 11195
-				set_province_controller = 11228
-				set_province_controller = 11352
-				set_province_controller = 12175
-				set_province_controller = 12187
-				set_province_controller = 12216
-				set_province_controller = 12527
-				set_province_controller = 12587
-				set_province_controller = 12626
-			}
+	history = { 1999.1.1 = { 
+			owner = H04
+			remove_core_of = H04
 		}
 		owner = SOV
 		buildings = {
 			infrastructure = 6
+			arms_factory = 1
+
 		}
 		victory_points = {
-			7375 1
+			7375 1 
 		}
 		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+			}
+		}
 	}
 
 	provinces={
-		123 189 206 390 1336 1365 1380 1754 3127 4314 4326 4372 4802 6025 7346 7375 9283 10286 10314 11111 11195 11228 11352 12175 12187 12216 12527 12587 12626
+		123 189 206 390 1336 1365 1380 1754 3127 4314 4326 4372 4802 6025 7346 7375 9283 10286 10314 11111 11195 11228 11352 12175 12187 12216 12527 12587 12626 
 	}
 }

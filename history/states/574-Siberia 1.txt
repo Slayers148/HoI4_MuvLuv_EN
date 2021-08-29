@@ -2,44 +2,35 @@
 state={
 	id=574
 	name="STATE_574" # Yakutsk
-	manpower = 407866
+	manpower = 35000000
 	
 	state_category = wasteland
 
-	history = { 1999.1.1 = { 
-			owner = H25
-			remove_core_of = H25
+	history = { 
+		1999.1.1 = {
+			owner = H23
+			add_core_of = H23
+
+		victory_points = {
+				7765 100
 		}
+			
+			buildings = {
+				hive = 1
+			}
+
+		}
+
 		owner = SOV
 		buildings = {
-			infrastructure = 8
-			air_base = 1
-1748 = { bunker = 10 } 
-1795 = { bunker = 10 } 
-1852 = { bunker = 10 } 
-1878 = { bunker = 10 } 
-4726 = { bunker = 10 } 
-4752 = { bunker = 10 } 
-4798 = { bunker = 10 } 
-4821 = { bunker = 10 } 
-4855 = { bunker = 10 } 
-7746 = { bunker = 10 } 
-7765 = { bunker = 10 } 
-7817 = { bunker = 10 } 
-7844 = { bunker = 10 } 
-7889 = { bunker = 10 } 
-10589 = { bunker = 10 } 
-10608 = { bunker = 10 } 
-10641 = { bunker = 10 }
-10667 = { bunker = 10 } 
-10701 = { bunker = 10 } 
-10714 = { bunker = 10 } 
-12565 = { bunker = 10 } 
-12611 = { bunker = 10 } 
-12623 = { bunker = 10 } 
-12694 = { bunker = 10 }
+			infrastructure = 10
+			air_base = 5
+			radar_station = 3
 		}
 		add_core_of = SOV
+		victory_points = {
+				10641 1
+		}
 	}
 
 	provinces={

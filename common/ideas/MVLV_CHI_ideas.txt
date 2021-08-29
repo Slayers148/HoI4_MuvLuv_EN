@@ -2,45 +2,6 @@ ideas = {
 	country = {
 		#default national spirits
 
-		CHI_pride_of_small_nation = {
-			#picture = 
-			allowed = { always = no }
-			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			cancel = { }
-			modifier = {
-				war_support_factor = 0.2
-				stability_factor = 0.2
-			}
-		}
-		
-		CHI_Fuck_This_Shit_1 = {
-			allowed = { always = no }
-			modifier = {
-					defence = 0.1
-					army_morale_factor = 0.1
-					training_time_army_factor = -0.1
-					land_reinforce_rate = 0.3
-					army_core_defence_factor = 0.1
-					production_speed_coastal_bunker_factor = 1
-					production_speed_bunker_factor = 1
-			}
-		}
-		
-		CHI_Fuck_This_Shit_2 = {
-			allowed = { always = no }
-			modifier = {
-					offence = 0.1
-					army_morale_factor = 0.1
-					training_time_army_factor = -0.1
-					land_reinforce_rate = 0.3
-					army_core_attack_factor = 0.1
-					production_speed_bunker_factor = 1
-					amphibious_invasion = 0.50
-					invasion_preparation = -0.5
-			}
-		}
-		
 		CHI_overseas_chinese_network = {
 			#picture = 
 			allowed = { always = no }
@@ -53,7 +14,7 @@ ideas = {
 			}
 		}
 		
-		CHI_one_country_two_systems_1 = {
+		CHI_one_country_two_systems = {
 			#picture = 
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -65,60 +26,85 @@ ideas = {
 			}
 		}
 
-		CHI_one_country_two_systems_2 = {
-			#picture = 
+#華僑資本
+		CHI_I1 = {
+			picture = CHI_idea_03
 			allowed = { always = no }
-			allowed_civil_war = { always = yes }
 			removal_cost = -1
-			cancel = { }
 			modifier = {
-				stability_factor = -0.15
-				political_power_factor = 0.1
+				industrial_capacity_factory = 0.05
 			}
 		}
 
-		CHI_one_country_two_systems_3 = {
-			#picture = 
+#ユダヤ資本
+		CHI_I2 = {
+			picture = CHI_idea_05
 			allowed = { always = no }
-			allowed_civil_war = { always = yes }
 			removal_cost = -1
-			cancel = { }
-			modifier = {
-				stability_factor = -0.05
-				political_power_factor = -0.05
+			equipment_bonus = {
+				tsf_equipment = {
+				build_cost_ic = -0.05 instant = yes
+				}
 			}
 		}
 
-		CHI_communist_terror = {
-			#picture = 
+#工場の活性化
+		CHI_I3 = {
+			picture = CHI_idea_01_Ex3
 			allowed = { always = no }
-			allowed_civil_war = { always = yes }
 			removal_cost = -1
-			cancel = { }
-			modifier = {
-				war_support_factor = -0.1
-				production_speed_buildings_factor = -0.2
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10 instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.10 instant = yes
+				}
 			}
 		}
 
-		CHI_instant_government = {
-			#picture = 
+#アメリカによる研究投資
+		CHI_P1 = {
+			picture = CHI_idea_12_R4
 			allowed = { always = no }
-			allowed_civil_war = { always = yes }
 			removal_cost = -1
-			cancel = { }
 			modifier = {
-				political_power_factor = -0.05
-				production_speed_buildings_factor = -0.15
+				research_speed_factor = 0.10
 			}
 		}
-		CHI_Nuclear_Weapons_Doctrine = {
+
+#必要経費
+		CHI_P2 = {
+			# picture = 
 			allowed = { always = no }
+			removal_cost = -1
 			modifier = {
-				air_strategic_bomber_attack_factor = 0.5
-				air_strategic_bomber_defence_factor = 0.5
-				nuclear_production_factor = 0.5
-				add_equipment 50 strat_bomber_equipment_2
+				consumer_goods_factor = 0.2
+			}
+		}
+
+#真なる中華
+		CHI_P3 = {
+			picture = CHI_idea_12_S5
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				consumer_goods_factor = -0.05
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.15
+				army_speed_factor = 0.1
+			}
+		}
+
+#管理計画経済
+		CHI_P4 = {
+			picture = CHI_idea_12_L4
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.05
 			}
 		}
 	}

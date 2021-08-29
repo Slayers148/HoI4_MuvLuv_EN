@@ -19,45 +19,45 @@ USA_area_priority = {
 	ai_strategy = {
 		type = area_priority
 		id = europe
-		value = 10
+		value = 30
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
-		value = 50
+		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
 		value = -100
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = asia
 		value = 5
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
 		value = -100
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = africa
-		value = -100
+		value = 5
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = pacific
 		value = -100
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = oceania
@@ -90,11 +90,16 @@ USA_defend_doctrin = {
 #		id = EUR
 #		value = 100
 #	}
-#	ai_strategy = {
-#		type = dont_defend_ally_borders
-#		id = JAP
-#		value = 100
-#	}
+#	 ai_strategy = {
+# 		type = dont_defend_ally_borders
+# 		id = EEA
+# 		value = 100
+# 	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = JAP
+		value = 100
+	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = CHI
@@ -115,7 +120,16 @@ USA_defend_doctrin = {
 		id = GEU
 		value = 100
 	}
-
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = AFR
+		value = 1
+	}
+	ai_strategy = {
+		type = force_defend_ally_borders
+		id = EUR
+		value = 5
+	}
 }
 
 USA_strategic_plan = {
@@ -124,31 +138,31 @@ USA_strategic_plan = {
 		date > 1998.12.31
 	}
 
-	ai_strategy = {
+	ai_strategy = { 
 		type = role_ratio
 		id = infantry
 		value = 1
 	}
-
+	
 	ai_strategy = {
 		type = role_ratio
 		id = armor
 		value = 10
 	}
-
-	ai_strategy = {
+	
+	ai_strategy = { 
 		type = role_ratio
 		id = garrison
 		value = 5
 	}
-
-	ai_strategy = {
+	
+	ai_strategy = { 
 		type = role_ratio
 		id = suppression
 		value = 0
 	}
-
-	ai_strategy = {
+	
+	ai_strategy = { 
 		type = role_ratio
 		id = tsf
 		value = 130
@@ -177,7 +191,7 @@ USA_strategic_plan = {
 		id = infantry
 		value = 2
 	}
-
+	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = fighter
@@ -189,26 +203,22 @@ USA_strategic_plan = {
 		id = cas
 		value = 1
 	}
-
+	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = infantry
 		value = 1 #10 to 5
 	}
-
+	
 	ai_strategy = {
 		type = equipment_production_factor
 		id = armor
 		value = 150 #From 40 to 5
 	}
-
+	
 	ai_strategy = {
 		type = equipment_production_min_factories
 		id = armor
 		value = 0
 	}
-	ai_strategy = {
-		type = dockyard_to_military_factory_ratio
-		value = 0.5  #aim for a 2-1 ratio on naval factories
- }
 }

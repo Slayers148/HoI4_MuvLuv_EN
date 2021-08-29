@@ -2,23 +2,14 @@
 state={
 	id=417
 	name="STATE_417" # Hamadan
-	manpower = 0
+	manpower = 796396
 	state_category = rural
 
-	history = { 1999.1.1 = {
-			owner = AFR
-			controller = H02
-			add_core_of = AFR
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 			remove_core_of = PER
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 1982
-				set_province_controller = 2065
-				set_province_controller = 8040
-				set_province_controller = 8125
-				set_province_controller = 10922
-			}
+			add_core_of = AFR
 		}
 		owner = PER
 		buildings = {
@@ -28,6 +19,6 @@ state={
 	}
 
 	provinces={
-		1982 2065 8040 8125 10922
+		1982 2065 8040 8125 10922 
 	}
 }

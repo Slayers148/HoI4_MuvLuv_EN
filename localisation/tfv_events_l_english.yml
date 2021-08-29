@@ -1,461 +1,461 @@
 ﻿l_english:
- tfv_australia.1.t:0 "[From.GetAdjective] Proposal about the Singapore Strategy"
- tfv_australia.1.d:0 "The Singapore Strategy has been the cornerstone of our deterrence policy against [JAP.GetNameDef] since the end of the Great War. However, the redeployment of the Main Fleet to Singapore in case of attack is reliant on support from our allies in [From.GetNameDef]. With the potential threat against British holdings in the Far East increasing by the day, the [From.GetAdjective] high command has presented a potential new stratagem, that would see Australia in far greater control of the defense of the region.\n\nIt's a sound plan, and the only question is whether we believe they can provide the security we require."
- tfv_australia.1.a:1 "Australia should provide the first line of defense in Southeast Asia."
- tfv_australia.1.b:0 "The Singapore Strategy will remain as it always has."
- tfv_australia.2.t:0 "[From.GetNameDefCap] Transfers Colonial Holdings"
- tfv_australia.2.d:1 "The [From.GetAdjective] has passed the law that will transfer control of all [From.GetAdjective] colonial possessions near Singapore and Borneo to [Root.GetNameDef].\n\nOur national safety is finally in our own hands."
- tfv_australia.2.a:0 "We will not disappoint."
- tfv_australia.3.t:0 "[From.GetNameDefCap] Rejects Strategic Adjustments"
- tfv_australia.3.d:0 "Despite our valid concerns about the viability of the Singapore Strategy, our suggestions to change it have been rejected in the [From.GetAdjective] parliament. \nThis seems a result of the military conservatism dominating the [From.GetAdjective] High Command, but the fact is that if our fears come to pass, we may have to face enemy forces on our shores."
- tfv_australia.3.a:0 "With or without [From.GetAdjective] support, [Root.GetNameDef] will stand tall!"
- tfv_australia.10.t:0 "[From.GetNameDefCap] Offers Protection for Our Colonies"
- tfv_australia.10.d:0 "[From.GetNameDefCap] has initiated negotiations with [Root.GetAdjective] diplomats for the potential transfer of responsibility over the protection of [Root.GetAdjective] territory in Southeast Asia.\n\nConsidering the challenges inherent in defending said territory, a partnership may not be such a bad idea. It would mean that for the foreseeable future said territory would only be nominally [Root.GetAdjective], but nominal ownership is surely better than completely losing them."
- tfv_australia.10.a:0 "[From.GetNameDefCap] will be the executor of [Root.GetAdjective] interests in the region."
- tfv_australia.10.b:0 "[Root.GetAdjective] territory will remain in [Root.GetAdjective] hands!"
- tfv_australia.11.t:0 "[From.GetNameDefCap] Cedes Protectorates"
- tfv_australia.11.d:0 "[Root.GetAdjective] troops stood ready to assume responsibilities for the protection of all [From.GetAdjective] territory in Southeast Asia as soon as [From.GetLeader] approved the agreement.\n\nWhile some local resistance was met in the transfer, fear of foreign aggression ensures that most recognize the need for [Root.GetAdjective] defense."
- tfv_australia.11.a:0 "[Root.GetNameDefCap] will do what she must."
- tfv_australia.12.t:0 "[From.GetAdjective] Block Regional Safety Measures"
- tfv_australia.12.d:0 "Believing themselves to be sufficiently capable of protecting [From.GetAdjective] territory in Southeast Asia, [From.GetNameDef] has refused our proposal of a shared defense strategy.\n\nUndoubtedly motivated by worries of colonial control, their actions are understandable. However, if they are incapable of protecting their territory - as we fear - we may see it used as the launch platform for an attack on the Australian continent."
- tfv_australia.12.a:0 "We can only hope they will be able to resist."
- tfv_australia.20.t:0 "[From.GetNameDefCap] Demands Our Annexation!"
- tfv_australia.20.d:0 "We have long worryingly followed the growth of nationalistic fervor in [From.GetNameDef], and it seems as though the day has finally come when it has spilled out past their own borders.\nCiting a common heritage as "pioneer nations," suggestions have been floated of a united state of Oceania. Rhetoric has turned increasingly aggressive in the face of [Root.GetAdjective] resistance, however.\n\nNow political speculation has turned to open hostility, and [From.GetLeader] publicly demands the annexation of all [Root.GetAdjective] territory to the state of [From.GetNameDef].\nIf we refuse, a forceful invasion seems entirely possible."
- tfv_australia.20.a:0 "We have no choice but to accept our new status as a province of [From.GetNameDef]."
- tfv_australia.20.b:0 "If they want our islands they can come fight for them!"
- tfv_australia.21.t:0 "[From.GetNameDefCap] Accepts Annexation"
- tfv_australia.21.d:0 "The [From.GetAdjective] has folded to our ultimatum, and accepts their new status as a province of [Root.GetNameDef]. While [From.GetAdjective] PM [From.GetLeader] mourns the loss of [From.GetAdjective] "independence," this moment marks the beginning of a new era for Oceania.\n\n[From.GetNameDef], like us, are now done being the lapdogs of an Empire that does not have our interests at heart."
- tfv_australia.21.a:0 "[Root.GetNameDefCap] and New Zealand, together towards a stronger future!"
- tfv_australia.22.t:0 "[From.GetNameDefCap] Refuses Our Offer of Unity"
- tfv_australia.22.d:0 "Failing to acknowledge their precarious position in the geopolitical landscape of the Pacific, the [From.GetAdjective] government has refused our offer to make New Zealand one of the foremost provinces of [Root.GetNameDef].\nNot realizing they are merely Britain's lapdog, [From.GetAdjective] Premier [From.GetLeader] cited principles of [From.GetAdjective] "freedom and independence."\n\nIt seems we have to remind [From.GetNameDef] exactly what we mean by describing their position as "geopolitically precarious.""
- tfv_australia.22.a:0 "To arms, [Root.GetAdjective]s!"
- tfv_australia.31.t:0 "[Root.GetNameDefCap] as a Global Leader"
- tfv_australia.31.d:0 "Following our recent policy of distancing ourselves from the Empire, it only makes sense for a country as dominant as we are in our own sphere to assume the position of a leader, rather than a follower.\nWe will gather other regional powers to our cause, and ensure that our mutual interests are defended on the global stage.\n\nNo longer in servitude to the colonial powers of Europe, we will ensure a new, more just balance of power."
- tfv_australia.31.a:0 "[Root.GetNameDefCap] leads the way to the future!"
- tfv_australia.32.t:0 "[From.GetNameDefCap] Requests Political Cooperation"
- tfv_australia.32.d:0 "Following the formal departure of [From.GetNameDef] from the Commonwealth, the [From.GetAdjective] government is now looking for new allies. With Europe seemingly on the brink of a new, costly conflict, and the strategic value of [From.GetNameDef] to any potential conflict in the Pacific, a partnership may be in our best interest.\n\nIt would certainly emphasize Southeast Asia, the Far East and the Pacific as parts of our sphere of influence, and ensure that no matter what happens in Europe, [Root.GetAdjective] interests will not be intruded upon."
- tfv_australia.32.a:1 "We would be happy to call them our ally!"
- tfv_australia.32.b:0 "We can protect our interests better on our own."
- tfv_australia.33.t:0 "[From.GetNameDefCap] Agrees to Pacific Cooperation"
- tfv_australia.33.d:0 "Seeing the obvious benefits of transpacific partnership, [From.GetNameDef] has agreed to our proposal of a regional alliance."
- tfv_australia.33.a:0 "The old masters are dead. We are all equals now."
- tfv_australia.34.t:0 "[From.GetNameDefCap] Declines Cooperation Project"
- tfv_australia.34.d:0 "Whether it is failure to acknowledge our shared history, or simply a matter of political opportunism, [From.GetNameDef] has declined our offer of a transpacific partnership.\n\nWhile their participation would have been a great asset, we should move forwards with our own agenda, towards our own goals."
- tfv_australia.34.a:0 "We will still do what we can for our corner of the world."
- tfv_australia.34.b:0 "We have failed."
- tfv_australia.41.t:0 "In Pursuit of [INS.GetAdjective] Freedom"
- tfv_australia.41.d:0 "With turmoil rampant in the former [HOL.GetAdjective] colonies, it is apparent that [INS.GetNameDef], our trusted neighbor, requires a helping hand to maintain their hard-won authority. For as long as they need our support, [Root.GetNameDef] is there to support the [INS.GetAdjective] government.\n\nOne day [INS.GetNameDef] will be able to stand up to European colonial forces as our Pacific brother. Until then, we will ensure they stand strong along with us."
- tfv_australia.41.a:0 "Together in arms, against the world if we must!"
- tfv_australia.50.t:0 "[From.GetNameDefCap] Requests Membership in the [Root.GetFactionName]"
- tfv_australia.50.d:0 "Identifying as a nation of workers, free of the old European bourgeoisie, [From.GetNameDef] has gradually moved into the [Root.GetAdjective] sphere of politics. The [From.GetAdjective] government has officially requested national membership in the [Root.GetFactionName].\n\nWith the World Revolution in sight, [From.GetLeader] presents a vision of [Root.GetNameDef] and [From.GetNameDef] as two of the key poles in a new, Socialist world order, building on [From.GetNameDef]'s dominance in Oceania, and [Root.GetNameDef]'s in Eurasia."
- tfv_australia.50.a:0 "Any revolutionary nation is welcomed with open arms!"
- tfv_australia.50.b:0 "We cannot afford the conflicts the [From.GetAdjective]s will surely drag us into."
- tfv_australia.51.t:0 "Brothers of the Revolution"
- tfv_australia.51.d:0 "[From.GetNameDefCap] has considered our request for membership in the [From.GetFactionName], and declared us a valued ally of the cause!"
- tfv_australia.51.a:0 "The World Revolution awaits!"
- tfv_australia.52.t:0 "Going It Alone"
- tfv_australia.52.d:0 "Following weeks of stalled negotiations and bureaucratic trappings, it has become apparent that [From.GetNameDef] are not interested in giving us a definitive answer on our accession to the [From.GetFactionName].\nAs we were hoping for quick and conclusive negotiations, [Root.GetNameDef] must prepare to bring true freedom to the workers of the world on her own."
- tfv_australia.52.a:0 "We fight for the oppressed in all corners of the world!"
- tfv_australia.60.t:0 "[From.GetNameDefCap] Imposes Overlordship"
- tfv_australia.60.d:0 "Citing the rights of all workers to freedom and self-determination, the [From.GetAdjective] government is demanding that the [Root.GetAdjective] state gives in to the wave of "Oceanic Socialism" washing over our region.\n\nRegardless of the actual interest of the people of [Root.GetNameDef], the threat from [From.GetNameDef] is real, and there is little doubt that they are likely to press their demands with all means available to them..."
- tfv_australia.60.a:0 "We don't really have a choice. For the revolution, mates."
- tfv_australia.60.b:0 "[Root.GetNameDefCap] will never submit!"
- tfv_australia.61.t:0 "[From.GetNameDefCap] Joins the Revolutionary Struggle!"
- tfv_australia.61.d:0 "Acknowledging the truth and righteousness of the Communist cause, [From.GetNameDef] has agreed with the need of uniting our efforts under a common Oceanic banner."
- tfv_australia.61.a:0 "From below the red tide will rise to consume the world!"
- tfv_australia.62.t:0 "[From.GetNameDefCap] Attempts to Disrupt the Revolution"
- tfv_australia.62.d:0 "Having kept the [From.GetAdjective] people oppressed under their bourgeois thumbs, the fat cats in control of the government of [From.GetNameDef] have now announced that they under absolutely no conditions will cooperate with the [Root.GetAdjective] state.\nPity for them that we do not seek their cooperation, but rather that of those slaving under the weight of their opulent obesity!"
- tfv_australia.62.a:0 "We will bring true freedom to [From.GetNameDef]!"
- tfv_australia.70.t:0 "[From.GetNameDefCap] Demands Right to Control Protectorates"
- tfv_australia.70.d:0 "Claiming that a failure on the part of [Root.GetNameDef] to defend its colonial holdings in Southeast Asia would have catastrophic implications for [From.GetNameDef] national defense, [From.GetLeader] has requested that the [From.GetAdjective] government be given full, independent responsibility for the defense of the region.\nWhile not an outright demand, the growth of [From.GetAdjective] strategic and military influence in the region has the argument make some sense. The counterbalance being the recent political distancing from us that [From.GetNameDef] has embraced.\nThis would be an agreement with a potential partner, not a subject, and would leave the colonies de facto out of our hands, should [From.GetNameDef] choose to make it so."
- tfv_australia.70.a:0 "Yes, the stability of Southeast Asia is a priority."
- tfv_australia.70.b:0 "No, we will be the sole controller of our own colonial possessions!"
- tfv_australia.71.t:0 "Defensive Commission"
- tfv_australia.71.d:0 "Following overtures from the [Root.GetAdjective] military command, [From.GetNameDef] has decided to give us "intermediate control" of all [From.GetAdjective] colonial holdings in Southeast Asia.\n\nWith the old forces of the Pacific none the wiser, our attempts to ensure [Root.GetNameDef] dominance over the region continues."
- tfv_australia.71.a:0 "We'll make the old country proud."
- tfv_australia.72.t:0 "[From.GetNameDefCap] Declines "Defense Project""
- tfv_australia.72.d:0 "Despite overtures from the [Root.GetAdjective] High Command, [From.GetNameDef] has rejected our request for control of their colonies in the Southeast Asian region.\n\nOur ambitions are untempered, however. We will continue to seek ways of securing [Root.GetAdjective] prominence in the Pacific."
- tfv_australia.72.a:0 "[Root.GetNameDefCap] stands strong, despite this setback."
- tfv_australia.80.t:0 "An Offer From Beyond the Sea"
- tfv_australia.80.d:0 "[From.GetNameDefCap] has over time become more sympathetic to the imperial ambitions of [Root.GetNameDef]. As the only other major military force based in the region, the [From.GetAdjective]s have decided it is better to stand as our proud ally than as our humbled servants.\n\nTo raise our interest, the proposal for a West Pacific alliance clearly outlines the [Root.GetAdjective] sphere to also include several territories currently controlled by the enemies of [From.GetNameDef]."
- tfv_australia.80.a:0 "Together we will completely dominate the eastern hemisphere!"
- tfv_australia.80.b:0 "Our ambitions have no room for those backwater farmers!"
- tfv_australia.81.t:0 "[From.GetNameDefCap] Approves Alliance"
- tfv_australia.81.d:1 "Our delegation to Japan has returned triumphant. We have signed an official alliance with [JAP.GetName]. The document clearly defines speheres of interest for each of our countries, in which the other can not interfere."
- tfv_australia.81.a:0 "[Root.GetAdjective]s and [From.GetAdjective] across the West Pacific will benefit from this."
- tfv_australia.82.t:0 "The [From.GetAdjective] Government Resists Partnership!"
- tfv_australia.82.d:0 "Despite our accession to the forefront of the global stage, [From.GetNameDef] has refused to acknowledge our importance in the West Pacific region. \nNot only did the [From.GetAdjective] refuse us outright, they expressed in no uncertain terms that their doctrine of Nanshin-ron might very well bring them beyond Indonesia, towards the Australian continent itself."
- tfv_australia.82.a:0 "If they will not stand with us, we will make them kneel for us."
- tfv_australia.90.t:0 "The Coronation Visit"
- tfv_australia.90.desc:0 "[AST.GetLeader] has travelled to Britain to take part in the coronation ceremony for King George VI and Queen Elizabeth. Following several weeks of lunches, dinners, garden parties, receptions, and more dinners, he has finally succeeded in securing a private audience with the new King. After an exchange of pleasantries and small talk, the topic turns to politics, and the King asks what he can do to help [AST.GetNameDef]."
- tfv_australia.90.a:0 "Ask the King to make a visit to Australia to boost morale."
- tfv_australia.90.b:0 "Ask the King to support a recruitment campaign."
- tfv_australia.90.c:0 "Ask the King to publically support the government."
- tfv_australia.92.t:0 "King Edward VIII Visits Australia"
- tfv_australia.92.desc:0 "[AST.GetLeader] has travelled to Britain to take part in the marriage ceremony between King Edward VIII and Wallis Simpson. Following several weeks of lunches, dinners, garden parties, receptions, and more dinners, he has finally succeeded in securing a private audience with the new King. \n\nAfter an exchange of pleasantries and small talk, the topic turns to politics. The King goes on a lengthy tirade about Commonwealth solidarity and loyalty to the mother country, and as he goes to address continental politics [AST.GetLeader] cannot help but feel a little uncomfortable. The King asks what he can do to help [AST.GetNameDef] and endear himself to the people there."
- tfv_australia.92.a:0 "Ask the King to make a visit to Australia to boost morale."
- tfv_australia.92.b:0 "Ask the King to support a recruitment campaign."
- tfv_australia.92.c:0 "Ask the King to publicly support the government."
- tfv_australia.95.t:0 "Nationalists on the rise in Indonesia"
- tfv_australia.95.desc:0 "There has been a marked increase in Nationalist agitation all across Indonesia in the recent weeks. Intelligence estimates of the number of Nationalist sympathizers have grown to alarming size. Of particular concern are reports that some Nationalist leaders are openly discussing an armed insurrection. Just yesterday, a naval vessel intercepted a suspicious fishing boat south of Java. Found on board were weapons and ammunition without official markings. Interrogation of the crew has yielded no results so far, but it appears that someone is trying to stir up trouble."
- tfv_australia.95.a:0 "Deeply unsettling."
- tfv_australia.96.t:0 "Civil War!"
- tfv_australia.96.desc:0 "Armed Nationalists take to the streets all over Indonesia. Military and police actions against the uprising have proven unsuccessful thus far. This armed insurrection has come in the wake of a sudden rise in Nationalist sentiment, which now means we are in an all out civil war."
- tfv_australia.96.a:0 "Resist the nationalist scum!"
- tfv_australia.96.b:0 "Join the uprising!"
- tfv_canada.1.t:0 "[From.GetNameDefCap] Requests North American Alliance"
- tfv_canada.1.d:0 "With diplomatic interests across the North American continent aligning, and Europe in greater turmoil by the day, [From.GetNameDef] has proposed a radical political move.\nBy entering a mutual defense pact, we can ensure the safety and integrity of the Americas, while significantly expanding our political and military options in any given situation. [From.GetLeader] stated it was an "obvious choice," to ensure the prosperity of [Root.GetNameDef] as well as [From.GetNameDef], and [Root.GetLeader] seems to agree that it is difficult to argue otherwise."
- tfv_canada.1.a:0 "This is a sound strategy. We will join with [From.GetNameDef]!"
- tfv_canada.1.b:0 "We will not accept any chance of being dragged into issues beyond our own borders."
- tfv_canada.2.t:0 "North American Alliance Established"
- tfv_canada.2.d:0 "Today marks the signing of a new treaty, celebrating the friendship and support shared between [Root.GetNameDef] and [From.GetNameDef]. Our two countries promise to aid each other in matters of foreign policy, including the defense of our continent.\n\nWith our nations working together, the foreign aggressors of the world do not stand a chance against us."
- tfv_canada.2.a:0 "From Sea to Sea!"
- tfv_canada.3.t:0 "[From.GetNameDefCap] Rejects the North American Alliance"
- tfv_canada.3.d:0 "Despite the benefit of a formalized measure of military cooperation between our two countries, as exemplified by the Joint Defense Board, the [From.GetAdjective] has rejected our negotiations for a permanent alliance.\nThe pact would have ensured the integrity of the North American continent, but now it seems we will have to find other means of defending the homeland."
- tfv_canada.3.a:0 "We have other options."
- tfv_canada.10.t:0 "[From.GetNameDefCap] Seeks Membership in the [Root.GetFactionName]"
- tfv_canada.10.d:0 "Following its abandonment of the Commonwealth, [From.GetNameDef] is negotiating for a position as one of our allies in the [Root.GetFactionName]. Their Communist convictions are strong, and it's undeniable that an ally on the American continent would be of great benefit to the cause of the world revolution...\nWhile their concept of Patriotic Socialism, independent nature, and [From.GetLeader]'s attempted Industrialization Miracle may all cause issues in the future, this seems too good of an opportunity to pass up."
- tfv_canada.10.a:0 "We welcome all true revolutionaries with open arms!"
- tfv_canada.10.b:0 "It is too great a risk right now."
- tfv_canada.11.t:0 "A True American Revolution"
- tfv_canada.11.d:0 "Having cast off the remnants of a bourgeoisie propped up by centuries of colonial violence, we have at last made our entrance onto the world stage. We stand side by side with [From.GetNameDef] in the [From.GetFactionName] as we seek to spread the world revolution to every part of the globe!"
- tfv_canada.11.a:0 "We'll show this continent what a revolution actually means!"
- tfv_canada.12.t:0 "[From.GetNameDefCap] Refuses Membership in the [From.GetFactionName]"
- tfv_canada.12.d:0 "Fearing for the effect it will have on "global stability," [From.GetLeader] publicly rejected our request for membership in the [From.GetFactionName].\nSeeing as [From.GetNameDef] is not above the petty politicking of the old world, our revolutionary efforts would have been wasted on them either way.\n\nEven if [Root.GetNameDef] stands alone in a world of fascism, we will not give up until true socialism has been brought to every worker in all the lands of our globe!"
- tfv_canada.12.a:0 "For fairness, understanding and the Canadian way!"
- tfv_canada.20.t:0 "[From.GetNameDefCap] Seeks Alliance"
- tfv_canada.20.d:0 "Following the rise of conservative nationalism in [From.GetAdjective] politics, [From.GetNameDef] has been seeking new allies that actually have the capacity to aid their cause, as opposed to the weak "democracies" of the Commonwealth.\n\nPartnering with [From.GetNameDef] would not only be ideologically natural, but it would ensure the presence of a strong state that could... pursue our interests on the North American continent."
- tfv_canada.20.a:0 "It is only natural for [From.GetAdjective]s and [Root.GetAdjective]s to work together!"
- tfv_canada.20.b:0 "Our interests are in Europe, [From.GetNameDef] must stake its own ground."
- tfv_canada.21.t:0 "An Alliance of Power"
- tfv_canada.21.d:0 "[From.GetNameDefCap] has accepted our offer of alliance, seeing clear benefit in a relationship with a strong American state.\nWith this diplomatic move will be far more capable of projecting our power in North America, and it is no coincidence that the Berlin-Ottawa Axis runs sharp through London."
- tfv_canada.21.a:0 "We stand as a global force."
- tfv_canada.22.t:0 "The Rot of Europe"
- tfv_canada.22.d:0 "Unable to even glance beyond their own minuscule borders, [From.GetLeader]'s [From.GetName] has declined our offer of an alliance.\nOf course, with the likely collapse of the [From.GetAdjective] state and all of Europe under the weight of its own peoples, we might be better off without them."
- tfv_canada.22.a:0 "We will show them what greatness truly means."
- tfv_canada.30.t:0 "A Synarchist Revolution"
- tfv_canada.30.d:0 "As the Synarchists are growing in influence, their demands are growing in strength. It seems as though our government may no longer be able to keep their right-wing politics at bay, as clashes between Synarchists and government supporters have been reported across [Root.GetNameDef]. This includes the employment of lethal weapons on both sides.\nWhile it is unclear when and how the militarization of the Synarchist party occurred, they pose a real and immediate threat to the current government.\n\nCivil war is at hand."
- tfv_canada.30.a:0 "Support the Nationalists."
- tfv_canada.30.b:0 "Support the Republicans."
- tfv_canada.30.c:0 "Concede rule to the Nationalists."
- tfv_canada.40.t:0 "A Plan for Dominance"
- tfv_canada.40.d:0 "While the strength of the recently reformed [Root.GetAdjective] state is undeniable, so are the realities of regional politics. Our old enemy, [USA.GetNameDef], dominates the continent, and have proven unable to keep themselves out of matters beyond their borders.\nThat makes the offer of cooperation with [From.GetNameDef] ever more valuable. Either of our countries might lack the force to prevent [USA.GetAdjective] intervention on our own, but against both north and south, [USA.GetLeader] will have to think twice before taking action.\n\nAnd perhaps they will be more amenable to the return of rightfully [Root.GetAdjective] territory..."
- tfv_canada.40.a:0 "We will squeeze the life out of our rotten state of a neighbor!"
- tfv_canada.40.b:0 "We cannot take the chance of being seen as aggressors."
- tfv_canada.41.t:0 "Mexico Agrees"
- tfv_canada.41.d:0 "The [MEX.GetAdjective] government is in full accord regarding the threat posed to our countries by the aggressive policies of our southern neighbors. The only way we can survive is to break the stranglehold they have on the continent. We must strike soon, before they can finish rearming. Certain territorial concessions will have to be made to our new friends, of course, but together, we will bring an end to the American hegemony!"
- tfv_canada.41.a:0 "The White House will burn again!"
- tfv_canada.42.t:0 "Mexico Refuses"
- tfv_canada.42.desc:0 "The [MEX.GetAdjective] government has declined our offer to work together against our common enemy. They seem to believe that they can simply ignore the rattlesnake poised to strike them, hoping that it will leave them alone so long as they don't make any threatening moves. It appears that we must look to our defenses alone."
- tfv_canada.42.a:0 "Fools! Cowards! TRAITORS!"
- tfv_canada.50.t:0 "The Enemy Within"
- tfv_canada.50.d:0 "An explosion rocked one of our factories today, and while it initially seemed to be an industrial accident, investigation has revealed that explosives were intentionally placed along the production lines.\nWhile we mourn the loss of life, an attack on the war effort cannot be ignored.\n\nWhoever was behind this attack poses a threat to all of [Root.GetNameDef]!"
- tfv_canada.50.a:0 "We will not let the enemy bring us down!"
- tfv_canada.51.t:0 "Another Attack"
- tfv_canada.51.d:0 "Another attack has occurred on [Root.GetAdjective] soil, this time directly targeting one of our military factories!\nProduction has been stopped as reparations begin, but the culprits are still at large.\n\nAt least it has become clear that this is the work a group, rather than a single individual."
- tfv_canada.51.a:0 "The larger their circle, the easier they will be to track down."
- tfv_canada.52.t:0 "The Quebec Circle"
- tfv_canada.52.d:0 "Law enforcement has been working with military police to make great strides in the case of continued factory sabotage. With the targeting of yet another factory, it has become apparent that the sabotage is not done by foreign spies, but rather by a group protesting the forced conscription introduced in Quebec!\n\nRegardless of their political concerns, our country is at war, and they are traitors of the highest degree."
- tfv_canada.52.a:0 "They must be stopped!"
- tfv_canada.53.t:0 "The End of the Line"
- tfv_canada.53.d:0 "A trap had been laid for the Quebec Circle in the factory considered to be their most likely next target for sabotage. In the dead of night, law enforcement awaited the infiltrators.\nAs the saboteurs arrived, they turned out to be a much larger group than expected, and more heavily armed, with stolen army equipment. A firefight broke out, damaging as many production lines as the Quebec Circle's plans would have.\nHowever, after the fierce fighting, not a single saboteur was left alive. The Quebec Circle has come to an end."
- tfv_canada.53.a:0 "A victory, not a loss for [Root.GetNameDef]!"
- tfv_canada.60.t:0 "[From.GetNameDefCap] Demands Labrador and Newfoundland"
- tfv_canada.60.d:0 "Having long expressed a desire to "repatriate" the colonial territories of Labrador and Newfoundland as part of their country, [From.GetNameDef] has now gone to the steps of demanding them.\n[From.GetLeader] has made it clear that [From.GetNameDef] considers it [From.GetAdjective] soil, and that they will "take those steps necessary to attain it.""
- tfv_canada.60.a:0 "Give them what they want, [Root.GetNameDef] can't quarrel over this right now."
- tfv_canada.60.b:0 "We do not give an inch of [ENG.GetAdjective] land!"
- tfv_canada.61.t:0 "A Destiny Fulfilled"
- tfv_canada.61.d:0 "With [From.GetNameDef]'s ceding of Labrador and Newfoundland, [Root.GetNameDef] is finally whole. Truly from Sea to Sea, every true [Root.GetAdjective] is now within our borders, where they belong.\nOur next step must be to ensure the safety and security of the [Root.GetAdjective] state!"
- tfv_canada.61.a:0 "A shoreline is the only secure border!"
- tfv_canada.62.t:0 "Imperial Hubris"
- tfv_canada.62.d:0 "Invoking their crumbling "imperial right," and calling upon Labrador and Newfoundland's statuses as colonial possessions to be protected [From.GetNameDef] has refused to cede land that is rightfully ours! These people are [Root.GetAdjective]s, and Newfoundland and Labrador hold [Root.GetAdjective] resources, but they must answer to [From.GetAdjective] masters.\nThis is an unacceptable state of affairs, but it is clear that [From.GetNameDef] cannot be convinced of a diplomatic solution..."
- tfv_canada.62.a:0 "[From.GetNameDefCap] will be one!"
- mex_nationalists_chosen:0 "Side with the Nationalists."
- mex_republicans_chosen:0 "Side with the Republicans."
- tfv_south_africa.1.t:0 "[From.GetNameDefCap] Requests African Mandate"
- tfv_south_africa.1.d:0 "As we struggle with military coverage of the entire Empire, [From.GetNameDef] has approached us about an administrative agreement. Our colonies in Southern and Central Africa should be handed over to them, with full rights and responsibilities towards their defense."
- tfv_south_africa.1.a:0 "We need to focus our energies on Europe."
- tfv_south_africa.1.b:0 "We can hold these colonies just fine."
- tfv_south_africa.1.c:0 "The colonies should defend themselves."
- tfv_south_africa.2.t:0 "[From.GetNameDefCap] Approves"
- tfv_south_africa.2.d:0 "With growing commitments closer to home, [From.GetNameDef] has agreed that her African colonies should be administered by us for the time being."
- tfv_south_africa.2.a:0 "We will be benevolent overlords."
- tfv_south_africa.3.t:0 "[From.GetNameDefCap] Refuses"
- tfv_south_africa.3.d:0 "Citing a lack of direct threat to her colonies in Africa, [From.GetNameDef] has made it very clear that they do not intend to hand over the administration of her holdings to us."
- tfv_south_africa.3.a:0 "Don't they trust us?"
- tfv_south_africa.4.t:0 "The African Compromise"
- tfv_south_africa.4.d:0 "After long deliberation, the British government has come up with a compromise regarding the defense of the African colonies. Under this new scheme, the colonies will be responsible for their own defense but will enjoy greater freedom of managing their own affairs."
- tfv_south_africa.4.a:0 "A good compromise - no one is happy with it."
- tfv_south_africa.10.t:0 "Foreign aid for our struggle"
- tfv_south_africa.10.desc:0 "The great war for the future of our country has finally arrived. Now we must secure every shred of support we can get to ensure we will prevail in this struggle. The survival of the [From.GetAdjective] culture and our way of life are at stake!"
- tfv_south_africa.10.a:0 "We should approach the Germans."
- tfv_south_africa.10.b:0 "The Dutch will aid us."
- tfv_south_africa.11.t:0 "[From.GetNameDefCap] calls for aid!"
- tfv_south_africa.11.desc:0 "A violent struggle has broken out in [From.GetName]. As they fight for the very survival of their way of life, they are desperate for any kind of support we can spare. This would also be an opportunity to test some of our new weapons and secure a valuable ally in South Africa."
- tfv_south_africa.11.a:0 "Send them fighter planes."
- tfv_south_africa.11.b:0 "Send them tanks."
- tfv_south_africa.11.c:0 "Send them rifles and artillery."
- tfv_south_africa.11.e:0 "They will have to fight on their own."
- tfv_south_africa.12.t:0 "[From.GetNameDefCap] pleads for our help"
- tfv_south_africa.12.desc:0 "Heavy fighting has broken out in South Africa between Nationalists and Unionists. Badly outnumbered and outgunned, the Nationalists have turned to us, the home of their ancestors, for support."
- tfv_south_africa.12.a:0 "Send them fighter planes."
- tfv_south_africa.12.b:0 "Send them tanks."
- tfv_south_africa.12.c:0 "Send them rifles and artillery."
- tfv_south_africa.12.e:0 "They will have to fight on their own."
- tfv_south_africa.13.t:0 "The German Response"
- tfv_south_africa.13.desc.a:0 "Our delegation to [GER.GetNameDef] has returned empty-handed. Despite warm words from the [GER.GetAdjective] government, they were unable to secure any firm commitments of support. It appears that we can no longer count on the German government to help us in our struggle."
- tfv_south_africa.13.desc.b:0 "Citing a lack of available material, the [GER.GetAdjective] government has decided that it is no longer in their interest to send us further support. All efforts are instead focused on building their own military. This leaves us in a difficult position."
- tfv_south_africa.13.a:0 "Reach out to our Dutch friends."
- tfv_south_africa.13.b:0 "We will succeed on our own, or perish in the attempt."
- tfv_south_africa.14.t:0 "The [HOL.GetAdjective] Response"
- tfv_south_africa.14.desc.a:0 "Our delegation to [HOL.GetNameDef] has been frustrated by endless obstructions and delays. Meetings with [HOL.GetAdjective] officials and industry managers are cancelled at the last minute, calls are not returned, telegrams not answered. It appears that the [HOL.GetAdjective] government is not actually interested in helping us with our efforts."
- tfv_south_africa.14.desc.b:0 "Despite initial support, the latest round of negotiations with the [HOL.GetAdjective] government for new equipment has broken down. It appears the [HOL.GetAdjective] are no longer willing to accept payment in diamonds, citing issues with turning them into convertible currency."
- tfv_south_africa.14.a:0 "Reach out to our German friends."
- tfv_south_africa.14.b:0 "We will succeed on our own, or perish in the attempt."
- tfv_south_africa.15.t:0 "[From.GetNameDefCap] sends equipment"
- tfv_south_africa.15.desc.a:0 "A shipment of planes has arrived from Germany. Our pilots are most eager to get their hands on them, and a fierce competition has started for the postings to the new squadron."
- tfv_south_africa.15.desc.b:0 "After long discussions with our [GER.GetAdjective] friends, they have agreed to send us a batch of light tanks. Although few in number, they might well be what tips the balance decisively in our favor."
- tfv_south_africa.15.desc.c:1 "A ship from [GER.GetNameDef] has reached us. In its hold it carried tons of rifles and several heavy guns for the volunteers from Germany that have made their way to us via other means."
- tfv_south_africa.15.a:0 "These will be most useful."
- tfv_south_africa.15.b:0 "They will form the backbone of our army."
- tfv_south_africa.15.c:0 "Their support is most welcome."
- tfv_south_africa.16.t:0 "[From.GetNameDefCap] sends equipment"
- tfv_south_africa.16.desc.a:0 "A shipment of planes has arrived from [HOL.GetNameDef], courtesy of a generous donation by several leading figures in the [HOL.GetAdjective] aviation industry. Our pilots are most eager to get their hands on them, and a fierce competition has started for the postings to the new squadron."
- tfv_south_africa.16.desc.b:0 "After long discussions with our [HOL.GetAdjective] friends, they have agreed to send us a batch of experimental light tanks. Although few in number, they might well be what tips the balance decisively in our favor."
- tfv_south_africa.16.desc.c:1 "A ship from [HOL.GetNameDef] has reached us. In its hold it carried tons of rifles and several heavy guns for the volunteers from [HOL.GetNameDef] that have made their way to us via other means."
- tfv_south_africa.16.a:0 "These will be most useful."
- tfv_south_africa.16.b:0 "They will form the backbone of our army."
- tfv_south_africa.16.c:0 "Their support is most welcome."
- tfv_south_africa.20.t:0 "[From.GetNameDefCap] Requests Membership in the Comintern"
- tfv_south_africa.20.d:0 "The revolution has succeeded in [From.GetNameDef]! A new communist government has taken charge in the country and seeks membership in the Comintern."
- tfv_south_africa.20.a:0 "We welcome our new comrades in the struggle against imperialism!"
- tfv_south_africa.20.b:0 "Accepting their membership at this time would only open us up to possible conflict in a distant area."
- tfv_south_africa.21.t:0 "Comintern Membership approved"
- tfv_south_africa.21.d:0 "After careful consideration, the Central Committee of the Comintern has approved our request for membership."
- tfv_south_africa.21.a:0 "Side by side, [Root.GetNameDef] and [From.GetFactionName] will march towards the future!"
- tfv_south_africa.22.t:0 "Comintern Membership denied"
- tfv_south_africa.22.d:0 "Citing unsolvable differences between our particular view of Marx's teachings and the orthodox interpretations, the Comintern has refused our application. While not going so far as to label us social fascists or worse, they nevertheless make it clear that we can not expect any help from them."
- tfv_south_africa.22.a:0 "Perhaps they are the ones mistaken?"
- tfv_south_africa.30.t:0 "[From.GetNameDefCap] Demands Madagascar"
- tfv_south_africa.30.d:0 "Following our defeat in Europe, the [From.GetNameDef] government has openly questioned whether we are still able to defend our colonies and protect the population living there. [From.GetLeader] specifically mentioned Madagascar as particularly threatened. Now, [From.GetNameDef] has demanded that we turn over the island to them."
- tfv_south_africa.30.a:0 "We have no choice. Retaking the homeland must be the first priority."
- tfv_south_africa.30.b:0 "Every square meter of French soil is sacred. We will not yield!"
- tfv_south_africa.31.t:0 "France Yields"
- tfv_south_africa.31.d:0 "The [FRA.GetAdjective] government has wisely decided to permit our peaceful occupation of Madagascar."
- tfv_south_africa.31.a:0 "One more step to dismantle the imperialist system of colonialism!"
- tfv_south_africa.32.t:0 "France Refuses"
- tfv_south_africa.32.d:0 "The [FRA.GetAdjective] government stubbornly refuses to even discuss the issue of turning over Madagascar to us. According to the French representative, they consider themselves more than able, willing and ready to defend the island."
- tfv_south_africa.32.a:0 "Then we must resort to force."
- tfv_south_africa.32.b:0 "Let them keep that worthless patch of dirt."
- tfv_south_africa.40.t:0 "Research treaty with [From.GetNameDef]"
- tfv_south_africa.40.d:0 "Following a successful military mission to [From.GetNameDef], their government has suggested a formal research agreement between our two nations."
- tfv_south_africa.40.a:0 "We will be glad to offer what help we can."
- tfv_south_africa.40.b:0 "Offering our secrets to them would compromisse our national security."
- tfv_south_africa.41.t:0 "[SOV.GetNameDefCap] Agrees"
- tfv_south_africa.41.d:0 "The Soviets have agreed to let us study their ways and methods. A number of [SOV.GetAdjective] scientists have arrived to teach at our schools and universities."
- tfv_south_africa.41.a:0 "To learn from [SOV.GetNameDef] means to learn from the victors of history!"
- tfv_south_africa.42.t:0 "[SOV.GetNameDefCap] Refuses"
- tfv_south_africa.42.d:0 "After several rounds of negotiations, the delegation from [SOV.GetNameDef] has walked out, citing doubts about our ability to keep their research secret. It appears we will not be allowed to share technologies with our allies."
- tfv_south_africa.42.a:0 "Very unfortunate."
- tfv_south_africa.50.t:0 "Support for Spain"
- tfv_south_africa.50.d:0 "A fight has broken out in Spain between the Nationalist government and the legitimate Republican government. There is considerable debate amongst the people about where our government stands."
- tfv_south_africa.50.a:0 "Perhaps a few of our soldiers might be interested in a vacation in Spain?"
- tfv_south_africa.50.b:0 "If people wish to join the struggle, we will not stop them."
- tfv_south_africa.50.c:0 "Why should we fight in a war half a world away?"
- tfv_south_africa.51.t:0 "Volunteers from South Africa arrive"
- tfv_south_africa.51.d:0 "While the [SAF.GetAdjective] government remains officially uncommitted, it has allowed a large number of its citizens to join our cause as volunteers."
- tfv_south_africa.51.a:0 "Most welcome."
- tfv_south_africa.52.t:0 "Volunteers from the Spanish Civil War return"
- tfv_south_africa.52.d:0 "With the fighting in Spain over, the surviving volunteers of the war have made their way home. They bring with them valuable experiences about modern warfare."
- tfv_south_africa.52.a:0 "They will help us in the next war."
- tfv_south_africa.60.t:0 "Freedom for Angola"
- tfv_south_africa.60.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [ANG.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [ANG.GetAdjective] government."
- tfv_south_africa.60.a:0 "Any new nation must be carefully guided, or the counter-revolution succeeds!"
- tfv_south_africa.60.b:0 "We welcome them with open arms!"
- tfv_south_africa.60.c:0 "The situation does not allow it just yet."
- tfv_south_africa.61.t:0 "Freedom for Mozambique"
- tfv_south_africa.61.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [MZB.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [MZB.GetAdjective] government."
- tfv_south_africa.61.a:0 "Any new nation must be carefully guided, or the counter-revolution succeeds!"
- tfv_south_africa.61.b:0 "We welcome them with open arms!"
- tfv_south_africa.61.c:0 "The situation does not allow it just yet."
- tfv_south_africa.62.t:0 "Freedom for the Congo"
- tfv_south_africa.62.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [COG.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [COG.GetAdjective] government."
- tfv_south_africa.62.a:0 "Any new nation must be carefully guided, or the counter-revolution succeeds!"
- tfv_south_africa.62.b:0 "We welcome them with open arms!"
- tfv_south_africa.62.c:0 "The situation does not allow it just yet."
- tfv_south_africa.63.t:0 "Freedom for Zimbabwe"
- tfv_south_africa.63.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [ZIM.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [ZIM.GetAdjective] government."
- tfv_south_africa.63.a:0 "Any new nation must be carefully guided, or the counter-revolution succeeds!"
- tfv_south_africa.63.b:0 "We welcome them with open arms!"
- tfv_south_africa.63.c:0 "The situation does not allow it just yet."
- tfv_south_africa.64.t:0 "Freedom for Kenya"
- tfv_south_africa.64.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [KEN.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [KEN.GetAdjective] government."
- tfv_south_africa.64.a:0 "Any new nation must be carefully guided, or the counter-revolution succeeds!"
- tfv_south_africa.64.b:0 "We welcome them with open arms!"
- tfv_south_africa.65.t:0 "Freedom for [MAD.GetName]"
- tfv_south_africa.65.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [MAD.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [MAD.GetAdjective] government."
- tfv_south_africa.66.t:0 "Freedom for [BOT.GetName]"
- tfv_south_africa.66.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [BOT.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [BOT.GetAdjective] government."
- tfv_south_africa.67.t:0 "Freedom for [ZAM.GetName]"
- tfv_south_africa.67.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [ZAM.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [ZAM.GetAdjective] government."
- tfv_south_africa.68.t:0 "Freedom for [MLW.GetName]"
- tfv_south_africa.68.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [MLW.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [MLW.GetAdjective] government."
- tfv_south_africa.69.t:0 "Freedom for [TZN.GetName]"
- tfv_south_africa.69.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [TZN.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [TZN.GetAdjective] government."
- tfv_south_africa.70.t:0 "Freedom for [UGA.GetName]"
- tfv_south_africa.70.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [UGA.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [UGA.GetAdjective] government."
- tfv_south_africa.71.t:0 "Freedom for [SUD.GetName]"
- tfv_south_africa.71.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [SUD.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [SUD.GetAdjective] government."
- tfv_south_africa.72.t:0 "Freedom for [EGY.GetName]"
- tfv_south_africa.72.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [EGY.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [EGY.GetAdjective] government."
- tfv_south_africa.73.t:0 "Freedom for [ERI.GetName]"
- tfv_south_africa.73.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [ERI.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [ERI.GetAdjective] government."
- tfv_south_africa.74.t:0 "Freedom for [ETH.GetName]"
- tfv_south_africa.74.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [ETH.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [ETH.GetAdjective] government."
- tfv_south_africa.75.t:0 "Freedom for [DJI.GetName]"
- tfv_south_africa.75.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [DJI.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [DJI.GetAdjective] government."
- tfv_south_africa.76.t:0 "Freedom for [SOM.GetName]"
- tfv_south_africa.76.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [SOM.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [SOM.GetAdjective] government."
- tfv_south_africa.77.t:0 "Freedom for [RWA.GetName]"
- tfv_south_africa.77.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [RWA.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [RWA.GetAdjective] government."
- tfv_south_africa.78.t:0 "Freedom for [BRD.GetName]"
- tfv_south_africa.78.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [BRD.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [BRD.GetAdjective] government."
- tfv_south_africa.79.t:0 "Freedom for [RCG.GetName]"
- tfv_south_africa.79.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [RCG.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [RCG.GetAdjective] government."
- tfv_south_africa.80.t:0 "Freedom for [GAB.GetName]"
- tfv_south_africa.80.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [GAB.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [GAB.GetAdjective] government."
- tfv_south_africa.81.t:0 "Freedom for [EQG.GetName]"
- tfv_south_africa.81.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [EQG.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [EQG.GetAdjective] government."
- tfv_south_africa.82.t:0 "Freedom for [CMR.GetName]"
- tfv_south_africa.82.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [CMR.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [CMR.GetAdjective] government."
- tfv_south_africa.83.t:0 "Freedom for [CAR.GetName]"
- tfv_south_africa.83.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [CAR.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [CAR.GetAdjective] government."
- tfv_south_africa.84.t:0 "Freedom for [CHA.GetName]"
- tfv_south_africa.84.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [CHA.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [CHA.GetAdjective] government."
- tfv_south_africa.85.t:0 "Freedom for [NGA.GetName]"
- tfv_south_africa.85.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [NGA.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [NGA.GetAdjective] government."
- tfv_south_africa.86.t:0 "Freedom for [NGR.GetName]"
- tfv_south_africa.86.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [NGR.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [NGR.GetAdjective] government."
- tfv_south_africa.87.t:0 "Freedom for [DAH.GetName]"
- tfv_south_africa.87.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [DAH.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [DAH.GetAdjective] government."
- tfv_south_africa.88.t:0 "Freedom for [TOG.GetName]"
- tfv_south_africa.88.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [TOG.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [TOG.GetAdjective] government."
- tfv_south_africa.89.t:0 "Freedom for [GHA.GetName]"
- tfv_south_africa.89.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [GHA.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [GHA.GetAdjective] government."
- tfv_south_africa.90.t:0 "Freedom for [IVO.GetName]"
- tfv_south_africa.90.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [IVO.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [IVO.GetAdjective] government."
- tfv_south_africa.91.t:0 "Freedom for [VOL.GetName]"
- tfv_south_africa.91.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [VOL.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [VOL.GetAdjective] government."
- tfv_south_africa.92.t:0 "Freedom for [MLI.GetName]"
- tfv_south_africa.92.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [MLI.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [MLI.GetAdjective] government."
- tfv_south_africa.93.t:0 "Freedom for [SIE.GetName]"
- tfv_south_africa.93.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [SIE.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [SIE.GetAdjective] government."
- tfv_south_africa.94.t:0 "Freedom for [GNA.GetName]"
- tfv_south_africa.94.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [GNA.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [GNA.GetAdjective] government."
- tfv_south_africa.95.t:0 "Freedom for [GNB.GetName]"
- tfv_south_africa.95.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [GNB.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [GNB.GetAdjective] government."
- tfv_south_africa.96.t:0 "Freedom for [SEN.GetName]"
- tfv_south_africa.96.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [SEN.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [SEN.GetAdjective] government."
- tfv_south_africa.97.t:0 "Freedom for [GAM.GetName]"
- tfv_south_africa.97.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [GAM.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [GAM.GetAdjective] government."
- tfv_south_africa.98.t:0 "Freedom for [LIB.GetName]"
- tfv_south_africa.98.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [LIB.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [LIB.GetAdjective] government."
- tfv_south_africa.99.t:0 "Freedom for [MRT.GetName]"
- tfv_south_africa.99.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [MRT.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [MRT.GetAdjective] government."
- tfv_south_africa.100.t:0 "Freedom for [WES.GetName]"
- tfv_south_africa.100.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [WES.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [WES.GetAdjective] government."
- tfv_south_africa.101.t:0 "Freedom for [ALG.GetName]"
- tfv_south_africa.101.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [ALG.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [ALG.GetAdjective] government."
- tfv_south_africa.102.t:0 "Freedom for [MOR.GetName]"
- tfv_south_africa.102.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [MOR.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [MOR.GetAdjective] government."
- tfv_south_africa.103.t:0 "Freedom for [TUN.GetName]"
- tfv_south_africa.103.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [TUN.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [TUN.GetAdjective] government."
- tfv_south_africa.104.t:0 "Freedom for [LBA.GetName]"
- tfv_south_africa.104.d:0 "Having been liberated from the hold of their colonial oppressors, the people of [LBA.GetName] stand ready to take charge of their own destiny. They have formed a provisional government and drafted a constitution. The only thing left is to transfer authority from our military governors to the new [LBA.GetAdjective] government."
- tfv_south_africa.64.c:0 "The situation does not allow it just yet."
- tfv_new_zealand.1.t:0 "[From.GetNameDefCap] Requests Membership in the Comintern"
- tfv_new_zealand.1.desc:0 "The revolution has succeeded in [From.GetNameDef]! A new communist government has taken charge in the country and seeks membership in the Comintern."
- tfv_new_zealand.1.a:0 "Everyone is welcome to join the struggle."
- tfv_new_zealand.1.b:1 "Accepting them would only open us up to possible conflict in a distant area."
- tfv_new_zealand.2.t:0 "Comintern Membership approved"
- tfv_new_zealand.2.desc:0 "After careful consideration, the Central Committee of the Comintern has approved our request for membership."
- tfv_new_zealand.2.a:2 "[Root.GetNameDefCap] and [From.GetFactionName] will march side by side!"
- tfv_new_zealand.3.t:0 "Comintern Membership denied"
- tfv_new_zealand.3.desc:0 "Our delegation had to endure a long lecture by the Chairman of the Comintern, explaining that a coutry as small as ours can not possibly be the kind of developed industrial nation that could produce a communist revolution. We are, apparently, something else. In any event, we can not be part of the Comintern."
- tfv_new_zealand.3.a:0 "Perhaps they are the ones mistaken?"
- tfv_new_zealand.4.t:0 "[From.GetNameDefCap] wants to join our cause"
- tfv_new_zealand.4.desc:0 "Seeing the might of our invincible armies, the government of [NZL.GetName] has decided that they would rather be on our side of the conflict. The question is whether we should allow them."
- tfv_new_zealand.4.a:0 "As long as they know their place."
- tfv_new_zealand.4.b:0 "Why take by diplomacy what you can take by war?"
- tfv_new_zealand.5.t:0 "Japan approves"
- tfv_new_zealand.5.desc:0 "Our request for an alliance with Japan has been approved."
- tfv_new_zealand.5.a:0 "This will keep us safe."
- tfv_new_zealand.6.t:0 "Japan refuses alliance"
- tfv_new_zealand.6.desc:0 "The [JAP.GetAdjective] government has not even bothered to give us an official response to our request. Rumor has it that it is actually considered a source of great hilarity in [JAP.GetAdjective] government circles."
- tfv_new_zealand.6.a:0 "Rude."
- tfv_new_zealand.7.t:0 "Michael Joseph Savage Dies"
- tfv_new_zealand.7.desc:0 "In a tragic turn of events, the much beloved Prime Minister of New Zealand, Michael Joseph Savage, has passed away from cancer. The whole country mourns the man who many credit with founding New Zealand's welfare system. History will remember his courage and his kindness to those around him."
- tfv_new_zealand.7.a:0 "He will be missed."
- tfv_raj.1.t:0 "Fighter Funds"
- tfv_raj.1.desc:0 "All over the Empire, "Fighter Funds" have been set up in local communities to collect money for new fighters for the Royal Air Force. Rich individuals have also chipped in to purchase planes for the military. The Nizam of Hyperabad has donated enough money to finance the purchase of 2 full squadrons. The question is where they should be stationed."
- tfv_raj.1.a:0 "They should go to the United Kingdom."
- tfv_raj.1.b:0 "We need these for homeland defense!"
- tfv_raj.2.t:0 "Indian Prince donates fighters"
- tfv_raj.2.desc:0 "The Nizam of Hyperabad, an Indian Prince, has generously donated the money to purchase two full squadrons of our most modern fighters for the Royal Air Force. The government has expressed their thanks and declared that the first plane will be named "Spirit of Hyperabad"."
- tfv_raj.2.a:0 "They will prove very useful."
- tfv_raj.21.t:0 "The Bengal Famine"
- tfv_raj.21.desc:0 "Bengal has suffered famines before, but this time events have conspired to make things so much worse than usual. The staggeringly incompetent colonial administration has shown itself utterly unable - or perhaps even unwilling - to adequately react to a cyclone wiping out much of the rice harvest in Bengal. With refugees pouring in from the war stricken regions of the country, demand for food is growing every day while supply is falling short. \n\nFood prices have risen dramatically, leading to people staying away from work that no longer pays enough to feed their families. Recruitment numbers for the army have also dropped considerably as more and more people refuse to leave their homes to fight for a government that does nothing to help them."
- tfv_raj.21.a:0 "This is a disaster!"
- tfv_raj.30.t:0 "Indian Communists ask for support"
- tfv_raj.30.desc:0 "Subhas Chandra Bose, leader of the All India Forward Bloc, has come to Moscow to ask for our help in the struggle for Indian freedom. Invoking the traditional conflicts between Russia and Britain in India, going back to the days of the Great Game, he believes that we are a natural choice to help the Indians achieve their independence from Britain."
- tfv_raj.30.a:0 "Let us end the British Empire, once and for all."
- tfv_raj.30.b:0 "What an absurd notion."
- tfv_raj.31.t:0 "[SOV.GetNameDefCap] supports Indian Independence"
- tfv_raj.31.desc:0 "The [SOV.GetAdjective] ambassador today visited the Foreign Office to discuss the issue of Indian Independence. During the meeting, he made it very clear that [SOV.GetNameDef] considers our continued rule over India to be utterly unacceptable. It appears that Bose's words have found the ear of [SOV.GetLeader], and have swayed the Russians to his cause. \n\nFor now, the [SOV.GetAdjective]s seem to limit themselves to training Indian volunteers in their country, but they may well intervene in any conflict that springs up on the subcontinent."
- tfv_raj.31.a:0 "They leave us no choice, then. We have to let them go."
- tfv_raj.31.b:0 "If they want to play the Great Game again, then let's play."
- tfv_raj.32.t:0 "[SOV.GetNameDefCap] takes up our cause"
- tfv_raj.32.desc_SOV_helps:0 "Our negotiations in Moscow have been a stunning success. Today, the headline of the Pravda reads "The struggle of the Indian people for freedom is our struggle!" Comrade [SOV.GetLeader] himself has met with Chandra Bose and promised his full support."
- tfv_raj.32.desc_SOV_helps_ENG_reject:0 "Our hopes for an easy way to independence have been cruely ended by the British colonial office. When the [SOV.GetAdjective] Ambassador approached them with the request that we should be allowed to determine our own fate, he was quickly told that there was nothing to discuss. The [ENG.GetAdjective] government claims that the question of our independence is an internal matter in which no foreign power may intervene."
- tfv_raj.32.a:0 "The fight goes on."
- tfv_raj.33.t:0 "[SOV.GetAdjective]s refuse to help"
- tfv_raj.33.desc:0 "Subhas Chandra Bose has tried to get the [SOV.GetAdjective] government to help our struggle, but his efforts have not been met with success. After waiting several days to speak to [SOV.GetLeader], he was granted the chance for a meeting that lasted barely ten minutes. \n\nWhile [SOV.GetLeader] expressed great admiration for the revolutionary struggle of our people, he also made it clear that he does not believe our country is ready for the next step on the way to full communism."
- tfv_raj.33.a:0 "Perhaps we should ask the Germans?"
- tfv_raj.34.t:0 "Freedom For India"
- tfv_raj.34.desc:0 "Today marks the begin of a new era in Indian history. After centuries under foreign rule, we have finally achieved full independence. The local [ENG.GetAdjective] civil servants have been ordered to assist in the transition to [RAJ.GetAdjective] home rule and will be sent home within the next few months. \n\nWith the aid of our new [SOV.GetAdjective] comrades, we can now focus on the task ahead of us - building a nation for our people."
- tfv_raj.34.a:0 "Triumph!"
- tfv_raj.40.t:0 "Indian Nationalists ask for support"
- tfv_raj.40.desc:0 "Subhas Chandra Bose, leader of the All India Forward Bloc, has come to Berlin to ask for our help in the struggle for Indian freedom. In a letter to [GER.GetLeader], he expressed his admiration and suggested that an independent India would be a valuable ally in our effort to restore [GER.GetNameDef] to its rightful place in the world."
- tfv_raj.40.a:0 "The British took our colonies. Now we take theirs."
- tfv_raj.40.b:0 "What an absurd notion."
- tfv_raj.41.t:0 "[GER.GetNameDefCap] supports Indian Independence"
- tfv_raj.41.desc:0 "The [GER.GetAdjective] ambassador today visited the Foreign Office to discuss the issue of Indian Independence. During the meeting, he made it very clear that [GER.GetLeader] considers our continued rule over India to be utterly unacceptable. It appears that Bose has promised that an independent India will support [GER.GetAdjective] interests in the region. \n\nThe ambassador refused to make clear what his government was willing to do if we refused, but we must assume that they may even resort to war."
- tfv_raj.41.a:0 "They leave us no choice, then. We have to let them go."
- tfv_raj.41.b:0 "We have played the Great Game in India before. Let us see how well the Germans play it."
- tfv_raj.42.t:0 "[GER.GetNameDefCap] takes up our cause"
- tfv_raj.42.desc_GER_helps:0 "After meeting the [GER.GetAdjective] foreign minister and arguing his cause, Subhas Chandra Bose has managed to convince the [GER.GetAdjective]s to support us. Bose also met with German leader [GER.GetLeader] and discussed matters of shared interest for several hours, including raising a unit of Indian volunteers from British Prisoners of War."
- tfv_raj.42.desc_GER_helps_ENG_reject:0 "Our hopes for an easy way to independence have been cruely ended by the British colonial office. When the [GER.GetAdjective] Ambassador approached them with the request that we should be allowed to determine our own fate, he was quickly told that there was nothing to discuss. The [ENG.GetAdjective] government claims that the question of our independence is an internal matter in which no foreign power may intervene."
- tfv_raj.42.a:0 "The fight goes on."
- tfv_raj.43.t:0 "[GER.GetAdjective]s refuse to help"
- tfv_raj.43.desc:0 "Subhas Chandra Bose has tried to get the [GER.GetAdjective] government to help our struggle, but his efforts have not been met with success. After waiting several days to speak to [GER.GetLeader], he was granted the chance for a meeting that lasted barely ten minutes. \n\nWhile [GER.GetLeader] expressed great admiration for our situation and fanatical spirit of resistance, he also made it clear that he does not believe our country is worth expending resources on."
- tfv_raj.43.a:0 "Damnation."
- tfv_raj.44.t:0 "Freedom For India"
- tfv_raj.44.desc:0 "Today marks the begin of a new era in Indian history. After centuries under foreign rule, we have finally achieved full independence. The local [ENG.GetAdjective] civil servants have been ordered to assist in the transition to [RAJ.GetAdjective] home rule and will be sent home within the next few months. \n\nWith the aid of our new [GER.GetAdjective] friends, we can now focus on the task ahead of us - building a nation for our people."
- tfv_raj.44.a:0 "Triumph!"
- AST_CREATE_FACTION:0 "We will establish our own faction."
- SAF_colonies_tt:0 "Release §YKenya§! and §YZimbabwe§! as puppets."
- SAF_soviet_research_tt:0 "Enter into a research agreement with South Africa."
- tfv_raj_focus_paratrooper_tt:0 "Battaglione Azad Hindoustan paratroopers will be deployed in Italy."
- tfv_raj.201.t:0 "The Battaglione Azad Hindoustan"
- tfv_raj.201.desc:0 "Recruited from Prisoners of War, the soldiers of the Battaglione Azad Hindoustan have sworn to give their life in pursuit of Indian freedom. Trained in sabotage and infiltration, these elite soldiers are also capable of being dropped by parachute to wreak havoc behind enemy lines."
- tfv_raj.201.a:0 "Strike from the skies, brothers!"
- tfv_raj.210.t:0 "Sabotage?"
- tfv_raj.210.desc:0 "The local workers had just broken for lunch when a violent explosion rocked one of our factories. Significant damage was done to the building itself, and several workers were injured by flying glass. Thankfully, the machine tools seem to have remained mostly intact. Police and army units have constructed a perimeter while investigators pick through the rubble in a search for clues to the cause of the explosion.\n\nRumors abound that it was the work of a resitance cell from the Quit India movement, turning their protest to violence in their struggle for freedom."
- tfv_raj.210.a:0 "Disturbing."
- tfv_raj.211.t:0 "Sabotage!"
- tfv_raj.211.desc:0 "Just weeks after the first explosion, a second factory was suddenly destroyed, again just after the workers had left the main building for lunch. There can be little doubt that this is the work of an organized resistance group conducting a well-planned campaign of sabotage and terrorism. The brazen attacks in broad daylight show that the attackers appear to be very sure of themselves. "
- tfv_raj.211.a:0 "Will no one stop them?"
- tfv_raj.212.t:0 "The Enemy Within"
- tfv_raj.212.desc:0 "A third explosion has devastated a factory in on of our states. This time, it appears the attacks got the timing wrong, as the bomb exploded halfway through the shift. Dozens of workers were killed and dozens more are still missing. Investigators are pursuing several leads, and a number of houses have already been searched. The results are deeply disturbing, ranging from Quit India propaganda to tools that could be used to create crude explosives. \n\nNone of those arrested seem to be the ringleaders, however, and they have so far refused to talk."
- tfv_raj.212.a:0 "This is getting out of hand."
- tfv_raj_quit_india_unrest_tt:0 "The movement's supporters are expected to demand change."
+ tfv_australia.1.t:0 "[From.GetAdjective]シンガポール戦略の計画"
+ tfv_australia.1.d:0 "シンガポール戦略は先の大戦が終結して以来、 [JAP.GetNameDef]に対する抑止対策の礎となっている。 しかし、 攻撃の際に主力艦隊をシンガポールに再配置することは[From.GetNameDef]の同盟の支援に依存している。 極東における英国連合に対する潜在的脅威が日々増加していることから、 [From.GetAdjective]最高指揮官は潜在的な新たな戦略を提示した。 それは地域防衛の主導権をオーストラリアに大幅に委ねるものである。 \n\n十全な計画であるが、 唯一の疑問点は、 我々が必要とする安全が提供されると信ずるに足るかということである。 "
+ tfv_australia.1.a:1 "オーストラリアは東南アジアにおいて第一防衛線を規定すべきだ"
+ tfv_australia.1.b:0 "シンガポール戦略をこれまで通り維持する。 "
+ tfv_australia.2.t:0 "[From.GetNameDefCap]植民地権益の譲渡"
+ tfv_australia.2.d:1 "[From.GetAdjective]が、 全てのシンガポールとボルネオ付近の[From.GetAdjective]植民地の属領の支配権を、 [Root.GetNameDef]に譲渡する法案を可決した。 \n\n遂に我々の安全保障は確保された。 "
+ tfv_australia.2.a:0 "我々は期待を裏切らない。 "
+ tfv_australia.3.t:0 "[From.GetNameDefCap]が戦略的調整を拒絶する。 "
+ tfv_australia.3.d:0 "我々のシンガポール戦略の現実性に対する懸念にも関わらず、 [From.GetAdjective]議会は我が国の申し出を黙殺した。 \nこれは[From.GetAdjective]最高司令部を支配する軍事的保守主義の結果であり、 仮に我々の不安が現実のものとなれば、 自国海岸での接敵を余儀なくされるであろう。 "
+ tfv_australia.3.a:0 "[From.GetAdjective]による支援のあるなしに関わらず、 [Root.GetNameDef]は気高く戦い抜く。 "
+ tfv_australia.10.t:0 "[From.GetNameDefCap]は我々の植民地に対して保障を提供する"
+ tfv_australia.10.d:0 "[From.GetNameDefCap]は、 [Root.GetAdjective]外交官と東南アジアの[Root.GetAdjective]領域の保護に関する責任の移転について交渉を開始した。 \n\n前記領土を守ることに内在する課題を考慮するとそれほど悪い考えではない。 近い将来、 領土は名目上のみ[Root.GetAdjective]となるが、 名目上のみの所有は完全に失うよりはるかに良いということを意味する。 "
+ tfv_australia.10.a:0 "[From.GetNameDefCap]は、 その地域にある[Root.GetAdjective]の利益の執行者となるだろう。 "
+ tfv_australia.10.b:0 "[Root.GetAdjective]の領域は[Root.GetAdjective]の手中に残るのだ！ "
+ tfv_australia.11.t:0 "[From.GetNameDefCap]を保護領として割譲する"
+ tfv_australia.11.d:0 "[From.GetAdjective]軍は、 [From.GetLeader]が同意した時点で、 東南アジアの全ての[From.GetAdjective]領土を保護する責任を負う準備ができていた。 \n\n移転に際して、 外国の侵略に対する恐怖によってRoot.GetAdjective]防衛の必要性を認めざるを得ないだろう。 "
+ tfv_australia.11.a:0 "[Root.GetNameDefCap]はなすべきことをするだろう。 "
+ tfv_australia.12.t:0 "[From.GetAdjective]は地域の安全対策を妨げる。 "
+ tfv_australia.12.d:0 "東南アジアの[From.GetAdjective]領土を十分に保護できると自負している[From.GetNameDef]は、 共有防衛戦略の提案を拒否した。 \n\n間違いなく植民地支配を危惧しており、 彼らの行動は理解できる。 しかし彼らが領土を守ることができなければ（それこそ我々が恐れていることだが）そこがオーストラリア大陸への攻撃拠点として使用されることになるかもしれない。 "
+ tfv_australia.12.a:0 "我々の唯一の望みは、 彼らが抵抗することだ。 "
+ tfv_australia.20.t:0 "[From.GetNameDefCap]が我が国の併合を要求"
+ tfv_australia.20.d:0 "[From.GetNameDef]国内で膨張する国家主義の熱情について以前から憂慮してきたが、 ついに彼らの国境の外にまで溢れ出る日が来たようだ。 \nこれまでは「開拓国家」としての共通の伝統を引き合いに出し、 オセアニア連合の結成を持ちかけていたが、 [Root.GetAdjective]の抵抗に合うにつれその主張は劇的に攻撃性を増しつつある。 \n\n政治的な思惑は今や明確な敵意に転じ、 [From.GetLeader]は公に[Root.GetAdjective]全州の[From.GetNameDef]領への併合を要求している。 \nこれを拒絶するならば軍事的侵攻に至ることは避けられないだろう。 "
+ tfv_australia.20.a:0 "[From.GetNameDef]の属領としての地位に甘んじる他に選択の余地はない"
+ tfv_australia.20.b:0 "我らの土地が欲しいならば、 来て戦うがよい！ "
+ tfv_australia.21.t:0 "[From.GetNameDefCap]が併合を受諾"
+ tfv_australia.21.d:0 "[From.GetAdjective]は我々の最後通牒を受諾し、 [Root.GetNameDef]の州として新たな地位を受け入れた。 [From.GetAdjective]PM[From.GetLeader]は、 [From.GetAdjective]の「独立性」の喪失を嘆いているが、 この瞬間はオセアニアの新しい時代の始まりを告げるものだ。 \n\n[From.GetNameDef]は我々の利益を一顧だにしない帝国のペットであることが今終わったのである。 "
+ tfv_australia.21.a:0 "[Root.GetNameDefCap]とニュージーランドは共に栄光ある未来へ！ "
+ tfv_australia.22.t:0 "[From.GetNameDefCap]が我々の和同の提案を拒絶"
+ tfv_australia.22.d:0 "[From.GetAdjective]政府は、 太平洋の地政学的状況における不安定な立場を認めず、 ニュージーランドを[Root.GetNameDef]の最重要州の1つにするという提案を拒否した。 \n彼らは自身が単に英国の愛玩用小型犬であることに気づいていない。 [From.GetAdjective]首相、 [From.GetLeader]は[From.GetAdjective]の「自由と独立」の原則を引用した。 \n\n[Get.GetNameDef]は「地政学的に不安定な」地位を説明することで、 我々が意味するものが何かを正確に思い出さなければならない。 "
+ tfv_australia.22.a:0 "武器を取れ、 [Root.GetAdjective]国民よ！ "
+ tfv_australia.31.t:0 "世界の指導者としての[Root.GetNameDefCap]"
+ tfv_australia.31.d:0 "帝国から距離を置く最近の方針に従えば、 我々のような周辺地域で支配的地位にある国が、 子分ではなく指導者の立場を取るのは理にかなったことだ。 \n諸地域の力を我々の主義に結集し、 相互の利益が世界の舞台においても保護されることを保障するだろう。 \n\nもはやヨーロッパの植民地支配者に奉仕することはできない。 我々は新しく、 より適切な勢力均衡を確保するのだ。 "
+ tfv_australia.31.a:0 "[Root.GetNameDefCap]が未来への道を導く"
+ tfv_australia.32.t:0 "[From.GetNameDefCap]が政治的協力を要請"
+ tfv_australia.32.d:0 "[From.GetNameDef]が英連邦から正式に離脱してから、 [From.GetAdjective]政府は新たな同盟国を探している。 ヨーロッパは、 新たな犠牲の大きな紛争に直面しているように思われ、 [From.GetNameDef]の潜在的な戦略的価値は太平洋における紛争につながる可能性がある。 提携は我々の最大の利益になるかもしれない。 \n\nその提携は確実に東南アジア、 極東、 太平洋を影響範囲の一部として強調し、 ヨーロッパで何が起ころうとも、 [Root.GetAdjective]の利益が侵害されないことを保障するだろう。 "
+ tfv_australia.32.a:1 "彼らを同盟国と呼べることに我々は満足している！ "
+ tfv_australia.32.b:0 "我々は自身の利益をより良く保護することができる。 "
+ tfv_australia.33.t:0 "[From.GetNameDefCap]は太平洋の提携協力に同意する。 "
+ tfv_australia.33.d:0 "太平洋にまたがる協力の明白な利点を見て、 [From.GetNameDef]は、 地域同盟の提案に合意した。 "
+ tfv_australia.33.a:0 "古い主人は死んだ。 我々は今やすべてにおいて対等だ。 "
+ tfv_australia.34.t:0 "[From.GetNameDefCap]は協力事業を辞退した。 "
+ tfv_australia.34.d:0 "共有する歴史を認識するのに失敗したか、 あるいは単に政治的ご都合主義の問題だったとしても、 いずれにせよ[From.GetNameDef]は、 太平洋にまたがる協力関係の提案を断った。 \n\n彼らが参加していれば大きな力になったであろうが、 我々は自身の立案に従い、 自身の目標に向かって前進せねばならない。 "
+ tfv_australia.34.a:0 "我々には、 世界の片隅でまだできることがある。 "
+ tfv_australia.34.b:0 "我々は失敗した"
+ tfv_australia.41.t:0 "[INS.GetAdjective]が自由を追求"
+ tfv_australia.41.d:0 "旧[HOL.GetAdjective]植民地で激しい暴動があったため、 我々の信頼できる隣人である[INS.GetNameDef]は、 苦労してようやく手に入れた権益を維持するために救いの手を必要としている。 支援が必要である限り、 [Root.GetNameDef]は[INS.GetAdjective]政府を援助する。 \n\nいつの日か[INS.GetNameDef]は、 太平洋の兄弟としてヨーロッパの植民地支配に対峙することができるだろう。 その時まで、 彼らが我々と共に強く立ち上がるよう保障する。 "
+ tfv_australia.41.a:0 "必要なら共に武器を取り立ち向かおう！ "
+ tfv_australia.50.t:0 "[From.GetNameDefCap]は、 [Root.GetFactionName]の加盟資格を要求する。 "
+ tfv_australia.50.d:0 "労働者の国家と自認し、 古いヨーロッパの資本家階級から解放された[From.GetNameDef]は徐々に[Root.GetAdjective]の政治圏に移行した。 [From.GetAdjective]政府は国家として正式に[Root.GetFactionName]の加盟資格を要求している。 \n\n世界革命を視野に入れ、 [From.GetLeader]は[Root.GetNameDef]と[From.GetNameDef]を新しい社会主義世界秩序の重要な2本の柱とし、 [From.GetNameDef]がオセアニアで、 [Root.GetNameDef]がユーラシアで支配権を構築する構想を提示した。 "
+ tfv_australia.50.a:0 "どの様な革命国家でも両手を広げて歓迎しよう！ "
+ tfv_australia.50.b:0 "[From.GetAdjective]が確実に我々を引きずり込むだろう紛争につきあう余裕などない。 "
+ tfv_australia.51.t:0 "革命の兄弟たち"
+ tfv_australia.51.d:0 "[From.GetNameDefCap]は[From.GetFactionName]への加盟要請を検討し、 我が国を大切な同盟国であると宣言した！ "
+ tfv_australia.51.a:0 "世界革命が待っている！ "
+ tfv_australia.52.t:0 "独力で成す"
+ tfv_australia.52.d:0 "何週間もの交渉と官僚的な罠が続き、 [From.GetNameDef]が[From.GetFactionName]への加盟について最終的な答えを与えることに関心がないことが明らかになった。 \n我々は迅速かつ確実な交渉を望んでいたが、 [Root.GetNameDef]は自らで世界中の労働者に真の自由をもたらす準備をしなくてはならなくなった。 "
+ tfv_australia.52.a:0 "我々は世界のあらゆる国々で虐げられし者たちの為に戦う！ "
+ tfv_australia.60.t:0 "[From.GetNameDefCap]が保護権を要求"
+ tfv_australia.60.d:0 "全労働者の権利に自由と自決を引用しながら、 [From.GetAdjective]政府は我々の領域に押し寄せる「大洋の社会主義」の波に[Root.GetAdjective]州が屈服することを要求する。 \n\n[Root.GetNameDef]の人々の実際の興味にかかわらず、 [From.GetNameDef]からの脅威が現実であり、 そして、 彼らが利用できるあらゆる手段で要求を強いることはほぼ疑いない……"
+ tfv_australia.60.a:0 "迷いの余地などない。 革命へ向かおう、 同志よ。 "
+ tfv_australia.60.b:0 "[Root.GetNameDefCap]は決して受け入れない！ "
+ tfv_australia.61.t:0 "[From.GetNameDefCap]が革命闘争に参加！ "
+ tfv_australia.61.d:0 "共産主義者の真実と正義を認め、 [From.GetNameDef]は、 共通の大洋の旗じるしの下で我々の努力を結集する必要性に同意した。 "
+ tfv_australia.61.a:0 "赤い波は世界を平らげるべく下から盛り上がっていくだろう！ "
+ tfv_australia.62.t:0 "[From.GetNameDefCap]は革命を崩壊させようと試みている"
+ tfv_australia.62.d:0 "[From.GetAdjective]の人民を資本家どもの親指の下で抑圧したままにして、 [From.GetNameDef]の政府を支配している金持ちどもは、 今や彼らが[Root.GetAdjective]州と協力する状況に全くないと表明している。 \n我々は協力を求められない彼らを哀れもう！ 資本家どものとんでもない肥満体の重さの下で奴隷となっていることを哀れむよりも！ "
+ tfv_australia.62.a:0 "[From.GetNameDef]に真の自由をもたらそう！ "
+ tfv_australia.70.t:0 "[From.GetNameDefCap]は保護国を支配する権利を要求する"
+ tfv_australia.70.d:0 "東南アジアにおける植民地支配を守るために[Root.GetNameDef]の一部が失敗したと主張することは、 [From.GetNameDef]の国防のために致命的な影響を与えるだろう、 [From.GetLeader]政府は、 [From.GetAdjective]政府に、 地域の防衛のための完全な独立した責任が与えられることを要求した。 \n明らかな要求ではないが、 地域における戦略的・軍事的影響力の発達は、 議論する意味がある。 最近[From.GetNameDef]が我々から政治的距離をとっており、 均衡力を受け入れている。 \nこれは、 主題ではなく、 潜在的な仲間との合意であり、 [From.GetNameDef]がそうするように選択すると、 植民地が実際に我々の手から離れることになる。 "
+ tfv_australia.70.a:0 "そうだ、 東南アジアの安定が最優先だ。 "
+ tfv_australia.70.b:0 "いや、 我々は我々自身の植民地の唯一の支配者となるだろう！ "
+ tfv_australia.71.t:0 "防衛委員会"
+ tfv_australia.71.d:0 "以下の[Root.GetAdjective]軍司令官の提案によって、 [From.GetNameDef]は、 東南アジアの[From.GetAdjective]植民地支配権のすべての「中間制御権」を我々に提供すると決定した。 \n\n太平洋の古い軍隊が賢明でない限り、 この地域に対する[Root.GetNameDef]の支配を確実にするための私たちの試みは続いていくだろう。 "
+ tfv_australia.71.a:0 "我々は故国を誇りに思う。 "
+ tfv_australia.72.t:0 "[From.GetNameDefCap]が「防衛計画」を辞退"
+ tfv_australia.72.d:0 "[Root.GetAdjective]軍高官の提案にもかかわらず、 [From.GetNameDef]は東南アジア地域の植民地支配の要請を拒否した。 \n\nしかし、 我々の野望は解決されていない。 我々は太平洋における[Root.GetAdjective]の名声を確保する方法を引き続き探求する。 "
+ tfv_australia.72.a:0 "この後退をよそに、 なおも[Root.GetNameDefCap]の立場は強い。 "
+ tfv_australia.80.t:0 "海の向こうからの提案"
+ tfv_australia.80.d:0 "[From.GetNameDefCap]は[Root.GetNameDef]の帝国主義的野心を時間と共に一段と同情を得るようになった。 この地域に基地を置く唯一の他の主要な軍隊として、 [From.GetAdjective]人は我々の粗末な僕よりも、 誇り高き同盟国として立っている方が良いと判断した。 \n\n我々の関心を引くための西太平洋同盟の提案では、 [From.GetNameDef]の敵が現在支配しているいくつかの領土も含めて[Root.GetAdjective]の領域を明確に示している。 "
+ tfv_australia.80.a:0 "我らと共に東半球を完全に支配しよう！ "
+ tfv_australia.80.b:0 "我らの大望に田舎の百姓らを入れる気などない！ "
+ tfv_australia.81.t:0 "[From.GetNameDefCap]が同盟を承認"
+ tfv_australia.81.d:1 "日本への代表団が凱旋した。 我が国は[JAP.GetName]との公式同盟を締結した。 この文書は各国の関心分野を明確に定義し、 どちらも干渉することはできない。 "
+ tfv_australia.81.a:0 "西太平洋に渡る[Root.GetAdjective]と[From.GetAdjective]の利益になるだろう。 "
+ tfv_australia.82.t:0 "[From.GetAdjective]政府が同盟を拒絶！ "
+ tfv_australia.82.d:0 "世界のひのき舞台へ躍り出たにもかかわらず、 [From.GetNameDef]は西太平洋地域での我々の重要性を認めていない。 \n[From.GetNameDef]は我々を完全に拒否しただけではなく、 南進論がインドネシアを越えてオーストラリア大陸そのものに向いていることをあからさまにしている。 "
+ tfv_australia.82.a:0 "もし彼らが我々と共に立たないならば、 彼らを我々のためにひざまずかせるまでだ。 "
+ tfv_australia.90.t:0 "戴冠式参観"
+ tfv_australia.90.desc:0 "[AST.GetLeader]は国王ジョージ6世と王妃エリザベスの式典へ参加するためイギリスへ旅行した。 数週間のランチ、 ディナー、 ガーデン・パーティー、 レセプション、 そして多くのディナーに続いて、 彼は最終的に新たな王との内謁の確保に成功した。 冗談と世間話のやり取りの後、 話題は政治に変わり、 王は自分が[AST.GetNameDef]を助けるために何ができるのかを尋ねた。 "
+ tfv_australia.90.a:0 "王にオーストラリアの士気を高めるため訪問して下さるよう乞おう。 "
+ tfv_australia.90.b:0 "王に徴兵キャンペーンを支持して下さるよう乞おう。 "
+ tfv_australia.90.c:0 "王に政府を公的に支持して下さるよう乞おう。 "
+ tfv_australia.92.t:0 "エドワード8世国王、 オーストラリア訪問"
+ tfv_australia.92.desc:0 "[AST.GetLeader]は国王エドワード8世とウォリス・シンプソンの結婚式に参加するため、 イギリスへと渡った。 数週間に渡る昼食会、 晩餐会、 園遊会、 歓迎会、 そして晩餐会の繰り返しを経た後、 新国王との個人的な謁見に成功した。 \n\nユーモア溢れる冗談と少しばかりの会話を交わした後、 話題は政治へと移った。 国王は、 英連邦の連帯とイギリス本国への忠誠について厳しく攻撃的な長広舌を振るい、 大陸間政治についての演説に映る頃には、 [AST.GetLeader]は少々不快な表情を示さずにいられなかった。 国王は[AST.GetNameDef]を助け、 そしてオーストラリアの国民からの国王への思慕を集めるために何ができるか尋ねている。 "
+ tfv_australia.92.a:0 "士気を高めるためにオーストラリア訪問を国王に懇願しよう。 "
+ tfv_australia.92.b:0 "新兵募集への助力を国王に懇願しよう。 "
+ tfv_australia.92.c:0 "我が政府への公式な支援を国王に懇願しよう。 "
+ tfv_australia.95.t:0 "インドネシアで民族主義者が蜂起"
+ tfv_australia.95.desc:0 "ここ数週間、 インドネシア全域で民族主義者の扇動が著しく増加している。 情報機関による民族主義シンパの推定数は、 驚くべき大きさにまで成長した。 特に懸念されるのは、 一部の民族主義の指導者が武装蜂起について公然と議論しているという報告である。 ちょうど昨日、 海軍の船がジャワの南に疑わしい漁船を捕まえた。 船籍表示のないその船の上では、 武器や弾薬が見つかった。 乗組員の尋問はこれまでのところ何の結果ももたらしていないが、 誰かがごたごたを煽っているようだ。 "
+ tfv_australia.95.a:0 "酷く不安だ。 "
+ tfv_australia.96.t:0 "内戦だ！ "
+ tfv_australia.96.desc:0 "武装した民族主義者がインドネシアのあらゆる通りを占拠している。 蜂起に対する軍隊と警察の行動は不成功に終わったことが証明された。 この武装蜂起は国民感情の急激な上昇を切っ掛けとして起こった、 これは我が国が全面的な内戦に陥ったことを意味している。 "
+ tfv_australia.96.a:0 "民族主義者のカスに抵抗する！ "
+ tfv_australia.96.b:0 "蜂起に加わろう！ "
+ tfv_canada.1.t:0 "[From.GetNameDefCap]が北アメリカ同盟を要請"
+ tfv_canada.1.d:0 "北米大陸全体の外交的利益と日毎に大きくなるヨーロッパの混乱の中で、 [From.GetNameDef]は急進的な政治的手段を提案している。 \n相互防衛協定を締結することにより、 いかなる状況においても政治的・軍事的オプションを大幅に拡大しながら、 米州の安全を無傷で確保することができる。 [From.GetLeader]は、 [Root.GetNameDef]と[From.GetNameDef]の繁栄を確実にするためには「疑問の余地のない明らかな選択」であると述べ、 [Root.GetLeader]はそれ以外の主張が困難であることに同意しているようだ。 "
+ tfv_canada.1.a:0 "これはしっかりした戦略だ。 我々は[From.GetNameDef]に参加しよう！ "
+ tfv_canada.1.b:0 "我々は、 国境の向こう側の問題に引きずりこまれる可能性を受け入れないだろう。 "
+ tfv_canada.2.t:0 "北アメリカ同盟は成立した"
+ tfv_canada.2.d:0 "本日、 [Root.GetNameDef]と[From.GetNameDef]は新たな条約に調印し、 両国で共有されている友好関係と賛同を祝った。 両国は、 大陸の防衛を含め、 外交問題に関してお互いに助け合うことを約束する。 \n\nこの両国の協力によって、 外国の侵略者たちが我々に反抗する機会を与えないだろう。 "
+ tfv_canada.2.a:0 "海から海へ！ "
+ tfv_canada.3.t:0 "[From.GetNameDefCap]が北アメリカ同盟を拒絶"
+ tfv_canada.3.d:0 "合同防衛委員会で例証されているように両国間の正式な軍事協力から受ける恩恵にもかかわらず、 [From.GetAdjective]は恒久的な同盟のための交渉を拒否した。 \nこの協定は北米大陸の完璧な安全を保証したはずだが、 今は祖国を守るため他の手段を見つける必要があるようだ。 "
+ tfv_canada.3.a:0 "我々は他の選択肢がある"
+ tfv_canada.10.t:0 "[From.GetNameDefCap]が[Root.GetFactionName]への加盟を求める"
+ tfv_canada.10.d:0 "[From.GetNameDef]がイギリス連邦を放棄した後、 [Root.GetFactionName]の同盟国の一つになろうと地位の交渉をしている。 彼らの共産主義の信念は強く、 アメリカ大陸の同盟国が世界革命の口火として大きな恩恵をもたらすことは否定できない……\n愛国的社会主義、 自然の独立、 さらに[From.GetLeader]の試みた工業化の奇跡等すべて将来的に問題を引き起こすかもしれないが、 この機会を逃すのはあまりにも勿体ない。 "
+ tfv_canada.10.a:0 "我々は真の革命家すべてを心から歓迎する！ "
+ tfv_canada.10.b:0 "今はあまりにリスクが大きい"
+ tfv_canada.11.t:0 "真のアメリカ革命"
+ tfv_canada.11.d:0 "何世紀にもわたって植民地の暴力を繰り広げたブルジョワジーの残党を追い払い、 我々は最後に世界の舞台へと上がった。 我々は地球上のあらゆる地域に世界革命を普及するため[From.GetFactionName]の[From.GetNameDef]と並び立つ！ "
+ tfv_canada.11.a:0 "この大陸での革命が何を意味するか真に表す！ "
+ tfv_canada.12.t:0 "[From.GetNameDefCap]が[From.GetFactionName]への加盟を拒否"
+ tfv_canada.12.d:0 "“国際的安定”への影響を恐れた[From.GetLeader]は[From.GetFactionName]への加盟要請を公式に拒絶した。 \n[From.GetNameDef]が旧世界のささいな政治活動の枠を超えていないのを見るに、 どちらにしても我々の革命努力は浪費されていただろう。 \n\nたとえ[Root.GetNameDef]がファシズムの世界にただ一人立っていたとしても、 真の社会主義が全地球上のあらゆる土地の労働者にもたらされるまで我々は諦めない！ "
+ tfv_canada.12.a:0 "公正の為だ、 了解しカナダはカナダの道を往く！ "
+ tfv_canada.20.t:0 "[From.GetNameDefCap]が同盟を求める"
+ tfv_canada.20.d:0 "[From.GetAdjective]政治の保守的なナショナリズムの台頭に伴い、 [From.GetNameDef]は連邦政府の弱い「民主主義」に反対して実際にその主張を助ける能力を持つ新たな同盟国を求めていた。 \n\n[From.GetNameDef]との提携は思想的に自然であるだけでなく、 北米大陸への利益を追求できる強力な国家の存在を保証する。 "
+ tfv_canada.20.a:0 "[From.GetAdjective]人と[Root.GetAdjective]人が共に働くのは至極当然だ！ "
+ tfv_canada.20.b:0 "我々の利益はヨーロッパにある、 [From.GetNameDef]はまず自身の地盤を固めろ。 "
+ tfv_canada.21.t:0 "力の同盟"
+ tfv_canada.21.d:0 "[From.GetNameDefCap]は、 米国の強力な国家との関係に明確な利益をもたらす同盟の提案を受け入れた。 この外交的な動きは、 北アメリカで私たちの権力をはるかに上回る可能性がある。 ベルリン＝オタワ枢軸がロンドンを鋭く襲っていることは偶然ではない。 "
+ tfv_canada.21.a:0 "我々は国際的な勢力として立ち上がった。 "
+ tfv_canada.22.t:0 "ヨーロッパの腐敗"
+ tfv_canada.22.d:0 "彼らのごく矮小な国境から外を覗くこともできない、 [From.GetLeader]の率いる[From.GetName]は同盟の申し出を断った。 \nもちろん、 自国民の重圧で[From.GetAdjective]とヨーロッパ全土が崩壊するであろうことを考えると、 我々は同盟など締結しないほうがよかったのだろう。 "
+ tfv_canada.22.a:0 "真の偉大とは何であるかを彼らにみせつけよう"
+ tfv_canada.30.t:0 "共同統治主義者による革命"
+ tfv_canada.30.d:0 "共同統治主義者が影響力を強めていく中で、 彼らの要求はますます強まっている。 [Root.GetNameDef]では共同統治主義者と政府支持者の間の衝突が報告されており、 政府はもはや彼らの右派政治を末端に留めておくことができなくなっているようだ。 これは、 両者が致死的な武器を使用することも含まれる。 \n共同統治主義政党の軍事化がいつどのように行われたのかは明らかではないが、 現政権に対して真の脅威となる。 \n\n内戦が近い。 "
+ tfv_canada.30.a:0 "国粋主義者を支援する"
+ tfv_canada.30.b:0 "共和主義者を支援する"
+ tfv_canada.30.c:0 "国粋主義者に統治権を明け渡す"
+ tfv_canada.40.t:0 "支配計画"
+ tfv_canada.40.d:0 "近頃改革された[Root.GetAdjective]国家の強さは否定できないが、 地域政治の現実もそうである。 我々の宿敵、 [USA.GetNameDef]は大陸を支配し、 彼らの国境の外の問題に関与せずにいることはできないことが証明されている。 \n[From.GetNameDef]との協力の提案はますます重要になる。 どちらの国も[USA.GetAdjective]の介入を防ぐだけの力はないだろうが、 南北両方に対峙する事態となれば[USA.GetLeader]は再考を余儀なくされるだろう。 \n\nそしておそらくは正当な[Root.GetAdjective]領土の返還により前向きになるだろう……"
+ tfv_canada.40.a:0 "我々は腐った隣国から余命を搾り取るだろう！ "
+ tfv_canada.40.b:0 "我々が侵略者と見なされる可能性を看過することはできない。 "
+ tfv_canada.41.t:0 "メキシコが合意"
+ tfv_canada.41.d:0 "[MEX.GetAdjective]政府は、 南の隣国の攻撃的な政策によって、 我が国にもたらされる脅威について全面的に合意している。 我々が生き残ることができる唯一の方法は、 大陸を締めつける束縛を打ち破ることだ。 彼らが再武装を終える前にすぐに攻撃しなければならない。 もちろん、 新たな友人たちに特定の租借地を容認する必要があるが、 一緒になってアメリカの覇権を終わらせるだろう！ "
+ tfv_canada.41.a:0 "ホワイトハウスは再び炎に包まれるだろう！ "
+ tfv_canada.42.t:0 "メキシコが拒否"
+ tfv_canada.42.desc:0 "[MEX.GetAdjective]政府は、 共通の敵と協力して協力するという我々の提案を断った。 彼らは、 彼らを攻撃しようとしているガラガラヘビを単に無視することができると信じているように思われ、 脅威を与えるような動きをしなければ手を出してこないだろうと期待している。 我々は単独での国防に目を向ける必要があるようだ。 "
+ tfv_canada.42.a:0 "馬鹿！ 臆病者！ 裏切り者！ "
+ tfv_canada.50.t:0 "内なる敵"
+ tfv_canada.50.d:0 "本日、 ある爆発が私たちの工場の一つを揺るがした。 当初は労働災害であるように見えたが、 爆発物が意図的に生産ラインに配置されているという調査結果が明らかになった。 \n我々は人命の喪失を嘆いているが、 戦争の努力に対する攻撃は無視できない。 \n\nこの攻撃の黒幕は[Root.GetNameDef]のすべてに脅威を与えている！ "
+ tfv_canada.50.a:0 "我々は敵に打倒されるわけにはいかない！ "
+ tfv_canada.51.t:0 "別の攻撃"
+ tfv_canada.51.d:0 "別の攻撃は[Root.GetAdjective]農地で発生した、 今度は直接我々の軍需工場の1つを目標とする！ 補償が始まったと同時に生産は止められた、 しかし、 犯罪者はまだ逃亡中だ。 ついに、 これは一人の犯行ではなく集団による行為であることが明らかになった。 "
+ tfv_canada.51.a:0 "団体がより大きくなるにつれて、 より容易に突きとめられる。 "
+ tfv_canada.52.t:0 "ケベック団体"
+ tfv_canada.52.d:0 "法執行機関は、 継続的な工場破壊活動の場合は、 長足の進歩を遂げた憲兵に働かせた。 もう一つの工場を目標とすることで、 破壊活動は外国のスパイによってなされておられず、 むしろ、 ケベックに導入された強制徴兵に抗議している団体によって行わていることが明らかになった！ \n\n彼らの政治的な懸念に関係なく、 我が国は交戦中であり、 そして、 彼らは最高度の裏切り者だ。 "
+ tfv_canada.52.a:0 "彼らは止められるべきだ!"
+ tfv_canada.53.t:0 "一巻の終わり"
+ tfv_canada.53.d:0 "恐らく次の破壊工作の対象となる可能性が最も高いと考えられていた工場では、 ケベック団体のために罠が敷かれていた。 真夜中に、 法執行機関は侵入者を待っていた。 \n破壊工作員たちが到着したとき、 彼らは予想よりもはるかに大きな集団であることが判明し、 盗難した軍装備で重武装していた。 火災が発生し、 ケベック団体の計画と同じくらい多くの生産ラインを壊していた。 \nしかし激しい戦いの後では、 破壊工作員は一人もが生き残らなかった。 ケベック団体は消滅した。 "
+ tfv_canada.53.a:0 "勝利だ！ [Root.GetNameDef]の損失はなかった！ "
+ tfv_canada.60.t:0 "[From.GetNameDefCap]がラブラドールとニューファンドランドを要求"
+ tfv_canada.60.d:0 "ラブラドールとニューファンドランドの植民地を自国の一部として「帰属」させたいとの希望を長らく残してきた[From.GetNameDef]は、 今それらを要求する段階に進んでいる。 \n[From.GetLeader]は、 [From.GetNameDef]が[From.GetAdjective]の土地とみなし、 「帰属の達成のために必要な手順を実行する」ことを明確にした。 "
+ tfv_canada.60.a:0 "彼らに望むものを与えよう、 [Root.GetNameDef]は今は争うことができない。 "
+ tfv_canada.60.b:0 "我々は[ENG.GetAdjective]の土地を1インチたりとも譲らん！ "
+ tfv_canada.61.t:0 "成された天命"
+ tfv_canada.61.d:0 "[From.GetNameDef]がラブラドールとニューファンドランドを継承することで、 [Root.GetNameDef]が最終的に完成する。 海から海にいたるまで寸分たがわず、 真の[Root.GetAdjective]は今我々の国境に属している。 \n我々の次の段階は、 [Root.GetAdjective]の安全保障を確保することだ！ "
+ tfv_canada.61.a:0 "安全な国境線は海岸線だけだ！ "
+ tfv_canada.62.t:0 "帝国の驕慢"
+ tfv_canada.62.d:0 "崩壊した「帝国の所有権」（ラブラドールとニューファンドランドと呼ばれる保護された植民地としての地位）にすがって、 [From.GetNameDef]は、 明らかに我々のものであるその土地を譲り渡すことを拒否した！ これらの人々は[Root.GetAdjective]人であり、 ニューファンドランドとラブラドールは[Root.GetAdjective]の資源を保持しているが、 彼らは[From.GetAdjective]の宗主国に答える必要がある。 \nこれは容認できない状況であるが、 [From.GetNameDef]が外交的な解決に訴えるとは確信できない……"
+ tfv_canada.62.a:0 "[From.GetNameDefCap]は一つになる！ "
+ mex_nationalists_chosen:0 "国粋主義者の側に。 "
+ mex_republicans_chosen:0 "共和主義者の側に。 "
+ tfv_south_africa.1.t:0 "[From.GetNameDefCap]がアフリカの委任を要求"
+ tfv_south_africa.1.d:0 "我々が帝国全土を軍事的影響力の範囲下に置くのに苦労しているのを見て、 [From.GetNameDef]が統治契約を携えて近づいてきた。 その内容は、 南部および中部アフリカの植民地を彼らに引き渡し、 その防衛に関して彼らが完全な権利と責任を持つものだ。 "
+ tfv_south_africa.1.a:0 "我々の力をヨーロッパに集中させる必要がある。 "
+ tfv_south_africa.1.b:0 "植民地経営は順調だ。 "
+ tfv_south_africa.1.c:0 "植民地は彼ら自身の手で守るべきだ。 "
+ tfv_south_africa.2.t:0 "[From.GetNameDefCap]が承認"
+ tfv_south_africa.2.d:0 "本国へ重点を移しつつある情勢の中、 [From.GetNameDef]はアフリカ植民地が当面の間、 我々によって統治されることに同意した。 "
+ tfv_south_africa.2.a:0 "我々は慈悲深い支配者となるだろう。 "
+ tfv_south_africa.3.t:0 "[From.GetNameDefCap]が拒否"
+ tfv_south_africa.3.d:0 "アフリカの植民地に対する直接的な脅威の不足を理由に、 [From.GetNameDef]は、 彼らの保有地の管理権を我々に譲り渡すつもりはないことを明確に示した。 "
+ tfv_south_africa.3.a:0 "奴らは我々を信用しないのか？ "
+ tfv_south_africa.4.t:0 "アフリカでの妥協"
+ tfv_south_africa.4.d:0 "長い熟考の末、 イギリス政府は、 アフリカ植民地の防衛に関して、 妥協案を持ち出した。 この新しい計画の下では、 植民地は自身の防衛に対して責任を持つが、 彼ら自身の事柄の管理についてより大きな自由を得るだろう。 "
+ tfv_south_africa.4.a:0 "穏当な妥協案……それは誰の満足も得られないものだ。 "
+ tfv_south_africa.10.t:0 "我が国の闘争に対する外国の援助"
+ tfv_south_africa.10.desc:0 "我が国の未来を決める大戦がついに勃発した。 今や我々はこの闘争に勝つことを確実とするべく、 いかなる僅かな支援をも全て確保しなければならない。 [From.GetAdjective]文化の存続および我々の生存が危機に瀕している!"
+ tfv_south_africa.10.a:0 "我々はドイツ人に近付くべきだ。 "
+ tfv_south_africa.10.b:0 "オランダ人が我々を支援してくれる。 "
+ tfv_south_africa.11.t:0 "[From.GetNameDefCap]が援助を求めている！ "
+ tfv_south_africa.11.desc:0 "[From.GetName]において激しい闘争が起こっている。 彼らは自己の存続をかけて戦っており、 我々からのどの様な形の支援でも欲しくてたまらない様だ。 これはまた、 いくつかの新兵器の実験と、 南アフリカにおける貴重な同盟国を確保する機会にもなるだろう。 "
+ tfv_south_africa.11.a:0 "戦闘機を送ろう。 "
+ tfv_south_africa.11.b:0 "戦車を送ろう。 "
+ tfv_south_africa.11.c:0 "ライフルと大砲を送ろう。 "
+ tfv_south_africa.11.e:0 "自分で戦うべきだ。 "
+ tfv_south_africa.12.t:0 "[From.GetNameDefCap]が助け求める"
+ tfv_south_africa.12.desc:0 "南アフリカでは国民党と連邦党との間で激しい戦いが起こっている。 酷く劣勢で打ち負かされつつある国民党は、 先祖の祖国である我が国に支援を求めてきた。 "
+ tfv_south_africa.12.a:0 "戦闘機を送ろう。 "
+ tfv_south_africa.12.b:0 "戦車を送ろう。 "
+ tfv_south_africa.12.c:0 "ライフルと大砲を送ろう。 "
+ tfv_south_africa.12.e:0 "自分で戦うべきだ。 "
+ tfv_south_africa.13.t:0 "ドイツの反応"
+ tfv_south_africa.13.desc.a:0 "[GER.GetNameDef]への我々の代表団は手ぶらで戻ってきた。 [GER.GetAdjective]政府からの温かい言葉にもかかわらず、 彼らは支援のどんな確固とした公約を取りつけることはできなかった。 我々は、 これ以上、 我々の闘争の支援をドイツ政府に期待することはできないと思われる。 "
+ tfv_south_africa.13.desc.b:0 "利用できる資源の欠乏を理由に、 [GER.GetAdjective]政府は我々に更なる支援を送ることはもはや彼らの関心にないと決定した。 その代わりにすべての努力を自身の軍隊の構築に集中させた。 これにより我々は難しい立場に置かれることとなる。 "
+ tfv_south_africa.13.a:0 "オランダの友人に手を差し伸べよう。 "
+ tfv_south_africa.13.b:0 "我々だけの力で成功するか、 さもなくば滅びるかだ。 "
+ tfv_south_africa.14.t:0 "[HOL.GetAdjective]の反応"
+ tfv_south_africa.14.desc.a:0 "[HOL.GetNameDef]への我々の代表団は度重なる妨害と遅延行為に失望させられた。 [HOL.GetAdjective]代表や産業界の要人との会談は直前に中止され、 電話には応答がなく、 電報にも返事が来ることはなかった。 全くもって[HOL.GetAdjective]は我々の闘争を支援することに関心がないようだ。 "
+ tfv_south_africa.14.desc.b:0 "最初の支援にもかかわらず、 新しい装備のための[HOL.GetAdjective]政府と最後の交渉は失敗に終わった。 [HOL.GetAdjective]はもはやダイヤモンドでの支払いを受け取る気がなく、 交換可能通貨に変更するよう要求している。 "
+ tfv_south_africa.14.a:0 "ドイツの友人に手を差し伸べよう。 "
+ tfv_south_africa.14.b:0 "我々だけの力で成功するか、 さもなくば滅びるかだ。 "
+ tfv_south_africa.15.t:0 "[From.GetNameDefCap]から装備の供給"
+ tfv_south_africa.15.desc.a:0 "ドイツから輸送された航空機が到着した。 パイロットたちは熱心にそれを手に入れたがり、 やがて新しい飛行隊への配属を巡って激しい競争が始まった。 "
+ tfv_south_africa.15.desc.b:0 "[GER.GetAdjective]友軍との長い議論の後、 彼らは我々に試作軽戦車を提供することに同意した。 台数はわずかであるが、 情勢を我らの有利に傾ける決定的な援護となるに違いない。 "
+ tfv_south_africa.15.desc.c:1 "[GER.GetNameDef]からの輸送船が入港した。 その船倉には、 他の経路で我が国に到着していたドイツ人義勇兵のための、 大量のライフルと砲が積載されていた。 "
+ tfv_south_africa.15.a:0 "必ず役に立つだろう"
+ tfv_south_africa.15.b:0 "それらが我が軍の主力となる。 "
+ tfv_south_africa.15.c:0 "彼らの支援なら大歓迎だ。 "
+ tfv_south_africa.16.t:0 "[From.GetNameDefCap]から装備の供給"
+ tfv_south_africa.16.desc.a:0 "[HOL.GetNameDef]から輸送された航空機が到着した。 [HOL.GetAdjective]航空産業の要人たちの厚意によって惜しみなく拠出されたものだ。 パイロットたちは熱心にそれを手に入れたがり、 やがて新しい飛行隊への配属を巡って激しい競争が始まった。 "
+ tfv_south_africa.16.desc.b:0 "[HOL.GetAdjective]友軍との長い議論の後、 彼らは我々に試作軽戦車を提供することに同意した。 台数はわずかであるが、 情勢を我らの有利に傾ける決定的な援護となるに違いない。 "
+ tfv_south_africa.16.desc.c:1 "[HOL.GetNameDef]からの輸送船が入港した。 その船倉には、 他の経路で我が国に到着していた[HOL.GetNameDef]人義勇兵のための、 大量のライフルと砲が積載されていた。 "
+ tfv_south_africa.16.a:0 "必ず役に立つだろう"
+ tfv_south_africa.16.b:0 "それらが我が軍の主力となる。 "
+ tfv_south_africa.16.c:0 "彼らの支援なら大歓迎だ。 "
+ tfv_south_africa.20.t:0 "[From.GetNameDefCap]がコミンテルンへの加盟を要請"
+ tfv_south_africa.20.d:0 "[From.GetNameDef]における革命は成功した！ 新たな共産主義政権が国を掌握し、 コミンテルンへの加盟を求めている。 "
+ tfv_south_africa.20.a:0 "我々は対帝国主義闘争の新たな同志たちを歓迎する！ "
+ tfv_south_africa.20.b:0 "現時点で加盟を受諾するのは、 我が国を遠くの紛争で無防備にするだけだ。 "
+ tfv_south_africa.21.t:0 "コミンテルンが加盟を承認"
+ tfv_south_africa.21.d:0 "慎重に検討した後、 コミンテルン中央委員会は我々の加盟要請を承認した。 "
+ tfv_south_africa.21.a:0 "[ROOT.GetNameDef]と[From.GetFactionName]は並び立ち、 未来に向かって行進するだろう！ "
+ tfv_south_africa.22.t:0 "コミンテルンが加盟を拒否"
+ tfv_south_africa.22.d:0 "コミンテルンはマルクスの教えに対する我々との間の、 見解と正統な解釈の解決不可能な相違点を挙げ、 我々の申請を拒否した。 我々に対して社会ファシストまたはそれ以上に悪いラベル付けこそ行っていないが、 それでも彼らは彼らからの助けを期待できないことを明確に示した。 "
+ tfv_south_africa.22.a:0 "多分、 誤解しているのは彼らの方なんじゃないかな？ "
+ tfv_south_africa.30.t:0 "[From.GetNameDefCap]がマダガスカルを要求"
+ tfv_south_africa.30.d:0 "ヨーロッパでの我々の敗北後、 [From.GetNameDef]政府は我々がまだ植民地を防衛しそこの住民を保護できるかどうか、 公然と疑問視した。 [From.GetLeader]は特に恐れがあるマダガスカルに具体的に言及した。 今、 [From.GetNameDef]は我々が彼らに島を譲渡するよう要求した。 "
+ tfv_south_africa.30.a:0 "選択の余地は無い。 祖国本土を回復することが最優先事項でなければならん。 "
+ tfv_south_africa.30.b:0 "フランスの土は1平方メートル単位でも神聖なものだ。 一切譲らん！ "
+ tfv_south_africa.31.t:0 "フランスが屈する"
+ tfv_south_africa.31.d:0 "[FRA.GetAdjective]政府は賢明にもマダガスカルの平和的占領の許可を決定した。 "
+ tfv_south_africa.31.a:0 "帝国主義者の植民地主義体制を解体する第一歩だ！ "
+ tfv_south_africa.32.t:0 "フランスが拒否"
+ tfv_south_africa.32.d:0 "[FRA.GetAdjective]政府は、 マダガスカルを我々へ譲渡する争点を議論することさえを頑なに拒否する。 フランス代表によると、 彼ら自身で島を防衛するのに十分以上の能力を持ち、 またその意志も準備もできていると自負しているそうだ。 "
+ tfv_south_africa.32.a:0 "では力に頼らざるを得ないな。 "
+ tfv_south_africa.32.b:0 "あの無価値な土くれは彼らにくれてやろう。 "
+ tfv_south_africa.40.t:0 "[From.GetNameDef]との研究条約"
+ tfv_south_africa.40.d:0 "[From.GetNameDef]への成功した軍事作戦に続き、 彼らの政府は2国間の正式な研究条約を提案した。 "
+ tfv_south_africa.40.a:0 "喜んでいかなる援助も提供しよう。 "
+ tfv_south_africa.40.b:0 "機密情報を提供したならば、 国家の防衛が危うくなるだろう。 "
+ tfv_south_africa.41.t:0 "[SOV.GetNameDefCap]が合意"
+ tfv_south_africa.41.d:0 "ソビエトは我々に彼らの方法と方式を勉強させることに合意した。 [SOV.GetAdjective]の多くの科学者が我々の学校と大学で教育するために到着した。 "
+ tfv_south_africa.41.a:0 "[SOV.GetNameDef]から学ぶことは、 歴史の勝利者から学ぶことと同義だ！ "
+ tfv_south_africa.42.t:0 "[SOV.GetNameDefCap]が拒否"
+ tfv_south_africa.42.d:0 "数回の交渉の後、 [SOV.GetNameDef]からの代表団は退室した、 そして、 研究についての我々の機密保持能力に対する疑いを示した。 我々には同盟国の技術を共有してはもらえないようだ。 "
+ tfv_south_africa.42.a:0 "とても残念だ。 "
+ tfv_south_africa.50.t:0 "スペインを支援"
+ tfv_south_africa.50.d:0 "スペインで国粋派と共和派の内戦が勃発した。 国民の間では、 政府がどちらの側につくべきか活発な議論が交わされている。 "
+ tfv_south_africa.50.a:0 "多くの兵員がスペイン旅行も悪くないと興味を持つかもしれないな。 "
+ tfv_south_africa.50.b:0 "紛争に参加したい者がいれば、 そうさせてやろう。 "
+ tfv_south_africa.50.c:0 "なぜ地球の反対側で戦わねばならないのだ？ "
+ tfv_south_africa.51.t:0 "南アフリカからの義勇軍が到着"
+ tfv_south_africa.51.d:0 "[SAF.GetAdjective]は公式には中立を保っているが、 大勢の市民が我々の側について参戦することを容認している。 "
+ tfv_south_africa.51.a:0 "大歓迎だ。 "
+ tfv_south_africa.52.t:0 "義勇軍がスペイン内戦から帰国"
+ tfv_south_africa.52.d:0 "スペイン内戦が終結し、 生き残った義勇兵たちが帰国を果たした。 彼らが持ち帰った現代戦の経験は貴重なものとなるだろう。 "
+ tfv_south_africa.52.a:0 "彼らが次の戦争を助けてくれる。 "
+ tfv_south_africa.60.t:0 "アンゴラに自由を"
+ tfv_south_africa.60.d:0 "植民地圧制者の支配から解放された[ANG.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[ANG.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.60.a:0 "新たな国家は慎重に先導されなければならない、 でなければ反革命が成功する！ "
+ tfv_south_africa.60.b:0 "両手を広げて歓迎しよう！ "
+ tfv_south_africa.60.c:0 "情勢がまだそれを許さない。 "
+ tfv_south_africa.61.t:0 "モザンビークに自由を"
+ tfv_south_africa.61.d:0 "植民地圧制者の支配から解放された[MZB.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[MZB.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.61.a:0 "新たな国家は慎重に先導されなければならない、 でなければ反革命が成功する！ "
+ tfv_south_africa.61.b:0 "両手を広げて歓迎しよう！ "
+ tfv_south_africa.61.c:0 "情勢がまだそれを許さない。 "
+ tfv_south_africa.62.t:0 "コンゴに自由を"
+ tfv_south_africa.62.d:0 "植民地圧制者の支配から解放された[COG.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[COG.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.62.a:0 "新たな国家は慎重に先導されなければならない、 でなければ反革命が成功する！ "
+ tfv_south_africa.62.b:0 "両手を広げて歓迎しよう！ "
+ tfv_south_africa.62.c:0 "情勢がまだそれを許さない。 "
+ tfv_south_africa.63.t:0 "ジンバブエに自由を"
+ tfv_south_africa.63.d:0 "植民地圧制者の支配から解放された[ZIM.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[ZIM.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.63.a:0 "新たな国家は慎重に先導されなければならない、 でなければ反革命が成功する！ "
+ tfv_south_africa.63.b:0 "両手を広げて歓迎しよう！ "
+ tfv_south_africa.63.c:0 "情勢がまだそれを許さない。 "
+ tfv_south_africa.64.t:0 "ケニアに自由を"
+ tfv_south_africa.64.d:0 "植民地圧制者の支配から解放された[KEN.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[KEN.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.64.a:0 "新たな国家は慎重に先導されなければならない、 でなければ反革命が成功する！ "
+ tfv_south_africa.64.b:0 "両手を広げて歓迎しよう！ "
+ tfv_south_africa.65.t:0 "[MAD.GetName]に自由を！ "
+ tfv_south_africa.65.d:0 "植民地圧制者の支配から解放された[MAD.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[MAD.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.66.t:0 "[BOT.GetName]に自由を！ "
+ tfv_south_africa.66.d:0 "植民地圧制者の支配から解放された[BOT.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[KEN.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.67.t:0 "[ZAM.GetName]に自由を！ "
+ tfv_south_africa.67.d:0 "植民地圧制者の支配から解放された[ZAM.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[ZAM.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.68.t:0 "[MLW.GetName]に自由を！ "
+ tfv_south_africa.68.d:0 "植民地圧制者の支配から解放された[MLW.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[MLW.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.69.t:0 "[TZN.GetName]に自由を！ "
+ tfv_south_africa.69.d:0 "植民地圧制者の支配から解放された[TZN.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[TZN.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.70.t:0 "[UGA.GetName]に自由を！ "
+ tfv_south_africa.70.d:0 "植民地圧制者の支配から解放された[UGA.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[UGA.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.71.t:0 "[SUD.GetName]に自由を！ "
+ tfv_south_africa.71.d:0 "植民地圧制者の支配から解放された[SUD.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[SUD.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.72.t:0 "[EGY.GetName]に自由を！ "
+ tfv_south_africa.72.d:0 "植民地圧制者の支配から解放された[EGY.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[EGY.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.73.t:0 "[ERI.GetName]に自由を！ "
+ tfv_south_africa.73.d:0 "植民地圧制者の支配から解放された[ERI.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[ERI.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.74.t:0 "[ETH.GetName]に自由を！ "
+ tfv_south_africa.74.d:0 "植民地圧制者の支配から解放された[ETH.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[ETH.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.75.t:0 "[DJI.GetName]に自由を！ "
+ tfv_south_africa.75.d:0 "植民地圧制者の支配から解放された[DJI.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[DJI.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.76.t:0 "[SOM.GetName]に自由を！ "
+ tfv_south_africa.76.d:0 "植民地圧制者の支配から解放された[SOM.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[SOM.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.77.t:0 "[RWA.GetName]に自由を！ "
+ tfv_south_africa.77.d:0 "植民地圧制者の支配から解放された[RWA.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[RWA.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.78.t:0 "[BRD.GetName]に自由を！ "
+ tfv_south_africa.78.d:0 "植民地圧制者の支配から解放された[BRD.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[BRD.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.79.t:0 "[RCG.GetName]に自由を！ "
+ tfv_south_africa.79.d:0 "植民地圧制者の支配から解放された[RCG.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[RCG.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.80.t:0 "[GAB.GetName]に自由を！ "
+ tfv_south_africa.80.d:0 "植民地圧制者の支配から解放された[GAB.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[GAB.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.81.t:0 "[EQG.GetName]に自由を！ "
+ tfv_south_africa.81.d:0 "植民地圧制者の支配から解放された[EQG.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[EQG.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.82.t:0 "[CMR.GetName]に自由を！ "
+ tfv_south_africa.82.d:0 "植民地圧制者の支配から解放された[CMR.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[CMR.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.83.t:0 "[CAR.GetName]に自由を！ "
+ tfv_south_africa.83.d:0 "植民地圧制者の支配から解放された[CAR.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[CAR.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.84.t:0 "[CHA.GetName]に自由を！ "
+ tfv_south_africa.84.d:0 "植民地圧制者の支配から解放された[CHA.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[CHA.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.85.t:0 "[NGA.GetName]に自由を！ "
+ tfv_south_africa.85.d:0 "植民地圧制者の支配から解放された[NGA.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[NGA.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.86.t:0 "[NGR.GetName]に自由を！ "
+ tfv_south_africa.86.d:0 "植民地圧制者の支配から解放された[NGR.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[NGR.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.87.t:0 "[DAH.GetName]に自由を！ "
+ tfv_south_africa.87.d:0 "植民地圧制者の支配から解放された[DAH.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[DAH.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.88.t:0 "[TOG.GetName]に自由を！ "
+ tfv_south_africa.88.d:0 "植民地圧制者の支配から解放された[TOG.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[TOG.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.89.t:0 "[GHA.GetName]に自由を！ "
+ tfv_south_africa.89.d:0 "植民地圧制者の支配から解放された[GHA.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[GHA.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.90.t:0 "[IVO.GetName]に自由を！ "
+ tfv_south_africa.90.d:0 "植民地圧制者の支配から解放された[IVO.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[IVO.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.91.t:0 "[VOL.GetName]に自由を！ "
+ tfv_south_africa.91.d:0 "植民地圧制者の支配から解放された[VOL.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[VOL.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.92.t:0 "[MLI.GetName]に自由を！ "
+ tfv_south_africa.92.d:0 "植民地圧制者の支配から解放された[MLI.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[MLI.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.93.t:0 "[SIE.GetName]に自由を！ "
+ tfv_south_africa.93.d:0 "植民地圧制者の支配から解放された[SIE.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[SIE.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.94.t:0 "[GNA.GetName]に自由を！ "
+ tfv_south_africa.94.d:0 "植民地圧制者の支配から解放された[GNA.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[GNA.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.95.t:0 "[GNB.GetName]に自由を！ "
+ tfv_south_africa.95.d:0 "植民地圧制者の支配から解放された[GNB.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[GNB.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.96.t:0 "[SEN.GetName]に自由を！ "
+ tfv_south_africa.96.d:0 "植民地圧制者の支配から解放された[SEN.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[SEN.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.97.t:0 "[GAM.GetName]に自由を！ "
+ tfv_south_africa.97.d:0 "植民地圧制者の支配から解放された[GAM.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[GAM.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.98.t:0 "[LIB.GetName]に自由を！ "
+ tfv_south_africa.98.d:0 "植民地圧制者の支配から解放された[LIB.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[LIB.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.99.t:0 "[MRT.GetName]に自由を！ "
+ tfv_south_africa.99.d:0 "植民地圧制者の支配から解放された[MRT.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[MRT.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.100.t:0 "[WES.GetName]に自由を！ "
+ tfv_south_africa.100.d:0 "植民地圧制者の支配から解放された[WES.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[WES.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.101.t:0 "[ALG.GetName]に自由を！ "
+ tfv_south_africa.101.d:0 "植民地圧制者の支配から解放された[ALG.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[ALG.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.102.t:0 "[MOR.GetName]に自由を！ "
+ tfv_south_africa.102.d:0 "植民地圧制者の支配から解放された[MOR.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[MOR.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.103.t:0 "[TUN.GetName]に自由を！ "
+ tfv_south_africa.103.d:0 "植民地圧制者の支配から解放された[TUN.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[TUN.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.104.t:0 "[LBA.GetName]に自由を！ "
+ tfv_south_africa.104.d:0 "植民地圧制者の支配から解放された[LBA.GetName]人民は、 自分たちの運命を担う準備ができている。 彼らは暫定政権を樹立し憲法を起草した。 残っている唯一のことは、 軍事長官から権限を新[LBA.GetAdjective]政府に移すことだ。 "
+ tfv_south_africa.64.c:0 "情勢がまだそれを許さない。 "
+ tfv_new_zealand.1.t:0 "[From.GetNameDefCap]がコミンテルンへの加盟を要請"
+ tfv_new_zealand.1.desc:0 "[From.GetNameDef]における革命は成功した！ 新たな共産主義政権が国を掌握し、 コミンテルンへの加盟を求めている。 "
+ tfv_new_zealand.1.a:0 "誰であれ闘争に参加することを歓迎しよう。 "
+ tfv_new_zealand.1.b:1 "彼らを受け入れることは、 遠方で起こりうる紛争において我々が無防備になるだけだ。 "
+ tfv_new_zealand.2.t:0 "コミンテルンが加盟を承認"
+ tfv_new_zealand.2.desc:0 "慎重に検討した後、 コミンテルン中央委員会は我々の加盟要請を承認した。 "
+ tfv_new_zealand.2.a:2 "[Root.GetNameDefCap]と[From.GetFactionName]は並行して行進する！ "
+ tfv_new_zealand.3.t:0 "コミンテルンが加盟を拒否"
+ tfv_new_zealand.3.desc:0 "我々の代表団はコミンテルン書記長の長い講演に耐え凌ぎ、 我々のような小国は共産主義革命を起こすことのできるような先進工業国には到底なれないと説明した。 我々は、 明らかに、 別物の何かだと。 何れにせよ、 我々はコミンテルンの一部にはなれない。 "
+ tfv_new_zealand.3.a:0 "たぶん彼らのミスか何かじゃないのかな？ "
+ tfv_new_zealand.4.t:0 "[From.GetNameDefCap]が我々の側への加担を希望"
+ tfv_new_zealand.4.desc:0 "我らが無敵の軍隊の力を見た[NZL.GetName]政府は、 この争いにおいては多分に我が国の側にいようと判断した。 問題はそれを我々が許可するかどうかだ。 "
+ tfv_new_zealand.4.a:0 "彼らが身の程を弁えているのなら。 "
+ tfv_new_zealand.4.b:0 "どうして戦争で取れるものを外交で取るんだ？ "
+ tfv_new_zealand.5.t:0 "日本が承認"
+ tfv_new_zealand.5.desc:0 "日本との同盟の要請が承認された。 "
+ tfv_new_zealand.5.a:0 "これで我々は安全だ。 "
+ tfv_new_zealand.6.t:0 "日本が同盟を拒否"
+ tfv_new_zealand.6.desc:0 "[JAP.GetAdjective]政府は我々の要請に対し正式な回答を出す手間さえ掛けなかった。 噂によれば、 実際は[JAP.GetAdjective]政府内で馬鹿げた笑い話の種になっているとのことだ。 "
+ tfv_new_zealand.6.a:0 "無礼な。 "
+ tfv_new_zealand.7.t:0 "マイケル・ジョゼフ・サヴェージの死"
+ tfv_new_zealand.7.desc:0 "悲しいことに、 ニュージランドの国民に最も愛された首相、 マイケル・ジョセフ・サヴェージは癌により亡くなった。 ニュージーランドの福祉制度を幅広く創設した彼に対し、 全国民は悲嘆に暮れている。 彼の勇気と周囲の人々に対する優しさは、 歴史に記憶されることだろう。 "
+ tfv_new_zealand.7.a:0 "彼が居なくなると寂しくなるな。 "
+ tfv_raj.1.t:0 "戦闘機基金"
+ tfv_raj.1.desc:0 "帝国全土で、 王立空軍のための新型戦闘機のための資金集めに、 「戦闘機基金」が地元の共同体に設立された。 個々の金持ちもまた、 資金を出し合って軍用機を購入している。 ハイデラバードのニザムは、 ２個飛行隊全機を調達できるだけの購入資金を寄付した。 問題は彼らをどこに駐機させるべきかだ。 "
+ tfv_raj.1.a:0 "彼らはイギリスに行くべきだ。 "
+ tfv_raj.1.b:0 "祖国防衛の為にはこれらが必要だ！ "
+ tfv_raj.2.t:0 "インド皇太子が戦闘機を寄贈"
+ tfv_raj.2.desc:0 "インド藩王ハイデラバードのニザムは、 王立空軍のため、 最新鋭戦闘機で構成される2個飛行隊全機を購入するために惜しみなく資金を寄付してくれた。 政府は、 感謝の意を表明し、 最初の飛行機を「ハイデラバードの精神」と命名したことを宣言した。 "
+ tfv_raj.2.a:0 "役に立つに違いない。 "
+ tfv_raj.21.t:0 "ベンガル飢饉"
+ tfv_raj.21.desc:0 "ベンガルは以前から飢饉に苦しんでいたが、 今回は、 いつもよりも事態を悪化させるような出来事が起こっている。 驚くべきことに無能な植民地政府は、 （あるいはおそらくは不本意であるだろうが）ベンガルの米の収穫量の大部分を吹き飛ばしてしまうサイクロンに完全に対処することができていない。 戦災地からの避難民の流入により、 食料需要は毎日増えており、 供給量は不足している。 \n\n食料価格は劇的に上昇しており、 家族に食わせるのには不十分な賃金しか支払っていない仕事から離職している。 彼らを助けるための手を何もうたない政府のために戦ことを拒否して家から出ない人々が増え、 軍隊の募集人員もかなり減少した。 "
+ tfv_raj.21.a:0 "これは災害だ！ "
+ tfv_raj.30.t:0 "インドの共産主義者が支援を求める"
+ tfv_raj.30.desc:0 "全インド前進同盟の指導者スバス・チャンドラ・ボースが、 インドでの自由闘争への支援を要請するためモスクワにやって来た。 彼の主張は、 インドでのロシアとイギリスの古くからの紛争の再燃、 すなわちグレート・ゲームの時代に戻ることであり、 我々にとっての自然な選択はインド人を助けイギリスからの独立を達成させることだと信じている。 "
+ tfv_raj.30.a:0 "これを最後に、 大英帝国を終わらせるとしよう。 "
+ tfv_raj.30.b:0 "不条理で馬鹿げた考えだな。 "
+ tfv_raj.31.t:0 "[SOV.GetNameDefCap]がインドの独立を支持する"
+ tfv_raj.31.desc:0 "[SOV.GetAdjective]大使はインドの独立問題を議論するために、 今日外務省を訪問した。 会談の中で大使は、 我々の継続的なインド統治を[SOV.GetNameDef]が全く受け入れがたいと考えていることを強く表明した。 ボースの言葉が[SOV.GetLeader]の耳に入り、 その主張がロシア人を揺さぶったようだ。 \n\n現在のところ、 [SOV.GetAdjective]は自国のインド人義勇兵を訓練するに留めているようだが、 亜大陸に発生するあらゆる紛争にも介入するに相違ない。 "
+ tfv_raj.31.a:0 "我々に選択肢は残されていない。 我々はインドを放棄せねばなるまい。 "
+ tfv_raj.31.b:0 "もし彼らが再びグレート・ゲームをプレイしたいのならば、 またプレイしてやろう。 "
+ tfv_raj.32.t:0 "[SOV.GetNameDefCap]が我々の主張を採り上げた"
+ tfv_raj.32.desc_SOV_helps:0 "モスクワでの交渉は驚くほど成功した。 今日のプラウダの見出しには「インド人民の自由に対する闘いは我々の闘いでもある！ 」と述べられている。 同志[SOV.GetLeader]自身がチャンドラ・ボースに会い、 彼への全面的な支援を約束した。 "
+ tfv_raj.32.desc_SOV_helps_ENG_reject:0 "容易な独立への道に対する我々の望みは、 イギリス植民地政府により無残にも終了した。 我が国の運命は我々自身が決めることを許されるべきだとの要請を持って[SOV.GetAdjective]大使が交渉に臨んだが、 議論の余地はないと速答された。 [ENG.GetAdjective]政府は、 我々の独立問題は他国が介入するべきでない国内問題であると主張している。 "
+ tfv_raj.32.a:0 "戦いは続く。 "
+ tfv_raj.33.t:0 "[SOV.GetAdjective]が援助を拒否"
+ tfv_raj.33.desc:0 "スバス・チャンドラ・ボースは[SOV.GetAdjective]政府に我々の闘争の援助を要請した、 しかし彼の努力は成功しなかった。 [SOV.GetLeader]と話すために数日を待った後、 彼はかろうじて10分間、 会う機会を許可された。 \n\n[SOV.GetLeader]が我々の情勢と熱狂的精神のレジスタンスに対し大きな賞賛を表すと同時に、 彼は又、 我が国に資源を投ずる価値があるとは思っていないことを明らかにした。 "
+ tfv_raj.33.a:0 "もしや我々はドイツ人に頼るべきだったのでは？ "
+ tfv_raj.34.t:0 "インドに自由を"
+ tfv_raj.34.desc:0 "今日はインドの新たな歴史の幕が開けた記念すべき日だ。 数百年に渡った植民地支配を経て、 我々はついに完全な独立を達成したのだ。 在印の[ENG.GetAdjective]人文官は、 [RAJ.GetAdjective]による内政統治への移管を補佐するよう命じられており、 数か月の後に本国へ送還されるだろう。 \n\n新たに友邦となった[SOV.GetAdjective]の支援を受け、 今や我々はこれからの課題、 すなわち国民のための国家の建設、 に専念することができる。 "
+ tfv_raj.34.a:0 "勝ったぞ！ "
+ tfv_raj.40.t:0 "インドの民族主義者が支援を求める"
+ tfv_raj.40.desc:0 "全インド前進同盟の指導者スバス・チャンドラ・ボースが、 インドでの自由闘争における助けを求め、 ベルリンにやって来た。 [GER.GetLeader]へ宛てた手紙の中で彼への称賛を表明しており、 [GER.GetNameDef]を世界の正しき位置に戻すための努力においては、 独立したインドは貴重な味方となることを示唆した。 "
+ tfv_raj.40.a:0 "イギリスは我々の植民地を奪った。 次は我々が奪う番だ。 "
+ tfv_raj.40.b:0 "不条理で馬鹿げた考えだな。 "
+ tfv_raj.41.t:0 "[GER.GetNameDefCap]がインドの独立を支持する"
+ tfv_raj.41.desc:0 "[GER.GetAdjective]大使はインドの独立問題を議論するために、 今日外務省を訪問した。 会談の中で大使は、 我々の継続的なインド統治を[GER.GetLeader]が全く受け入れがたいと考えていることを強く表明した。 ボースは独立後のインドが地域での[GER.GetAdjective]の利益を保護することを約束したように思われる。 \n\n大使は、 我々が拒絶したならば彼の政府が何をする用意があったかを明すことを拒否した、 しかし我々は、 彼らが戦争をも厭わないであろうことを認めなければならない。 "
+ tfv_raj.41.a:0 "選択の余地は残されていない。 彼らの自由にさせてやる他ない。 "
+ tfv_raj.41.b:0 "我々は前にもインドでグレート・ゲームをプレイしてきた。 ドイツ人がどれだけ上手くプレイできるか見ていてやろう。 "
+ tfv_raj.42.t:0 "[GER.GetNameDefCap]が我々の主張を採り上げた"
+ tfv_raj.42.desc_GER_helps:0 "[GER.GetAdjective]外務相と会談し彼の目的について議論した後、 スバス・チャンドラ・ボースはなんとか[GER.GetAdjective]が我々を支援するように説得できた。 ボーズはまたドイツの指導者[GER.GetLeader]と会談し、 数時間、 共通の利害について議論した、 その中にはイギリス人の戦争捕虜からインド人志願兵部隊を編成する事を含んでいる。 "
+ tfv_raj.42.desc_GER_helps_ENG_reject:0 "容易な独立への道に対する我々の望みは、 イギリス植民地政府により無残にも終了した。 我が国の運命は我々自身が決めることを許されるべきだとの要請を持って[GER.GetAdjective]大使が交渉に臨んだが、 議論の余地はないと速答された。 [ENG.GetAdjective]政府は、 我々の独立問題は他国が介入するべきでない国内問題であると主張している。 "
+ tfv_raj.42.a:0 "戦いは続く。 "
+ tfv_raj.43.t:0 "[GER.GetAdjective]が援助を拒否"
+ tfv_raj.43.desc:0 "スバス・チャンドラ・ボースは[GER.GetAdjective]政府に我々の闘争の援助を要請した、 しかし彼の努力は成功しなかった。 [GER.GetLeader]と話すために数日を待った後、 彼はかろうじて10分間、 会う機会を許可された。 \n\n[GER.GetLeader]が我々の情勢と熱狂的精神のレジスタンスに対し大きな賞賛を表すと同時に、 彼は又、 我が国に資源を投ずる価値があるとは思っていないことを明らかにした。 "
+ tfv_raj.43.a:0 "地獄に落ちろ。 "
+ tfv_raj.44.t:0 "インドに自由を"
+ tfv_raj.44.desc:0 "今日はインドの新たな歴史の幕が開けた記念すべき日だ。 数百年に渡った植民地支配を経て、 我々はついに完全な独立を達成したのだ。 在印の[ENG.GetAdjective]人文官は、 [RAJ.GetAdjective]による内政統治への移管を補佐するよう命じられており、 数か月の後に本国へ送還されるだろう。 \n\n新たに友邦となった[GER.GetAdjective]の支援を受け、 今や我々はこれからの課題、 すなわち国民のための国家の建設、 に専念することができる。 "
+ tfv_raj.44.a:0 "勝ったぞ！ "
+ AST_CREATE_FACTION:0 "我々の独自陣営を樹立しよう。 "
+ SAF_colonies_tt:0 "§Yケニア§!と§Yジンバブエ§!を傀儡国として開放する。 "
+ SAF_soviet_research_tt:0 "南アフリカと研究協定を締結する。 "
+ tfv_raj_focus_paratrooper_tt:0 "自由インド空挺部隊がイタリアに配備される。 "
+ tfv_raj.201.t:0 "自由インド大隊"
+ tfv_raj.201.desc:0 "自由インド大隊の兵士たちは、 戦争捕虜から募集され、 インドの自由を追求するために人生をささげることを誓った。 破壊工作と浸透戦術の訓練を受けたこれらの精鋭は、 敵背後に空挺降下して大混乱を招くこともできる。 "
+ tfv_raj.201.a:0 "空から急襲だ、 兄弟！ "
+ tfv_raj.210.t:0 "破壊活動？ "
+ tfv_raj.210.desc:0 "地方のとある工場が爆破され、 従業員は昼食を中断させられた。 建物は激しく破壊され、 数人の作業員は飛散したガラスにより負傷した。 幸運にも、 生産設備類は大した損傷は免れた。 調査員が爆破の原因の手掛かりを探すため、 警察と軍により現場は封鎖された。 \n\n自由のための単なる抵抗から暴力運動へとシフトしたことで、 インドの独立運動に呼応したレジスタンスの犯行だとする噂が広まっている。 "
+ tfv_raj.210.a:0 "不穏だな。 "
+ tfv_raj.211.t:0 "破壊活動！ "
+ tfv_raj.211.desc:0 "最初の爆発から数週間後、 昼食のため労働者が主要棟を去った直後に、 2番目の工場が突然爆破された。 これは、 巧妙に計画された破壊工作及びテロ活動を指揮している組織化されたレジスタンスの仕事であることは疑いようがない。 白昼堂々の爆破という攻撃手法は、 レジスタンスが自らに自信を持っているようにも見える。 "
+ tfv_raj.211.a:0 "誰もそれらを止められないのだろうか?"
+ tfv_raj.212.t:0 "内なる敵"
+ tfv_raj.212.desc:0 "3度目の爆発は、 我が国の工場をひどく破壊した。 今回は、 攻撃のタイミングが間違っていたようで勤務シフトの途中で爆弾が爆発した。 何十人もの労働者が死亡し、 数十人が行方不明となっている。 調査官はいくつかの手がかりを得て捜査しており、 すでに多数の住宅が捜索されている。 捜索結果は深刻なものであり、 「インドを去れ」宣伝ビラから即席爆弾の製造装置にまで及ぶ。 \n\nしかし、 逮捕者の中に首謀者はいないようで、 今のところ全員が供述を拒否している。 "
+ tfv_raj.212.a:0 "この問題は手に負えなくなってきている"
+ tfv_raj_quit_india_unrest_tt:0 "運動の支持者たちは改革を要求すると予測される"

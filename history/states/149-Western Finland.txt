@@ -2,61 +2,28 @@
 state={
 	id=149
 	name="STATE_149" # Pohjanmaa
-	manpower = 0
-
+	manpower = 811029
+	
 	state_category = town
-
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H08
+	
+	history = { 1999.1.1 = { 
+			owner = H08
+			remove_core_of = H08
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H08 = {
-				set_province_controller = 63
-				set_province_controller = 66
-				set_province_controller = 82
-				set_province_controller = 120
-				set_province_controller = 132
-				set_province_controller = 158
-				set_province_controller = 195
-				set_province_controller = 3119
-				set_province_controller = 3122
-				set_province_controller = 3172
-				set_province_controller = 6013
-				set_province_controller = 6081
-				set_province_controller = 6138
-				set_province_controller = 6141
-				set_province_controller = 6198
-				set_province_controller = 6212
-				set_province_controller = 9038
-				set_province_controller = 9156
-				set_province_controller = 9166
-				set_province_controller = 9219
-				set_province_controller = 11033
-				set_province_controller = 11041
-				set_province_controller = 11065
-				set_province_controller = 11081
-				set_province_controller = 11121
-				set_province_controller = 11126
-				set_province_controller = 11132
-				set_province_controller = 11144
-				set_province_controller = 13113 
-			}
+			remove_core_of = FIN
 		}
 		owner = FIN
 		victory_points = {
-			3122 3
+			3122 3 
 		}
 		buildings = {
-			infrastructure = 1
-			3122 = {
-				naval_base = 1
-			}
+			infrastructure = 4
+			industrial_complex = 2
 		}
+		add_core_of = FIN
 	}
 
 	provinces={
-		63 66 82 120 132 158 195 3119 3122 3172 6013 6081 6138 6141 6198 6212 9038 9156 9166 9219 11033 11041 11065 11081 11121 11126 11132 11144 13113
+		63 66 82 120 132 158 195 3119 3122 3172 6013 6081 6138 6141 6198 6212 9038 9156 9166 9219 11033 11041 11065 11081 11121 11126 11132 11144 13113 
 	}
 }

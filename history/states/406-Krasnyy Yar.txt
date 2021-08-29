@@ -2,48 +2,26 @@
 state={
 	id=406
 	name="STATE_406" # Gurev
-	manpower = 0
-
+	manpower = 146494
+	
 	state_category = wasteland
 
-	history = { 1999.1.1 = {
-			owner = SOV
-			controller = H03
-			set_state_category = betaland
-
-			H03 = {
-				set_province_controller = 464
-				set_province_controller = 477
-				set_province_controller = 554
-				set_province_controller = 615
-				set_province_controller = 3459
-				set_province_controller = 3618
-				set_province_controller = 3622
-				set_province_controller = 6498
-				set_province_controller = 6514
-				set_province_controller = 6523
-				set_province_controller = 6615
-				set_province_controller = 7322
-				set_province_controller = 9453
-				set_province_controller = 9469
-				set_province_controller = 11442
-				set_province_controller = 11455
-				set_province_controller = 11469
-				set_province_controller = 11578
-				set_province_controller = 11591
-			}
+	history = { 1999.1.1 = { 
+			owner = H03
+			remove_core_of = H03
 		}
 		owner = SOV
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = SOV
+		#add_core_of = KAZ
 		victory_points = {
 			3618 1
 		}
 	}
 
 	provinces={
-		464 477 554 615 3459 3618 3622 6498 6514 6523 6615 7322 9453 9469 11442 11455 11469 11578 11591
+		464 477 554 615 3459 3618 3622 6498 6514 6523 6615 7322 9453 9469 11442 11455 11469 11578 11591 
 	}
 }

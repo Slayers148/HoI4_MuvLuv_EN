@@ -18,7 +18,7 @@ state={
 		}
 		owner = SOV
 		victory_points = {
-			6380 50 
+			6380 1
 		}
 		buildings = {
 			infrastructure = 8

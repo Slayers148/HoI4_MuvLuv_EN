@@ -432,3 +432,11 @@ music = {
 		}
 	}
 }
+music = {
+	song = "enzetu_01"
+	chance = {
+		modifier = {
+			factor = 0
+		}
+	}
+}

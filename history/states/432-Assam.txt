@@ -1,34 +1,13 @@
 state={
 	id=432
 	name="STATE_432"
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category=town
-
 	resources={
 		oil=5.000
 	}
 
-	history = { 1999.1.1 = {
-			owner = GEU
-			controller = H13
-			set_state_category = betaland
-
-			H13 = {
-				set_province_controller = 997
-				set_province_controller = 1075
-				set_province_controller = 1497
-				set_province_controller = 1525
-				set_province_controller = 1553
-				set_province_controller = 1581
-				set_province_controller = 7455
-				set_province_controller = 7634
-				set_province_controller = 10090
-				set_province_controller = 10349
-				set_province_controller = 10514
-				set_province_controller = 12366
-				set_province_controller = 12395 
-			}
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
 
 			#ヴェルホヤンスク陥落用
 			add_claim_by = H17
@@ -37,11 +16,15 @@ state={
 		add_core_of = GEU
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
 
 	provinces={
-		997 1075 1497 1525 1553 1581 7455 7634 10090 10349 10514 12366 12395
+		997 1075 1497 1525 1553 1581 7455 7634 10090 10349 10514 12366 12395 
 	}
-
+	manpower=8977100
+	buildings_max_level_factor=1.000
+	state_category=town
 }

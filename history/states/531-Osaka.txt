@@ -2,18 +2,15 @@
 state={
 	id=531
 	name="STATE_531" # Kansai
-	manpower = 0
+	manpower = 11015000
 	state_category = metropolis
 	resources={
 		aluminium=58 # was: 6
 	}
 
-	history = { 1999.1.1 = {
-			owner = JAP
+	history = { 1999.1.1 = { 
+			owner = H20
 			add_core_of = JAP
-			controller = H20
-			set_state_category = betaland
-
 			H20 = {
 				set_province_controller = 1051
 				set_province_controller = 1067
@@ -24,7 +21,7 @@ state={
 				set_province_controller = 7072
 				set_province_controller = 7113
 				set_province_controller = 9985
-				set_province_controller = 11960
+				set_province_controller = 11960 
 				set_province_controller = 12031
 			}
 		}
@@ -50,18 +47,21 @@ state={
 
 		}
 		victory_points = {
-			7072 40
+			7072 10
+		}
+		victory_points = {
+			11960 30
 		}
 		1939.1.1 = {
 			buildings = {
-				#arms_factory = 3
-				#industrial_complex = 5
+				arms_factory = 3
+				industrial_complex = 5
 			}
 		}
 
 	}
 
 	provinces={
-		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
 	}
 }

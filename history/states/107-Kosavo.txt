@@ -1,39 +1,35 @@
 state={
 	id=107
 	name="STATE_107"
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category=large_city
 
 	history = {
-		1999.1.1 = {
-			owner = EUR
-			controller = H11
+		1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 797
-				set_province_controller = 3609
-				set_province_controller = 3956
-				set_province_controller = 3984
-				set_province_controller = 6634
-				set_province_controller = 9599
-				set_province_controller = 11583
-				set_province_controller = 11586
-			}
+			remove_core_of = YUG
+			remove_core_of = SER
 		}
 		owner = YUG
 		buildings = {
 			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 4
 			air_base = 5
+
 		}
 		victory_points = {
-			11586 15
+			11586 15 
 		}
+		add_core_of = YUG
+		add_core_of = SER
+
 	}
 
 	provinces={
-		797 3609 3956 3984 6634 9599 11583 11586
+		797 3609 3956 3984 6634 9599 11583 11586 
 	}
+	manpower=1279121
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

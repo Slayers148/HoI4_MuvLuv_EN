@@ -15,13 +15,13 @@ BET_area_priority = {
 		original_tag = BET
 		date > 1998.12.31
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = suez
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = scandinavia
@@ -33,86 +33,86 @@ BET_area_priority = {
 		id = europe
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = asia
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = middle_east
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = africa
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = pacific
 		value = -1
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = oceania
 		value = -1
 	}
-
+	
 	#### ハイヴ周辺 ####
 	ai_strategy = {
 		type = area_priority
 		id = kashgar
 		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = cheorwon
 		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = evensk
 		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = mandalay
 		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = anbar
 		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = lyon
 		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = sado
@@ -134,19 +134,19 @@ BET_area_priority_plan_exclude_asia = {
 		id = europe
 		value = -50
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = north_america
 		value = -50
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = south_america
 		value = -50
 	}
-
+	
 	ai_strategy = {
 		type = area_priority
 		id = asia
@@ -195,7 +195,7 @@ BET_defend_doctrine = {
 		id = H07
 		value = 10
 	}
-
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H08
@@ -267,7 +267,7 @@ BET_defend_doctrine = {
 		id = H19
 		value = 100
 	}
-
+	
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H20
@@ -278,7 +278,11 @@ BET_defend_doctrine = {
 		id = H21
 		value = 100
 	}
-
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H23
+		value = 100
+	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = H25
@@ -295,7 +299,7 @@ BET_defend_doctrine = {
 #	enable = {
 #		original_tag = BET
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = infantry
@@ -313,7 +317,7 @@ BET_defend_doctrine = {
 #		id = cavalry
 #		value = -100
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = light_armor
@@ -325,7 +329,7 @@ BET_defend_doctrine = {
 #		id = medium_armor
 #		value = -100
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = modern_armor
@@ -337,31 +341,31 @@ BET_defend_doctrine = {
 #		id = heavy_armor
 #		value = -100
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = Tank
 #		value = 25
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = SPG
 #		value = 10
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = MVLV_tsf
 #		value = 30
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = paratroopers
 #		value = -100
 #	}
-#
+#	
 #	ai_strategy = {
 #		type = template_prio
 #		id = mechanized

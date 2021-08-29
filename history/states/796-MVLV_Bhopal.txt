@@ -9,7 +9,7 @@ state={
 
 			buildings = {
 				infrastructure = 10
-			         anti_air_building = 5
+#			         anti_air_building = 5
 				11995 = {
 					bunker = 3
 				}

@@ -1,4 +1,4 @@
-capital = 788
+capital = 791
 	set_stability =  1
 	set_war_support = 1
 
@@ -15,20 +15,32 @@ capital = 788
 		large_front_offensive = 1
 		human_wave_offensive = 1
 		guerilla_warfare = 1
-		MVLV_mbeta_tec = 1
-		can_hive = 1
-                CAS1 = 1
+
+		#TSF
+		UNI_basic_concept_research = 1
+		UNI_Assault_gun_improvement_1 = 1
+		UNI_Blade_improvement_1 = 1
+		UNI_Schurzen_1 = 1
+#		UNI_Jumping_unit_improvement = 1
+		UNI_Manipulator_improvement = 1
+#		UNI_Carrying_ammunition_increase = 1
+		SOV_MiG-21 = 1
+		SOV_Su-11 = 1
+		SOV_MiG-23 = 1
+		SOV_MiG-27 = 1
+		SOV_MiG-29 = 1
+		SOV_Su-27 = 1
+		tech_special_forces = 1
+		MVLV_beta_tec = 1
 	}
 	
 	add_ideas = {
-		hive_phase_9
-                mvlv_difficulty_beta
 	}
 
-add_offsite_building = { type = arms_factory level = 600 }
-add_offsite_building = { type = industrial_complex level = 50 }
+add_offsite_building = { type = arms_factory level = 0 }
+add_offsite_building = { type = industrial_complex level = 0 }
 
-create_faction = "Martian BETA"
+create_faction = "難民解放戦線"
 M01 = {}
 
 set_stability =  1
@@ -43,14 +55,6 @@ add_ideas = {
 }
 
 add_political_power = 2000    
-
-set_technology = {
-	synth_oil_experiments = 1
-	
-	#land doctrine
-	mass_assault = 1
-	MVLV_beta_tec = 1
-}
 
 set_convoys = 0
 
@@ -68,9 +72,9 @@ set_popularities = {
 ######################LEADERS##############################################
 
 create_country_leader = {
-	name = "上位存在"
+	name = "指導者"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "cbth5-jlbb.dds"
+	picture = "master.dds"
 	expire = "2040.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -79,9 +83,9 @@ create_country_leader = {
 }
 	
 create_country_leader = {
-	name = "上位存在"
+	name = "指導者"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "cbth5-jlbb.dds"
+	picture = "master.dds"
 	expire = "2040.1.1"
 	ideology = marxism
 	traits = {
@@ -89,9 +93,9 @@ create_country_leader = {
 	}
 }
 create_country_leader = {
-	name = "上位存在"
+	name = "指導者"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "cbth5-jlbb.dds"
+	picture = "master.dds"
 	expire = "2040.1.1"
 	ideology = centrism
 	traits = {
@@ -100,302 +104,28 @@ create_country_leader = {
 }
 
 create_field_marshal = {
-	name = "超頭脳級"
-	gfx = "GFX_Portrait_superior_existance"
+	name = "クリストファー"
+	picture = "kuri.dds"
 	traits = { 
 		offensive_doctrine
 		
 		politically_connected
 	}
-	skill = 5
-	attack_skill = 5
+	skill = 8
+	attack_skill = 7
 	defense_skill = 5
 	planning_skill = 5
 	logistics_skill = 5
 }
 create_field_marshal = {
-	name = "要塞級"
-	picture = "yousai.dds"
+	name = "ナタリー"
+	picture = "natary.dds"
 	traits = { 
 		offensive_doctrine
 		
 		politically_connected
 	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_field_marshal = {
-	name = "頭脳級"
-	picture = "zunou.dds"
-	traits = { 
-		offensive_doctrine
-		
-		politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "兵士級"
-	picture = "heisi.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "2号兵士級"
-	picture = "heisi.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "3号兵士級"
-	picture = "heisi.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "光線級"
-	picture = "kousen.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "2号光線級"
-	picture = "kousen.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "3号光線級"
-	picture = "kousen.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "戦車級"
-	picture = "sensya.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "2号戦車級"
-	picture = "sensya.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "3号戦車級"
-	picture = "sensya.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "突撃級"
-	picture = "totugeki.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "2号突撃級"
-	picture = "totugeki.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-        planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "3号突撃級"
-	picture = "totugeki.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "闘士級"
-	picture = "tousi.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "2号闘士級"
-	picture = "tousi.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "3号闘士級"
-	picture = "tousi.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "要撃級"
-	picture = "yougeki.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "2号要撃級"
-	picture = "yougeki.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "3号要撃級"
-	picture = "yougeki.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "重光線級"
-	picture = "zyuukousen.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "2号重光線級"
-	picture = "zyuukousen.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
-	attack_skill = 5
-	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
-}
-create_corps_commander = {
-	name = "3号重光線級"
-	picture = "zyuukousen.dds"
-	traits = {
-		trickster trait_engineer brilliant_strategist politically_connected
-	}
-	skill = 5
+	skill = 3
 	attack_skill = 5
 	defense_skill = 5
 	planning_skill = 5

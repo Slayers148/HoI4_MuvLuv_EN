@@ -1,11 +1,1 @@
-beta = {
-	icon = generic_propaganda
-
-	allowed = {
-		is_in_faction_with = BET
-	}
-
-	visible = {
-		is_puppet = no
-	}
-}
+#削除

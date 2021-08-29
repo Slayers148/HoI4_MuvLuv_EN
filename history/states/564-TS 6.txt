@@ -12,8 +12,8 @@ state={
 	}
 
 	history = { 1999.1.1 = { 
-			owner = H19
-			remove_core_of = H19
+			owner = H18
+			remove_core_of = H18
 
 			#BETA本国陥落用
 			add_claim_by = BET

@@ -2,31 +2,26 @@ state=
 {
 	id=524
 	name="STATE_524"
-	manpower = 9500000
-	resources={
-		aluminium=60
-	}
+	manpower = 6000000
+
 	state_category = megalopolis
 	history={
-		1999.1.1 = {
+		1999.1.1 = { 
 			owner = CHI
 
 			buildings = {
 			infrastructure = 10
 			air_base = 5
-			industrial_complex = 10
-			arms_factory = 8
+			industrial_complex = 8
+			arms_factory = 6
 
 				7214 = {
-				coastal_bunker = 9
-				bunker = 9
+				coastal_bunker = 3
+				bunker = 2
 				}
 				9955 = {
 					coastal_bunker = 3
 					bunker = 2
-				}
-				12068 = {
-					naval_base = 10
 				}
 			}
 		}
@@ -34,13 +29,10 @@ state=
 		add_core_of = PRC
 
 		victory_points = {
-			7186 100
-		}
-		victory_points = {
-			12068 5
+			7186 20
 		}
 	}
 	provinces={
-		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068
+		4096 7186 7214 9955 11959
 	}
 }

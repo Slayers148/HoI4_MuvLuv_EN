@@ -2,38 +2,28 @@
 state={
 	id=109
 	name="STATE_109" # Croatia
-	manpower = 0
-
+	manpower = 2224400
+	
 	state_category = large_town
 
 	history = {
-		1999.1.1 = {
-			owner = EUR
-			controller = H11
+		1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller  = 624
-				set_province_controller  = 3592
-				set_province_controller  = 3596
-				set_province_controller  = 3627
-				set_province_controller  = 6647
-				set_province_controller  = 9595
-				set_province_controller  = 9611
-				set_province_controller  = 11577
-				set_province_controller  = 11580
-				set_province_controller  = 11581
-				set_province_controller  = 11594
-			}
+			remove_core_of = CRO
+			remove_core_of = YUG
 		}
 		owner = YUG
 		buildings = {
 			infrastructure = 6
+			industrial_complex = 3
 		}
 		victory_points = {
-			11581 3
+			11581 3 
 		}
+		add_core_of = YUG
+		add_core_of = CRO
 	}
 
 	provinces={

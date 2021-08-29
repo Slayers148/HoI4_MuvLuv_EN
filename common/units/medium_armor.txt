@@ -6,13 +6,13 @@ sub_units = {
 		priority = 502
 		ai_priority = 500
 		active = yes
-
+		
 		type = {
 			armor
 		}
-
+		
 		group = armor
-
+		
 		categories = {
 			category_tanks
 			category_front_line
@@ -23,13 +23,13 @@ sub_units = {
 		combat_width = 2
 
 		need = {
-			medium_tank_equipment = 50
+			medium_tank_equipment = 48
 		}
 		manpower = 500
-		max_organisation = 35
-		max_strength = 38
-		default_morale = 1.8
-		training_time = 30
+		max_organisation = 15
+		max_strength = 40
+		default_morale = 1.5
+		training_time = 40
 		weight = 0.1
 		supply_consumption = 0.01
 
@@ -55,7 +55,7 @@ sub_units = {
 			movement = -0.4
 		}
 		marsh = {
-		    attack = -0.1
+		    attack = -0.1 
 			defence = 0.3
 			movement = -0.1
 		}
@@ -63,14 +63,34 @@ sub_units = {
 			attack = -0.4
 			defence = 0.3
 		}
-		river = {
-			attack = -0.2
+		river = { 
+			attack = -0.2 
 			defence = 0.7
 			movement = -0.2
 		}
-		amphibious = {
+		amphibious = { 
 			attack = -0.7
 			defence = 0.5
+		}
+
+		hive_gateclass = {
+			attack = -0.55
+			defence = -0.8
+		}
+
+		hive_mainhall = {
+			attack = -0.55
+			defence = -0.8
+		}
+
+		hive_drift = {
+			attack = -0.55
+			defence = -0.8
+		}
+
+		hive_gate = {
+			attack = -0.55
+			defence = -0.8
 		}
 	}
 }

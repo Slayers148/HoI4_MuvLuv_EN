@@ -21,4 +21,5 @@ sub_unit_categories = {
 	category_MVLV_asa
 	category_MVLV_tsa
 	category_MVLV_xg
+	category_tsf_sub_weapons
 }

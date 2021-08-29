@@ -2,28 +2,20 @@
 state={
 	id=765
 	name="STATE_765"
-	manpower = 0
+	manpower = 51600
 	state_category = pastoral
 
-	history = { 1999.1.1 = {
-			owner = AFR
-			controller = H09
-			add_core_of = AFR
-			set_state_category = betaland
-
-			H09 = {
-				set_province_controller = 8051
-			}
+	history = { 1999.1.1 = { 
+			owner = H09
+			remove_core_of = H09
 		}
+		add_core_of = AFR
 		owner = ENG
 		victory_points = {
 			8051 1
 		}
 		buildings = {
-			infrastructure = 1
-			8051 = {
-				naval_base = 2
-			}
+			infrastructure = 2
 		}
 	}
 

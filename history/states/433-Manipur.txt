@@ -2,48 +2,29 @@
 state={
 	id=433
 	name="STATE_433" # Rajasthan
-	manpower = 0
-
+	manpower = 11786000
+	
 	state_category = town
-
+	
+	
 	resources={
 		tungsten=32 # was: 42
 	}
 
-	history = { 1999.1.1 = {
-			owner = GEU
-			controller = H13
-			set_state_category = betaland
-
-			H13 = {
-				set_province_controller = 1199
-				set_province_controller = 1908
-				set_province_controller = 2054
-				set_province_controller = 4149
-				set_province_controller = 4915
-				set_province_controller = 4971
-				set_province_controller = 4984
-				set_province_controller = 7905
-				set_province_controller = 7998
-				set_province_controller = 10847
-				set_province_controller = 10866
-				set_province_controller = 12041
-				set_province_controller = 12718
-				set_province_controller = 12743
-				set_province_controller = 12829
-				set_province_controller = 12844
-				set_province_controller = 12876
-				set_province_controller = 12886 
-			}
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
 		}
 		owner = GEU
 		add_core_of = GEU
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 		}
+
 	}
 
 	provinces={
-		1199 1908 2054 4149 4915 4971 4984 7905 7998 10847 10866 12041 12718 12743 12829 12844 12876 12886
+		1199 1908 2054 4149 4915 4971 4984 7905 7998 10847 10866 12041 12718 12743 12829 12844 12876 12886 
 	}
 }

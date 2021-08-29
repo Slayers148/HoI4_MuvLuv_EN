@@ -2,46 +2,29 @@
 state={
 	id=439
 	name="STATE_439"
-	manpower = 0
-
+	manpower = 31136800
+	
 	state_category = city
-
+	
 	history={
-		1999.1.1 = {
-			owner = GEU
-			controller = H13
-			set_state_category = betaland
-
-			H13 = {
-				set_province_controller = 1129
-				set_province_controller = 1898
-				set_province_controller = 2002
-				set_province_controller = 2032
-				set_province_controller = 2076
-				set_province_controller = 2086
-				set_province_controller = 3989
-				set_province_controller = 5002
-				set_province_controller = 5157
-				set_province_controller = 7106
-				set_province_controller = 10021
-				set_province_controller = 10729
-				set_province_controller = 11955
-				set_province_controller = 12708
-				set_province_controller = 12868 
-			}
+		1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
 		}
 		owner = GEU
 		add_core_of = GEU
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 1
 			air_base = 4
 		}
 		victory_points = {
-			2086 15
+			2086 15 
 		}
+
 	}
 
 	provinces={
-		1129 1898 2002 2032 2076 2086 3989 5002 5157 7106 10021 10729 11955 12708 12868
+		1129 1898 2002 2032 2076 2086 3989 5002 5157 7106 10021 10729 11955 12708 12868 
 	}
 }

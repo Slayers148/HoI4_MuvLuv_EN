@@ -1,38 +1,29 @@
 state={
 	id=322
 	name="STATE_322"
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 	resources={
 		tungsten=2.000
 	}
 
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H13
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
 			add_core_of = CHI
-			add_core_of = PRC
-			set_state_category = betaland
-
-			H13 = {
-				set_province_controller =	2010
-				set_province_controller = 2093
-				set_province_controller = 4994
-				set_province_controller = 5011
-				set_province_controller = 7926
-				set_province_controller = 8068
-				set_province_controller = 10755
-				set_province_controller = 10918
-			}
 		}
 		owner = PRC
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 
 		}
+		#add_core_of = TIB
+
 	}
+
 	provinces={
-		2010 2093 4994 5011 7926 8068 10755 10918
+		2010 2093 4994 5011 7926 8068 10755 10918 
 	}
+	manpower=1722000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

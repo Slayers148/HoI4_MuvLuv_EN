@@ -7763,7 +7763,7 @@
 7762;92;63;211;land;false;plains;2
 7763;92;66;71;land;false;hive_mainhall;6
 7764;92;66;176;land;false;mountain;2
-7765;92;66;221;land;false;forest;6
+7765;92;66;221;land;false;hive_mainhall;6
 7766;92;69;36;land;false;forest;2
 7767;92;69;141;land;false;plains;6
 7768;92;69;186;land;false;forest;6
@@ -13252,7 +13252,7 @@
 13251;116;178;41;land;false;hive_drift;6
 13252;145;41;178;land;false;hive_gateclass;6
 13253;41;178;62;land;false;hive_drift;6
-13254;41;100;178;land;false;hive_mainhall;6
+13254;41;100;178;land;false;hive_super_mainhall;6
 13255;136;41;178;land;false;hive_gate;6
 13256;178;174;41;land;false;hive_drift;6
 13257;41;178;170;land;false;hive_gate;6
@@ -13260,3 +13260,6 @@
 13259;41;161;178;land;false;hive_drift;6
 13260;178;41;95;land;false;hive_drift;6
 13261;178;41;166;land;false;hive_drift;6
+13262;225;15;200;land;false;plains;6
+13263;182;80;169;land;false;plains;6
+13264;234;159;225;land;false;plains;6

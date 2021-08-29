@@ -2,26 +2,16 @@
 state={
 	id=186
 	name="STATE_186"
-	manpower=0
-
+	manpower=945000
+	
 	state_category = town
 
 	history = {
-		1999.1.1 = {
-			owner = EUR
-			controller = H11
+		1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 1173
-				set_province_controller = 4078
-				set_province_controller = 4178
-				set_province_controller = 4193
-				set_province_controller = 7096
-				set_province_controller = 7211
-				set_province_controller = 11965 
-			}
+			remove_core_of = GRE
 		}
 		victory_points = {
 			7211 5
@@ -34,17 +24,16 @@ state={
 		}
 		owner = GRE
 		buildings = {
-			infrastructure = 1
-			11965 = {
-				naval_base = 1
-			}
-			7211 = {
-				naval_base = 2
-			}
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
 		}
+		add_core_of = GRE
+
 	}
 
 	provinces={
-		1173 4078 4178 4193 7096 7211 11965
+		1173 4078 4178 4193 7096 7211 11965 
 	}
 }

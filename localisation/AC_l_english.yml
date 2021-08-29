@@ -1,0 +1,135 @@
+﻿l_english:
+ AC_DECISIONS:0 "建設プロジェクト"
+ AC_DECISIONS_desc:0 "同盟国の領土での建設を行う。"
+
+ AC_target_country_DECISIONS:0 "建設許可申請"
+ AC_target_country_DECISIONS_desc:0 "我が国への外国からの建設プロジェクト。"
+
+ 
+
+ AC_REQUEST_CONSTRUCTION_PERMISSION_TITLE:0 "建設許可の要求"
+ AC_REQUEST_CONSTRUCTION_PERMISSION_ACTION_TITLE:0 "建設許可の要求"
+ AC_REQUEST_CONSTRUCTION_PERMISSION_ACTION_DESC:0 "彼らの土地で建設プロジェクトを実行する許可を要求してください。\n\nプロジェクトを開始するには、彼らが管理する州を選んでください。"
+ 
+ AC_REVOKE_CONSTRUCTION_PERMISSION_TITLE:0 "建設許可の取り消し"
+ AC_REVOKE_CONSTRUCTION_PERMISSION_ACTION_TITLE:0 "建設許可の取り消し"
+ AC_REVOKE_CONSTRUCTION_PERMISSION_ACTION_DESC:0 "我々の州で建設プロジェクトを実行中の彼らへの許可を取り消す。"
+
+ AC_diplomacy_action_opinion_modifier:0 "我々に対する彼らの意見"
+ AC_acceptance:0 "受容"
+
+ AC_project_being_cancelled:0 "建設プロジェクトはキャンセルされた"
+
+
+
+ AC_project_assigned_factories_modifier:0 "他国での建設プロジェクト"
+
+
+
+ AC_project_0_text:0 "[?AC_project_assigned_factories^0]x民需工場  |  §Y[AC_GetConstructionTypeProject0]§!  x[?AC_project_build_amount^0] ： [From.GetName]" 
+ AC_project_0_desc:0 "\n必要建設日数: [?AC_project_total_construction_duration_display^0] 日\n建設速度: x[?AC_project_construction_speed_display^0]\n\n右クリックで対象の州を見る。"
+
+ AC_project_0_decision:0 "[AC_GetProjectText0]"
+ AC_project_0_decision_desc:0 "[AC_GetProjectDesc0]"
+ 
+ AC_project_0_target_decision:0 "[From.AC_GetProject0Factories]x民需工場  |  §Y[From.AC_GetConstructionTypeProject0]§!  x[From.AC_GetProject0Amount] ： [From.AC_GetProjectState0]"
+ AC_project_0_target_decision_desc:0 "\n国名: [From.GetName]\n割り当てられた工場: [From.AC_GetProject0Factories]\n建設キュー: [From.AC_GetProject0Amount]\n\nこのディシジョンを選択すると、建設プロジェクトは取り消される。\n\n右クリックで対象の州を見る。"
+
+
+
+ AC_project_1_text:0 "[?AC_project_assigned_factories^1]x民需工場  |  §Y[AC_GetConstructionTypeProject1]§!  x[?AC_project_build_amount^1] ： [From.GetName]"
+ AC_project_1_desc:0 "\n必要建設日数: [?AC_project_total_construction_duration_display^1] 日\n建設速度: x[?AC_project_construction_speed_display^1]\n\n右クリックで対象の州を見る。"
+ 
+ AC_project_1_decision:0 "[AC_GetProjectText1]"
+ AC_project_1_decision_desc:0 "[AC_GetProjectDesc1]"
+ 
+ AC_project_1_target_decision:0 "[From.AC_GetProject1Factories]x民需工場  |  §Y[From.AC_GetConstructionTypeProject1]§!  x[From.AC_GetProject1Amount] ： [From.AC_GetProjectState1]"
+ AC_project_1_target_decision_desc:0 "\n国名: [From.GetName]\n割り当てられた工場: [From.AC_GetProject1Factories]\n建設キュー: [From.AC_GetProject1Amount]\n\nこのディシジョンを選択すると、建設プロジェクトは取り消される。\n\n右クリックで対象の州を見る。"
+
+
+
+ AC_project_2_text:0 "[?AC_project_assigned_factories^2]x民需工場  |  §Y[AC_GetConstructionTypeProject2]§!  x[?AC_project_build_amount^2] ： [From.GetName]"
+ AC_project_2_desc:0 "\n必要建設日数: [?AC_project_total_construction_duration_display^2] 日\n建設速度: x[?AC_project_construction_speed_display^2]\n\n右クリックで対象の州を見る。"
+
+ AC_project_2_decision:0 "[AC_GetProjectText2]"
+ AC_project_2_decision_desc:0 "[AC_GetProjectDesc2]"
+ 
+ AC_project_2_target_decision:0 "[From.AC_GetProject2Factories]x民需工場  |  §Y[From.AC_GetConstructionTypeProject2]§!  x[From.AC_GetProject2Amount] ： [From.AC_GetProjectState2]"
+ AC_project_2_target_decision_desc:0 "\n国名: [From.GetName]\n割り当てられた工場: [From.AC_GetProject2Factories]\n建設キュー: [From.AC_GetProject2Amount]\n\nこのディシジョンを選択すると、建設プロジェクトは取り消される。\n\n右クリックで対象の州を見る。"
+
+ 
+
+ AC_project_3_text:0 "[?AC_project_assigned_factories^3]x民需工場  |  §Y[AC_GetConstructionTypeProject3]§!  x[?AC_project_build_amount^3] ： [From.GetName]"
+ AC_project_3_desc:0 "\n必要建設日数: [?AC_project_total_construction_duration_display^3] 日\n建設速度: x[?AC_project_construction_speed_display^3]\n\n右クリックで対象の州を見る。"
+
+ AC_project_3_decision:0 "[AC_GetProjectText3]"
+ AC_project_3_decision_desc:0 "[AC_GetProjectDesc3]"
+ 
+ AC_project_3_target_decision:0 "[From.AC_GetProject3Factories]x民需工場  |  §Y[From.AC_GetConstructionTypeProject3]§!  x[From.AC_GetProject3Amount] ： [From.AC_GetProjectState3]"
+ AC_project_3_target_decision_desc:0 "\n国名: [From.GetName]\n割り当てられた工場: [From.AC_GetProject3Factories]\n建設キュー: [From.AC_GetProject3Amount]\n\nこのディシジョンを選択すると、建設プロジェクトは取り消される。\n\n右クリックで対象の州を見る。"
+
+
+
+ AC_project_4_text:0 "[?AC_project_assigned_factories^4]x民需工場  |  §Y[AC_GetConstructionTypeProject4]§!  x[?AC_project_build_amount^4] ： [From.GetName]"
+ AC_project_4_desc:0 "\n必要建設日数: [?AC_project_total_construction_duration_display^4] 日\n建設速度: x[?AC_project_construction_speed_display^4]\n\n右クリックで対象の州を見る。"
+
+ AC_project_4_decision:0 "[AC_GetProjectText4]"
+ AC_project_4_decision_desc:0 "[AC_GetProjectDesc4]"
+ 
+ AC_project_4_target_decision:0 "[From.AC_GetProject4Factories]x民需工場  |  §Y[From.AC_GetConstructionTypeProject4]§!  x[From.AC_GetProject4Amount] ： [From.AC_GetProjectState4]"
+ AC_project_4_target_decision_desc:0 "\n国名: [From.GetName]\n割り当てられた工場: [From.AC_GetProject4Factories]\n建設キュー: [From.AC_GetProject4Amount]\n\nこのディシジョンを選択すると、建設プロジェクトは取り消される。\n\n右クリックで対象の州を見る。"
+
+
+
+ AC_construction_INF:0 "インフラ\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_INFRASTRUCTURE_COST]§!"
+ AC_construction_AIR:0 "空港\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_AIRBASE_COST]§!"
+ AC_construction_AA:0 "対空砲\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_ANTIAIR_COST]§!"
+ AC_construction_RAD:0 "レーダー基地\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_RADAR_COST]§!"
+ AC_construction_MIC:0 "軍需工場\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_MILITARY_FACTORY_COST]§!"
+ AC_construction_CIC:0 "民需工場\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_CIVILIAN_FACTORY_COST]§!"
+ AC_construction_NIC:0 "海軍造船所\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_DOCKYARD_COST]§!"
+ AC_construction_REF:0 "合成精製所\n\n§Y建設に必要な政治力コスト:§! §R[?global.PP_REFINERY_COST]§!"
+
+
+
+ AC_build_amount_green:0 "[?ROOT.AC_project_build_amount^-1]"
+ AC_build_amount_red:0 "§R[?ROOT.AC_project_build_amount^-1]§!"
+ AC_building_amount_increase_button_tt:0 "この州で選択した種類の建造物の、建設する数を選択してください。\n\n§L最大数は、建造物の種類、州の空きスロット及び技術によって異なります。§!\n\n§LShiftキーを押しながらでは5ずつ増減します。§!"
+
+
+ 
+ AC_assigned_factories_green:0 "[?ROOT.AC_project_assigned_factories^-1]"
+ AC_assigned_factories_red:0 "§R[?ROOT.AC_project_assigned_factories^-1]§!"
+ AC_assigned_factories_button_tt:0 "この建設プロジェクトに割り当てる民需工場の数を選択してください\n\nプロジェクトに使用可能な民需工場：§! §G[?Root.num_of_civilian_factories_available_for_projects]§!\n\n§LShiftキーを押しながらでは5ずつ増減します。§!"
+  
+
+
+ AC_political_power_cost_tt:0 "§Y必要政治力コスト:§! §R[?Root.AC_project_political_power_cost^-1]§!\n\n"
+ 
+
+ 
+ AC_allied_construction_icon1_tt:0 "同盟国への建設プロジェクト\n\n§Lこの州での建設プロジェクトを実行する。§!"
+ 
+
+
+ AC_build_button_text:0 "[AC_GetBuildButtonText]"
+ AC_start_project:0 "建設プロジェクトの開始"
+ AC_cancel_project:0 "建設プロジェクトのキャンセル"
+ AC_build_button_tt:0 "§Gこのボタンを押すと、ディシジョンが存在する建設プロジェクトを開始、もしくは現在実行中の建設プロジェクトをキャンセルする。§!\n\n[AC_GetGUIValues]§L我々の首都からこの州への距離に比例して建設速度は最大50％のペナルティを受ける。§!\n\n§L同時に最大5つの建設プロジェクトを実行可能。最大数は自国の建設速度補正によって変化する（10%のボーナスごとに+1）。\n\n利用可能な建造物のスロットが存在しない、新たな州の持ち主があなたの同盟国ではない、もしくはあなたに建設許可が与えられていない場合、建設プロジェクトは自動的にキャンセルされる。再びプロジェクトを実行可能になるまで1日必要だ。§!"
+ AC_gui_values:0 "§Y政治力コスト:§! [?Root.AC_project_political_power_cost^-1]\n§Y建設期間:§! [?Root.AC_project_construction_duration^-1] 日\n§Y総建設時間:§! [?Root.AC_project_total_construction_duration_display^-1] 日\n§Y建設速度ペナルティ:§! [?Root.AC_project_construction_speed_display^-1]%\n\n"
+
+
+
+ AC_assist_repair_button_text:0 "修復の支援"
+ AC_assist_repair_button_tt:0 "この国の建造物の修復を支援する。\n\n§Y日々の政治力:§! §R-1§!\n\n§Y期間:§!§! §G180日\n\n§L同時に1つの国でしか修復の支援はできない\n\nこのボタンをクリックするか、ディシジョンを使用していつでも修復の支援を取り消すことができる。再度有効にする際には1日必要だ。§!"
+
+ AC_construction_opinion:0 "建設プロジェクト"
+ 
+ AC_assist_repair_target_idea:0 "修復の支援"
+ AC_assist_repair_target_idea_desc:0 "この国は同盟国からの修復の支援を受け入れた。"
+
+ AC_assist_repair_decision:0 "[?AC_assist_repair_target.GetName] での§Y修復の支援§!"
+ AC_assist_repair_decision_desc:0 "我々は現在同盟国の修復の支援を行っている。\n\n§L右クリックで対象の国家を見る。§!"
+
+ AC_assist_repair_CANCEL_decision:0 "修復の支援のキャンセル"
+ AC_assist_repair_CANCEL_decision_desc:0 "修復の支援をキャンセルする。"

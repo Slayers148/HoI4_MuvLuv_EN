@@ -1,61 +1,10 @@
 state={
 	id=404
 	name="STATE_404"
-	manpower=0
 
-	buildings_max_level_factor=1.000
-
-	state_category=wasteland
-
-	history = { 1999.1.1 = {
-			owner = SOV
-			controller = H03
-			add_core_of = SOV
-			remove_core_of = KAZ
-			set_state_category = betaland
-
-			H03 = {
-				set_province_controller = 1243
-				set_province_controller = 1312
-				set_province_controller = 1382
-				set_province_controller = 1402
-				set_province_controller = 4250
-				set_province_controller = 4277
-				set_province_controller = 4389
-				set_province_controller = 4492
-				set_province_controller = 4578
-				set_province_controller = 4595
-				set_province_controller = 4636
-				set_province_controller = 4686
-				set_province_controller = 7335
-				set_province_controller = 7392
-				set_province_controller = 7556
-				set_province_controller = 7597
-				set_province_controller = 7600
-				set_province_controller = 7657
-				set_province_controller = 7777
-				set_province_controller = 10148
-				set_province_controller = 10179
-				set_province_controller = 10220
-				set_province_controller = 10268
-				set_province_controller = 10275
-				set_province_controller = 10277
-				set_province_controller = 10353
-				set_province_controller = 10366
-				set_province_controller = 10452
-				set_province_controller = 10506
-				set_province_controller = 10508
-				set_province_controller = 10601
-				set_province_controller = 12111
-				set_province_controller = 12121
-				set_province_controller = 12177
-				set_province_controller = 12194
-				set_province_controller = 12329
-				set_province_controller = 12340
-				set_province_controller = 12385
-				set_province_controller = 12397
-				set_province_controller = 12487
-			}
+	history = { 1999.1.1 = { 
+			owner = H03
+			remove_core_of = H03
 
 			#マシュハド陥落用
 			add_claim_by = H02
@@ -66,13 +15,16 @@ state={
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = SOV
 
 	}
 
 	provinces={
-		1243 1312 1382 1402 4250 4277 4389 4492 4578 4595 4636 4686 7335 7392 7556 7597 7600 7657 7777 10148 10179 10220 10268 10275 10277 10353 10366 10452 10506 10508 10601 12111 12121 12177 12194 12329 12340 12385 12397 12487
+		1243 1312 1382 1402 4250 4277 4389 4492 4578 4595 4636 4686 7335 7392 7556 7597 7600 7657 7777 10148 10179 10220 10268 10275 10277 10353 10366 10452 10506 10508 10601 12111 12121 12177 12194 12329 12340 12385 12397 12487 
 	}
-
+	manpower=667036
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

@@ -1,41 +1,33 @@
 state={
 	id=10
 	name="STATE_10"
-	manpower = 0
+	manpower = 3089000
 
 	state_category = large_city
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H05
-			add_core_of = EUR
-			set_state_category = betaland
-
-			H05 = {
-				set_province_controller = 402
-				set_province_controller = 467
-				set_province_controller = 524
-				set_province_controller = 3482
-				set_province_controller = 3544
-				set_province_controller = 6511
-				set_province_controller = 9400
-				set_province_controller = 11492
-				set_province_controller = 12562
-			}
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = POL
 		}
 		owner = POL
 		victory_points = {
-			3544 25
+			3544 1
 		}
 		victory_points = {
 			402 1
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
+			arms_factory = 6
+			industrial_complex = 2
+			air_base = 5
 		}
+		add_core_of = POL
 	}
 
 	provinces={
-		402 467 524 3482 3544 6511 9400 11492 12562
+		402 467 524 3482 3544 6511 9400 11492 12562 
 	}
 }

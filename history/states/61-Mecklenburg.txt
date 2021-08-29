@@ -1,24 +1,16 @@
 state={
 	id=61
 	name="STATE_61"
-	manpower = 0
+	manpower = 836353
+
 
 	state_category = town
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H05
-			add_core_of = EUR
-			set_state_category = betaland
-
-			H05 = {
-				set_province_controller = 268
-				set_province_controller = 293
-				set_province_controller = 321
-				set_province_controller = 9294
-				set_province_controller = 11276
-				set_province_controller = 11305
-			}
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = GER
 		}
 		owner = GER
 		victory_points = {
@@ -28,14 +20,14 @@ state={
 			11305 3
 		}
 		buildings = {
-			infrastructure = 1
-			321 = {
-				naval_base = 6
-			}
+			infrastructure = 6
+			arms_factory = 3
+			air_base = 3
 		}
+		add_core_of = GER
 	}
 
 	provinces={
-		268 293 321 9294 11276 11305
+		268 293 321 9294 11276 11305 
 	}
 }

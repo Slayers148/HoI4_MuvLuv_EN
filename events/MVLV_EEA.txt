@@ -1,0 +1,65 @@
+add_namespace = mvlv_eea
+
+country_event = {
+	id = mvlv_eea.1
+	desc = mvlv_eea.1.d
+	title = mvlv_eea.1.t
+	#picture = 
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_eea.1.a
+		transfer_state = 802
+		add_state_core = 802
+		add_state_core = 42
+		add_state_core = 50
+		add_state_core = 51
+		add_state_core = 52
+		add_state_core = 53
+		add_state_core = 54
+		add_state_core = 55
+		add_state_core = 56
+		add_state_core = 57
+		add_state_core = 58
+		add_state_core = 59
+		add_state_core = 60
+		802 = { add_extra_state_shared_building_slots = 10 }
+		EEA = {
+			create_corps_commander = { 
+					name = "キルケ シュタインホフ"
+					picture = "EEA4.dds"
+					traits = { armor_officer war_hero trait_engineer politically_connected career_officer }
+					skill = 5
+					attack_skill = 7
+					defense_skill = 3
+					planning_skill = 3
+					logistics_skill = 3
+			} 
+			create_corps_commander = { 
+					name = "ヨヒアム バルク"
+					picture = "EEA5.dds"
+					traits = { organizer panzer_leader armor_officer brilliant_strategist career_officer }
+					skill = 6
+					attack_skill = 5
+					defense_skill = 6
+					planning_skill = 4
+					logistics_skill = 4
+			} 
+               }
+	}
+}
+
+country_event = {
+	id = mvlv_eea.2
+	desc = mvlv_eea.2.d
+	title = mvlv_eea.2.t
+	#picture = 
+	
+	is_triggered_only = yes
+
+	option = {
+		name = mvlv_eea.2.a
+		add_offsite_building = { type = arms_factory level = 12 } 
+	}
+}

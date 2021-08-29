@@ -2,43 +2,29 @@
 state={
 	id=346
 	name="STATE_346"
-	manpower = 0
-
+	manpower = 430305
+	
 	state_category = rural
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H02
-			add_core_of = EUR
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 			remove_core_of = TUR
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 940
-				set_province_controller = 3788
-				set_province_controller = 6807
-				set_province_controller = 6894
-				set_province_controller = 9755
-				set_province_controller = 9763
-				set_province_controller = 9811
-				set_province_controller = 11792
-				set_province_controller = 11860
-				set_province_controller = 13122
-			}
+			add_core_of = AFR
 		}
 		owner = TUR
 		buildings = {
 			infrastructure = 3
 			air_base = 5
 		}
-
+		
 		victory_points = {
-			940 1
+			940 1 
 		}
 		add_core_of = TUR
 	}
 
 	provinces={
-		940 3788 6807 6894 9755 9763 9811 11792 11860 13122
+		940 3788 6807 6894 9755 9763 9811 11792 11860 13122 
 	}
 }

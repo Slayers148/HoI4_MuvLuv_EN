@@ -1,0 +1,42 @@
+division_template = {
+	name = "軌道降下兵団"
+
+	regiments = {
+		paratrooper= { x = 0 y = 0 }
+		paratrooper= { x = 0 y = 1 }
+		paratrooper= { x = 0 y = 2 }
+		paratrooper= { x = 1 y = 0 }
+		paratrooper= { x = 1 y = 1 }
+	}
+}
+##### OOB #####
+units = {
+	division = {
+		name = "軌道降下兵団"
+		location = 1269
+		division_template = "軌道降下兵団"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
+	}
+	division = {
+		name = "軌道降下兵団"
+		location = 1269
+		division_template = "軌道降下兵団"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
+	}
+	division = {
+		name = "軌道降下兵団"
+		location = 1269
+		division_template = "軌道降下兵団"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
+	}
+	division = {
+		name = "軌道降下兵団"
+		location = 1269
+		division_template = "軌道降下兵団"
+		start_experience_factor = 1.0
+		force_equipment_variants = { tsf_equipment_F15U = { owner = "UNI" } }
+	}
+}

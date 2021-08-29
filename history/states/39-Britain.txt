@@ -2,37 +2,31 @@
 state={
 	id=39
 	name="STATE_39" # South Tyrol
-	manpower = 0
-
+	manpower = 641650
+	
 	state_category = town
-
+	
 	resources={
 		aluminium=14 # was: 22
 	}
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H11
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 656
-				set_province_controller = 6631
-				set_province_controller = 6675
-				set_province_controller = 9598
-				set_province_controller = 9630
-				set_province_controller = 11598
-				set_province_controller = 11615
-			}
+			remove_core_of = ITA
+			remove_core_of = AUS
 		}
 		owner = ITA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 6
+			industrial_complex = 1
 		}
+		add_core_of = ITA
+		add_core_of = AUS
 	}
 
 	provinces={
-		656 6631 6675 9598 9630 11598 11615
+		656 6631 6675 9598 9630 11598 11615 
 	}
 }

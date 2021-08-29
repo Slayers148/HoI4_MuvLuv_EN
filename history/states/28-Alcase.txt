@@ -2,30 +2,19 @@
 state={
 	id=28
 	name="STATE_28" # Alsace-Lorraine
-	manpower = 0
-
+	manpower = 1915600
+	
 	state_category = city
 	resources={
 		steel=100 # was: 236
 	}
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H12
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H12 = {
-				set_province_controller = 549
-				set_province_controller = 678
-				set_province_controller = 1346
-				set_province_controller = 3629
-				set_province_controller = 6529
-				set_province_controller = 9503
-				set_province_controller = 9559
-				set_province_controller = 11502
-			}
-
+			remove_core_of = FRA
+			
 			#ミンスク陥落用
 			add_claim_by = H05
 		}
@@ -36,11 +25,22 @@ state={
 		victory_points = { 9503 5 }
 		victory_points = { 9559 10 }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
+			industrial_complex = 3
+			anti_air_building = 5
+			air_base = 5
+
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+			}
 		}
 	}
 
 	provinces={
-		549 678 1346 3629 6529 9503 9559 11502
+		549 678 1346 3629 6529 9503 9559 11502 
 	}
 }
+

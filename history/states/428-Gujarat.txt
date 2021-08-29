@@ -2,52 +2,31 @@
 state={
 	id=428
 	name="STATE_428"
-	manpower = 0
-
+	manpower = 10590200
+	
+	
 	state_category = town
 	resources={
 		oil=3 # was: 4
 	}
 
-	history = { 1999.1.1 = {
-			owner = GEU
-			controller = H13
-			set_state_category = betaland
-
-			H13 = {
-				set_province_controller = 1061
-				set_province_controller = 1103
-				set_province_controller = 1144
-				set_province_controller = 1190
-				set_province_controller = 4064
-				set_province_controller = 4090
-				set_province_controller = 4132
-				set_province_controller = 4187
-				set_province_controller = 7020
-				set_province_controller = 7150
-				set_province_controller = 7165
-				set_province_controller = 7207
-				set_province_controller = 9975
-				set_province_controller = 10118
-				set_province_controller = 11952
-				set_province_controller = 12037
-				set_province_controller = 12092 
-			}
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
 		}
 		owner = GEU
 		add_core_of = GEU
 		victory_points = {
-			9975 1
+			9975 1 
 		}
 		buildings = {
 			infrastructure = 4
-			9975 = {
-				naval_base = 2
-			}
+			arms_factory = 1
 		}
+
 	}
 
 	provinces={
-		1061 1103 1144 1190 4064 4090 4132 4187 7020 7150 7165 7207 9975 10118 11952 12037 12092
+		1061 1103 1144 1190 4064 4090 4132 4187 7020 7150 7165 7207 9975 10118 11952 12037 12092 
 	}
 }

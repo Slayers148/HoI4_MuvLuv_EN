@@ -8,6 +8,7 @@ state=
 	history=
 	{
 		owner = SOV
+		add_extra_state_shared_building_slots = 3
 		victory_points = {
 			13067 1 
 		}
@@ -19,7 +20,7 @@ state=
 			}
 		}
 	}
-	provinces=
-	{
-13067 	}
+	provinces={
+		13067
+	}
 }

@@ -2,51 +2,34 @@
 state={
 	id=343
 	name="STATE_343" # Afyon
-	manpower = 0
+	manpower = 955763
 	resources={
 		chromium=25 # was: 32
 	}
-
+	
 	state_category = rural
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H02
-			add_core_of = EUR
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 			remove_core_of = TUR
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 784
-				set_province_controller = 856
-				set_province_controller = 981
-				set_province_controller = 3856
-				set_province_controller = 3876
-				set_province_controller = 3983
-				set_province_controller = 6877
-				set_province_controller = 6945
-				set_province_controller = 9878
-				set_province_controller = 10041
-				set_province_controller = 11796
-				set_province_controller = 11831
-				set_province_controller = 11907
-			}
+			add_core_of = AFR
 		}
 		owner = TUR
 		victory_points = {
-			10041 1
+			10041 1 
 		}
 		victory_points = {
-			9878 1
+			9878 1 
 		}
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 1
+			industrial_complex = 1
 		}
 		add_core_of = TUR
 	}
 
 	provinces={
-		784 856 981 3856 3876 3983 6877 6945 9878 10041 11796 11831 11907
+		784 856 981 3856 3876 3983 6877 6945 9878 10041 11796 11831 11907 
 	}
 }

@@ -2,102 +2,32 @@
 state={
 	id=666
 	name="STATE_666" # Lappland
-	manpower = 0
+	manpower = 415327
 	resources={
 		tungsten=40 # was: 70
 		steel= 50 # was: 80
 		chromium = 25 # was: 40
 	}
-
+	
 	state_category = rural
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H08
+	history = { 1999.1.1 = { 
+			owner = H08
+			remove_core_of = H08
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H08 = {
-				set_province_controller = 11
-				set_province_controller = 58
-				set_province_controller = 61
-				set_province_controller = 101
-				set_province_controller = 109
-				set_province_controller = 118
-				set_province_controller = 145
-				set_province_controller = 148
-				set_province_controller = 151
-				set_province_controller = 182
-				set_province_controller = 190
-				set_province_controller = 201
-				set_province_controller = 3003
-				set_province_controller = 3044
-				set_province_controller = 3054
-				set_province_controller = 3062
-				set_province_controller = 3095
-				set_province_controller = 3100
-				set_province_controller = 3104
-				set_province_controller = 3113
-				set_province_controller = 3138
-				set_province_controller = 3173
-				set_province_controller = 3179
-				set_province_controller = 6024
-				set_province_controller = 6055
-				set_province_controller = 6074
-				set_province_controller = 6083
-				set_province_controller = 6125
-				set_province_controller = 6132
-				set_province_controller = 6152
-				set_province_controller = 6155
-				set_province_controller = 6161
-				set_province_controller = 6165
-				set_province_controller = 6168
-				set_province_controller = 6170
-				set_province_controller = 6200
-				set_province_controller = 6206
-				set_province_controller = 6208
-				set_province_controller = 9083
-				set_province_controller = 9093
-				set_province_controller = 9095
-				set_province_controller = 9108
-				set_province_controller = 9134
-				set_province_controller = 9143
-				set_province_controller = 9147
-				set_province_controller = 9175
-				set_province_controller = 9178
-				set_province_controller = 9186
-				set_province_controller = 9211
-				set_province_controller = 9220
-				set_province_controller = 9226
-				set_province_controller = 11026
-				set_province_controller = 11058
-				set_province_controller = 11060
-				set_province_controller = 11067
-				set_province_controller = 11069
-				set_province_controller = 11073
-				set_province_controller = 11102
-				set_province_controller = 11112
-				set_province_controller = 11152
-				set_province_controller = 11155
-				set_province_controller = 11190
-				set_province_controller = 11201
-				set_province_controller = 11208
-				set_province_controller = 13119
-			}
 		}
 		owner = SWE
 		victory_points = {
-			9108 1
+			9108 1 
 		}
 		buildings = {
-			infrastructure =  1
-			9108 = {
-				naval_base = 2
-			}
+			infrastructure = 4
+			industrial_complex = 1
 		}
+		#add_core_of = SWE
 	}
 
 	provinces={
-		11 58 61 101 109 118 145 148 151 182 190 201 3003 3044 3054 3062 3095 3100 3104 3113 3138 3173 3179 6024 6055 6074 6083 6125 6132 6152 6155 6161 6165 6168 6170 6200 6206 6208 9083 9093 9095 9108 9134 9143 9147 9175 9178 9186 9211 9220 9226 11026 11058 11060 11067 11069 11073 11102 11112 11152 11155 11190 11201 11208 13119
+		11 58 61 101 109 118 145 148 151 182 190 201 3003 3044 3054 3062 3095 3100 3104 3113 3138 3173 3179 6024 6055 6074 6083 6125 6132 6152 6155 6161 6165 6168 6170 6200 6206 6208 9083 9093 9095 9108 9134 9143 9147 9175 9178 9186 9211 9220 9226 11026 11058 11060 11067 11069 11073 11102 11112 11152 11155 11190 11201 11208 13119 
 	}
 }

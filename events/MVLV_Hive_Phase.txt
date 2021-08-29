@@ -1,24 +1,35 @@
 ﻿add_namespace = mvlv_hive_phase
 
+#____________________________________________________________
+#用途
+#ハイヴフェイズ関連イベント
+#
+#id:mvlv_hive_phase.1 effect:ハイヴのフェイズ管理
+#
+#____________________________________________________________
+
+
+#ハイヴのフェイズ管理
+#____________________________________________________________
 country_event = {
 	id = mvlv_hive_phase.1
 	desc = mvlv_hive_phase.1.d
 	title = mvlv_hive_phase.1.t
 	picture = BETA_event_1
 	fire_only_once = no
-
+	
 	trigger = {
 		is_in_faction_with = BET
 	}
-
+	
 	mean_time_to_happen = {
 		days = 30
 	}
-
-	option ={
-
+	
+	option = {
+		
 		name = mvlv_hive_phase.1.a
-		ai_chance = { factor = 25 }
+		ai_chance = { factor = 20 }
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_1 }
@@ -31,17 +42,17 @@ country_event = {
 				remove_idea = hive_phase_1
 				add_idea = hive_phase_2
 			}
-
+			
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
 				days = 180
 			}
 		}
-
+		
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_2 }
-				has_manpower > 2500000
+				has_manpower > 4000000
 				NOT = { has_idea = hive_thinning_state }
 				NOT = { has_idea = hive_recently_phaseUp }
 				has_idea = hive_phase_2
@@ -50,17 +61,17 @@ country_event = {
 				remove_idea = hive_phase_2
 				add_idea = hive_phase_3
 			}
-
+			
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
 				days = 180
 			}
 		}
-
+		
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_3 }
-				has_manpower > 4000000
+				has_manpower > 5000000
 				NOT = { has_idea = hive_thinning_state }
 				NOT = { has_idea = hive_recently_phaseUp }
 				has_idea = hive_phase_3
@@ -69,17 +80,17 @@ country_event = {
 				remove_idea = hive_phase_3
 				add_idea = hive_phase_4
 			}
-
+			
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
 				days = 180
 			}
 		}
-
+		
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_4 }
-				has_manpower > 6000000
+				has_manpower > 10000000
 				NOT = { has_idea = hive_thinning_state }
 				NOT = { has_idea = hive_recently_phaseUp }
 				has_idea = hive_phase_4
@@ -88,17 +99,17 @@ country_event = {
 				remove_idea = hive_phase_4
 				add_idea = hive_phase_5
 			}
-
+			
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
 				days = 180
 			}
 		}
-
+		
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_5 }
-				has_manpower > 10000000
+				has_manpower > 15000000
 				NOT = { has_idea = hive_thinning_state }
 				NOT = { has_idea = hive_recently_phaseUp }
 				has_idea = hive_phase_5
@@ -107,17 +118,17 @@ country_event = {
 				remove_idea = hive_phase_5
 				add_idea = hive_phase_6
 			}
-
+			
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
 				days = 180
 			}
 		}
-
+		
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_6 }
-				has_manpower > 25000000
+				has_manpower > 40000000
 				NOT = { has_idea = hive_thinning_state }
 				NOT = { has_idea = hive_recently_phaseUp }
 				has_idea = hive_phase_6
@@ -126,34 +137,54 @@ country_event = {
 				remove_idea = hive_phase_6
 				add_idea = hive_phase_7
 			}
-
+			
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
 				days = 180
 			}
 		}
-
+		
 		IF = {
 			limit = {
 				check_variable = { num_divisions > var_hive_divisions_7 }
-				has_manpower > 30000000
+				has_manpower > 60000000
 				NOT = { has_idea = hive_thinning_state }
 				NOT = { has_idea = hive_recently_phaseUp }
 				has_idea = hive_phase_7
 			}
 			swap_ideas = {
 				remove_idea = hive_phase_7
+				add_idea = hive_phase_8
 			}
-
+			
+			add_timed_idea = {
+				idea = hive_recently_phaseUp
+				days = 180
+			}
+		}
+		
+		IF = {
+			limit = {
+				check_variable = { num_divisions > var_hive_divisions_8 }
+				has_manpower > 80000000
+				NOT = { has_idea = hive_thinning_state }
+				NOT = { has_idea = hive_recently_phaseUp }
+				has_idea = hive_phase_8
+			}
+			swap_ideas = {
+				remove_idea = hive_phase_8
+				add_idea = hive_phase_9
+			}
+			
 			add_timed_idea = {
 				idea = hive_recently_phaseUp
 				days = 180
 			}
 		}
 	}
-
-	option ={
+	
+	option = {
 		name = mvlv_hive_phase.1.b
-		ai_chance = { factor = 75 }
+		ai_chance = { factor = 80 }
 	}
 }

@@ -102,6 +102,11 @@ AFR_defend_doctrine = {
 #		id = EUR
 #		value = 100
 #	}
+#	ai_strategy = {
+#		type = dont_defend_ally_borders
+#		id = EEA
+#		value = 100
+#	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
 		id = GEU

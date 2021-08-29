@@ -2,83 +2,26 @@
 state={
 	id=144
 	name="STATE_144"
-	manpower = 0
-
+	manpower = 355251
+	
 	state_category = rural
-
+	
 	resources={
 		steel=9 # was: 12
 		tungsten = 15 # was: 20
 	}
 
 	history = {
-		1999.1.1 = {
-			owner = EUR
-			controller = H08
+		1999.1.1 = { 
+			owner = H08
+			remove_core_of = H08
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H08 = {
-				set_province_controller = 22
-				set_province_controller = 38
-				set_province_controller = 44
-				set_province_controller = 64
-				set_province_controller = 76
-				set_province_controller = 91
-				set_province_controller = 128
-				set_province_controller = 173
-				set_province_controller = 192
-				set_province_controller = 2995
-				set_province_controller = 3016
-				set_province_controller = 3034
-				set_province_controller = 3040
-				set_province_controller = 3048
-				set_province_controller = 3058
-				set_province_controller = 3082
-				set_province_controller = 3088
-				set_province_controller = 3126
-				set_province_controller = 3132
-				set_province_controller = 3145
-				set_province_controller = 6015
-				set_province_controller = 6071
-				set_province_controller = 6079
-				set_province_controller = 6092
-				set_province_controller = 6107
-				set_province_controller = 6111
-				set_province_controller = 6130
-				set_province_controller = 6187
-				set_province_controller = 6214
-				set_province_controller = 9042
-				set_province_controller = 9064
-				set_province_controller = 9089
-				set_province_controller = 9116
-				set_province_controller = 9126
-				set_province_controller = 9128
-				set_province_controller = 9191
-				set_province_controller = 9208
-				set_province_controller = 11034
-				set_province_controller = 11050
-				set_province_controller = 11063
-				set_province_controller = 11077
-				set_province_controller = 11090
-				set_province_controller = 11104
-				set_province_controller = 11157
-				set_province_controller = 11169
-			}
+			remove_core_of = NOR
 		}
 		owner = NOR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			192 = {
-				naval_base = 3
-			}
-			9116 = {
-				naval_base = 3
-			}
-			11050 = {
-				naval_base = 2
-			}
 		}
 		victory_points = {
 			192 1
@@ -89,9 +32,10 @@ state={
 		victory_points = {
 			11050 1
 		}
+		add_core_of = NOR
 	}
 
 	provinces={
-		22 38 44 64 76 91 128 173 192 2995 3016 3034 3040 3048 3058 3082 3088 3126 3132 3145 6015 6071 6079 6092 6107 6111 6130 6187 6214 9042 9064 9089 9116 9126 9128 9191 9208 11034 11050 11063 11077 11090 11104 11157 11169
+		22 38 44 64 76 91 128 173 192 2995 3016 3034 3040 3048 3058 3082 3088 3126 3132 3145 6015 6071 6079 6092 6107 6111 6130 6187 6214 9042 9064 9089 9116 9126 9128 9191 9208 11034 11050 11063 11077 11090 11104 11157 11169 
 	}
 }

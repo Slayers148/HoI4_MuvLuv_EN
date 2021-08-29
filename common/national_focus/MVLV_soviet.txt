@@ -1,0 +1,1682 @@
+focus_tree = {
+	id = soviet_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+
+		#modifier = {
+		#	add = 10
+		#	original_tag = SOV
+		#}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = SOV_finish_five_year_plan_rs
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 1
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_move_industry_to_urals_rs
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = SOV_finish_five_year_plan_rs }
+		x = -1
+		y = 1
+		relative_position_id = SOV_finish_five_year_plan_rs
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			has_war = yes
+		}
+
+		bypass = {
+		}
+
+		completion_reward = {
+			790 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+			790 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_defense_of_moscow_rs
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = SOV_move_industry_to_urals_rs }
+		available = {
+		}
+		x = 0
+		y = 1
+		relative_position_id = SOV_move_industry_to_urals_rs
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}	
+		completion_reward = {
+			army_experience = 5
+			790 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 2
+					province = 13241
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					province = 13227
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		#聖テオドロス広報
+		id = SOV_st_theodoros_pr
+		#以下の場合取得可能
+		available = {
+		}
+		#自動達成
+		bypass = {
+		}
+		#前提条件
+		prerequisite = { focus = SOV_defense_of_moscow_rs }
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		#相対位置id
+		relative_position_id = SOV_defense_of_moscow_rs
+		cost = 5
+		#降伏した場合に利用可能
+		available_if_capitulated = yes
+		#検索フィルター
+		#search_filters = {FOCUS_FILTER_RESEARCH}
+		#発生効果
+		completion_reward = {
+			add_political_power = -100
+			650 = {
+				add_core_of = SOV
+			}
+		}
+	}
+	focus = {
+		#アッツ島の開発
+		id = SOV_attu_island_development
+		#以下の場合取得可能
+		available = {
+		}
+		#自動達成
+		bypass = {
+		}
+		#前提条件
+		prerequisite = { focus = SOV_st_theodoros_pr }
+		icon = GFX_goal_generic_construct_civilian
+		x = 0
+		y = 1
+		#相対位置id
+		relative_position_id = SOV_st_theodoros_pr
+		cost = 5
+		#降伏した場合に利用可能
+		available_if_capitulated = yes
+		#検索フィルター
+		#search_filters = {FOCUS_FILTER_RESEARCH}
+		#発生効果
+		completion_reward = {
+			650 = {
+				add_extra_state_shared_building_slots = 9
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_production_effort_rs
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = SOV_finish_five_year_plan_rs }
+		x = 1
+		y = 1
+		relative_position_id = SOV_finish_five_year_plan_rs
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+		}
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_extra_tech_slot_early_rs
+		icon = GFX_focus_research
+		text = extra_tech_slot
+		prerequisite = { focus = SOV_production_effort_rs }
+		prerequisite = { focus = SOV_collectivist_propaganda_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_production_effort_rs
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+		search_filters = {FOCUS_FILTER_RESEARCH}
+	}
+	
+	focus = {
+		id = SOV_infrastructure_effort_rs
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = SOV_extra_tech_slot_early_rs}
+		x = 0
+		y = 1
+		relative_position_id = SOV_extra_tech_slot_early_rs
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+		}
+
+		complete_tooltip = {
+			every_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes						
+					}
+				}
+				random_owned_controlled_state = {
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}				
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_tranformation_of_nature_rs
+		icon = GFX_goal_generic_soviet_construction
+		prerequisite = { focus = SOV_infrastructure_effort_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_infrastructure_effort_rs
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+			controls_state = 790
+		}
+
+		completion_reward = {
+			add_political_power = 120
+			add_resource = {
+				type = rubber
+				amount = 5
+				state = 790
+			}
+		}
+	}
+
+	focus = {
+		id = SOV_stalin_constitution_rs
+		icon = GFX_goal_support_communism
+		x = 6
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 160
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
+	}
+
+	focus = {
+		id = SOV_collectivist_propaganda_rs
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = SOV_stalin_constitution_rs }
+		x = -2
+		y = 1
+		relative_position_id = SOV_stalin_constitution_rs
+		cost = 10
+		ai_will_do = {
+			factor = 0.25
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.10
+		}
+	}
+
+	focus = {
+		id = SOV_militarized_schools_rs
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = SOV_collectivist_propaganda_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_collectivist_propaganda_rs
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = militarized_schools
+		}
+	}
+
+	focus = {
+		id = SOV_workers_culture_rs
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = SOV_militarized_schools_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_militarized_schools_rs
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = workers_culture
+		}
+	}
+
+	focus = {
+		id = SOV_positive_heroism_rs
+		icon = GFX_goal_generic_cavalry
+		prerequisite = { focus = SOV_stalin_constitution_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_stalin_constitution_rs
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_manpower = 50000
+		}
+	}
+
+	focus = {
+		id = SOV_progress_cult_rs
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = SOV_positive_heroism_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_positive_heroism_rs
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = progress_cult_focus
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+
+	focus = {
+		id = SOV_socialist_science_rs
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SOV_progress_cult_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_progress_cult_rs
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = socialist_science_focus
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+
+	focus = {
+		id = SOV_extra_tech_slot_rs
+		icon = GFX_focus_research
+		prerequisite = { focus = SOV_socialist_science_rs }
+		x = 0
+		y = 1
+		relative_position_id = SOV_socialist_science_rs
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+		search_filters = {FOCUS_FILTER_RESEARCH}
+	}
+	
+	focus = {
+		id = SOV_army4
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = SOV_stalin_constitution_rs }
+		x = 4
+		y = 1
+		cost = 10
+		relative_position_id = SOV_stalin_constitution_rs
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_army8
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = SOV_army4 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_army4
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_army1
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_army10
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SOV_army8 }
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = SOV_army8
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 1.5
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_army11
+		icon = GFX_goal_generic_army_motorized
+		prerequisite = { focus = SOV_army8 }
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = SOV_army8
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_army12
+		icon = GFX_focus_prc_infiltration
+		prerequisite = { focus = SOV_army10 }
+		prerequisite = { focus = SOV_army11 }
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = SOV_army10
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_army2
+			
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+	
+	
+	focus = {
+		id = SOV_army13
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = SOV_army10 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_army10
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_army19
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+	
+	focus = {
+		id = SOV_army14
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = SOV_army11 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_army11
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_army3
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+	focus = {
+		id = SOV_army18
+		icon = GFX_focus_generic_tank_production
+		prerequisite = { focus = SOV_army13 }
+		prerequisite = { focus = SOV_army12 }
+		prerequisite = { focus = SOV_army14 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_army12
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_army20
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}	
+########################################################################
+	focus = {
+		id = SOV_main
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 20
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
+	}
+	
+	
+	
+	focus = {
+		id = SOV_rs
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		prerequisite = { focus = SOV_main }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SOV_main
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+		search_filters = {FOCUS_FILTER_POLITICAL}
+	}
+	
+	
+	
+	focus = {
+		id = SOV_rs2
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = SOV_rs }
+		x = -1
+		y = 1
+		cost = 5
+		relative_position_id = SOV_rs
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.5
+				uses = 2
+				category = electronics
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs3
+		icon = GFX_focus_generic_join_comintern
+		prerequisite = { focus = SOV_rs }
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = SOV_rs
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.50
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs4
+		icon = GFX_focus_generic_coastal_fort
+		prerequisite = { focus = SOV_rs2 }
+		prerequisite = { focus = SOV_rs3 }
+		available = {
+		    has_war_support > 0.90
+			has_stability > 0.90
+		}
+		x = 1
+		y = 2
+		cost = 1
+		relative_position_id = SOV_rs2
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+		hidden_effect = {
+			country_event = { id = mvlv_sov.3 days = 3 }
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs5
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = SOV_rs2 }
+		mutually_exclusive = { focus = SOV_rs6 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = -3
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs2
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs6
+		icon = GFX_focus_secret_rearmament
+		prerequisite = { focus = SOV_rs3 }
+		mutually_exclusive = { focus = SOV_rs5 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = 3
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs3
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_war_support = 0.15
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs7
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = SOV_rs5 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+		}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = arms_factory
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs8
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = SOV_rs5 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+		}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex
+					level = 6
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs9
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = SOV_rs5 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs10
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SOV_rs6 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = -2
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs6
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_rs11
+		icon = GFX_goal_generic_CAS
+		prerequisite = { focus = SOV_rs6 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs6
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 2
+				uses = 3
+				category = air_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_rs12
+		icon = GFX_goal_generic_wolf_pack
+		prerequisite = { focus = SOV_rs6 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = 2
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs6
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = naval_doc_bonus
+				bonus = 1
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs13
+		icon = GFX_focus_research
+		prerequisite = { focus = SOV_rs7 }
+		prerequisite = { focus = SOV_rs8 }
+		prerequisite = { focus = SOV_rs9 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs8
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+		search_filters = {FOCUS_FILTER_RESEARCH}
+	}
+	
+	
+	focus = {
+		id = SOV_rs14
+		icon = GFX_focus_mex_privatisation
+		prerequisite = { focus = SOV_rs7 }
+		prerequisite = { focus = SOV_rs8 }
+		prerequisite = { focus = SOV_rs9 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs8
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = -450
+		SOV = {	add_offsite_building = { type = arms_factory level = 15 }}
+		SOV = {	add_offsite_building = { type = industrial_complex level = 10 }}
+		}
+	}
+	
+	focus = {
+		id = SOV_rs15
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = { focus = SOV_rs13 }
+		prerequisite = { focus = SOV_rs14 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs13
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+            remove_ideas = SOV_russian
+			add_ideas = SOV_russian2
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs16
+		icon = GFX_focus_generic_combined_arms
+		prerequisite = { focus = SOV_rs10 }
+		prerequisite = { focus = SOV_rs11 }
+		prerequisite = { focus = SOV_rs12 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		available = {
+		OR = {
+		has_tech = superior_firepower
+		has_tech = trench_warfare
+			}
+		}
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs11
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs17
+		icon = GFX_focus_generic_license_production
+		prerequisite = { focus = SOV_rs10 }
+		prerequisite = { focus = SOV_rs11 }
+		prerequisite = { focus = SOV_rs12 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+			}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs11
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+                        remove_ideas = SOV_russian
+			add_ideas = SOV_russian3
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+	
+	
+	focus = {
+		id = SOV_rs18
+		icon = GFX_focus_eng_crush_the_dream
+		prerequisite = { focus = SOV_rs16 }
+		prerequisite = { focus = SOV_rs17 }
+		available = {
+			NOT = { has_completed_focus = SOV_rs4 }
+		}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs16
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_highpower
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+
+	focus = {
+		id = SOV_rs19
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = SOV_rs4 }
+		x = 0
+		y = 1
+		cost = 5
+		relative_position_id = SOV_rs4
+		available = {
+			791 = {
+				is_controlled_by = UNI
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = { type = tsf_equipment amount = -250 producer = SOV }
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs20
+		icon = GFX_focus_ger_great_red_menace
+		prerequisite = { focus = SOV_rs19 }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs19
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 1
+				uses = 2
+				category = air_doctrine
+			}
+		        add_tech_bonus = {
+			       bonus = 1.5
+			       uses = 1
+			       category = MVLV_tsf_tech
+		        }
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 1
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1
+				uses = 1
+				category = armor
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs21
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = SOV_rs19 }
+		available = {
+			791 = {
+				is_controlled_by = UNI
+			}
+		}
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs19
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+				set_technology = {
+					MVLV_sov_tec = 1
+				}
+					hidden_effect = {
+					SOV = { load_oob = SOV_nf } }
+		}
+	}
+	focus = {
+		id = SOV_rs22
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = SOV_rs20 }
+		prerequisite = { focus = SOV_rs21 }
+		available = {
+			has_war_support > 0.95
+		}
+		
+		bypass = {
+		}
+		x = 1
+		y = 1
+		cost = 5
+		relative_position_id = SOV_rs20
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+                        remove_ideas = SOV_warlord
+			SOV = { country_event = mvlv_sov.3 }
+			unlock_decision_tooltip = { decision = SOV_storms show_effect_tooltip = yes show_modifiers = yes }
+		}
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+	}
+	
+	
+	
+	focus = {
+		id = SOV_rs23
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = { focus = SOV_rs22 }
+		mutually_exclusive = { focus = SOV_rs24 }
+		x = -3
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs22
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_opinion_modifier = {
+				target = USA
+				modifier = G_bomb_threat_opinion
+			}
+		}
+	}
+	
+	
+	
+	focus = {
+		id = SOV_rs24
+		icon = GFX_focus_generic_strike_at_democracy2
+		prerequisite = { focus = SOV_rs22 }
+		mutually_exclusive = { focus = SOV_rs23 }
+		available = {
+			408= {
+				is_controlled_by = SOV
+			}
+		}
+		x = 4
+		y = 1
+		cost = 20
+		relative_position_id = SOV_rs22
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {			
+            408 = {
+				add_extra_state_shared_building_slots = 6
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs26
+		icon = GFX_focus_chi_mission_to_the_us
+		prerequisite = { focus = SOV_rs23 }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs23
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = { type = tsf_equipment amount = 600 producer = USA }
+		}
+	}
+	
+	focus = {
+		id = SOV_rs27
+		icon = GFX_focus_chi_british_cooperation
+		prerequisite = { focus = SOV_rs23 }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs23
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = { type = tsf_equipment amount = 300 producer = EUR }
+		}
+	}
+	
+	focus = {
+		id = SOV_rs28
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		prerequisite = { focus = SOV_rs27 focus = SOV_rs26}
+		available = {
+			219= {
+				is_controlled_by = SOV
+			}
+			195= {
+				is_controlled_by = SOV
+			}
+			202= {
+				is_controlled_by = SOV
+			}
+			217= {
+				is_controlled_by = SOV
+			}
+			137= {
+				is_controlled_by = SOV
+			}
+		}
+		x = 1
+		y = 1
+		cost = 40
+		relative_position_id = SOV_rs26
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+            set_capital = 219			
+			219 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			195 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			202 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			217 = {
+				add_extra_state_shared_building_slots = 12
+			}
+			137 = {
+				add_extra_state_shared_building_slots = 12
+			}
+		}
+	}
+	focus = {
+		id = SOV_rs31
+		icon = GFX_focus_chi_collaboration_with_the_japanese
+		prerequisite = { focus = SOV_rs24 }
+		#mutually_exclusive = { focus = SOV_rs20 }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs24
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs32
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SOV_rs24 }
+		#mutually_exclusive = { focus = SOV_rs20 }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_rs24
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_equipment_to_stockpile = { type = tsf_equipment amount = 600 producer = UNI }
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_rs33
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		prerequisite = { focus = SOV_rs31 focus = SOV_rs32}
+		available = {
+			219= {
+				is_controlled_by = SOV
+			}
+			195= {
+				is_controlled_by = SOV
+			}
+			202= {
+				is_controlled_by = SOV
+			}
+			217= {
+				is_controlled_by = SOV
+			}
+			137= {
+				is_controlled_by = SOV
+			}
+		}
+		x = 1
+		y = 1
+		cost = 40
+		relative_position_id = SOV_rs31
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			set_capital = 219
+			219 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			195 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			202 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			217 = {
+				add_extra_state_shared_building_slots = 12
+				}
+			137 = {
+				add_extra_state_shared_building_slots = 12
+				}
+		}
+	}
+#############################################################################
+	focus = {
+		id = SOV_ru2
+		icon = GFX_goal_tfv_burn_the_royal_portraits
+		prerequisite = { focus = SOV_main }
+		x = 10
+		y = 1
+		cost = 5
+		relative_position_id = SOV_main
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+		army_experience = 100
+		navy_experience = 100
+		air_experience = 100
+		}
+	}
+	focus = {
+		id = SOV_ru4
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = SOV_ru2 }
+		#mutually_exclusive = { focus = SOV_ru2 }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_ru2
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_manpower = 100000
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_ru5
+		icon = GFX_focus_generic_license_production
+		prerequisite = { focus = SOV_ru2 }
+		#mutually_exclusive = { focus = SOV_ru2 }
+		x = 1
+		y = 1
+		cost = 10
+		available = {
+		}
+		relative_position_id = SOV_ru2
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.8
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_ru6
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = SOV_ru4 }
+		#mutually_exclusive = { focus = SOV_ru2 }
+		x = -1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_ru4
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_ru6
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_ru7
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = SOV_ru4 }
+		prerequisite = { focus = SOV_ru5 }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_ru4
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_ru7
+		}
+	}
+	
+	
+	focus = {
+		id = SOV_ru8
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = SOV_ru5 }
+		#mutually_exclusive = { focus = SOV_ru2 }
+		x = 1
+		y = 1
+		cost = 10
+		relative_position_id = SOV_ru5
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+		}
+	}
+	
+	focus = {
+		id = SOV_ru9
+		icon = GFX_goal_continuous_reduce_training_time
+		prerequisite = { focus = SOV_ru6 }
+		mutually_exclusive = { focus = SOV_ru11 focus = SOV_ru10 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_ru6
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_ru9
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+	}
+	
+	
+	focus = {
+		id = SOV_ru10
+		icon = GFX_focus_research
+		prerequisite = { focus = SOV_ru7 }
+		mutually_exclusive = { focus = SOV_ru11 focus = SOV_ru9 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_ru7
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_research_slot = 1
+		}
+		search_filters = {FOCUS_FILTER_RESEARCH}
+	}
+	
+	
+	focus = {
+		id = SOV_ru11
+		icon = GFX_goal_generic_army_artillery2
+		prerequisite = { focus = SOV_ru8 }
+		mutually_exclusive = { focus = SOV_ru10 focus = SOV_ru9 }
+		x = 0
+		y = 1
+		cost = 10
+		relative_position_id = SOV_ru8
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_ideas = SOV_ru11
+		}
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+	}
+
+}

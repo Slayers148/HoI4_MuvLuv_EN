@@ -5,8 +5,6 @@ ideas = {
 		JAP_puppet_shogun = {
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
-			removal_cost = -1
-			cancel = { }
 			modifier = {
 				stability_factor = -0.25
 				war_support_weekly = 0.002
@@ -20,6 +18,16 @@ ideas = {
 				training_time_army_factor = 0.10
 				industrial_capacity_factory =-0.10
 				army_org = 5
+				army_morale_factor = 0.05
+			}
+		}
+
+		JAP_kou21 = {
+			allowed = { always = no }
+			modifier = {
+				army_core_attack_factor = 0.65
+		                invasion_preparation = -1.5
+				army_org = 15
 				army_morale_factor = 0.05
 			}
 		}
@@ -63,6 +71,25 @@ ideas = {
 			#on_add
 			#designer
 			#ai_will_do
+		}
+		JAP_shogun = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.15
+				war_support_weekly = 0.01
+			}
+		}
+		JAP_killed_shougun = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.35
+			}
+		}
+		JAP_information = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.05
+			}
 		}
 	}
 }

@@ -2,35 +2,19 @@
 state={
 	id=63
 	name="STATE_63"
-	manpower = 0
+	manpower = 1124417
 	resources={
 		steel=23 # was: 36
 		aluminium=8 # was: 12
 	}
-
+	
 	state_category = town
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H05
-			add_core_of = EUR
-
-			H05 = {
-				set_province_controller = 6282
-				set_province_controller = 6309
-				set_province_controller = 6334
-				set_province_controller = 6390
-				set_province_controller = 9252
-				set_province_controller = 9277
-				set_province_controller = 9306
-				set_province_controller = 9334
-				set_province_controller = 9361
-				set_province_controller = 11260
-				set_province_controller = 11288
-				set_province_controller = 11316
-				set_province_controller = 11343
-				set_province_controller = 11372
-			}
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = GER
 		}
 		owner = GER
 		victory_points = {
@@ -40,17 +24,14 @@ state={
 			11372 3
 		}
 		buildings = {
-			infrastructure = 1
-			11372 = {
-				naval_base = 1
-			}
-			6282 = {
-				naval_base = 4
-			}
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
 		}
+		add_core_of = GER
 	}
 
 	provinces={
-		6282 6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372
+		6282 6309 6334 6390 9252 9277 9306 9334 9361 11260 11288 11316 11343 11372 
 	}
 }

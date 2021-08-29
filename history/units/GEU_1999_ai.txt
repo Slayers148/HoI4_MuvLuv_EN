@@ -53,7 +53,7 @@
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 	
 	division = {
@@ -62,7 +62,7 @@
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 	
 	division = {
@@ -71,7 +71,7 @@
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 	
 	division = {
@@ -80,7 +80,7 @@
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 	
 	division = {
@@ -89,7 +89,7 @@
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 	
 	division = {
@@ -98,7 +98,7 @@
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 	
 	division = {
@@ -107,7 +107,7 @@
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 	
 	division = {
@@ -116,6 +116,6 @@
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "GEU" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "GEU" } }
 	}
 }

@@ -3,9 +3,10 @@ technologies = {
 ###XG###
 	
 	MVLV_XG_basic_concept_research= {
+#解放される装備#
 
 #コスト、開始年#
-		research_cost = 1
+		research_cost = 100
 		start_year = 2000
 #完了したらどうなるか#
 		on_research_complete = {
@@ -45,7 +46,7 @@ technologies = {
 			xg_equipment_0
 		}
 
-		research_cost = 3
+		research_cost = 300
 		start_year = 2001
 
 		path = {
@@ -76,7 +77,7 @@ technologies = {
 			xg_equipment_1
 		}
 
-		research_cost = 4
+		research_cost = 400
 		start_year = 2001
 
 

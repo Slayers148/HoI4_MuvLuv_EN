@@ -2,34 +2,16 @@
 state={
 	id=612
 	name="STATE_612" # Chahar
-	manpower = 0
-
+	manpower = 566000
+	
 	state_category = rural
 
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H16
-			set_state_category = betaland
-
-			H16 = {
-				set_province_controller = 1551
-				set_province_controller = 1608
-				set_province_controller = 1796
-				set_province_controller = 1811
-				set_province_controller = 1871
-				set_province_controller = 4222
-				set_province_controller = 4555
-				set_province_controller = 4655
-				set_province_controller = 7578
-				set_province_controller = 7648
-				set_province_controller = 10363
-				set_province_controller = 10372
-				set_province_controller = 12348
-				set_province_controller = 12448
-				set_province_controller = 12554 
-			}
+	history = { 1999.1.1 = { 
+			owner = H18
+			remove_core_of = H18
 		}
 		owner = PRC
+		#add_core_of = MEN
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
@@ -38,6 +20,6 @@ state={
 	}
 
 	provinces={
-		1551 1608 1796 1811 1871 4222 4555 4655 7578 7648 10363 10372 12348 12448 12554
+		1551 1608 1796 1811 1871 4222 4555 4655 7578 7648 10363 10372 12348 12448 12554 
 	}
 }

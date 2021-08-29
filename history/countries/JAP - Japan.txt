@@ -16,15 +16,15 @@ capital = 282 #首都
 		tech_engineers3 = 1
 		tech_engineers4 = 1
 		tech_recon = 1
-		tech_recon2 = 1
+		tech_recon2 = 1	
 		tech_recon3 = 1
-		tech_recon4 = 1
+		tech_recon4 = 1	
 		tech_field_hospital = 1
 		tech_field_hospital2 = 1
 		tech_field_hospital3 = 1
 		tech_field_hospital4 = 1
 		tech_logistics_company = 1
-		tech_logistics_company2 = 1
+		tech_logistics_company2 = 1	
 		tech_logistics_company3 = 1
 		tech_logistics_company4 = 1
 		tech_military_police = 1
@@ -51,6 +51,8 @@ capital = 282 #首都
 		basic_medium_tank = 1
 		improved_medium_tank = 1
 		advanced_medium_tank = 1
+		AA_tankI = 1
+		AA_tankII = 1
 		early_destroyer = 1
 		mtg_transport = 1
 		mtg_landing_craft = 1
@@ -61,11 +63,6 @@ capital = 282 #首都
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
@@ -74,7 +71,7 @@ capital = 282 #首都
 		construction2 = 1
 		construction3 = 1
 		construction4 = 1
-		construction5 = 1
+		construction5 = 1	
 		fuel_silos = 1
 		fuel_refining = 1
 		dispersed_industry = 1
@@ -83,52 +80,61 @@ capital = 282 #首都
 		dispersed_industry4 = 1
 		dispersed_industry5 = 1
 		interwar_antiair = 1
-		improved_decryption = 1
-		night_vision = 1
-		night_vision2 = 1
-
+		experimental_rockets = 1
+		rocket_engines = 1
+		jet_engines = 1
+		
 		###陸軍ドクトリン###
 		superior_firepower = 1
-
+		
 		###TSF###
-		JAP_basic_concept_research = 1
-		F4J = 1
-		JAP_Assault_gun_improvement = 1
-		F15J = 1
-		F4JK = 1
-		JAP_Jumping_unit_improvement = 1
-		T97 = 1
-		T94H = 1
-		T00 = 1
-		T00F = 1
-		T00A = 1
-		T00C = 1
-		T94 = 1
-		A6J = 1
-		JAP_Manipulator_improvement = 1
-		JAP_Carrying_ammunition_increase = 1
-
+		UNI_basic_concept_research = 1
+		UNI_Assault_gun_improvement_1 = 1
+		UNI_Assault_gun_improvement_2 = 1
+		UNI_Blade_improvement_1 = 1
+		UNI_Blade_improvement_2 = 1
+		UNI_Schurzen_1 = 1
+#		UNI_Jumping_unit_improvement = 1
+		UNI_Manipulator_improvement = 1
+#		UNI_Carrying_ammunition_increase = 1
+		JAP_F-4J = 1
+		JAP_F-5J = 1
+		JAP_F-15J = 1
+		JAP_F-4JK = 1
+		JAP_T97 = 1
+		JAP_T94 = 1
+		JAP_T94H = 1
+		JAP_T00 = 1
+		JAP_T00F = 1
+		JAP_T00A = 1
+		JAP_T00C = 1
+		generic_A-6 = 1
+		tech_special_forces = 1
+		
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
-	}
 
+		###戦術###
+		human_combat_tactics = 1
+	}
+	
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5
+		uses = 5 
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}
-
+	}	
+	
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1
+		uses = 1 
 		technology = flexible_line
 		technology = streamlined_line
 	}
-
+	
 	add_ideas = { #初期国家精神を定義
 		limited_exports
 		JAP_puppet_shogun
@@ -138,9 +144,9 @@ capital = 282 #首都
 		JAP_konoe
 		mvlv_parmanent
 		mvlv_altanative_4
-		mvlv_arms_build_up
+        MVLV_UNF
 	}
-
+	
 	set_convoys = 1200 #初期輸送船数を定義
 }
 set_stability = 0.2 #初期安定度を定義
@@ -148,15 +154,15 @@ set_war_support = 0.9 #初期戦争協力度を定義
 
 set_research_slots = 4 #初期研究枠を定義
 
-army_experience = 500 #初期陸軍経験値を定義
+army_experience = 350 #初期陸軍経験値を定義
 
 add_political_power = 0 #初期政治力を定義
 
-add_offsite_building = { type = arms_factory level = 50 } #MAP外軍需を定義
-add_offsite_building = { type = industrial_complex level = 40 } #MAP外民需を定義
+add_offsite_building = { type = arms_factory level = 20 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 15 } #MAP外民需を定義
 #add_offsite_building = { type = dockyard level = 5 } #MAP外海軍工廠を定義
 
-set_politics = {
+set_politics = { 
 	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
@@ -177,70 +183,93 @@ create_country_leader = {
 	traits = {
 		warrior_code
 		emperor_showa
-		imperial_sanction
 	}
 	id = 700 #Hirohito
 }
 
 create_country_leader = {
-	name = "Kyuichi Tokuda"
-	desc = "POLITICS_Tokuda_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
+	name = "煌武院悠陽"
+	desc = "POLITICS_JAP_denka_DESC"
+	picture = "GFX_Portrait_denka"
 	expire = "1989.1.1"
 	ideology = marxism
 	traits = {
+		warrior_code
+		emperor_showa
 	}
+	id = 700 #Hirohito
 }
 
 create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Katayama_DESC"
-	picture = "GFX_Portrait_tetsu_katayama"
+	name = "煌武院悠陽"
+	desc = "POLITICS_JAP_denka_DESC"
+	picture = "GFX_Portrait_denka"
 	expire = "1989.1.1"
 	ideology = liberalism
 	traits = {
+		warrior_code
+		emperor_showa
 	}
+	id = 700 #Hirohito
 }
 
 ###初期将軍及び元帥を定義###
 create_field_marshal = {
 	name = "煌武院 悠陽"
+	id = 991
 	picture = "37.dds"
 	traits = {
-                JAP_samurai_lineage
-		offensive_doctrine
+		JAP_samurai_lineage
 		politically_connected
-                media_personality
+        media_personality
+		tsf_officer
+		true_genius
 	}
-	skill = 6
-	attack_skill = 3
-	defense_skill = 9
-	planning_skill = 7
+	skill = 4
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 5
 	logistics_skill = 4
 }
 
 create_field_marshal = {
 	name = "斑鳩崇継"
+	id = 992
 	picture = "84.dds"
 	traits = {
-		offensive_doctrine
-		JAP_samurai_lineage   # hakushaku
+		JAP_samurai_lineage
 		politically_connected
+		tsf_officer
+		brilliant_strategist
+		commander_aptitude
+		tsf_leader
+		tsf_commander
+		offensive_doctrine
+		inspirational_leader
 	}
-	skill = 7
+	skill = 8
 	attack_skill = 7
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 7
+	defense_skill = 6
+	planning_skill = 7
+	logistics_skill = 5
 }
 
 create_corps_commander = {
 	name = "篁 唯依"
 		picture = "yui.dds"
+	id = 987
 	traits = {
-		JAP_samurai_lineage trickster trait_engineer brilliant_strategist politically_connected
+		JAP_samurai_lineage
+		tsf_officer
+		commander_aptitude
+		brilliant_strategist
+		politically_connected
+		tsf_leader
+		tsf_commander
+		trickster
+		trait_engineer
 	}
-	skill = 4
+	skill = 5
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 3
@@ -249,10 +278,19 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "狭霧 尚哉"
-		picture = "85.dds"
-	traits = { offensive_doctrine armor_officer }
+	id = 993
+	picture = "85.dds"
+	traits = {
+		inflexible_strategist
+		offensive_doctrine
+		defensive_doctrine
+		tsf_officer
+		commander_aptitude
+		tsf_leader
+		tsf_commander
+	}
 	skill = 6
-	attack_skill = 9
+	attack_skill = 8
 	defense_skill = 5
 	planning_skill = 2
 	logistics_skill = 4
@@ -260,63 +298,95 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "月詠 真那"
-		picture = "99.dds"
-	traits = { JAP_samurai_lineage armor_officer  }
-	skill = 5
-	attack_skill = 7
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
+	id = 994
+	picture = "99.dds"
+	traits = {
+		JAP_samurai_lineage
+		tsf_officer
+		brilliant_strategist
+		harsh_leader
+		commander_aptitude
+		tsf_leader
+		tsf_commander
+	}
+	skill = 6
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "神代 巽"
-		picture = "46.dds"
-	traits = { JAP_samurai_lineage }
-	skill = 3
-	attack_skill = 6
+	picture = "46.dds"
+	traits = {
+		JAP_samurai_lineage
+		ambusher
+		tsf_officer
+	}
+	skill = 3 
+	attack_skill = 3
 	defense_skill = 1
-	planning_skill = 5
+	planning_skill = 3
 	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "巴 雪乃"
-		picture = "08.dds"
-	traits = { JAP_samurai_lineage trickster career_officer infantry_officer }
+	picture = "08.dds"
+	traits = {
+		JAP_samurai_lineage
+		trickster
+		tsf_officer
+	}
 	skill = 3
-	attack_skill = 4
-	defense_skill = 3
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 5
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "戎 美凪"
-		picture = "63.dds"
-	traits = { JAP_samurai_lineage trait_reckless }
+	picture = "63.dds"
+	traits = {
+		JAP_samurai_lineage
+		trait_reckless
+		tsf_officer
+	}
 	skill = 3
 	attack_skill = 1
-	defense_skill = 6
-	planning_skill = 1
-	logistics_skill = 4
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "真壁 清十郎" #Toshizo
-		picture = "17.dds"
-	traits = { JAP_samurai_lineage brilliant_strategist infantry_officer }
+	picture = "17.dds"
+	traits = {
+		JAP_samurai_lineage
+		brilliant_strategist
+		inflexible_strategist
+		tsf_officer
+		commander_aptitude
+		trickster
+	}
 	skill = 4
 	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
-	name = "駒木 咲代子" #Ando
-		picture = "18.dds"
-	traits = { career_officer }
+	name = "駒木 咲代子"
+	picture = "18.dds"
+	traits = {
+		career_officer
+		tsf_officer
+		tsf_leader
+	}
 	skill = 3
 	attack_skill = 1
 	defense_skill = 3
@@ -327,29 +397,39 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "龍浪 響"
 	picture = "54.dds"
-	traits = { commando }
-	skill = 3
+	traits = {
+		commando
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+	}
+	skill = 3 
 	attack_skill = 4
 	defense_skill = 3
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "千堂 柚香"
-		picture = "75.dds"
-	traits = { inflexible_strategist trait_reckless }
+	picture = "75.dds"
+	traits = {
+		inflexible_strategist
+		trait_reckless
+		tsf_officer
+		tsf_leader
+	}
 	skill = 3
 	attack_skill = 3
 	defense_skill = 4
 	planning_skill = 2
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "伊隅 まりか"
-		picture = "92.dds"
-	traits = { infantry_officer }
+	picture = "92.dds"
+	traits = { career_officer tsf_officer }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 2
@@ -359,19 +439,25 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "伊隅 あきら"
-		picture = "82.dds"
-	traits = { career_officer }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 2
+	picture = "82.dds"
+	traits = { career_officer tsf_officer }
+	skill = 2 
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
 	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "雨宮 まりこ"
-		picture = "81.dds"
-	traits = { JAP_samurai_lineage old_guard cavalry_officer trait_reckless }
+	picture = "81.dds"
+	id = 986
+	traits = {
+		JAP_samurai_lineage
+		old_guard
+		trait_reckless
+		tsf_officer
+	}
 	skill = 2
 	attack_skill = 3
 	defense_skill = 2
@@ -381,19 +467,28 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "崇宰 恭子"
-		picture = "67.dds"
-	traits = { JAP_samurai_lineage old_guard war_hero }
-	skill = 5
-	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 2
-	logistics_skill = 2
+	picture = "67.dds"
+	traits = {
+		JAP_samurai_lineage
+		old_guard
+		politically_connected
+		war_hero
+		tsf_officer
+		commander_aptitude
+		tsf_leader
+		tsf_commander
+	}
+	skill = 7
+	attack_skill = 6
+	defense_skill = 7
+	planning_skill = 5
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "浅葱 みのり"
-		picture = "72.dds"
-	traits = { trait_cautious politically_connected }
+	picture = "72.dds"
+	traits = { trait_cautious politically_connected tsf_officer }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
@@ -403,40 +498,54 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "岩谷 栄二"
-		picture = "95.dds"
-	traits = { cavalry_officer career_officer }
+	picture = "95.dds"
+	traits = { career_officer }
 	skill = 4
 	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 3
+	defense_skill = 2
+	planning_skill = 5
 	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "月詠 真耶"
-		picture = "36.dds"
-	traits = { trickster JAP_samurai_lineage infantry_officer }
-	skill =3
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
+	picture = "36.dds"
+	traits = {
+		JAP_samurai_lineage
+		tsf_officer
+		inflexible_strategist
+		commander_aptitude
+		tsf_leader
+		tsf_commander
+	}
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 6
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "大上 律子"
-		picture = "22.dds"
-	traits = { armor_officer trickster urban_assault_specialist ranger adaptable }
-	skill = 3
-	attack_skill = 7
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 5
+	picture = "22.dds"
+	traits = {
+		tsf_officer
+		trickster
+		urban_assault_specialist
+		ranger
+		adaptable
+		tsf_leader
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
 }
 create_corps_commander = {
-	name = "美桜 乃雫"
-		picture = "33.dds"
-	traits = { }
+	name = "美桜乃 雫"
+	picture = "33.dds"
+	traits = { tsf_officer trait_cautious }
 	skill = 2
 	attack_skill = 1
 	defense_skill = 2
@@ -446,8 +555,13 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "楠本 さやか"
-		picture = "19.dds"
-	traits = { fortress_buster career_officer politically_connected }
+	picture = "19.dds"
+	traits = {
+		trait_engineer
+		fortress_buster
+		career_officer
+		politically_connected
+	} 
 	skill = 3
 	attack_skill = 1
 	defense_skill = 3
@@ -456,8 +570,8 @@ create_corps_commander = {
 }
 create_corps_commander = {
 	name = "松風 諒一"
-		picture = "53.dds"
-	traits = { career_officer trait_cautious }
+	picture = "53.dds"
+	traits = { career_officer trait_cautious tsf_officer }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
@@ -468,21 +582,21 @@ create_corps_commander = {
 ###初期提督を定義###
 create_navy_leader = {
 	name = "Isoroku Yamamoto"
-		picture = "Portrait_Japan_Isoroku_Yamamoto.dds"
+	picture = "Portrait_Japan_Isoroku_Yamamoto.dds"
 	traits = { superior_tactician spotter }
 	skill = 5
 }
 
 create_navy_leader = {
 	name = "Mineichi Koga"
-		picture = "Portrait_Japan_Mineichi_Koga.dds"
+	picture = "Portrait_Japan_Mineichi_Koga.dds"
 	traits = { superior_tactician spotter }
 	skill = 4
 }
 
 create_navy_leader = {
 	name = "Kiyoshi Hasegawa"
-		picture = "Portrait_Japan_Hasegawa_Kiyoshi.dds"
+	picture = "Portrait_Japan_Hasegawa_Kiyoshi.dds"
 	traits = {  }
 	skill = 2
 }
@@ -490,14 +604,14 @@ create_navy_leader = {
 # Keen on planes
 create_navy_leader = {
 	name = "Shigeyoshi Inoue"
-		picture = "Portrait_Japan_Shigeyoshi_Inoue.dds"
+	picture = "Portrait_Japan_Shigeyoshi_Inoue.dds"
 	traits = { air_controller }
 	skill = 1
 }
 
 create_navy_leader = {
 	name = "Nobutake Kondo"
-		picture = "Portrait_Japan_Nobutake_Kondo.dds"
+	picture = "Portrait_Japan_Nobutake_Kondo.dds"
 	traits = { fly_swatter }
 	skill = 3
 }
@@ -518,21 +632,21 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Jisaburo Ozawa"
-		picture = "Portrait_Japan_Jisaburo_Ozawa.dds"
+	picture = "Portrait_Japan_Jisaburo_Ozawa.dds"
 	traits = { blockade_runner superior_tactician }
 	skill = 5
 	}
 
 create_navy_leader = {
 	name = "Zengo Yoshida"
-		picture = "Portrait_Japan_Zengo_Yoshida.dds"
+	picture = "Portrait_Japan_Zengo_Yoshida.dds"
 	traits = {  }
 	skill = 2
 }
 
 create_navy_leader = {
 	name = "Hiroaki Abe"
-		picture = "Portrait_Japan_Hiroaki_Abe.dds"
+	picture = "Portrait_Japan_Hiroaki_Abe.dds"
 	traits = {  }
 	skill = 1
 }
@@ -546,7 +660,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Gengo Hyakutake"
-		picture = "Portrait_Japan_Gengo_Hyakutake.dds"
+	picture = "Portrait_Japan_Gengo_Hyakutake.dds"
 	traits = {  }
 	skill = 3
 }
@@ -570,7 +684,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Battleship Variants
+		### Battleship Variants	
 		create_equipment_variant = {
 			name = "Ise Class"
 			type = battleship_1
@@ -595,7 +709,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Heavy Cruiser Variants
+		### Heavy Cruiser Variants	
 		create_equipment_variant = {
 			name = "Myoko Class"
 			type = heavy_cruiser_1
@@ -608,7 +722,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Light Cruiser Variants
+		### Light Cruiser Variants	
 		create_equipment_variant = {
 			name = "Kuma Class"
 			type = light_cruiser_1
@@ -644,8 +758,8 @@ if = {
 				ship_ASW_upgrade = 2
 				ship_anti_air_upgrade = 2
 			}
-		}
-		### Submarine Variants
+		}	
+		### Submarine Variants	
 		create_equipment_variant = {
 			name = "Kaidai III Class"
 			type = submarine_1
@@ -657,7 +771,7 @@ if = {
 				sub_torpedo_upgrade = 2
 			}
 			obsolete = yes
-		}
+		}	
 }
 if = {
 	limit = { has_dlc = "Man the Guns"}
@@ -756,7 +870,7 @@ if = {
 			}
 			obsolete = yes
 		}
-		### Battleship Variants
+		### Battleship Variants	
 		create_equipment_variant = {
 			name = "Nagato Class"
 			name_group = JAP_BB_HISTORICAL
@@ -779,7 +893,7 @@ if = {
 		create_equipment_variant = {
 			name = "Kongo Class"
 			name_group = JAP_BB_HISTORICAL
-			type = ship_hull_heavy_1
+			type = ship_hull_heavy_2
 			parent_version = 0
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_1
@@ -815,8 +929,8 @@ if = {
 			}
 			obsolete = yes
 		}
-
-		### Heavy Cruiser Variants
+			
+		### Heavy Cruiser Variants			
 		create_equipment_variant = {
 			name = "Myoko Class"
 			type = ship_hull_cruiser_2
@@ -1039,7 +1153,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "Momi Class"
+			name = "Momi Class" 
 			type = ship_hull_light_1
 			name_group = JAP_DD_HISTORICAL
 			parent_version = 0
@@ -1086,8 +1200,8 @@ if = {
 				mid_1_custom_slot = ship_mine_layer_1
 				rear_1_custom_slot = ship_mine_layer_1
 			}
-		}
-		### Submarine Variants
+		}	
+		### Submarine Variants	
 		create_equipment_variant = {
 			name = "Kaidai III Class"
 			type = ship_hull_submarine_1
@@ -1098,7 +1212,7 @@ if = {
 				fixed_ship_engine_slot = sub_ship_engine_1
 				rear_1_custom_slot = ship_torpedo_sub_1
 			}
-		}
+		}	
 		create_equipment_variant = {
 			name = "Ro-26 Class"
 			type = ship_hull_submarine_1
@@ -1121,7 +1235,7 @@ if = {
 			}
 		}
 }
-	# 1939 Start #
+	# 1939 Start #			
 	1939.1.1 = {
 		if = {
 			limit = {
@@ -1139,7 +1253,7 @@ if = {
 					ship_reliability_upgrade = 1
 				}
 			}
-
+			
 			create_equipment_variant = {
 				name = "Kagero Class"
 				type = destroyer_2
@@ -1272,5 +1386,5 @@ if = {
 					rear_1_custom_slot = empty
 				}
 			}
-		}
+		}	
 	}

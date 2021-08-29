@@ -4,7 +4,7 @@ state=
 	name="STATE_559"
 	manpower = 1028895
 	
-	state_category = rural
+	state_category = city
 	
 	history={
 		1999.1.1 = {
@@ -17,7 +17,9 @@ state=
 			12991 3 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 10
+			industrial_complex = 5
+			arms_factory = 2
 			air_base = 1
 			12941 = {
 				naval_base = 2

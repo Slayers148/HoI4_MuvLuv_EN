@@ -1,32 +1,13 @@
 state={
 	id=680
 	name="STATE_680"
-	manpower = 0
-
+	manpower = 324110
+	
 	state_category = wasteland
 
-	history = { 1999.1.1 = {
-			owner = AFR
-			controller = H09
-			add_core_of = AFR
-			remove_core_of = SYR
-			set_state_category = betaland
-
-			H09 = {
-				set_province_controller = 901
-				set_province_controller = 1549
-				set_province_controller = 1578
-				set_province_controller = 1606
-				set_province_controller = 1634
-				set_province_controller = 2013
-				set_province_controller = 3942
-				set_province_controller = 6883
-				set_province_controller = 7513
-				set_province_controller = 10383
-				set_province_controller = 10882
-				set_province_controller = 12316
-				set_province_controller = 12442
-			}
+	history = { 1999.1.1 = { 
+			owner = H09			
+			remove_core_of = H09
 		}
 		owner = FRA
 		victory_points = {
@@ -35,12 +16,12 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = SYR
+		add_core_of = AFR
 
 	}
 
 
 	provinces={
-		901 1549 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442
+		901 1549 1578 1606 1634 2013 3942 6883 7513 10383 10882 12316 12442 
 	}
 }

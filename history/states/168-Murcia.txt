@@ -2,52 +2,28 @@
 state={
 	id=168
 	name="STATE_168"
-	manpower = 0
-
+	manpower = 1007605
+	
 	state_category = town
 
-	history = {
-
-	1999.1.1 = {
-		owner = EUR
-		add_core_of = EUR
-		controller = H12
-		set_state_category = betaland
-
-		H12 = {
-			set_province_controller = 832
-			set_province_controller = 1093
-			set_province_controller = 3835
-			set_province_controller = 4195
-			set_province_controller = 7111
-			set_province_controller = 9903
-			set_province_controller = 10024
-			set_province_controller = 10109
-			set_province_controller = 11807
-			set_province_controller = 11884
-			}
+	history = { 1999.1.1 = { 
+			owner = H12
+			remove_core_of = H12
+			add_core_of = EUR
+			remove_core_of = SPR
 		}
 		owner = SPR
 		victory_points = {
-			10024 1
+			10024 1 
 		}
 		buildings = {
-			infrastructure = 1
-			10024 = {
-				naval_base = 8
-			}
+			infrastructure = 5
+			air_base = 2
 		}
+		add_core_of = SPR
 	}
 
-	if = {
-	limit= { has_dlc = "La Resistance" }
-			remove_core_of = SPR
-	else = {
-			remove_core_of = SPR
-		}
-	}
-	
 	provinces={
-		832 1093 3835 4195 7111 9903 10024 10109 11807 11884
+		832 1093 3835 4195 7111 9903 10024 10109 11807 11884 
 	}
 }

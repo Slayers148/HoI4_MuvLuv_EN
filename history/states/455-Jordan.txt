@@ -2,38 +2,20 @@
 state={
 	id=455
 	name="STATE_455"
-	manpower = 0
-
+	manpower = 932000
+	
 	state_category = rural
 
-	history={ 1999.1.1 = {
-			owner = AFR
-			controller = H09
-			set_state_category = betaland
-
-				H09 = {
-					set_province_controller = 1544
-					set_province_controller = 4017
-					set_province_controller = 4115
-					set_province_controller = 4440
-					set_province_controller = 4562
-					set_province_controller = 4574
-					set_province_controller = 4591
-					set_province_controller = 4603
-					set_province_controller = 7001
-					set_province_controller = 7151
-					set_province_controller = 7170
-					set_province_controller = 10089
-					set_province_controller = 11976
-				}
-			}
+	history={ 1999.1.1 = { 
+			owner = H09			
+			remove_core_of = H09		}
 		owner = ENG
 		buildings = {
 			infrastructure = 3
-			#industrial_complex = 1
+			industrial_complex = 1
 		}
 		victory_points = {
-			7151 1
+			7151 1 
 		}
 
 		add_core_of = AFR
@@ -41,6 +23,6 @@ state={
 	}
 
 	provinces={
-		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976
+		1544 4017 4115 4440 4562 4574 4591 4603 7001 7151 7170 10089 11976 
 	}
 }

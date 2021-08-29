@@ -1,42 +1,43 @@
 state={
 	id=70
 	name="STATE_70"
-	manpower = 0
+	manpower = 1230500
+	
 	state_category = city
-
+	
 	resources={
 		tungsten=1 # was: 2
 	}
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H05
-			add_core_of = EUR
-			set_state_category = betaland
-
-			H05 = {
-				set_province_controller = 541
-				set_province_controller = 3484
-				set_province_controller = 3537
-				set_province_controller = 9539
-				set_province_controller = 9692
-				set_province_controller = 11522
-				set_province_controller = 11539
-			}
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
+			add_core_of = EEA
+			remove_core_of = CZE
 		}
 		owner = CZE
 		victory_points = {
-			9692 10
+			9692 10 
 		}
 		victory_points = {
 			11539 5
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 3
+		}
+		add_core_of = CZE
+
+		1939.3.14 = {
+			owner = SLO
+			controller = SLO
+			add_core_of = SLO
 		}
 	}
 
 	provinces={
-		541 3484 3537 9539 9692 11522 11539
+		541 3484 3537 9539 9692 11522 11539 
 	}
 }

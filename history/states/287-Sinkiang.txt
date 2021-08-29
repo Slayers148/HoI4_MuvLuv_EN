@@ -4,9 +4,9 @@ state={
 	manpower=100000000
 	state_category=hive
 	buildings_max_level_factor = 10.000
-
+	
 	provinces={
-		4973 8042 8086 10885 10911 12864 13248 13249 13250 13251 13252 13253 13254 13255 13256 13257 13258 13259 13260 13261
+		4973 8042 8086 10885 10911 12864 13248 13249 13250 13251 13252 13253 13255 13256 13257 13258 13259 13260 13261
 	}
 #	resources={
 #		steel=250
@@ -18,56 +18,41 @@ state={
 #	}
 
 	history={
-
-		### HIVE ###
-
 		owner = BET
 		add_core_of = BET
 		add_core_of = UNI
 
 		#ボパール陥落用
 		add_claim_by = H13
-
+		
 		buildings = {
 			infrastructure = 10
 			arms_factory = 5
 			industrial_complex = 5
-			air_base = 1
 		}
-
+		
 		1999.1.1 = {
-			buildings = {
-				hive = 1
-				radar_station = 6
-			         anti_air_building = 1
 
-				13254 = { bunker = 5 }
-			}
 		}
+		
 
 		victory_points = {
-			13254 200
+			13252 20
 		}
 		victory_points = {
-			13252 10
+			13251 20
 		}
 		victory_points = {
-			13251 5
+			13256 20
 		}
 		victory_points = {
-			13256 5
+			13253 20
 		}
 		victory_points = {
-			13253 5
-		}
-		victory_points = {
-			13248 5
+			13248 20
 		}
 		victory_points = {
 			13255 1
-		}
-		victory_points = {
-			13249 1
 		}
 		victory_points = {
 			13250 1
@@ -76,16 +61,16 @@ state={
 			13257 1
 		}
 		victory_points = {
-			13258 1
+			13258 5
 		}
 		victory_points = {
-			13259 1
+			13259 5
 		}
 		victory_points = {
-			13260 1
+			13260 20
 		}
 		victory_points = {
-			13261 1
+			13261 20
 		}
 	}
 }

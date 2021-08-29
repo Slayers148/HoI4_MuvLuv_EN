@@ -894,208 +894,136 @@ technologies = {
 		}
 	}
 
-	
+	###ロケット技術www###
 	experimental_rockets = {
 
-		enable_building = {
-			building = rocket_site
-			level = 2
+	 enable_equipments = { UNI_Manipulator_improvement }
+		
+		MVLV_tsf_battalion = { 
+			maximum_speed = 0.01
 		}
 		
-		path = {
-			leads_to_tech = rocket_engines 
-			research_cost_coeff = 1
-		}
+		path = { leads_to_tech = rocket_engines research_cost_coeff = 1 }
+		path = { leads_to_tech = jet_engines  research_cost_coeff = 1 }
 		
-		research_cost = 1.5
-		start_year = 1943
+		research_cost = 4
+		start_year = 1938
 		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 0 }
-		}
+		folder = { name = electronics_folder position = { x = 0 y = 0 } }
 	
-		ai_will_do = {
-			factor = 1
-		}
+		ai_will_do = { factor = 1 }
 		
-		categories = {
-			rocketry
-		}
+		categories = { MVLV_tsf_tech }
 	}
 	
 	rocket_engines = {
-
-		show_equipment_icon = yes
-
-		# can build v1s/rocket planes
-		enable_equipments = {
-			rocket_interceptor_equipment_1
-			guided_missile_equipment_1
-		}
 		
-		rocket_artillery = {
-			soft_attack = 0.05
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		mot_rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.05
-		}
-		
-		path = {
-			leads_to_tech = improved_rocket_engines 
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = jet_engines 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 2
-		start_year = 1944
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 2 }
-		}
-			folder = {
-			name = secret_weapons_folder
-			position = { x = 10 y = 0 }
-		}
+	    enable_equipments = { UNI_Manipulator_improvement }
+		    MVLV_tsf_battalion = { 
+			    maximum_speed = 0.02
+			    reliability_factor = 0.01
+			}
+	        
+		path = { leads_to_tech = improved_rocket_engines research_cost_coeff = 1 }
 		
 		
-		ai_will_do = {
-			factor = 1
-		}
+		research_cost = 4
+		start_year = 1940
 		
-		categories = {
-			rocketry
-		}		
+		folder = { name = electronics_folder position = { x = 0 y = 2 } }
+		folder = { name = secret_weapons_folder position = { x = 10 y = 0 } }
+		
+		ai_will_do = { factor = 1 }
+		
+		categories = { MVLV_tsf_tech }	
 	}
 	
 	improved_rocket_engines = {
+		
+		enable_equipments = { UNI_Manipulator_improvement }
+		    MVLV_tsf_battalion = { 
+				maximum_speed = 0.02 
+			    reliability_factor = 0.01 
+			}
 
-		show_equipment_icon = yes
+		path = { leads_to_tech = advanced_rocket_engines research_cost_coeff = 1 }
 		
-		# can build v2s
+		research_cost = 4
+		start_year = 1942
 		
-		enable_equipments = {
-			rocket_interceptor_equipment_2
-			guided_missile_equipment_2
-		}
+		folder = { name = electronics_folder position = { x = 0 y = 4 } }
 		
-		rocket_artillery = {
-			soft_attack = 0.05
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		mot_rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.05
-		}
+		ai_will_do = { factor = 1 }
 		
-		path = {
-			leads_to_tech = advanced_rocket_engines 
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		start_year = 1945
-		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			rocketry
-		}
+		categories = { MVLV_tsf_tech }
 	}
 	
 	advanced_rocket_engines = {
-
-		show_equipment_icon = yes
-
-		# can build ICBMs?
 		
-		enable_equipments = {
-			rocket_interceptor_equipment_3
-			guided_missile_equipment_3
-		}
+		enable_equipments = { UNI_Manipulator_improvement }
 		
-		rocket_artillery = {
-			soft_attack = 0.05
-		}
-		rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		mot_rocket_artillery_brigade = {
-			soft_attack = 0.05
-		}
-		motorized_rocket_brigade = {
-			soft_attack = 0.05
-		}
+		    MVLV_tsf_battalion = { 
+				maximum_speed = 0.05
+	            reliability_factor = 0.05 
+			}
 		
-		research_cost = 1.5
-		start_year = 1946
+		research_cost = 4
+		start_year = 1944
 		
-		folder = {
-			name = electronics_folder
-			position = { x = 0 y = 6 }
-		}
+		folder = { name = electronics_folder position = { x = 0 y = 6 } }
 		
-		ai_will_do = {
-			factor = 1
-		}
+		ai_will_do = { factor = 1 }
 		
-		categories = {
-			rocketry
-		}
+		categories = { MVLV_tsf_tech }
 	}
 	
 	jet_engines = {
-	
-		folder = {
-			name = electronics_folder
-			position = { x = 2 y = 2 }
-		}
-		
-		start_year = 1944
-		research_cost = 2
 
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 11 }
-		}
-		
-		desc = "JET_ENGINES_SPECIAL"
+	    enable_equipments = { UNI_Manipulator_improvement }
+	        MVLV_asa_battalion = { 
+				maximum_speed = 0.02 
+	            reliability_factor = 0.02 
+			}
+            MVLV_tsa_battalion = { 
+				maximum_speed = 0.02
+	            reliability_factor = 0.02
+			}
 
-		on_research_complete = {
-			custom_effect_tooltip = JET_ENGINES_RESEARCHED
-		}
+		folder = { name = electronics_folder position = { x = 2 y = 2 } }
 		
-		ai_will_do = {
-			factor = 1
-		}
+		start_year = 1943
+		research_cost = 4
+        
+		path = { leads_to_tech = jet_engines_2  research_cost_coeff = 1 }
+
+		ai_will_do = { factor = 1 }
 		
-		categories = {
-			rocketry
-			jet_technology
-		}
+		categories = { MVLV_tsf_tech }
 	}
 	
+    jet_engines_2 = {
+
+	    enable_equipments = { UNI_Manipulator_improvement }
+		    MVLV_tsf_battalion = { maximum_speed = 0.02 }
+	        MVLV_asa_battalion = { 
+				maximum_speed = 0.03
+			    armor_value = 0.03 
+			}
+	        MVLV_tsa_battalion = {
+				maximum_speed = 0.03
+			    armor_value = 0.03 
+			}
+
+		folder = { name = electronics_folder position = { x = 2 y = 4 } }
+		
+		start_year = 1945
+		research_cost = 4
+		
+		ai_will_do = { factor = 1 }
+		
+		categories = { MVLV_tsf_tech }
+	}
+
 	atomic_research = {
 
 		research_speed_factor = 0.04
@@ -1193,7 +1121,7 @@ technologies = {
 			factor = 10
 		}
 		
-		nuclear_production = 5
+		nuclear_production = 1
 		
 		categories = {
 			nuclear

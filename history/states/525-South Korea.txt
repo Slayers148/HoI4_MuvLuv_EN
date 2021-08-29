@@ -2,68 +2,31 @@ state=
 {
 	id=525
 	name="STATE_525"
-	manpower = 0
-
+	manpower = 14284105
+	
 	state_category = town
-	history={
-	1999.1.1 = {
-			owner = GEU
-			add_core_of = GEU
-			controller = H20
-			set_state_category = betaland
-
-			H20 = {
-				set_province_controller = 1054
-				set_province_controller = 1081
-				set_province_controller = 1100
-				set_province_controller = 1148
-				set_province_controller = 1177
-				set_province_controller = 4004
-				set_province_controller = 4056
-				set_province_controller = 4086
-				set_province_controller = 4103
-				set_province_controller = 4126
-				set_province_controller = 7021
-				set_province_controller = 7121
-				set_province_controller = 7125
-				set_province_controller = 7175
-				set_province_controller = 7204
-				set_province_controller = 7221
-				set_province_controller = 9936
-				set_province_controller = 10036
-				set_province_controller = 10085
-				set_province_controller = 10110
-				set_province_controller = 10115
-				set_province_controller = 11912
-				set_province_controller = 11948
-				set_province_controller = 11958
-				set_province_controller = 11977
-				set_province_controller = 11992
-				set_province_controller = 12011
-				set_province_controller = 12060
-				set_province_controller = 12085
-				set_province_controller = 12089
-			}
-
+	history={ 
+		1999.1.1 = { 
+			owner = H20
+			remove_core_of = H20
 		}
 		owner = GEU
 		buildings = {
 			infrastructure = 4
-			#arms_factory = 1
-			#dockyard = 1
-			4056 = { naval_base = 3 }
+			arms_factory = 1
+			dockyard = 1
 		}
 		victory_points = {
-			4056 1
+			4056 1 
 		}
 		victory_points = {
-			7125 3
+			7125 3 
 		}
 
 		add_core_of = GEU
 
 	}
 	provinces={
-		1054 1081 1100 1148 1177 4004 4056 4086 4103 4126 7021 7121 7125 7175 7204 7221 9936 10036 10085 10110 10115 11912 11948 11958 11977 11992 12011 12060 12085 12089
+		1054 1081 1100 1148 1177 4004 4056 4086 4103 4126 7021 7121 7125 7175 7204 7221 9936 10036 10085 10110 10115 11912 11948 11958 11977 11992 12011 12060 12085 12089 
 	}
 }

@@ -2,39 +2,32 @@
 state={
 	id=184
 	name="STATE_184"
-	manpower = 0
-
+	manpower = 382500
+	
 	state_category = rural
-
+	
 	resources={
 		chromium=11 # was: 16
 	}
 
 	history = {
-		1999.1.1 = {
-			owner = EUR
-			controller = H11
+		1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 6990
-				set_province_controller = 9791
-				set_province_controller = 9930
-				set_province_controller = 11774
-				set_province_controller = 11905
-			}
+			remove_core_of = GRE
+			remove_core_of = BUL
 		}
 		victory_points = {
 			11905 1
 		}
 		owner = GRE
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 	}
 
 	provinces={
-		6990 9791 9930 11774 11905
+		6990 9791 9930 11774 11905 
 	}
 }

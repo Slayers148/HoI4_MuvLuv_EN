@@ -1,45 +1,33 @@
 state={
 	id=617
 	name="STATE_617"
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category=rural
 
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H06
-			set_state_category = betaland
-
-			H06 = {
-				set_province_controller = 1703
-				set_province_controller = 4682
-				set_province_controller = 4709
-				set_province_controller = 4770
-				set_province_controller = 7702
-				set_province_controller = 7792
-				set_province_controller = 7850
-				set_province_controller = 10545
-				set_province_controller = 10614
-				set_province_controller = 12526
-				set_province_controller = 12601
-				set_province_controller = 12656
-			}
+	history = { 1999.1.1 = { 
+			owner = H06
+			remove_core_of = H06
 
 			#BETA本国陥落用
 			add_claim_by = BET
 		}
 		owner = PRC
+		#add_core_of = SIK
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+			industrial_complex = 2
+
 		}
 		victory_points = {
-			4709 3
+			4709 3 
 		}
+
 	}
 
 	provinces={
-		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656
+		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656 
 	}
+	manpower=1080500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

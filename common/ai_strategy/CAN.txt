@@ -92,6 +92,11 @@ CAN_defend_doctrin = {
 	}
 	ai_strategy = {
 		type = dont_defend_ally_borders
+		id = EEA
+		value = 100
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
 		id = JAP
 		value = 100
 	}

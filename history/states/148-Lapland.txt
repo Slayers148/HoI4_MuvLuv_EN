@@ -3,59 +3,49 @@
 state={
 	id=148
 	name="STATE_148"
-	manpower = 0
+	manpower = 35000000
+	
 	state_category = rural
-
+	
+#	resources={
+#		steel=50
+#		oil=50
+#		aluminium=50
+#		rubber=5
+#		tungsten=50
+#		chromium=50
+#	}
+	
 	history = {
 		1999.1.1 = {
-			owner = EUR
-			controller = H08
+			owner = H08
+			add_core_of = H08
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H08 = {
-				set_province_controller = 103
-				set_province_controller = 124
-				set_province_controller = 162
-				set_province_controller = 167
-				set_province_controller = 203
-				set_province_controller = 2992
-				set_province_controller = 3026
-				set_province_controller = 3055
-				set_province_controller = 3069
-				set_province_controller = 3097
-				set_province_controller = 3107
-				set_province_controller = 3153
-				set_province_controller = 3156
-				set_province_controller = 3158
-				set_province_controller = 3193
-				set_province_controller = 6045
-				set_province_controller = 6061
-				set_province_controller = 6076
-				set_province_controller = 6087
-				set_province_controller = 6128
-				set_province_controller = 6137
-				set_province_controller = 6142
-				set_province_controller = 6179
-				set_province_controller = 9112
-				set_province_controller = 9189
-				set_province_controller = 9223
-				set_province_controller = 11030
-				set_province_controller = 11115
-				set_province_controller = 11125
-				set_province_controller = 11130
-				set_province_controller = 11164
-				set_province_controller = 11167
-				set_province_controller = 11204
+			remove_core_of = FIN
+			
+			victory_points = {
+				30 100
 			}
-
+		
 			buildings = {
-				infrastructure = 1
+				infrastructure = 7
+#			        anti_air_building = 5
+				arms_factory = 1
+				industrial_complex = 2
+				air_base = 4
+				hive = 1
+                                radar_station = 4
+				30 = {bunker = 5}
 			}
 		}
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = FIN
 	}
 
 	provinces={
-		103 124 162 167 203 2992 3026 3055 3069 3097 3107 3153 3156 3158 3193 6045 6061 6076 6087 6128 6137 6142 6179 9112 9189 9223 11030 11115 11125 11130 11164 11167 11204
+		30 103 124 162 167 203 2992 3026 3055 3069 3097 3107 3153 3156 3158 3193 6045 6061 6076 6087 6128 6137 6142 6179 9112 9189 9223 11030 11115 11125 11130 11164 11167 11204 
 	}
 }

@@ -1,44 +1,36 @@
 
 state={
 	id=32
-	name="STATE_32"
-	manpower = 0
-
+	name="STATE_32" 
+	manpower = 1007500
+	
 	state_category = town
-
+	
 	resources={
 		steel=30 # was: 56
 		aluminium=30 # was: 58
 	}
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H11
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 762
-				set_province_controller = 780
-				set_province_controller = 3589
-				set_province_controller = 3768
-				set_province_controller = 6784
-				set_province_controller = 11713
-			}
+			remove_core_of = FRA
 
 			#リヨン陥落用
 			add_claim_by = H12
 		}
 		owner = FRA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 		}
 		victory_points = {
-			3768 1
+			3768 1 
 		}
+		add_core_of = FRA
 	}
 
 	provinces={
-		762 780 3589 3768 6784 11713
+		762 780 3589 3768 6784 11713 
 	}
 }
