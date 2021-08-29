@@ -2,52 +2,33 @@
 state={
 	id=412
 	name="STATE_412"
-	manpower = 0
+	manpower = 918619
 	resources={
 		oil=10 # was: 12
 	}
 
 
 	state_category = rural
-	history = { 1999.1.1 = {
-			owner = AFR
-			controller = H02
-			add_core_of = AFR
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 			remove_core_of = PER
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 4959
-				set_province_controller = 4966
-				set_province_controller = 7982
-				set_province_controller = 8117
-				set_province_controller = 10797
-				set_province_controller = 10881
-				set_province_controller = 12780
-				set_province_controller = 12832
-				set_province_controller = 12863
-			}
+			add_core_of = AFR
 		}
 		owner = PER
 		victory_points = {
-			8117 1
+			8117 1 
 		}
 		victory_points = {
-			7982 3
+			7982 3 
 		}
 		buildings = {
 			infrastructure = 2
-			7982 = {
-				naval_base = 4
-			}
-			12832 = {
-				naval_base = 2
-			}
 		}
 		add_core_of = PER
 	}
 
 	provinces={
-		4959 4966 7982 8117 10797 10881 12780 12832 12863
+		4959 4966 7982 8117 10797 10881 12780 12832 12863 
 	}
 }

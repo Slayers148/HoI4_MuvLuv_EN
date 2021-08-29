@@ -2,44 +2,30 @@
 state={
 	id=411
 	name="STATE_411" # Isfahan
-	manpower = 0
+	manpower = 885272
 	resources={
 		oil=12 # was: 14
 	}
 	state_category = rural
+	
 
-
-	history = { 1999.1.1 = {
-			owner = AFR
-			controller = H02
-			add_core_of = AFR
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 			remove_core_of = PER
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 1963
-				set_province_controller = 2026
-				set_province_controller = 4928
-				set_province_controller = 4983
-				set_province_controller = 5067
-				set_province_controller = 8031
-				set_province_controller = 8074
-				set_province_controller = 10828
-				set_province_controller = 12756
-			}
-
+			add_core_of = AFR
 		}
 		owner = PER
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
-			2026 1
+			2026 1 
 		}
 		add_core_of = PER
 	}
 
 	provinces={
-		1963 2026 4928 4983 5067 8031 8074 10828 12756
+		1963 2026 4928 4983 5067 8031 8074 10828 12756 
 	}
 }

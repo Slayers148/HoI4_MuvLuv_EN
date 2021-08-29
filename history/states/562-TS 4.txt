@@ -16,8 +16,8 @@ state={
 
 	history = {
 		1999.1.1 = {
-			owner = H26
-			add_core_of = H26
+			owner = H23
+			remove_core_of = H23
 		}
 		owner = SOV
 		buildings = {
@@ -27,6 +27,6 @@ state={
 	}
 
 	provinces={
-		1714 1805 1865 4810 4881 7772 10572 10598 11607 12518 12551 12650 12683 13219
+		1714 1805 4810 4881 7772 10572 10598 12518 12650
 	}
 }

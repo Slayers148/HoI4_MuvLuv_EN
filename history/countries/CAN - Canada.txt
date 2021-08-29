@@ -47,10 +47,9 @@ capital = 276 #首都
 		basic_light_tank = 1
 		improved_light_tank = 1
 		basic_medium_tank = 1
-		advanced_medium_tank = 1
 		improved_medium_tank = 1
-				antiair5 = 1
-							basic_medium_spaa =1
+		AA_tankI = 1
+		AA_tankII = 1
 		early_destroyer = 1
 		mtg_transport = 1
 		mtg_landing_craft = 1
@@ -79,22 +78,28 @@ capital = 276 #首都
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
 		dispersed_industry5 = 1
-		improved_decryption = 1
 		
 		###陸軍ドクトリン###
 		
 		###TSF###
-		generic_basic_concept_research = 1
-		generic_1st_tsf_low = 1
-		generic_1st_tsf_high = 1
-		generic_Assault_gun_improvement = 1
-		generic_2nd_tsf_low = 1
-		generic_asa_1st = 1
-		generic_Manipulator_improvement = 1
+		UNI_basic_concept_research = 1
+		UNI_Assault_gun_improvement_1 = 1
+		UNI_Blade_improvement_1 = 1
+		UNI_Schurzen_1 = 1
+#		UNI_Jumping_unit_improvement = 1
+		UNI_Manipulator_improvement = 1
+#		UNI_Carrying_ammunition_increase = 1
+		generic_F-4 = 1
+		generic_F-5 = 1
+		generic_F-16 = 1
+		generic_A-6 = 1
 		
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
+
+		###戦術###
+		human_combat_tactics = 1
 	}
 	
 	add_tech_bonus = { #工業バフ
@@ -116,7 +121,9 @@ capital = 276 #首都
 	add_ideas = { #初期国家精神を定義
 		mvlv_nuclear_winter
 		mvlv_license
-		mvlv_arms_build_up
+                CAN_atomic
+                CAN_us
+                MVLV_UNF
 	}
 	
 	set_convoys = 100 #初期輸送船数を定義
@@ -126,12 +133,12 @@ set_war_support = 0.1 #初期戦争協力度を定義
 
 set_research_slots = 3 #初期研究枠を定義
 
-army_experience = 500 #初期陸軍経験値を定義
+army_experience = 50 #初期陸軍経験値を定義
 
 add_political_power = 0 #初期政治力を定義
 
-add_offsite_building = { type = arms_factory level = 10 } #MAP外軍需を定義
-add_offsite_building = { type = industrial_complex level = 10 } #MAP外民需を定義
+add_offsite_building = { type = arms_factory level = 15 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 15 } #MAP外民需を定義
 #add_offsite_building = { type = dockyard level = 20 } #MAP外海軍工廠を定義
 
 set_politics = { #初期政体を定義
@@ -149,10 +156,10 @@ set_popularities = { #初期支持率を定義
 
 ###各政体における指導者を定義###
 create_country_leader = {
-	name = "Mackenzie King"
+	name = "ジャン クレティエン"
 	desc = "POLITICS_MACKENZIE_KING_DESC"
-	picture = "Portrait_Canada_Mackenzie_King.dds"
-	expire = "1965.1.1"
+	picture = "JeanChretien.dds"
+	expire = "2099.1.1"
 	ideology = liberalism
 	traits = {
 		#
@@ -193,6 +200,16 @@ create_country_leader = {
 }
 
 ###初期将軍及び元帥を定義###
+create_corps_commander = {
+	name = "デリック アイアンサイド"
+	picture = "derik.dds"
+	traits = { armor_officer commando }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 3
+}
 create_corps_commander = {
 	name = "Thomas Victor Anderson"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"

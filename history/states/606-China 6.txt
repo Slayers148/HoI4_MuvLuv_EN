@@ -1,51 +1,43 @@
 state={
 	id=606
 	name="STATE_606"
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category=town
 	resources={
 		steel=11.000
 	}
 
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H16
-			set_state_category = betaland
-
-			H16 = {
-				set_province_controller = 1083
-				set_province_controller = 1146
-				set_province_controller = 4079
-				set_province_controller = 4158
-				set_province_controller = 4203
-				set_province_controller = 7035
-				set_province_controller = 7094
-				set_province_controller = 7222
-				set_province_controller = 9937
-				set_province_controller = 10008
-				set_province_controller = 10017
-				set_province_controller = 10040
-				set_province_controller = 10064
-				set_province_controller = 10079
-				set_province_controller = 11916
-				set_province_controller = 11994
-				set_province_controller = 12036
-				set_province_controller = 12061 
-			}
+	history = { 1999.1.1 = { 
+			owner = H16
+			remove_core_of = H16
 		}
 		owner = PRC
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
+			industrial_complex = 1
+
 		}
 		victory_points = {
-			7222 1
+			7222 1 
 		}
+		1938.10.25 = {
+			controller = JAP
+			buildings = {
+				industrial_complex = 3
+				infrastructure = 6
+				air_base = 1
+				arms_factory = 1
+
+			}
+
+		}
+
 	}
 
 	provinces={
-		1083 1146 4079 4158 4203 7035 7094 7222 9937 10008 10017 10040 10064 10079 11916 11994 12036 12061
+		1083 1146 4079 4158 4203 7035 7094 7222 9937 10008 10017 10040 10064 10079 11916 11994 12036 12061 
 	}
+	manpower=18265400
+	buildings_max_level_factor=1.000
+	state_category=town
 }

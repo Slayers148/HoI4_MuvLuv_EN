@@ -2,42 +2,30 @@
 state={
 	id=11
 	name="STATE_11"
-	manpower = 0
-
+	manpower = 1353130
+	
 	state_category = town
-
-	history = { 1999.1.1 = {
-			owner = SOV
-			controller = H05
+	
+	history = { 1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
 			add_core_of = SOV
-			set_state_category = betaland
-
-			H05 = {
-				set_province_controller = 327
-				set_province_controller = 3272
-				set_province_controller = 6281
-				set_province_controller = 6296
-				set_province_controller = 6407
-				set_province_controller = 9246
-				set_province_controller = 9357
-				set_province_controller = 9374
-				set_province_controller = 9404
-				set_province_controller = 9438
-				set_province_controller = 11226
-				set_province_controller = 11312
-				set_province_controller = 11498
-			}
+			remove_core_of = LIT
 		}
 		owner = LIT
 		victory_points = {
 			6296 5
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
 		}
+		add_core_of = LIT
 	}
 
 	provinces={
-		327 3272 6281 6296 6407 9246 9357 9374 9404 9438 11226 11312 11498
+		327 3272 6281 6296 6407 9246 9357 9374 9404 9438 11226 11312 11498 
 	}
 }

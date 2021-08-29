@@ -2,64 +2,46 @@
 state={
 	id=527
 	name="STATE_527"
-	manpower = 0
+	manpower = 35000000
 	state_category = city
+#	resources={
+#		steel=50
+#		oil=50
+#		aluminium=50
+#		rubber=5
+#		tungsten=50
+#		chromium=50
+#	}
 
-	history = {
-		1999.1.1 = {
-			owner = GEU
-			controller = H20
-			set_state_category = betaland
-
-			H20 = {
-				set_province_controller = 848
-				set_province_controller = 852
-				set_province_controller = 898
-				set_province_controller = 906
-				set_province_controller = 912
-				set_province_controller = 959
-				set_province_controller = 978
-				set_province_controller = 1003
-				set_province_controller = 3803
-				set_province_controller = 3852
-				set_province_controller = 3860
-				set_province_controller = 3904
-				set_province_controller = 3912
-				set_province_controller = 3981
-				set_province_controller = 4052
-				set_province_controller = 4107
-				set_province_controller = 6822
-				set_province_controller = 6922
-				set_province_controller = 6928
-				set_province_controller = 6944
-				set_province_controller = 6963
-				set_province_controller = 7155
-				set_province_controller = 7171
-				set_province_controller = 9790
-				set_province_controller = 9795
-				set_province_controller = 9899
-				set_province_controller = 9918
-				set_province_controller = 9981
-				set_province_controller = 10065
-				set_province_controller = 10083
-				set_province_controller = 11770
-				set_province_controller = 11775
-				set_province_controller = 11828
-				set_province_controller = 11835
-				set_province_controller = 11878
-				set_province_controller = 11896
-				set_province_controller = 11915
-				set_province_controller = 12040
+        
+	history = { 
+		1999.1.1 = { 
+			owner = H20
+			add_core_of = H20
+			
+			buildings = {
+				hive = 1
 			}
 		}
 		owner = GEU
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
+                        radar_station = 3
+			industrial_complex = 1
+12040 = { bunker = 3 }
+7070 = { bunker = 3 }
+9981 = { bunker = 3 }
+848 = { bunker = 3 }
 		}
+		
+		victory_points = {
+                        7070 100
+		}	
+
 		add_core_of = GEU
 	}
 
 	provinces={
-		848 852 898 906 912 959 978 1003 3803 3852 3860 3904 3912 3981 4052 4107 6822 6922 6928 6944 6963 7155 7171 9790 9795 9899 9918 9981 10065 10083 11770 11775 11828 11835 11878 11896 11915 12040
+		848 852 898 906 912 959 978 1003 3803 3852 3860 3904 3912 3981 4052 4107 6822 6922 6928 6944 6963 7070 7155 7171 9790 9795 9899 9918 9981 10065 10083 11770 11775 11828 11835 11878 11896 11915 12040 
 	}
 }

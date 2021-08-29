@@ -131,6 +131,12 @@ H18_defend_doctrine = {
 		id = H21
 		value = 100
 	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H23
+		value = 100
+	}
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -142,6 +148,34 @@ H18_defend_doctrine = {
 		type = dont_defend_ally_borders
 		id = H26
 		value = 100
+	}
+}
+
+###近隣国家がステートとられたら援軍を出す###
+###自国家が60師団以上になったら援軍を出す###
+H18_frontline_def = {
+	enable = {
+		is_ai = yes
+		has_war = yes
+		date > 1998.12.31
+		original_tag = H18
+		
+		OR = {
+			H16 = { surrender_progress > 0.1 }
+			any_state = {
+				is_owned_by = H16
+				NOT = { is_controlled_by = H16}
+				is_capital = no
+			}
+			check_variable = { num_divisions > var_hive_aliment_H18 }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = H16
+		value = 1
 	}
 }
 

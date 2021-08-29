@@ -123,6 +123,12 @@ H07_defend_doctrine = {
 		id = H21
 		value = 100
 	}
+	
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = H23
+		value = 100
+	}
 
 	ai_strategy = {
 		type = dont_defend_ally_borders
@@ -138,30 +144,30 @@ H07_defend_doctrine = {
 }
 
 ###近隣国家がステートとられたら援軍を出す###
-#H07_frontline_def = {
-#	enable = {
-#		is_ai = yes
-#		date > 1998.12.31
-#		original_tag = H07
-#
-#		OR = {
-#			H12 = { surrender_progress > 0.1 }
-#			any_state = {
-#				is_owned_by = H12
-#				NOT = { is_controlled_by = H12}
-#				is_capital = no
-#			}
-#			check_variable = { num_divisions > var_hive_aliment_H07 }
-#		}
-#	}
-#	abort_when_not_enabled = yes
-#
-#	ai_strategy = {
-#		type = force_defend_ally_borders
-#		Id = H12
-#		value = 1
-#	}
-#}
+H07_frontline_def = {
+	enable = {
+		is_ai = yes
+		date > 1998.12.31
+		original_tag = H07
+		
+		OR = {
+			H12 = { surrender_progress > 0.1 }
+			any_state = {
+				is_owned_by = H12
+				NOT = { is_controlled_by = H12}
+				is_capital = no
+			}
+			check_variable = { num_divisions > var_hive_aliment_H07 }
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = force_defend_ally_borders
+		Id = H12
+		value = 1
+	}
+}
 
 #H07_template_design = {
 #	enable = {

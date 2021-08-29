@@ -3,10 +3,10 @@ state=
 	id=100
 	name="STATE_100"
 	manpower = 115870
-
+	
 	state_category = rural
-
-
+	
+	
 	history=
 	{
 		1999.1.1 = {
@@ -22,6 +22,9 @@ state=
 			air_base = 5
 			12674 ={
 				naval_base = 8
+			}
+			12689 ={
+				naval_base = 3
 			}
 		}
 		add_core_of = DEN

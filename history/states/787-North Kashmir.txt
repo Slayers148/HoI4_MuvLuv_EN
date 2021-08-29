@@ -1,21 +1,13 @@
 state={
 	id=787
 	name="STATE_787" # Northern Kashmir
-	manpower = 0
-
+	manpower = 1415800
+	
 	state_category = rural
 
-	history = { 1999.1.1 = {
-			owner = GEU
-			controller = H02
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 1910
-				set_province_controller = 2041
-				set_province_controller = 2084
-				set_province_controller = 10821
-			}
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 		}
 		victory_points = {
 			1910 1
@@ -24,12 +16,13 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		#add_core_of = PAK
+		#add_core_of = RAJ
 		add_core_of = GEU
-		add_core_of = CHI
-		add_core_of = PRC
+
 	}
 
 	provinces={
-		1910 2041 2084 10821
+		1910 2041 2084 10821 
 	}
 }

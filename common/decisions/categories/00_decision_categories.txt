@@ -1,3 +1,30 @@
+debug_decisions = {
+	icon = generic_research
+	visible = {
+		is_debug = yes
+	}
+}
+
+show_changelog = {
+	icon = generic_propaganda
+
+	allowed = {
+		NOT = { is_in_faction_with = BET }
+	}
+	
+	priority = -100
+}
+
+show_setup = {
+	icon = generic_propaganda
+
+	allowed = {
+		NOT = { is_in_faction_with = BET }
+	}
+	
+	priority = -100
+}
+
 propaganda_efforts = {
 	icon = generic_propaganda
 

@@ -119,6 +119,13 @@ division_template = {
 		MVLV_beta_fort = { x = 3 y = 4 }
 	}
 }
+division_template = {
+	name = "SRF class division"
+	division_names_group = BET_SRF_01
+	regiments = {
+		MVLV_beta_srf = { x = 0 y = 0 }
+	}
+}
 
 units  = {
 	division = {

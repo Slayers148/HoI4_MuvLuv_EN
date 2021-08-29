@@ -1,41 +1,26 @@
 state={
 	id=744
 	name="STATE_744"
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category = town
+	provinces={
+		1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713 
+	}
 
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H16
-			set_state_category = betaland
-
-			H16 = {
-				set_province_controller = 1976
-				set_province_controller = 2006
-				set_province_controller = 4167
-				set_province_controller = 4256
-				set_province_controller = 4295
-				set_province_controller = 5092
-				set_province_controller = 7301
-				set_province_controller = 7406
-				set_province_controller = 7418
-				set_province_controller = 10257
-				set_province_controller = 12713 
-			}
+	history = { 1999.1.1 = { 
+			owner = H16
+			remove_core_of = H16
 		}
 		owner = PRC
 		add_core_of = PRC
 		add_core_of = CHI
 		victory_points = {
-			7418 1
+			7418 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 3
 		}
 
 	}
-	provinces={
-		1976 2006 4167 4256 4295 5092 7301 7406 7418 10257 12713
-	}
+	manpower=9000000
+	buildings_max_level_factor=1.000
+	state_category = town
 }

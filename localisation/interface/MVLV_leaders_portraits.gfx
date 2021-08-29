@@ -1,0 +1,59 @@
+spriteTypes = {	
+	#jap leader gfx
+	
+	SpriteType = {
+		name = "GFX_Portrait_denka"
+		textureFile = "gfx//leaders//JAP//denka.dds"
+	}	
+	SpriteType = {
+		name = "GFX_Portrait_superior_existance"
+		textureFile = "gfx//leaders//BET//cbth5-jlbbi.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_yui"
+		textureFile = "gfx//leaders//JAP//yui.dds"
+	}
+
+	#BETA leaders
+	
+    SpriteType = {
+		name = "GFX_Portrait_heisi"
+		textureFile = "gfx//leaders//BET//heisi.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_kousen"
+		textureFile = "gfx//leaders//BET//kousen.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_sensya"
+		textureFile = "gfx//leaders//BET//sensya.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_totugeki"
+		textureFile = "gfx//leaders//BET//totugeki.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_tousi"
+		textureFile = "gfx//leaders//BET//tousi.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_yougeki"
+		textureFile = "gfx//leaders//BET//yougeki.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_yousai"
+		textureFile = "gfx//leaders//BET//yousai.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_zyuukousen"
+		textureFile = "gfx//leaders//BET//zyuukousen.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_superior_existance"
+		textureFile = "gfx//leaders//BET//cbth5-jlbbi.dds"
+	}
+	SpriteType = {
+		name = "GFX_Portrait_superior_existance"
+		textureFile = "gfx//leaders//BET//zunou.dds"
+	}
+}

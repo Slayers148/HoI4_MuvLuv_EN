@@ -13,6 +13,7 @@ phases = { # phase = no is the standard phase
 #____________________________________________________________
 #MVLV tactic
 #BETA
+#地下からの強襲
 tactic_beta_underground_assault = {
 
 	is_attacker = yes
@@ -35,8 +36,71 @@ tactic_beta_underground_assault = {
 	defender = -0.10
 }
 
+#ハイヴ内戦闘
+tactic_beta_hive_inner_combat = {
+	trigger = {
+		OR = {
+			is_fighting_in_terrain = hive_mainhall
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
+	}
+	
+	active = no
+
+	base =  { factor = 100 }
+	picture = hivecombat
+
+	combat_width = 1.5
+	attacker_movement_speed = -0.75
+}
+
 #____________________________________________________________
 #TSF
+#軌道降下
+tactic_orbit_diver = {
+	is_attacker = yes
+	trigger = {
+		is_attacker = yes
+		has_combat_modifier = paradrop
+		OR = {
+			is_fighting_in_terrain = hive_mainhall
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
+	}
+	
+	active = no
+
+	base = { factor = 100 }
+	picture = orbitdiver
+	
+	#countered_by = tactic_overwhelming_fire
+
+	combat_width = 0.50
+	attacker = 0.50
+	attacker_movement_speed = 0.5
+}
+
+#ハイヴ内戦闘
+tactic_human_hive_inner_combat = {
+	trigger = {
+		OR = {
+			is_fighting_in_terrain = hive_mainhall
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
+		NOT = { has_combat_modifier = paradrop }
+	}
+	
+	active = no
+
+	base =  { factor = 100 }
+	picture = hivecombat
+
+	combat_width = -0.25
+	attacker_movement_speed = -0.75
+}
 
 #____________________________________________________________
 #XG
@@ -53,6 +117,11 @@ tactic_basic_attack = {
 	trigger = { # combined scope for both country and combatant
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -70,6 +139,11 @@ tactic_basic_defend = {
 	trigger = {
 		is_attacker = no
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -86,6 +160,11 @@ tactic_counterattack = { # counters basic attack, assault
 		is_attacker = no
 		skill_advantage > 0
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -108,6 +187,11 @@ tactic_assault = {
 	trigger = {
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -133,6 +217,11 @@ tactic_cc_attack = {
 	trigger = {
 		is_attacker = yes
 		phase = close_combat
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -149,6 +238,11 @@ tactic_cc_defend = {
 	trigger = {
 		is_attacker = no
 		phase = close_combat
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -165,6 +259,11 @@ tactic_cc_storm = {
 	trigger = {
 		is_attacker = yes
 		phase = close_combat
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -181,6 +280,11 @@ tactic_cc_local_strong_point = {
 	trigger = {
 		is_attacker = no
 		phase = close_combat
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -196,6 +300,11 @@ tactic_cc_withdraw = {
 	trigger = {
 		is_attacker = yes
 		phase = close_combat
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -222,6 +331,11 @@ tactic_encirclement = {
 			skill_advantage > 0
 			has_trait = panzer_leader
 			has_trait = trickster
+		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
 		}
 	}
 	
@@ -251,6 +365,11 @@ tactic_delay = {
 	trigger = {
 		is_attacker = no
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -271,6 +390,11 @@ tactic_shock = { #counters delay
 	trigger = {
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -297,6 +421,11 @@ tactic_tactical_withdrawal = { #counters encirclement
 			skill_advantage > 0
 			has_trait = trickster
 		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -316,6 +445,11 @@ tactic_tw_attack = {
 	trigger = {
 		is_attacker = yes
 		phase = tactical_withdrawal
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -331,6 +465,11 @@ tactic_tw_defend = {
 	trigger = {
 		is_attacker = no
 		phase = tactical_withdrawal
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -346,6 +485,11 @@ tactic_tw_chase = {
 	trigger = {
 		is_attacker = yes
 		phase = tactical_withdrawal
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -362,6 +506,11 @@ tactic_tw_evade = {
 	trigger = {
 		is_attacker = no
 		phase = tactical_withdrawal
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -378,6 +527,11 @@ tactic_tw_intercept = {
 	trigger = {
 		is_attacker = yes
 		phase = tactical_withdrawal
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -400,6 +554,11 @@ tactic_breakthrough = { #counters ambush
 		OR = {
 			hardness > 0.5
 			skill_advantage > 1
+		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
 		}
 	}
 	
@@ -425,6 +584,11 @@ tactic_ambush = { #counters shock
 			skill > 2
 			has_trait = trickster
 		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -446,6 +610,11 @@ tactic_blitz = {
 			skill > 2
 			has_trait = panzer_leader
 			skill_advantage > 1
+		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
 		}
 	}
 	
@@ -480,6 +649,11 @@ tactic_elastic_defense = { #counters blitz
 			has_trait = defensive_doctrine
 			skill > 2
 		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -503,6 +677,11 @@ tactic_backhand_blow = { #counters breakthrough
 				has_trait = defensive_doctrine
 				skill > 3
 			}
+		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
 		}
 	}
 	
@@ -529,6 +708,11 @@ tactic_seize_bridge = {
 				skill > 2
 			}
 		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 2 }
@@ -546,6 +730,11 @@ tactic_attacker_sb_hold = {
 	trigger = {
 		is_attacker = yes
 		phase = seize_bridge
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -561,6 +750,11 @@ tactic_attacker_sb_skillful_defence = {
 		is_attacker = yes
 		phase = seize_bridge
 		skill > 4
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -576,6 +770,11 @@ tactic_defender_sb_assault = {
 	trigger = {
 		is_attacker = no
 		phase = seize_bridge
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -591,6 +790,11 @@ tactic_defender_sb_reckless_assault = {
 		is_attacker = no
 		phase = seize_bridge
 		skill < 3
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -609,6 +813,11 @@ tactic_defender_sb_retake_bridge = {
 		OR = {
 			skill > 2
 			has_trait = trickster
+		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
 		}
 	}
 	
@@ -634,6 +843,11 @@ tactic_hold_bridge = {
 			skill > 2
 			has_trait = defensive_doctrine
 		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 2 }
@@ -651,6 +865,11 @@ tactic_attacker_hb_attack = {
 	trigger = {
 		is_attacker = yes
 		phase = hold_bridge
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -666,6 +885,11 @@ tactic_attacker_hb_rush = {
 		is_attacker = yes
 		phase = hold_bridge
 		skill > 4
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 4 }
@@ -680,6 +904,11 @@ tactic_attacker_hb_storm = {
 	trigger = {
 		is_attacker = yes
 		phase = hold_bridge
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 2 }
@@ -700,6 +929,11 @@ tactic_defender_hb_hold = {
 		is_attacker = no
 		phase = hold_bridge
 		skill < 3
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	base =  { factor = 2 }
@@ -718,6 +952,11 @@ tactic_defender_hb_skillful_defence = {
 		OR = {
 			skill > 2
 			has_trait = trickster
+		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
 		}
 	}
 	
@@ -739,6 +978,11 @@ tactic_guerrilla_tactics = { #People's army defender tactic. also for German vol
 			skill > 2
 			has_trait = trickster
 		}
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -758,6 +1002,11 @@ tactic_human_wave_tactics = { #People's army attacker tactic
 		phase = no
 		frontage_full = yes
 		has_reserves = yes
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -776,6 +1025,11 @@ tactic_banzai_charge = { #Special Japan attacker tactic
 		tag = JAP
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = yes
@@ -795,6 +1049,11 @@ tactic_infantry_charge = { #GBP -> Infantry attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -811,6 +1070,11 @@ tactic_planned_attack = { #GBP -> Armor attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -826,6 +1090,11 @@ tactic_relentless_assault = { #Deep battle attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -843,6 +1112,11 @@ tactic_unexpected_thrust = { #Mobile warfare attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -859,6 +1133,11 @@ tactic_overwhelming_fire = { # Counters Banzai charge
 	trigger = {
 		is_attacker = no
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no
@@ -875,6 +1154,11 @@ tactic_barrage = { #Superior firepower attacker tactic
 	trigger = {
 		is_attacker = yes
 		phase = no
+		NOT = { 
+			is_fighting_in_terrain = hive_mainhall 
+			is_fighting_in_terrain = hive_gate
+			is_fighting_in_terrain = hive_gateclass
+		}
 	}
 	
 	active = no

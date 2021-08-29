@@ -16,7 +16,6 @@ state={
 			
 			buildings = {
 				infrastructure = 10
-				air_base = 2
 				
 				7763 = {
 					bunker = 3

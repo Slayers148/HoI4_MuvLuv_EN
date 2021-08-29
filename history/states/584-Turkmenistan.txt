@@ -1,48 +1,12 @@
 state={
 	id=584
 	name="STATE_584"
-	manpower=0
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 
-	history = { 1999.1.1 = {
-			owner = SOV
-			controller = H02
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 756
-				set_province_controller = 1493
-				set_province_controller = 1593
-				set_province_controller = 1632
-				set_province_controller = 1649
-				set_province_controller = 4482
-				set_province_controller = 4549
-				set_province_controller = 4563
-				set_province_controller = 4599
-				set_province_controller = 4958
-				set_province_controller = 5003
-				set_province_controller = 7477
-				set_province_controller = 7491
-				set_province_controller = 7560
-				set_province_controller = 7563
-				set_province_controller = 7618
-				set_province_controller = 7635
-				set_province_controller = 7924
-				set_province_controller = 8099
-				set_province_controller = 9605
-				set_province_controller = 10357
-				set_province_controller = 10359
-				set_province_controller = 10406
-				set_province_controller = 10414
-				set_province_controller = 10485
-				set_province_controller = 10510
-				set_province_controller = 10742
-				set_province_controller = 12333
-				set_province_controller = 12359
-				set_province_controller = 12491 
-			}
+	history = { 1999.1.1 = { 
+			owner = H02
+			add_core_of = H02
 		}
+		#add_core_of = TMS
 		owner = SOV
 		victory_points = {
 			12333 1
@@ -52,12 +16,17 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+
 		}
 		add_core_of = SOV
+
 	}
 
 	provinces={
-		756 1493 1593 1632 1649 4482 4549 4563 4599 4958 5003 7477 7491 7560 7563 7618 7635 7924 8099 9605 10357 10359 10406 10414 10485 10510 10742 12333 12359 12491
+		756 1493 1593 1632 1649 4482 4549 4563 4599 4958 5003 7477 7491 7560 7563 7618 7635 7924 8099 9605 10357 10359 10406 10414 10485 10510 10742 12333 12359 12491 
 	}
-
+	manpower=1064523
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

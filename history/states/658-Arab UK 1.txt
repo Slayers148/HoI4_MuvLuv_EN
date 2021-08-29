@@ -2,43 +2,31 @@
 state={
 	id=658
 	name="STATE_658"
-	manpower = 0
+	manpower = 170200
 	resources={
 		oil=5 # was: 6
 	}
-
+	
 	state_category = pastoral
 
-	history = {
-		1999.1.1 = {
-			owner = AFR
-			controller = H09
-			remove_core_of = UAE
-			add_core_of = AFR
-			set_state_category = betaland
 
-			H09 = {
-				set_province_controller = 2048
-				set_province_controller = 7960
-				set_province_controller = 8108
-				set_province_controller = 10904
-			}
+	history = {
+		1999.1.1 = { 
+			owner = H09
+			remove_core_of = H09
 		}
-		add_core_of = UAE
+		add_core_of = AFR
 		owner = ENG
 		victory_points = {
-			7960 1
+			7960 1 
 		}
 		buildings = {
 			infrastructure = 2
-			7960 = {
-				naval_base = 3
-			}
 		}
 
 	}
 
 	provinces={
-		2048 7960 8108 10904
+		2048 7960 8108 10904 
 	}
 }

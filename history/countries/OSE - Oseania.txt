@@ -47,8 +47,9 @@
 		basic_light_tank = 1
 		improved_light_tank = 1
 		basic_medium_tank = 1
-		advanced_medium_tank = 1
 		improved_medium_tank = 1
+		AA_tankI = 1
+		AA_tankII = 1
 		early_destroyer = 1
 		mtg_transport = 1
 		mtg_landing_craft = 1
@@ -63,7 +64,6 @@
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
 		assembly_line_production = 1
-					basic_medium_spaa =1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1
@@ -78,30 +78,31 @@
 		dispersed_industry4 = 1
 		dispersed_industry5 = 1
 		interwar_antiair = 1
-		antiair5 = 1
-		improved_decryption =1
 		
 		###陸軍ドクトリン###
 		
 		###TSF###
-		generic_basic_concept_research = 1
-		generic_1st_tsf_low = 1
-		generic_1st_tsf_high = 1
-		generic_Assault_gun_improvement = 1
-		generic_2nd_tsf_low = 1
-		generic_F14_tsf_high = 1
-		generic_2nd_tsf_F18 = 1
-		generic_2nd_tsf_F18E/F = 1
-		generic_Jumping_unit_improvement = 1
-		generic_asa_1st = 1
-		generic_Manipulator_improvement = 1
-		generic_Carrying_ammunition_increase = 1
-		generic_tsa_1st = 1
-		generic_tsf_equipment_4g = 1
+		UNI_basic_concept_research = 1
+		UNI_Assault_gun_improvement_1 = 1
+		UNI_Blade_improvement_1 = 1
+		UNI_Schurzen_1 = 1
+#		UNI_Jumping_unit_improvement = 1
+		UNI_Manipulator_improvement = 1
+#		UNI_Carrying_ammunition_increase = 1
+		generic_F-4 = 1
+		generic_F-5 = 1
+		generic_F-16 = 1
+		generic_F-14 = 1
+		generic_F-18 = 1
+		generic_A-6 = 1
+		generic_A-10 = 1
 		
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
+
+		###戦術###
+		human_combat_tactics = 1
 	}
 	
 	add_tech_bonus = { #工業バフ
@@ -126,7 +127,7 @@
 		OSE_refugees
 		OSE_food
 		mvlv_parmanent
-		mvlv_arms_build_up
+                MVLV_UNF
 	}
 	
 	set_convoys = 500 #初期輸送船数を定義
@@ -134,14 +135,14 @@
 set_stability = 0.8 #初期安定度を定義
 set_war_support = 0.3 #初期戦争協力度を定義
 
-set_research_slots = 4 #初期研究枠を定義
+set_research_slots = 3 #初期研究枠を定義
 
-army_experience = 500 #初期陸軍経験値を定義
+army_experience = 100 #初期陸軍経験値を定義
 
 add_political_power = 0 #初期政治力を定義
 
-add_offsite_building = { type = arms_factory level = 45 } #MAP外軍需を定義
-add_offsite_building = { type = industrial_complex level = 80 } #MAP外民需を定義
+#add_offsite_building = { type = arms_factory level = 5 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 10 } #MAP外民需を定義
 #add_offsite_building = { type = dockyard level = 5 } #MAP外海軍工廠を定義
 
 set_politics = { #初期政体を定義
@@ -158,9 +159,9 @@ set_popularities = { #初期支持率を定義
 
 ###各政体における指導者を定義###
 create_country_leader = {
-	name = "John Curtin"
+	name = "ジョン ハワード"
 	desc = "POLITICS_JOHN_CURTIN_DESC"
-	picture = "GFX_Portrait_generic_council"
+	picture = "JohnHoward.dds"
 	expire = "2040.1.1"
 	ideology = socialism
 	traits = {

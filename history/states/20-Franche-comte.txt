@@ -2,41 +2,59 @@
 state={
 	id=20
 	name="STATE_20" # Rhone
-	manpower = 0
+	manpower = 35000000
+	#resources={
+		#steel=50
+		#oil=50
+		#aluminium=50
+		#rubber=5
+		#tungsten=50
+		#chromium=50
+	#}
+
 	state_category = city
 
-	history = {
-		1999.1.1 = {
-			owner = EUR
-			controller = H12
+	history = { 
+		1999.1.1 = { 
+			owner = H12
+			add_core_of = H12
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H12 = {
-				set_province_controller = 641
-				set_province_controller = 3650
-				set_province_controller = 3770
-				set_province_controller = 6639
-				set_province_controller = 6668
-				set_province_controller = 6786
-				set_province_controller = 9590
-				set_province_controller = 9728
-				set_province_controller = 9732
-				set_province_controller = 11593
-				set_province_controller = 11716
-				set_province_controller = 11794
-			}
+			remove_core_of = FRA
 
 			#ブダペスト陥落用
 			add_claim_by = H11
+			
+			victory_points = {
+				6613 100
+			}
+			
+			buildings = {
+				hive = 1
+			}
 		}
-
+		
+		owner = FRA
+		victory_points = {
+			6613 10
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+                        6613 = {bunker = 5} 
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+                                radar_station = 4
+				industrial_complex = 3
+			}
 		}
 	}
 
 	provinces={
-		641 3650 3770 6639 6668 6786 9590 9728 9732 11593 11716 11794
+		641 3650 3770 6613 6639 6668 6786 9590 9728 9732 11593 11716 11794 
 	}
 }

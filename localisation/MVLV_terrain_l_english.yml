@@ -1,0 +1,11 @@
+﻿l_english:
+ hive_mainhall:0 "スタブ-大広間"
+ hive_mainhall_desc:0 "地下茎から大広間までの広大な地下構造。大広間には反応炉があると考えられている。"
+ hive_gateclass:0 "門級"
+ hive_gateclass_desc:0 "それは隔壁である。" 
+ hive_drift:0 "横坑"
+ hive_drift_desc:0 "ハイヴの通路。"
+ hive_gate:0 "門"
+ hive_gate_desc:0 "ハイヴの入り口で、戦術機が突入する際に使用する。"
+ hive_super_mainhall:0 "オリジナルハイブ-大広間"
+ hive_super_mainhall_desc:0 "地下茎から大広間までの広大な地下構造。大広間にはあ号標的があると考えられている。"

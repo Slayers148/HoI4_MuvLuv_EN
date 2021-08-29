@@ -8,5 +8,6 @@ technologies = {
 		}
 
 		enable_tactic = tactic_beta_underground_assault
+		enable_tactic = tactic_beta_hive_inner_combat
 	}
 }

@@ -8,12 +8,18 @@ NDefines.NGame.END_DATE = "2040.1.1.1"
 NDefines_Graphics.NFrontend.CAMERA_MIN_HEIGHT = 25.0 -- Minimum camera height
 --____________________________________________________________
 
+--NBuildings
+--____________________________________________________________
+NDefines.NBuildings.MAX_SHARED_SLOTS = 50
+--____________________________________________________________
+
 --NCountry
 --____________________________________________________________
 NDefines.NCountry.RESISTANCE_STRENGTH_FROM_VP = 0 -- How much strength ticking speed gives each VP score.
 NDefines.NCountry.BASE_STABILITY_WAR_FACTOR = 0 -- Default stability war factor
 NDefines.NCountry.RESISTANCE_IMPORTANT_LEVEL = 0.05 -- Level when resistance becomes dangerous
 NDefines.NCountry.BASE_COMMAND_POWER_GAIN = 0.006 -- base value for daily command power gain
+NDefines.NCountry.SURRENDER_LIMIT_MULT_FOR_COUNTRIES_WITH_NO_CORES = 1 -- Countries with no owned cores will their surrender level multiplied by this amount
 --____________________________________________________________
 
 --NMilitary
@@ -24,11 +30,10 @@ NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0 -- how many divisions a field
 NDefines.NMilitary.FRONT_MIN_PATH_TO_REDEPLOY = 1 -- If a units path is at least this long to reach its front location, it will strategically redeploy.
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 30 -- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this 
 NDefines.NMilitary.STRATEGIC_REDEPLOY_ORG_RATIO = 0.75 -- Ratio of max org while strategic redeployment
-NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 100000000 -- How many deployment lines minimum can be training
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 5000 -- Max army experience a country can store
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 5000 -- Max navy experience a country can store
 NDefines.NMilitary.MAX_AIR_EXPERIENCE = 5000 -- Max air experience a country can store
-NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 12 -- hours between tactic swaps (Changed from 24 back to vanilla 12)
+NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 24 -- hours between tactic swaps
 NDefines.NMilitary.AMPHIBIOUS_INVADE_MOVEMENT_COST = 2 -- total progress cost of movement while amphibious invading
 NDefines.NMilitary.RIVER_CROSSING_PENALTY_LARGE = -0.4 -- large river crossing
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.35 -- effect on defense due to enemy air superiorty
@@ -36,7 +41,7 @@ NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.3 -- effect on speed 
 NDefines.NMilitary.PARACHUTE_DISRUPTED_AA_PENALTY = 0 -- How much the Air defence in the state (from AA buildings level * air_defence) is scaled to affect overall disruption (equipment,manpower,str).
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_MULT = -0.5 -- penalty to org regain after being parachuted.
 NDefines.NMilitary.AIR_SUPPORT_BASE = 0.25 -- CAS bonus factor for air support moddifier for land unit in combat
-NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.03 -- Amount of planning lost due to player manual order (Changed from 0.08 back to vanilla 0.03)
+NDefines.NMilitary.PLAYER_ORDER_PLANNING_DECAY = 0.08 -- Amount of planning lost due to player manual order
 NDefines.NMilitary.PLAN_CONSIDERED_GOOD = 0.4 -- Plan evaluations above this value are considered more or less safe
 NDefines.NMilitary.PLAN_CONSIDERED_BAD = -0.4 -- Plan evaluations below this value are considered unsafe
 NDefines.NMilitary.PLAN_NEIGHBORING_ENEMY_PROVINCE_FACTOR = 10 -- When calculating the importance of provinces, it takes number of enemy provinces into account, factored by this
@@ -50,16 +55,18 @@ NDefines.NMilitary.PLAN_AREA_DEFENSE_ENEMY_UNIT_FACTOR = 2 -- Factor applied to 
 NDefines.NMilitary.PLAN_AREA_DEFENSE_FORT_IMPORTANCE = 30 -- Used when calculating the calue of defense area provinces for the battle plan system, works as multipliers on the rest
 NDefines.NMilitary.PLAN_AREA_DEFENSE_COASTAL_FORT_IMPORTANCE = 20 -- Used when calculating the calue of defense area provinces for the battle plan system
 NDefines.NMilitary.PLAN_EXECUTE_CAREFUL_MAX_FORT = 20 -- If execution mode is set to careful, units will not attack provinces with fort levels greater than or equal to this
-NDefines.NMilitary.AMPHIBIOUS_INVADE_ATTACK_LOW = 2.5
-NDefines.NMilitary.AMPHIBIOUS_INVADE_ATTACK_HIGH = 2.5
-NDefines.NMilitary.AMPHIBIOUS_INVADE_DEFEND_LOW = 1.5
-NDefines.NMilitary.AMPHIBIOUS_INVADE_DEFEND_HIGH = 1.0
+NDefines.NMilitary.TACTIC_SWAP_FREQUENCEY = 3 -- hours between tactic swaps
+NDefines.NMilitary.PARADROP_PENALTY = -0.05 -- Combat penalty when recently paradropped
+NDefines.NMilitary.PARADROP_HOURS = 24 -- time paratroopers suffer penalties in combat
+NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 0.95 -- percentage of equipment lost disbanded overseas 
+NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.00 -- percentage of manpower returned when an encircled unit is disbanded 
 --____________________________________________________________
 
 --NProduction
 --____________________________________________________________
 NDefines.NProduction.ANNEX_STOCKPILES_RATIO = 0.25 -- How much stockpiled equipment will be transferred on annexation
 NDefines.NProduction.ANNEX_FIELD_EQUIPMENT_RATIO = 0.00 -- How much equipment from deployed divisions will be transferred on annexation
+NDefines.NProduction.MIN_POSSIBLE_TRAINING_MANPOWER = 100000000 -- How many deployment lines minimum can be training
 NDefines.NProduction.ANNEX_FUEL_RATIO = 0.00 -- How much fuel will be transferred on annexation
 NDefines.NProduction.ANNEX_FUEL_RATIO = 0.00 -- How many convoys will be transferred on annexation
 NDefines.NProduction.ANNEX_FUEL_RATIO = 5 -- Base factory speed multiplier (how much hoi3 style IC each factory gives).
@@ -71,6 +78,17 @@ NDefines.NAir.AIR_WING_MAX_SIZE = 8000 -- Max amount of airplanes in wing
 NDefines.NAir.SUPPLY_NEED_FACTOR = 0.00003 -- multiplies supply usage
 NDefines.NAir.AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 0.4 -- Wings in combat gain extra XP
 NDefines.NAir.DISRUPTION_FACTOR_CARRIER = 24 -- multiplier on disruption damage to scale its effects on carrier vs carrier planes
+--____________________________________________________________
+
+--NResistance
+--____________________________________________________________
+NDefines.NResistance.RESISTANCE_TARGET_BASE = 15 -- base resistance target percentage
+NDefines.NResistance.RESISTANCE_TARGET_MODIFIER_STATE_VP = {
+	0, 0.0,
+	5, 0.0,
+	20, 0.0,
+	50, 0.0,
+} -- resistance target modifier pairs for vp. first entry is total vp in state and second entry is amount of target modifier that applies for that threshold
 --____________________________________________________________
 
 --NAI
@@ -92,9 +110,9 @@ NDefines.NAI.RESERVE_TO_COMMITTED_BALANCE = 0.2 -- How many reserves compared to
 NDefines.NAI.MAIN_ENEMY_FRONT_IMPORTANCE = 8 -- How much extra focus the AI should put on who it considers to be its current main enemy.
 NDefines.NAI.EASY_TARGET_FRONT_IMPORTANCE = 5 -- How much extra focus the AI should put on who it considers to be the easiest target.
 NDefines.NAI.AI_FRONT_MOVEMENT_FACTOR_FOR_READY = 0.5 -- If less than this fraction of units on a front is moving, AI sees it as ready for action
-NDefines.NAI.VP_LEVEL_IMPORTANCE_HIGH = 30 -- Victory points with values higher than or equal to this are considered to be of high importance.(Changed from 80 to 30)
-NDefines.NAI.VP_LEVEL_IMPORTANCE_MEDIUM = 15 -- Victory points with values higher than or equal to this are considered to be of medium importance.(Changed from 50 to 15)
-NDefines.NAI.VP_LEVEL_IMPORTANCE_LOW = 5 -- Victory points with values higher than or equal to this are considered to be of low importance. (Changed from 20 to 5)
+NDefines.NAI.VP_LEVEL_IMPORTANCE_HIGH = 80 -- Victory points with values higher than or equal to this are considered to be of high importance.
+NDefines.NAI.VP_LEVEL_IMPORTANCE_MEDIUM = 50 -- Victory points with values higher than or equal to this are considered to be of medium importance.
+NDefines.NAI.VP_LEVEL_IMPORTANCE_LOW = 20 -- Victory points with values higher than or equal to this are considered to be of low importance.
 NDefines.NAI.FRONT_REASSIGN_DISTANCE = 200 -- If a unit is this far away from a front it is not considered to be assigned to it unless the new front is much more important
 NDefines.NAI.ENTRENCHMENT_WEIGHT = 10 -- AI should favour units with less entrenchment when assigning units around.
 NDefines.NAI.PLAN_AVG_PREPARATION_TO_EXECUTE = 0.45 -- % or more average plan preparation before executing

@@ -2,33 +2,15 @@
 state={
 	id=212
 	name="STATE_212"
-	manpower = 0
-
+	manpower = 2611100
+	
 	state_category = city
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H11
-			add_core_of = EUR
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+			add_core_of = EEA
 			remove_core_of = BUL
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 878
-				set_province_controller = 893
-				set_province_controller = 3796
-				set_province_controller = 3819
-				set_province_controller = 3937
-				set_province_controller = 3952
-				set_province_controller = 6814
-				set_province_controller = 6842
-				set_province_controller = 6923
-				set_province_controller = 6952
-				set_province_controller = 6982
-				set_province_controller = 9610
-				set_province_controller = 9862
-				set_province_controller = 11813
-			}
 
 			#マシュハド陥落用
 			add_claim_by = H02
@@ -39,14 +21,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			#arms_factory = 3
-			#industrial_complex =2
+			arms_factory = 3
+			industrial_complex =2
 			air_base = 2
 		}
 		add_core_of = BUL
 	}
 
 	provinces={
-		878 893 3796 3819 3937 3952 6814 6842 6923 6952 6982 9610 9862 11813
+		878 893 3796 3819 3937 3952 6814 6842 6923 6952 6982 9610 9862 11813 
 	}
 }

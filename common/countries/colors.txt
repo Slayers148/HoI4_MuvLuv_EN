@@ -550,6 +550,10 @@ CEA = {
 	color = rgb { 197  92  106 }
 	color_ui = rgb { 215 102 118 }
 }
+EEA = {
+	color = rgb { 255 120 71 }
+	color_ui = rgb { 265 130 81 }
+}
 EUR = {
 	color = rgb {72  225  210 }
 	color_ui = rgb { 80 232 220 }
@@ -574,6 +578,10 @@ M01 = {
 	color = rgb { 150 10 10 }
 	color_ui = rgb { 20 20 20 }
 }
+H00 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
 H02 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
@@ -587,6 +595,14 @@ H04 = {
 	color_ui = rgb { 20 20 20 }
 }
 H05 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
+H06 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
+H07 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
 }
@@ -614,11 +630,23 @@ H13 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
 }
+H14 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
+H15 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
 H16 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
 }
 H17 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
+H18 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
 }
@@ -631,6 +659,10 @@ H20 = {
 	color_ui = rgb { 20 20 20 }
 }
 H21 = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 20 20 20 }
+}
+H23 = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 20 20 20 }
 }

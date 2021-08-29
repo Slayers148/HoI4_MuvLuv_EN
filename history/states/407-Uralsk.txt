@@ -1,15 +1,9 @@
 state={
 	id=407
 	name="STATE_407"
-	manpower=35000000
-	buildings_max_level_factor=1.000
-	state_category=rural
 
-	history = {
-		1999.1.1 = {
-
-		 	### HIVE ###
-			
+	history = { 
+		1999.1.1 = { 
 			owner = H03
 			add_core_of = H03
 		}
@@ -17,7 +11,7 @@ state={
 		#add_core_of = KAZ
 		buildings = {
 			infrastructure = 3
-			anti_air_building = 4
+#			anti_air_building = 4
 			hive = 1
 			11537 = { bunker = 4 }
 		}
@@ -28,6 +22,9 @@ state={
 	}
 
 	provinces={
-		432 468 470 508 545 566 576 1290 1318 3404 3406 3467 3502 3515 3538 4351 6491 6525 6551 6564 6588 7438 9462 9487 9513 9526 9528 9538 9549 11457 11472 11473 11480 11482 11510 11524 11537 11538 11552
+		432 468 470 508 545 566 576 1290 1318 3404 3406 3467 3502 3515 3538 4351 6491 6525 6551 6564 6588 7438 9462 9487 9513 9526 9528 9538 9549 11457 11472 11473 11480 11482 11510 11524 11537 11538 11552 
 	}
+	manpower=35000000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

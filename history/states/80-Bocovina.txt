@@ -1,29 +1,26 @@
 state={
 	id=80
 	name="STATE_80"
-	manpower = 0
-
+	manpower = 474600
+	
 	state_category = rural
-
+	
 	history=
-	{ 1999.1.1 = {
-			owner = SOV
-			controller = H11
+	{ 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = SOV
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 577
-				set_province_controller = 9548
-			}
+			remove_core_of = ROM
 		}
 		victory_points = {
-			577 1
+			577 1 
 		}
 		owner = ROM
 		buildings = {
-			infrastructure = 1
+			infrastructure = 6
+			arms_factory = 1
 		}
+		add_core_of = ROM
 	}
 	provinces={
 		577 9548

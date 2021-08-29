@@ -1,0 +1,14 @@
+sub_units = {
+
+	light_sp_artillery_brigade = {
+	}
+	
+	medium_sp_artillery_brigade = {
+	}
+	
+	heavy_sp_artillery_brigade = {
+	}
+	
+	super_heavy_sp_artillery_brigade = {
+	}
+}

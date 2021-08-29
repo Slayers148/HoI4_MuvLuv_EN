@@ -2,9 +2,10 @@
 
 1999.1.1 = {
 	oob = "EUR_1999" #陸軍テンプレート読み込み
+	set_naval_oob = "EUR_1999_navy" #海軍テンプレート読み込み
 
 	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
-
+	
 	set_technology = { #初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -15,15 +16,15 @@
 		tech_engineers3 = 1
 		tech_engineers4 = 1
 		tech_recon = 1
-		tech_recon2 = 1
+		tech_recon2 = 1	
 		tech_recon3 = 1
-		tech_recon4 = 1
+		tech_recon4 = 1	
 		tech_field_hospital = 1
 		tech_field_hospital2 = 1
 		tech_field_hospital3 = 1
 		tech_field_hospital4 = 1
 		tech_logistics_company = 1
-		tech_logistics_company2 = 1
+		tech_logistics_company2 = 1	
 		tech_logistics_company3 = 1
 		tech_logistics_company4 = 1
 		tech_military_police = 1
@@ -40,7 +41,6 @@
 		tech_signal_company4 = 1
 		gw_artillery = 1
 		interwar_artillery = 1
-		basic_medium_spaa =1
 		artillery1 = 1
 		artillery2 = 1
 		rocket_artillery = 1
@@ -57,23 +57,22 @@
 		fleet_in_being = 1
 		fighter1 = 1
 		CAS2 = 1
+		jet_tactical_bomber1 = 1
+		jet_tactical_bomber2 = 1
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
+		AA_tankI = 1
+		AA_tankII = 1
 		assembly_line_production = 1
 		construction1 = 1
 		construction2 = 1
 		construction3 = 1
 		construction4 = 1
-		construction5 = 1
+		construction5 = 1		
 		fuel_silos = 1
 		fuel_refining = 1
 		streamlined_line = 1
@@ -83,54 +82,62 @@
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
 		dispersed_industry5 = 1
-		improved_decryption =1
-		atomic_research = 1
-		nuclear_reactor = 1
-		nukes = 1
-		night_vision = 1
-		night_vision2 = 1
-
+		experimental_rockets = 1
+		rocket_engines = 1
+		jet_engines = 1
+		
 		###陸軍ドクトリン###
 		mobile_warfare = 1
-
+		
 		###TSF
-		EUR_basic_concept_research= 1
-		F4E = 1
-		F15EU = 1
-		JA37 = 1
-		JA39 = 1
-		RAF = 1
-		F5E = 1
-		M2000 = 1
-		F5A = 1
-		MVLV_asa_1st = 1
-		MVLV_Manipulator_improvement = 1
-		MVLV_Assault_gun_improvement = 1
-		MVLV_Jumping_unit_improvement = 1
-		MVLV_Carrying_ammunition_increase = 1
-		MVLV_tsa_1st = 1
-
+		UNI_basic_concept_research = 1
+		UNI_Assault_gun_improvement_1 = 1
+		UNI_Assault_gun_improvement_2 = 1
+		UNI_Blade_improvement_1 = 1
+		UNI_Blade_improvement_2 = 1
+		UNI_Schurzen_1 = 1
+#		UNI_Jumping_unit_improvement = 1
+		UNI_Manipulator_improvement = 1
+#		UNI_Carrying_ammunition_increase = 1
+		tsf_sub_weapons = 1
+		generic_F-4 = 1
+		generic_F-5 = 1
+		EUR_F-15 = 1
+		EUR_JA-37 = 1
+		EUR_JA-39 = 1
+		EUR_Rafale = 1
+		EUR_M2000 = 1
+		EUR_F-5EADV = 1
+		EUR_MIII = 1
+		EUR_F-5GIDS = 1
+		generic_A-6 = 1
+		generic_A-10 = 1
+		tech_special_forces = 1
+		
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
-	}
 
+		###戦術###
+		human_combat_tactics = 1
+	}
+	
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5
+		uses = 5 
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}
-
+	}	
+	
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1
+		uses = 1 
 		technology = flexible_line
 		technology = streamlined_line
 	}
-
+	
 	add_ideas = { #初期国家精神を定義
 		limited_exports
 		service_by_requirement
@@ -141,10 +148,9 @@
 		EUR_power
 		mvlv_parmanent
 		EUR_eng
-		mvlv_arms_build_up
-		EUR_Nuclear_Weapons_Stockpile
+        MVLV_UNF
 	}
-
+	
 	set_convoys = 800 #初期輸送船数を定義
 }
 set_stability = 0.6 #初期安定度を定義
@@ -152,7 +158,7 @@ set_war_support = 0.5 #初期戦争協力度を定義
 
 set_research_slots = 4 #初期研究枠を定義
 
-army_experience = 500 #初期陸軍経験値を定義
+army_experience = 300 #初期陸軍経験値を定義
 
 add_political_power = 0 #初期政治力を定義
 
@@ -164,7 +170,7 @@ set_politics = { #初期政体を定義
 	ruling_party = democratic
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = yes 
 }
 
 set_popularities = { #初期支持率を定義
@@ -192,7 +198,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = liberalism
 	traits = {
-
+		
 	}
 }
 
@@ -203,7 +209,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = fascism_ideology
 	traits = {
-
+		
 	}
 }
 
@@ -214,7 +220,7 @@ create_country_leader = {
 	expire = "2040.1.1"
 	ideology = leninism
 	traits = {
-
+		
 	}
 }
 
@@ -222,19 +228,101 @@ create_country_leader = {
 create_field_marshal = {
 	name = "ヴィルフリート アイヒベルガー"
 	picture = "06.dds"
-	traits = { defensive_doctrine trait_cautious career_officer }
+	traits = {
+		media_personality
+		brilliant_strategist
+		inflexible_strategist
+		war_hero
+		career_officer
+		trait_cautious	
+		tsf_officer
+		commander_aptitude
+		MVLV_TEF_lineage
+		
+		tsf_leader
+		tsf_commander
+		offensive_doctrine
+		expert_delegator
+	}
 	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "ジークリンデ・ファーレンホルスト"
+	picture = "12.dds"
+	traits = {
+		inflexible_strategist
+		war_hero
+		career_officer
+		trait_cautious	
+		tsf_officer
+		commander_aptitude
+		MVLV_TEF_lineage
+		
+		tsf_leader
+		tsf_commander
+		defensive_doctrine
+		thorough_planner
+	}
+	skill = 6
 	attack_skill = 4
 	defense_skill = 5
 	planning_skill = 5
-	logistics_skill = 3
+	logistics_skill = 5
 }
 
-create_field_marshal = {
+create_corps_commander = {
+	name = "ゲルハルト・ララーシュタイン"
+	picture = "99.dds"
+	traits = {
+		MVLV_TEF_lineage
+		war_hero
+		true_genius
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+		tsf_commander
+		trickster
+	}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "ブリギッテ・ヴェスターナッハ"
+	picture = "70.dds"
+	traits = {
+		MVLV_TEF_lineage
+		career_officer
+		harsh_leader
+		tsf_officer
+		tsf_leader
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
 	name = "ベルナデット・リヴィエール"
 	picture = "71.dds"
-	traits = { logistics_wizard offensive_doctrine media_personality trait_cautious inflexible_strategist organizer }
-	skill = 5
+	traits = {
+		media_personality
+		brilliant_strategist
+		harsh_leader
+		organizer
+		tsf_officer
+		tsf_leader
+	}
+	skill = 4 
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 3
@@ -244,73 +332,69 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "イルフリーデ・フォイルナー"
 	picture = "49.dds"
-	traits = { inflexible_strategist career_officer }
-	skill = 5
+	traits = {
+		inflexible_strategist
+		MVLV_TEF_lineage
+		trait_reckless
+		tsf_officer
+		trickster
+	}
+	skill = 3
 	attack_skill = 3
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "ルナテレジア・ヴィッツレーベン"
 	picture = "40.dds"
-	traits = { inflexible_strategist armor_officer politically_connected  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 4
+	traits = {
+		inflexible_strategist
+		MVLV_TEF_lineage
+		trait_cautious
+		tsf_officer
+		trait_engineer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "ヘルガローゼ・ファルケンマイヤー"
 	picture = "55.dds"
-	traits = { trickster }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "ジークリンデ・ファーレンホルスト"
-	picture = "12.dds"
-	traits = { trickster war_hero }
-	skill = 5
+	traits = {
+		brilliant_strategist
+		MVLV_TEF_lineage
+		trait_cautious
+		tsf_officer
+		commando
+	}
+	skill = 3
 	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {
 	name = "ステラ ブレーメル"
 	picture = "11.dds"
-	traits = { trait_engineer }
+	traits = { tsf_officer tsf_leader }
 	skill = 4
 	attack_skill = 2
 	defense_skill = 4
 	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "ブリギッテ・ヴェスターナッハ"
-	picture = "70.dds"
-	traits = {  }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 3
 	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "モニカ ジアコーザ"
 	picture = "31.dds"
-	traits = { career_officer }
+	traits = { tsf_officer tsf_leader }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 2
@@ -321,56 +405,55 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "ヴァレリオ ジアコーザ"
 	picture = "98.dds"
-	traits = { politically_connected }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 4
+	traits = { tsf_officer tsf_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 5
+	logistics_skill = 4
 }
 
 create_corps_commander = {
 	name = "ヴォルフガング・ブラウアー"
 	picture = "05.dds"
-	traits = { old_guard }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "ゲルハルト・ララーシュタイン"
-		picture = "99.dds"
-	traits = { old_guard }
-	skill = 5
-	attack_skill = 2
+	traits = { MVLV_TEF_lineage tsf_officer trait_reckless }
+	skill = 2
+	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 2
+	planning_skill = 1
 	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "レア・ゲグラン"
 		picture = "44.dds"
-	traits = {  trait_cautious }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
+	traits = {
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+		tsf_commander
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "ヒュー・ウィンストン"
-		picture = "51.dds"
-	traits = { commando }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	picture = "51.dds"
+	traits = {
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+		tsf_commander
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 ###初期提督を定義###

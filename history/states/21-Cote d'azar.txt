@@ -2,49 +2,40 @@
 state={
 	id=21
 	name="STATE_21" # Provence
-	manpower = 0
+	manpower = 2060400
 	resources={
 		aluminium=60 # was: 120
 	}
 
 	state_category = city
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H11
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 911
-				set_province_controller = 956
-				set_province_controller = 958
-				set_province_controller = 3762
-				set_province_controller = 3928
-				set_province_controller = 11834
-				set_province_controller = 11849
-				set_province_controller = 11875
-			}
+			remove_core_of = FRA
 		}
 		owner = FRA
 		victory_points = {
-			911 1
+			911 1 
 		}
 		victory_points = {
 			11834 10
 		}
 		buildings = {
-			infrastructure = 1
-			911 = {
-				naval_base = 10
-			}
-			11834 = {
-				naval_base = 3
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 10
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				dockyard = 3
 			}
 		}
 	}
 
 	provinces={
-		911 956 958 3762 3928 11834 11849 11875
+		911 956 958 3762 3928 11834 11849 11875 
 	}
 }

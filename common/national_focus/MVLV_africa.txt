@@ -1,0 +1,214 @@
+focus_tree = {
+	id = africa_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = AFR
+		}
+	}
+	
+#ステートIDがわからないために建設系NFが未完成。
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+	reset_on_civilwar = no
+
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
+	
+	focus = {
+		id = AFR_defend_straits
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 2
+		y = 0
+		#relative_position_id = 
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			458 = { 
+				if = {
+					limit = { is_fully_controlled_by = AFR }
+					add_building_construction = {
+						type = coastal_bunker
+						level = 5
+						instant_build = yes
+						province = { 
+							all_provinces = yes
+							limit_to_coastal = yes
+						}
+					}
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = AFR_cooperate_with_EU
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = AFR_defend_straits
+		prerequisite = { focus = AFR_defend_straits }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_tech_bonus = {
+					bonus = 0.5
+					uses = 2
+					category = land_doctrine
+			}
+			add_tech_bonus = {
+					bonus = 0.5
+					uses = 2
+					category = support_tech
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	focus = {
+		id = AFR_deploy_second_generation_tsf
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = AFR_cooperate_with_EU
+		prerequisite = { focus = AFR_cooperate_with_EU }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			add_ideas = { AFR_tsf_license }
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+	
+	focus = {
+		id = AFR_union_with_middle_east
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = AFR_deploy_second_generation_tsf
+		prerequisite = { focus = AFR_deploy_second_generation_tsf }
+		#mutually_exclusive = { }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			load_oob = "AFR_union_with_middle_east_oob"
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = AFR
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+
+	focus = {
+		id = AFR_skyscraper_in_desert
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = AFR_union_with_middle_east
+		prerequisite = { focus = AFR_union_with_middle_east }
+		#mutually_exclusive = { focus =  }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_fully_controlled_by = AFR }
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}
+	
+	focus = {
+		id = AFR_green_policy
+		icon = GFX_goal_generic_national_unity
+		#text = 
+		x = 0
+		y = 1
+		relative_position_id = AFR_skyscraper_in_desert
+		prerequisite = { focus = AFR_skyscraper_in_desert }
+		#mutually_exclusive = { focus = }
+		#available = { }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+		#select_effect = { }
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = { is_fully_controlled_by = AFR }
+				add_building_construction = {
+					type = coastal_bunker
+					level = 5
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coastal = yes
+					}
+				}
+			}
+		}
+		#completation_tooltip = { }
+		ai_will_do = { factor = 1 }
+	}	
+	
+}

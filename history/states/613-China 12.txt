@@ -2,53 +2,46 @@
 state={
 	id=613
 	name="STATE_613" # Shanghai
-	manpower = 0
-
+	manpower = 17305100
+	
 	state_category = large_city
-
+	
 	history = {
-		1999.1.1 = {
-			owner = CHI
-			controller = H16
-			set_state_category = betaland
-
-			H16 = {
-				set_province_controller = 996
-				set_province_controller = 1089
-				set_province_controller = 4091
-				set_province_controller = 7014
-				set_province_controller = 7120
-				set_province_controller = 10034
-				set_province_controller = 10076
-				set_province_controller = 11913
-				set_province_controller = 11928
-				set_province_controller = 11982
-				set_province_controller = 12052
-				set_province_controller = 12076
-				set_province_controller = 13142 
-			}
+		1999.1.1 = { 
+			owner = H16
+			remove_core_of = H16
 		}
 		owner = PRC
+		
 		add_core_of = PRC
 		add_core_of = CHI
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 6
+			dockyard = 1
 			7014 = {
-				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
 			}
 		}
 		victory_points = {
-			11913 20
+			11913 5 
 		}
 		victory_points = {
-			7014 5
+			7014 3
 		}
 		victory_points = {
-			10076 3
+			10076 1
+		}
+
+
+		1938.10.25 = {
+			controller = JAP
 		}
 	}
 
 	provinces={
-		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142
+		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142 
 	}
 }

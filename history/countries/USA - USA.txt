@@ -6,7 +6,7 @@ capital = 361 #首都
 	oob = "USA_1999" #陸軍テンプレート読み込み
 
 	add_to_war = { targeted_alliance = UNI enemy = BET } #戦争状態を設定
-
+	
 	set_technology = { #初期研究を定義
 		infantry_weapons = 1
 		infantry_weapons1 = 1
@@ -44,7 +44,6 @@ capital = 361 #首都
 		interwar_artillery = 1
 		artillery1 = 1
 		artillery2 = 1
-		basic_medium_spaa = 1
 		rocket_artillery = 1
 		gwtank = 1
 		basic_light_tank = 1
@@ -52,6 +51,8 @@ capital = 361 #首都
 		basic_medium_tank = 1
 		improved_medium_tank = 1
 		advanced_medium_tank = 1
+		AA_tankI = 1
+		AA_tankII = 1
 		early_destroyer = 1
 		mtg_transport = 1
 		mtg_landing_craft = 1
@@ -59,13 +60,11 @@ capital = 361 #首都
 		fleet_in_being = 1
 		fighter1 = 1
 		CAS2 = 1
+		jet_tactical_bomber1 = 1
+		jet_tactical_bomber2 = 1
 		electronic_mechanical_engineering = 1
 		radio = 1
 		radio_detection = 1
-		decimetric_radar = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		antiair5 = 1
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
@@ -84,55 +83,53 @@ capital = 361 #首都
 		dispersed_industry4 = 1
 		dispersed_industry5 = 1
 		interwar_antiair = 1
-		basic_encryption = 1
-		basic_decryption = 1
-		improved_decryption = 1
-		atomic_research = 1
-		nuclear_reactor = 1
-		nukes = 1
-		night_vision = 1
-		night_vision2 = 1
+		experimental_rockets = 1
+		rocket_engines = 1
+		jet_engines = 1
 
 		###陸軍ドクトリン###
 		mobile_warfare = 1
-
+		
 		###TSF###
-		USA_basic_concept_research = 1
-		USA_3rd_tsf_high = 1
-		USA_3rd_tsf_low = 1
-		USA_1st_tsf_low = 1
-		USA_1st_tsf_high = 1
-		USA_Assault_gun_improvement = 1
-		USA_2nd_tsf_low = 1
-		USA_2nd_tsf_high = 1
-		USA_2nd_tsf_F18 = 1
-		USA_2nd_tsf_F18E/F = 1
-		USA_F14_tsf_high = 1
-		USA_Jumping_unit_improvement = 1
-		USA_F15E_tsf = 1
-		USA_asa_1st = 1
-		USA_Manipulator_improvement = 1
-		USA_Carrying_ammunition_increase = 1
-		USA_tsa_1st = 1
-
-
+		UNI_basic_concept_research = 1
+		UNI_Assault_gun_improvement_1 = 1
+		UNI_Assault_gun_improvement_2 = 1
+		UNI_Schurzen_1 = 1
+		UNI_Schurzen_2 = 1
+		UNI_Manipulator_improvement = 1
+		generic_F-4 = 1
+		generic_F-5 = 1
+		USA_F-16 = 1
+		USA_F-15 = 1
+		USA_F-18 = 1
+		USA_F-18EF = 1
+		USA_F-22 = 1
+		USA_F-14 = 1
+		USA_F-15E = 1
+		generic_A-6 = 1
+		generic_A-10 = 1
+		tech_special_forces = 1
+		
 		###軍需・民需建築許可###
 		MVLV_EnableBuilding_arms_factory = 1
 		MVLV_EnableBuilding_industrial_complex = 1
-	}
 
+		###戦術###
+		human_combat_tactics = 1
+	}
+	
 	add_tech_bonus = { #工業バフ
 		name = industry
 		bonus =1000
-		uses = 5
+		uses = 5 
 		category = concentrated_industry_category
 		category = dispersed_industry_category
-	}
-
+	}	
+	
 	add_tech_bonus = { #ラインバフ
 		name = line
 		bonus =1000
-		uses = 1
+		uses = 1 
 		technology = flexible_line
 		technology = streamlined_line
 	}
@@ -144,9 +141,7 @@ capital = 361 #首都
 		USA_refugees
 		mvlv_parmanent
 		mvlv_altanative_5
-		USA_Nuclear_Weapons_Doctrine
-		USA_Nuclear_Weapons_Stockpile
-		USA_Transport_Arm
+		MVLV_UNF
 	}
 
 	if = {
@@ -201,366 +196,377 @@ capital = 361 #首都
 		}
 		set_naval_oob = "UNI_1999_navy_legacy"
 	}
-
+	
 	set_convoys = 1200 #初期輸送船数を定義
 }
-	set_stability = 0.75 #初期安定度を定義
-	set_war_support = 0.25 #初期戦争協力度を定義
+set_stability = 0.75 #初期安定度を定義
+set_war_support = 0.25 #初期戦争協力度を定義
 
-	set_research_slots = 5 #初期研究枠を定義
+set_research_slots = 5 #初期研究枠を定義
 
-	army_experience = 500 #初期陸軍経験値を定義
+army_experience = 500 #初期陸軍経験値を定義
 
-	add_political_power = 0 #初期政治力を定義
+add_political_power = 0 #初期政治力を定義
 
-	add_offsite_building = { type = arms_factory level = 15 } #MAP外軍需を定義
-	add_offsite_building = { type = industrial_complex level = 45 } #MAP外民需を定義
-	#add_offsite_building = { type = dockyard level = 10 } #MAP外海軍工廠を定義
+#add_offsite_building = { type = arms_factory level = 15 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 25 } #MAP外民需を定義
+#add_offsite_building = { type = dockyard level = 10 } #MAP外海軍工廠を定義
 
-	set_politics = { #初期政体を定義
-		ruling_party = democratic
-		last_election = "1932.11.8"
-		election_frequency = 48
-		elections_allowed = yes
+set_politics = { #初期政体を定義
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = { #初期支持率を定義
+	democratic = 99
+	communism = 1
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "George W Bush"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "bush.dds"
+	expire = "2040.1.1"
+	ideology = liberalism
+	traits = {}
+}
+
+create_country_leader = {
+	name = "William Dudley Pelley"
+	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
+	picture = "Portrait_USA_William_Dudley_Pelley.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
 	}
+}
 
-	set_popularities = { #初期支持率を定義
-		democratic = 99
-		communism = 1
+create_country_leader = {
+	name = "Earl Browder"
+	desc = "POLITICS_EARL_BROWDER_DESC"
+	picture = "Portrait_USA_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
 	}
+}
 
-	###各政体における指導者を定義###
-	create_country_leader = {
-		name = "George W Bush"
-		desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-		picture = "bush.dds"
-		expire = "2040.1.1"
-		ideology = liberalism
-		traits = {}
+###初期将軍及び元帥を定義###
+create_corps_commander = {
+	name = "ユウヤ ブリッジス"
+	picture = "03.dds"
+	traits = { inflexible_strategist trickster tsf_officer war_hero trait_reckless }
+	skill = 7
+	id = 968
+	attack_skill = 8 
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 6
+}
+
+create_corps_commander = {
+	name = "レオン クゼ"
+	picture = "42.dds"
+	traits = { trait_engineer trait_cautious brilliant_strategist harsh_leader tsf_officer }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "アルフレッド ウォーケン"
+	picture = "73.dds"
+	id = 995
+	traits = {
+		inflexible_strategist
+		logistics_wizard
+		organizer
+		offensive_doctrine
+		trait_cautious
+		tsf_officer
+		politically_connected
+		tsf_leader
+		commander_aptitude
+		tsf_commander
 	}
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 5
+	logistics_skill = 5
+}
 
-	create_country_leader = {
-		name = "William Dudley Pelley"
-		desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-		picture = "Portrait_USA_William_Dudley_Pelley.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
+create_corps_commander = {
+	name = "ガイウス マクラウド"
+	picture = "58.dds"
+	traits = { tsf_officer career_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
 
-		}
+create_corps_commander = {
+	name = "フェーベ・テオドラキス"
+	picture = "24.dds"
+	traits = { trait_engineer commando }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "リリア シェルベリ"
+	picture = "68.dds"
+	traits = { tsf_officer trait_reckless }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "ダリル マクマナス"
+	picture = "62.dds"
+	traits = { tsf_officer career_officer brilliant_strategist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "イルマ テスレフ"
+	picture = "iruma.dds"
+	traits = { tsf_leader career_officer tsf_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "キース ブレイザー"
+	picture = "213.dds"
+	traits = {
+		career_officer
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+		tsf_commander
 	}
+	skill = 4
+	attack_skill = 5
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 4
+}
 
-	create_country_leader = {
-		name = "Earl Browder"
-		desc = "POLITICS_EARL_BROWDER_DESC"
-		picture = "Portrait_USA_Generic_1.dds"
-		expire = "1965.1.1"
-		ideology = marxism
-		traits = {
+create_corps_commander = {
+	name = "キャロライン シールズ"
+	picture = "214.dds"
+	traits = { career_officer tsf_officer tsf_leader true_genius }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
 
-		}
-	}
+create_corps_commander = {
+	name = "シャロン エイム"
+	picture = "13.dds"
+	traits = { brilliant_strategist tsf_officer tsf_leader career_officer }
+	skill = 5
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 5
+	logistics_skill = 4
+}
 
-	###初期将軍及び元帥を定義###
-	create_corps_commander = {
-		name = "ユウヤ ブリッジス"
-		picture = "03.dds"
-		traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
-		skill = 7
+create_corps_commander = {
+	name = "ウィルバート コリンズ"
+	picture = "07.dds"
+	traits = { tsf_officer career_officer }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 4
+}
 
-		attack_skill = 8
-		defense_skill = 4
-		planning_skill = 2
-		logistics_skill = 6
-	}
+###初期提督を定義###
+create_navy_leader = {
+	name = "Ernest King"
+		picture = "Portrait_USA_Earnest_King.dds"
+	traits = { blockade_runner superior_tactician }
+	skill = 5
+}
 
-	create_corps_commander = {
-		name = "レオン クゼ"
-		picture = "42.dds"
-		traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
-		skill = 5
+create_navy_leader = {
+	name = "Chester W. Nimitz"
+		picture = "Portrait_USA_Chester_W_Nimitz.dds"
+	traits = { superior_tactician spotter }
+	skill = 5
+}
 
-		attack_skill = 3
-		defense_skill = 5
-		planning_skill = 4
-		logistics_skill = 4
-	}
+create_navy_leader = {
+	name = "William Halsey, Jr."
+		picture = "Portrait_USA_William_Halsey_Jr.dds"
+	traits = { superior_tactician spotter }
+	skill = 4
+}
 
-	create_field_marshal = {
-		name = "アルフレッド ウォーケン"
-		picture = "73.dds"
-		traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
-		skill = 7
-		#id = 602
-		attack_skill = 6
-		defense_skill = 7
-		planning_skill = 5
-		logistics_skill = 5
-	}
+create_navy_leader = {
+	name = "Frank Jack Fletcher"
+		picture = "Portrait_USA_Frank_Jack_Fletcher.dds"
+	traits = { superior_tactician spotter }
+	skill = 3
+}
 
-	create_corps_commander = {
-		name = "ガイウス マクラウド"
-		picture = "58.dds"
-		traits = { armor_officer career_officer }
-		skill = 2
+create_navy_leader = {
+	name = "Raymond A. Spruance"
+		picture = "Portrait_USA_Raymond_A_Spruance.dds"
+	traits = { superior_tactician }
+	skill = 4
+}
 
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 1
-	}
+create_navy_leader = {
+	name = "Harold Rainsford Stark"
+		picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
+	traits = { blockade_runner spotter }
+	skill = 2
+}
 
-	create_corps_commander = {
-		name = "フェーベ・テオドラキス"
-		picture = "24.dds"
-		traits = { trait_engineer commando cavalry_officer }
-		skill = 3
+create_navy_leader = {
+	name = "Arleigh Burke"
+		picture = "Portrait_USA_Arleigh_Burke.dds"
+	traits = { old_guard_navy superior_tactician }
+	skill = 4
+}
 
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 2
-	}
+create_navy_leader = {
+	name = "Charles M. Cooke, Jr."
+		picture = "Portrait_USA_Charles_M_Cooke.dds"
+	traits = {  }
+	skill = 2
+}
 
-	create_corps_commander = {
-		name = "リリア シェルベリ"
-		picture = "68.dds"
-		traits = { infantry_officer trait_reckless }
-		skill = 5
-
-		attack_skill = 5
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 3
+### VARIANTS ###
+# 1936 Start #
+### Carrier Variants
+create_equipment_variant = {
+	name = "Akagi Class"
+	type = carrier_1
+	parent_version = 0
+	upgrades = {
+		ship_deckspace_upgrade = 5
+		carrier_armor_upgrade = 2
+		ship_engine_upgrade = 2
+		ship_reliability_upgrade = 3
 	}
-
-	create_corps_commander = {
-		name = "ダリル マクマナス"
-		picture = "62.dds"
-		traits = { armor_officer career_officer brilliant_strategist }
-		skill = 4
-
-		attack_skill = 3
-		defense_skill = 3
-		planning_skill = 1
-		logistics_skill = 2
+	obsolete = yes
+}
+### Battleship Variants	
+create_equipment_variant = {
+	name = "Ise Class"
+	type = battleship_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_engine_upgrade = 3
+		ship_armor_upgrade = 1
+		ship_gun_upgrade = 1
 	}
-
-	create_corps_commander = {
-		name = "イルマ テスレフ"
-		picture = "iruma.dds"
-		traits = {  panzer_leader career_officer infantry_officer }
-		skill = 4
-		attack_skill = 4
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 4
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Nagato Class"
+	type = battleship_1
+	parent_version = 1
+	upgrades = {
+		ship_reliability_upgrade = 3
+		ship_engine_upgrade = 4
+		ship_armor_upgrade = 3
+		ship_gun_upgrade = 4
 	}
-
-	create_corps_commander = {
-		name = "キース ブレイザー"
-		picture = "213.dds"
-		traits = {  panzer_leader career_officer infantry_officer }
-		skill = 3
-		attack_skill = 5
-		defense_skill = 2
-		planning_skill = 2
-		logistics_skill = 4
+	obsolete = yes
+}
+### Heavy Cruiser Variants	
+create_equipment_variant = {
+	name = "Myoko Class"
+	type = heavy_cruiser_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_engine_upgrade = 2
+		ship_armor_upgrade = 2
+		ship_gun_upgrade = 3
 	}
-
-	create_corps_commander = {
-		name = "キャロライン シールズ"
-		picture = "214.dds"
-		traits = {  panzer_leader career_officer infantry_officer }
-		skill =2
-		attack_skill = 2
-		defense_skill = 6
-		planning_skill = 6
-		logistics_skill = 3
+	obsolete = yes
+}
+### Light Cruiser Variants	
+create_equipment_variant = {
+	name = "Kuma Class"
+	type = light_cruiser_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_engine_upgrade = 2
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 1
 	}
-
-	create_corps_commander = {
-		name = "シャロン エイム"
-		picture = "13.dds"
-		traits = {  panzer_leader career_officer infantry_officer }
-		skill = 5
-		attack_skill = 4
-		defense_skill = 6
-		planning_skill = 8
-		logistics_skill = 6
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Sendai Class"
+	type = light_cruiser_1
+	parent_version = 1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		ship_engine_upgrade = 3
+		ship_gun_upgrade = 1
+		ship_anti_air_upgrade = 2
 	}
-
-	create_corps_commander = {
-		name = "ウィルバート コリンズ"
-		picture = "07.dds"
-		traits = {  panzer_leader career_officer infantry_officer }
-		skill = 5
-		attack_skill = 4
-		defense_skill = 3
-		planning_skill = 2
-		logistics_skill = 4
+	obsolete = yes
+}
+### Destroyer Variants
+create_equipment_variant = {
+	name = "Fubuki Class"
+	type = destroyer_1
+	parent_version = 0
+	upgrades = {
+		ship_torpedo_upgrade = 2
+		destroyer_engine_upgrade = 4
+		ship_ASW_upgrade = 2
+		ship_anti_air_upgrade = 2
 	}
-
-	###初期提督を定義###
-	create_navy_leader = {
-		name = "Ernest King"
-			picture = "Portrait_USA_Earnest_King.dds"
-		traits = { blockade_runner superior_tactician }
-		skill = 5
+}	
+### Submarine Variants	
+create_equipment_variant = {
+	name = "Kaidai III Class"
+	type = submarine_1
+	parent_version = 0
+	upgrades = {
+		ship_reliability_upgrade = 3
+		sub_engine_upgrade = 3
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 2
 	}
-
-	create_navy_leader = {
-		name = "Chester W. Nimitz"
-			picture = "Portrait_USA_Chester_W_Nimitz.dds"
-		traits = { superior_tactician spotter }
-		skill = 5
-	}
-
-	create_navy_leader = {
-		name = "William Halsey, Jr."
-			picture = "Portrait_USA_William_Halsey_Jr.dds"
-		traits = { superior_tactician spotter }
-		skill = 4
-	}
-
-	create_navy_leader = {
-		name = "Frank Jack Fletcher"
-			picture = "Portrait_USA_Frank_Jack_Fletcher.dds"
-		traits = { superior_tactician spotter }
-		skill = 3
-	}
-
-	create_navy_leader = {
-		name = "Raymond A. Spruance"
-			picture = "Portrait_USA_Raymond_A_Spruance.dds"
-		traits = { superior_tactician }
-		skill = 4
-	}
-
-	create_navy_leader = {
-		name = "Harold Rainsford Stark"
-			picture = "Portrait_USA_Harold_Rainsford_Stark.dds"
-		traits = { blockade_runner spotter }
-		skill = 2
-	}
-
-	create_navy_leader = {
-		name = "Arleigh Burke"
-			picture = "Portrait_USA_Arleigh_Burke.dds"
-		traits = { old_guard_navy superior_tactician }
-		skill = 4
-	}
-
-	create_navy_leader = {
-		name = "Charles M. Cooke, Jr."
-			picture = "Portrait_USA_Charles_M_Cooke.dds"
-		traits = {  }
-		skill = 2
-	}
-
-	### VARIANTS ###
-	# 1936 Start #
-	### Carrier Variants
-	create_equipment_variant = {
-		name = "Akagi Class"
-		type = carrier_1
-		parent_version = 0
-		upgrades = {
-			ship_deckspace_upgrade = 5
-			carrier_armor_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_reliability_upgrade = 3
-		}
-		obsolete = yes
-	}
-	### Battleship Variants
-	create_equipment_variant = {
-		name = "Ise Class"
-		type = battleship_1
-		parent_version = 0
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 3
-			ship_armor_upgrade = 1
-			ship_gun_upgrade = 1
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Nagato Class"
-		type = battleship_1
-		parent_version = 1
-		upgrades = {
-			ship_reliability_upgrade = 3
-			ship_engine_upgrade = 4
-			ship_armor_upgrade = 3
-			ship_gun_upgrade = 4
-		}
-		obsolete = yes
-	}
-	### Heavy Cruiser Variants
-	create_equipment_variant = {
-		name = "Myoko Class"
-		type = heavy_cruiser_1
-		parent_version = 0
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_armor_upgrade = 2
-			ship_gun_upgrade = 3
-		}
-		obsolete = yes
-	}
-	### Light Cruiser Variants
-	create_equipment_variant = {
-		name = "Kuma Class"
-		type = light_cruiser_1
-		parent_version = 0
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_gun_upgrade = 1
-			ship_anti_air_upgrade = 1
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {
-		name = "Sendai Class"
-		type = light_cruiser_1
-		parent_version = 1
-		upgrades = {
-			ship_reliability_upgrade = 2
-			ship_engine_upgrade = 3
-			ship_gun_upgrade = 1
-			ship_anti_air_upgrade = 2
-		}
-		obsolete = yes
-	}
-	### Destroyer Variants
-	create_equipment_variant = {
-		name = "Fubuki Class"
-		type = destroyer_1
-		parent_version = 0
-		upgrades = {
-			ship_torpedo_upgrade = 2
-			destroyer_engine_upgrade = 4
-			ship_ASW_upgrade = 2
-			ship_anti_air_upgrade = 2
-		}
-	}
-	### Submarine Variants
-	create_equipment_variant = {
-		name = "Kaidai III Class"
-		type = submarine_1
-		parent_version = 0
-		upgrades = {
-			ship_reliability_upgrade = 3
-			sub_engine_upgrade = 3
-			sub_stealth_upgrade = 1
-			sub_torpedo_upgrade = 2
-		}
-		obsolete = yes
-	}
+	obsolete = yes
 }
 
 if = {
@@ -660,7 +666,7 @@ if = {
 		}
 		obsolete = yes
 	}
-	### Battleship Variants
+	### Battleship Variants	
 	create_equipment_variant = {
 		name = "Nagato Class"
 		name_group = JAP_BB_HISTORICAL
@@ -683,7 +689,7 @@ if = {
 	create_equipment_variant = {
 		name = "Kongo Class"
 		name_group = JAP_BB_HISTORICAL
-		type = ship_hull_heavy_1
+		type = ship_hull_heavy_2
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_heavy_battery_1
@@ -719,8 +725,8 @@ if = {
 		}
 		obsolete = yes
 	}
-
-	### Heavy Cruiser Variants
+		
+	### Heavy Cruiser Variants			
 	create_equipment_variant = {
 		name = "Myoko Class"
 		type = ship_hull_cruiser_2
@@ -943,7 +949,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Momi Class"
+		name = "Momi Class" 
 		type = ship_hull_light_1
 		name_group = JAP_DD_HISTORICAL
 		parent_version = 0
@@ -990,8 +996,8 @@ if = {
 			mid_1_custom_slot = ship_mine_layer_1
 			rear_1_custom_slot = ship_mine_layer_1
 		}
-	}
-	### Submarine Variants
+	}	
+	### Submarine Variants	
 	create_equipment_variant = {
 		name = "Kaidai III Class"
 		type = ship_hull_submarine_1
@@ -1002,7 +1008,7 @@ if = {
 			fixed_ship_engine_slot = sub_ship_engine_1
 			rear_1_custom_slot = ship_torpedo_sub_1
 		}
-	}
+	}	
 	create_equipment_variant = {
 		name = "Ro-26 Class"
 		type = ship_hull_submarine_1
@@ -1044,7 +1050,7 @@ if = {
 				ship_reliability_upgrade = 1
 			}
 		}
-
+		
 		create_equipment_variant = {
 			name = "Kagero Class"
 			type = destroyer_2
@@ -1177,5 +1183,5 @@ if = {
 				rear_1_custom_slot = empty
 			}
 		}
-	}
+	}	
 }

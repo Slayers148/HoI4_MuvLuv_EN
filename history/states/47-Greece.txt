@@ -2,41 +2,38 @@
 state={
 	id=47
 	name="STATE_47" # Thessaly
-	manpower=0
+	manpower=2312500
 	resources={
 		steel=3 # was: 4
 		chromium=12 # was: 22
 		aluminium=30 # was: 58
 		tungsten = 10 # was: 20
 	}
-
+	
 	state_category = city
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H11
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 863
-				set_province_controller = 976
-				set_province_controller = 1109
-				set_province_controller = 3864
-				set_province_controller = 3973
-				set_province_controller = 3988
-				set_province_controller = 4109
-				set_province_controller = 6930
-				set_province_controller = 7127
-			}
+			remove_core_of = GRE
 		}
 		owner = GRE
 		victory_points = {
-			4109 20
+			4109 1 
 		}
 		victory_points = {
 			3973 3
 		}
+		#victory_points = {
+		#	863 1
+		#}
+		#victory_points = {
+		#	3864 3
+		#}
+		#victory_points = {
+		#	976 1
+		#}
 		victory_points = {
 			7127 3
 		}
@@ -44,14 +41,17 @@ state={
 			3988 1
 		}
 		buildings = {
-			infrastructure = 1
-			4109 = {
-				naval_base = 9
-			}
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 4
+
 		}
+		add_core_of = GRE
+
 	}
 
 	provinces={
-		863 976 1109 3864 3973 3988 4109 6930 7127
+		863 976 1109 3864 3973 3988 4109 6930 7127 
 	}
 }

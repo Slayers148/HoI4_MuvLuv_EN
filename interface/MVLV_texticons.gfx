@@ -17,7 +17,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_nato_unit_MVLV_xg_battalion_icon_small"
-		texturefile = "gfx/texticons/nato_unit_tsf_icon_small.dds"
+		texturefile = "gfx/texticons/nato_unit_xg_icon_small.dds"
 		legacy_lazy_load = no
 	}
 	
@@ -77,6 +77,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_unit_MVLV_tsa_battalion_icon_small"
 		texturefile = "gfx/texticons/unit_tsa_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_MVLV_xg_battalion_icon_small"
+		texturefile = "gfx/texticons/unit_xg_icon_small.dds"
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}

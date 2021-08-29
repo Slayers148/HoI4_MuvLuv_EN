@@ -1,0 +1,54 @@
+focus_tree = {
+	id = usa_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	default = no
+	continuous_focus_position = { x = 20 y = 1000 }
+	reset_on_civilwar = no
+
+	shared_focus = common_refugee_tech_sharing
+	shared_focus = common_adopt_powered_suits
+	shared_focus = common_experience_of_BETA_war
+	shared_focus = common_refugee_support_request
+	
+
+	focus = {
+		id = USA_support_japanese
+		icon = GFX_focus_jap_pacific_guardian
+		x = 3
+		y = 0
+		#relative_position_id = 
+
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		available = { 
+                        date > 2001.1.4
+			282 = {
+				is_controlled_by = JAP
+			} 
+                }
+		#bypass = { }
+		#cancel = { }
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		cost = 10
+
+		#select_effect = { }
+		completion_reward = { 
+			UNI = { country_event = mvlv_generic.5 }
+                }
+		#completation_tooltip = { }
+
+		ai_will_do = { factor = 10 }
+	}
+
+}
+

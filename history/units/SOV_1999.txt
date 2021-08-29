@@ -7,6 +7,11 @@
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
 	}
 	support = {
 		engineer = { x = 0 y = 0 }  
@@ -129,536 +134,728 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 	}
 }
+division_template = {
+	name = "軌道降下兵団"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "攻撃ヘリ旅団"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+		light_armor = { x = 2 y = 3 }
+
+	}
+	priority = 0
+}
+division_template = {
+	name = "高射連隊"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		modern_sp_anti_air_brigade = { x = 1 y = 0 }
+		modern_sp_anti_air_brigade = { x = 1 y = 1 }
+		modern_sp_anti_air_brigade = { x = 1 y = 2 }
+		modern_sp_anti_air_brigade = { x = 2 y = 0 }
+		modern_sp_anti_air_brigade = { x = 2 y = 1 }
+		modern_sp_anti_air_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
 units = {
-division = {
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
 		location = 1823
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}
-division = {
+	}
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
 		location = 1823
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
 		location = 1823
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
 		location = 1823
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "ソビエト連邦対BETA防衛師団"
-		location = 13220
+		location = 4744
 		division_template = "ソビエト連邦対BETA防衛師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "ロケット砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "ロケット砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "ロケット砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "ロケット砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "支援砲撃師団"
 		location = 1823
 		division_template = "砲兵旅団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	
+	division = {
 		name = "機甲師団"
 		location = 1823
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}
-division = {
+	}
+	####
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}
-division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 5264
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}	division = {
+	}
+	division = {
 		name = "機甲師団"
-		location = 13236
+		location = 13063
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}				
-division = {
-		name = "機甲師団"
-		location = 1742
-		division_template = "機甲師団"
-		start_experience_factor = 0.2
-}
-division = {
-		name = "機甲師団"
-		location = 1742
-		division_template = "機甲師団"
-		start_experience_factor = 0.2
-}
-division = {
-		name = "機甲師団"
-		location = 1742
-		division_template = "機甲師団"
-		start_experience_factor = 0.2
-}
-division = {
-		name = "機甲師団"
-		location = 1742
-		division_template = "機甲師団"
-		start_experience_factor = 0.2
-}
-division = {
+	}				
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}
-division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}
-division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 1742
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
+		name = "機甲師団"
+		location = 1742
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 1742
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 1742
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "機甲師団"
+		location = 1742
+		division_template = "機甲師団"
+		start_experience_factor = 0.2
+	}
+	division = {
 		name = "機甲師団"
 		location = 13241
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 13241
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}division = {
+	}
+	division = {
 		name = "機甲師団"
 		location = 13241
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-}
+	}
+	##########
 	division = {
 		name = "戦術機甲連隊"
 		location = 1742
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG21 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 1742
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG27 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-27 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 1742
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG27 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-27 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 1823
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_Su27 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_Su-27 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 1823
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG29 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-29 = { owner = "SOV" } }
 	}
 	division = {
 		name = "ジャール大隊"
 		location = 1823
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 1
-		force_equipment_variants = { tsf_equipment_Su27 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_Su-27 = { owner = "SOV" } }
 	}
 	division = {
 		name = "イーダル小隊"
 		location = 13244
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 1
-		force_equipment_variants = { tsf_equipment_Su37 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_Su-37 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲大隊"
 		location = 1823
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG29 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-29 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 13227
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG29 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-29 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 13227
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG27 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-27 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
 		location = 13227
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG21 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲大隊"
 		location = 13227
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG27 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-27 = { owner = "SOV" } }
 	}
 	division = {
 		name = "戦術機甲大隊"
 		location = 13227
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG27 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-27 = { owner = "SOV" } }
 	}
-        division = {
+	#####
+    division = {
 		name = "機甲師団"
-		location = 13220
+		location = 4744
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-        }	
-        division = {
+    }	
+	division = {
 		name = "機甲師団"
-		location = 13220
+		location = 4744
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-        }	
-        division = {
+	}	
+	division = {
 		name = "機甲師団"
-		location = 13220
+		location = 4744
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-        }	
-        division = {
+	}	
+	division = {
 		name = "機甲師団"
-		location = 13220
+		location = 4744
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-        }	
-        division = {
+	}	
+	division = {
 		name = "機甲師団"
-		location = 13220
+		location = 4744
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-        }	
-        division = {
+	}	
+	division = {
 		name = "機甲師団"
-		location = 13220
+		location = 4744
 		division_template = "機甲師団"
 		start_experience_factor = 0.2
-        }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 4744
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
 	division = {
 		name = "戦術機甲大隊"
 		location = 13220
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.2
-		force_equipment_variants = { tsf_equipment_MiG21 = { owner = "SOV" } }
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 13220
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 13220
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 13220
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 5264
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 5264
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 13236
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 13236
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 13236
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 4744
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
+	}
+	division = {
+		name = "戦術機甲大隊"
+		location = 4744
+		division_template = "戦術機甲大隊"
+		start_experience_factor = 0.2
+		force_equipment_variants = { tsf_equipment_MiG-21 = { owner = "SOV" } }
 	}
 }
 
@@ -666,6 +863,7 @@ division = {
 air_wings = {
 	
 	463 = { 	
+		name = "第一爆撃艦隊"
 		fighter_equipment_1 =  {
 			owner = "SOV" 
 			amount = 320
@@ -681,6 +879,10 @@ air_wings = {
 			amount = 380
 		}
 		name = "砲撃部隊"
+		jet_tac_bomber_equipment_1 = {
+			owner = "SOV" 
+			amount = 100
+		}
 	}
 }
 
@@ -694,7 +896,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "SOV"
 		}
-		requested_factories = 3
+		requested_factories = 2
 		progress = 0.1
 		efficiency = 50
 	}
@@ -711,30 +913,60 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = artillery_equipment_1
+			type = artillery_equipment_2
 			creator = "SOV" 
 		}
-		requested_factories = 1
+		requested_factories = 15
 		progress = 0.4
+		efficiency = 80
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = rocket_artillery_equipment
+			creator = "SOV" 
+		}
+		requested_factories = 15
+		progress = 0.4
+		efficiency = 80
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_Su-27
+			creator = "SOV" 
+		}
+		requested_factories = 25
+		progress = 0.2
+		efficiency = 30
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = tsf_equipment_MiG-29
+			creator = "SOV" 
+		}
+		requested_factories = 20
+		progress = 0.2
 		efficiency = 50
 	}
 	
 	add_equipment_production = {
 		equipment = {
-			type = tsf_equipment_0
+			type = tsf_equipment_MiG-21
 			creator = "SOV" 
 		}
-		requested_factories = 5
+		requested_factories = 15
 		progress = 0.2
-		efficiency = 30
+		efficiency = 90
 	}
         
         add_equipment_production = {
 		equipment = {
-			type = medium_tank_equipment_1
+			type = medium_tank_equipment_3
 			creator = "SOV" 
 		}
-		requested_factories = 1
+		requested_factories = 10
 		progress = 0.3
 		efficiency = 100
 	}

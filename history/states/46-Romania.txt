@@ -2,56 +2,33 @@
 state={
 	id=46
 	name="STATE_46" # Muntenia
-	manpower = 0
+	manpower = 4461400
 	resources={
 		oil=44 # was: 70
 	}
 
 	state_category = city
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H11
-			add_core_of = EUR
-			set_state_category = betaland
-
-			H11 = {
-				set_province_controller = 657
-				set_province_controller = 660
-				set_province_controller = 674
-				set_province_controller = 687
-				set_province_controller = 818
-				set_province_controller = 3076
-				set_province_controller = 3636
-				set_province_controller = 3639
-				set_province_controller = 3663
-				set_province_controller = 6658
-				set_province_controller = 6677
-				set_province_controller = 6695
-				set_province_controller = 9617
-				set_province_controller = 9635
-				set_province_controller = 9651
-				set_province_controller = 11603
-				set_province_controller = 11619
-				set_province_controller = 11636
-			}
+	history = { 1999.1.1 = { 
+			owner = H11
+			remove_core_of = H11
+			add_core_of = EEA
+			remove_core_of = ROM
 		}
 		owner = ROM
-		victory_points = { 9617 20 }
+		victory_points = { 9617 1 }
 		victory_points = { 3663 5 }
 		victory_points = { 657 3 }
 		buildings = {
-			infrastructure = 1
-			657 = {
-				naval_base = 8
-			}
-			687 = {
-				naval_base = 1
-			}
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 1
+			air_base = 3
 		}
+		add_core_of = ROM
 	}
 
 	provinces={
-		657 660 674 687 818 3076 3636 3639 3663 6658 6677 6695 9617 9635 9651 11603 11619 11636
+		657 660 674 687 818 3076 3636 3639 3663 6658 6677 6695 9617 9635 9651 11603 11619 11636 
 	}
 }

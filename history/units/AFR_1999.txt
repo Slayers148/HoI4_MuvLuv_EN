@@ -7,6 +7,11 @@
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
 	}
 	support = {
 		}
@@ -71,26 +76,6 @@ division_template = {
 
 	}
 	priority = 0
-}
-
-division_template = {
-	name = "機械化装甲歩兵師団"
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-	}
 }
 
 division_template = {
@@ -159,6 +144,43 @@ division_template = {
 		signal_company = { x = 0 y = 1 }
 	}
 }
+division_template = {
+	name = "攻撃ヘリ旅団"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+		light_armor = { x = 2 y = 3 }
+
+	}
+	priority = 0
+}
+division_template = {
+	name = "高射連隊"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		modern_sp_anti_air_brigade = { x = 1 y = 0 }
+		modern_sp_anti_air_brigade = { x = 1 y = 1 }
+		modern_sp_anti_air_brigade = { x = 1 y = 2 }
+		modern_sp_anti_air_brigade = { x = 2 y = 0 }
+		modern_sp_anti_air_brigade = { x = 2 y = 1 }
+		modern_sp_anti_air_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
 
 units = {
 	division = {
@@ -167,7 +189,7 @@ units = {
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_2 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "AFR" } }
 	}
         division = {
 		name = "要撃師団"
@@ -343,7 +365,7 @@ units = {
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_2 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_M2000 = { owner = "AFR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -351,7 +373,7 @@ units = {
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_M2000 = { owner = "AFR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -359,7 +381,7 @@ units = {
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_F-5 = { owner = "AFR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -367,7 +389,7 @@ units = {
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "AFR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -375,7 +397,7 @@ units = {
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "AFR" } }
 	}
 	division = {
 		name = "戦術機甲連隊"
@@ -383,7 +405,7 @@ units = {
 		division_template = "戦術機甲連隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "AFR" } }
 	}
 	division = {
 		name = "戦術機甲大隊"
@@ -391,7 +413,7 @@ units = {
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_2 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_MiG-29 = { owner = "AFR" } }
 	}
 	division = {
 		name = "戦術機甲大隊"
@@ -399,7 +421,7 @@ units = {
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_F14Ex = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_F-14 = { owner = "AFR" } }
 	}
         division = {
 		name = "戦術機甲大隊"
@@ -407,56 +429,56 @@ units = {
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "AFR" } }
 	}division = {
 		name = "戦術機甲大隊"
 		location = 9957
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_MIII = { owner = "AFR" } }
 	}division = {
 		name = "戦術機甲大隊"
 		location = 9957
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_F-15 = { owner = "AFR" } }
 	}division = {
 		name = "戦術機甲大隊"
 		location = 9957
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_F-4 = { owner = "AFR" } }
 	}division = {
 		name = "戦術機甲大隊"
 		location = 9957
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_MiG-23 = { owner = "AFR" } }
 	}division = {
 		name = "戦術機甲大隊"
 		location = 9957
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_J-10 = { owner = "AFR" } }
 	}division = {
 		name = "ドゥーマ小隊"
 		location = 13244
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 1
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_M2000 = { owner = "AFR" } }
 	}division = {
 		name = "アズラエル小隊"
 		location = 13244
 		division_template = "戦術機甲大隊"
 		start_experience_factor = 1
 		start_equipment_factor = 1
-		force_equipment_variants = { tsf_equipment_1 = { owner = "AFR" } }
+		force_equipment_variants = { tsf_equipment_F-14 = { owner = "AFR" } }
 	}
 	division = {
 		name = "機甲師団"

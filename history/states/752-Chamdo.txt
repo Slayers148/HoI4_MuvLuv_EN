@@ -1,24 +1,16 @@
 state={
 	id=752
 	name="STATE_752"
-	manpower=0
+	provinces={
+		1918 7988 8104 12724 12837 4999
+	}
+	manpower=300000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
-
 	history = {
-		1999.1.1 = {
-			owner = CHI
-			controller = H14
-			set_state_category = betaland
-
-			H14 = {
-				set_province_controller = 1918
-				set_province_controller = 7988
-				set_province_controller = 8104
-				set_province_controller = 12724
-				set_province_controller = 12837
-				set_province_controller = 4999
-			}
+		1999.1.1 = { 
+			owner = H14
+			remove_core_of = H14
 		}
 		owner = PRC
 		add_core_of = CHI
@@ -28,9 +20,16 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
-	}
-	provinces={
-		1918 7988 8104 12724 12837 4999
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 2
+
+			}
+
+		}
+
 	}
 }

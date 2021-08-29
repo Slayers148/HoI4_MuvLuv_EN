@@ -1,296 +1,93 @@
 start_equipment_factor = 1.1
+
+					division_template = {
+						name = "戦術機甲連隊"
+						regiments = {
+		                                            MVLV_tsf_battalion= { x = 0 y = 0 }
+		                                            MVLV_tsf_battalion= { x = 0 y = 1 }
+		                                            MVLV_tsf_battalion= { x = 0 y = 2 }
+		                                            MVLV_tsf_battalion= { x = 1 y = 0 }
+		                                            MVLV_tsf_battalion= { x = 1 y = 1 }
+		                                            MVLV_tsf_battalion= { x = 1 y = 2 }
+		                                            MVLV_tsf_battalion= { x = 2 y = 0 }
+		                                            MVLV_tsf_battalion= { x = 2 y = 1 }
+		                                            MVLV_tsf_battalion= { x = 2 y = 2 }
+		                                            MVLV_tsf_battalion= { x = 2 y = 3 }
+						}
+					}
+					division_template = {
+						name = "BETA"
+						regiments = {
+		                                            MVLV_beta_destroyer= { x = 0 y = 0 }
+		                                            MVLV_beta_destroyer= { x = 0 y = 1 }
+		                                            MVLV_beta_destroyer= { x = 0 y = 2 }
+		                                            MVLV_beta_destroyer= { x = 1 y = 0 }
+		                                            MVLV_beta_grappler= { x = 1 y = 1 }
+		                                            MVLV_beta_grappler= { x = 1 y = 2 }
+		                                            MVLV_beta_fort= { x = 2 y = 0 }
+		                                            MVLV_beta_fort= { x = 2 y = 1 }
+		                                            MVLV_beta_fort= { x = 2 y = 2 }
+		                                            MVLV_beta_fort= { x = 2 y = 3 }
+						}
+					}
+
 division_template = {
-	name = "Division scale division"
-	division_names_group = Division_scale_01
+	name = "Grappler class division"
+	division_names_group = BET_GRAPPLER_01
 	regiments = {
-		MVLV_mbeta_mwarrior = { x = 0 y = 0 }
-		MVLV_mbeta_mwarrior = { x = 0 y = 1 }
-		MVLV_mbeta_mtank = { x = 0 y = 2 }
-		MVLV_mbeta_mtank = { x = 0 y = 3 }
-		MVLV_mbeta_mtank = { x = 1 y = 0 }
-		MVLV_mbeta_mgrappler = { x = 1 y = 1 }
-		MVLV_mbeta_mgrappler = { x = 1 y = 2 }
-		MVLV_mbeta_mdestroyer = { x = 1 y = 3 }
-		MVLV_mbeta_mdestroyer = { x = 2 y = 0 }
-		MVLV_mbeta_mdestroyer = { x = 2 y = 1 }
-		MVLV_mbeta_mfort = { x = 2 y = 2 }
-		MVLV_mbeta_trev = { x = 2 y = 3 }
+		MVLV_beta_grappler = { x = 0 y = 0 }
+		MVLV_beta_grappler = { x = 0 y = 1 }
+		MVLV_beta_grappler = { x = 0 y = 2 }
+		MVLV_beta_grappler = { x = 0 y = 3 }
+		MVLV_beta_grappler = { x = 0 y = 4 }
+		MVLV_beta_grappler = { x = 1 y = 0 }
+		MVLV_beta_grappler = { x = 1 y = 1 }
+		MVLV_beta_grappler = { x = 1 y = 2 }
+		MVLV_beta_grappler = { x = 1 y = 3 }
+		MVLV_beta_grappler = { x = 1 y = 4 }
 	}
 }
+
 division_template = {
-	name = "Battalion scale division"
-	division_names_group = Battalion_scale_01
+	name = "Destroyer class division"
+	division_names_group = BET_DESTROYER_01
 	regiments = {
-		MVLV_mbeta_mwarrior = { x = 0 y = 0 }
-		MVLV_mbeta_mtank = { x = 0 y = 2 }
-		MVLV_mbeta_mtank = { x = 0 y = 3 }
-		MVLV_mbeta_mgrappler = { x = 1 y = 1 }
-		MVLV_mbeta_mdestroyer = { x = 1 y = 3 }
+		MVLV_beta_destroyer = { x = 0 y = 0 }
+		MVLV_beta_destroyer = { x = 0 y = 1 }
+		MVLV_beta_destroyer = { x = 0 y = 2 }
+		MVLV_beta_destroyer = { x = 0 y = 3 }
+		MVLV_beta_destroyer = { x = 0 y = 4 }
+		MVLV_beta_destroyer = { x = 1 y = 0 }
+		MVLV_beta_destroyer = { x = 1 y = 1 }
+		MVLV_beta_destroyer = { x = 1 y = 2 }
+		MVLV_beta_destroyer = { x = 1 y = 3 }
+		MVLV_beta_destroyer = { x = 1 y = 4 }
 	}
 }
 
-units = {
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Division scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
-	}
-
-	division = {
-		name = "BETA梯団"
-		location = 3878
-		division_template = "Battalion scale division"
-		start_experience_factor = 0.5
-		start_equipment_factor = 1
+division_template = {
+	name = "Fort class division"
+	division_names_group = BET_FORT_01
+	regiments = {
+		MVLV_beta_fort = { x = 0 y = 0 }
+		MVLV_beta_fort = { x = 0 y = 1 }
+		MVLV_beta_fort = { x = 0 y = 2 }
+		MVLV_beta_fort = { x = 0 y = 3 }
+		MVLV_beta_fort = { x = 0 y = 4 }
+		MVLV_beta_fort = { x = 1 y = 0 }
+		MVLV_beta_fort = { x = 1 y = 1 }
+		MVLV_beta_fort = { x = 1 y = 2 }
+		MVLV_beta_fort = { x = 1 y = 3 }
+		MVLV_beta_fort = { x = 1 y = 4 }
+		MVLV_beta_fort = { x = 2 y = 0 }
+		MVLV_beta_fort = { x = 2 y = 1 }
+		MVLV_beta_fort = { x = 2 y = 2 }
+		MVLV_beta_fort = { x = 2 y = 3 }
+		MVLV_beta_fort = { x = 2 y = 4 }
+		MVLV_beta_fort = { x = 3 y = 0 }
+		MVLV_beta_fort = { x = 3 y = 1 }
+		MVLV_beta_fort = { x = 3 y = 2 }
+		MVLV_beta_fort = { x = 3 y = 3 }
+		MVLV_beta_fort = { x = 3 y = 4 }
 	}
 }

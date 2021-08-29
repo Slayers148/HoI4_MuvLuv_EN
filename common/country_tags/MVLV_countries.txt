@@ -1,5 +1,6 @@
 ###original countries
 BET = "countries/BETA.txt"
+H00 = "countries/H00.txt"
 H02 = "countries/H02.txt"
 H03 = "countries/H03.txt"
 H04 = "countries/H04.txt"
@@ -20,6 +21,7 @@ H18 = "countries/H18.txt"
 H19 = "countries/H19.txt"
 H20 = "countries/H20.txt"
 H21 = "countries/H21.txt"
+H23 = "countries/H23.txt"
 H25 = "countries/H25.txt"
 H26 = "countries/H26.txt"
 ###countries、Historyを追加してからコメントを外してこのメッセージを消してください。
@@ -34,6 +36,7 @@ GEU = "countries/GreatEasternUnion.txt"
 CEA = "countries/CentralAmerica.txt"
 SOA = "countries/SouthAmerica.txt"
 AFR = "countries/Africa.txt"
+EEA = "countries/EasternEuropeAlliance.txt"
 
 ###modded Vanilla countries
 JAP = "countries/Japan.txt"

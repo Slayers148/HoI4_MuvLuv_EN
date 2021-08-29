@@ -2,28 +2,21 @@ state=
 {
 	id=124
 	name="STATE_124"
-	manpower = 0
-
+	manpower = 56988
+	
 	state_category = small_island
-
+	
 	history=
-	{ 1999.1.1 = {
-			owner = EUR
-			controller = H08
+	{ 1999.1.1 = { 
+			owner = H08
+			remove_core_of = H08
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H08 = {
-				set_province_controller = 408
-				set_province_controller = 6258
-			}
+			remove_core_of = SWE
 		}
 		owner = SWE
+		add_core_of = SWE
 		buildings = {
 			infrastructure = 6
-			408 = {
-				naval_base = 1
-			}
 		}
 	}
 	provinces={

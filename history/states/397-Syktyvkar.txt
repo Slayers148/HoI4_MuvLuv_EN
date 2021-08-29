@@ -2,47 +2,22 @@
 state={
 	id=397
 	name="STATE_397"
-	manpower = 0
+	manpower = 137203
 	state_category = wasteland
 
-	history = { 1999.1.1 = {
-			owner = SOV
-			controller = H04
-			set_state_category = betaland
-
-			H04 = {
-				set_province_controller = 6
-				set_province_controller = 99
-				set_province_controller = 108
-				set_province_controller = 186
-				set_province_controller = 1295
-				set_province_controller = 1307
-				set_province_controller = 3000
-				set_province_controller = 3155
-				set_province_controller = 4298
-				set_province_controller = 6121
-				set_province_controller = 6202
-				set_province_controller = 7318
-				set_province_controller = 7330
-				set_province_controller = 7712
-				set_province_controller = 7898
-				set_province_controller = 9145
-				set_province_controller = 9225
-				set_province_controller = 10579
-				set_province_controller = 11179
-				set_province_controller = 11200
-				set_province_controller = 11203
-				set_province_controller = 12558
-			}
+	history = { 1999.1.1 = { 
+			owner = H04
+			remove_core_of = H04
 		}
 		owner = SOV
 		buildings = {
 			infrastructure = 2
+
 		}
 		add_core_of = SOV
 	}
 
 	provinces={
-		6 99 108 186 1295 1307 3000 3155 4298 6121 6202 7318 7330 7712 7898 9145 9225 10579 11179 11200 11203 12558
+		6 99 108 186 1295 1307 3000 3155 4298 6121 6202 7318 7330 7712 7898 9145 9225 10579 11179 11200 11203 12558 
 	}
 }

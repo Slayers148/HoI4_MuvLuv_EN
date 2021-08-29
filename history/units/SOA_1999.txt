@@ -1,1 +1,171 @@
-﻿
+﻿division_template = {
+	name = "機械化装甲歩兵師団"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "機甲師団"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		medium_armor = { x = 1 y = 0 }
+		medium_armor = { x = 1 y = 1 }
+		medium_armor = { x = 1 y = 2 }
+		medium_armor = { x = 2 y = 0 }
+		medium_armor = { x = 2 y = 1 }
+		medium_armor = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "戦術機甲連隊"
+	regiments = {
+		MVLV_tsf_battalion= { x = 0 y = 0 }
+		MVLV_tsf_battalion= { x = 0 y = 1 }
+		MVLV_tsf_battalion= { x = 0 y = 2 }
+		MVLV_tsf_battalion= { x = 1 y = 0 }
+		MVLV_tsf_battalion= { x = 1 y = 1 }
+		MVLV_tsf_battalion= { x = 1 y = 2 }
+		MVLV_tsf_battalion= { x = 2 y = 0 }
+		MVLV_tsf_battalion= { x = 2 y = 1 }
+		MVLV_tsf_battalion= { x = 2 y = 2 }
+		MVLV_tsf_battalion= { x = 2 y = 3 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "沿岸防衛師団1"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		MVLV_tsf_battalion = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "防衛防衛師団2"
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		MVLV_tsf_battalion = { x = 1 y = 0 }
+		MVLV_tsf_battalion = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "攻撃ヘリ旅団"
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+		light_armor = { x = 2 y = 3 }
+
+	}
+	priority = 0
+}
+division_template = {
+	name = "高射連隊"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		modern_sp_anti_air_brigade = { x = 1 y = 0 }
+		modern_sp_anti_air_brigade = { x = 1 y = 1 }
+		modern_sp_anti_air_brigade = { x = 1 y = 2 }
+		modern_sp_anti_air_brigade = { x = 2 y = 0 }
+		modern_sp_anti_air_brigade = { x = 2 y = 1 }
+		modern_sp_anti_air_brigade = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	#戦術機
+	division = {
+		name = "戦術機甲連隊"
+		location = 10980
+		division_template = "戦術機甲連隊"
+		start_experience_factor = 0.25
+		force_equipment_variants = { tsf_equipment_F-5 = { owner = "USA" } }
+	}
+
+	#歩兵
+	division = {
+		name = "機械化装甲歩兵師団"
+		location = 10980
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "機械化装甲歩兵師団"
+		location = 10980
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "機械化装甲歩兵師団"
+		location = 10980
+		division_template = "機械化装甲歩兵師団"
+		start_experience_factor = 0.1
+	}
+
+	#戦車
+	division = {
+		name = "機甲師団"
+		location = 10980
+		division_template = "機甲師団"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "機甲師団"
+		location = 10980
+		division_template = "機甲師団"
+		start_experience_factor = 0.1
+	}
+}

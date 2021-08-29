@@ -1,34 +1,31 @@
 state={
 	id=745
 	name="STATE_745"
-	manpower=0
-	buildings_max_level_factor=1.000
-
+	provinces={
+		1150 6851 
+	}
 	state_category = large_town
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H16
-			set_state_category = betaland
-
-			H16 = {
-				set_province_controller = 1150
-				set_province_controller = 6851
-			}
+	history = { 1999.1.1 = { 
+			owner = H19
+			remove_core_of = H19
 		}
 		owner = PRC
 		add_core_of = CHI
+		#add_core_of = MAN
 		add_core_of = PRC
 		victory_points = {
-			1150 1
+			1150 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 5
+			industrial_complex = 1
 			1150 = {
-				naval_base = 5
+				coastal_bunker = 1
 			}
 		}
+
+	
 	}
-	provinces={
-		1150 6851
-	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
 }

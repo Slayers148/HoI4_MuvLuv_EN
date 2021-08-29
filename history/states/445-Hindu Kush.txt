@@ -2,26 +2,13 @@
 state={
 	id=445
 	name="STATE_445" # Quetta
-	manpower = 0
-
+	manpower = 405100
+	
 	state_category = wasteland
 
-	history = { 1999.1.1 = {
-			owner = GEU
-			controller = H13
-			set_state_category = betaland
-
-			H13 = {
-				set_province_controller = 1107
-				set_province_controller = 4990
-				set_province_controller = 5105
-				set_province_controller = 7847
-				set_province_controller = 7903
-				set_province_controller = 7975
-				set_province_controller = 8044
-				set_province_controller = 8098
-				set_province_controller = 10813 
-			}
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
 
 			#マシュハド陥落用
 			add_claim_by = H02
@@ -38,6 +25,6 @@ state={
 	}
 
 	provinces={
-		1107 4990 5105 7847 7903 7975 8044 8098 10813
+		1107 4990 5105 7847 7903 7975 8044 8098 10813 
 	}
 }

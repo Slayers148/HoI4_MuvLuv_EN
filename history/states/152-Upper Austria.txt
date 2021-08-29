@@ -2,46 +2,30 @@
 state={
 	id=152
 	name="STATE_152"
-	manpower = 0
-
+	manpower = 2275377
+	
 	state_category = city
-
+	
 	resources={
 		steel=5 # was: 8
 		aluminium=1 # was: 1
 	}
 
 	history = {
-		1999.1.1 = {
-			owner = EUR
-			controller = H05
+		1999.1.1 = { 
+			owner = H05
+			remove_core_of = H05
 			add_core_of = EUR
-			set_state_category = betaland
-
-			H05 = {
-				set_province_controller = 688
-				set_province_controller = 732
-				set_province_controller = 3673
-				set_province_controller = 3674
-				set_province_controller = 3684
-				set_province_controller = 3703
-				set_province_controller = 6552
-				set_province_controller = 6687
-				set_province_controller = 6691
-				set_province_controller = 6708
-				set_province_controller = 6723
-				set_province_controller = 9650
-				set_province_controller = 9665
-				set_province_controller = 11651
-				set_province_controller = 11612
-			}
+			remove_core_of = AUS
+			remove_core_of = GER
 		}
 		owner = AUS
 		buildings = {
-			infrastructure = 1
+			infrastructure = 6
+			industrial_complex = 3
 		}
 		victory_points = {
-			688 10
+			688 10 
 		}
 		victory_points = {
 			3673 3
@@ -51,6 +35,16 @@ state={
 		}
 		victory_points = {
 			732 10
+		}
+		#victory_points = {
+		#	11612 3
+		#}
+		add_core_of = AUS
+
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
 		}
 	}
 

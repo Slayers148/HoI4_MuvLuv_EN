@@ -1,47 +1,29 @@
 state={
 	id=676
 	name="STATE_676"
-	manpower = 0
-
+	manpower = 1182741
+	
 	state_category = town
-
+	
 	resources={
 		oil=8 # was: 10
 	}
 
-	history = {
-			1999.1.1 = {
-			owner = AFR
-			controller = H09
-			add_core_of = AFR
-			remove_core_of = IRQ
-			set_state_category = betaland
 
-			H09 = {
-					set_province_controller = 1600
-					set_province_controller = 1938
-					set_province_controller = 3916
-					set_province_controller = 5014
-					set_province_controller = 6826
-					set_province_controller = 8123
-					set_province_controller = 10106
-					set_province_controller = 10793
-					set_province_controller = 10804
-					set_province_controller = 10811
-					set_province_controller = 12372
-				}
-			}
+	history = { 1999.1.1 = { 
+			owner = H09			remove_core_of =
+ H09		}
 		owner = IRQ
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
-			10106 1
+			10106 1 
 		}
-		add_core_of = IRQ
+		add_core_of = AFR
 	}
-
+	
 	provinces={
-		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372
+		1600 1938 3916 5014 6826 8123 10106 10793 10804 10811 12372 
 	}
 }

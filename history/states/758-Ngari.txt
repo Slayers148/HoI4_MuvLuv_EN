@@ -1,23 +1,15 @@
 state={
 	id=758
 	name="STATE_758"
-	manpower = 0
+	provinces={
+		1961 5094 8029 10802 12784 12801 
+	}
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
-
-	history = { 1999.1.1 = {
-			owner = CHI
-			controller = H13
-			set_state_category = betaland
-
-			H13 = {
-				set_province_controller = 1961
-				set_province_controller = 5094
-				set_province_controller = 8029
-				set_province_controller = 10802
-				set_province_controller = 12784
-				set_province_controller = 12801 
-			}
+	history = { 1999.1.1 = { 
+			owner = H13
+			remove_core_of = H13
 
 			#BETA本国陥落用
 			add_claim_by = BET
@@ -28,9 +20,6 @@ state={
 		}
 		add_core_of = CHI
 		add_core_of = PRC
-	}
 
-	provinces={
-		1961 5094 8029 10802 12784 12801
 	}
 }

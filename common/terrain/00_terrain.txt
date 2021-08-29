@@ -217,6 +217,25 @@ categories =  {
 		sickness_chance = -1.0
 	}
 	
+	hive_super_mainhall = {
+		color = { 0 0 0 }
+		movement_cost = 10.0
+		attrition = 0.05
+		combat_width = 10.0
+		ai_terrain_importance_factor = 100.0
+		match_value = 100
+		sound_type = forest
+
+		units = {
+			attack = -0.35
+			movement = -0.95
+		}
+
+		enemy_army_bonus_air_superiority_factor = -0.75
+		
+		sickness_chance = -1.0
+	}
+	
 	water_fjords = {
 		naval_terrain = yes
 		color = { 75 162 198 }
@@ -349,4 +368,5 @@ terrain = {
 	terrain_21					= { type = hive_gateclass		color = { 	29	 } texture = 17 }
 	terrain_22					= { type = hive_drift		color = { 	30	 } texture = 18 }
 	terrain_23					= { type = hive_gate		color = { 	32	 } texture = 19 }
+	terrain_24					= { type = hive_super_mainhall	color = { 	33	 } texture = 16 }
 }

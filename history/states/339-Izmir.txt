@@ -2,50 +2,33 @@
 state={
 	id=339
 	name="STATE_339"
-	manpower = 0
+	manpower = 1111755
 	resources={
 		chromium=50 # was: 86
 	}
-
+	
 	state_category = town
 
-	history = { 1999.1.1 = {
-			owner = EUR
-			controller = H02
-			add_core_of = EUR
+	history = { 1999.1.1 = { 
+			owner = H02
+			remove_core_of = H02
 			remove_core_of = TUR
-			set_state_category = betaland
-
-			H02 = {
-				set_province_controller = 928
-				set_province_controller = 3927
-				set_province_controller = 4112
-				set_province_controller = 6992
-				set_province_controller = 7130
-				set_province_controller = 9921
-				set_province_controller = 9929
-				set_province_controller = 10038
-				set_province_controller = 11848
-				set_province_controller = 11898
-			}
+			add_core_of = AFR
 		}
 		owner = TUR
-
+		
 		victory_points = {
-			4112 5
+			4112 5 
 		}
 		buildings = {
 			infrastructure = 4
-			#industrial_complex = 1
+			industrial_complex = 1
 			air_base = 2
-			4112 = {
-				naval_base = 5
-			}
 		}
 		add_core_of = TUR
 	}
 
 	provinces={
-		928 3927 4112 6992 7130 9921 9929 10038 11848 11898
+		928 3927 4112 6992 7130 9921 9929 10038 11848 11898 
 	}
 }
