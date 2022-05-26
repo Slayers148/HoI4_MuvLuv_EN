@@ -10,6 +10,7 @@ category = {
 	diplomatic_notification
 	complete_focus
 	research_complete
+	agency_complete
 	join_faction
 	stage_coup
 	justify_wargoals
@@ -17,6 +18,7 @@ category = {
 	enemy_declare_war
 	horse_walking
 	tutorial_objective_done
+	operation_complete
 	
 	######## INGAME ALERT - topbar
 	# simple sound effect. at least important and less important
@@ -36,6 +38,7 @@ category = {
 	alert_enemy_generate_wargoal_sound #1
 	alert_volunteer_transfer_sound #5
 	alert_few_manpower_sound #4
+	alert_not_enough_garrison_sound # 4
 	alert_faction_generate_wargoal_sound #3
 	alert_faction_possible_invite_sound #5
 	alert_faction_assume_leadership_possible_sound #5
@@ -55,6 +58,8 @@ category = {
 	alert_no_equipment_production_sound #4
 	alert_port_strike_results_sound
 	alert_outdated_equipment_sound #4
+	alert_enemy_crypto_is_broken_sound
+	alert_no_crypto_is_being_decrypted_sound
 	alert_self_gain_autonomy_sound
 	alert_self_lose_autonomy_sound
 	alert_subject_lose_autonomy_sound
@@ -66,6 +71,7 @@ category = {
 	alert_border_conflict_sound
 	alert_is_at_war_sound
 	alert_ally_pulling_its_expeditionaries_sound
+	alert_operative_ready_to_recruit_sound
 	
 	######## INGAME ALERT - sidebar
 	# important and less so by type (naval/air/land)
@@ -95,10 +101,12 @@ category = {
 	vehicle_move
 	infantry_move_animation
 	motorized_unit_move_animation
+	railway_gun_move
 	select_army
 	select_vehicle
 	select_tank
 	select_fleet
+	select_railway_gun
 	infantry_move
 	order_fleet_effect
 	order_airwing_effect
@@ -109,7 +117,6 @@ category = {
 	
 	###### OTHER
 	nuke
-	distance_nuke
 	building_repaired
 	building_collateral
 	building_bombed
@@ -189,35 +196,60 @@ category = {
 	ships_light_cruiser_attacked
 	light_cruiser_attack_damaged
 	light_cruiser_defend_damaged_01
-	
-	distance_mechanized_units_mg_fire
-	distance_artillery_unit_fire_01
 
-	distance_ship_hit_big_effect
-	distance_ship_miss_big_effect
-	distance_ship_hit_small_effect
-	distance_ship_miss_small_effect
-	distance_super_heavy_battleship_attack
-	distance_super_heavy_battleship_damaged_attack
-	distance_super_heavy_battleship_attacked
-	distance_super_heavy_battleship_defend
-	distance_super_heavy_battleship_damaged_defend
-	distance_super_heavy_battleship_destroyed
-	distance_ships_destroyer_attack
-	distance_ships_destroyer_attacked
-	distance_ship_destroyer_damaged_defending_01
-	distance_ship_destroyer_damaged_attacking_01
-	distance_ships_destroyer_death
-	distance_ships_heavy_cruiser_attack
-	distance_ships_heavy_cruiser_death
-	distance_ships_heavy_cruiser_attacked
-	distance_heavy_cruiser_damaged_defend_loop
-	distance_heavy_cruiser_damaged_attacked_loop
-	distance_light_cruiser_attack
-	distance_ships_light_cruiser_death
-	distance_ships_light_cruiser_attacked
-	distance_light_cruiser_attack_damaged
-	distance_light_cruiser_defend_damaged_01
+	ENG_car_01_Moving
+	ENG_car_03_Moving
+	FRA_car_01_Moving
+	FRA_car_03_Moving
+	Generic_car_01_Moving
+	Generic_car_03_Moving
+	GER_car_01_Moving
+	GER_car_03_Moving
+	ITA_car_01_Moving
+	ITA_car_03_Moving
+	JAP_car_01_Moving
+	JAP_car_03_Moving
+	SOV_car_01_Moving
+	SOV_car_03_Moving
+	USA_car_01_Moving
+	USA_car_03_Moving
+
+	SPR_light_tank_Moving
+
+	SOV_Scout_plane_Moving
+	JAP_scout_plane_Moving
+	ITA_scout_plane_Moving
+	GER_scout_plane_Moving
+	FRA_scout_plane_Moving
+	ENG_scout_plane_Moving
+	USA_scout_plane_Moving
+
+	ENG_car_01_idle	
+	ENG_car_03_idle
+	FRA_car_01_idle
+	FRA_car_03_idle
+	Generic_car_01_idle
+	Generic_car_03_idle
+	GER_car_01_idle
+	GER_car_03_idle
+	ITA_car_01_idle
+	ITA_car_03_idle
+	JAP_car_01_idle
+	JAP_car_03_idle
+	SOV_car_01_idle
+	SOV_car_03_idle
+	USA_car_01_idle
+	USA_car_03_idle
+
+	SPR_light_tank_idle
+
+	SOV_Scout_plane_idle
+	JAP_scout_plane_idle
+	ITA_scout_plane_idle
+	GER_scout_plane_idle
+	FRA_scout_plane_idle
+	ENG_scout_plane_idle
+	USA_scout_plane_idle
 	
 	airplane_bomb
 	airplane_crash
@@ -227,16 +259,8 @@ category = {
 	airplane_medium_idle_01
 	airplane_heavy_idle_01
 	airplane_jet_idle
-	
-	distance_airplane_bomb
-	distance_airplane_crash
-	distance_airplane_light_fire
-	distance_airplane_ger_jet_fire
-	distance_airplane_idle
-	distance_airplane_medium_idle_01
-	distance_airplane_heavy_idle_01
-	distance_airplane_jet_idle
-	
+
+	GEN_railway_gun
  }
  
  compressor = 
@@ -268,6 +292,7 @@ category = {
 	land_mapmode
 	naval_mapmode
 	air_mapmode
+	intel_mapmode
 	ui_menu_over
 	menu_open_window
 	menu_close_window
@@ -290,6 +315,151 @@ category = {
 	click_province
 	assign_unit_frontline
 	edit_naval_orders
+	assign_operative_boost_ideology
+	assign_operative_build_network
+	assign_operative_control_trade
+	assign_operative_counter_intelligence
+	assign_operative_diplomatic_pressure
+	assign_operative_propaganda
+	assign_operative_quiet_network
+	assign_operative_root_out_resistance
+	assign_operative_invalid_target
+
+	hover_operative_build_network_target
+	hover_operative_counter_intelligence_target
+	hover_operative_quiet_network_target
+	hover_operative_boost_ideology_target
+	hover_operative_propaganda_target
+	hover_operative_root_out_resistance_target
+	hover_operative_control_trade_target
+	hover_operative_diplomatic_pressure_target
+
+	Spy_Map_Mode_Pointer_Over_State
+	Spy_Map_Mode_Select_State
+	Spy_Map_Mode_Selecting_Map_Mode
+	Spy_Map_Mode_Pointer_Over_Agent
+	Spy_Map_Mode_Select_Agent
+	Spy_Agency_Build_Agency_Confirm
+	Spy_Agency_Branch_Upgrade_Selection
+	Spy_Agency_Branch_Upgrade_Window_Show_Sound
+	Spy_Agency_Intel_Upgrades_Confirm
+	Spy_Agency_Defense_Upgrades_Confirm
+	Spy_Agency_Operations_Upgrades_Confirm
+	Spy_Agency_Training_Facilities_Upgrades_Confirm
+	Spy_Agency_Cryptology_Upgrades_Confirm
+	
+	Agent_Event_Event_Pop_Up_Operative_Injured
+	Agent_Event_Event_Pop_Up_Operative_Forced_Underground
+	Agent_Event_Event_Pop_Up_Operative_Captured
+	Agent_Event_Event_Pop_Up_Operative_Killed
+	Agent_Event_Notification_Enemy_Agent_Captured
+	
+	Spy_Agency_Cryptology_Notification_Cracking_Available
+	Spy_Agency_Cryptology_Activate_Power
+	Spy_Agency_Cryptology_Decipher_Pointer_Over_Target
+	Spy_Agency_Cryptology_Decipher_Select_Target_Province
+	
+	Agent_Initiate_Mission_Infiltrate_Armed_Forces
+	Agent_Initiate_Mission_Infiltrate_Civilian_Goverment
+	Agent_Initiate_Mission_Make_Resistance_Contacts
+	Agent_Initiate_Mission_Steal_Blueprints
+	Agent_Initiate_Mission_Targeted_Sabotage
+	Agent_Initiate_Mission_Boost_Resistance
+	Agent_Initiate_Mission_Collaboration_Government
+	Agent_Initiate_Mission_Capture_Ciphers
+	Agent_Initiate_Mission_Coordinated_Strike
+	Agent_Initiate_Mission_Fake_Intel
+	Agent_Initiate_Mission_Rescue_Captured_Operative
+	Agent_Initiate_Mission_Coup_Government
+	
+	Agent_Mission_Bar_Pointer_Over
+	Agent_Mission_Bar_Mission_Select_Toggle
+	Agent_Mission_Select_Target_On_Map
+	Agent_Mission_Target_Pointer_Over
+
+	Martial_Law_Interface_No_Garrison
+	Martial_Law_Interface_Autonomous_Occupation_Unique_DEM
+	Martial_Law_Interface_Foreign_Cvilian_Oversight
+	Martial_Law_Interface_Secret_Police_Oversight
+	Martial_Law_Interface_Local_Police_Force_Garrison
+	Martial_Law_Interface_Liberate_Workers_Occupation_Unique_COM
+	Martial_Law_Interface_Military_Governor_Occupation
+	Martial_Law_Interface_Martial_Law_Occupation_Default
+	Martial_Law_Interface_Forced_Labor_Occupation
+	Martial_Law_Interface_Harsh_Quotas_Occupation
+	Martial_Law_Interface_Brutally_Oppressive_Occupation_Unique_FAS
+	
+	Resistance_Notifcation_Low_Resource_For_Laws
+	Resistance_Diplomatic_Action_Request_Garrsion_Forces
+	Resistance_Switch_Map_Mode_Resistance
+	Resistance_Switch_Map_Mode_Compliance
+	
+	cryptology_the_bombe_timer
+	operative_event_close
+
+	ui_doctrine_tab_air
+	ui_doctrine_tab_land
+	ui_doctrine_tab_naval
+	ui_doctrine_unlock
+
+	ui_mapmode_compliance
+	ui_mapmode_diplomacy
+	ui_mapmode_factions
+	ui_mapmode_ideology
+	ui_mapmode_infrastructure
+	ui_mapmode_operatives
+	ui_mapmode_players
+	ui_mapmode_population
+	ui_mapmode_resistance
+	ui_mapmode_resource
+	ui_mapmode_states
+	ui_mapmode_strategic_air
+	ui_mapmode_strategic_land
+	ui_mapmode_strategic_navy
+	ui_mapmode_supply
+	ui_mapmode_terrain
+
+	ui_research_tab_air
+	ui_research_tab_armor
+	ui_research_tab_artillery
+	ui_research_tab_engineering
+	ui_research_tab_industry
+	ui_research_tab_infantry
+	ui_research_tab_naval
+	ui_research_tab_support
+
+	ui_ship_designer_auto
+	ui_ship_designer_auto_upgrade
+	ui_ship_designer_company_icon
+	ui_ship_designer_decrease
+	ui_ship_designer_duplicate
+	ui_ship_designer_equipment_icon
+	ui_ship_designer_expand
+	ui_ship_designer_increase
+	ui_ship_designer_panel_appear
+	ui_ship_designer_reset
+	ui_ship_designer_role_entry
+	ui_ship_designer_save
+	ui_ship_designer_select_3d_model
+
+	ui_spirit_select
+
+	ui_tank_designer_auto
+	ui_tank_designer_auto_upgrade
+	ui_tank_designer_company_icon
+	ui_tank_designer_decrease
+	ui_tank_designer_duplicate
+	ui_tank_designer_equipment_icon
+	ui_tank_designer_expand
+	ui_tank_designer_increase
+	ui_tank_designer_panel_appear
+	ui_tank_designer_reset
+	ui_tank_designer_role_entry
+	ui_tank_designer_save
+	ui_tank_designer_select_3d_model
+
+
+
  }
  
  compressor = 
@@ -304,6 +474,19 @@ category = {
  }
 }
 
+category = {
+ name = "nonControllableEntities"
+ soundeffects = { 
+ 
+ 	### Used largely in dlc for trains/planes/floating harbor
+	GEN_train_equipment_1
+ 	GEN_train_equipment_2
+	GEN_train_equipment_3
+	GEN_floating_harbour
+	train_horn_medium
+	train_horn_veryLarge
+ 	}
+}
 
 category = {
  name = "Atmosphere"
@@ -331,5 +514,4 @@ category = {
 	attacktime = 0.03
 	releasetime = 0.0
  }
-}
 }

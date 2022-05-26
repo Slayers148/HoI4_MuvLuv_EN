@@ -1,8 +1,0 @@
-
-# MAIN THEME
-music = {
-	name = "maintheme_original"
-	file = "hoi4mainthemeallies.ogg"
-	volume = 0.65
-}
-

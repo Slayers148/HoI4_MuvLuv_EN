@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		UNI_refugees_problem_0 = {
+		UNG_refugees_problem_0 = {
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			modifier = {
@@ -9,7 +9,7 @@ ideas = {
 				weekly_manpower = 3000
 			 }
 		}
-		UNI_vsd = {
+		UNG_vsd = {
 			allowed = { always = no }
 			modifier = {
 				army_org = 5
@@ -18,7 +18,7 @@ ideas = {
 			}
 		}
 
-		UNI_low_influence = {
+		UNG_low_influence = {
 			allowed = { always = no }
 			modifier = {
 				stability_factor = -0.25
@@ -28,7 +28,7 @@ ideas = {
 			}
 		}
 
-		UNI_refugees_army = {
+		UNG_refugees_army = {
 			allowed = { always = no }
 			modifier = {
 				stability_factor = -0.05
@@ -37,7 +37,7 @@ ideas = {
 			}
 		}
 
-		UNI_xmosi = {
+		UNG_xmosi = {
 			allowed = { always = no }
 			equipment_bonus = {
 				tsf_equipment = {
@@ -53,7 +53,7 @@ ideas = {
                        }
 		}
 
-		UNI_refugees_problem_1 = {
+		UNG_refugees_problem_1 = {
 			#picture = 
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -65,7 +65,7 @@ ideas = {
 			}
 		}
 
-		UNI_refugee_volunteers_idea = {
+		UNG_refugee_volunteers_idea = {
 			#picture = 
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }

@@ -9,10 +9,6 @@ technologies = {
 			always = no
 		}
 
-#		folder = {
-#			name = MVLV_tsf_folder
-#		}
-
 		enable_equipments = {
 			beta_soldier_0
 			beta_warrior_0
@@ -41,10 +37,6 @@ technologies = {
 			always = no
 		}
 
-#		folder = {
-#			name = MVLV_tsf_folder
-#		}
-
 		enable_equipments = {
 			beta_a_target_0
 		}
@@ -62,9 +54,6 @@ technologies = {
 			always = no
 		}
 
-#		folder = {
-#			name = MVLV_tsf_folder
-#		}
 		enable_equipments = {
 			sov_equipment_Su47
 		}

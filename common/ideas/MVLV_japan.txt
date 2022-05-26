@@ -8,11 +8,11 @@ ideas = {
 			
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 
 			available = {
-				has_completed_focus = JAP_supremacy_of_the_battlefleet
+				has_completed_focus = MJP_supremacy_of_the_battlefleet
 			}
 
 			cost = 75
@@ -28,7 +28,7 @@ ideas = {
 		yokosuka_naval_arsenal = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 			research_bonus = {
@@ -45,7 +45,7 @@ ideas = {
 		maizuru_naval_arsenal = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 				
 			research_bonus = {
@@ -62,7 +62,7 @@ ideas = {
 		sasebo_naval_arsenal = {
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 			research_bonus = {
@@ -84,7 +84,7 @@ ideas = {
 		mitsubishi = {
 						
 			allowed = {
-				original_tag = JAP		
+				original_tag = MJP		
 			}
 		
 			research_bonus = {
@@ -107,7 +107,7 @@ ideas = {
 
 		aichi = {
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			research_bonus = {
 				armor = 0.15
@@ -123,7 +123,7 @@ ideas = {
 		nakajima = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			research_bonus = {
 				armor = 0.15
@@ -141,7 +141,7 @@ ideas = {
 		yokosuka = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			research_bonus = {
 				armor = 0.15
@@ -161,7 +161,7 @@ ideas = {
 		kawasaki = {
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 			research_bonus = {
@@ -175,7 +175,7 @@ ideas = {
 		sumitomo = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 						
 			research_bonus = {
@@ -185,12 +185,12 @@ ideas = {
 			traits = { electronics_concern }
 		}
 
-		JAP_idemitsu_kosan = {
+		MJP_idemitsu_kosan = {
 						
 			picture = generic_industrial_concern_2
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 						
 			research_bonus = {
@@ -209,7 +209,7 @@ ideas = {
 		tokyo_arsenal = {
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 			research_bonus = {
@@ -222,7 +222,7 @@ ideas = {
 		nissan = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 						
 			research_bonus = {
@@ -241,7 +241,7 @@ ideas = {
 		osaka_army_arsenal = {
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 				
 			research_bonus = {
@@ -266,7 +266,7 @@ ideas = {
 		tomoyuki_yamashita = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 			cost = 250
@@ -281,7 +281,7 @@ ideas = {
 		hisaichi_terauchi = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 						
 			research_bonus = {
@@ -294,7 +294,7 @@ ideas = {
 		isoroku_yamamoto = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 			cost = 250
@@ -309,7 +309,7 @@ ideas = {
 		minoru_genda = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 						
 			research_bonus = {
@@ -322,7 +322,7 @@ ideas = {
 		yoshitoshi_tokugawa = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 			cost = 250
@@ -337,7 +337,7 @@ ideas = {
 		hino_kumazo = {
 						
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}	
 			
 			research_bonus = {
@@ -351,7 +351,7 @@ ideas = {
 			
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 
@@ -367,7 +367,7 @@ ideas = {
 			
 			
 			allowed = {
-				original_tag = JAP
+				original_tag = MJP
 			}
 			
 

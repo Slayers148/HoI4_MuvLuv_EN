@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		#default national spirits
 
-		USA_country = {
+		MUS_country = {
 			allowed = { always = no }
 			modifier = {
 				stability_factor = 0.15
@@ -12,7 +12,7 @@ ideas = {
 			}
 		}
 
-		USA_refugees = {
+		MUS_refugees = {
 			allowed = { always = no }
 			modifier = {
 				stability_factor = -0.45

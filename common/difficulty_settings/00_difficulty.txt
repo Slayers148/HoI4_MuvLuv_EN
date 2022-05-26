@@ -35,16 +35,16 @@ difficulty_settings = {
 	}
 
 	difficulty_setting = {
-		key = "custom_diff_strong_uni"
+		key = "custom_diff_strong_UNG"
 		modifier = diff_strong_ai_generic
-		countries = { UNI }
+		countries = { UNG }
 		multiplier = 2.0
 	}
 
 	difficulty_setting = {
-		key = "custom_diff_strong_ose"
+		key = "custom_diff_strong_OCE"
 		modifier = diff_strong_ai_generic
-		countries = { OSE }
+		countries = { OCE }
 		multiplier = 2.0
 	}
 
@@ -70,9 +70,9 @@ difficulty_settings = {
 	}
 
 	difficulty_setting = {
-		key = "custom_diff_strong_soa"
+		key = "custom_diff_strong_SAU"
 		modifier = diff_strong_ai_generic
-		countries = { SOA }
+		countries = { SAU }
 		multiplier = 2.0
 	}
 

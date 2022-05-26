@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = UNI
+			tag = UNG
 		}
 	}
 	
@@ -14,7 +14,7 @@ focus_tree = {
 	reset_on_civilwar = no
 
 	focus = {
-		id = UNI_support_japanese_defence
+		id = UNG_support_japanese_defence
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 9
@@ -45,14 +45,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_reconfirm_vancouver_agreement
+		id = UNG_reconfirm_vancouver_agreement
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_support_japanese_defence
+		relative_position_id = UNG_support_japanese_defence
 
-		prerequisite = { focus = UNI_support_japanese_defence }
+		prerequisite = { focus = UNG_support_japanese_defence }
 		#mutually_exclusive = { focus =  }
 		#available = { }
 		#bypass = { }
@@ -70,14 +70,14 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = UNI_operation_bright_star
+		id = UNG_operation_bright_star
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_reconfirm_vancouver_agreement
+		relative_position_id = UNG_reconfirm_vancouver_agreement
 
-		prerequisite = { focus = UNI_reconfirm_vancouver_agreement }
+		prerequisite = { focus = UNG_reconfirm_vancouver_agreement }
 		#mutually_exclusive = { focus =  }
 		#available = { }
 		#bypass = { }
@@ -101,14 +101,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_G_bomb_threat
+		id = UNG_G_bomb_threat
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_operation_bright_star
+		relative_position_id = UNG_operation_bright_star
 
-		prerequisite = { focus = UNI_operation_bright_star }
+		prerequisite = { focus = UNG_operation_bright_star }
 		#mutually_exclusive = { focus =  }
 		#available = { }
 		#bypass = { }
@@ -141,14 +141,14 @@ focus_tree = {
 
 
 	focus = {
-		id = UNI_prominence_project
+		id = UNG_prominence_project
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_G_bomb_threat
+		relative_position_id = UNG_G_bomb_threat
 
-		prerequisite = { focus = UNI_G_bomb_threat }
+		prerequisite = { focus = UNG_G_bomb_threat }
 		#mutually_exclusive = { focus =  }
 		#available = { }
 		#bypass = { }
@@ -173,15 +173,15 @@ focus_tree = {
 
 
 	focus = {
-		id = UNI_protect_refugees
+		id = UNG_protect_refugees
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = -1
 		y = 1
-		relative_position_id = UNI_prominence_project
+		relative_position_id = UNG_prominence_project
 
-		prerequisite = { focus = UNI_prominence_project}
-		mutually_exclusive = { focus = UNI_reinforce_security_forces }
+		prerequisite = { focus = UNG_prominence_project}
+		mutually_exclusive = { focus = UNG_reinforce_security_forces }
 		#available = { }
 		#bypass = { }
 		#cancel = { }
@@ -192,9 +192,9 @@ focus_tree = {
 
 		#select_effect = { }
 		completion_reward = {
-			remove_ideas = UNI_refugees_problem_0
+			remove_ideas = UNG_refugees_problem_0
 			add_timed_idea =  { 
-				idea = UNI_improve_refugee_camp
+				idea = UNG_improve_refugee_camp
 				days = 180
 			}
 		}
@@ -205,15 +205,15 @@ focus_tree = {
 
 
 	focus = {
-		id = UNI_reinforce_security_forces
+		id = UNG_reinforce_security_forces
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 1
 		y = 1
-		relative_position_id = UNI_prominence_project
+		relative_position_id = UNG_prominence_project
 
-		prerequisite = { focus = UNI_prominence_project }
-		mutually_exclusive = { focus = UNI_protect_refugees  }
+		prerequisite = { focus = UNG_prominence_project }
+		mutually_exclusive = { focus = UNG_protect_refugees  }
 		#available = { }
 		#bypass = { }
 		#cancel = { }
@@ -225,8 +225,8 @@ focus_tree = {
 		#select_effect = { }
 		completion_reward = {
 			swap_ideas = {
-				add_idea = UNI_refugees_problem_1
-				remove_idea = UNI_refugees_problem_0
+				add_idea = UNG_refugees_problem_1
+				remove_idea = UNG_refugees_problem_0
 			}
 		}
 		#completation_tooltip = { }
@@ -236,14 +236,14 @@ focus_tree = {
 
 
 	focus = {
-		id = UNI_coscription_from_refugees
+		id = UNG_coscription_from_refugees
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_reinforce_security_forces
+		relative_position_id = UNG_reinforce_security_forces
 
-		prerequisite = { focus = UNI_reinforce_security_forces }
+		prerequisite = { focus = UNG_reinforce_security_forces }
 		#mutually_exclusive = {  }
 		#available = { }
 		#bypass = { }
@@ -264,14 +264,14 @@ focus_tree = {
 
 
 	focus = {
-		id = UNI_refugee_volunteers
+		id = UNG_refugee_volunteers
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_coscription_from_refugees
+		relative_position_id = UNG_coscription_from_refugees
 
-		prerequisite = { focus = UNI_coscription_from_refugees }
+		prerequisite = { focus = UNG_coscription_from_refugees }
 		#mutually_exclusive = { }
 		#available = { }
 		#bypass = { }
@@ -283,7 +283,7 @@ focus_tree = {
 
 		#select_effect = { }
 		completion_reward = {
-			add_ideas = UNI_refugee_volunteers_idea
+			add_ideas = UNG_refugee_volunteers_idea
 		}
 		#completation_tooltip = { }
 
@@ -291,16 +291,16 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_restore_prestige
+		id = UNG_restore_prestige
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = -1
 		y = 1
-		relative_position_id = UNI_refugee_volunteers
+		relative_position_id = UNG_refugee_volunteers
 
 		prerequisite = {
-				focus = UNI_refugee_volunteers
-				focus = UNI_protect_refugees
+				focus = UNG_refugee_volunteers
+				focus = UNG_protect_refugees
 		}
 		
 		#mutually_exclusive = { }
@@ -314,7 +314,7 @@ focus_tree = {
 
 		#select_effect = { }
 		completion_reward = {
-			remove_ideas = UNI_low_influence
+			remove_ideas = UNG_low_influence
 		}
 		#completation_tooltip = { }
 
@@ -322,14 +322,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_alternative_iv
+		id = UNG_alternative_iv
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_restore_prestige
+		relative_position_id = UNG_restore_prestige
 
-		prerequisite = { focus = UNI_restore_prestige }
+		prerequisite = { focus = UNG_restore_prestige }
 		#mutually_exclusive = { }
 		#available = { }
 		#bypass = { }
@@ -352,14 +352,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_emergency_security_council
+		id = UNG_emergency_security_council
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_alternative_iv
+		relative_position_id = UNG_alternative_iv
 
-		prerequisite = { focus = UNI_alternative_iv }
+		prerequisite = { focus = UNG_alternative_iv }
 		#mutually_exclusive = { }
 		#available = { }
 		#bypass = { }
@@ -382,14 +382,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_final_restance_of_humans
+		id = UNG_final_restance_of_humans
 		icon = GFX_goal_generic_national_unity
 		#text = 
 		x = 0
 		y = 1
-		relative_position_id = UNI_emergency_security_council
+		relative_position_id = UNG_emergency_security_council
 
-		prerequisite = { focus = UNI_emergency_security_council}
+		prerequisite = { focus = UNG_emergency_security_council}
 		#mutually_exclusive = { }
 		#available = { }
 		#bypass = { }
@@ -421,7 +421,7 @@ focus_tree = {
 	############################
 
 	focus = {
-		id = UNI_207
+		id = UNG_207
 		icon = GFX_focus_AST_rats_tobruk
 		x = 15
 		y = 0
@@ -443,7 +443,7 @@ focus_tree = {
 				is_controlled_by = BET
 			}
 			792 = {
-				is_controlled_by = UNI
+				is_controlled_by = UNG
 			}
 		}
 
@@ -454,7 +454,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			UNI = { country_event = mvlv_uni.1 }
+			UNG = { country_event = mvlv_uni.1 }
 			hidden_effect = {
 				create_corps_commander = { 
 					name = "白銀 武"
@@ -602,12 +602,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_xmos
+		id = UNG_xmos
 		icon = GFX_focus_AST_never_gallipoli
-		prerequisite = { focus = UNI_207 }
+		prerequisite = { focus = UNG_207 }
 		x = 0
 		y = 1
-		relative_position_id = UNI_207
+		relative_position_id = UNG_207
 
 		cost = 1
 
@@ -624,19 +624,19 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			UNI = { country_event = mvlv_uni.11 }
-			add_ideas = UNI_xmosi
-			unlock_decision_category_tooltip = UNI_xmosd_category
+			UNG = { country_event = mvlv_uni.11 }
+			add_ideas = UNG_xmosi
+			unlock_decision_category_tooltip = UNG_xmosd_category
 		}
 	}
 
 	focus = {
-		id = UNI_00_unit
+		id = UNG_00_unit
 		icon = GFX_focus_AST_squander_bug
-		prerequisite = { focus = UNI_xmos }
+		prerequisite = { focus = UNG_xmos }
 		x = 0
 		y = 1
-		relative_position_id = UNI_xmos
+		relative_position_id = UNG_xmos
 
 		cost = 1
 
@@ -653,7 +653,7 @@ focus_tree = {
 		available_if_capitulated = no
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			UNI = {
+			UNG = {
 				country_event = mvlv_uni.9
 				add_ideas = MVLV_00_unit
 				hidden_effect = {
@@ -684,7 +684,7 @@ focus_tree = {
 			H00 = { country_event = BETA.8 }
 			every_country = {
 				limit = {
-					is_in_faction_with = UNI
+					is_in_faction_with = UNG
 				}
 				country_event = mvlv_uni.26
 				remove_ideas = MVLV_denial_of_delusion
@@ -699,12 +699,12 @@ focus_tree = {
 	}
 
 	focus = {		
-		id = UNI_sadogashima
+		id = UNG_sadogashima
 		icon = GFX_focus_attack_canada
-		prerequisite = { focus = UNI_00_unit }
+		prerequisite = { focus = UNG_00_unit }
 		x = 0
 		y = 1
-		relative_position_id = UNI_00_unit
+		relative_position_id = UNG_00_unit
 
 		cost = 1
 
@@ -714,7 +714,7 @@ focus_tree = {
 
 		available = {
 			792 = {
-				is_controlled_by = UNI
+				is_controlled_by = UNG
 			}
 		}
 
@@ -745,12 +745,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = UNI_operation_ouka
+		id = UNG_operation_ouka
 		icon = GFX_focus_jap_cast_the_die
-		prerequisite = { focus = UNI_sadogashima }
+		prerequisite = { focus = UNG_sadogashima }
 		x = 0
 		y = 1
-		relative_position_id = UNI_sadogashima
+		relative_position_id = UNG_sadogashima
 
 		cost = 1
 
@@ -764,7 +764,7 @@ focus_tree = {
 				is_controlled_by = BET
 			}
 			792 = {
-				is_controlled_by = UNI
+				is_controlled_by = UNG
 			}
 			has_global_flag = yokohama_event_flag
 		}
@@ -778,7 +778,7 @@ focus_tree = {
 		select_effect = {
 			every_country = {
 				limit = {
-					is_in_faction_with = UNI
+					is_in_faction_with = UNG
 				}
 				country_event = mvlv_uni.27
 			}
@@ -788,7 +788,7 @@ focus_tree = {
 			set_technology = { MVLV_xg_1st = 1 }
 			every_country = {
 				limit = {
-					is_in_faction_with = UNI
+					is_in_faction_with = UNG
 				}
 				play_Carryon_effect = yes
 				country_event = mvlv_uni.5
@@ -797,7 +797,7 @@ focus_tree = {
 				limit = {
 					has_country_flag = PL_ouka_operation_flag
 				}
-				unlock_decision_category_tooltip = UNI_operation_ouka_category
+				unlock_decision_category_tooltip = UNG_operation_ouka_category
 			}
 			##今後修正
 			hidden_effect = {
@@ -806,12 +806,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = UNI_a01
+		id = UNG_a01
 		icon = GFX_focus_attack_india
 		x = 0
 		y = 1
-		prerequisite = { focus = UNI_operation_ouka }
-		relative_position_id = UNI_operation_ouka
+		prerequisite = { focus = UNG_operation_ouka }
+		relative_position_id = UNG_operation_ouka
 
 		cost = 10
 
@@ -829,7 +829,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			UNI = { country_event = mvlv_uni.24 }
+			UNG = { country_event = mvlv_uni.24 }
 			hidden_effect = {
 				create_corps_commander = { 
 					name = "ユウヤ ブリッジス"
@@ -935,12 +935,12 @@ focus_tree = {
 	}
 
 	focus = {		
-		id = UNI_vd
+		id = UNG_vd
 		icon = GFX_focus_attack_france
-		prerequisite = { focus = UNI_a01 }
+		prerequisite = { focus = UNG_a01 }
 		x = 0
 		y = 1
-		relative_position_id = UNI_a01
+		relative_position_id = UNG_a01
 		cost = 10
 		ai_will_do = {
 			factor = 10
@@ -949,14 +949,14 @@ focus_tree = {
 		continue_if_invalid = no
 		available_if_capitulated = no
 		completion_reward = {
-			add_ideas = UNI_vsd
+			add_ideas = UNG_vsd
         }
 	}
 	############################
 	    ####### te ########
 	############################
 	focus = {
-		id = UNI_blue_flag
+		id = UNG_blue_flag
 		icon = GFX_focus_AST_war_japan
 		x = 3
 		y = 0
@@ -967,7 +967,7 @@ focus_tree = {
 					has_idea = mvlv_prominence_problem
 			}
 			791 = {
-				is_controlled_by = UNI
+				is_controlled_by = UNG
 			}
 		}
 		bypass = { }
@@ -978,19 +978,19 @@ focus_tree = {
 
 		completion_reward = { 
 			add_ideas = mvlv_prominence_problem
-			UNI = { country_event = mvlv_uni.14 }
+			UNG = { country_event = mvlv_uni.14 }
 		}
 
 		ai_will_do = { factor = 5 }
 	}
 
 	focus = {
-		id = UNI_yukon_base
+		id = UNG_yukon_base
 		icon = GFX_focus_attack_australia
-		prerequisite = { focus = UNI_blue_flag }
+		prerequisite = { focus = UNG_blue_flag }
 		x = 0
 		y = 1
-		relative_position_id = UNI_blue_flag
+		relative_position_id = UNG_blue_flag
 
 		available = { }
 		bypass = { }
@@ -1000,7 +1000,7 @@ focus_tree = {
 		cost = 10
 
 		completion_reward = { 
-			UNI = { transfer_state = 791 }
+			UNG = { transfer_state = 791 }
 			JAP = { country_event = mvlv_jap.3 }
 		}
 

@@ -1,46 +1,46 @@
-###original countries
-BET = "countries/BETA.txt"
-H00 = "countries/H00.txt"
-H02 = "countries/H02.txt"
-H03 = "countries/H03.txt"
-H04 = "countries/H04.txt"
-H05 = "countries/H05.txt"
-H06 = "countries/H06.txt"
-H07 = "countries/H07.txt"
-H08 = "countries/H08.txt"
-H09 = "countries/H09.txt"
-H10 = "countries/H10.txt"
-H11 = "countries/H11.txt"
-H12 = "countries/H12.txt"
-H13 = "countries/H13.txt"
-H14 = "countries/H14.txt"
-H15 = "countries/H15.txt"
-H16 = "countries/H16.txt"
-H17 = "countries/H17.txt"
-H18 = "countries/H18.txt"
-H19 = "countries/H19.txt"
-H20 = "countries/H20.txt"
-H21 = "countries/H21.txt"
-H23 = "countries/H23.txt"
-H25 = "countries/H25.txt"
-H26 = "countries/H26.txt"
-###countries、Historyを追加してからコメントを外してこのメッセージを消してください。
-#H22 = "countries/H22.txt"
-M01 = "countries/M01.txt"
+###BETA HIVES
+BET = "countries/MVLV_BETA.txt" #Kashgar
+H00 = "countries/MVLV_H00.txt"  #
+H02 = "countries/MVLV_H02.txt"  #
+H03 = "countries/MVLV_H03.txt"  #
+H04 = "countries/MVLV_H04.txt"  #
+H05 = "countries/MVLV_H05.txt"  #
+H06 = "countries/MVLV_H06.txt"  #
+H07 = "countries/MVLV_H07.txt"  #
+H08 = "countries/MVLV_H08.txt"  #
+H09 = "countries/MVLV_H09.txt"  #
+H10 = "countries/MVLV_H10.txt"  #
+H11 = "countries/MVLV_H11.txt"  #
+H12 = "countries/MVLV_H12.txt"  #
+H13 = "countries/MVLV_H13.txt"  #
+H14 = "countries/MVLV_H14.txt"  #
+H15 = "countries/MVLV_H15.txt"  #
+H16 = "countries/MVLV_H16.txt"  #
+H17 = "countries/MVLV_H17.txt"  #
+H18 = "countries/MVLV_H18.txt"  #
+H19 = "countries/MVLV_H19.txt"  #
+H20 = "countries/MVLV_H20.txt"  #
+H21 = "countries/MVLV_H21.txt"  #
+H23 = "countries/MVLV_H23.txt"  #
+H25 = "countries/MVLV_H25.txt"  #
+H26 = "countries/MVLV_H26.txt"  #
+###dead in history country, please add and then uncomment to remove this message ???
+#H22 = "countries/MVLV_H22.txt"
+M01 = "countries/MVLV_M01.txt"
 
+###MOD-ONLY HUMAN NATIONS
+UNG = "countries/MVLV_UnitedNations.txt"
+OCE = "countries/MVLV_Oceania.txt"
+EUR = "countries/MVLV_EuropeanUnion.txt"
+GEU = "countries/MVLV_GreatEasternUnion.txt"
+CEA = "countries/MVLV_CentralAmerica.txt"
+SOA = "countries/MVLV_SouthAmerica.txt"
+EEA = "countries/MVLV_EasternEuropeAlliance.txt"
+AFR = "countries/MVLV_Africa.txt"
 
-UNI = "countries/UnitedNations.txt"
-OSE = "countries/Oseania.txt"
-EUR = "countries/EuropeanUnion.txt"
-GEU = "countries/GreatEasternUnion.txt"
-CEA = "countries/CentralAmerica.txt"
-SOA = "countries/SouthAmerica.txt"
-AFR = "countries/Africa.txt"
-EEA = "countries/EasternEuropeAlliance.txt"
-
-###modded Vanilla countries
-JAP = "countries/Japan.txt"
-USA = "countries/USA.txt"
-CAN = "countries/Canada.txt"
-CHI = "countries/China.txt"
-SOV = "countries/Soviet Union.txt"
+###EXISTING HUMAN NATIONS
+MJP = "countries/MVLV_Japan.txt"
+MUS = "countries/MVLV_USA.txt"
+MCN = "countries/MVLV_Canada.txt"
+MCH = "countries/MVLV_China.txt"
+MSU = "countries/MVLV_Soviet Union.txt"

@@ -26,292 +26,292 @@ default = {
 BET = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H00 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H26 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 H25 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 H21 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 H20 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 H19 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 H18 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 H17 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H16 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H15 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H14 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H13 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H12 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H11 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H10 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H09 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H08 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H07 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H06 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H05 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H03 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }
 
 H02 = {
 	male = {
 		names = {
-                 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 }
+                 Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate }
 		
 	}
 	#female = {
-	#	names = { 要塞 原光線 戦車 兵士 光線 重光線 要撃 突撃 闘士 重頭脳 頭脳 母艦 門 ｝
+	#	names = { Fortress Light-Laser Tank Soldier Laser Heavy-Laser Interceptor Assault Fighter Heavy-Controller Controller Mother Ship Gate ｝
 	#}
-	surnames = { 級 }
+	surnames = { Class }
 	
 }

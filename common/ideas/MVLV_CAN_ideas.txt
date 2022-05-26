@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		CAN_atomic = { 
+		MCN_atomic = { 
 			allowed = {
 				always = no
 			}
@@ -16,7 +16,7 @@ ideas = {
 				consumer_goods_factor = 0.3
 			}
 		}
-		CAN_us = { 
+		MCN_us = { 
 			allowed = {
 				always = no
 			}
@@ -36,7 +36,7 @@ ideas = {
 				weekly_manpower = -500
 			}
 		}
-		CAN_noatomic = { 
+		MCN_noatomic = { 
 			allowed = {
 				always = no
 			}

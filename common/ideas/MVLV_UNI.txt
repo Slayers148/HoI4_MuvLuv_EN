@@ -1,6 +1,6 @@
 ideas = {
 	country = {
-		UNI_improve_refugee_camp = {
+		UNG_improve_refugee_camp = {
 			allowed = { always = no }
 		}
 	}
@@ -11,9 +11,9 @@ ideas = {
 		
 		designer = yes
 		
-		UNI_boeing = {
+		UNG_boeing = {
 			allowed = {
-				original_tag = UNI
+				original_tag = UNG
 			}
 			research_bonus = {
 				MVLV_tsf_tech = 0.15
@@ -31,10 +31,10 @@ ideas = {
 			}
 		}
 
-		UNI_Dassault = {
+		UNG_Dassault = {
 			cost = 300
 			allowed = {
-				original_tag = UNI
+				original_tag = UNG
 			}
 			research_bonus = {
                  MVLV_tsf_tech = 0.15
@@ -52,11 +52,11 @@ ideas = {
 			}
 		}
 		
-        UNI_ilyushin_design_bureau = {
+        UNG_ilyushin_design_bureau = {
 
 			cost = 300
 			allowed = {
-				original_tag = UNI
+				original_tag = UNG
 			}
 		
 			research_bonus = {
@@ -82,10 +82,10 @@ ideas = {
 			}
 		}
 
-        UNI_mitsubishi = {
+        UNG_mitsubishi = {
 			cost = 300			
 			allowed = {
-				original_tag = UNI	
+				original_tag = UNG	
 			}
 		
 			research_bonus = {
@@ -105,10 +105,10 @@ ideas = {
 
 			}
 		}
-        UNIDO = {
+        UNGDO = {
 			cost = 150
 			allowed = {
-				original_tag = UNI
+				original_tag = UNG
 			} 
 			research_bonus = {
 				MVLV_tsf_tech = 0.20 

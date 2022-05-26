@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		#default national spirits
 
-		CHI_overseas_chinese_network = {
+		MCH_overseas_mchnese_network = {
 			#picture = 
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -14,7 +14,7 @@ ideas = {
 			}
 		}
 		
-		CHI_one_country_two_systems = {
+		MCH_one_country_two_systems = {
 			#picture = 
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -27,8 +27,8 @@ ideas = {
 		}
 
 #華僑資本
-		CHI_I1 = {
-			picture = CHI_idea_03
+		MCH_I1 = {
+			picture = MCH_idea_03
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
@@ -37,8 +37,8 @@ ideas = {
 		}
 
 #ユダヤ資本
-		CHI_I2 = {
-			picture = CHI_idea_05
+		MCH_I2 = {
+			picture = MCH_idea_05
 			allowed = { always = no }
 			removal_cost = -1
 			equipment_bonus = {
@@ -49,8 +49,8 @@ ideas = {
 		}
 
 #工場の活性化
-		CHI_I3 = {
-			picture = CHI_idea_01_Ex3
+		MCH_I3 = {
+			picture = MCH_idea_01_Ex3
 			allowed = { always = no }
 			removal_cost = -1
 			equipment_bonus = {
@@ -64,8 +64,8 @@ ideas = {
 		}
 
 #アメリカによる研究投資
-		CHI_P1 = {
-			picture = CHI_idea_12_R4
+		MCH_P1 = {
+			picture = MCH_idea_12_R4
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
@@ -74,7 +74,7 @@ ideas = {
 		}
 
 #必要経費
-		CHI_P2 = {
+		MCH_P2 = {
 			# picture = 
 			allowed = { always = no }
 			removal_cost = -1
@@ -84,8 +84,8 @@ ideas = {
 		}
 
 #真なる中華
-		CHI_P3 = {
-			picture = CHI_idea_12_S5
+		MCH_P3 = {
+			picture = MCH_idea_12_S5
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {
@@ -98,8 +98,8 @@ ideas = {
 		}
 
 #管理計画経済
-		CHI_P4 = {
-			picture = CHI_idea_12_L4
+		MCH_P4 = {
+			picture = MCH_idea_12_L4
 			allowed = { always = no }
 			removal_cost = -1
 			modifier = {

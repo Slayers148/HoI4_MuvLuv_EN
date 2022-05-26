@@ -2,7 +2,7 @@ ideas = {
 	country = {
 		#default national spirits
 
-		JAP_puppet_shogun = {
+		MJP_puppet_shogun = {
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
 			modifier = {
@@ -11,7 +11,7 @@ ideas = {
 			}
 		}
 
-		JAP_konoe = {
+		MJP_konoe = {
 			allowed = { always = no }
 			modifier = {
 				army_core_attack_factor = 0.10
@@ -22,7 +22,7 @@ ideas = {
 			}
 		}
 
-		JAP_kou21 = {
+		MJP_kou21 = {
 			allowed = { always = no }
 			modifier = {
 				army_core_attack_factor = 0.65
@@ -32,7 +32,7 @@ ideas = {
 			}
 		}
 		
-		JAP_reconquest_idea = {
+		MJP_reconquest_idea = {
 			
 			#picture = 
 			allowed = { always = no }
@@ -53,7 +53,7 @@ ideas = {
 			#ai_will_do
 		}
 		
-		western_japan_reconstruction = {
+		western_mjpan_reconstruction = {
 			#picture = 
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -72,20 +72,20 @@ ideas = {
 			#designer
 			#ai_will_do
 		}
-		JAP_shogun = {
+		MJP_shogun = {
 			allowed = { always = no }
 			modifier = {
 				stability_factor = 0.15
 				war_support_weekly = 0.01
 			}
 		}
-		JAP_killed_shougun = {
+		MJP_killed_shougun = {
 			allowed = { always = no }
 			modifier = {
 				stability_factor = -0.35
 			}
 		}
-		JAP_information = {
+		MJP_information = {
 			allowed = { always = no }
 			modifier = {
 				stability_factor = -0.05

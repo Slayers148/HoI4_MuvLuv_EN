@@ -5,9 +5,9 @@ operations = {
 		available = {
 			has_war_with = BET
       NOT = {
-              has_idea = UNI_refugees_problem_0
-              has_idea = USA_refugees
-              has_idea = OSE_refugees
+              has_idea = UNG_refugees_problem_0
+              has_idea = MUS_refugees
+              has_idea = OCE_refugees
       }
 		}
 

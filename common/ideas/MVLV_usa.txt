@@ -4,7 +4,7 @@ ideas = {
 	political_advisor = {
 		earl_browder = {
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			traits = { communist_revolutionary }
 			ai_will_do = {
@@ -13,9 +13,9 @@ ideas = {
 		}
 
 		harry_white = {
-			picture = USA_harry_white
+			picture = MUS_harry_white
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			available = {
 
@@ -31,7 +31,7 @@ ideas = {
 		victor_perlo = {
 			picture = generic_political_advisor_europe_1
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			traits = { economist }
 			cost = 0
@@ -41,9 +41,9 @@ ideas = {
 		}
 
 		whittaker_chambers = {
-			picture = USA_whittaker_chambers
+			picture = MUS_whittaker_chambers
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 		    traits = { editor }
 			cost = 0
@@ -52,10 +52,10 @@ ideas = {
 			}
 		}
 
-		USA_william_regnery = {
+		MUS_william_regnery = {
 			picture = generic_political_advisor_europe_2
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
             traits = { captain_of_industry }
 			cost = 50
@@ -66,7 +66,7 @@ ideas = {
 
 		harold_ickes = {
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			traits = { democratic_reformer }
 			ai_will_do = {
@@ -76,7 +76,7 @@ ideas = {
 		
 		charles_coughlin = {
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			traits = { fascist_demagogue }
             ai_will_do = {
@@ -84,50 +84,50 @@ ideas = {
 			}		
 		}
 
-		USA_robert_taft = {	
+		MUS_robert_taft = {	
 			picture = generic_political_advisor_europe_1
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			traits = { silent_workhorse }
 		}
 
-		USA_joseph_mccarthy = {
+		MUS_joseph_mccarthy = {
 			picture = generic_political_advisor_europe_1
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
-			traits = { anti_communist_crusader }
+			traits = { anti_communist_crmusder }
 		}
 
-		USA_john_winant = {
+		MUS_john_winant = {
 			picture = generic_political_advisor_europe_5
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			traits = { compassionate_gentleman }
 		}
 
-		USA_cordell_hull = {
+		MUS_cordell_hull = {
 			picture = generic_political_advisor_europe_6
 			allowed = {
-				original_tag = "USA"
+				original_tag = "MUS"
 			}
 			traits = { smooth_talking_charmer }
 		}
 
-		USA_henry_stimson = {
+		MUS_henry_stimson = {
 			picture = generic_political_advisor_europe_2
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { war_industrialist }
 		}
 
-		USA_donald_nelson = {
+		MUS_donald_nelson = {
 			picture = generic_political_advisor_europe_3
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { armaments_organizer }
 		}
@@ -139,7 +139,7 @@ ideas = {
 	
 		douglas_macarthur = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { army_chief_morale_2 }
 			ai_will_do = {
@@ -149,7 +149,7 @@ ideas = {
 
 		george_marshall = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { army_chief_drill_2 }
 			ai_will_do = {
@@ -159,7 +159,7 @@ ideas = {
 
 		dwight_eisenhower = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { army_chief_offensive_2 }
 			ai_will_do = {
@@ -168,9 +168,9 @@ ideas = {
 		}
 
 		walter_krueger = {
-			picture = USA_walter_krueger
+			picture = MUS_walter_krueger
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { army_chief_planning_2 }
 			ai_will_do = {
@@ -182,7 +182,7 @@ ideas = {
 	air_chief = {
 		henry_arnold = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { air_chief_reform_3 }
 			ai_will_do = {
@@ -192,7 +192,7 @@ ideas = {
 
 		carl_spaatz = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { air_chief_night_operations_2 }
 			# TODO Strategic bombing secondary trait?
@@ -203,7 +203,7 @@ ideas = {
 
 		george_kenney = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { air_chief_safety_2 }
 			ai_will_do = {
@@ -211,11 +211,11 @@ ideas = {
 			}
 		}
 
-		USA_charles_lindbergh = {
+		MUS_charles_lindbergh = {
 			
 			picture = generic_air_europe_3
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			cost = 250
 
@@ -239,7 +239,7 @@ ideas = {
 	navy_chief = {	
 		ernest_king = {	
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}	
 			traits = { navy_chief_reform_2 }
 			ai_will_do = {
@@ -249,7 +249,7 @@ ideas = {
 
 		chester_nimitz = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { navy_chief_commerce_raiding_2 }
 			ai_will_do = {
@@ -259,7 +259,7 @@ ideas = {
 
 		william_halsey = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { navy_chief_naval_aviation_2 }
 			ai_will_do = {
@@ -271,7 +271,7 @@ ideas = {
 	high_command = {
 		courtney_hodges = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { army_commando_2 }
 			ai_will_do = {
@@ -281,7 +281,7 @@ ideas = {
 
 		joseph_stilwell = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 		    traits = { army_logistics_2 }
 			ai_will_do = {
@@ -291,7 +291,7 @@ ideas = {
 
 		mark_clark = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { army_infantry_2 }
 			ai_will_do = {
@@ -301,7 +301,7 @@ ideas = {
 
 		jimmy_doolittle = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { air_strategic_bombing_2 }
 			ai_will_do = {
@@ -311,7 +311,7 @@ ideas = {
 
 		john_cannon = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { air_close_air_support_2 }
 			ai_will_do = {
@@ -321,7 +321,7 @@ ideas = {
 
 		claire_lee_chennault = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { air_tactical_bombing_2 }
 			ai_will_do = {
@@ -331,7 +331,7 @@ ideas = {
 
 		raymond_spruance = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { navy_naval_air_defense_2 }
 			ai_will_do = {
@@ -341,7 +341,7 @@ ideas = {
 
 		frank_jack_fletcher = {	
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { navy_carrier_2 }
 			ai_will_do = {
@@ -351,7 +351,7 @@ ideas = {
 
 		thomas_kinkaid = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			traits = { navy_amphibious_assault_2 }
 			ai_will_do = {
@@ -366,7 +366,7 @@ ideas = {
 	
 		marmon_herrington = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				armor = 0.15
@@ -378,7 +378,7 @@ ideas = {
 		
 		chrysler = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				armor = 0.15
@@ -391,7 +391,7 @@ ideas = {
 		detroit_arsenal = {
 			picture = generic_industrial_concern_1
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				armor = 0.15
@@ -412,7 +412,7 @@ ideas = {
 
 		army_ordnance_department = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 		    research_bonus = {
 				armor = 0.15
@@ -423,9 +423,9 @@ ideas = {
 		}	
 
 		tank_destroyer_board = {
-			picture = usa_tank_destroyer_board
+			picture = mus_tank_destroyer_board
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				armor = -0.30
@@ -455,7 +455,7 @@ ideas = {
 
 		norfolk_naval_yard = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				naval_equipment = 0.15
@@ -467,7 +467,7 @@ ideas = {
 		
 		electric_boat_company = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				naval_equipment = 0.15
@@ -479,7 +479,7 @@ ideas = {
 		
 		brooklyn_naval_yard = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 		    research_bonus = {
 				naval_equipment = 0.15
@@ -491,7 +491,7 @@ ideas = {
 		
 		newport_news_shipbuilding = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				naval_equipment = 0.15
@@ -508,7 +508,7 @@ ideas = {
 		
 		douglas_aircraft_company = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				MVLV_tsf_tech = 0.20
@@ -529,7 +529,7 @@ ideas = {
 
 		lockheed = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				MVLV_tsf_tech = 0.18
@@ -552,7 +552,7 @@ ideas = {
 		
 		north_american_aviation  = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				MVLV_tsf_tech = 0.10
@@ -578,7 +578,7 @@ ideas = {
 		
 		boeing = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {MVLV_tsf_tech = 0.1}
 			traits = {kindaika}
@@ -601,7 +601,7 @@ ideas = {
 		#	
 		#	
 		#	allowed = {
-		#		original_tag = USA
+		#		original_tag = MUS
 		#	}
 		#	
 		#
@@ -617,7 +617,7 @@ ideas = {
 		#}
 		grumman = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				MVLV_tsf_tech = 0.15
@@ -656,7 +656,7 @@ ideas = {
 		
 		springfield_armory = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				infantry_weapons = 0.15
@@ -668,7 +668,7 @@ ideas = {
 		
 		ford_motor_company = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				artillery = 0.15
@@ -692,7 +692,7 @@ ideas = {
 
 		rock_island_arsenal = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				artillery = 0.15
@@ -707,7 +707,7 @@ ideas = {
 					
 		standard_oil_california = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				industry = 0.05
@@ -720,7 +720,7 @@ ideas = {
 		
 		general_electric = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 		    research_bonus = {
 				electronics = 0.15
@@ -729,10 +729,10 @@ ideas = {
 			modifier = {
 			}
 		}
-		USA_general_motors = {
-			picture = usa_general_motors
+		MUS_general_motors = {
+			picture = mus_general_motors
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 		    research_bonus = {
 				industry = 0.15
@@ -748,7 +748,7 @@ ideas = {
 	theorist = {
 		omar_bradley = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			cost = 250
 			research_bonus = {
@@ -759,7 +759,7 @@ ideas = {
 
 		george_patton = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			cost = 250
 			research_bonus = {
@@ -770,7 +770,7 @@ ideas = {
 		
 		dewitt_clinton_ramsey = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				naval_doctrine = 0.10
@@ -781,7 +781,7 @@ ideas = {
 		
 		marc_mitscher = {
 		    allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			cost = 250
 			research_bonus = {
@@ -792,7 +792,7 @@ ideas = {
 		
 		curtis_lemay = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			cost = 250
 			research_bonus = {
@@ -803,7 +803,7 @@ ideas = {
 		
 		harold_mcclelland = {
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}
 			research_bonus = {
 				air_doctrine = 0.10
@@ -813,7 +813,7 @@ ideas = {
 		
 		robert_oppenheimer = {			
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}	
 			research_bonus = {
 				nuclear = 0.15
@@ -823,7 +823,7 @@ ideas = {
 		
 		robert_goddard = {	
 			allowed = {
-				original_tag = USA
+				original_tag = MUS
 			}	
 			research_bonus = {
 				rocketry = 0.15

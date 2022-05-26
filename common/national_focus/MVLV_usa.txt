@@ -5,7 +5,7 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = USA
+			tag = MUS
 		}
 	}
 	
@@ -20,7 +20,7 @@ focus_tree = {
 	
 
 	focus = {
-		id = USA_support_japanese
+		id = MUS_support_japanese
 		icon = GFX_focus_jap_pacific_guardian
 		x = 3
 		y = 0

@@ -6,18 +6,21 @@ bookmarks = {
 		picture = "GFX_select_date_1999"
 		default_country = "JAP"
 	
-		USA = {
-			history = USA_1999_START_DESC
+		##United States America
+		MUS = {
+			history = MUS_1999_START_DESC
 			ideology = democratic
 			ideas = {
                                  mvlv_altanative_5
-                                 USA_country
-                                 USA_refugees
+                                 MUS_country
+                                 MUS_refugees
 			}
 			focuses = {
-                                   USA_support_japanese
+                                   MUS_support_japanese
 			}
 		}
+
+		##European Union
 		EUR = {
 			history = EUR_1999_START_DESC
 			ideology = democratic
@@ -30,21 +33,25 @@ bookmarks = {
 			}
 			
 		}
-		UNI = {
-			history = UNI_1999_START_DESC
+
+		##UN GDI
+		UNG = {
+			history = UNG_1999_START_DESC
 			ideology = democratic
 			ideas = {
                                  mvlv_altanative_0
-                                 UNI_xmosi
+                                 UNG_xmosi
                                  operation_ouka
 			}
 			focuses = {
-                                   UNI_207
-                                   UNI_00_unit
-                                   UNI_operation_ouka
+                                   UNG_207
+                                   UNG_00_UNGt
+                                   UNG_operation_ouka
 			}
 			
 		}
+
+		##Japan
 		JAP = {
 			history = JAP_1999_START_DESC
 			ideology = fascism
@@ -57,20 +64,24 @@ bookmarks = {
                                    JAP_xfj_project
 			}		
 		}
-		SOV = {
-			history = SOV_1999_START_DESC
-			ideology = communism
+
+		##Soviet Union
+		MSV = {
+			history = MSV_1999_START_DESC
+			ideology = commUNGsm
 			ideas = {
 		                 mvlv_altanative_3
-                                 SOV_comunist_party
-		                 SOV_warlord
+                                 MSV_comUNGst_party
+		                 MSV_warlord
 			}
 			focuses = {
-                                 SOV_main
-                                 SOV_rs19
-                                 SOV_rs4
+                                 MSV_main
+                                 MSV_rs19
+                                 MSV_rs4
 			}
 		}
+
+		#German Union
 		GEU={
 			history = GEU_1999_START_DESC
 			ideology = neutrality
@@ -85,11 +96,13 @@ bookmarks = {
                                  geu_ghard1
 			}
 		}
+
+		#BETA
 		BET = {
 			history = BET_1999_START_DESC
 			ideology = democratic
 			ideas = {
-		                 BET_00_unit
+		                 BET_00_UNGt
 		                 BET_end_game
 		                 BET_broken_original_hive
 			}
@@ -107,34 +120,38 @@ bookmarks = {
 
 		# minors from DLC ####
 
-		"CAN"={
+		##Canada
+		"MCN"={
 			minor = yes
-			history = "CAN_1999_START_DESC"
+			history = "MCN_1999_START_DESC"
 			ideology = democratic
 			ideas = {
-                                 CAN_atomic
-                                 CAN_us
+                                 MCN_atomic
+                                 MCN_us
 			}
 			focuses = {
-                                   CAN_nous
-                                   CAN_yesus
-                                   CAN_noatom
+                                   MCN_nous
+                                   MCN_yesus
+                                   MCN_noatom
 			}
 		}
-		"OSE"={
+
+		##Oceania
+		"OCE"={
 			minor = yes
-			history = "OSE_1999_START_DESC"
+			history = "OCE_1999_START_DESC"
 			ideology = democratic
 			ideas = {
-                                 OSE_food
-                                 OSE_refugees
+                                 OCE_food
+                                 OCE_refugees
 			}
 			focuses = {
-                                   ose_eco
-                                   ose_war
+                                   OCE_eco
+                                   OCE_war
 			}
 		}
 	
+		##East European Allaince
 		"EEA"={
 			minor = yes
 			history = "EEA_1999_START_DESC"
@@ -142,32 +159,36 @@ bookmarks = {
 			ideas = {
                                  EEA_DDR
                                  EEA_WTO
-                                 EEA_UNI
+                                 EEA_UNG
 			}
 			focuses = {
                                  EEA_P_6_A
                                  EEA_P_3_B
 			}
 		}
-		"CHI"={
+
+		##China
+		"MCH"={
 			minor = yes
-			history = "CHI_1999_START_DESC"
+			history = "MCH_1999_START_DESC"
 			ideology = neutrality
 			ideas = {
-                                 CHI_overseas_chinese_network
-                                 CHI_one_country_two_systems
+                                 MCH_overseas_mchnese_network
+                                 MCH_one_country_two_systems
                                  mvlv_parmanen
 			}
 			focuses = {
-                                 CHI_idea_12_L1
-                                 CHI_idea_12_S1
-                                 CHI_idea_02
+                                 MCH_idea_12_L1
+                                 MCH_idea_12_S1
+                                 MCH_idea_02
 			}
 		}
+
+		##Central America
 		"CEA"={
 			minor = yes
 			history = "CEA_1999_START_DESC"
-			ideology = communism
+			ideology = commUNGsm
 			ideas = {
 		                 mvlv_saast
 			}
@@ -176,10 +197,12 @@ bookmarks = {
 		                 CEA_request
 			}
 		}
+
+		##South America
 		"SOA"={
 			minor = yes
 			history = "SOA_1999_START_DESC"
-			ideology = communism
+			ideology = commUNGsm
 			ideas = {
 		                 mvlv_saast
 			}
@@ -188,10 +211,12 @@ bookmarks = {
 		                 SOA_request
 			}
 		}
+
+		##Africa
 		"AFR"= {
 			minor = yes
 			history = "AFR_1999_START_DESC"
-			ideology = communism
+			ideology = commUNGsm
 			ideas = {
                                  AFR_eu_support
                                  AFR_eua

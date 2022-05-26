@@ -6,12 +6,12 @@ focus_tree = {
 		
 		modifier = {
 			add = 10
-			tag = SOV
+			tag = MSV
 		}
 
 		#modifier = {
 		#	add = 10
-		#	original_tag = SOV
+		#	original_tag = MSV
 		#}
 	}
 	
@@ -21,7 +21,7 @@ focus_tree = {
 
 
 	focus = {
-		id = SOV_finish_five_year_plan_rs
+		id = MSV_finish_five_year_plan_rs
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 1
 		y = 0
@@ -60,12 +60,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_move_industry_to_urals_rs
+		id = MSV_move_industry_to_urals_rs
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = SOV_finish_five_year_plan_rs }
+		prerequisite = { focus = MSV_finish_five_year_plan_rs }
 		x = -1
 		y = 1
-		relative_position_id = SOV_finish_five_year_plan_rs
+		relative_position_id = MSV_finish_five_year_plan_rs
 		cost = 5
 		ai_will_do = {
 			factor = 10
@@ -100,14 +100,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_defense_of_moscow_rs
+		id = MSV_defense_of_moscow_rs
 		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = SOV_move_industry_to_urals_rs }
+		prerequisite = { focus = MSV_move_industry_to_urals_rs }
 		available = {
 		}
 		x = 0
 		y = 1
-		relative_position_id = SOV_move_industry_to_urals_rs
+		relative_position_id = MSV_move_industry_to_urals_rs
 		cost = 5
 		ai_will_do = {
 			factor = 100
@@ -132,7 +132,7 @@ focus_tree = {
 	}
 	focus = {
 		#聖テオドロス広報
-		id = SOV_st_theodoros_pr
+		id = MSV_st_theodoros_pr
 		#以下の場合取得可能
 		available = {
 		}
@@ -140,12 +140,12 @@ focus_tree = {
 		bypass = {
 		}
 		#前提条件
-		prerequisite = { focus = SOV_defense_of_moscow_rs }
+		prerequisite = { focus = MSV_defense_of_moscow_rs }
 		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		#相対位置id
-		relative_position_id = SOV_defense_of_moscow_rs
+		relative_position_id = MSV_defense_of_moscow_rs
 		cost = 5
 		#降伏した場合に利用可能
 		available_if_capitulated = yes
@@ -155,13 +155,13 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = -100
 			650 = {
-				add_core_of = SOV
+				add_core_of = MSV
 			}
 		}
 	}
 	focus = {
 		#アッツ島の開発
-		id = SOV_attu_island_development
+		id = MSV_attu_island_development
 		#以下の場合取得可能
 		available = {
 		}
@@ -169,12 +169,12 @@ focus_tree = {
 		bypass = {
 		}
 		#前提条件
-		prerequisite = { focus = SOV_st_theodoros_pr }
+		prerequisite = { focus = MSV_st_theodoros_pr }
 		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		#相対位置id
-		relative_position_id = SOV_st_theodoros_pr
+		relative_position_id = MSV_st_theodoros_pr
 		cost = 5
 		#降伏した場合に利用可能
 		available_if_capitulated = yes
@@ -194,12 +194,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_production_effort_rs
+		id = MSV_production_effort_rs
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = SOV_finish_five_year_plan_rs }
+		prerequisite = { focus = MSV_finish_five_year_plan_rs }
 		x = 1
 		y = 1
-		relative_position_id = SOV_finish_five_year_plan_rs
+		relative_position_id = MSV_finish_five_year_plan_rs
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -222,14 +222,14 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_extra_tech_slot_early_rs
+		id = MSV_extra_tech_slot_early_rs
 		icon = GFX_focus_research
 		text = extra_tech_slot
-		prerequisite = { focus = SOV_production_effort_rs }
-		prerequisite = { focus = SOV_collectivist_propaganda_rs }
+		prerequisite = { focus = MSV_production_effort_rs }
+		prerequisite = { focus = MSV_collectivist_propaganda_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_production_effort_rs
+		relative_position_id = MSV_production_effort_rs
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -244,12 +244,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_infrastructure_effort_rs
+		id = MSV_infrastructure_effort_rs
 		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = SOV_extra_tech_slot_early_rs}
+		prerequisite = { focus = MSV_extra_tech_slot_early_rs}
 		x = 0
 		y = 1
-		relative_position_id = SOV_extra_tech_slot_early_rs
+		relative_position_id = MSV_extra_tech_slot_early_rs
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -303,12 +303,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_tranformation_of_nature_rs
+		id = MSV_tranformation_of_nature_rs
 		icon = GFX_goal_generic_soviet_construction
-		prerequisite = { focus = SOV_infrastructure_effort_rs }
+		prerequisite = { focus = MSV_infrastructure_effort_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_infrastructure_effort_rs
+		relative_position_id = MSV_infrastructure_effort_rs
 		cost = 10
 		ai_will_do = {
 			factor = 5
@@ -329,7 +329,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_stalin_constitution_rs
+		id = MSV_stalin_constitution_rs
 		icon = GFX_goal_support_communism
 		x = 6
 		y = 0
@@ -347,12 +347,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_collectivist_propaganda_rs
+		id = MSV_collectivist_propaganda_rs
 		icon = GFX_goal_generic_propaganda
-		prerequisite = { focus = SOV_stalin_constitution_rs }
+		prerequisite = { focus = MSV_stalin_constitution_rs }
 		x = -2
 		y = 1
-		relative_position_id = SOV_stalin_constitution_rs
+		relative_position_id = MSV_stalin_constitution_rs
 		cost = 10
 		ai_will_do = {
 			factor = 0.25
@@ -367,12 +367,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_militarized_schools_rs
+		id = MSV_militarized_schools_rs
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = SOV_collectivist_propaganda_rs }
+		prerequisite = { focus = MSV_collectivist_propaganda_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_collectivist_propaganda_rs
+		relative_position_id = MSV_collectivist_propaganda_rs
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -386,12 +386,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_workers_culture_rs
+		id = MSV_workers_culture_rs
 		icon = GFX_goal_generic_construction
-		prerequisite = { focus = SOV_militarized_schools_rs }
+		prerequisite = { focus = MSV_militarized_schools_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_militarized_schools_rs
+		relative_position_id = MSV_militarized_schools_rs
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -405,12 +405,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_positive_heroism_rs
+		id = MSV_positive_heroism_rs
 		icon = GFX_goal_generic_cavalry
-		prerequisite = { focus = SOV_stalin_constitution_rs }
+		prerequisite = { focus = MSV_stalin_constitution_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_stalin_constitution_rs
+		relative_position_id = MSV_stalin_constitution_rs
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -424,12 +424,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_progress_cult_rs
+		id = MSV_progress_cult_rs
 		icon = GFX_goal_generic_scientific_exchange
-		prerequisite = { focus = SOV_positive_heroism_rs }
+		prerequisite = { focus = MSV_positive_heroism_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_positive_heroism_rs
+		relative_position_id = MSV_positive_heroism_rs
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -444,12 +444,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_socialist_science_rs
+		id = MSV_socialist_science_rs
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = SOV_progress_cult_rs }
+		prerequisite = { focus = MSV_progress_cult_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_progress_cult_rs
+		relative_position_id = MSV_progress_cult_rs
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -464,12 +464,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = SOV_extra_tech_slot_rs
+		id = MSV_extra_tech_slot_rs
 		icon = GFX_focus_research
-		prerequisite = { focus = SOV_socialist_science_rs }
+		prerequisite = { focus = MSV_socialist_science_rs }
 		x = 0
 		y = 1
-		relative_position_id = SOV_socialist_science_rs
+		relative_position_id = MSV_socialist_science_rs
 		cost = 10
 		ai_will_do = {
 			factor = 1
@@ -484,13 +484,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_army4
+		id = MSV_army4
 		icon = GFX_goal_generic_army_doctrines
-		prerequisite = { focus = SOV_stalin_constitution_rs }
+		prerequisite = { focus = MSV_stalin_constitution_rs }
 		x = 4
 		y = 1
 		cost = 10
-		relative_position_id = SOV_stalin_constitution_rs
+		relative_position_id = MSV_stalin_constitution_rs
 		ai_will_do = {
 			factor = 10
 		}
@@ -507,19 +507,19 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_army8
+		id = MSV_army8
 		icon = GFX_goal_generic_army_artillery
-		prerequisite = { focus = SOV_army4 }
+		prerequisite = { focus = MSV_army4 }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_army4
+		relative_position_id = MSV_army4
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_army1
+			add_ideas = MSV_army1
 			add_tech_bonus = {
 				name = infantry_weapons_bonus
 				bonus = 1
@@ -531,13 +531,13 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_army10
+		id = MSV_army10
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = SOV_army8 }
+		prerequisite = { focus = MSV_army8 }
 		x = -2
 		y = 1
 		cost = 10
-		relative_position_id = SOV_army8
+		relative_position_id = MSV_army8
 		ai_will_do = {
 			factor = 10
 		}
@@ -554,13 +554,13 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_army11
+		id = MSV_army11
 		icon = GFX_goal_generic_army_motorized
-		prerequisite = { focus = SOV_army8 }
+		prerequisite = { focus = MSV_army8 }
 		x = 2
 		y = 1
 		cost = 10
-		relative_position_id = SOV_army8
+		relative_position_id = MSV_army8
 		ai_will_do = {
 			factor = 10
 		}
@@ -577,20 +577,20 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_army12
+		id = MSV_army12
 		icon = GFX_focus_prc_infiltration
-		prerequisite = { focus = SOV_army10 }
-		prerequisite = { focus = SOV_army11 }
+		prerequisite = { focus = MSV_army10 }
+		prerequisite = { focus = MSV_army11 }
 		x = 2
 		y = 1
 		cost = 10
-		relative_position_id = SOV_army10
+		relative_position_id = MSV_army10
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_army2
+			add_ideas = MSV_army2
 			
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
@@ -598,62 +598,62 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_army13
+		id = MSV_army13
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = SOV_army10 }
+		prerequisite = { focus = MSV_army10 }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_army10
+		relative_position_id = MSV_army10
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_army19
+			add_ideas = MSV_army19
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 	}
 	
 	focus = {
-		id = SOV_army14
+		id = MSV_army14
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = SOV_army11 }
+		prerequisite = { focus = MSV_army11 }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_army11
+		relative_position_id = MSV_army11
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_army3
+			add_ideas = MSV_army3
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 	}
 	focus = {
-		id = SOV_army18
+		id = MSV_army18
 		icon = GFX_focus_generic_tank_production
-		prerequisite = { focus = SOV_army13 }
-		prerequisite = { focus = SOV_army12 }
-		prerequisite = { focus = SOV_army14 }
+		prerequisite = { focus = MSV_army13 }
+		prerequisite = { focus = MSV_army12 }
+		prerequisite = { focus = MSV_army14 }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_army12
+		relative_position_id = MSV_army12
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_army20
+			add_ideas = MSV_army20
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 	}	
 ########################################################################
 	focus = {
-		id = SOV_main
+		id = MSV_main
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 20
 		y = 0
@@ -671,13 +671,13 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs
+		id = MSV_rs
 		icon = GFX_goal_tfv_burn_the_royal_portraits
-		prerequisite = { focus = SOV_main }
+		prerequisite = { focus = MSV_main }
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = SOV_main
+		relative_position_id = MSV_main
 		ai_will_do = {
 			factor = 10
 		}
@@ -691,13 +691,13 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs2
+		id = MSV_rs2
 		icon = GFX_focus_generic_soviet_politics
-		prerequisite = { focus = SOV_rs }
+		prerequisite = { focus = MSV_rs }
 		x = -1
 		y = 1
 		cost = 5
-		relative_position_id = SOV_rs
+		relative_position_id = MSV_rs
 		ai_will_do = {
 			factor = 10
 		}
@@ -714,13 +714,13 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs3
+		id = MSV_rs3
 		icon = GFX_focus_generic_join_comintern
-		prerequisite = { focus = SOV_rs }
+		prerequisite = { focus = MSV_rs }
 		x = 1
 		y = 1
 		cost = 5
-		relative_position_id = SOV_rs
+		relative_position_id = MSV_rs
 		ai_will_do = {
 			factor = 10
 		}
@@ -737,10 +737,10 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs4
+		id = MSV_rs4
 		icon = GFX_focus_generic_coastal_fort
-		prerequisite = { focus = SOV_rs2 }
-		prerequisite = { focus = SOV_rs3 }
+		prerequisite = { focus = MSV_rs2 }
+		prerequisite = { focus = MSV_rs3 }
 		available = {
 		    has_war_support > 0.90
 			has_stability > 0.90
@@ -748,7 +748,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		cost = 1
-		relative_position_id = SOV_rs2
+		relative_position_id = MSV_rs2
 		ai_will_do = {
 			factor = 10
 		}
@@ -763,17 +763,17 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs5
+		id = MSV_rs5
 		icon = GFX_goal_generic_production
-		prerequisite = { focus = SOV_rs2 }
-		mutually_exclusive = { focus = SOV_rs6 }
+		prerequisite = { focus = MSV_rs2 }
+		mutually_exclusive = { focus = MSV_rs6 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = -3
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs2
+		relative_position_id = MSV_rs2
 		ai_will_do = {
 			factor = 10
 		}
@@ -790,17 +790,17 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs6
+		id = MSV_rs6
 		icon = GFX_focus_secret_rearmament
-		prerequisite = { focus = SOV_rs3 }
-		mutually_exclusive = { focus = SOV_rs5 }
+		prerequisite = { focus = MSV_rs3 }
+		mutually_exclusive = { focus = MSV_rs5 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = 3
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs3
+		relative_position_id = MSV_rs3
 		ai_will_do = {
 			factor = 10
 		}
@@ -812,16 +812,16 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs7
+		id = MSV_rs7
 		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = SOV_rs5 }
+		prerequisite = { focus = MSV_rs5 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 		}
 		x = -2
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs5
+		relative_position_id = MSV_rs5
 		ai_will_do = {
 			factor = 10
 		}
@@ -843,16 +843,16 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs8
+		id = MSV_rs8
 		icon = GFX_goal_generic_construct_civ_factory
-		prerequisite = { focus = SOV_rs5 }
+		prerequisite = { focus = MSV_rs5 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 		}
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs5
+		relative_position_id = MSV_rs5
 		ai_will_do = {
 			factor = 10
 		}
@@ -874,16 +874,16 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs9
+		id = MSV_rs9
 		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = SOV_rs5 }
+		prerequisite = { focus = MSV_rs5 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = 2
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs5
+		relative_position_id = MSV_rs5
 		ai_will_do = {
 			factor = 10
 		}
@@ -926,16 +926,16 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs10
+		id = MSV_rs10
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = SOV_rs6 }
+		prerequisite = { focus = MSV_rs6 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = -2
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs6
+		relative_position_id = MSV_rs6
 		ai_will_do = {
 			factor = 10
 		}
@@ -951,16 +951,16 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_rs11
+		id = MSV_rs11
 		icon = GFX_goal_generic_CAS
-		prerequisite = { focus = SOV_rs6 }
+		prerequisite = { focus = MSV_rs6 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs6
+		relative_position_id = MSV_rs6
 		ai_will_do = {
 			factor = 10
 		}
@@ -976,16 +976,16 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_rs12
+		id = MSV_rs12
 		icon = GFX_goal_generic_wolf_pack
-		prerequisite = { focus = SOV_rs6 }
+		prerequisite = { focus = MSV_rs6 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = 2
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs6
+		relative_position_id = MSV_rs6
 		ai_will_do = {
 			factor = 10
 		}
@@ -1002,18 +1002,18 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs13
+		id = MSV_rs13
 		icon = GFX_focus_research
-		prerequisite = { focus = SOV_rs7 }
-		prerequisite = { focus = SOV_rs8 }
-		prerequisite = { focus = SOV_rs9 }
+		prerequisite = { focus = MSV_rs7 }
+		prerequisite = { focus = MSV_rs8 }
+		prerequisite = { focus = MSV_rs9 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = -1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs8
+		relative_position_id = MSV_rs8
 		ai_will_do = {
 			factor = 10
 		}
@@ -1026,60 +1026,60 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs14
+		id = MSV_rs14
 		icon = GFX_focus_mex_privatisation
-		prerequisite = { focus = SOV_rs7 }
-		prerequisite = { focus = SOV_rs8 }
-		prerequisite = { focus = SOV_rs9 }
+		prerequisite = { focus = MSV_rs7 }
+		prerequisite = { focus = MSV_rs8 }
+		prerequisite = { focus = MSV_rs9 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs8
+		relative_position_id = MSV_rs8
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
 			add_political_power = -450
-		SOV = {	add_offsite_building = { type = arms_factory level = 15 }}
-		SOV = {	add_offsite_building = { type = industrial_complex level = 10 }}
+		MSV = {	add_offsite_building = { type = arms_factory level = 15 }}
+		MSV = {	add_offsite_building = { type = industrial_complex level = 10 }}
 		}
 	}
 	
 	focus = {
-		id = SOV_rs15
+		id = MSV_rs15
 		icon = GFX_focus_chi_mission_to_the_soviet_union
-		prerequisite = { focus = SOV_rs13 }
-		prerequisite = { focus = SOV_rs14 }
+		prerequisite = { focus = MSV_rs13 }
+		prerequisite = { focus = MSV_rs14 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs13
+		relative_position_id = MSV_rs13
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-            remove_ideas = SOV_russian
-			add_ideas = SOV_russian2
+            remove_ideas = MSV_russian
+			add_ideas = MSV_russian2
 		}
 	}
 	
 	
 	focus = {
-		id = SOV_rs16
+		id = MSV_rs16
 		icon = GFX_focus_generic_combined_arms
-		prerequisite = { focus = SOV_rs10 }
-		prerequisite = { focus = SOV_rs11 }
-		prerequisite = { focus = SOV_rs12 }
+		prerequisite = { focus = MSV_rs10 }
+		prerequisite = { focus = MSV_rs11 }
+		prerequisite = { focus = MSV_rs12 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		available = {
 		OR = {
@@ -1090,7 +1090,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs11
+		relative_position_id = MSV_rs11
 		ai_will_do = {
 			factor = 10
 		}
@@ -1107,60 +1107,60 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs17
+		id = MSV_rs17
 		icon = GFX_focus_generic_license_production
-		prerequisite = { focus = SOV_rs10 }
-		prerequisite = { focus = SOV_rs11 }
-		prerequisite = { focus = SOV_rs12 }
+		prerequisite = { focus = MSV_rs10 }
+		prerequisite = { focus = MSV_rs11 }
+		prerequisite = { focus = MSV_rs12 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 			}
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs11
+		relative_position_id = MSV_rs11
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-                        remove_ideas = SOV_russian
-			add_ideas = SOV_russian3
+                        remove_ideas = MSV_russian
+			add_ideas = MSV_russian3
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 	}
 	
 	
 	focus = {
-		id = SOV_rs18
+		id = MSV_rs18
 		icon = GFX_focus_eng_crush_the_dream
-		prerequisite = { focus = SOV_rs16 }
-		prerequisite = { focus = SOV_rs17 }
+		prerequisite = { focus = MSV_rs16 }
+		prerequisite = { focus = MSV_rs17 }
 		available = {
-			NOT = { has_completed_focus = SOV_rs4 }
+			NOT = { has_completed_focus = MSV_rs4 }
 		}
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs16
+		relative_position_id = MSV_rs16
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_highpower
+			add_ideas = MSV_highpower
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 	}
 
 	focus = {
-		id = SOV_rs19
+		id = MSV_rs19
 		icon = GFX_goal_support_communism
-		prerequisite = { focus = SOV_rs4 }
+		prerequisite = { focus = MSV_rs4 }
 		x = 0
 		y = 1
 		cost = 5
-		relative_position_id = SOV_rs4
+		relative_position_id = MSV_rs4
 		available = {
 			791 = {
 				is_controlled_by = UNI
@@ -1171,19 +1171,19 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			add_equipment_to_stockpile = { type = tsf_equipment amount = -250 producer = SOV }
+			add_equipment_to_stockpile = { type = tsf_equipment amount = -250 producer = MSV }
 		}
 	}
 	
 	
 	focus = {
-		id = SOV_rs20
+		id = MSV_rs20
 		icon = GFX_focus_ger_great_red_menace
-		prerequisite = { focus = SOV_rs19 }
+		prerequisite = { focus = MSV_rs19 }
 		x = -1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs19
+		relative_position_id = MSV_rs19
 		ai_will_do = {
 			factor = 10
 		}
@@ -1224,9 +1224,9 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs21
+		id = MSV_rs21
 		icon = GFX_focus_prc_agrarian_socialism
-		prerequisite = { focus = SOV_rs19 }
+		prerequisite = { focus = MSV_rs19 }
 		available = {
 			791 = {
 				is_controlled_by = UNI
@@ -1235,7 +1235,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs19
+		relative_position_id = MSV_rs19
 		ai_will_do = {
 			factor = 10
 		}
@@ -1245,14 +1245,14 @@ focus_tree = {
 					MVLV_sov_tec = 1
 				}
 					hidden_effect = {
-					SOV = { load_oob = SOV_nf } }
+					MSV = { load_oob = MSV_nf } }
 		}
 	}
 	focus = {
-		id = SOV_rs22
+		id = MSV_rs22
 		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = SOV_rs20 }
-		prerequisite = { focus = SOV_rs21 }
+		prerequisite = { focus = MSV_rs20 }
+		prerequisite = { focus = MSV_rs21 }
 		available = {
 			has_war_support > 0.95
 		}
@@ -1262,15 +1262,15 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 5
-		relative_position_id = SOV_rs20
+		relative_position_id = MSV_rs20
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-                        remove_ideas = SOV_warlord
-			SOV = { country_event = mvlv_sov.3 }
-			unlock_decision_tooltip = { decision = SOV_storms show_effect_tooltip = yes show_modifiers = yes }
+                        remove_ideas = MSV_warlord
+			MSV = { country_event = mvlv_sov.3 }
+			unlock_decision_tooltip = { decision = MSV_storms show_effect_tooltip = yes show_modifiers = yes }
 		}
 		search_filters = {FOCUS_FILTER_ANNEXATION}
 	}
@@ -1278,14 +1278,14 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs23
+		id = MSV_rs23
 		icon = GFX_focus_generic_anti_fascist_diplomacy
-		prerequisite = { focus = SOV_rs22 }
-		mutually_exclusive = { focus = SOV_rs24 }
+		prerequisite = { focus = MSV_rs22 }
+		mutually_exclusive = { focus = MSV_rs24 }
 		x = -3
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs22
+		relative_position_id = MSV_rs22
 		ai_will_do = {
 			factor = 10
 		}
@@ -1301,19 +1301,19 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs24
+		id = MSV_rs24
 		icon = GFX_focus_generic_strike_at_democracy2
-		prerequisite = { focus = SOV_rs22 }
-		mutually_exclusive = { focus = SOV_rs23 }
+		prerequisite = { focus = MSV_rs22 }
+		mutually_exclusive = { focus = MSV_rs23 }
 		available = {
 			408= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 		}
 		x = 4
 		y = 1
 		cost = 20
-		relative_position_id = SOV_rs22
+		relative_position_id = MSV_rs22
 		ai_will_do = {
 			factor = 10
 		}
@@ -1327,13 +1327,13 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs26
+		id = MSV_rs26
 		icon = GFX_focus_chi_mission_to_the_us
-		prerequisite = { focus = SOV_rs23 }
+		prerequisite = { focus = MSV_rs23 }
 		x = -1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs23
+		relative_position_id = MSV_rs23
 		ai_will_do = {
 			factor = 10
 		}
@@ -1344,13 +1344,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_rs27
+		id = MSV_rs27
 		icon = GFX_focus_chi_british_cooperation
-		prerequisite = { focus = SOV_rs23 }
+		prerequisite = { focus = MSV_rs23 }
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs23
+		relative_position_id = MSV_rs23
 		ai_will_do = {
 			factor = 10
 		}
@@ -1361,30 +1361,30 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_rs28
+		id = MSV_rs28
 		icon = GFX_goal_tfv_burn_the_royal_portraits
-		prerequisite = { focus = SOV_rs27 focus = SOV_rs26}
+		prerequisite = { focus = MSV_rs27 focus = MSV_rs26}
 		available = {
 			219= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			195= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			202= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			217= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			137= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 		}
 		x = 1
 		y = 1
 		cost = 40
-		relative_position_id = SOV_rs26
+		relative_position_id = MSV_rs26
 		ai_will_do = {
 			factor = 10
 		}
@@ -1409,14 +1409,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOV_rs31
+		id = MSV_rs31
 		icon = GFX_focus_chi_collaboration_with_the_japanese
-		prerequisite = { focus = SOV_rs24 }
-		#mutually_exclusive = { focus = SOV_rs20 }
+		prerequisite = { focus = MSV_rs24 }
+		#mutually_exclusive = { focus = MSV_rs20 }
 		x = -1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs24
+		relative_position_id = MSV_rs24
 		ai_will_do = {
 			factor = 10
 		}
@@ -1428,14 +1428,14 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs32
+		id = MSV_rs32
 		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = SOV_rs24 }
-		#mutually_exclusive = { focus = SOV_rs20 }
+		prerequisite = { focus = MSV_rs24 }
+		#mutually_exclusive = { focus = MSV_rs20 }
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_rs24
+		relative_position_id = MSV_rs24
 		ai_will_do = {
 			factor = 10
 		}
@@ -1447,30 +1447,30 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_rs33
+		id = MSV_rs33
 		icon = GFX_goal_tfv_burn_the_royal_portraits
-		prerequisite = { focus = SOV_rs31 focus = SOV_rs32}
+		prerequisite = { focus = MSV_rs31 focus = MSV_rs32}
 		available = {
 			219= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			195= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			202= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			217= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 			137= {
-				is_controlled_by = SOV
+				is_controlled_by = MSV
 			}
 		}
 		x = 1
 		y = 1
 		cost = 40
-		relative_position_id = SOV_rs31
+		relative_position_id = MSV_rs31
 		ai_will_do = {
 			factor = 10
 		}
@@ -1496,13 +1496,13 @@ focus_tree = {
 	}
 #############################################################################
 	focus = {
-		id = SOV_ru2
+		id = MSV_ru2
 		icon = GFX_goal_tfv_burn_the_royal_portraits
-		prerequisite = { focus = SOV_main }
+		prerequisite = { focus = MSV_main }
 		x = 10
 		y = 1
 		cost = 5
-		relative_position_id = SOV_main
+		relative_position_id = MSV_main
 		ai_will_do = {
 			factor = 10
 		}
@@ -1514,14 +1514,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOV_ru4
+		id = MSV_ru4
 		icon = GFX_focus_generic_little_entente
-		prerequisite = { focus = SOV_ru2 }
-		#mutually_exclusive = { focus = SOV_ru2 }
+		prerequisite = { focus = MSV_ru2 }
+		#mutually_exclusive = { focus = MSV_ru2 }
 		x = -1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_ru2
+		relative_position_id = MSV_ru2
 		ai_will_do = {
 			factor = 10
 		}
@@ -1533,16 +1533,16 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_ru5
+		id = MSV_ru5
 		icon = GFX_focus_generic_license_production
-		prerequisite = { focus = SOV_ru2 }
-		#mutually_exclusive = { focus = SOV_ru2 }
+		prerequisite = { focus = MSV_ru2 }
+		#mutually_exclusive = { focus = MSV_ru2 }
 		x = 1
 		y = 1
 		cost = 10
 		available = {
 		}
-		relative_position_id = SOV_ru2
+		relative_position_id = MSV_ru2
 		ai_will_do = {
 			factor = 10
 		}
@@ -1559,52 +1559,52 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_ru6
+		id = MSV_ru6
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = SOV_ru4 }
-		#mutually_exclusive = { focus = SOV_ru2 }
+		prerequisite = { focus = MSV_ru4 }
+		#mutually_exclusive = { focus = MSV_ru2 }
 		x = -1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_ru4
+		relative_position_id = MSV_ru4
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_ru6
+			add_ideas = MSV_ru6
 		}
 	}
 	
 	
 	focus = {
-		id = SOV_ru7
+		id = MSV_ru7
 		icon = GFX_goal_generic_air_fighter
-		prerequisite = { focus = SOV_ru4 }
-		prerequisite = { focus = SOV_ru5 }
+		prerequisite = { focus = MSV_ru4 }
+		prerequisite = { focus = MSV_ru5 }
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_ru4
+		relative_position_id = MSV_ru4
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_ru7
+			add_ideas = MSV_ru7
 		}
 	}
 	
 	
 	focus = {
-		id = SOV_ru8
+		id = MSV_ru8
 		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = SOV_ru5 }
-		#mutually_exclusive = { focus = SOV_ru2 }
+		prerequisite = { focus = MSV_ru5 }
+		#mutually_exclusive = { focus = MSV_ru2 }
 		x = 1
 		y = 1
 		cost = 10
-		relative_position_id = SOV_ru5
+		relative_position_id = MSV_ru5
 		ai_will_do = {
 			factor = 10
 		}
@@ -1620,34 +1620,34 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = SOV_ru9
+		id = MSV_ru9
 		icon = GFX_goal_continuous_reduce_training_time
-		prerequisite = { focus = SOV_ru6 }
-		mutually_exclusive = { focus = SOV_ru11 focus = SOV_ru10 }
+		prerequisite = { focus = MSV_ru6 }
+		mutually_exclusive = { focus = MSV_ru11 focus = MSV_ru10 }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_ru6
+		relative_position_id = MSV_ru6
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_ru9
+			add_ideas = MSV_ru9
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 	}
 	
 	
 	focus = {
-		id = SOV_ru10
+		id = MSV_ru10
 		icon = GFX_focus_research
-		prerequisite = { focus = SOV_ru7 }
-		mutually_exclusive = { focus = SOV_ru11 focus = SOV_ru9 }
+		prerequisite = { focus = MSV_ru7 }
+		mutually_exclusive = { focus = MSV_ru11 focus = MSV_ru9 }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_ru7
+		relative_position_id = MSV_ru7
 		ai_will_do = {
 			factor = 10
 		}
@@ -1660,20 +1660,20 @@ focus_tree = {
 	
 	
 	focus = {
-		id = SOV_ru11
+		id = MSV_ru11
 		icon = GFX_goal_generic_army_artillery2
-		prerequisite = { focus = SOV_ru8 }
-		mutually_exclusive = { focus = SOV_ru10 focus = SOV_ru9 }
+		prerequisite = { focus = MSV_ru8 }
+		mutually_exclusive = { focus = MSV_ru10 focus = MSV_ru9 }
 		x = 0
 		y = 1
 		cost = 10
-		relative_position_id = SOV_ru8
+		relative_position_id = MSV_ru8
 		ai_will_do = {
 			factor = 10
 		}
 		
 		completion_reward = {
-			add_ideas = SOV_ru11
+			add_ideas = MSV_ru11
 		}
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		

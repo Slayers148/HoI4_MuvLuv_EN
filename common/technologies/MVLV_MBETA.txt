@@ -9,10 +9,6 @@ technologies = {
 			always = no
 		}
 
-#		folder = {
-#			name = MVLV_tsf_folder
-#		}
-
 		enable_equipments = {
                         mbeta_trimaran_0
                         mbeta_trev_0

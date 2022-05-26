@@ -1,23 +1,6 @@
 areas = {
 
-	suez = {
-		strategic_regions = {
-			128
-			28
-		}
-	}
-
-	scandinavia = {
-		strategic_regions = {
-			11
-			191
-			10
-			192
-			12
-			13
-		}
-	}
-
+	#Continents
 	europe = {
 		continents = { 
 			europe
@@ -25,35 +8,30 @@ areas = {
 	}
 
 	north_america = {
-
 		continents = { 
 			north_america 
 		}
 	}
 
 	south_america = {
-
 		continents = { 
 			south_america 
 		}
 	}
 
 	africa = {
-
 		continents = { 
 			africa 
 		}		
 	}
 
 	asia = {
-
 		continents = { 
 			asia 
 		}
 	}
 
 	middle_east = {
-
 		continents = { 
 			middle_east 
 		}
@@ -89,6 +67,15 @@ areas = {
 			86  # Tasman Sea
 			98  # Great Australian Bight
 			81  # Coral Sea
+		}
+	}
+
+	#Humanity Chokepoints
+	#BETA Hives
+	
+	suez = {
+		strategic_regions = {
+
 		}
 	}
 
