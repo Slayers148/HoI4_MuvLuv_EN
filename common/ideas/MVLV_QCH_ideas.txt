@@ -1,0 +1,111 @@
+ideas = {
+	country = {
+		#default national spirits
+
+		QCH_overseas_mchnese_network = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				consumer_goods_factor = -0.3
+				research_speed_factor = -0.15
+			}
+		}
+		
+		QCH_one_country_two_systems = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			removal_cost = -1
+			cancel = { }
+			modifier = {
+				stability_factor = -0.2
+				political_power_factor = -0.05
+			}
+		}
+
+#華僑資本
+		QCH_I1 = {
+			picture = QCH_idea_03
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+#ユダヤ資本
+		QCH_I2 = {
+			picture = QCH_idea_05
+			allowed = { always = no }
+			removal_cost = -1
+			equipment_bonus = {
+				tsf_equipment = {
+				build_cost_ic = -0.05 instant = yes
+				}
+			}
+		}
+
+#工場の活性化
+		QCH_I3 = {
+			picture = QCH_idea_01_Ex3
+			allowed = { always = no }
+			removal_cost = -1
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.10 instant = yes
+				}
+				support_equipment = {
+					build_cost_ic = -0.10 instant = yes
+				}
+			}
+		}
+
+#アメリカによる研究投資
+		QCH_P1 = {
+			picture = QCH_idea_12_R4
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+
+#必要経費
+		QCH_P2 = {
+			# picture = 
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = 0.2
+			}
+		}
+
+#真なる中華
+		QCH_P3 = {
+			picture = QCH_idea_12_S5
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				consumer_goods_factor = -0.05
+				army_core_attack_factor = 0.2
+				army_core_defence_factor = 0.15
+				army_speed_factor = 0.1
+			}
+		}
+
+#管理計画経済
+		QCH_P4 = {
+			picture = QCH_idea_12_L4
+			allowed = { always = no }
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+	}
+}

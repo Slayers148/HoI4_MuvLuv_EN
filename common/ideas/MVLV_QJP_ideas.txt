@@ -1,0 +1,95 @@
+ideas = {
+	country = {
+		#default national spirits
+
+		QJP_puppet_shogun = {
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			modifier = {
+				stability_factor = -0.25
+				war_support_weekly = 0.002
+			}
+		}
+
+		QJP_konoe = {
+			allowed = { always = no }
+			modifier = {
+				army_core_attack_factor = 0.10
+				training_time_army_factor = 0.10
+				industrial_capacity_factory =-0.10
+				army_org = 5
+				army_morale_factor = 0.05
+			}
+		}
+
+		QJP_kou21 = {
+			allowed = { always = no }
+			modifier = {
+				army_core_attack_factor = 0.65
+		                invasion_preparation = -1.5
+				army_org = 15
+				army_morale_factor = 0.05
+			}
+		}
+		
+		QJP_reconquest_idea = {
+			
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			#available
+			#visible
+			removal_cost = -1
+			#cost
+			cancel = { }
+
+			modifier = { 
+			}
+			#equipment_bonus
+			
+			#traits
+			#on_add
+			#designer
+			#ai_will_do
+		}
+		
+		western_mjpan_reconstruction = {
+			#picture = 
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			#available
+			#visible
+			removal_cost = -1
+			#cost
+			cancel = { }
+
+			modifier = { 
+			}
+			#equipment_bonus
+			
+			#traits
+			#on_add
+			#designer
+			#ai_will_do
+		}
+		QJP_shogun = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.15
+				war_support_weekly = 0.01
+			}
+		}
+		QJP_killed_shougun = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.35
+			}
+		}
+		QJP_information = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+	}
+}

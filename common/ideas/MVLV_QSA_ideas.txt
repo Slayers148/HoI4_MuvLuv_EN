@@ -1,0 +1,34 @@
+ideas = {
+	country = {
+		QSA_happy = { 
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = 0.4
+				war_support_factor = -0.55
+			}
+		}
+		QSA_usa = { 
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				stability_factor = -0.65
+			}
+		}
+		QSA_nosaast = { 
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_infrastructure_factor = 0.3
+				war_support_factor = 0.55
+			}
+		}
+	}
+}

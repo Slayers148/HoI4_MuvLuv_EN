@@ -1,0 +1,528 @@
+﻿capital = 126 #首都
+
+1999.1.1 = {
+	oob = "QEU_1999" #陸軍テンプレート読み込み
+	set_naval_oob = "QEU_1999_navy" #海軍テンプレート読み込み
+
+	add_to_war = { targeted_alliance = QUN enemy = BET } #戦争状態を設定
+	
+	set_technology = { #初期研究を定義
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		motorised_infantry = 1
+		tech_support = 1
+		tech_engineers = 1
+		tech_engineers2 = 1
+		tech_engineers3 = 1
+		tech_engineers4 = 1
+		tech_recon = 1
+		tech_recon2 = 1	
+		tech_recon3 = 1
+		tech_recon4 = 1	
+		tech_field_hospital = 1
+		tech_field_hospital2 = 1
+		tech_field_hospital3 = 1
+		tech_field_hospital4 = 1
+		tech_logistics_company = 1
+		tech_logistics_company2 = 1	
+		tech_logistics_company3 = 1
+		tech_logistics_company4 = 1
+		tech_military_police = 1
+		tech_military_police2 = 1
+		tech_military_police3 = 1
+		tech_military_police4 = 1
+		tech_maintenance_company = 1
+		tech_maintenance_company2 = 1
+		tech_maintenance_company3 = 1
+		tech_maintenance_company4 = 1
+		tech_signal_company = 1
+		tech_signal_company2 = 1
+		tech_signal_company3 = 1
+		tech_signal_company4 = 1
+		gw_artillery = 1
+		interwar_artillery = 1
+		artillery1 = 1
+		artillery2 = 1
+		rocket_artillery = 1
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_medium_tank = 1
+		advanced_medium_tank = 1
+		improved_medium_tank = 1
+		early_destroyer = 1
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		mtg_tank_landing_craft  = 1
+		fleet_in_being = 1
+		fighter1 = 1
+		CAS2 = 1
+		jet_tactical_bomber1 = 1
+		jet_tactical_bomber2 = 1
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+		basic_machine_tools = 1
+		improved_machine_tools = 1
+		advanced_machine_tools = 1
+		AA_tankI = 1
+		AA_tankII = 1
+		assembly_line_production = 1
+		construction1 = 1
+		construction2 = 1
+		construction3 = 1
+		construction4 = 1
+		construction5 = 1		
+		fuel_silos = 1
+		fuel_refining = 1
+		streamlined_line = 1
+		interwar_antiair = 1
+		dispersed_industry = 1
+		dispersed_industry2 = 1
+		dispersed_industry3 = 1
+		dispersed_industry4 = 1
+		dispersed_industry5 = 1
+		experimental_rockets = 1
+		rocket_engines = 1
+		jet_engines = 1
+		
+		###陸軍ドクトリン###
+		mobile_warfare = 1
+		
+		###TSF
+		QUN_basic_concept_research = 1
+		QUN_Assault_gun_improvement_1 = 1
+		QUN_Assault_gun_improvement_2 = 1
+		QUN_Blade_improvement_1 = 1
+		QUN_Blade_improvement_2 = 1
+		QUN_Schurzen_1 = 1
+#		QUN_Jumping_unit_improvement = 1
+		QUN_Manipulator_improvement = 1
+#		QUN_Carrying_ammunition_increase = 1
+		tsf_sub_weapons = 1
+		generic_F-4 = 1
+		generic_F-5 = 1
+		QEU_F-15 = 1
+		QEU_JA-37 = 1
+		QEU_JA-39 = 1
+		QEU_Rafale = 1
+		QEU_M2000 = 1
+		QEU_F-5EADV = 1
+		QEU_MIII = 1
+		QEU_F-5GIDS = 1
+		generic_A-6 = 1
+		generic_A-10 = 1
+		tech_special_forces = 1
+		
+		###軍需・民需建築許可###
+		MVLV_EnableBuilding_arms_factory = 1
+		MVLV_EnableBuilding_industrial_complex = 1
+
+		###戦術###
+		human_combat_tactics = 1
+	}
+	
+	add_tech_bonus = { #工業バフ
+		name = industry
+		bonus =1000
+		uses = 5 
+		category = concentrated_industry_category
+		category = dispersed_industry_category
+	}	
+	
+	add_tech_bonus = { #ラインバフ
+		name = line
+		bonus =1000
+		uses = 1 
+		technology = flexible_line
+		technology = streamlined_line
+	}
+	
+	add_ideas = { #初期国家精神を定義
+		limited_exports
+		service_by_requirement
+		war_economy
+		mvlv_nuclear_winter
+		mvlv_prominence_problem
+		mvlv_leased_land
+		QEU_power
+		mvlv_parmanent
+		QEU_eng
+        MVLV_UNF
+	}
+	
+	set_convoys = 800 #初期輸送船数を定義
+}
+set_stability = 0.6 #初期安定度を定義
+set_war_support = 0.5 #初期戦争協力度を定義
+
+set_research_slots = 4 #初期研究枠を定義
+
+army_experience = 300 #初期陸軍経験値を定義
+
+add_political_power = 0 #初期政治力を定義
+
+add_offsite_building = { type = arms_factory level = 50 } #MAP外軍需を定義
+add_offsite_building = { type = industrial_complex level = 50 } #MAP外民需を定義
+#add_offsite_building = { type = dockyard level = 5 } #MAP外海軍工廠を定義
+
+set_politics = { #初期政体を定義
+	ruling_party = democratic
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes 
+}
+
+set_popularities = { #初期支持率を定義
+	democratic = 97
+	fascism = 2
+	communism = 1
+}
+
+###各政体における指導者を定義###
+create_country_leader = {
+	name = "Winston Churchill"
+	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	picture = "EU.dds"
+	expire = "2040.1.1"
+	ideology = conservatism
+	traits = {
+		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+	}
+}
+
+create_country_leader = {
+	name = "欧州理事会"
+	desc = "POLITICS_STANLEY_BALDWIN_DESC"
+	picture = "EU.dds"
+	expire = "2040.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Oswald Mosley"
+	desc = "POLITICS_OSWALD_MOSLEY_DESC"
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Rajani Palme Dutt"
+	desc = "POLITICS_PALME_DUTT_DESC"
+	picture = "GFX_Portrait_generic_council"
+	expire = "2040.1.1"
+	ideology = leninism
+	traits = {
+		
+	}
+}
+
+###初期将軍及び元帥を定義###
+create_field_marshal = {
+	name = "ヴィルフリート アイヒベルガー"
+	picture = "06.dds"
+	traits = {
+		media_personality
+		brilliant_strategist
+		inflexible_strategist
+		war_hero
+		career_officer
+		trait_cautious	
+		tsf_officer
+		commander_aptitude
+		MVLV_TEF_lineage
+		
+		tsf_leader
+		tsf_commander
+		offensive_doctrine
+		expert_delegator
+	}
+	skill = 7
+	attack_skill = 6
+	defense_skill = 6
+	planning_skill = 6
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "ジークリンデ・ファーレンホルスト"
+	picture = "12.dds"
+	traits = {
+		inflexible_strategist
+		war_hero
+		career_officer
+		trait_cautious	
+		tsf_officer
+		commander_aptitude
+		MVLV_TEF_lineage
+		
+		tsf_leader
+		tsf_commander
+		defensive_doctrine
+		thorough_planner
+	}
+	skill = 6
+	attack_skill = 4
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "ゲルハルト・ララーシュタイン"
+	picture = "99.dds"
+	traits = {
+		MVLV_TEF_lineage
+		war_hero
+		true_genius
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+		tsf_commander
+		trickster
+	}
+	skill = 5
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "ブリギッテ・ヴェスターナッハ"
+	picture = "70.dds"
+	traits = {
+		MVLV_TEF_lineage
+		career_officer
+		harsh_leader
+		tsf_officer
+		tsf_leader
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "ベルナデット・リヴィエール"
+	picture = "71.dds"
+	traits = {
+		media_personality
+		brilliant_strategist
+		harsh_leader
+		organizer
+		tsf_officer
+		tsf_leader
+	}
+	skill = 4 
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "イルフリーデ・フォイルナー"
+	picture = "49.dds"
+	traits = {
+		inflexible_strategist
+		MVLV_TEF_lineage
+		trait_reckless
+		tsf_officer
+		trickster
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "ルナテレジア・ヴィッツレーベン"
+	picture = "40.dds"
+	traits = {
+		inflexible_strategist
+		MVLV_TEF_lineage
+		trait_cautious
+		tsf_officer
+		trait_engineer
+	}
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "ヘルガローゼ・ファルケンマイヤー"
+	picture = "55.dds"
+	traits = {
+		brilliant_strategist
+		MVLV_TEF_lineage
+		trait_cautious
+		tsf_officer
+		commando
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "ステラ ブレーメル"
+	picture = "11.dds"
+	traits = { tsf_officer tsf_leader }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "モニカ ジアコーザ"
+	picture = "31.dds"
+	traits = { tsf_officer tsf_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "ヴァレリオ ジアコーザ"
+	picture = "98.dds"
+	traits = { tsf_officer tsf_leader }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "ヴォルフガング・ブラウアー"
+	picture = "05.dds"
+	traits = { MVLV_TEF_lineage tsf_officer trait_reckless }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "レア・ゲグラン"
+		picture = "44.dds"
+	traits = {
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+		tsf_commander
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "ヒュー・ウィンストン"
+	picture = "51.dds"
+	traits = {
+		commander_aptitude
+		tsf_officer
+		tsf_leader
+		tsf_commander
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+###初期提督を定義###
+create_navy_leader = {
+	name = "James Fownes Somerville"
+		picture = "Portrait_Britain_James_Fownes_Somerville.dds"
+	traits = { superior_tactician }
+	skill = 5
+}
+
+create_navy_leader = {
+	name = "Henry Harwood"
+		picture = "Portrait_Britain_Henry_Harwood.dds"
+	traits = { old_guard_navy blockade_runner }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Andrew Cunningham"
+		picture = "Portrait_Britain_Andrew_Cunningham.dds"
+	traits = { blockade_runner superior_tactician }
+	skill = 5
+}
+
+create_navy_leader = {
+	name = "Bruce Fraser"
+		picture = "Portrait_Britain_Bruce_Fraser.dds"
+	traits = { blockade_runner }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "John Tovey"
+		picture = "Portrait_Britain_John_Tovey.dds"
+	traits = { superior_tactician }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Bernard Rawlings"
+		picture = "Portrait_Britain_Bernard_Rawlings.dds"
+	traits = {  }
+	skill = 1
+}
+
+create_navy_leader = {
+	name = "John Cunningham"
+		picture = "Portrait_Britain_John_Cunningham.dds"
+	traits = {  }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "Charles Forbes"
+		picture = "Portrait_Britain_Charles_Forbes.dds"
+	traits = { fly_swatter }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Algernon Willis"
+		picture = "Portrait_Britain_Algernon_Willis.dds"
+	traits = { spotter }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Arthur Power"
+		picture = "Portrait_Britain_Arthur_Power.dds"
+	traits = {  }
+	skill = 2
+}

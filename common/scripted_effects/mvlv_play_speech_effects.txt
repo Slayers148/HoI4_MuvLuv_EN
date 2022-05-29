@@ -1,4 +1,0 @@
-play_Carryon_effect = {
-	#Carryon gamesize
-	hidden_effect = { play_song = "enzetu_01" } 
-}

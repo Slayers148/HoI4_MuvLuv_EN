@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		#default national spirits
+
+		QUS_country = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = 0.15
+				war_support_factor = -0.25
+				consumer_goods_factor = 0.15
+		                special_forces_cap = 0.03
+			}
+		}
+
+		QUS_refugees = {
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.45
+				weekly_manpower = 1500
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.15
+			}
+		}
+	}
+}

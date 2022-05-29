@@ -1,0 +1,516 @@
+characters={
+    
+    ###Country Leaders
+	QUN_security_council_dem={
+		name = "Security Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/UNG/portrait_QUN_Security_Council.dds"
+            }
+        }
+        country_leader={
+    		expire = "2040.1.1"
+		    ideology = liberalism
+            id=-1
+        }
+	}
+
+	QUN_security_council_fas={
+		name = "Security Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/UNG/portrait_QUN_Security_Council.dds"
+            }
+        }
+        country_leader={
+    		expire = "2040.1.1"
+		    ideology = fascism_ideology
+            id=-1
+        }
+	}
+
+    QUN_security_council_com={
+		name = "Security Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/UNG/portrait_QUN_Security_Council.dds"
+            }
+        }
+        country_leader={
+    		expire = "2040.1.1"
+		    ideology = marxism
+            id=-1
+        }
+	}
+
+    ###Field Marshalls
+    QUN_Paul_Radhabinod={
+	    name = "Paul Radhabinod"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/Paul Radhabinod.dds"
+                    small="gfx/leaders/UNG/Paul Radhabinod small.dds"
+                }
+            }
+
+
+        field_marshal = {
+		    skill = 6
+	    	#legacy_id = 602
+
+    		attack_skill = 3
+		    defense_skill = 4
+	    	planning_skill = 6
+    		logistics_skill = 6
+
+    		traits = { logistics_wizard organizer defensive_doctrine trait_cautious politically_connected }
+	    }
+    }
+
+	QUN_Kouzuki_Yuuko={
+		name = "Kouzuki Yuuko"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Kouzuki_Yuuko.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Kouzuki_Yuuko_small
+                }
+            }
+
+        field_marshal = {
+    		legacy_id = 57
+	    	skill = 9
+
+		    attack_skill = 6
+    		defense_skill = 7
+	    	planning_skill = 7
+		    logistics_skill = 8
+
+    		traits = { 			
+                brilliant_strategist
+			    media_personality
+			    true_genius
+    			politically_connected
+	    		adaptable
+		    	organizer
+			    logistics_wizard
+    			fast_planner
+	    		thorough_planner
+		    	offensive_doctrine
+			    defensive_doctrine
+    			trickster
+	    		organisational_leader
+		    	inspirational_leader
+			    expert_delegator 
+            }
+	    }
+    }
+
+    QUN_Suzumiya_Haruka={
+		name = "Suzumiya Haruka"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Suzumiya_Haruka.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Suzumiya_Haruka_small
+                }
+            }
+
+        field_marshal = {
+    		skill = 4
+	    	legacy_id = 977
+		
+            attack_skill = 1
+    		defense_skill = 3
+	    	planning_skill = 5
+		    logistics_skill = 4
+
+    		traits = { 
+            	MVLV_valkyrie_lineage
+		    	infantry_officer
+	    		career_officer
+    			armor_officer
+			    commander_aptitude
+			    trait_cautious
+            }
+	    }
+    }
+
+    ###Corps Commander aka Generals
+    QUN_Michiru_Isumi={
+        name = "Michiru Isumi"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Michiru_Isumi.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Michiru_Isumi_small
+                }
+            }
+
+        corps_commander = {
+            skill = 6
+		    legacy_id = 979
+
+		    attack_skill = 4 
+		    defense_skill = 5
+		    planning_skill = 6
+		    logistics_skill = 4
+
+		    traits = {
+			    MVLV_valkyrie_lineage
+			    brilliant_strategist
+			    inflexible_strategist
+			    tsf_officer
+			    commander_aptitude
+			    war_hero
+			    trait_reckless
+			    trickster
+			    tsf_leader
+			    tsf_commander
+		    }
+        }
+    }
+
+    QUN_Hayase_Mitsuki={
+		name = "Hayase Mitsuki"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Hayase_Mitsuki.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Hayase_Mitsuki_small
+                }
+            }
+
+        corps_commander = {
+            skill = 6
+		    legacy_id = 976
+
+		    attack_skill = 6
+		    defense_skill = 5
+	    	planning_skill = 4
+    		logistics_skill = 4
+
+		    traits = {
+    			MVLV_valkyrie_lineage
+	    		brilliant_strategist
+		    	harsh_leader
+			    offensive_doctrine
+    			tsf_officer
+	    		commander_aptitude
+		    	tsf_leader
+			    tsf_commander
+		    }
+    	}
+    }
+
+    QUN_Munakata_Misae={
+		name = "Munakata Misae"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Munakata_Misae.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Munakata_Misae_small
+                }
+            }
+
+        corps_commander = {
+    		skill = 5
+	    	legacy_id = 967
+		
+            attack_skill = 4
+    		defense_skill = 5
+	    	planning_skill = 4
+		    logistics_skill = 3
+
+		    traits = {
+    			MVLV_valkyrie_lineage
+	    		inflexible_strategist
+		    	career_officer
+			    tsf_officer
+    			commander_aptitude
+	    		tsf_leader
+		    }
+    	}
+    }
+
+    QUN_Kazama_Touko={
+		name = "Kazama Touko"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Kazama_Touko.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Kazama_Touko_small
+                }
+            }
+
+        corps_commander = {
+            skill = 5
+            legacy_id = 966
+
+            attack_skill = 5
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 2
+
+		    traits = {
+                MVLV_valkyrie_lineage
+                trait_engineer
+                tsf_officer
+                tsf_leader
+		    }
+    	}
+    }
+
+    QUN_Ellen_Aice={
+		name = "Ellen Aice"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Ellen_Aice.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Ellen_Aice_small
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+            
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+
+		    traits = {
+                infantry_officer 
+                tsf_officer 
+                trait_reckless
+		    }
+    	}
+    }
+
+    QUN_Josset_Danbellecoux={
+		name = "Josset Danbellecoux"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Josset_Danbellecoux.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Josset_Danbellecoux_small
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+            
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+
+		    traits = {
+                infantry_officer 
+                inflexible_strategist 
+                tsf_officer
+		    }
+    	}
+    }
+
+    QUN_Yashiro_Kasumi={
+		name = "Yashiro Kasumi"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Yashiro_Kasumi.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Yashiro_Kasumi_small
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+            
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 1
+            logistics_skill = 2
+
+		    traits = {
+                career_officer 
+                brilliant_strategist
+		    }
+    	}
+    }
+
+    QUN_Suzumiya_Akane={
+		name = "Suzumiya Akane"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Suzumiya_Akane.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Suzumiya_Akane_small
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+            legacy_id = 965
+
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+
+		    traits = {
+                MVLV_valkyrie_lineage
+                career_officer
+                tsf_officer
+		    }
+    	}
+    }
+
+    QUN_Kashiwagi_Haruko={
+		name = "Kashiwagi Haruko"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Kashiwagi_Haruko.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Kashiwagi_Haruko_small
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+            legacy_id = 978
+
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 3
+
+		    traits = {
+                MVLV_valkyrie_lineage
+                trait_cautious
+                tsf_officer
+		    }
+    	}
+    }
+
+    QUN_Rebecca_Lint={
+		name = "Rebecca Lint"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Rebecca_Lint.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Rebecca_Lint_small
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+
+		    traits = {
+                career_officer 
+                armor_officer
+		    }
+    	}
+    }
+
+    QUN_Olson={
+		name = "Olson"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Olson.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Olson_small
+                }
+            }
+
+        corps_commander = {
+            skill = 1
+            
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+
+		    traits = {
+                true_genius
+		    }
+    	}
+    }
+
+    QUN_Jinguuji_Marimo={
+		name = "Jinguuji Marimo"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Jinguuji_Marimo.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Jinguuji_Marimo_small
+                }
+            }
+
+        corps_commander = {
+            skill = 7
+            legacy_id = 975
+            
+            attack_skill = 6
+            defense_skill = 4
+            planning_skill = 6
+            logistics_skill = 6
+
+		    traits = {
+                brilliant_strategist
+                inflexible_strategist
+                harsh_leader
+                career_officer
+                tsf_officer
+                commander_aptitude
+                ranger
+                trait_mountaineer
+                adaptable
+                tsf_leader
+                tsf_commander
+		    }
+    	}
+    }
+
+    QUN_Kouzuki_Motoko={
+		name = "Kouzuki Motoko"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Kouzuki_Motoko.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Kouzuki_Motoko_small
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+
+		    traits = {
+                brilliant_strategist 
+                inflexible_strategist 
+                true_genius 
+                politically_connected
+		    }
+    	}
+    }
+
+    QUN_Henri_Gietzen={
+		name = "Henri Gietzen"
+            portraits={
+                army={
+                    large="gfx/leaders/UNG/portrait_QUN_Henri_Gietzen.dds"
+                    #small=gfx/leaders/UNG/portrait_QUN_Henri_Gietzen_small
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+            legacy_id = 974
+            
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3
+
+		    traits = {
+                infantry_officer 
+                tsf_officer
+		    }
+    	}
+    }
+	
+	###Admirals

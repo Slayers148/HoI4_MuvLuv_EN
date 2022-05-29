@@ -24,23 +24,24 @@ H21 = "countries/MVLV_H21.txt"  #
 H23 = "countries/MVLV_H23.txt"  #
 H25 = "countries/MVLV_H25.txt"  #
 H26 = "countries/MVLV_H26.txt"  #
-###dead in history country, please add and then uncomment to remove this message ???
+
+###Haha dead hive
 #H22 = "countries/MVLV_H22.txt"
+
+###Rebel scum
 M01 = "countries/MVLV_M01.txt"
 
-###MOD-ONLY HUMAN NATIONS
-UNG = "countries/MVLV_UnitedNations.txt"
-OCE = "countries/MVLV_Oceania.txt"
-EUR = "countries/MVLV_EuropeanUnion.txt"
-GEU = "countries/MVLV_GreatEasternUnion.txt"
-CEA = "countries/MVLV_CentralAmerica.txt"
-SOA = "countries/MVLV_SouthAmerica.txt"
-EEA = "countries/MVLV_EasternEuropeAlliance.txt"
-AFR = "countries/MVLV_Africa.txt"
-
-###EXISTING HUMAN NATIONS
-MJP = "countries/MVLV_Japan.txt"
-MUS = "countries/MVLV_USA.txt"
-MCN = "countries/MVLV_Canada.txt"
-MCH = "countries/MVLV_China.txt"
-MSU = "countries/MVLV_Soviet Union.txt"
+###HUMAN NATIONS, Q prefix with two letter nation tag
+QUN = "countries/MVLV_UnitedNations.txt"
+QOC = "countries/MVLV_Oceania.txt"
+QEU = "countries/MVLV_EuropeanUnion.txt"
+QCN = "countries/MVLV_COSEAN.txt" #Coalition of South-East Asian Nations
+QCE = "countries/MVLV_CentralAmerica.txt"
+QSA = "countries/MVLV_SouthAmerica.txt"
+QEE = "countries/MVLV_EasternEuropeAlliance.txt"
+QAF = "countries/MVLV_Africa.txt"
+QJP = "countries/MVLV_Japan.txt"
+QUS = "countries/MVLV_USA.txt"
+QCA = "countries/MVLV_Canada.txt"
+QCH = "countries/MVLV_China.txt"
+QSV = "countries/MVLV_Soviet Union.txt"

@@ -1,0 +1,210 @@
+characters={
+    ###Country Leader
+    QAF_African_Union_Council_con={
+		name = "African Union Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/AFR/AFL.dds"
+            }
+        }
+        country_leader={
+    		expire = "2040.1.1"
+		    ideology = conservatism
+            id=-1
+        }
+	}
+
+    QAF_African_Union_Council_fas={
+		name = "African Union Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/AFR/AFL.dds"
+            }
+        }
+        country_leader={
+    		expire = "2040.1.1"
+		    ideology = fascism_ideology
+            id=-1
+        }
+	}
+
+    QAF_African_Union_Council_com={
+		name = "African Union Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/AFR/AFL.dds"
+            }
+        }
+        country_leader={
+    		expire = "2040.1.1"
+		    ideology = marxism
+            id=-1
+        }
+	}
+
+    QAF_African_Union_Council_cen={
+		name = "African Union Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/AFR/AFL.dds"
+            }
+        }
+        country_leader={
+    		expire = "2040.1.1"
+		    ideology = centrism
+            id=-1
+        }
+	}
+
+    ###Field Marhall
+    QAF_Ibrahim_Dogulu={
+	    name = "Ibrahim Doğulu"
+            portraits={
+                army={
+                    large="gfx/leaders/AFR/Ibrahim Doğulu.dds"
+                    small="gfx/leaders/AFR/Ibrahim Doğulu small.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 7
+
+            attack_skill = 6
+            defense_skill = 6
+            planning_skill = 6
+            logistics_skill = 4
+
+    		traits = { 
+                desert_fox
+                war_hero
+                inflexible_strategist
+                tsf_officer
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+                organizer
+            }
+	    }
+    }
+
+    ###Corps Commanders
+    QAF_Melvina_Vidya_Advani={
+	    name = "Melvina Vidya Advani"
+            portraits={
+                army={
+                    large="gfx/leaders/AFR/Melvina Vidya Advani.dds"
+                    small="gfx/leaders/AFR/Melvina Vidya Advani small.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 5
+
+            attack_skill = 5
+            defense_skill = 4
+            planning_skill = 5
+            logistics_skill = 2
+
+    		traits = { 
+                desert_fox 
+                trickster 
+                trait_engineer
+            }
+	    }
+    }
+
+    QAF_Lida_Canales={
+	    name = "Lida Canales"
+            portraits={
+                army={
+                    large="gfx/leaders/AFR/Lida Canales.dds"
+                    small="gfx/leaders/AFR/Lida Canales small.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+            
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+
+    		traits = { 
+                desert_fox 
+            }
+	    }
+    }
+
+    QAF_Alda_Zidane={
+	    name = "Alda Zidane"
+            portraits={
+                army={
+                    large="gfx/leaders/AFR/Alda Zidane.dds"
+                    small="gfx/leaders/AFR/Alda Zidane small.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+            
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                desert_fox 
+                tsf_officer
+            }
+	    }
+    }
+
+    QAF_Saffo_Celona={
+	    name = "Saffo Celona"
+            portraits={
+                army={
+                    large="gfx/leaders/AFR/Saffo Celona.dds"
+                    small="gfx/leaders/AFR/Saffo Celona small.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 1
+            
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+
+    		traits = { 
+                desert_fox 
+                tsf_officer
+            }
+	    }
+    }
+
+    QAF_Toygar_Ergun={
+	    name = "Toygar Ergun"
+            portraits={
+                army={
+                    large="gfx/leaders/AFR/Toygar Ergun.dds"
+                    small="gfx/leaders/AFR/Toygar Ergun small.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+            
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+
+    		traits = { 
+                desert_fox 
+                tsf_officer
+            }
+	    }
+    }
+}
