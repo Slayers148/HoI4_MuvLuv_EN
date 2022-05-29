@@ -1,0 +1,95 @@
+characters={
+    ###Country Leaders
+    M01_Master_fas={
+        name = "Master"
+        portraits={
+            civilian={
+                large="gfx/leaders/M01/Master.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = fascism_ideology
+            id=-1
+        }
+    }
+
+    M01_Master_com={
+        name = "Master"
+        portraits={
+            civilian={
+                large="gfx/leaders/M01/Master.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = marxism
+            id=-1
+        }
+    }
+
+    M01_Master_cen={
+        name = "Master"
+        portraits={
+            civilian={
+                large="gfx/leaders/M01/Master.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = centrism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    M01_Christopher={
+	    name = "Christopher"
+            portraits={
+                army={
+                    large="gfx/leaders/M01/Christopher.dds"
+                    small="gfx/leaders/M01/small_Christopher.dds"
+                }
+            }
+
+
+        field_marshal = {
+            skill = 8
+
+            attack_skill = 7
+            defense_skill = 5
+            planning_skill = 5
+            logistics_skill = 5
+
+    		traits = { 
+                offensive_doctrine
+                politically_connected
+            }
+	    }
+    }
+
+    M01_Natalie_Duclert={
+	    name = "Natalie Duclert"
+            portraits={
+                army={
+                    large="gfx/leaders/M01/Natalie Duclert.dds"
+                    small="gfx/leaders/M01/small_Natalie Duclert.dds"
+                }
+            }
+
+
+        field_marshal = {
+            skill = 3
+
+            attack_skill = 5
+            defense_skill = 5
+            planning_skill = 5
+            logistics_skill = 5
+
+    		traits = { 
+                offensive_doctrine
+                politically_connected
+            }
+	    }
+    }
+}

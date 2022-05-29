@@ -1,0 +1,197 @@
+characters={
+    ###Country Leaders
+    QCH_Unified__Government_fas={
+        name = "Unified Government"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCH/Unified Government.dds"
+            }
+        }
+        country_leader={
+            traits = { generallissimo }
+            expire = "2040.1.1"
+            ideology = fascism_ideology
+            id=-1
+        }
+    }
+
+    QCH_Unified__Government_des={
+        name = "Unified Government"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCH/Unified Government.dds"
+            }
+        }
+        country_leader={
+            traits = { generallissimo }
+            expire = "2040.1.1"
+            ideology = despotism
+            id=-1
+        }
+    }
+
+    QCH_Unified__Government_soc={
+        name = "Unified Government"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCH/Unified Government.dds"
+            }
+        }
+        country_leader={
+            traits = { generallissimo }
+            expire = "2040.1.1"
+            ideology = socialism
+            id=-1
+        }
+    }
+
+    QCH_National_People_Congress={
+        name = "National People's Congress"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCH/National People Congress.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = leninism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    QCH_Cui_Yifei={
+	    name = "Cui Yifei"
+            portraits={
+                army={
+                    large="gfx/leaders/QCH/Cui Yifei.dds"
+                    small="gfx/leaders/QCH/small_Cui Yifei.dds"
+                }
+            }
+
+
+        field_marshal = {
+            skill = 7
+
+            attack_skill = 6
+            defense_skill = 6
+            planning_skill = 6
+            logistics_skill = 4
+
+    		traits = { 
+                brilliant_strategist
+                trickster
+                trait_cautious
+                harsh_leader
+                tsf_officer
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+
+    ###Corps Commanders
+    QCH_Lee_Linmei={
+	    name = "Lee Linmei"
+            portraits={
+                army={
+                    large="gfx/leaders/QCH/Lee Linmei.dds"
+                    small="gfx/leaders/QCH/small_Lee Linmei.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 3
+
+    		traits = { 
+                trait_reckless
+                brilliant_strategist
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+
+    QCH_Wang_Shaofeng={
+	    name = "Wang Shaofeng"
+            portraits={
+                army={
+                    large="gfx/leaders/QCH/Wang Shaofeng.dds"
+                    small="gfx/leaders/QCH/small_Wang Shaofeng.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 1
+
+    		traits = { 
+                trait_reckless
+                career_officer
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+
+    QCH_Lou_Yahua={
+	    name = "Lou Yahua"
+            portraits={
+                army={
+                    large="gfx/leaders/QCH/Lou Yahua.dds"
+                    small="gfx/leaders/QCH/small_Lou Yahua.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                trait_cautious
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+
+    QCH_Sun_Li_Jen={
+	    name = "Sun Li Jen"
+            portraits={
+                army={
+                    large="gfx/leaders/QCH/Sun Li Jen.dds"
+                    small="gfx/leaders/QCH/small_Sun Li Jen.dds"
+                }
+            }
+
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 5
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                brilliant_strategist
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+}

@@ -1,0 +1,132 @@
+characters={
+    ###Country Leaders
+    QCA_Jean Chretien={
+        name = "Jean Chretien"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCA/Jean Chretien.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = liberalism
+            id=-1
+        }
+    }
+
+    QCA_Adrien_Arcand={
+        name = "Adrien Arcand"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCA/Adrien Arcand.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = nazism
+            id=-1
+        }
+    }
+
+    QCA_Tim_Buck={
+        name = "Tim Buck"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCA/Tim Buck.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = marxism
+            id=-1
+        }
+    }
+
+    QCA_Woodsworth={
+        name = "J. S. Woodsworth"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCA/J S Woodsworth.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = centrism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    QCA_Charles_Foulkes={
+	    name = "Charles Foulkes"
+            portraits={
+                army={
+                    large="gfx/leaders/QCA/Charles Foulkes.dds"
+                    small="gfx/leaders/QCA/small_Charles Foulkes.dds"
+                }
+            }
+
+
+        field_marshal = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+
+    		traits = { 
+            }
+	    }
+    }
+
+    ###Corps Commanders
+    QCA_Derek_Ironside={
+	    name = "Derek Ironside"
+            portraits={
+                army={
+                    large="gfx/leaders/QCA/Derek Ironside.dds"
+                    small="gfx/leaders/QCA/small_Derek Ironside.dds"
+                }
+            }
+
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 5
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 3
+
+    		traits = { 
+                armor_officer
+                commando
+            }
+	    }
+    }
+
+    #Generic general
+    QCA_Sara_Fontaine={
+	    name = "Sara Fontaine"
+            portraits={
+                army={
+                    large="gfx/leaders/QCA/Sara Fontaine.dds"
+                    small="gfx/leaders/QCA/small_Sara Fontaine.dds"
+                }
+            }
+
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 5
+
+    		traits = { 
+            }
+	    }
+    }
+}

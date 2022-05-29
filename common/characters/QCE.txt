@@ -1,0 +1,16 @@
+characters={
+    ###Country Leaders
+    QCE_Carlos Salinas={
+        name = "Carlos Salinas"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCE/Carlos Salinas.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = liberalism
+            id=-1
+        }
+    }
+}

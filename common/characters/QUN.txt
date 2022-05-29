@@ -259,8 +259,8 @@ characters={
 		name = "Ellen Aice"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Ellen_Aice.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Ellen_Aice_small
+                    large="gfx/leaders/QUN/Ellen Aice.dds"
+                    small="gfx/leaders/QUN/small_Ellen Aice.dds"
                 }
             }
 
@@ -284,8 +284,8 @@ characters={
 		name = "Josset Danbellecoux"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Josset_Danbellecoux.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Josset_Danbellecoux_small
+                    large="gfx/leaders/QUN/Josset Danbellecoux.dds"
+                    small="gfx/leaders/QUN/small_Josset Danbellecoux.dds"
                 }
             }
 
@@ -309,8 +309,8 @@ characters={
 		name = "Yashiro Kasumi"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Yashiro_Kasumi.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Yashiro_Kasumi_small
+                    large="gfx/leaders/QUN/Yashiro Kasumi.dds"
+                    small="gfx/leaders/QUN/small_Yashiro Kasumi.dds"
                 }
             }
 
@@ -333,8 +333,8 @@ characters={
 		name = "Suzumiya Akane"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Suzumiya_Akane.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Suzumiya_Akane_small
+                    large="gfx/leaders/QUN/Suzumiya Akane.dds"
+                    small="gfx/leaders/QUN/small_Suzumiya Akane.dds"
                 }
             }
 
@@ -359,8 +359,8 @@ characters={
 		name = "Kashiwagi Haruko"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Kashiwagi_Haruko.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Kashiwagi_Haruko_small
+                    large="gfx/leaders/QUN/Kashiwagi Haruko.dds"
+                    small="gfx/leaders/QUN/small_Kashiwagi Haruko.dds"
                 }
             }
 
@@ -385,8 +385,8 @@ characters={
 		name = "Rebecca Lint"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Rebecca_Lint.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Rebecca_Lint_small
+                    large="gfx/leaders/QUN/Rebecca Lint.dds"
+                    small="gfx/leaders/QUN/small_Rebecca Lint.dds"
                 }
             }
 
@@ -409,8 +409,8 @@ characters={
 		name = "Olson"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Olson.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Olson_small
+                    large="gfx/leaders/QUN/Olson.dds"
+                    small="gfx/leaders/QUN/small_Olson.dds"
                 }
             }
 
@@ -432,8 +432,8 @@ characters={
 		name = "Jinguuji Marimo"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Jinguuji_Marimo.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Jinguuji_Marimo_small
+                    large="gfx/leaders/QUN/Jinguuji Marimo.dds"
+                    small="gfx/leaders/QUN/small_Jinguuji Marimo.dds"
                 }
             }
 
@@ -466,8 +466,8 @@ characters={
 		name = "Kouzuki Motoko"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Kouzuki_Motoko.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Kouzuki_Motoko_small
+                    large="gfx/leaders/QUN/Kouzuki Motoko.dds"
+                    small="gfx/leaders/QUN/small_Kouzuki Motoko.dds"
                 }
             }
 
@@ -492,8 +492,8 @@ characters={
 		name = "Henri Gietzen"
             portraits={
                 army={
-                    large="gfx/leaders/QUN/portrait_QUN_Henri_Gietzen.dds"
-                    small=gfx/leaders/QUN/portrait_QUN_Henri_Gietzen_small
+                    large="gfx/leaders/QUN/Henri Gietzen.dds"
+                    small="gfx/leaders/QUN/small_Henri Gietzen.dds"
                 }
             }
 
