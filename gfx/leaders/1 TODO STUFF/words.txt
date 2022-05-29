@@ -1,6 +1,7 @@
 important:
 
 1. Basically for every character portrait we want to make a copy of that portait but for advisors.
+1a. Country leaders (usually a flag shape or some sort of council chamber) don't need an advisor portrait. 
 2. Scale it to fit the Minister Base.png size.
 3. Rename the new minister picture as "small_xxx", with the xxx being whatever name that was the original.
 4. Save it as a .dds file in the same folder as the normal portraits.
