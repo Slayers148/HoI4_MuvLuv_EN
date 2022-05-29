@@ -5,7 +5,7 @@ characters={
 		name = "Security Council"
         portraits={
             civilian={
-                large="gfx/leaders/UNG/portrait_QUN_Security_Council.dds"
+                large="gfx/leaders/QUN/Security Council.dds"
             }
         }
         country_leader={
@@ -19,7 +19,7 @@ characters={
 		name = "Security Council"
         portraits={
             civilian={
-                large="gfx/leaders/UNG/portrait_QUN_Security_Council.dds"
+                large="gfx/leaders/QUN/Security Council.dds"
             }
         }
         country_leader={
@@ -33,7 +33,7 @@ characters={
 		name = "Security Council"
         portraits={
             civilian={
-                large="gfx/leaders/UNG/portrait_QUN_Security_Council.dds"
+                large="gfx/leaders/QUN/Security Council.dds"
             }
         }
         country_leader={
@@ -48,8 +48,8 @@ characters={
 	    name = "Paul Radhabinod"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/Paul Radhabinod.dds"
-                    small="gfx/leaders/UNG/Paul Radhabinod small.dds"
+                    large="gfx/leaders/QUN/Paul Radhabinod.dds"
+                    small="gfx/leaders/QUN/small_Paul Radhabinod.dds"
                 }
             }
 
@@ -71,8 +71,8 @@ characters={
 		name = "Kouzuki Yuuko"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Kouzuki_Yuuko.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Kouzuki_Yuuko_small
+                    large="gfx/leaders/QUN/Kouzuki Yuuko.dds"
+                    small="gfx/leaders/QUN/small_Kouzuki Yuuko.dds"
                 }
             }
 
@@ -109,8 +109,8 @@ characters={
 		name = "Suzumiya Haruka"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Suzumiya_Haruka.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Suzumiya_Haruka_small
+                    large="gfx/leaders/QUN/Suzumiya Haruka.dds"
+                    small="gfx/leaders/QUN/small_Suzumiya Haruka.dds"
                 }
             }
 
@@ -139,8 +139,8 @@ characters={
         name = "Michiru Isumi"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Michiru_Isumi.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Michiru_Isumi_small
+                    large="gfx/leaders/QUN/Michiru Isumi.dds"
+                    small="gfx/leaders/QUN/small_Michiru Isumi.dds"
                 }
             }
 
@@ -172,8 +172,8 @@ characters={
 		name = "Hayase Mitsuki"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Hayase_Mitsuki.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Hayase_Mitsuki_small
+                    large="gfx/leaders/QUN/Hayase Mitsuki.dds"
+                    small="gfx/leaders/QUN/small_Hayase Mitsuki.dds"
                 }
             }
 
@@ -203,8 +203,8 @@ characters={
 		name = "Munakata Misae"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Munakata_Misae.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Munakata_Misae_small
+                    large="gfx/leaders/QUN/Munakata Misae.dds"
+                    small="gfx/leaders/QUN/small_Munakata Misae.dds"
                 }
             }
 
@@ -232,8 +232,8 @@ characters={
 		name = "Kazama Touko"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Kazama_Touko.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Kazama_Touko_small
+                    large="gfx/leaders/QUN/Kazama Touko.dds"
+                    small="gfx/leaders/QUN/small_Kazama Touko.dds"
                 }
             }
 
@@ -259,8 +259,8 @@ characters={
 		name = "Ellen Aice"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Ellen_Aice.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Ellen_Aice_small
+                    large="gfx/leaders/QUN/portrait_QUN_Ellen_Aice.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Ellen_Aice_small
                 }
             }
 
@@ -284,8 +284,8 @@ characters={
 		name = "Josset Danbellecoux"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Josset_Danbellecoux.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Josset_Danbellecoux_small
+                    large="gfx/leaders/QUN/portrait_QUN_Josset_Danbellecoux.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Josset_Danbellecoux_small
                 }
             }
 
@@ -309,8 +309,8 @@ characters={
 		name = "Yashiro Kasumi"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Yashiro_Kasumi.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Yashiro_Kasumi_small
+                    large="gfx/leaders/QUN/portrait_QUN_Yashiro_Kasumi.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Yashiro_Kasumi_small
                 }
             }
 
@@ -333,8 +333,8 @@ characters={
 		name = "Suzumiya Akane"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Suzumiya_Akane.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Suzumiya_Akane_small
+                    large="gfx/leaders/QUN/portrait_QUN_Suzumiya_Akane.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Suzumiya_Akane_small
                 }
             }
 
@@ -359,8 +359,8 @@ characters={
 		name = "Kashiwagi Haruko"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Kashiwagi_Haruko.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Kashiwagi_Haruko_small
+                    large="gfx/leaders/QUN/portrait_QUN_Kashiwagi_Haruko.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Kashiwagi_Haruko_small
                 }
             }
 
@@ -385,8 +385,8 @@ characters={
 		name = "Rebecca Lint"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Rebecca_Lint.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Rebecca_Lint_small
+                    large="gfx/leaders/QUN/portrait_QUN_Rebecca_Lint.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Rebecca_Lint_small
                 }
             }
 
@@ -409,8 +409,8 @@ characters={
 		name = "Olson"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Olson.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Olson_small
+                    large="gfx/leaders/QUN/portrait_QUN_Olson.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Olson_small
                 }
             }
 
@@ -432,8 +432,8 @@ characters={
 		name = "Jinguuji Marimo"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Jinguuji_Marimo.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Jinguuji_Marimo_small
+                    large="gfx/leaders/QUN/portrait_QUN_Jinguuji_Marimo.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Jinguuji_Marimo_small
                 }
             }
 
@@ -466,8 +466,8 @@ characters={
 		name = "Kouzuki Motoko"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Kouzuki_Motoko.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Kouzuki_Motoko_small
+                    large="gfx/leaders/QUN/portrait_QUN_Kouzuki_Motoko.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Kouzuki_Motoko_small
                 }
             }
 
@@ -492,8 +492,8 @@ characters={
 		name = "Henri Gietzen"
             portraits={
                 army={
-                    large="gfx/leaders/UNG/portrait_QUN_Henri_Gietzen.dds"
-                    #small=gfx/leaders/UNG/portrait_QUN_Henri_Gietzen_small
+                    large="gfx/leaders/QUN/portrait_QUN_Henri_Gietzen.dds"
+                    small=gfx/leaders/QUN/portrait_QUN_Henri_Gietzen_small
                 }
             }
 
