@@ -1,15 +1,15 @@
 characters={
     ###Country Leaders
-    QCE_Carlos_Salinas={
-        name = "Carlos Salinas"
+    QSA_Fernando_Henrique_Cardoso={
+        name = "Fernando Henrique Cardoso"
         portraits={
             civilian={
-                large="gfx/leaders/QCE/Carlos Salinas.dds"
+                large="gfx/leaders/QSA/Fernando Henrique Cardoso.dds"
             }
         }
         country_leader={
             expire = "2040.1.1"
-            ideology = liberalism
+            ideology = despotism
             id=-1
         }
     }

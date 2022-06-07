@@ -1,0 +1,329 @@
+characters={
+    ###Country Leaders
+    QUS_George_Bush={
+        name = "George W Bush"
+        portraits={
+            civilian={
+                large="gfx/leaders/QUS/George W Bush.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = liberalism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    QUS_Alfred_Walken={
+	    name = "Alfred Walken"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Alfred Walken.dds"
+                    small="gfx/leaders/QUS/small_Alfred Walken.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 7
+
+            attack_skill = 6
+            defense_skill = 6
+            planning_skill = 5
+            logistics_skill = 5
+
+    		traits = { 
+                inflexible_strategist
+                logistics_wizard
+                organizer
+                offensive_doctrine
+                trait_cautious
+                tsf_officer
+                politically_connected
+                tsf_leader
+                commander_aptitude
+                tsf_commander
+            }
+	    }
+    }
+
+    ###Corps Commanders
+    QUS_Guylos_McCloud={
+	    name = "Guylos McCloud"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Guylos McCloud.dds"
+                    small="gfx/leaders/QUS/small_Guylos McCloud.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+
+    		traits = { 
+                tsf_officer
+                career_officer
+            }
+	    }
+    }
+
+    QUS_Phoebe_Theodorakis={
+	    name = "Phoebe Theodorakis"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Phoebe Theodorakis.dds"
+                    small="gfx/leaders/QUS/small_Phoebe Theodorakis.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                trait_engineer
+                commando
+            }
+	    }
+    }
+
+    QUS_Lilia_Kjellberg={
+	    name = "Lilia Kjellberg"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Lilia Kjellberg.dds"
+                    small="gfx/leaders/QUS/small_Lilia Kjellberg.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 5
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+
+    		traits = { 
+                tsf_officer
+                trait_reckless
+            }
+	    }
+    }
+
+    QUS_Daryl_McManus={
+	    name = "Daryl A. McManus"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Daryl A. McManus.dds"
+                    small="gfx/leaders/QUS/small_Daryl A. McManus.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                tsf_officer
+                career_officer
+                brilliant_strategist
+            }
+	    }
+    }
+
+    QUS_Irma_Thesleff={
+	    name = "Irma Thesleff"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Irma Thesleff.dds"
+                    small="gfx/leaders/QUS/small_Irma Thesleff.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 4
+
+    		traits = { 
+                tsf_leader
+                career_officer
+                tsf_officer
+            }
+	    }
+    }
+
+    QUS_Keith_Blazer={
+	    name = "Keith Blazer"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Keith Blazer.dds"
+                    small="gfx/leaders/QUS/small_Keith Blazer.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 5
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 4
+
+    		traits = { 
+                career_officer
+                commander_aptitude
+                tsf_officer
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+
+    QUS_Caroline_Shields={
+	    name = "Caroline Shields"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Caroline Shields.dds"
+                    small="gfx/leaders/QUS/small_Caroline Shields.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+
+    		traits = { 
+                career_officer
+                tsf_officer
+                tsf_leader
+                true_genius
+            }
+	    }
+    }
+
+    QUS_Sharon_Heim={
+	    name = "Sharon Heim"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Sharon Heim.dds"
+                    small="gfx/leaders/QUS/small_Sharon Heim.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 5
+
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 5
+            logistics_skill = 4
+
+    		traits = { 
+                brilliant_strategist
+                tsf_officer
+                tsf_leader
+                career_officer
+            }
+	    }
+    }
+
+    QUS_Wilbert_Collins={
+	    name = "Wilbert D. Collins"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Wilbert D. Collins.dds"
+                    small="gfx/leaders/QUS/small_Wilbert D. Collins.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 4
+
+    		traits = { 
+                tsf_officer
+                career_officer
+            }
+	    }
+    }
+
+    QUS_Yuuya_Bridges={
+	    name = "Yuuya Bridges"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Yuuya Bridges.dds"
+                    small="gfx/leaders/QUS/small_Yuuya Bridges.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 7
+
+            attack_skill = 8 
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 6
+
+    		traits = { 
+                inflexible_strategist
+                trickster
+                tsf_officer
+                war_hero
+                trait_reckless
+            }
+	    }
+    }
+
+    QUS_Leon_Kuze={
+	    name = "Leon Kuze"
+            portraits={
+                army={
+                    large="gfx/leaders/QUS/Leon Kuze.dds"
+                    small="gfx/leaders/QUS/small_Leon Kuze.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 5
+
+            attack_skill = 3
+            defense_skill = 5
+            planning_skill = 4
+            logistics_skill = 4
+
+    		traits = { 
+                trait_engineer
+                trait_cautious
+                brilliant_strategist
+                harsh_leader
+                tsf_officer
+            }
+	    }
+    }
+}

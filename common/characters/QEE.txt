@@ -1,0 +1,180 @@
+characters={
+    ###Country Leaders
+    QEE_East_European_Union_Board_sta={
+        name = "East European Union Board of Directors"
+        portraits={
+            civilian={
+                large="gfx/leaders/QEE/East European Union Board of Directors.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = stalinism
+            id=-1
+        }
+    }
+
+    QEE_East_European_Union_Board_des={
+        name = "East European Union Board of Directors"
+        portraits={
+            civilian={
+                large="gfx/leaders/QEE/East European Union Board of Directors.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = despotism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    QEE_Gretel_Jeckeln={
+	    name = "Gretel Jeckeln"
+            portraits={
+                army={
+                    large="gfx/leaders/QEE/Gretel Jeckeln.dds"
+                    small="gfx/leaders/QEE/small_Gretel Jeckeln.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 5
+            
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 5
+            logistics_skill = 4
+
+    		traits = { 
+                    career_officer
+                    harsh_leader
+                    inflexible_strategist
+                    commander_aptitude
+                    tsf_officer
+                    tsf_leader
+                    tsf_commander
+            }
+	    }
+    }
+
+    #Corps Commander
+    QEE_Anett_Hosenfeld={
+	    name = "Anett Hosenfeld"
+            portraits={
+                army={
+                    large="gfx/leaders/QEE/Anett Hosenfeld.dds"
+                    small="gfx/leaders/QEE/small_Anett Hosenfeld.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 6
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 1
+
+    		traits = { 
+                career_officer 
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+
+    QEE_Suzy_Tsab={
+	    name = "Suzy Tsab"
+            portraits={
+                army={
+                    large="gfx/leaders/QEE/Suzy Tsab.dds"
+                    small="gfx/leaders/QEE/small_Suzy Tsab.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                infantry_leader 
+                urban_assault_specialist
+            }
+	    }
+    }
+
+    ###need to rng up some names
+    QEE_Generic_1={
+	    name = "Generic 1"
+            portraits={
+                army={
+                    large="gfx/leaders/QEE/Generic 1.dds"
+                    small="gfx/leaders/QEE/small_Generic 1.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+
+    		traits = { 
+                tsf_officer
+            }
+	    }
+    }    
+
+    QEE_Generic_2={
+	    name = "Generic 2"
+            portraits={
+                army={
+                    large="gfx/leaders/QEE/Generic 2.dds"
+                    small="gfx/leaders/QEE/small_Generic 2.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 1
+
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+
+    		traits = { 
+                tsf_officer
+            }
+	    }
+    }       
+    
+    QEE_Generic_3={
+	    name = "Generic 3"
+            portraits={
+                army={
+                    large="gfx/leaders/QEE/Generic 3.dds"
+                    small="gfx/leaders/QEE/small_Generic 3.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+
+    		traits = { 
+                tsf_officer
+            }
+	    }
+    } 
+}

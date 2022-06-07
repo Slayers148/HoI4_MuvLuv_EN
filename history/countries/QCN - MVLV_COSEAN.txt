@@ -163,143 +163,17 @@ set_popularities = {
 	communism = 30
 }
 
-###各政体における指導者を定義###
-create_country_leader = {
-	name = "大東亜連合理事会"
-	desc = ""
-	picture = "GEL.dds"
-	expire = "2040.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
-	traits = {
-	}
-}
+###Country Leaders
+recruit_character = QCN_Coalition_Board_soc
+recruit_character = QCN_Coalition_Board_fas
+recruit_character = QCN_Coalition_Board_con
+recruit_character = QCN_Coalition_Board_mar
 
-create_country_leader = {
-	name = "大東亜連合理事会"
-	desc = ""
-	picture = "GEL.dds"
-	expire = "2040.3.1"
-	ideology = conservatism 
-	traits = {
-	}
-}
+###Field Marshals
+recruit_character = QCN_Jonathan_Joestin
+recruit_character = QCN_Kumi_Koda
 
-
-create_country_leader = {
-	name = "大東亜連合理事会"
-	desc = ""
-	picture = "GEL.dds"
-	expire = "2040.3.1"
-	ideology = marxism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "大東亜連合理事会"
-	desc = ""
-	picture = "GEL.dds"
-	expire = "2040.3.1"
-	ideology = fascism_ideology 
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "大東亜連合理事会"
-	desc = ""
-	picture = "GEL.dds"
-	expire = "2040.3.1"
-	ideology = moderatism
-	traits = {
-	}
-}
-
-###初期将軍及び元帥を定義###
-create_corps_commander = {
-	name = "ニイラム ラワムナンド"
-	picture = "26.dds"
-	traits = {  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_field_marshal = {
-	name = "ジョナサン ジョースティン"
-	picture = "mob.dds"
-	traits = { armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-
-create_field_marshal = {
-	name = "倖田來未"
-	picture = "kodakumi.dds"
-	traits = {
-		trickster
-		brilliant_strategist
-		commando
-		jungle_rat
-		ranger
-		adaptable
-		media_personality
-		organizer
-		tsf_officer
-		commander_aptitude
-		tsf_leader
-		tsf_commander
-	}
-	skill = 9
-	id = 602
-	attack_skill = 7
-	defense_skill = 7
-	planning_skill = 7
-	logistics_skill = 7
-}
-
-create_corps_commander = {
-	name = "タリサ マナンダル"
-	picture = "10.dds"
-	traits = {
-		brilliant_strategist
-		jungle_rat
-		tsf_officer
-		tsf_leader
-		trickster
-	}
-	skill = 6
-	attack_skill = 6
-	defense_skill = 6
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Douglas Gracey"
-	picture = "23.dds"
-	traits = { jungle_rat }
-	skill = 3
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-###初期提督を定義###
-create_navy_leader = {
-	name = "Herbert Fitzherbert"
-	picture = "25.dds"
-	traits = { old_guard_navy }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 1
-	coordination_skill = 2
-}
+###Corps Commanders
+recruit_character = QCN_Niram_Rawamunado
+recruit_character = QCN_Tarisa_Manandal
+recruit_character = QCN_Douglas_Gracey

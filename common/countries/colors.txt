@@ -63,55 +63,55 @@ D15 = {
 
 #modded
 
-MUS = {
+QUS = {
 	color = rgb { 67 123 237 }
 	color_ui = rgb { 87 160 255 }
 }
-MJP = {
+QJP = {
 	color = hsv { 0.05 0.3 1 }
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
-MSV = {
+QSV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }
 }
-MCN = {
+QCA = {
 	color = rgb { 101 56 93 }
 	color_ui = rgb { 125 73 111 }
 }
-MCH = {
+QCH = {
 	color = hsv { 0.18 0.6 0.9 } #255 244 190
 	color_ui = hsv { 0.18 0.3 0.9 }
 }
-GEU = {
+QCN = {
 	color = rgb { 171  190  152 }
 	color_ui = rgb { 185 200 160 }
 }
-SOA = {
+QSA = {
 	color = rgb { 76  145  63 }
 	color_ui = rgb { 85 155 71 }
 }
-CEA = {
+QCE = {
 	color = rgb { 197  92  106 }
 	color_ui = rgb { 215 102 118 }
 }
-EEA = {
+QEE = {
 	color = rgb { 255 120 71 }
 	color_ui = rgb { 265 130 81 }
 }
-EUR = {
+QEU = {
 	color = rgb {72  225  210 }
 	color_ui = rgb { 80 232 220 }
 }
-OCE = {
+QOC = {
 	color = rgb {203  99  232 }
 	color_ui = rgb {210  103  244 }
 }
-AFR = {
+QAF = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 166 140  205 }
 }
-UNG = {
+QUN = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
 }

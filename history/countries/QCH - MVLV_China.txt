@@ -168,3 +168,18 @@ set_popularities = { #初期支持率を定義
 	neutrality = 70
 	communism = 30
 }
+
+###Country Leaders
+recruit_character = QCH_Unified__Government_fas
+recruit_character = QCH_Unified__Government_des
+recruit_character = QCH_Unified__Government_soc
+recruit_character = QCH_National_People_Congress
+
+###Field Marshals
+recruit_character = QCH_Cui_Yifei
+
+###Corps Commanders
+recruit_character = QCH_Lee_Linmei
+recruit_character = QCH_Wang_Shaofeng
+recruit_character = QCH_Lou_Yahua
+recruit_character = QCH_Sun_Li_Jen

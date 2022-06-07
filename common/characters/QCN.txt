@@ -1,0 +1,189 @@
+characters={
+    ###Country Leaders
+    QCN_Coalition_Board_soc={
+        name = "Coalition Board of Directors"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCN/Coalition Board of Directors.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = socialism
+            id=-1
+        }
+    }
+
+    QCN_Coalition_Board_fas={
+        name = "Coalition Board of Directors"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCN/Coalition Board of Directors.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = fascism_ideology
+            id=-1
+        }
+    }
+
+    QCN_Coalition_Board_con={
+        name = "Coalition Board of Directors"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCN/Coalition Board of Directors.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = conservatism
+            id=-1
+        }
+    }
+
+    QCN_Coalition_Board_mar={
+        name = "Coalition Board of Directors"
+        portraits={
+            civilian={
+                large="gfx/leaders/QCN/Coalition Board of Directors.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = marxism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    QCN_Jonathan_Joestin={
+	    name = "Jonathan Joestin"
+            portraits={
+                army={
+                    large="gfx/leaders/QCN/Jonathan Joestin.dds"
+                    small="gfx/leaders/QCN/small_Jonathan Joestin.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 1
+
+    		traits = { 
+                armor_officer
+            }
+	    }
+    }
+
+    QCN_Kumi_Koda={
+	    name = "Kumi Koda"
+            portraits={
+                army={
+                    large="gfx/leaders/QCN/Kumi Koda.dds"
+                    small="gfx/leaders/QCN/small_Kumi Koda.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 9
+
+            attack_skill = 7
+            defense_skill = 7
+            planning_skill = 7
+            logistics_skill = 7
+
+    		traits = { 
+                trickster
+                brilliant_strategist
+                commando
+                jungle_rat
+                ranger
+                adaptable
+                media_personality
+                organizer
+                tsf_officer
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+
+    ###Corps Commanders
+    QCN_Niram_Rawamunado={
+	    name = "Niram Rawamunado"
+            portraits={
+                army={
+                    large="gfx/leaders/QCN/Niram Rawamunado.dds"
+                    small="gfx/leaders/QCN/small_Niram Rawamunado.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 4
+
+    		traits = { 
+            }
+	    }
+    }
+
+    QCN_Tarisa_Manandal={
+	    name = "Tarisa Manandal"
+            portraits={
+                army={
+                    large="gfx/leaders/QCN/Tarisa Manandal.dds"
+                    small="gfx/leaders/QCN/small_Tarisa Manandal.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 6
+
+            attack_skill = 6
+            defense_skill = 6
+            planning_skill = 4
+            logistics_skill = 3
+
+    		traits = { 
+                brilliant_strategist
+                jungle_rat
+                tsf_officer
+                tsf_leader
+                trickster
+            }
+	    }
+    }
+
+    QCN_Douglas_Gracey={
+	    name = "Douglas Gracey"
+            portraits={
+                army={
+                    large="gfx/leaders/QCN/Douglas Gracey.dds"
+                    small="gfx/leaders/QCN/small_Douglas Gracey.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                jungle_rat
+            }
+	    }
+    }
+}

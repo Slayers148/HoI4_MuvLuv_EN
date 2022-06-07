@@ -92,31 +92,31 @@
 	add_offsite_building = { type = industrial_complex level = 170 }
 	add_offsite_building = { type = dockyard level = 10 }
 
-	###Country Leaders
-	recruit_character = QUN_security_council_dem
-	recruit_character = QUN_security_council_fas
-	recruit_character = QUN_security_council_com
+###Country Leaders
+recruit_character = QUN_security_council_dem
+recruit_character = QUN_security_council_fas
+recruit_character = QUN_security_council_com
 
-	###Field Marshalls
-	recruit_character = QUN_Paul_Radhabinod
-	recruit_character = QUN_Kouzuki_Yuuko
-	recruit_character = QUN_Suzumiya_Haruka
+###Field Marshalls
+recruit_character = QUN_Paul_Radhabinod
+recruit_character = QUN_Kouzuki_Yuuko
+recruit_character = QUN_Suzumiya_Haruka
 
-	###Corps Commanders
-	recruit_character = QUN_Michiru_Isumi
-	recruit_character = QUN_Hayase_Suzuki
-	recruit_character = QUN_Munakata_Misae
-	recruit_character = QUN_Kazama_Touko
-	recruit_character = QUN_Ellen_Aice
-	recruit_character = QUN_Josset_Danbellecoux
-	recruit_character = QUN_Yashiro_Kasumi
-	recruit_character = QUN_Suzumiya_Akane
-	recruit_character = QUN_Kashiwagi_Haruko
-	recruit_character = QUN_Rebecca_Lint
-	recruit_character = QUN_Olson
-	recruit_character = QUN_Jinguuji_Marimo
-	recruit_character = QUN_Kouzuki_Motoko
-	recruit_character = QUN_Henri_Gietzen
+###Corps Commanders
+recruit_character = QUN_Michiru_Isumi
+recruit_character = QUN_Hayase_Suzuki
+recruit_character = QUN_Munakata_Misae
+recruit_character = QUN_Kazama_Touko
+recruit_character = QUN_Ellen_Aice
+recruit_character = QUN_Josset_Danbellecoux
+recruit_character = QUN_Yashiro_Kasumi
+recruit_character = QUN_Suzumiya_Akane
+recruit_character = QUN_Kashiwagi_Haruko
+recruit_character = QUN_Rebecca_Lint
+recruit_character = QUN_Olson
+recruit_character = QUN_Jinguuji_Marimo
+recruit_character = QUN_Kouzuki_Motoko
+recruit_character = QUN_Henri_Gietzen
 
 	###
 

@@ -137,3 +137,6 @@ set_politics = { #初期政体を定義
 set_popularities = { #初期支持率を定義
 	democratic = 100
 }
+
+###Country Leaders
+recruit_character = QCE_Carlos_Salinas

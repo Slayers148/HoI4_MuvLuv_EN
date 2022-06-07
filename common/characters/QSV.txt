@@ -1,0 +1,303 @@
+characters={
+    ###Country Leaders
+    QSV_Communist_Party={
+        name = "Communist Party"
+        portraits={
+            civilian={
+                large="gfx/leaders/QSV/Communist Party.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = stalinism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    QSV_Alexander_Litvinenko={
+	    name = "Alexander Litvinenko"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Alexander Litvinenko.dds"
+                    small="gfx/leaders/QSV/small_Alexander Litvinenko.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 8
+
+            attack_skill = 6
+            defense_skill = 7
+            planning_skill = 7
+            logistics_skill = 5
+
+    		traits = { 
+                offensive_doctrine
+                brilliant_strategist
+                career_officer
+                infantry_officer
+                trait_reckless
+            }
+	    }
+    }
+
+    ###Corps Commanders
+    QSV_Fikatsia_Latrova={
+	    name = "Fikatsia Latrova"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Fikatsia Latrova.dds"
+                    small="gfx/leaders/QSV/small_Fikatsia Latrova.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 6
+
+            attack_skill = 6
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 5
+
+    		traits = { 
+                brilliant_strategist
+                winter_specialist
+                armor_officer
+                commander_aptitude
+                tsf_officer
+                media_personality
+                war_hero
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+
+    QSV_Cryska_Barchenowa={
+	    name = "Cryska Barchenowa"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Cryska Barchenowa.dds"
+                    small="gfx/leaders/QSV/small_Cryska Barchenowa.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 2
+
+    		traits = { 
+                tsf_officer
+                trait_cautious
+                brilliant_strategist
+                tsf_leader
+            }
+	    }
+    }
+
+    QSV_Martica_Barchenowa={
+	    name = "Martica Barchenowa"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Martica Barchenowa.dds"
+                    small="gfx/leaders/QSV/small_Martica Barchenowa.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+
+    		traits = { 
+                tsf_officer
+                politically_connected
+                tsf_leader
+            }
+	    }
+    }
+
+    QSV_Inia_Sestina={
+	    name = "Inia Sestina"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Inia Sestina.dds"
+                    small="gfx/leaders/QSV/small_Inia Sestina.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                trickster
+                trait_cautious
+                career_officer
+                true_genius
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+
+    QSV_Nastassja_Ivanova={
+	    name = "Nastassja Ivanova"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Nastassja Ivanova.dds"
+                    small="gfx/leaders/QSV/small_Nastassja Ivanova.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 1
+
+    		traits = { 
+                tsf_officer
+                tsf_leader
+                trait_reckless
+            }
+	    }
+    }
+
+    QSV_Tonya_Upenskona={
+	    name = "Tonya Upenskona"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Tonya Upenskona.dds"
+                    small="gfx/leaders/QSV/small_Tonya Upenskona.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+
+    		traits = { 
+                tsf_officer
+                trait_reckless
+            }
+	    }
+    }
+
+    QSV_Gnessin={
+	    name = "Gnessin"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Gnessin.dds"
+                    small="gfx/leaders/QSV/small_Gnessin.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 2
+
+    		traits = { 
+                brilliant_strategist
+                trait_cautious
+                trait_reckless
+            }
+	    }
+    }
+
+    QSV_Budimir_Rogovski={
+	    name = "Budimir Rogovski"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Budimir Rogovski.dds"
+                    small="gfx/leaders/QSV/small_Budimir Rogovski.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+
+    		traits = { 
+            }
+	    }
+    }
+
+    QSV_Igor_Belyayev={
+	    name = "Igor Belyayev"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Igor Belyayev.dds"
+                    small="gfx/leaders/QSV/small_Igor Belyayev.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                politically_connected
+            }
+	    }
+    }
+
+    QSV_Jerzy_Sandek={
+	    name = "Jerzy Sandek"
+            portraits={
+                army={
+                    large="gfx/leaders/QSV/Jerzy Sandek.dds"
+                    small="gfx/leaders/QSV/small_Jerzy Sandek.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 5
+
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 5
+            logistics_skill = 3
+
+    		traits = { 
+                old_guard
+                politically_connected
+                inflexible_strategist
+                commander_aptitude
+                tsf_officer
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+}

@@ -153,3 +153,16 @@ set_popularities = { #初期支持率を定義
 	fascism = 1
 	communism = 1
 }
+
+###Country Leaders
+recruit_character = QCA_Jean_Chretien
+recruit_character = QCA_Adrien_Arcand
+recruit_character = QCA_Tim_Buck
+recruit_character = QCA_Woodsworth
+
+###Field Marshal
+recruit_character = QCA_Charles_Foulkes
+
+###Corps Commanders
+recruit_character = QCA_Derek_Ironside
+recruit_character = QCA_Sara_Fontaine

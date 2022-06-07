@@ -224,102 +224,16 @@ set_popularities = { #初期支持率を定義
 	communism = 88
 }
 
-###各政体における指導者を定義###
-create_country_leader = {
-	name = "東欧州連合理事会"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "DDR.dds"
-	expire = "2040.1.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
+###Country Leaders
+recruit_character = QEE_East_European_Union_Board_sta
+recruit_character = QEE_East_European_Union_Board_des
 
-create_country_leader = {
-	name = "東欧州連合理事会"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "DDR.dds"
-	expire = "2040.1.1"
-	ideology = despotism
-	traits = {
+###Field Marshals
+recruit_character = QEE_Gretel_Jeckeln
 
-	}
-}
-
-###初期将軍及び元帥を定義###
-create_field_marshal = {
-	name = "グレーテル イェッケルン"
-	picture = "EEA2.dds"
-	traits = {
-		career_officer
-		harsh_leader
-		inflexible_strategist
-		commander_aptitude
-		tsf_officer
-		tsf_leader
-		tsf_commander
-	}
-	skill = 5
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 5
-	logistics_skill = 4
-}
-create_corps_commander = {
-	name = "アネット ホーゼンフェルト"
-	picture = "EEA1.dds"
-	traits = {
-		career_officer 
-		tsf_officer
-		tsf_leader
-	}
-	skill = 4
-	attack_skill = 6
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "ズーズィ ツァプ"
-	picture = "EEA3.dds"
-	traits = { infantry_leader urban_assault_specialist }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-create_corps_commander = {
-	name = "衛士1"
-	picture = "28.dds"
-	traits = { tsf_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "衛士2"
-	picture = "59.dds"
-	traits = { tsf_officer }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "衛士3"
-	picture = "60.dds"
-	traits = { tsf_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-###初期提督を定義###
-
+###Corps Commanders
+recruit_character = QEE_Anett_Hosenfeld
+recruit_character = QEE_Suzy_Tsab
+recruit_character = QEE_Generic_1
+recruit_character = QEE_Generic_2
+recruit_character = QEE_Generic_3

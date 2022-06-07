@@ -1,0 +1,666 @@
+characters={
+    ###Country Leaders
+    QJP_Koubuin_Yuuhi={
+        name = "Koubuin Yuuhi"
+        portraits={
+            civilian={
+                large="gfx/leaders/QJP/Shogun Koubuin Yuuhi.dds"
+            }                
+            army={
+                large="gfx/leaders/QJP/Gensui Koubuin Yuuhi.dds"
+                small="gfx/leaders/QJP/small_Gensui Koubuin Yuuhi.dds"
+            }
+        }
+
+        country_leader={
+            expire = "2040.1.1"
+            ideology = fascism_ideology
+            id=-1
+            desc = POLITICS_QJP_koubuin_yuuhi_DESC
+            traits = {
+                warrior_code
+                emperor_showa
+            }
+        }
+
+        field_marshal={
+            skill = 4
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 5
+            logistics_skill = 4
+
+    		traits = { 
+                QJP_samurai_lineage
+                politically_connected
+                media_personality
+                tsf_officer
+                true_genius
+            }
+	    }    
+    }
+
+    QJP_Koubuin_Yuuhi_mar={
+        name = "Koubuin Yuuhi"
+        portraits={
+            civilian={
+                large="gfx/leaders/QJP/Koubuin Yuuhi.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = marxism
+            id=-1
+            desc = POLITICS_QJP_koubuin_yuuhi_DESC
+            traits = {
+                warrior_code
+                emperor_showa
+            }
+        }
+    }
+
+    QJP_Koubuin_Yuuhi_lib={
+        name = "Koubuin Yuuhi"
+        portraits={
+            civilian={
+                large="gfx/leaders/QJP/Koubuin Yuuhi.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = liberalism
+            id=-1
+            desc = POLITICS_QJP_koubuin_yuuhi_DESC
+            traits = {
+                warrior_code
+                emperor_showa
+            }
+        }
+    }
+
+    ###Field Marshall
+    QJP_Ikaruga_Takatsugu={
+	    name = "Ikaruga Takatsugu"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Ikaruga Takatsugu.dds"
+                    small="gfx/leaders/QJP/small_Ikaruga Takatsugu.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 8
+
+            attack_skill = 7
+            defense_skill = 6
+            planning_skill = 7
+            logistics_skill = 5
+
+    		traits = { 
+                QJP_samurai_lineage
+                politically_connected
+                tsf_officer
+                brilliant_strategist
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+                offensive_doctrine
+                inspirational_leader
+            }
+	    }
+    }
+
+    QJP_Sagiri_Naoya={
+	    name = "Sagiri Naoya"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Sagiri Naoya.dds"
+                    small="gfx/leaders/QJP/small_Sagiri Naoya.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 6
+
+            attack_skill = 8
+            defense_skill = 5
+            planning_skill = 2
+            logistics_skill = 4
+
+    		traits = { 
+                inflexible_strategist
+                offensive_doctrine
+                defensive_doctrine
+                tsf_officer
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+
+    QJP_Iwaya_Eiji={
+	    name = "Iwaya Eiji"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Iwaya Eiji.dds"
+                    small="gfx/leaders/QJP/small_Iwaya Eiji.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 4
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 5
+            logistics_skill = 3
+
+    		traits = { 
+                career_officer
+            }
+	    }
+    }
+
+    ###Corps Commanders
+    QJP_Takamura_Yui={
+	    name = "Takamura Yui"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Takamura Yui.dds"
+                    small="gfx/leaders/QJP/small_Takamura Yui.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 5
+       
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 3
+            logistics_skill = 4
+
+    		traits = { 
+                QJP_samurai_lineage
+                tsf_officer
+                commander_aptitude
+                brilliant_strategist
+                politically_connected
+                tsf_leader
+                tsf_commander
+                trickster
+                trait_engineer
+            }
+	    }
+    }
+
+    QJP_Tsukuyomi_Mana={
+	    name = "Tsukuyomi Mana"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Tsukuyomi Mana.dds"
+                    small="gfx/leaders/QJP/small_Tsukuyomi Mana.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 6
+       
+            attack_skill = 6
+            defense_skill = 4
+            planning_skill = 5
+            logistics_skill = 4
+
+    		traits = { 
+                QJP_samurai_lineage
+                tsf_officer
+                brilliant_strategist
+                harsh_leader
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+
+    QJP_Kamiyo_Tatsumi={
+	    name = "Kamiyo Tatsumi"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Kamiyo Tatsumi.dds"
+                    small="gfx/leaders/QJP/small_Kamiyo Tatsumi.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3 
+
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                QJP_samurai_lineage
+                ambusher
+                tsf_officer
+            }
+	    }
+    }    
+
+    QJP_Tomoe_Yukino={
+	    name = "Tomoe Yukino"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Tomoe Yukino.dds"
+                    small="gfx/leaders/QJP/small_Tomoe Yukino.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3
+
+    		traits = { 
+                QJP_samurai_lineage
+                trickster
+                tsf_officer
+            }
+	    }
+    }    
+
+    QJP_Ebisu_Minagi={
+	    name = "Ebisu Minagi"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Ebisu Minagi.dds"
+                    small="gfx/leaders/QJP/small_Ebisu Minagi.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 1
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 3
+
+    		traits = { 
+                QJP_samurai_lineage
+                trait_reckless
+                tsf_officer
+            }
+	    }
+    } 
+
+    QJP_Makabe_Seijyurou={
+	    name = "Makabe Seijyurou"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Makabe Seijyurou.dds"
+                    small="gfx/leaders/QJP/small_Makabe Seijyurou.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                QJP_samurai_lineage
+                brilliant_strategist
+                inflexible_strategist
+                tsf_officer
+                commander_aptitude
+                trickster
+            }
+	    }
+    } 
+
+    QJP_Komaki_Sayoko={
+	    name = "Komaki Sayoko"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Komaki Sayoko.dds"
+                    small="gfx/leaders/QJP/small_Komaki Sayoko.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                career_officer
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    } 
+
+    QJP_Tatsunami_Hibiki={
+	    name = "Tatsunami Hibiki"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Tatsunami Hibiki.dds"
+                    small="gfx/leaders/QJP/small_Tatsunami Hibiki.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3 
+
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 1
+
+    		traits = { 
+                commando
+                commander_aptitude
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    } 
+
+    QJP_Sendou_Yuzuka={
+	    name = "Sendou Yuzuka"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Sendou Yuzuka.dds"
+                    small="gfx/leaders/QJP/small_Sendou Yuzuka.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 1
+
+    		traits = { 
+                inflexible_strategist
+                trait_reckless
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    } 
+
+    QJP_Isumi_Marika={
+	    name = "Isumi Marika"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Isumi Marika.dds"
+                    small="gfx/leaders/QJP/small_Isumi Marika.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                career_officer
+                tsf_officer
+            }
+	    }
+    } 
+
+    QJP_Isumi_Akira={
+	    name = "Isumi Akira"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Isumi Akira.dds"
+                    small="gfx/leaders/QJP/small_Isumi Akira.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2 
+
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 1
+
+    		traits = { 
+                career_officer
+                tsf_officer
+            }
+	    }
+    } 
+
+    QJP_Amemiya_Mariko={
+	    name = "Amemiya Mariko"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Amemiya Mariko.dds"
+                    small="gfx/leaders/QJP/small_Amemiya Mariko.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 4
+
+    		traits = { 
+                QJP_samurai_lineage
+                old_guard
+                trait_reckless
+                tsf_officer
+            }
+	    }
+    } 
+
+    QJP_Takatsukasa_Kyoko={
+	    name = "Takatsukasa Kyoko"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Takatsukasa Kyoko.dds"
+                    small="gfx/leaders/QJP/small_Takatsukasa Kyoko.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 7
+
+            attack_skill = 6
+            defense_skill = 7
+            planning_skill = 5
+            logistics_skill = 4
+
+    		traits = { 
+                QJP_samurai_lineage
+                old_guard
+                politically_connected
+                war_hero
+                tsf_officer
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    } 
+
+    QJP_Minori_Asagi={
+	    name = "Minori Asagi"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Minori Asagi.dds"
+                    small="gfx/leaders/QJP/small_Minori Asagi.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 3
+
+    		traits = { 
+                trait_cautious
+                politically_connected
+                tsf_officer
+            }
+	    }
+    } 
+
+    QJP_Tsukuyomi_Maya={
+	    name = "Tsukuyomi Maya"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Tsukuyomi Maya.dds"
+                    small="gfx/leaders/QJP/small_Tsukuyomi Maya.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 6
+
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 6
+            logistics_skill = 4
+
+    		traits = { 
+                QJP_samurai_lineage
+                tsf_officer
+                inflexible_strategist
+                commander_aptitude
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    } 
+
+    QJP_Ogami_Ritsuko={
+	    name = "Ogami Ritsuko"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Ogami Ritsuko.dds"
+                    small="gfx/leaders/QJP/small_Ogami Ritsuko.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 2
+
+    		traits = { 
+                tsf_officer
+                trickster
+                urban_assault_specialist
+                ranger
+                adaptable
+                tsf_leader
+            }
+	    }
+    } 
+
+    QJP_Miono_Shizuku={
+	    name = "Miono Shizuku"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Miono Shizuku.dds"
+                    small="gfx/leaders/QJP/small_Miono Shizuku.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                tsf_officer
+                trait_cautious
+            }
+	    }
+    } 
+
+    QJP_Kusumoto_Sayaka={
+	    name = "Kusumoto Sayaka"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Kusumoto Sayaka.dds"
+                    small="gfx/leaders/QJP/small_Kusumoto Sayaka.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                trait_engineer
+                fortress_buster
+                career_officer
+                politically_connected
+            }
+	    }
+    } 
+
+    QJP_Matsukaze_Ryouichi={
+	    name = "Matsukaze Ryouichi"
+            portraits={
+                army={
+                    large="gfx/leaders/QJP/Matsukaze Ryouichi.dds"
+                    small="gfx/leaders/QJP/small_Matsukaze Ryouichi.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+
+    		traits = { 
+                career_officer
+                trait_cautious
+                tsf_officer
+            }
+	    }
+    }
+}

@@ -1,6 +1,6 @@
 characters={
     ###Country Leaders
-    QCA_Jean Chretien={
+    QCA_Jean_Chretien={
         name = "Jean Chretien"
         portraits={
             civilian={

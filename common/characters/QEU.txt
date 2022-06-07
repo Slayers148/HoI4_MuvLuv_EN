@@ -1,0 +1,445 @@
+characters={
+    ###Country Leaders
+    QEU_European_Council_fas={
+        name = "European Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/QEU/European Council.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = fascism_ideology
+            id=-1
+        }
+    }
+
+    QEU_European_Council_mar={
+        name = "European Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/QEU/European Council.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = marxism
+            id=-1
+        }
+    }
+
+    QEU_European_Council_con={
+        name = "European Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/QEU/European Council.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = conservatism
+            id=-1
+        }
+    }
+
+    QEU_European_Council_lib={
+        name = "European Council"
+        portraits={
+            civilian={
+                large="gfx/leaders/QEU/European Council.dds"
+            }
+        }
+        country_leader={
+            expire = "2040.1.1"
+            ideology = liberalism
+            id=-1
+        }
+    }
+
+    ###Field Marshall
+    QEU_Wilfried_Aichberger={
+	    name = "Wilfried von Aichberger"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Wilfried von Aichberger.dds"
+                    small="gfx/leaders/QEU/small_Wilfried von Aichberger.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 7
+
+            attack_skill = 6
+            defense_skill = 6
+            planning_skill = 6
+            logistics_skill = 4
+
+    		traits = { 
+                media_personality
+                brilliant_strategist
+                inflexible_strategist
+                war_hero
+                career_officer
+                trait_cautious	
+                tsf_officer
+                commander_aptitude
+                MVLV_TEF_lineage
+                
+                tsf_leader
+                tsf_commander
+                offensive_doctrine
+                expert_delegator
+            }
+	    }
+    }
+
+    QEU_Sigelinde_Fahrenhorst={
+	    name = "Sigelinde von Fahrenhorst"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Sigelinde von Fahrenhorst.dds"
+                    small="gfx/leaders/QEU/small_Sigelinde von Fahrenhorst.dds"
+                }
+            }
+
+        field_marshal = {
+            skill = 6
+
+            attack_skill = 4
+            defense_skill = 5
+            planning_skill = 5
+            logistics_skill = 5
+
+    		traits = { 
+                inflexible_strategist
+                war_hero
+                career_officer
+                trait_cautious	
+                tsf_officer
+                commander_aptitude
+                MVLV_TEF_lineage
+                
+                tsf_leader
+                tsf_commander
+                defensive_doctrine
+                thorough_planner
+            }
+	    }
+    }
+
+    ###Corps Commander
+    QEU_Gerhard_Ralerstein={
+	    name = "Gerhard von Ralerstein"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Gerhard von Ralerstein.dds"
+                    small="gfx/leaders/QEU/small_Gerhard von Ralerstein.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 5
+
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 4
+
+    		traits = { 
+                MVLV_TEF_lineage
+                war_hero
+                true_genius
+                commander_aptitude
+                tsf_officer
+                tsf_leader
+                tsf_commander
+                trickster
+            }
+	    }
+    }
+
+    QEU_Brigitte_Wasternach={
+	    name = "Brigitte von Wasternach"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Brigitte von Wasternach.dds"
+                    small="gfx/leaders/QEU/small_Brigitte von Wasternach.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 2
+
+    		traits = { 
+                MVLV_TEF_lineage
+                career_officer
+                harsh_leader
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+
+    QEU_Bernadette_Riviere={
+	    name = "Bernadette Le Tigre De La Riviere"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Bernadette Le Tigre De La Riviere.dds"
+                    small="gfx/leaders/QEU/small_Bernadette Le Tigre De La Riviere.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4 
+
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 4
+
+    		traits = { 
+                media_personality
+                brilliant_strategist
+                harsh_leader
+                organizer
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }            
+
+    QEU_Ilfriede_Feulner={
+	    name = "Ilfriede von Feulner"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Ilfriede von Feulner.dds"
+                    small="gfx/leaders/QEU/small_Ilfriede von Feulner.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+
+    		traits = { 
+                inflexible_strategist
+                MVLV_TEF_lineage
+                trait_reckless
+                tsf_officer
+                trickster
+            }
+	    }
+    }  
+
+    QEU_Lunateresia_Witzleben={
+	    name = "Lunateresia von Witzleben"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Lunateresia von Witzleben.dds"
+                    small="gfx/leaders/QEU/small_Lunateresia von Witzleben.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+
+    		traits = { 
+                inflexible_strategist
+                MVLV_TEF_lineage
+                trait_cautious
+                tsf_officer
+                trait_engineer
+            }
+	    }
+    } 
+
+    QEU_Helga_Falkenmayer={
+	    name = "Helga-Rose von Falkenmayer"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/HelgaRose von Falkenmayer.dds"
+                    small="gfx/leaders/QEU/small_HelgaRose von Falkenmayer.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+
+    		traits = { 
+                brilliant_strategist
+                MVLV_TEF_lineage
+                trait_cautious
+                tsf_officer
+                commando
+            }
+	    }
+    } 
+
+    QEU_Stella_Bremer={
+	    name = "Stella Bremer"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Stella Bremer.dds"
+                    small="gfx/leaders/QEU/small_Stella Bremer.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 2
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 3
+
+    		traits = { 
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    } 
+
+    QEU_Monica_Giacosa={
+	    name = "Monica Giacosa"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Monica Giacosa.dds"
+                    small="gfx/leaders/QEU/small_Monica Giacosa.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+
+    QEU_Valerio_Giacosa={
+	    name = "Valerio Giacosa"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Valerio Giacosa.dds"
+                    small="gfx/leaders/QEU/small_Valerio Giacosa.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 4
+
+    		traits = { 
+                tsf_officer
+                tsf_leader
+            }
+	    }
+    }
+    
+    QEU_Wolfgang_Brauer={
+	    name = "Wolfgang von Brauer"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Wolfgang von Brauer.dds"
+                    small="gfx/leaders/QEU/small_Wolfgang von Brauer.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 2
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+
+    		traits = { 
+                MVLV_TEF_lineage
+                tsf_officer
+                trait_reckless
+            }
+	    }
+    }
+
+    QEU_Lea_Gegranne={
+	    name = "Lea Gegranne"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Lea Gegranne.dds"
+                    small="gfx/leaders/QEU/small_Lea Gegranne.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 4
+
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+
+    		traits = { 
+                commander_aptitude
+                tsf_officer
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+
+    QEU_Hugh_Winston={
+	    name = "Hugh Winston"
+            portraits={
+                army={
+                    large="gfx/leaders/QEU/Hugh Winston.dds"
+                    small="gfx/leaders/QEU/small_Hugh Winston.dds"
+                }
+            }
+
+        corps_commander = {
+            skill = 3
+
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+
+    		traits = { 
+                commander_aptitude
+                tsf_officer
+                tsf_leader
+                tsf_commander
+            }
+	    }
+    }
+}

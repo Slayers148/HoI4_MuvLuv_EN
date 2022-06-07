@@ -1,16 +1,18 @@
 characters={
     ###Country Leaders
-    QCE_Carlos_Salinas={
-        name = "Carlos Salinas"
+    QOC_John_Howard={
+        name = "John Howard"
         portraits={
             civilian={
-                large="gfx/leaders/QCE/Carlos Salinas.dds"
+                large="gfx/leaders/QOC/John Howard.dds"
             }
         }
         country_leader={
             expire = "2040.1.1"
-            ideology = liberalism
+            ideology = socialism
             id=-1
         }
     }
+
+    ###Corps Commanders
 }
